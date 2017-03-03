@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+     Copyright (C) 2017 The madOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Smartwake -->
+    <string name="smartwake_settings_title">Despertar Inteligente</string>
+    <string name="smartwake_settings_category">Despertar Inteligente</string>
+    <string name="smartwake_support_gestures">Gestos suportados</string>
+    <string name="smartwake_settings_u_title">Duplo clique no ecrã para acordar</string>
+    <string name="smartwake_settings_up_title">Deslizar para cima para acordar </string>
+    <string name="smartwake_settings_down_title">Deslizar p/ baixo,pausar música</string>
+    <string name="smartwake_settings_right_title">Deslizar p/ direita,proxima música</string>
+    <string name="smartwake_settings_left_title">Deslizar p/ esquerda,música anterior</string>
+    <string name="smartwake_settings_c_title">Desenhar c p/ acordar</string>
+    <string name="smartwake_settings_w_title">Desenhar w p/ acordar</string>
+    <string name="smartwake_settings_e_title">Desenhar e p/ acordar</string>
+    <string name="smartwake_settings_o_title">Desenhar o p/ acordar</string>
+    <string name="smartwake_settings_m_title">Desenhar m p/ acordar</string>
+    <string name="smartwake_settings_select_app_title">Seleccione a aplicação</string>
+    <string name="smartwake_settings_hint_search_app">Pesquisar Aplicação</string>
+
+    <!-- > App Ops -->
+    <!-- [CHAR LIMIT=NONE] App ops settings title, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
+    <string name="app_ops_settings">App ops</string>
+    <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
+    <string name="app_ops_settings_summary">Ver ou mudar permissões das aplicações</string>
+</resources>

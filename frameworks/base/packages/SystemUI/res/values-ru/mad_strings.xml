@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2017 The madOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Reboot/Reboot Recovery QS Tile -->
+    <string name="quick_settings_reboot_label">Перезагрузка</string>
+    <string name="quick_settings_reboot_recovery_label">Recovery</string>
+
+    <string name="switch_bar_auto">Авто</string>
+
+    <!-- Quick Settings tiles -->
+    <string name="quick_settings_screenshot_label">Скриншот</string>
+    <string name="quick_settings_region_screenshot_label">Частичный скриншот</string>
+    <string name="quick_settings_sync_label">Синхр.</string>
+    <string name="accessibility_quick_settings_sync_off">Выкл. синхр.</string>
+    <string name="accessibility_quick_settings_sync_on">Вкл. синхр.</string>
+    <string name="accessibility_quick_settings_sync_changed_off">Синхронизация выключена</string>
+    <string name="accessibility_quick_settings_sync_changed_on">Синхронизация включена</string>
+    <string name="quick_settings_music_label">Музыка</string>
+    <string name="quick_settings_music_play">Play</string>
+    <string name="quick_settings_music_pause">Pause</string>
+    <string name="quick_settings_caffeine_label">Caffeine</string>
+    <string name="accessibility_quick_settings_caffeine_off">Caffeine выкл.</string>
+    <string name="accessibility_quick_settings_caffeine_on">Caffeine вкл.</string>
+
+    <!-- Screen pinning dialog description (for devices without navbar) -->
+    <string name="screen_pinning_description_no_navbar">Будет держать на виду пока Вы не открепите. Зажмите держите кнопку Назад для открепления.</string>
+
+    <!-- NavBar Tuner -->
+    <string name="menu_ime_always_show">Меню/Переключатель клавиатуры (всегда показывать)</string>
+    <string name="search">Поиск</string>
+
+    <!-- Dialog title for navigation bar button selection -->
+    <string name="navbar_dialog_title">Выберите действие</string>
+    <string name="navbar_home_button">Кнопка Домой</string>
+    <string name="navbar_recent_button">Кнопка Недавние</string>
+    <string name="navbar_search_button">Кнопка Поиск</string>
+    <string name="navbar_back_button">Кнопка Назад</string>
+    <string name="navbar_empty_button">Пустая кнопка</string>
+    <string name="navbar_menu_conditional_button">Кнопка (автоскрытие) Меню</string>
+    <string name="navbar_menu_always_button">Кнопка (всегда видима) Меню</string>
+    <string name="navbar_menu_big_button">Кнопка Меню</string>
+    <string name="navbar_power_button">Кнопка питания</string>
+    <string name="navbar_notifications_button">Кнопка уведомлений</string>
+    <string name="navbar_torch">Фонарик</string>
+    <string name="navbar_screenshot">Скриншот</string>
+
+    <!-- Content description of the power button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_power">Питание</string>
+    <string name="accessibility_notifications">Уведомления</string>
+    <string name="accessibility_dpad_left">Курсор влево</string>
+    <string name="accessibility_dpad_right">Курсор вправо</string>
+    <string name="accessibility_torch">Фонарик</string>
+    <string name="accessibility_screenshot">Скриншот</string>
+
+    <string name="app_killed_message">Приложение убито</string>
+
+</resources>
