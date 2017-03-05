@@ -19,7 +19,7 @@
     <string name="quick_settings_reboot_label">Neustart</string>
 
     <!-- Quick Settings tiles -->
-    <string name="quick_settings_screenshot_label">Bildschrimfoto</string>
+    <string name="quick_settings_screenshot_label">Bildschirmfoto</string>
     <string name="quick_settings_sync_label">Sync</string>
     <string name="accessibility_quick_settings_sync_off">Sync aus</string>
     <string name="accessibility_quick_settings_sync_on">Sync an</string>
@@ -33,5 +33,5 @@
     <string name="accessibility_quick_settings_caffeine_on">Caffeine an</string>
 
     <!-- Screen pinning dialog description (for devices without navbar) -->
-    <string name="screen_pinning_description_no_navbar">Bleibt im vordergrund bis Ansicht durch Drücken und Halten von ZURÜCK verlassen wird.</string>
+    <string name="screen_pinning_description_no_navbar">Bleibt im Vordergrund bis Ansicht durch Drücken und Halten von ZURÜCK verlassen wird.</string>
 </resources>
