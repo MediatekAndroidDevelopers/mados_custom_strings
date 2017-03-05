@@ -15,9 +15,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="permlab_preventpower">override power key</string>
+    <string name="permlab_preventpower">Power-Taste ändern</string>
     <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-    <string name="permdesc_preventpower">Allows an app to override the power key.</string>
+    <string name="permdesc_preventpower">Erlaubt Apps die Power-Taste zu ändern.</string>
 
     <!-- Button to reboot the phone in reboot menu -->
     <string name="reboot_reboot">Neustart</string>

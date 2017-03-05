@@ -45,7 +45,7 @@
     <string name="default_time">Normal</string>
     <string name="custom_time">Benutzerdefiniert</string>
     <string name="dialog_delete_title">Löschen</string>
-    <string name="dialog_delete_message">Ausgewähltes element löschen?</string>
+    <string name="dialog_delete_message">Ausgewähltes Element löschen?</string>
 
     <!-- Values for the notification light pulse spinners -->
     <string name="pulse_length_always_on">Immer an</string>
@@ -184,7 +184,7 @@
     <string name="set_success_message">Angewendet</string>
     <string name="set_ok_text">OK</string>
     <string name="set_fail_title">Fehlgeschlagen</string>
-    <string name="set_fail_message">Anwenden fehlgeschalgen</string>
+    <string name="set_fail_message">Anwenden fehlgeschlagen</string>
     <string name="set_fail_text">Schließen</string>
     <string name="reset_title">Zurücksetzen</string>
     <string name="reset_message">Auf Standard zurücksetzen?</string>
