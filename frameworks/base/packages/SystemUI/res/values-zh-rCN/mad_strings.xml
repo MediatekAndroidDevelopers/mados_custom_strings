@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2017 The madOS Project
+	 
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+	 
+          http://www.apache.org/licenses/LICENSE-2.0
+		  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Reboot/Reboot Recovery QS Tile -->
+    <string name="quick_settings_reboot_label">重启</string>
+    <string name="quick_settings_reboot_recovery_label">Recovery</string>
+
+    <string name="switch_bar_auto">自动</string>
+
+    <!-- Quick Settings tiles -->
+    <string name="quick_settings_screenshot_label">截屏</string>
+    <string name="quick_settings_region_screenshot_label">局部截屏</string>
+    <string name="quick_settings_sync_label">同步</string>
+    <string name="accessibility_quick_settings_sync_off">关闭同步</string>
+    <string name="accessibility_quick_settings_sync_on">开启同步</string>
+    <string name="accessibility_quick_settings_sync_changed_off">同步已关闭</string>
+    <string name="accessibility_quick_settings_sync_changed_on">同步已开启</string>
+    <string name="quick_settings_music_label">音乐</string>
+    <string name="quick_settings_music_play">播放</string>
+    <string name="quick_settings_music_pause">暂停</string>
+    <string name="quick_settings_caffeine_label">咖啡因</string>
+    <string name="accessibility_quick_settings_caffeine_off">关闭咖啡因</string>
+    <string name="accessibility_quick_settings_caffeine_on">开启咖啡因</string>
+
+    <!-- Screen pinning dialog description (for devices without navbar) -->
+    <string name="screen_pinning_description_no_navbar">这将一直显示到您取消固定。触摸并按住返回键取消固定。</string>
+
+    <!-- NavBar Tuner -->
+    <string name="menu_ime_always_show">菜单/键盘开关（一直显示）</string>
+    <string name="search">搜索</string>
+
+    <!-- Dialog title for navigation bar button selection -->
+    <string name="navbar_dialog_title">选择操作</string>
+    <string name="navbar_home_button">主页键</string>
+    <string name="navbar_recent_button">最近键</string>
+    <string name="navbar_search_button">搜索键</string>
+    <string name="navbar_back_button">返回键</string>
+    <string name="navbar_empty_button">空格键</string>
+    <string name="navbar_menu_conditional_button">菜单（自动隐藏）键</string>
+    <string name="navbar_menu_always_button">菜单（一直显示）键</string>
+    <string name="navbar_menu_big_button">菜单键</string>
+    <string name="navbar_power_button">电源键</string>
+    <string name="navbar_notifications_button">通知键</string>
+    <string name="navbar_torch">手电筒</string>
+    <string name="navbar_screenshot">截屏</string>
+
+    <!-- Content description of the power button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_power">电源</string>
+    <string name="accessibility_notifications">通知</string>
+    <string name="accessibility_dpad_left">光标向左</string>
+    <string name="accessibility_dpad_right">光标向右</string>
+    <string name="accessibility_torch">手电筒</string>
+    <string name="accessibility_screenshot">截屏</string>
+
+    <string name="app_killed_message">应用杀</string>
+
+</resources>
