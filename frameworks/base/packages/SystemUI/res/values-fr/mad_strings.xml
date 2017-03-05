@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2017 The madOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Reboot/Reboot Recovery QS Tile -->
+    <string name="quick_settings_reboot_label">Redemarrer</string>
+    <string name="quick_settings_reboot_recovery_label">Recovery</string>
+
+    <string name="switch_bar_auto">Auto</string>
+
+    <!-- Quick Settings tiles -->
+    <string name="quick_settings_screenshot_label">Capture d'ecran</string>
+    <string name="quick_settings_region_screenshot_label">capture partielle d'écran</string>
+    <string name="quick_settings_sync_label">synchronisation</string>
+    <string name="accessibility_quick_settings_sync_off">synchronisation éteint</string>
+    <string name="accessibility_quick_settings_sync_on">synchronisation allumé</string>
+    <string name="accessibility_quick_settings_sync_changed_off">Desactivation de la synchronisation </string>
+    <string name="accessibility_quick_settings_sync_changed_on">activation de la synchronisation</string>
+    <string name="quick_settings_music_label">Musique</string>
+    <string name="quick_settings_music_play">Play</string>
+    <string name="quick_settings_music_pause">Pause</string>
+    <string name="quick_settings_caffeine_label">Caffeine</string>
+    <string name="accessibility_quick_settings_caffeine_off">Caffeine éteint</string>
+    <string name="accessibility_quick_settings_caffeine_on">Caffeine allumé</string>
+
+    <!-- Screen pinning dialog description (for devices without navbar) -->
+    <string name="screen_pinning_description_no_navbar">Cela le maintiendra en vue jusqu'à ce que vous débloquer. Appuyez et maintenez le bouton Précédent pour débloquer.</string>
+
+    <!-- NavBar Tuner -->
+    <string name="menu_ime_always_show">Menu/Sélecteur de clavier(toujours afficher)</string>
+    <string name="search">recherche</string>
+
+    <!-- Dialog title for navigation bar button selection -->
+    <string name="navbar_dialog_title">Choissir une action a assigner</string>
+    <string name="navbar_home_button">button maison</string>
+    <string name="navbar_recent_button">Bouton récent</string>
+    <string name="navbar_search_button">Bouton recherche</string>
+    <string name="navbar_back_button">Bouton retour</string>
+    <string name="navbar_empty_button">Bouton vide</string>
+    <string name="navbar_menu_conditional_button"> Bouton Menu(masquage automatique)</string>
+    <string name="navbar_menu_always_button">Bouton Menu (toujours visible)</string>
+    <string name="navbar_menu_big_button">Bouton Menu</string>
+    <string name="navbar_power_button">Bouton Power</string>
+    <string name="navbar_notifications_button">Bouton Notifications</string>
+    <string name="navbar_torch">Lampe</string>
+    <string name="navbar_screenshot">Capture d'ecran</string>
+
+    <!-- Content description of the power button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_power">allumer</string>
+    <string name="accessibility_notifications">Notifications</string>
+    <string name="accessibility_dpad_left">Cursor gauche</string>
+    <string name="accessibility_dpad_right">Cursor droit</string>
+    <string name="accessibility_torch">Lampe</string>
+    <string name="accessibility_screenshot">Capture d'ecran</string>
+
+    <string name="app_killed_message">App tuer</string>
+
+</resources>
