@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+     Copyright (C) 2017 The madOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Buttons -->
+    <string name="buttons_pref_title">Botons</string>
+    <string name="enable_navigation_bar_title">Activar tecles de software</string>
+    <string name="enable_navigation_bar_summary">Activar les tecles de navegació en pantalla</string>
+    <string name="hardware_brightness_keys_title">Retroil·luminació</string>
+    <string name="hardware_brightness_keys_summary">Activar brillantor de les tecles de navegació</string>
+    <string name="hardware_keys_home_key_title">Botó d'inici</string>
+    <string name="hardware_keys_back_key_title">Botó Enrrera</string>
+    <string name="hardware_keys_menu_key_title">Botó de menú</string>
+    <string name="hardware_keys_assist_key_title">Botó d'assistència</string>
+    <string name="hardware_keys_app_switch_key_title">Botó de recents</string>
+    <string name="hardware_keys_camera_key_title">Botó de càmera</string>
+    <string name="hardware_keys_short_press_title">Acció en polsació curta</string>
+    <string name="hardware_keys_long_press_title">Acció en polsació llarga</string>
+    <string name="hardware_keys_double_tap_title">Acció en doble polsació</string>
+    <string name="hardware_keys_action_nothing">Cap acció</string>
+    <string name="hardware_keys_action_menu">Obrir/tancar el menú</string>
+    <string name="hardware_keys_action_app_switch">Recents</string>
+    <string name="hardware_keys_action_search">Assistent de cerca</string>
+    <string name="hardware_keys_action_voice_search">Cerca de veu</string>
+    <string name="hardware_keys_action_in_app_search">Cerca dins d'aplicació</string>
+    <string name="hardware_keys_action_launch_camera">Obrir càmera</string>
+    <string name="hardware_keys_action_kill_app">Tancar aplicació en segon pla</string>
+
+    <!-- Notification light dialogs -->
+    <string name="edit_light_settings">Editar la configuració del llum</string>
+    <string name="pulse_speed_title">Duració i velocitat del pols</string>
+    <string name="default_time">Normal</string>
+    <string name="custom_time">Personalitzat</string>
+    <string name="dialog_delete_title">Eliminar</string>
+    <string name="dialog_delete_message">Eliminar l'element seleccionat?</string>
+
+    <!-- Values for the notification light pulse spinners -->
+    <string name="pulse_length_always_on">Sempre encès</string>
+    <string name="pulse_length_very_short">Molt curt</string>
+    <string name="pulse_length_short">Curt</string>
+    <string name="pulse_length_normal">Normal</string>
+    <string name="pulse_length_long">Llarg</string>
+    <string name="pulse_length_very_long">Molt llarg</string>
+    <string name="pulse_speed_very_fast">Molt ràpid</string>
+    <string name="pulse_speed_fast">Ràpid</string>
+    <string name="pulse_speed_normal">Normal</string>
+    <string name="pulse_speed_slow">Lent</string>
+    <string name="pulse_speed_very_slow">Molt lent</string>
+
+    <!-- Battery light settings -->
+    <string name="battery_light_title">Llum de bateria</string>
+    <string name="battery_low_pulse_title">Pols si el nivell de bateria és baix</string>
+    <string name="battery_light_list_title">Colors</string>
+    <string name="battery_light_low_color_title">Bateria baixa</string>
+    <string name="battery_light_medium_color_title">Carregant</string>
+    <string name="battery_light_full_color_title">Completament carregada</string>
+
+    <!-- Lights settings screen, notification light settings -->
+    <string name="notification_light_title">Llum de notificacions</string>
+    <string name="notification_light_general_title">General</string>
+    <string name="notification_light_applist_title">Aplicacions</string>
+    <string name="notification_light_phonelist_title">Telèfon</string>
+    <string name="notification_light_use_custom">Fer servir valors personalitzats</string>
+    <string name="notification_light_default_value">Per defecte</string>
+    <string name="notification_light_missed_call_title">Trucada perduda</string>
+    <string name="notification_light_voicemail_title">Bústia de veu</string>
+
+    <!-- Lights settings, LED notification -->
+    <string name="led_notification_title">Configuració del llum</string>
+    <string name="led_notification_text">Llum LED activada per la configuració</string>
+    <string name="notification_light_no_apps_summary">Per afegir control per cada aplicació, activa \'%1$s\' i prem \'\u002b\' a la barra del menú</string>
+
+    <string name="interruptions_ignore_while_media_title">Evitar disminució del so</string>
+    <string name="interruptions_ignore_while_media_summary">No reduïr el volum del so multimèdia quan arribi una notificació</string>
+
+    <!-- Profiles settings  -->
+    <string name="profiles_add">Afegir</string>
+
+    <!-- Reset Profiles -->
+    <string name="profile_reset_title">Restablir</string>
+
+    <!-- Add application dialog box title -->
+    <string name="profile_choose_app">Tria aplicació</string>
+
+    <!-- M.A.D. extras -->
+    <string name="mad_settings_title">Extres M.A.D.</string>
+
+    <!-- for smartwake -->
+    <string name="smartwake_settings_title">Despertar Intel·ligent</string>
+    <string name="smartwake_settings_summary">Control dels gestos de Despertar Intel·ligent</string>
+    <string name="smartwake_settings_category">Despertar Intel·ligent</string>
+    <string name="smartwake_support_gestures">Gestos de suport</string>
+    <string name="smartwake_settings_u_title">Doble clic per despertar la pantalla</string>
+    <string name="smartwake_settings_up_title">Dibuixa per desbloquejar</string>
+    <string name="smartwake_settings_down_title">Llisca cap avall per a pausar la música</string>
+    <string name="smartwake_settings_right_title">Llisca cap a la dreta per canviar a la pista següent</string>
+    <string name="smartwake_settings_left_title">Llisca cap a l'esquerre per tornar a la pista anterior</string>
+    <string name="smartwake_settings_c_title">Dibuixa una c per a despertar</string>
+    <string name="smartwake_settings_w_title">Dibuixa una w per a despertar</string>
+    <string name="smartwake_settings_e_title">Dibuixa una e per a despertar</string>
+    <string name="smartwake_settings_o_title">Dibuixa una o per a despertar</string>
+    <string name="smartwake_settings_m_title">Dibuixa una m per a despertar</string>
+    <string name="smartwake_settings_select_app_title">Selecciona les aplicacions</string>
+    <string name="smartwake_settings_hint_search_app">Cerca l'aplicació</string>
+
+    <!-- Fast Charge -->
+    <string name="fast_charge_title">Càrrega ràpida</string>
+    <string name="fast_charge_summary">Canviar la configuració de la càrrega ràpida</string>
+    <string name="ac_charging_current_title">Càrrega AC actual</string>
+    <string name="usb_charging_current_title">Càrrega per USB actual</string>
+    <string name="fast_charge_set_on_boot">Establir a l'inici</string>
+    <string name="fast_charge_set_on_boot_summary">Recuperar la configuració de càrrega en iniciar</string>
+    <string name="fast_charge_master">Activar càrrega ràpida</string>
+    <string name="fast_charge_notification_title">Mostrar les notificacions de càrrega ràpida</string>
+    <string name="fast_charge_notification_summary">Això activa una drecera a la configuració de la càrrega ràpida</string>
+    <string name="qs_tile_fcharge">Càrrega ràpida</string>
+
+    <!-- Performance settings  -->
+    <string name="performance_settings_title">Rendiment</string>
+    <string name="performance_settings_summary">Controla la configuració del processador i del Planificador d'E/S</string>
+
+    <!-- Performance Settings : Warning dialog  -->
+    <string name="performance_settings_warning_title">Continua amb precaució</string>
+    <string name="performance_settings_warning">Aquestes opcions estan incloses per tal d'experimentar i qualsevol canvi que es produeixi en elles té el potencial de causar inestabilitat, fallades, pèrdues de dades o fallades de components.\n\nEt demanem que no omplis informes d'errors si cap d'aquestes opcions ha estat canviada respecte dels valors per defecte.</string>
+
+    <!-- Performance Settings : Processor Settings -->
+    <!-- Performance Settings : Processor settings title -->
+    <string name="processor_title">Processador</string>
+    <!-- Performance Settings : Processor settings summary. -->
+    <string name="processor_summary">Canviar el governador de la CPU i la velocitat de rellotge</string>
+
+    <!-- Performance Settings : Processor settings sub items -->
+    <string name="cpu_cur_freq_title">Freqüència de CPU actual</string>
+    <string name="cpu_governors_title">Governador de la CPU</string>
+    <string name="cpu_governors_summary">%S</string>
+    <string name="cpu_min_freq_title">Freqüència de CPU mínima</string>
+    <string name="cpu_min_freq_summary">%s</string>
+    <string name="cpu_max_freq_title">Freqüència de CPU màxima</string>
+    <string name="cpu_max_freq_summary">%s</string>
+    <string name="cpu_set_on_boot">Establir a l'inici</string>
+    <string name="cpu_set_on_boot_summary">Recuperar la configuració del processador en iniciar</string>
+
+    <!-- Performance Settings : I/O scheduler settings title -->
+    <string name="io_scheds_title">Planificador d'E/S</string>
+    <!-- Performance Settings : I/O scheduler settings summary. -->
+    <string name="io_scheds_summary">Canviar el planificador d'E/S</string>
+
+    <!-- Performance Settings : I/O scheduler settings sub items -->
+    <string name="io_sched_title">Planificador d'E/S</string>
+    <string name="io_sched_summary">%S</string>
+    <string name="io_sched_set_on_boot">Establir a l'inici</string>
+    <string name="io_sched_set_on_boot_summary">Recuperar la configuració del planificador d'E/S en iniciar</string>
+
+    <!-- Sensor Calibration -->
+    <string name="sensor_calibration_title">Calibració dels sensors</string>
+    <string name="sensor_calibration_summary">Configuració de l'Acceleròmetre i del Giroscopi</string>
+    <string name="sensor_calibration_summary_gsensor_only">Configuració de l'Acceleròmetre</string>
+    <string name="sensor_calibration_summary_gyroscope_only">Configuració del Giroscopi</string>
+    <string name="sensor_calibration_gsensor">Calibració de l'acceleròmetre</string>
+    <string name="sensor_calibration_gyroscope">Calibració del giroscopi</string>
+    <string name="sensor_calibration_do_20">Calibrar (tolerància del 20%)</string>
+    <string name="sensor_calibration_do_40">Calibrar (tolerància del 40%)</string>
+    <string name="sensor_calibration_clear">Clear calibration</string>
+    <string name="sensor_calibration_note">NOTA: El telèfon ha de trobar-se sobre un pla horitzontal a l'hora de realitzar la calibració.</string>
+    <string name="sensor_calibration_current_data_hint">Dades acutuals del sensor: </string>
+    <string name="sensor_calibration_sensor_data_hint">Dades de calibrat del sensor: </string>
+
+    <string name="gyroscope_axis_switch">Intercanvia amunt/avall a l'eix vertical</string>
+
+    <!-- BandMode  Start -->
+    <string name="query_result">Petició fallida</string>
+    <string name="query_support_message">Petició de Mode de suport fallida.</string>
+    <string name="query_current_message">Petició de Mode actual fallida.</string>
+    <string name="query_btn_text">Tancar</string>
+    <string name="set_success_message">Establiment correcte</string>
+    <string name="set_ok_text">D'ACORD</string>
+    <string name="set_fail_title">Ha fallat</string>
+    <string name="set_fail_message">L'establiment ha fallat</string>
+    <string name="set_fail_text">Tancar</string>
+    <string name="reset_title">Restablir</string>
+    <string name="reset_message">Restablir a valors per defecte?</string>
+    <string name="bandmode_sim1">SIM1</string>
+    <string name="bandmode_sim2">SIM2</string>
+    <string name="bandmode_sim3">SIM3</string>
+    <string name="bandmode_sim4">SIM4</string>
+    <!-- BandMode End -->
+
+    <!-- BandMode SIM2 Select start -->
+    <string name="BandModeSIM2">Mode Banda SIM2</string>
+    <string name="bandmodesim2_GSM">Mode GSM</string>
+    <string name="bandmodesim2_GSM_EGSM900">EGSM900</string>
+    <string name="bandmodesim2_GSM_DCS1800">DCS1800</string>
+    <string name="bandmodesim2_GSM_PCS1900">PCS1900</string>
+    <string name="bandmodesim2_GSM_GSM850">GSM850</string>
+    <string name="bandmodesim2_SET">ESTABLIR</string>
+    <string name="BandModeSIMSelect">Selecció de SIM</string>
+    <string name="BandModeSIMTwo">ESTABLIR Banda</string>
+    <!-- BandMode SIM2 Select end -->
+
+    <!-- Band select start -->
+    <string name="BandSelect">Mode Banda</string>
+    <string name="BandSel_GSM">Mode GSM</string>
+    <string name="BandSel_UMTS">Mode UMTS</string>
+    <string name="BandSel_SET">ESTABLIR</string>
+    <string name="BandSel_GSM_EGSM900">EGSM900</string>
+    <string name="BandSel_GSM_DCS1800">DCS1800</string>
+    <string name="BandSel_GSM_PCS1900">PCS1900</string>
+    <string name="BandSel_GSM_GSM850">GSM850</string>
+    <string name="BandSel_UMTS_BAND_I">WCDMA-IMT-2000</string>
+    <string name="BandSel_UMTS_BAND_II">WCDMA-PCS-1900</string>
+    <string name="BandSel_UMTS_BAND_III">WCDMA-DCS-1800</string>
+    <string name="BandSel_UMTS_BAND_IV">WCDMA-AWS-1700</string>
+    <string name="BandSel_UMTS_BAND_V">WCDMA-CLR-850</string>
+    <string name="BandSel_UMTS_BAND_VI">WCDMA-800</string>
+    <string name="BandSel_UMTS_BAND_VII">WCDMA-IMT-E-2600</string>
+    <string name="BandSel_UMTS_BAND_VIII">WCDMA-GSM-900</string>
+    <string name="BandSel_UMTS_BAND_IX">WCDMA-1800</string>
+    <string name="BandSel_UMTS_BAND_X">WCDMA-1700</string>
+    <string name="BandSel_RESET">Restablir valors per defecte</string>
+    <string name="BandSel_CDMA">Mode CDMA</string>
+    <string name="BandSel_CDMA_BAND_0">Classe de banda 0(Banda North American Celluar)</string>
+    <string name="BandSel_CDMA_BAND_1">Classe de banda 1(Banda North American PCS)</string>
+    <string name="BandSel_CDMA_BAND_2">Classe de banda 2(Banda TACS)</string>
+    <string name="BandSel_CDMA_BAND_3">Classe de banda 3(Banda JTACS)</string>
+    <string name="BandSel_CDMA_BAND_4">Classe de banda 4(Banda Korean PCS)</string>
+    <string name="BandSel_CDMA_BAND_5">Classe de banda 5(Banda NMT-450)</string>
+    <string name="BandSel_CDMA_BAND_6">Classe de banda 6(Banda IMT-2000)</string>
+    <string name="BandSel_CDMA_BAND_7">Classe de banda 7(Banda North American 700Mhz Celluar)</string>
+    <string name="BandSel_CDMA_BAND_8">Classe de banda 8 (Banda 1800-MHz)</string>
+    <string name="BandSel_CDMA_BAND_9">Classe de banda 9 (Banda 900-MHz)</string>
+    <string name="BandSel_CDMA_BAND_10">Classe de banda 10 (Banda secundària 800 MHz)</string>
+    <string name="BandSel_CDMA_BAND_11">Classe de banda 11 (Banda 400 MHz European PAMR</string>
+    <string name="BandSel_CDMA_BAND_12">Classe de banda 12 (Banda 800 MHz PAMR)</string>
+    <string name="BandSel_CDMA_BAND_13">Classe de banda 13 (Banda 2.5 GHz IMT-2000 Extension)</string>
+    <string name="BandSel_CDMA_BAND_14">Classe de banda 14 (Banda US PCS 1.9GHz) </string>
+    <string name="BandSel_CDMA_BAND_15">Classe de banda 15 (Banda AWS)</string>
+    <!-- Band select end -->
+
+    <!-- Dual Talk Band Select start -->
+    <string name="bandmodesim1_GSM">Mode GSM</string>
+    <string name="bandmodesim1_GSM_EGSM900">EGSM900</string>
+    <string name="bandmodesim1_GSM_DCS1800">DCS1800</string>
+    <string name="bandmodesim1_GSM_PCS1900">PCS1900</string>
+    <string name="bandmodesim1_GSM_GSM850">GSM850</string>
+    <string name="bandmodesim1_UMTS">Mode UMTS</string>
+    <string name="bandmodesim1_UMTS_BAND_I">WCDMA-IMT-2000</string>
+    <string name="bandmodesim1_UMTS_BAND_II">WCDMA-PCS-1900</string>
+    <string name="bandmodesim1_UMTS_BAND_III">WCDMA-DCS-1800</string>
+    <string name="bandmodesim1_UMTS_BAND_IV">WCDMA-AWS-1700</string>
+    <string name="bandmodesim1_UMTS_BAND_V">WCDMA-CLR-850</string>
+    <string name="bandmodesim1_UMTS_BAND_VI">WCDMA-800</string>
+    <string name="bandmodesim1_UMTS_BAND_VII">WCDMA-IMT-E-2600</string>
+    <string name="bandmodesim1_UMTS_BAND_VIII">WCDMA-GSM-900</string>
+    <string name="bandmodesim1_UMTS_BAND_IX">WCDMA-1800</string>
+    <string name="bandmodesim1_UMTS_BAND_X">WCDMA-1700</string>
+    <string name="bandmodesim1_LTE">Mode LTE</string>
+    <string name="bandmodesim1_SET">ESTABLIR</string>
+    <string name="BandStart">Mode Banda</string>
+    <string name="BandModeSIM1">Mode Banda SIM1</string>
+    <string name="bandmode">Mode Banda</string>
+
+    <!-- TDD Band Select start -->
+    <string name="TDD_BandSel_GSM">Mode GSM</string>
+    <string name="TDD_GSM_EGSM900">EGSM900</string>
+    <string name="TDD_GSM_DCS1800">DCS1800</string>
+    <string name="TDD_GSM_PCS1900">PCS1900</string>
+    <string name="TDD_GSM_GSM850">GSM850</string>
+    <string name="TDD_BandSel_UMTS">Mode UMTS</string>
+    <string name="TDD_UMTS_BAND_I">Banda A TD_SCDMA</string>
+    <string name="TDD_UMTS_BAND_II">Banda B TD_SCDMA</string>
+    <string name="TDD_UMTS_BAND_III">Banda C TD_SCDMA</string>
+    <string name="TDD_UMTS_BAND_IV">Banda D TD_SCDMA</string>
+    <string name="TDD_UMTS_BAND_V">Banda E TD_SCDMA</string>
+    <string name="TDD_UMTS_BAND_VI">Banda F TD_SCDMA</string>
+    <string name="TDD_Btn_SET">ESTABLIR</string>
+    <!-- TDD Band Select end -->
+
+    <string name="set_success_title">Establert satisfactòriament</string>
+
+    <!-- > App Ops -->
+    <!-- [CHAR LIMIT=NONE] App ops settings title, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
+    <string name="app_ops_settings">App ops</string>
+    <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
+    <string name="app_ops_settings_summary">Veure o canviar els permisos de les aplicacions</string>
+
+    <!-- > Substratum /layers4.0 -->
+    <string name="substratum_title">Substratum</string>
+
+    <string name="sim_color_bar_title">Donar color a la barra de senyal</string>
+
+    <!-- Doze pulse (ambient display) options -->
+    <string name="doze_list_mode_title">Mode Doze</string>
+    <string name="doze_list_mode_summary">Opció per a configurar el mode doze</string>
+
+    <string name="doze_pulse_title">Ajustos de temps</string>
+    <string name="doze_pulse_duration_in_title">Fos d'entrada</string>
+    <string name="doze_pulse_duration_in_summary"></string>
+
+    <string name="doze_pulse_duration_visible_title">Duració visible</string>
+    <string name="doze_pulse_duration_visible_summary"></string>
+
+    <string name="doze_pulse_duration_out_title">Esvair</string>
+    <string name="doze_pulse_duration_out_summary"></string>
+
+    <string name="doze_pulse_on_notifications_title">Pols en notificació</string>
+    <string name="doze_pulse_on_notifications_summary">Detonar activació només en notificacions pendents</string>
+
+    <string name="doze_time_mode_title">Mostrar hora i data</string>
+    <string name="doze_time_mode_summary">Força mostra de l'hora quan no hi hagi notificacions</string>
+
+    <string name="twohundred_ms">200 ms</string>
+    <string name="fivehundred_ms">500 ms</string>
+    <string name="one_second">1 s</string>
+    <string name="one_second_default">1 s (per defecte)</string>
+    <string name="onehalf_second">1.5 s</string>
+    <string name="two_second">2 s</string>
+    <string name="twohalf_second">2.5 s</string>
+    <string name="three_second">3 s</string>
+    <string name="three_second_default">3 s (per defecte)</string>
+    <string name="threehalf_second">3.5 s</string>
+    <string name="four_second">4 s</string>
+    <string name="fourhalf_second">4.5 s</string>
+    <string name="five_second">5 s</string>
+
+    <string name="pocket_pulse_mode">Butxaca i pols</string>
+    <string name="pocket_only_mode">Butxaca</string>
+    <string name="pulse_only_mode">Pols (per defecte)</string>
+
+    <!-- Status bar -->
+    <string name="status_bar_title">Barra d'estat</string>
+    <string name="status_bar_summary">Modificar l'aparença i el comportament de la barra d'estat</string>
+
+    <string name="quick_pulldown_title">Desplegament ràpid</string>
+    <string name="quick_pulldown_summary">%1$s vora de la barra d'estat desplega els Ajustos ràpids</string>
+    <string name="quick_pulldown_summary_left">Esquerra</string>
+    <string name="quick_pulldown_summary_right">Dreta</string>
+    <string name="quick_pulldown_off">Desactivat</string>
+    <string name="quick_pulldown_left">Esquerra</string>
+    <string name="quick_pulldown_right">Dreta</string>
+
+    <string name="link_volume_option_title">Enllaçar els volums del to de trucada i de notificació</string>
+    <string name="sim_ringtone_title">SIM %d to de trucada</string>
+    <string name="category_sounds">Sons</string>
+
+    <!-- ScrollSettings -->
+    <string name="scroll_settings_title">Ajustos de desplaçament</string>
+    <string name="scroll_settings_summary">Change friction and fling velocity</string>
+    <string name="scroll_enabled_switch_title">(De)activate scroll settings</string>
+    <string name="scroll_friction_title">Scroll friction</string>
+    <string name="custom_fling_velocity_title">Scroll fling velocity</string>
+    <string name="scroll_friction_summary">The amount of friction applied to scrolls and flings</string>
+    <string name="custom_fling_velocity_summary">The maximum velocity to start a fling</string>
+
+    <!-- Longpress Power torch -->
+    <string name="long_press_power_for_torch_title">Presiona de manera prolongada el botó d'encesa per activar la llanterna</string>
+    <string name="long_press_power_for_torch_summary">La pressió prolongada del botó d'encesa amb la pantalla apagada encén/apaga la llanterna</string>
+
+    <string name="idle_stats_title">Estadístiques d'inactivitat</string>
+
+    <!-- General strings -->
+    <string name="cancel">Cancel·lar</string>
+    <string name="save">Guardar</string>
+
+    <!-- Battery customizations -->
+    <string name="status_bar_battery_style_category">Bateria</string>
+    <string name="status_bar_battery_style_summary">Personalitza l'estil de la icona de bateria</string>
+    <string name="status_bar_battery_style_title">Estil de l'estat de la bateria</string>
+    <string name="status_bar_battery_style_icon_portrait">Icona vertical</string>
+    <string name="status_bar_battery_style_icon_landscape">Icona horitzontal</string>
+    <string name="status_bar_battery_style_circle">Cercle</string>
+    <string name="status_bar_battery_style_text">Text</string>
+    <string name="status_bar_battery_style_hidden">Amagat</string>
+    <string name="status_bar_battery_percentage_title">Percentatge de bateria</string>
+    <string name="status_bar_battery_percentage_default">Amagat</string>
+    <string name="status_bar_battery_percentage_text_inside">Dins la icona</string>
+    <string name="status_bar_battery_percentage_text_next">Al costat de la icona</string>
+
+    <!-- Seekbar -->
+    <string name="default_string">Per defecte</string>
+
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Seleccionador de color</string>
+    <string name="press_color_to_apply">Presiona en un color de sota per aplicar-lo</string>
+    <string name="arrow_right">→</string>
+    <string name="hex">Hexadecimal:</string>
+    <string name="hex_hint">#ff000000</string>
+
+    <!-- Navigation bar -->
+    <string name="nav_bar_title">Barra de navegació</string>
+    <string name="nav_bar_summary">Modifica els botons de la barra de navegació</string>
+    <string name="nav_bar_category_summary">Modifica l'aparença i comportament de la barra de navegació</string>
+    <string name="navbar_buttons_category_title">Botons de la barra de navegació</string>
+    <string name="navbar_behaviour_category_title">Comportament general de la barra de navegació</string>
+
+    <string name="navigation_bar_title">Botons i disposició</string>
+    <string name="navigation_bar_help_text">Per començar toca la icona d'edició per desbloquejar la barra de navegació i poder editar-la.\n\nPots tocar la icona per canviar la seva drecera, o bé mantenir presionada una icona per reordenar la disposició.\n\nTPresiona el botó guardar per tal de guardar els canvis, o restaurar per tal de restablir la disposició als seus ajustos per defecte.</string>
+    <string name="navigation_restore_button_text">Restaurar\npredeterminats</string>
+    <string name="navigation_edit_button_text">Editar</string>
+    <string name="navigation_save_button_text">Guardar</string>
+    <string name="navigation_bar_reset_message">Eliminar els ajustos actuals i restaurar la disposició per defecte?</string>
+
+    <string name="nav_arrow_keys_title">Mostrar botons de fletxa</string>
+    <string name="nav_arrow_keys_summary">Mostrar botons de fletxa esquerra i dreta mentre es tecleja</string>
+
+    <string name="nav_pixel_nav_title">Activar el disseny pixel</string>
+    <string name="nav_pixel_nav_summary">Activa l'estil pixel del botó d'inici</string>
+
+    <string name="navigation_bar_can_move_title">Mou la barra de navegació si el dispositiu és rotat</string>
+    <string name="navigation_bar_can_move_summary">Quan aquesta opció sigui activada i el dispositiu rotat, la barra de navegació serà moguda a un costat de la pantalla</string>
+
+    <string name="navbar_style_dimen_title">Dimensions de la barra de navegació</string>
+    <string name="navbar_dimensions_reset_message">Restablir totes les dimensions als valors per defecte?</string>
+    <string name="navigation_bar_height_title">Alçada de la barra de navegació</string>
+    <string name="navigation_bar_height_summary">Alçada de la barra de navegació en mode vertical</string>
+    <string name="navigation_bar_height_landscape_title">Alçada de la barra de navegació en mode horitzontal</string>
+    <string name="navigation_bar_height_landscape_summary">Alçada de la barra de navegació en mode horitzontal</string>
+    <string name="navigation_bar_width_title">Amplada de la barra de navegació</string>
+    <string name="navigation_bar_width_summary">Alçada de la barra de navegació si la barra és en un costat</string>
+    <string name="navigation_bar_size_42_dp_default">42 dp (per defecte)</string>
+    <string name="navigation_bar_size_36_dp">36 dp</string>
+    <string name="navigation_bar_size_30_dp">30 dp</string>
+    <string name="navigation_bar_size_24_dp">24 dp</string>
+    <string name="navigation_bar_size_48_dp_default">48 dp (per defecte)</string>
+    <string name="navigation_bar_size_44_dp">44 dp</string>
+    <string name="navigation_bar_size_40_dp">40 dp</string>
+    <string name="navigation_bar_size_42_dp">42 dp</string>
+    <string name="navigation_bar_size_0_dp">0 dp (desactivat)</string>
+
+    <!-- Navigation bar button color -->
+    <string name="navbar_button_tint_title">Tint del botó de navegació</string>
+    <string name="nav_bar_dynamic_title">Color dinàmic de la barra de navegació</string>
+    <string name="nav_bar_dynamic_summary">Fer servir el color primari de l'aplicació en segon pla com a fons de la barra de navegació.</string>
+    <string name="navigation_bar_background_enabled_always_title">Color de la barra de navegació estàtic</string>
+    <string name="navigation_bar_background_enabled_fallback_title">Color alternatiu de la barra de navegació</string>
+    <string name="navigation_bar_background_enabled_always_summary">Fer servir el color de sota com a fons de la barra de navegació</string>
+    <string name="navigation_bar_background_enabled_fallback_summary">Fer servir el color de sota com a alternativa si el color dinàmic de la barra de navegació és massa similar al color dels botons</string>
+    <string name="navigation_bar_background_title">Color de fons de la barra de navegació</string>
+
+    <!-- SlimDim -->
+    <string name="dim_nav_buttons_category_title">Atenuador de la barra de navegació</string>
+    <string name="dim_nav_buttons_category_summary">Opcions per atenuar la barra de navegació en període d'inactivitat</string>
+    <string name="dim_nav_buttons_title">Atenuar els bottons en període d'inactivitat</string>
+    <string name="dim_nav_buttons_summary">Atenuar els botons de la barra de navegació després de no interactuar amb ella durant un cert període de temps</string>
+    <string name="dim_nav_buttons_timeout_title">Temps abans de l'atenuació</string>
+    <string name="dim_nav_buttons_timeout_summary">Temps d'espera (en milisegons) abans d'atenuar els botons</string>
+    <string name="dim_nav_buttons_alpha_title">Atenuar alfa</string>
+    <string name="dim_nav_buttons_alpha_summary">Valor Alfa al qual atenuar els botons</string>
+    <string name="dim_nav_buttons_animate_title">Animació d'atenuació</string>
+    <string name="dim_nav_buttons_animate_summary">Animar l'esvaïment alfa</string>
+    <string name="dim_nav_buttons_animate_duration_title">Duració de l'animació</string>
+    <string name="dim_nav_buttons_animate_duration_summary">Duració (en milisegons) de l'animació alfa</string>
+
+    <string name="dim_nav_buttons_touch_anywhere_title">Estar atent a tocs a tota la pantalla</string>
+    <string name="dim_nav_buttons_touch_anywhere_summary_on">Fer un toc a qualsevol lloc de la pantalla desatenuarà els botons</string>
+    <string name="dim_nav_buttons_touch_anywhere_summary_off">Només els tocs a la barra d'estat desatenuaran els botons</string>
+
+    <string name="unit_msec">mseg</string>
+    <string name="reset">Restablir</string>
+
+    <!-- Actions -->
+    <string name="shortcut_action_none">Cap</string>
+    <string name="shortcut_action_app">Aplicació personalitzada</string>
+    <string name="shortcut_action_home">Inici</string>
+    <string name="shortcut_action_back">Enrere</string>
+    <string name="shortcut_action_menu">Menú</string>
+    <string name="shortcut_action_ime">Obrir l'intercanviador IME</string>
+    <string name="shortcut_action_power_menu">Menú d'encesa</string>
+    <string name="shortcut_action_recents">Recents</string>
+    <string name="shortcut_action_power">Apagar pantalla</string>
+    <string name="shortcut_action_search">Buscar dins l'aplicació</string>
+    <string name="shortcut_action_ring_vib">Sonar/Vibrar</string>
+    <string name="shortcut_action_ring_silent">Sonar/Silenci</string>
+    <string name="shortcut_action_ring_vib_silent">Sonar/Vibrar/Silenci</string>
+    <string name="shortcut_action_torch">Llanterna</string>
+    <string name="shortcut_action_camera">Càmera</string>
+    <string name="shortcut_action_media_next">Música - següent pista</string>
+    <string name="shortcut_action_media_play_pause">Música - reproduïr/pausa</string>
+    <string name="shortcut_action_media_previous">Música - pista prèvia</string>
+    <string name="shortcut_action_wake_device">Despertar dispositiu</string>
+    <string name="shortcut_action_kill">Tancar aplicació en segon pla</string>
+    <string name="shortcut_action_screenshot">Captura de pantalla</string>
+    <string name="shortcut_action_screenshot_selected">Captura de pantalla d'una regió seleccionada</string>
+    <string name="shortcut_action_lastapp">Darrera aplicació</string>
+    <string name="shortcut_action_menu_big">Gran Menú</string>
+    <string name="shortcut_action_notifications">Notificacions</string>
+    <string name="shortcut_action_qs">Panell de configuració ràpida</string>
+    <string name="shortcut_action_smart">Desplegament intel·ligent</string>
+    <string name="shortcut_action_assist">Cercar</string>
+
+    <!-- Sliding home -->
+    <string name="navbar_sliding_home_category">Lliscament del botó d'inici</string>
+    <string name="navbar_sliding_home_enabled_title">Activar el lliscament del botó d'inici</string>
+    <string name="navbar_sliding_home_enabled_summary">Llisca el botó d'inici cap a esquerra o dreta per dur a terme accions</string>
+    <string name="navbar_sliding_home_left_title">Lliscar cap a l'esquerra</string>
+    <string name="navbar_sliding_home_left_summary">Acció per dur a terme quan es llisqui el botó d'inici cap a l'esquerra</string>
+    <string name="navbar_sliding_home_right_title">Lliscar cap a la dreta</string>
+    <string name="navbar_sliding_home_right_summary">Acció per dur a terme quan es llisqui el botó d'inici cap a la dreta</string>
+
+    <!-- double tap statusbar to sleep -->
+    <string name="double_tap_to_sleep_title">Doble toc per a deixar en repòs</string>
+    <string name="double_tap_to_sleep_summary">Fes un doble toc a la barra d'estat per a posar en repòs el dispositiu</string>
+
+    <!-- Brightness control -->
+    <string name="status_bar_toggle_brightness">Control de brillantor</string>
+    <string name="status_bar_toggle_brightness_summary">Ajusta la brillantor lliscant el dit per la barra d'estat</string>
+
+    <!-- Network traffic Settings -->
+    <string name="nettraffic_settings_title">Tràfic de xarxa</string>
+    <string name="nettraffic_settings_summary">Opcions de tràfic de xarxa</string>
+    <!-- Network traffic options -->
+    <string name="show_network_traffic_state">Monitor del tràfic a la barra d'estat</string>
+    <string name="show_network_traffic_unit">Unitat per a mostrar</string>
+    <string name="show_network_traffic_frequency">Intèrval d'actualització</string>
+    <string name="show_network_traffic_disable">Desactivat</string>
+    <string name="show_network_traffic_up">Sortint</string>
+    <string name="show_network_traffic_down">Entrant</string>
+    <string name="show_network_traffic_all">Sortint i entrant</string>
+    <string name="show_network_traffic_bit">Bits per segon</string>
+    <string name="show_network_traffic_byte">Bytes per segon</string>
+    <string name="show_network_traffic_500">500 ms</string>
+    <string name="show_network_traffic_1000">1000 ms</string>
+    <string name="show_network_traffic_1500">1500 ms</string>
+    <string name="show_network_traffic_2000">2000 ms</string>
+    <string name="network_traffic_autohide">Amagar automàticament</string>
+    <string name="network_traffic_autohide_summary">Amagar el monitor de tràfic quan no hi hagi activitat</string>
+    <string name="network_traffic_autohide_threshold">Llindar d'inactivitat</string>
+    <string name="network_traffic_hidearrow">Amagar fletxes</string>
+    <string name="network_traffic_hidearrow_summary">Amagar les fletxes de l'indicador de tràfic</string>
+
+    <!-- Clock settings -->
+    <string name="clock_settings_title">Opcions d'hora</string>
+    <string name="clock_settings_summary">Opcions de data i hora personalitzades</string>
+    <!-- clock date options -->
+    <string name="clock_title_enable">Alineació</string>
+    <string name="status_bar_show_clock_title">Mostrar hora i data</string>
+    <string name="status_bar_clock_seconds_title">Mostrar segons</string>
+    <string name="status_bar_am_pm_title">AM/PM</string>
+    <string name="status_bar_am_pm_info">Hora en format 24 hores activada</string>
+    <string name="right_clock">Rellotge dreta</string>
+    <string name="center_clock">Rellotge centre</string>
+    <string name="left_clock">Rellotge esquerra</string>
+    <string name="clock_date_display">Data</string>
+    <string name="clock_date_style">Estil de la data</string>
+    <string name="clock_date_position">Posició de la data</string>
+    <string name="clock_date_format">Format de la data</string>
+    <string name="clock_date_string_edittext_title">Ha de ser en format de data, per ex: dd/MM/yy</string>
+    <string name="clock_date_string_edittext_summary">Introdueix etiqueta</string>
+    <string name="clock_date_right">A la dreta de l'hora</string>
+    <string name="clock_date_left">A l'esquerra de l'hora</string>
+    <string name="clock_am_pm_date_normal">Normal</string>
+    <string name="clock_am_pm_date_small">Petita</string>
+    <string name="clock_am_pm_date_none">Amagada</string>
+    <string name="clock_date_style_lowercase">Minúscules</string>
+    <string name="clock_date_style_uppercase">Majúscules</string>
+    <string name="clock_date_format_custom">Format java personalitzat</string>
+
+    <!-- MTK schedule power on/off -->
+    <string name="schedule_power_on_off_settings_title">Encesa i apagada programada</string>
+
+</resources>
