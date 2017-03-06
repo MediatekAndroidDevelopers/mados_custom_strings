@@ -35,7 +35,7 @@
     <string name="hardware_keys_action_app_switch">Recenti</string>
     <string name="hardware_keys_action_search">Assistente ricerca</string>
     <string name="hardware_keys_action_voice_search">Ricerca vocale</string>
-    <string name="hardware_keys_action_in_app_search">Ricerca nell'app</string>
+    <string name="hardware_keys_action_in_app_search">Ricerca nell\'app</string>
     <string name="hardware_keys_action_launch_camera">Apri camera</string>
     <string name="hardware_keys_action_kill_app">Termina app in primo piano</string>
 
@@ -113,7 +113,7 @@
     <string name="smartwake_settings_e_title">Disegna e per riattivare</string>
     <string name="smartwake_settings_o_title">Disegna o per riattivare</string>
     <string name="smartwake_settings_m_title">Disegna m per riattivare</string>
-    <string name="smartwake_settings_select_app_title">Seleziona l'applicazione</string>
+    <string name="smartwake_settings_select_app_title">Seleziona l\'applicazione</string>
     <string name="smartwake_settings_hint_search_app">Cerca</string>
 
     <!-- Fast Charge -->
@@ -121,8 +121,8 @@
     <string name="fast_charge_summary">Cambia impostazioni carica rapida</string>
     <string name="ac_charging_current_title">Corrente di carica AC</string>
     <string name="usb_charging_current_title">Corrente di carica USB</string>
-    <string name="fast_charge_set_on_boot">Imposta all'avvio</string>
-    <string name="fast_charge_set_on_boot_summary">Ripristina le impostazioni di carica all'avvio</string>
+    <string name="fast_charge_set_on_boot">Imposta all\'avvio</string>
+    <string name="fast_charge_set_on_boot_summary">Ripristina le impostazioni di carica all\'avvio</string>
     <string name="fast_charge_master">Abilita ricarica rapida</string>
     <string name="fast_charge_notification_title">Mostra notifica carica rapida</string>
     <string name="fast_charge_notification_summary">Abilita notifica con accesso rapido alle impostazioni di carica rapida</string>
@@ -150,8 +150,8 @@
     <string name="cpu_min_freq_summary">%s</string>
     <string name="cpu_max_freq_title">Frequenza CPU massima</string>
     <string name="cpu_max_freq_summary">%s</string>
-    <string name="cpu_set_on_boot">Imposta all'avvio</string>
-    <string name="cpu_set_on_boot_summary">Ripristina impostazioni del processore all'avvio</string>
+    <string name="cpu_set_on_boot">Imposta all\'avvio</string>
+    <string name="cpu_set_on_boot_summary">Ripristina impostazioni del processore all\'avvio</string>
 
     <!-- Performance Settings : I/O scheduler settings title -->
     <string name="io_scheds_title">Scheduler I/O</string>
@@ -161,8 +161,8 @@
     <!-- Performance Settings : I/O scheduler settings sub items -->
     <string name="io_sched_title">Scheduler I/O</string>
     <string name="io_sched_summary">%S</string>
-    <string name="io_sched_set_on_boot">Imposta all'avvio</string>
-    <string name="io_sched_set_on_boot_summary">Ripristina impostazioni scheduler I/O all'avvio</string>
+    <string name="io_sched_set_on_boot">Imposta all\'avvio</string>
+    <string name="io_sched_set_on_boot_summary">Ripristina impostazioni scheduler I/O all\'avvio</string>
 
     <!-- Sensor Calibration -->
     <string name="sensor_calibration_title">Calibrazione sensori</string>
@@ -385,8 +385,8 @@
     <string name="status_bar_battery_style_hidden">Nascosta</string>
     <string name="status_bar_battery_percentage_title">Percentuale batteria</string>
     <string name="status_bar_battery_percentage_default">Nascosta</string>
-    <string name="status_bar_battery_percentage_text_inside">All'interno dell'icona</string>
-    <string name="status_bar_battery_percentage_text_next">Accanto all'icona</string>
+    <string name="status_bar_battery_percentage_text_inside">All\'interno dell\'icona</string>
+    <string name="status_bar_battery_percentage_text_next">Accanto all\'icona</string>
 
     <!-- Seekbar -->
     <string name="default_string">Default</string>
@@ -406,7 +406,7 @@
     <string name="navbar_behaviour_category_title">Comportamento generale della barra di navigazione</string>
 
     <string name="navigation_bar_title">Aspetto e pulsanti</string>
-    <string name="navigation_bar_help_text">Per iniziare tocca l'icona di modifica per sbloccare la modifica della barra di navigazione.\n\npuoi toccare un'icona per cambiare la scorciatoia, o premere a lungo su un'icona per ridefinire il layout.\n\npremi salva per applicare le modifiche, o ripristina per ritornare ai valori di default.</string>
+    <string name="navigation_bar_help_text">Per iniziare tocca l\'icona di modifica per sbloccare la modifica della barra di navigazione.\n\npuoi toccare un\'icona per cambiare la scorciatoia, o premere a lungo su un\'icona per ridefinire il layout.\n\npremi salva per applicare le modifiche, o ripristina per ritornare ai valori di default.</string>
     <string name="navigation_restore_button_text">Ripristina\ndefaults</string>
     <string name="navigation_edit_button_text">Modifica</string>
     <string name="navigation_save_button_text">Salva</string>
@@ -442,7 +442,7 @@
     <!-- Navigation bar button color -->
     <string name="navbar_button_tint_title">Colore pulsanti di navigazione</string>
     <string name="nav_bar_dynamic_title">Colore barra di navigazione dinamico</string>
-    <string name="nav_bar_dynamic_summary">Usa colore primario dell'app in primo piano per lo sfondo della barra di navigazione.</string>
+    <string name="nav_bar_dynamic_summary">Usa colore primario dell\'app in primo piano per lo sfondo della barra di navigazione.</string>
     <string name="navigation_bar_background_enabled_always_title">Colore barra di navigazione statico</string>
     <string name="navigation_bar_background_enabled_fallback_title">Colore alternativo della barra di navigazione</string>
     <string name="navigation_bar_background_enabled_always_summary">Usa il colore sottostante per lo sfondo della barra di navigazione</string>
@@ -454,14 +454,14 @@
     <string name="dim_nav_buttons_category_summary">Opzioni attenuamento barra di navigazione in caso di inattività</string>
     <string name="dim_nav_buttons_title">Attenua pulsanti in caso di inattività</string>
     <string name="dim_nav_buttons_summary">Attenua pulsanti barra di navigazione dopo uno specifico periodo di inattività</string>
-    <string name="dim_nav_buttons_timeout_title">Timeout prima dell'attenuamento</string>
+    <string name="dim_nav_buttons_timeout_title">Timeout prima dell\'attenuamento</string>
     <string name="dim_nav_buttons_timeout_summary">Periodo (in millisecondi) prima di attenuare i pulsanti</string>
     <string name="dim_nav_buttons_alpha_title">Attenuamento alpha</string>
     <string name="dim_nav_buttons_alpha_summary">Valore Alpha di attenuamento pulsanti</string>
     <string name="dim_nav_buttons_animate_title">Attenua animazione</string>
     <string name="dim_nav_buttons_animate_summary">Animazione del dissolvimento alpha</string>
     <string name="dim_nav_buttons_animate_duration_title">Durata animazione</string>
-    <string name="dim_nav_buttons_animate_duration_summary">Durata(in millisecondi) dell'animanzione alpha</string>
+    <string name="dim_nav_buttons_animate_duration_summary">Durata(in millisecondi) dell\'animanzione alpha</string>
 
     <string name="dim_nav_buttons_touch_anywhere_title">Risposta ai tocchi su tutto lo schermo</string>
     <string name="dim_nav_buttons_touch_anywhere_summary_on">Tocca qualunque parte dello schermo per far riapparire i pulsanti</string>
@@ -492,7 +492,7 @@
     <string name="shortcut_action_wake_device">Riattiva telefono</string>
     <string name="shortcut_action_kill">Termina app in primo piano</string>
     <string name="shortcut_action_screenshot">Screenshot</string>
-    <string name="shortcut_action_screenshot_selected">Acquisisci Screenshot dell'area selezionata</string>
+    <string name="shortcut_action_screenshot_selected">Acquisisci Screenshot dell\'area selezionata</string>
     <string name="shortcut_action_lastapp">Ultima app</string>
     <string name="shortcut_action_menu_big">Menù grande</string>
     <string name="shortcut_action_notifications">Notifiche</string>
@@ -558,8 +558,8 @@
     <string name="clock_date_format">Formato data</string>
     <string name="clock_date_string_edittext_title">Deve essere nel formato data(eg. MM/dd/yy)</string>
     <string name="clock_date_string_edittext_summary">Inserisci testo</string>
-    <string name="clock_date_right">A destra dell'orario</string>
-    <string name="clock_date_left">A sinistra dell'orario</string>
+    <string name="clock_date_right">A destra dell\'orario</string>
+    <string name="clock_date_left">A sinistra dell\'orario</string>
     <string name="clock_am_pm_date_normal">Normale</string>
     <string name="clock_am_pm_date_small">Piccolo</string>
     <string name="clock_am_pm_date_none">Nascosto</string>
