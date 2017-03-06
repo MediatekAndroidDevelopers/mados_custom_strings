@@ -16,56 +16,55 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Reboot/Reboot Recovery QS Tile -->
-    <string name="quick_settings_reboot_label">Reinicio</string>
+    <string name="quick_settings_reboot_label">Reiniciar</string>
     <string name="quick_settings_reboot_recovery_label">Recovery</string>
 
-    <string name="switch_bar_auto">Automático</string>
+    <string name="switch_bar_auto">Auto</string>
 
     <!-- Quick Settings tiles -->
-    <string name="quick_settings_screenshot_label">Pantallazo</string>
-    <string name="quick_settings_region_screenshot_label">Pantallazo partial</string>
+    <string name="quick_settings_screenshot_label">Captura</string>
+    <string name="quick_settings_region_screenshot_label">Captura parcial</string>
     <string name="quick_settings_sync_label">Sincronización</string>
-    <string name="accessibility_quick_settings_sync_off">Sincronización apagada</string>
-    <string name="accessibility_quick_settings_sync_on">Sincronización encendida</string>
-    <string name="accessibility_quick_settings_sync_changed_off">Sincronización apagada</string>
-    <string name="accessibility_quick_settings_sync_changed_on">Sincronización encendida</string>
+    <string name="accessibility_quick_settings_sync_off">Apagar Sincronización</string>
+    <string name="accessibility_quick_settings_sync_on">Encender Sincronización </string>
+    <string name="accessibility_quick_settings_sync_changed_off">Sincronización desactivada</string>
+    <string name="accessibility_quick_settings_sync_changed_on">Sincronización activada </string>
     <string name="quick_settings_music_label">Música</string>
-    <string name="quick_settings_music_play">Play</string>
+    <string name="quick_settings_music_play">Reproducir</string>
     <string name="quick_settings_music_pause">Pausa</string>
-    <string name="quick_settings_caffeine_label">Cafeina</string>
-    <string name="accessibility_quick_settings_caffeine_off">Caffeine apagada</string>
-    <string name="accessibility_quick_settings_caffeine_on">Caffeine encendida</string>
+    <string name="quick_settings_caffeine_label">Cafeína</string>
+    <string name="accessibility_quick_settings_caffeine_off">Apagar Cafeína</string>
+    <string name="accessibility_quick_settings_caffeine_on">Encender Cafeína</string>
 
     <!-- Screen pinning dialog description (for devices without navbar) -->
-    <string name="screen_pinning_description_no_navbar">Ésto lo mantiene en visualización hasta que lo desancles. Pulsar y mantener el botón de retroceso para desanclar.</string>
+    <string name="screen_pinning_description_no_navbar">Ésto lo mantiene a la vista hasta que se desancle. Toque y mantenga pulsado el botón atrás para desanclar.</string>
 
     <!-- NavBar Tuner -->
-    <string name="menu_ime_always_show">Menu / Teclado Conmutador (Mostrar siempre)</string>
+    <string name="menu_ime_always_show">Menú / Cambiar teclado (mostrar siempre)</string>
     <string name="search">Buscar</string>
 
     <!-- Dialog title for navigation bar button selection -->
-    <string name="navbar_dialog_title">Asigne la acción elegida</string>
-    <string name="navbar_home_button">Botón de inicio</string>
-    <string name="navbar_recent_button">Botón de recientes</string>
-    <string name="navbar_search_button">Botón de búsqueda</string>
-    <string name="navbar_back_button">Botón de retroceso</string>
+    <string name="navbar_dialog_title">Elija Acción para asignar</string>
+    <string name="navbar_home_button">Botón Inicio</string>
+    <string name="navbar_recent_button">Botón Recientes</string>
+    <string name="navbar_search_button">Botón Búsqueda</string>
+    <string name="navbar_back_button">Botón Atrás</string>
     <string name="navbar_empty_button">Botón vacío</string>
-    <string name="navbar_menu_conditional_button">Botón de menú (Auto ocultar)</string>
-    <string name="navbar_menu_always_button">Botón de menú (Mostrar siempre)</string>
-    <string name="navbar_menu_big_button">Botón de menú</string>
-    <string name="navbar_power_button">Botón de arranque</string>
-    <string name="navbar_notifications_button">Botón de notificaciones</string>
+    <string name="navbar_menu_conditional_button">Botón Menú (Auto ocultar) </string>
+    <string name="navbar_menu_always_button">Botón Menú (Mostrar siempre) </string>
+    <string name="navbar_menu_big_button">Botón Menú</string>
+    <string name="navbar_power_button">Botón Encendido</string>
+    <string name="navbar_notifications_button">Botón Notificaciones<string>
     <string name="navbar_torch">Linterna</string>
-    <string name="navbar_screenshot">Pantallazo</string>
+    <string name="navbar_screenshot">Captura</string>
 
     <!-- Content description of the power button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
-    <string name="accessibility_power">Arrancar</string>
+    <string name="accessibility_power">Encendido</string>
     <string name="accessibility_notifications">Notificaciones</string>
-    <string name="accessibility_dpad_left">Cursor izquierdo</string>
-    <string name="accessibility_dpad_right">Cursor derecho</string>
+    <string name="accessibility_dpad_left">Cursor Izquierdo</string>
+    <string name="accessibility_dpad_right">Cursor Derecho</string>
     <string name="accessibility_torch">Linterna</string>
-    <string name="accessibility_screenshot">Pantallazo</string>
-
-    <string name="app_killed_message">Aplicación matada</string>
+    <string name="accessibility_screenshot">Captura</string>
+    <string name="app_killed_message">Aplicación Cerrada</string>
 
 </resources>
