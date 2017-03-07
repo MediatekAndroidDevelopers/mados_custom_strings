@@ -567,4 +567,7 @@
     <string name="clock_date_style_uppercase">Прописные буквы</string>
     <string name="clock_date_format_custom">Произвольный java-формат</string>
 
+    <!-- MTK schedule power on/off -->
+    <string name="schedule_power_on_off_settings_title">Включение и выключение по расписанию</string>
+
 </resources>
