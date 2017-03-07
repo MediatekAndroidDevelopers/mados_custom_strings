@@ -17,3 +17,14 @@
 * When you are done with the changes you wanted to add, please create a zip file of the whole repo, including all sub folders.
 * send the zip file to: *translations.mad@gmail.com*, subject of the email should be: 'translations values-YOUR_COUNTRYCODE'
 * feel free to add additional information to the e-mail (for example a name which should be mentioned in the changelog), but please don't expect an answer to your mail.
+
+### Translations ###
+* German translated by M.A.D. team & curtisy1
+* Portugese (Portugal) translated by M.A.D. team & fusant
+* Russian translated by Borizzz
+* French translated by Wandrille du Chalard
+* Greek translated by sokolataki
+* Chinese (Simplified) translated by Han Jian
+* Catalan translated by Si-nek
+* Italian translated by LucaT69
+* Spanish translated by Danic23
