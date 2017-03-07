@@ -124,7 +124,7 @@
     <string name="fast_charge_set_on_boot">Establecer en el arranque</string>
     <string name="fast_charge_set_on_boot_summary">Restaurar los ajustes de carga en el arranque</string>
     <string name="fast_charge_master">Habilitar Carga Rápida</string>
-    <string name="fast_charge_notification_title">Mostrar notificación de Carga Rápida<string>
+    <string name="fast_charge_notification_title">Mostrar notificación de Carga Rápida</string>
     <string name="fast_charge_notification_summary">Ésto muestra una notificación a los ajustes de carga rápida</string>
     <string name="qs_tile_fcharge">Carga Rápida</string>
 
