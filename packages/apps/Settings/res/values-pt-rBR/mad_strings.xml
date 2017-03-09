@@ -97,9 +97,10 @@
 
     <!-- M.A.D. extras -->
     <string name="mad_settings_title">M.A.D. Extras</string>
-;
+
     <!-- for smartwake -->
     <string name="smartwake_settings_title">Acordar Inteligente</string>
+    <string name="smartwake_settings_summary">Controlar gestos de acordar inteligente</string>
     <string name="smartwake_settings_category">Acordar Inteligente</string>
     <string name="smartwake_support_gestures">Gestos suportados</string>
     <string name="smartwake_settings_u_title">Duplo toque na tela p/ acordar</string>
