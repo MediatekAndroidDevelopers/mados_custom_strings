@@ -18,4 +18,54 @@
     <!-- Reboot/Reboot Recovery QS Tile -->
     <string name="quick_settings_reboot_label">Reiniciar</string>
     <string name="quick_settings_reboot_recovery_label">Recuperação</string>
+
+    <string name="switch_bar_auto">Automático</string>
+
+    <!-- Quick Settings tiles -->
+    <string name="quick_settings_screenshot_label">Captura de ecrã</string>
+    <string name="quick_settings_region_screenshot_label">Captura parcial de ecrã</string>
+    <string name="quick_settings_sync_label">Sincronizar</string>
+    <string name="accessibility_quick_settings_sync_off">Desativar sincronização</string>
+    <string name="accessibility_quick_settings_sync_on">Ativar sincronização</string>
+    <string name="accessibility_quick_settings_sync_changed_off">Sincronização desativada</string>
+    <string name="accessibility_quick_settings_sync_changed_on">Sincronização ativada</string>
+    <string name="quick_settings_music_label">Música</string>
+    <string name="quick_settings_music_play">Tocar</string>
+    <string name="quick_settings_music_pause">Pausar</string>
+    <string name="quick_settings_caffeine_label">Cafeína</string>
+    <string name="accessibility_quick_settings_caffeine_off">Ligar cafeína</string>
+    <string name="accessibility_quick_settings_caffeine_on">Desligar cafeína</string>
+
+    <!-- Screen pinning dialog description (for devices without navbar) -->
+    <string name="screen_pinning_description_no_navbar">Manter a barra de navegação visível até destacar. Manter premido o botão retroceder para destacar.</string>
+
+    <!-- NavBar Tuner -->
+    <string name="menu_ime_always_show">Alternar menu/teclado (sempre visível)</string>
+    <string name="search">Procurar</string>
+
+    <!-- Dialog title for navigation bar button selection -->
+    <string name="navbar_dialog_title">Escolher ação para atribuir</string>
+    <string name="navbar_home_button">Botão casa</string>
+    <string name="navbar_recent_button">Botão recentes</string>
+    <string name="navbar_search_button">Botão pesquisa</string>
+    <string name="navbar_back_button">Botão retroceder</string>
+    <string name="navbar_empty_button">Botão vazio</string>
+    <string name="navbar_menu_conditional_button">Botão menu (esconder automático)</string>
+    <string name="navbar_menu_always_button">Botão menu (sempre visível)</string>
+    <string name="navbar_menu_big_button">Botão menu</string>
+    <string name="navbar_power_button">Botão de energia</string>
+    <string name="navbar_notifications_button">Botão de notificações</string>
+    <string name="navbar_torch">Lanterna</string>
+    <string name="navbar_screenshot">Captura de ecrã</string>
+
+    <!-- Content description of the power button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_power">Energia</string>
+    <string name="accessibility_notifications">Notificações</string>
+    <string name="accessibility_dpad_left">Cursor esquerdo</string>
+    <string name="accessibility_dpad_right">Cursor direito</string>
+    <string name="accessibility_torch">Lanterna</string>
+    <string name="accessibility_screenshot">Captura de ecrã</string>
+
+    <string name="app_killed_message">Aplicação fechada</string>
+
 </resources>
