@@ -108,11 +108,11 @@
     <string name="smartwake_settings_down_title">Trascina in basso per mettere in pausa musica</string>
     <string name="smartwake_settings_right_title">Trascina a destra per passare alla canzone successiva</string>
     <string name="smartwake_settings_left_title">Trascina a sinistra per passare alla canzone precedente</string>
-    <string name="smartwake_settings_c_title">Disegna c per riattivare</string>
-    <string name="smartwake_settings_w_title">Disegna w per riattivare</string>
-    <string name="smartwake_settings_e_title">Disegna e per riattivare</string>
-    <string name="smartwake_settings_o_title">Disegna o per riattivare</string>
-    <string name="smartwake_settings_m_title">Disegna m per riattivare</string>
+    <string name="smartwake_settings_c_title">Disegna c per attivare</string>
+    <string name="smartwake_settings_w_title">Disegna w per attivare</string>
+    <string name="smartwake_settings_e_title">Disegna e per attivare</string>
+    <string name="smartwake_settings_o_title">Disegna o per attivare</string>
+    <string name="smartwake_settings_m_title">Disegna m per attivare</string>
     <string name="smartwake_settings_select_app_title">Seleziona l\'applicazione</string>
     <string name="smartwake_settings_hint_search_app">Cerca</string>
 
@@ -450,14 +450,14 @@
     <string name="navigation_bar_background_title">Colore sfondo barra di navigazione</string>
 
     <!-- SlimDim -->
-    <string name="dim_nav_buttons_category_title">Attenuamento barra di navigazione</string>
-    <string name="dim_nav_buttons_category_summary">Opzioni attenuamento barra di navigazione in caso di inattività</string>
+    <string name="dim_nav_buttons_category_title">Attenuazione barra di navigazione</string>
+    <string name="dim_nav_buttons_category_summary">Opzioni attenuazione barra di navigazione in caso di inattività</string>
     <string name="dim_nav_buttons_title">Attenua pulsanti in caso di inattività</string>
     <string name="dim_nav_buttons_summary">Attenua pulsanti barra di navigazione dopo uno specifico periodo di inattività</string>
     <string name="dim_nav_buttons_timeout_title">Timeout prima dell\'attenuamento</string>
     <string name="dim_nav_buttons_timeout_summary">Periodo (in millisecondi) prima di attenuare i pulsanti</string>
-    <string name="dim_nav_buttons_alpha_title">Attenuamento alpha</string>
-    <string name="dim_nav_buttons_alpha_summary">Valore Alpha di attenuamento pulsanti</string>
+    <string name="dim_nav_buttons_alpha_title">Attenuazione alpha</string>
+    <string name="dim_nav_buttons_alpha_summary">Valore Alpha di attenuazione pulsanti</string>
     <string name="dim_nav_buttons_animate_title">Attenua animazione</string>
     <string name="dim_nav_buttons_animate_summary">Animazione del dissolvimento alpha</string>
     <string name="dim_nav_buttons_animate_duration_title">Durata animazione</string>
