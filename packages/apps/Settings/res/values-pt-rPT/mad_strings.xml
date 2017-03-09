@@ -100,6 +100,7 @@
 
     <!-- for smartwake -->
     <string name="smartwake_settings_title">Despertar Inteligente</string>
+    <string name="smartwake_settings_summary">Controlar gestos de despertar inteligente</string>
     <string name="smartwake_settings_category">Despertar Inteligente</string>
     <string name="smartwake_support_gestures">Gestos suportados</string>
     <string name="smartwake_settings_u_title">Duplo toque no ecrã p/ acordar</string>
