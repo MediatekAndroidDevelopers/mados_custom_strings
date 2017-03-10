@@ -178,7 +178,7 @@
     <string name="sensor_calibration_current_data_hint">Τρέχων δεδομένα αισθητήρα: </string>
     <string name="sensor_calibration_sensor_data_hint">Δεδομένα βαθμονόμησης του αισθητήρα: </string>
 
-    <string name="gyroscope_axis_switch">Εναλλαγή πάνω / κάτω στον κάθετο άξονα</strring>
+    <string name="gyroscope_axis_switch">Εναλλαγή πάνω / κάτω στον κάθετο άξονα</string>
 
     <!-- BandMode  Start -->
     <string name="query_result">Query απέτυχε</string>
