@@ -97,6 +97,10 @@
 
     <!-- madOS extras -->
     <string name="mad_settings_title">madOS Extras</string>
+    <!-- madOS extras-Categories -->
+    <string name="mad_interface">Interface</string>
+    <string name="mad_buttons">Buttons</string>
+    <string name="mad_system">System</string>
 
     <!-- for smartwake -->
     <string name="smartwake_settings_title">SmartWake</string>
