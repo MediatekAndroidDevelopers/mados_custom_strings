@@ -22,10 +22,11 @@
 * German translated by M.A.D. team & curtisy1
 * Portuguese (Portugal) translated by M.A.D. team & fusant
 * Portuguese (Brazil) translated by Aníbal Cézar Catheringer Ribeiro
-* Russian translated by Borizzz
+* Russian translated by Borizzz & Deepflex
 * French translated by Wandrille du Chalard
 * Greek translated by sokolataki
 * Chinese (Simplified) translated by Han Jian
 * Catalan translated by Si-nek
 * Italian translated by LucaT69
 * Spanish translated by Danic23
+* Hungarian translated by Fehér Ákos
