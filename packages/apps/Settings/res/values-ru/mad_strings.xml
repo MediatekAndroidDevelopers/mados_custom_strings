@@ -406,14 +406,14 @@
     <string name="navbar_behaviour_category_title">Общее поведение навигационной панели</string>
 
     <string name="navigation_bar_title">Кнопки и расположение</string>
-    <string name="navigation_bar_help_text">Тапните на иконку редактирования для открытия и изменения панели навигации.\n\Тапните на иконке для изменения её шортката или зажмите иконку для изменения её расположения.\n\nТапните на Сохранить для подтверждения изменений или на Восстановить для сброса к настройкам по умолчанию.</string>
+    <string name="navigation_bar_help_text">Тапните на иконку редактирования для открытия и изменения панели навигации.\n\nТапните на иконке для изменения её шортката или зажмите иконку для изменения её расположения.\n\nТапните на Сохранить для подтверждения изменений или на Восстановить для сброса к настройкам по умолчанию.</string>
     <string name="navigation_restore_button_text">Восстановить</string>
     <string name="navigation_edit_button_text">Изменить</string>
     <string name="navigation_save_button_text">Сохранить</string>
     <string name="navigation_bar_reset_message">Удалить текущие настройки и восстановить расположение по умолчанию?</string>
 
     <string name="nav_arrow_keys_title">Показывать стрелки курсора</string>
-    <string name="nav_arrow_keys_summary">Показывать стрелки влево и вправо во время ниабора текста</string>
+    <string name="nav_arrow_keys_summary">Показывать стрелки влево и вправо во время набора текста</string>
 
     <string name="nav_pixel_nav_title">Включить пиксельный дизайн</string>
     <string name="nav_pixel_nav_summary">Включает пиксельный стиль кнопки Домой</string>
