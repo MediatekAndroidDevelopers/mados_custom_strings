@@ -97,7 +97,12 @@
 
     <!-- M.A.D. extras -->
     <string name="mad_settings_title">M.A.D. Extras</string>
-
+     
+    <!-- madOS extras-Categories -->
+    <string name="mad_interface">Interfaccia</string>
+    <string name="mad_buttons">pulsanti</string>
+    <string name="mad_system">Sistema</string>
+     
     <!-- for smartwake -->
     <string name="smartwake_settings_title">SmartWake</string>
     <string name="smartwake_settings_summary">Controllo delle gestures SmartWake</string>
@@ -344,7 +349,7 @@
     <string name="status_bar_summary">Modifica aspetto e comportamento della barra di stato</string>
 
     <string name="quick_pulldown_title">Quick pulldown</string>
-    <string name="quick_pulldown_summary">Trascinare %1$s bordo della barra di stato per aprire Quick Settings</string>
+    <string name="quick_pulldown_summary">Trascinare in basso a %1$s la barra di stato per aprire pannello Quick Settings</string>
     <string name="quick_pulldown_summary_left">Sinistra</string>
     <string name="quick_pulldown_summary_right">Destra</string>
     <string name="quick_pulldown_off">Non attivo</string>
@@ -359,10 +364,10 @@
     <string name="scroll_settings_title">Impostazioni Scrolling</string>
     <string name="scroll_settings_summary">Cambia attrito e velocità di lancio</string>
     <string name="scroll_enabled_switch_title">(Dis)attiva impostazioni scroll</string>
-    <string name="scroll_friction_title">Attrito scroll</string>
-    <string name="custom_fling_velocity_title">Velocità di Scroll e lancio</string>
-    <string name="scroll_friction_summary">Livello di attrito applicato a scrolls e lancio</string>
-    <string name="custom_fling_velocity_summary">Velocità massima per avviare un lancio</string>
+    <string name="scroll_friction_title">Resistenza scroll (riduce fluidità)</string>
+    <string name="custom_fling_velocity_title">Velocità trascinamento schermate</string>
+    <string name="scroll_friction_summary">Livello di frizione applicato a scroll e trascinamento</string>
+    <string name="custom_fling_velocity_summary">Velocità trascinamento</string>
 
     <!-- Longpress Power torch -->
     <string name="long_press_power_for_torch_title">Pressione prolungata tasto accensione per attivare la torcia</string>
@@ -570,4 +575,68 @@
     <!-- MTK schedule power on/off -->
     <string name="schedule_power_on_off_settings_title">Programma accensione &amp; spegnimento</string>
 
+    <!-- PA Pie control -->
+    <string name="pa_piecontrol_settings_summary">Personalizza Pie (stili, dimensioni e colori)</string>
+    <string name="pa_pie_control_title">Controlli Pie</string>
+    <string name="pa_pie_control_enable_title">Abilita controlli Pie</string>
+    <string name="pa_pie_targets_title">Pie Targets</string>
+    <string name="pa_pie_style_title">Stile Pie</string>
+    <string name="pa_pie_menu_title">Mostra sempre pulsante menu</string>
+    <string name="pa_pie_menu_summary">Mostra o nascondi pulsante menu anche quando non necessario</string>
+    <string name="pa_pie_size_title">Dimensioni Pie</string>
+    <string name="pa_pie_size_summary">Dimensione controlli Pie</string>
+    <string name="pa_pie_size_small">Piccolo</string>
+    <string name="pa_pie_size_default">@string/pa_pie_mode_default</string>
+    <string name="pa_pie_size_large">Largo</string>
+    <string name="pa_pie_size_gigantic">Gigante</string>
+    <string name="pa_pie_size_monster">Mostruoso</string>
+    <string name="pa_pie_size_enormous">Enorme</string>
+    <string name="pa_pie_mode_default">Default</string>
+    <string name="pa_pie_gravity_title">Pie Gravity</string>
+    <string name="pa_pie_gravity_summary">Seleziona posizione Pie</string>
+    <string name="pa_pie_gravity_bottom">In basso</string>
+    <string name="pa_pie_gravity_right">Destra</string>
+    <string name="pa_pie_gravity_left">Sinistra</string>
+    <string name="pa_pie_gap_title">Distanza fra oggetti</string>
+    <string name="pa_pie_gap_summary">Regola distanza tra elementi Pie</string>
+    <string name="pa_pie_angle_title">Angolo Pie</string>
+    <string name="pa_pie_angle_summary">Regola angolo pie\'s rispetto al bordo</string>
+    <string name="pa_pie_angle_none">Nessuno (old)</string>
+    <string name="pa_pie_angle_small">Piccolo</string>
+    <string name="pa_pie_angle_big">Normale (default)</string>
+    <string name="pa_pie_angle_huge">Grande</string>
+    <string name="pa_pie_angle_super">Molto grande</string>
+    <string name="pa_pie_gap_none">Nessuno</string>
+    <string name="pa_pie_gap_small">Piccolo</string>
+    <string name="pa_pie_gap_big">Grande (default)</string>
+    <string name="pa_pie_gap_huge">Molto grande</string>
+    <string name="pa_pie_mode_title">Stile Pie</string>
+    <string name="pa_pie_mode_summary">Gestisci animazioni and modifiche di stato</string>
+    <string name="pa_pie_mode_bare">Essenziale</string>
+    <string name="pa_pie_mode_quick">Rapido</string>
+    <string name="pa_pie_mode_default">Default</string>
+    <string name="pa_pie_mode_slow">Lento</string>
+    <string name="pa_pie_lastapp_title">Ultima</string>
+    <string name="pa_pie_lastapp_summary">Abilita pulsante ultima app</string>
+    <string name="pa_pie_killtask_title">Kill Task</string>
+    <string name="pa_pie_killtask_summary">Abilita pulsante kill task</string>
+    <string name="pa_pie_notifications_title">Notifiche</string>
+    <string name="pa_pie_notifications_summary">Abilita pulsante notifiche</string>
+    <string name="pa_pie_settings_panel_title">Pannello Quick Settings</string>
+    <string name="pa_pie_settings_panel_summary">Abilita pulsante pannello quick settings</string>
+    <string name="pa_pie_screenshot_title">Screenshot</string>
+    <string name="pa_pie_screenshot_summary">Abilita pulsante screenshot</string>
+    <string name="pa_pie_color_title">Impostazioni colori Pie</string>
+    <string name="pa_pie_color_style_title">Stile colori Pie</string>
+    <string name="pa_pie_background_title">Colore sfondo</string>
+    <string name="pa_pie_select_title">Seleziona colore</string>
+    <string name="pa_pie_outlines_title">Colore contorno</string>
+    <string name="pa_pie_status_clock_title">Colore orologio</string>
+    <string name="pa_pie_status_title">Colore stato</string>
+    <string name="pa_pie_chevron_title">Chevron Color</string>
+    <string name="pa_pie_juice_title">Colore Batteria (Juice)</string>
+    <string name="pa_pie_button_color">Colore pulsanti</string>
+    <string name="pa_pie_button_color_title">Colore pulsanti</string>
+    <string name="pa_pie_always_right_title">Pie sempre a destra</string>
+    <string name="pa_pie_always_right_summary">Mostra Pie a destra anche in posizionamento orizzontale</string>
 </resources>
