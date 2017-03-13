@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2017 The madOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Reboot/Reboot Recovery QS Tile -->
+    <string name="quick_settings_reboot_label">Újraindítás</string>
+    <string name="quick_settings_reboot_recovery_label">Recovery</string>
+
+    <string name="switch_bar_auto">Auto</string>
+
+    <!-- Quick Settings tiles -->
+    <string name="quick_settings_screenshot_label">Képernyőmentés</string>
+    <string name="quick_settings_region_screenshot_label">Képernyőmentés részlet</string>
+    <string name="quick_settings_sync_label">Szinkronizáció</string>
+    <string name="accessibility_quick_settings_sync_off">Szinkronizáció ki</string>
+    <string name="accessibility_quick_settings_sync_on">Szinkronizáció be</string>
+    <string name="accessibility_quick_settings_sync_changed_off">Szinkronizáció kikapcsolva</string>
+    <string name="accessibility_quick_settings_sync_changed_on">Szinkronizáció bekapcsolva</string>
+    <string name="quick_settings_music_label">Zene</string>
+    <string name="quick_settings_music_play">Lejátszás</string>
+    <string name="quick_settings_music_pause">Szünet</string>
+    <string name="quick_settings_caffeine_label">Kávészünet</string>
+    <string name="accessibility_quick_settings_caffeine_off">Kávészünet ki</string>
+    <string name="accessibility_quick_settings_caffeine_on">Kávészünet be</string>
+
+    <!-- Screen pinning dialog description (for devices without navbar) -->
+    <string name="screen_pinning_description_no_navbar">Ez a nézetben tartja, amíg a rögzítést fel nem oldja. Érintse meg és tartsa nyomva a Vissza gombot a rögzítés feloldásához.</string>
+
+    <!-- NavBar Tuner -->
+    <string name="menu_ime_always_show">Menü / Billentyűzetváltó (mindig mutat)</string>
+    <string name="search">Keresés</string>
+
+    <!-- Dialog title for navigation bar button selection -->
+    <string name="navbar_dialog_title">Válasszon eseményt</string>
+    <string name="navbar_home_button">Kezdőgomb</string>
+    <string name="navbar_recent_button">Alkalmazás előzmények gomb</string>
+    <string name="navbar_search_button">Keresés gomb</string>
+    <string name="navbar_back_button">Vissza gomb</string>
+    <string name="navbar_empty_button">Üres gomb</string>
+    <string name="navbar_menu_conditional_button">Menü (auto elrejtés)</string>
+    <string name="navbar_menu_always_button">Menü (mindig látszik)</string>
+    <string name="navbar_menu_big_button">Menü gomb</string>
+    <string name="navbar_power_button">Bekapcsoló gomb</string>
+    <string name="navbar_notifications_button">Értesítési panel</string>
+    <string name="navbar_torch">Zseblámpa</string>
+    <string name="navbar_screenshot">Képernyőmentés</string>
+
+    <!-- Content description of the power button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_power">Kikapcsolás</string>
+    <string name="accessibility_notifications">Értesítési panel</string>
+    <string name="accessibility_dpad_left">Kurzor balra</string>
+    <string name="accessibility_dpad_right">Kurzor jobbra</string>
+    <string name="accessibility_torch">Zseblámpa</string>
+    <string name="accessibility_screenshot">Képernyőmentés</string>
+
+    <string name="app_killed_message">Alkalmazás kilőve</string>
+
+</resources>
