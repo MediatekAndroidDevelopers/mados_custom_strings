@@ -96,7 +96,11 @@
     <string name="profile_choose_app">Выбрать приложение</string>
 
     <!-- M.A.D. extras -->
-    <string name="mad_settings_title">Настройки M.A.D.</string>
+    <string name="mad_settings_title">Настройки madOS</string>
+    <!-- madOS extras-Categories -->
+    <string name="mad_interface">Интерфейс</string>
+    <string name="mad_buttons">Кнопки</string>
+    <string name="mad_system">Система</string>
 
     <!-- for smartwake -->
     <string name="smartwake_settings_title">SmartWake</string>
@@ -373,6 +377,12 @@
     <!-- General strings -->
     <string name="cancel">Отмена</string>
     <string name="save">Сохранить</string>
+    <string name="ok">OK</string>
+    <string name="reset">Сбросить</string>
+    <string name="help">Помощь</string>
+    <string name="attention">Внимание</string>
+    <string name="enabled">Включено</string>
+    <string name="add">Добавить</string>
 
     <!-- Battery customizations -->
     <string name="status_bar_battery_style_category">Батарея</string>
@@ -569,5 +579,74 @@
 
     <!-- MTK schedule power on/off -->
     <string name="schedule_power_on_off_settings_title">Включение и выключение по расписанию</string>
+    <string name="schedule_summary">Настройки вкл./выкл. по расписанию</string>
 
+    <!-- PA Pie -->
+    <string name="reset_paranoid">madOS</string>
+    <string name="reset_android">Android</string>
+
+    <!-- PA Pie control -->
+    <string name="pa_piecontrol_settings_summary">Настройки стиля, размера, цвета и целей Pie</string>
+    <string name="pa_pie_control_title">Настроить Pie</string>
+    <string name="pa_pie_control_enable_title">Включить управление Pie</string>
+    <string name="pa_pie_targets_title">Цели Pie</string>
+    <string name="pa_pie_style_title">Стиль Pie</string>
+    <string name="pa_pie_menu_title">Всегда показывать кнопку меню</string>
+    <string name="pa_pie_menu_summary">Всегда показывать кнопку меню, даже если она не нужна</string>
+    <string name="pa_pie_size_title">Размер Pie</string>
+    <string name="pa_pie_size_summary">Размер элементов управления Pie</string>
+    <string name="pa_pie_size_small">Маленький</string>
+    <string name="pa_pie_size_default">@string/pa_pie_mode_default</string>
+    <string name="pa_pie_size_large">Большой</string>
+    <string name="pa_pie_size_gigantic">Гигантский</string>
+    <string name="pa_pie_size_monster">Чудовищный</string>
+    <string name="pa_pie_size_enormous">Огромный</string>
+    <string name="pa_pie_mode_default">По умолчанию</string>
+    <string name="pa_pie_gravity_title">Расположение Pie</string>
+    <string name="pa_pie_gravity_summary">Выбор расположения Pie</string>
+    <string name="pa_pie_gravity_bottom">Внизу</string>
+    <string name="pa_pie_gravity_right">Справа</string>
+    <string name="pa_pie_gravity_left">Слева</string>
+    <string name="pa_pie_gap_title">Расстояние между элементами</string>
+    <string name="pa_pie_gap_summary">Настройка расстояния, отделяющего элементы Pie друг от друга</string>
+    <string name="pa_pie_angle_title">Угол Pie</string>
+    <string name="pa_pie_angle_summary">Настроить угол краёв Pie</string>
+    <string name="pa_pie_angle_none">Нет (старый)</string>
+    <string name="pa_pie_angle_small">Маленький</string>
+    <string name="pa_pie_angle_big">Нормальный (по умолчанию)</string>
+    <string name="pa_pie_angle_huge">Большой</string>
+    <string name="pa_pie_angle_super">Огромный</string>
+    <string name="pa_pie_gap_none">Нет</string>
+    <string name="pa_pie_gap_small">Маленькое</string>
+    <string name="pa_pie_gap_big">Большое (по умолчанию)</string>
+    <string name="pa_pie_gap_huge">Большое</string>
+    <string name="pa_pie_mode_title">Стиль Pie</string>
+    <string name="pa_pie_mode_summary">Управление обработкой анимациии и добавлением статуса</string>
+    <string name="pa_pie_mode_bare">Едва</string>
+    <string name="pa_pie_mode_quick">Быстро</string>
+    <string name="pa_pie_mode_default">По умолчанию</string>
+    <string name="pa_pie_mode_slow">Медленно</string>
+    <string name="pa_pie_lastapp_title">Последние приложения</string>
+    <string name="pa_pie_lastapp_summary">Включить кнопку последних приложений</string>
+    <string name="pa_pie_killtask_title">Снять задачу</string>
+    <string name="pa_pie_killtask_summary">Включить кнопку снятия задач/string>
+    <string name="pa_pie_notifications_title">Уведомления</string>
+    <string name="pa_pie_notifications_summary">Включить кнопку уведомлений</string>
+    <string name="pa_pie_settings_panel_title">Панель быстрых настроек</string>
+    <string name="pa_pie_settings_panel_summary">Включить кнопку показа открытой панели быстрых настроек</string>
+    <string name="pa_pie_screenshot_title">Снимок экрана</string>
+    <string name="pa_pie_screenshot_summary">Включить кнопку скнимка экрана</string>
+    <string name="pa_pie_color_title">Настройки цвета Pie</string>
+    <string name="pa_pie_color_style_title">Стиль цвета Pie</string>
+    <string name="pa_pie_background_title">Цвет фона</string>
+    <string name="pa_pie_select_title">Цвет выделения</string>
+    <string name="pa_pie_outlines_title">Цвет контура</string>
+    <string name="pa_pie_status_clock_title">Цвет часов</string>
+    <string name="pa_pie_status_title">Цвет статуса</string>
+    <string name="pa_pie_chevron_title">Цвет шеврона</string>
+    <string name="pa_pie_juice_title">Цвет батареи</string>
+    <string name="pa_pie_button_color">Цвет кнопки</string>
+    <string name="pa_pie_button_color_title">Цвет кнопок</string>
+    <string name="pa_pie_always_right_title">Pie всегда справа</string>
+    <string name="pa_pie_always_right_summary">Pie всегда быдет выводиться справа в горизонтальной ориентации</string>
 </resources>

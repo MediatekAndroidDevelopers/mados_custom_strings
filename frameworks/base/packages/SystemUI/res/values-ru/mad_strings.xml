@@ -23,7 +23,7 @@
 
     <!-- Quick Settings tiles -->
     <string name="quick_settings_screenshot_label">Скриншот</string>
-    <string name="quick_settings_region_screenshot_label">Позиционируемый скриншот</string>
+    <string name="quick_settings_region_screenshot_label">Скриншот области</string>
     <string name="quick_settings_sync_label">Синхр.</string>
     <string name="accessibility_quick_settings_sync_off">Выкл. синхр.</string>
     <string name="accessibility_quick_settings_sync_on">Вкл. синхр.</string>
