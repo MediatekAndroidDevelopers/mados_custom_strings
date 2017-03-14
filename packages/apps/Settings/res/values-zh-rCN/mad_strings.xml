@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
      Copyright (C) 2017 The madOS Project
-	 
+
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
-	 
+
           http://www.apache.org/licenses/LICENSE-2.0
-		  
+
      Unless required by applicable law or agreed to in writing, software
      distributed under the License is distributed on an "AS IS" BASIS,
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -95,8 +95,12 @@
     <!-- Add application dialog box title -->
     <string name="profile_choose_app">选择应用程序</string>
 
-    <!-- M.A.D. extras -->
-    <string name="mad_settings_title">M.A.D.设置</string>
+    <!-- madOS extras -->
+    <string name="mad_settings_title">madOS附加功能</string>
+    <!-- madOS extras-Categories -->
+    <string name="mad_interface">界面</string>
+    <string name="mad_buttons">按键</string>
+    <string name="mad_system">系统</string>
 
     <!-- for smartwake -->
     <string name="smartwake_settings_title">智能唤醒</string>
@@ -373,6 +377,12 @@
     <!-- General strings -->
     <string name="cancel">取消</string>
     <string name="save">保存</string>
+    <string name="ok">确定</string>
+    <string name="reset">重置</string>
+    <string name="help">帮助</string>
+    <string name="attention">注意</string>
+    <string name="enabled">启用</string>
+    <string name="add">添加</string>
 
     <!-- Battery customizations -->
     <string name="status_bar_battery_style_category">电池</string>
@@ -568,6 +578,75 @@
     <string name="clock_date_format_custom">自定义JAVA格式</string>
 
     <!-- MTK schedule power on/off -->
-    <string name="schedule_power_on_off_settings_title">定时电源 开启 &amp; 关闭</string>
+    <string name="schedule_power_on_off_settings_title">定时开关机</string>
+    <string name="schedule_summary">定时电源开启或关闭的设置</string>
 
+    <!-- PA Pie -->
+    <string name="reset_paranoid">madOS</string>
+    <string name="reset_android">Android</string>
+
+    <!-- PA Pie control -->
+    <string name="pa_piecontrol_settings_summary">自定义扇形控制的对象，样式，大小和颜色</string>
+    <string name="pa_pie_control_title">扇形控制</string>
+    <string name="pa_pie_control_enable_title">启用扇形控制</string>
+    <string name="pa_pie_targets_title">扇形对象</string>
+    <string name="pa_pie_style_title">扇形样式</string>
+    <string name="pa_pie_menu_title">始终显示菜单按钮</string>
+    <string name="pa_pie_menu_summary">是否即使其不需要，也始终显示菜单按钮？</string>
+    <string name="pa_pie_size_title">扇形大小</string>
+    <string name="pa_pie_size_summary">定义扇形控件大小</string>
+    <string name="pa_pie_size_small">小号</string>
+    <string name="pa_pie_size_default">正常</string>
+    <string name="pa_pie_size_large">大号</string>
+    <string name="pa_pie_size_gigantic">很大</string>
+    <string name="pa_pie_size_monster">超大</string>
+    <string name="pa_pie_size_enormous">极大</string>
+    <string name="pa_pie_mode_default">默认</string>
+    <string name="pa_pie_gravity_title">扇形重心</string>
+    <string name="pa_pie_gravity_summary">选择扇形控件放置的位置</string>
+    <string name="pa_pie_gravity_bottom">底部</string>
+    <string name="pa_pie_gravity_right">右边</string>
+    <string name="pa_pie_gravity_left">左边</string>
+    <string name="pa_pie_gap_title">项目间距</string>
+    <string name="pa_pie_gap_summary">调整扇形目标的间距</string>
+    <string name="pa_pie_angle_title">扇形角度</string>
+    <string name="pa_pie_angle_summary">调整扇形控件边缘的角度</string>
+    <string name="pa_pie_angle_none">空（旧的）</string>
+    <string name="pa_pie_angle_small">小号</string>
+    <string name="pa_pie_angle_big">正常（默认）</string>
+    <string name="pa_pie_angle_huge">大号</string>
+    <string name="pa_pie_angle_super">巨大</string>
+    <string name="pa_pie_gap_none">空</string>
+    <string name="pa_pie_gap_small">小号</string>
+    <string name="pa_pie_gap_big">大号（默认）</string>
+    <string name="pa_pie_gap_huge">巨大</string>
+    <string name="pa_pie_mode_title">扇形样式</string>
+    <string name="pa_pie_mode_summary">管理如何处理动画和附加状态</string>
+    <string name="pa_pie_mode_bare">透明</string>
+    <string name="pa_pie_mode_quick">极速</string>
+    <string name="pa_pie_mode_default">默认</string>
+    <string name="pa_pie_mode_slow">慢速</string>
+    <string name="pa_pie_lastapp_title">切换应用</string>
+    <string name="pa_pie_lastapp_summary">启用切换最后的应用程序按钮</string>
+    <string name="pa_pie_killtask_title">应用杀</string>
+    <string name="pa_pie_killtask_summary">启用应用杀按钮</string>
+    <string name="pa_pie_notifications_title">查看通知</string>
+    <string name="pa_pie_notifications_summary">启用查看通知按钮</string>
+    <string name="pa_pie_settings_panel_title">快速设置面板</string>
+    <string name="pa_pie_settings_panel_summary">启用展开快速设置面板按钮</string>
+    <string name="pa_pie_screenshot_title">截屏</string>
+    <string name="pa_pie_screenshot_summary">启用截屏按钮</string>
+    <string name="pa_pie_color_title">扇形颜色设置</string>
+    <string name="pa_pie_color_style_title">扇形颜色样式</string>
+    <string name="pa_pie_background_title">背景颜色</string>
+    <string name="pa_pie_select_title">选中颜色</string>
+    <string name="pa_pie_outlines_title">轮廓颜色</string>
+    <string name="pa_pie_status_clock_title">时钟颜色</string>
+    <string name="pa_pie_status_title">状态颜色</string>
+    <string name="pa_pie_chevron_title">外围颜色</string>
+    <string name="pa_pie_juice_title">电量颜色</string>
+    <string name="pa_pie_button_color">按钮颜色</string>
+    <string name="pa_pie_button_color_title">按钮颜色</string>
+    <string name="pa_pie_always_right_title">扇形总是在右边</string>
+    <string name="pa_pie_always_right_summary">在横屏时扇形总是显示在右边</string>
 </resources>
