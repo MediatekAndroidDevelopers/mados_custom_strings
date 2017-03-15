@@ -26,8 +26,9 @@
 * French translated by Wandrille du Chalard & Moyster
 * Greek translated by sokolataki
 * Chinese (Simplified) translated by Han Jian
+* Chinese (Traditional) translated by Han Jian
 * Catalan translated by Si-nek
 * Italian translated by LucaT69
-* Spanish translated by Danic23
+* Spanish translated by Danic23 & GeorgeRamga
 * Hungarian translated by Fehér Ákos
 * Polish translated by Kot Jarka

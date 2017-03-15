@@ -644,7 +644,7 @@
     <string name="pa_pie_status_clock_title">Color Hora</string>
     <string name="pa_pie_status_title">Color Información</string>
     <string name="pa_pie_chevron_title">Color Perímetro</string>
-    <string name="pa_pie_juice_title">Battery Juice Color</string>
+    <string name="pa_pie_juice_title">Color Batería</string>
     <string name="pa_pie_button_color">Color Botón</string>
     <string name="pa_pie_button_color_title">Color Botónes</string>
     <string name="pa_pie_always_right_title">Siempre a la derecha</string>
