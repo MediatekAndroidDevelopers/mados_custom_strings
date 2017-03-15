@@ -95,8 +95,12 @@
     <!-- Add application dialog box title -->
     <string name="profile_choose_app">Επιλογή εφαρμογής</string>
 
-    <!-- M.A.D. extras -->
-    <string name="mad_settings_title">M.A.D. Extras</string>
+    <!-- madOS extras -->
+    <string name="mad_settings_title">madOS Extras</string>
+    <!-- madOS extras-Categories -->
+    <string name="mad_interface">Διεπαφή</string>
+    <string name="mad_buttons">Πλήκτρα</string>
+    <string name="mad_system">Σύστημα</string>
 
     <!-- for smartwake -->
     <string name="smartwake_settings_title">SmartWake</string>
@@ -373,6 +377,12 @@
     <!-- General strings -->
     <string name="cancel">Ακύρωση</string>
     <string name="save">Αποθήκευση</string>
+    <string name="ok">OK</string>
+    <string name="reset">Επαναφορά</string>
+    <string name="help">Βοήθεια</string>
+    <string name="attention">Προσοχή</string>
+    <string name="enabled">Ενεργοποιημένο</string>
+    <string name="add">Προσθήκη</string>
 
     <!-- Battery customizations -->
     <string name="status_bar_battery_style_category">Μπαταρία</string>
@@ -549,9 +559,9 @@
     <string name="status_bar_clock_seconds_title">Εμφάνιση δευτερολέπτων</string>
     <string name="status_bar_am_pm_title">AM/PM</string>
     <string name="status_bar_am_pm_info">24-ώρο ειναί ενεργοποιημένο</string>
-    <string name="right_clock">Αριστερά</string>
+    <string name="right_clock">Δεξιά</string>
     <string name="center_clock">Κέντρο</string>
-    <string name="left_clock">Δεξιά</string>
+    <string name="left_clock">Αριστερά</string>
     <string name="clock_date_display">Ημερομηνία</string>
     <string name="clock_date_style">Στυλ ημερομηνίας</string>
     <string name="clock_date_position">Θέση ημερομηνίας</string>
@@ -569,5 +579,74 @@
 
     <!-- MTK schedule power on/off -->
     <string name="schedule_power_on_off_settings_title">Προγραμματισμένη ενεργοποίηση &amp; απενεργοποίηση</string>
+    <string name="schedule_summary">Ρυθμίσεις για προγραμματισμένη ενεργοποίηση/απενεργοποίηση</string>
 
+    <!-- PA Pie -->
+    <string name="reset_paranoid">madOS</string>
+    <string name="reset_android">Android</string>
+
+    <!-- PA Pie control -->
+    <string name="pa_piecontrol_settings_summary">Προσαρμόστε τα στοιχεία πίτας, στυλ, μέγεθος και χρώμα</string>
+    <string name="pa_pie_control_title">Έλεγχος πίτας</string>
+    <string name="pa_pie_control_enable_title">Ενεργοποίηση ελέγχου πίτας</string>
+    <string name="pa_pie_targets_title">Στοιχεία πίτας</string>
+    <string name="pa_pie_style_title">Στυλ πίτας</string>
+    <string name="pa_pie_menu_title">Εμφάνιση πάντα του πλήκτρου μενού</string>
+    <string name="pa_pie_menu_summary">Κατά πόσο ή όχι το πλήκτρο μενού θα εμφανίζεται πάντα, ακόμα και όταν δεν απαιτείται</string>
+    <string name="pa_pie_size_title">Μέγεθος πίτας</string>
+    <string name="pa_pie_size_summary">Ορίστε το μεγέθος της πίτα</string>
+    <string name="pa_pie_size_small">Μικρό</string>
+    <string name="pa_pie_size_default">@string/pa_pie_mode_default</string>
+    <string name="pa_pie_size_large">Μεγάλο</string>
+    <string name="pa_pie_size_gigantic">Γιγάντιο</string>
+    <string name="pa_pie_size_monster">Τερατώδες</string>
+    <string name="pa_pie_size_enormous">Τεράστιο</string>
+    <string name="pa_pie_mode_default">Προεπιλογή</string>
+    <string name="pa_pie_gravity_title">Θέση πίτας</string>
+    <string name="pa_pie_gravity_summary">Ορίστε τη θέση όπου θα τοποθετηθεί η πίτα</string>
+    <string name="pa_pie_gravity_bottom">Κάτω</string>
+    <string name="pa_pie_gravity_right">Δεξιά</string>
+    <string name="pa_pie_gravity_left">Αριστερά</string>
+    <string name="pa_pie_gap_title">Κενό πλήκτρων</string>
+    <string name="pa_pie_gap_summary">Ρυθμίστε το κενό μεταξύ των πλήκτρων της πίτας</string>
+    <string name="pa_pie_angle_title">Γωνία πίτας</string>
+    <string name="pa_pie_angle_summary">Ορίστε τη γωνίας του άκρου της πίτας από το περιεχόμενο</string>
+    <string name="pa_pie_angle_none">Κανένας </string>
+    <string name="pa_pie_angle_small">Μικρό</string>
+    <string name="pa_pie_angle_big">Κανονικό (προεπιλογή)</string>
+    <string name="pa_pie_angle_huge">Μεγάλο</string>
+    <string name="pa_pie_angle_super">Τεράστιο</string>
+    <string name="pa_pie_gap_none">Κανένα</string>
+    <string name="pa_pie_gap_small">Μικρό</string>
+    <string name="pa_pie_gap_big">Μεγάλο (προεπιλογή)</string>
+    <string name="pa_pie_gap_huge">Τεράστιο</string>
+    <string name="pa_pie_mode_title">Στυλ πίτας</string>
+    <string name="pa_pie_mode_summary">Διαχειριστείτε τις κινούμενες εικόνες και προσθήκες</string>
+    <string name="pa_pie_mode_bare">Βαρετό</string>
+    <string name="pa_pie_mode_quick">Γρήγορο</string>
+    <string name="pa_pie_mode_default">προεπιλογή</string>
+    <string name="pa_pie_mode_slow">Αργό</string>
+    <string name="pa_pie_lastapp_title">Τελευταία εφαρμογή</string>
+    <string name="pa_pie_lastapp_summary">Ενεργοποίηση πλήκτρου τελευταίας εφαρμογής</string>
+    <string name="pa_pie_killtask_title">Τερματισμός εργασίας</string>
+    <string name="pa_pie_killtask_summary">Ενεργοποίηση πλήκτρου τερματισμού εργασίας</string>
+    <string name="pa_pie_notifications_title">Ειδοποιήσεις</string>
+    <string name="pa_pie_notifications_summary">Ενεργοποίηση πλήκτρου ειδοποιήσεων</string>
+    <string name="pa_pie_settings_panel_title">Πάνελ Γρήγορων ρυθμίσεων</string>
+    <string name="pa_pie_settings_panel_summary">Ενεργοποίηση πλήκτρου γρήγορων ρυθμίσεων</string>
+    <string name="pa_pie_screenshot_title">Στιγμιότυπο οθόνης</string>
+    <string name="pa_pie_screenshot_summary">Ενεργοποίηση πλήκτρου στιγμιότυπου οθόνης</string>
+    <string name="pa_pie_color_title">Ρυθμίσεις χρώματος πίτας</string>
+    <string name="pa_pie_color_style_title">Στυλ χρώματος πίτας</string>
+    <string name="pa_pie_background_title">Χρώμα Φόντου</string>
+    <string name="pa_pie_select_title">Χρώμα Επιλογής</string>
+    <string name="pa_pie_outlines_title">Χρώμα εσωτερικού περιγράμματος</string>
+    <string name="pa_pie_status_clock_title">Χρώμα Ρολογιού</string>
+    <string name="pa_pie_status_title">Χρώμα Κατάστασης</string>
+    <string name="pa_pie_chevron_title">Χρώμα εξωτερικού περιγράμματος</string>
+    <string name="pa_pie_juice_title">Χρώμα Μπαταρίας</string>
+    <string name="pa_pie_button_color">Χρώμα Πλήκτρου</string>
+    <string name="pa_pie_button_color_title">Χρώμα Πλήκτρων</string>
+    <string name="pa_pie_always_right_title">Η πίτα πάντα στα δεξιά</string>
+    <string name="pa_pie_always_right_summary">Η πίτα πάντα θα εμφανίζεται στα δεξία όταν το κινητό βρίσκεται οριζόντια</string>
 </resources>

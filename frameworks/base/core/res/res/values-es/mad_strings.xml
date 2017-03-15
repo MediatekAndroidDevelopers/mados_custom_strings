@@ -27,7 +27,7 @@
     <string name="reboot_soft">Reinicio Suave</string>
     <!-- Restart Confirmation Dialog. -->
     <string name="reboot_confirm" product="tablet">Su tablet se reiniciará.</string>
-    <string name="reboot_confirm" product="default">Su teléfono se reiniciará..</string>
+    <string name="reboot_confirm" product="default">Su teléfono se reiniciará.</string>
     <!-- Restart Progress Dialog. This is shown if the user chooses to restart the phone. -->
     <string name="reboot_progress">Reiniciando\u2026</string>
 
