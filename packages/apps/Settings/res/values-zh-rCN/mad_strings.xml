@@ -176,7 +176,7 @@
     <string name="sensor_calibration_gsensor">加速计校准</string>
     <string name="sensor_calibration_gyroscope">陀螺仪校准</string>
     <string name="sensor_calibration_do_20">校准（20%误差）</string>
-    <string name="sensor_calibration_do_40">校准（20%误差）</string>
+    <string name="sensor_calibration_do_40">校准（40%误差）</string>
     <string name="sensor_calibration_clear">清除校准</string>
     <string name="sensor_calibration_note">注意：校准期间，手机必须保持静止在水平面上。</string>
     <string name="sensor_calibration_current_data_hint">传感器当前值：</string>
