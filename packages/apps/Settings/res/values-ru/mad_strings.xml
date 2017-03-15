@@ -629,7 +629,7 @@
     <string name="pa_pie_lastapp_title">Последние приложения</string>
     <string name="pa_pie_lastapp_summary">Включить кнопку последних приложений</string>
     <string name="pa_pie_killtask_title">Снять задачу</string>
-    <string name="pa_pie_killtask_summary">Включить кнопку снятия задач/string>
+    <string name="pa_pie_killtask_summary">Включить кнопку снятия задач</string>
     <string name="pa_pie_notifications_title">Уведомления</string>
     <string name="pa_pie_notifications_summary">Включить кнопку уведомлений</string>
     <string name="pa_pie_settings_panel_title">Панель быстрых настроек</string>
