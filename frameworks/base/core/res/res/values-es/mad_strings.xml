@@ -36,7 +36,7 @@
 
     <!-- Fast Charge -->
     <string name="fc_active_notification_title">Opciones de Carga Rápida </string>
-    <string name="fc_active_notification_message">"configurar Carga Rápida"</string>
+    <string name="fc_active_notification_message">Configurar Carga Rápida</string>
 
     <!-- Long-press back kill application -->
     <string name="app_killed_message">Aplicación Cerrada</string>
