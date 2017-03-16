@@ -492,7 +492,7 @@
     <string name="shortcut_action_wake_device">Réveiller l\'appareil</string>
     <string name="shortcut_action_kill">Tuer les apps en tâche de fond</string>
     <string name="shortcut_action_screenshot">Capture écran</string>
-    <string name="shortcut_action_screenshot_selected">Capture partielle d'\écran</string>
+    <string name="shortcut_action_screenshot_selected">Capture partielle d\'écran</string>
     <string name="shortcut_action_lastapp">Dernière app</string>
     <string name="shortcut_action_menu_big">Menu Big</string>
     <string name="shortcut_action_notifications">Notifications</string>

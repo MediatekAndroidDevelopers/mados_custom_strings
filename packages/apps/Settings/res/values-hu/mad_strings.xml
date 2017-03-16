@@ -95,8 +95,12 @@
     <!-- Add application dialog box title -->
     <string name="profile_choose_app">Válasszon alkalmazást</string>
 
-    <!-- M.A.D. extras -->
-    <string name="mad_settings_title">M.A.D. Extrák</string>
+    <!-- madOS extras -->
+    <string name="mad_settings_title">madOS Extrák</string>
+    <!-- madOS extras-Categories -->
+    <string name="mad_interface">Felület</string>
+    <string name="mad_buttons">Gombok</string>
+    <string name="mad_system">Rendszer</string>
 
     <!-- for smartwake -->
     <string name="smartwake_settings_title">Intelligens Ébresztés</string>
@@ -373,6 +377,12 @@
     <!-- General strings -->
     <string name="cancel">Mégsem</string>
     <string name="save">Mentés</string>
+    <string name="ok">OK</string>
+    <string name="reset">Visszaállítás</string>
+    <string name="help">Segítség</string>
+    <string name="attention">Figyelem</string>
+    <string name="enabled">Engedélyezve</string>
+    <string name="add">Hozzáadás</string>
 
     <!-- Battery customizations -->
     <string name="status_bar_battery_style_category">Akkumulátor</string>
@@ -569,5 +579,74 @@
 
     <!-- MTK schedule power on/off -->
     <string name="schedule_power_on_off_settings_title">Be- és kikapcsolás ütemezése</string>
+    <string name="schedule_summary">Be- és kikapcsolás ütemezésének beállításai</string>
 
+    <!-- PA Pie -->
+    <string name="reset_paranoid">madOS</string>
+    <string name="reset_android">Android</string>
+
+    <!-- PA Pie control -->
+    <string name="pa_piecontrol_settings_summary">PA Pie 2.0 elemek, stílus, méret és szín testreszabása</string>
+    <string name="pa_pie_control_title">Pie Vezérlés</string>
+    <string name="pa_pie_control_enable_title">Pie vezérlés engedélyezése</string>
+    <string name="pa_pie_targets_title">Pie Elemek</string>
+    <string name="pa_pie_style_title">Pie Stílus</string>
+    <string name="pa_pie_menu_title">Mindig mutatja a menü gombot</string>
+    <string name="pa_pie_menu_summary">A Menü gomb mindig látszódjon-e, még akkor is ha nem szükséges?</string>
+    <string name="pa_pie_size_title">Pie Méret</string>
+    <string name="pa_pie_size_summary">Pie vezérlő méretének meghatározása</string>
+    <string name="pa_pie_size_small">Kicsi</string>
+    <string name="pa_pie_size_default">@string/pa_pie_mode_default</string>
+    <string name="pa_pie_size_large">Nagy</string>
+    <string name="pa_pie_size_gigantic">Gigantikus</string>
+    <string name="pa_pie_size_monster">Óriás</string>
+    <string name="pa_pie_size_enormous">Hatalmas</string>
+    <string name="pa_pie_mode_default">Alapértelmezett</string>
+    <string name="pa_pie_gravity_title">Pie Helyzete</string>
+    <string name="pa_pie_gravity_summary">Pie vezérlő helyének meghatározása</string>
+    <string name="pa_pie_gravity_bottom">Alul</string>
+    <string name="pa_pie_gravity_right">Jobb</string>
+    <string name="pa_pie_gravity_left">Bal</string>
+    <string name="pa_pie_gap_title">Elem távolság</string>
+    <string name="pa_pie_gap_summary">Add meg a távolságot ami elválasztja a PIE elemeket</string>
+    <string name="pa_pie_angle_title">Pie Hajlítás</string>
+    <string name="pa_pie_angle_summary">Add meg a pie szélének a hajlítását a kellékektől</string>
+    <string name="pa_pie_angle_none">Nincs (régi)</string>
+    <string name="pa_pie_angle_small">Kicsi</string>
+    <string name="pa_pie_angle_big">Normál (alapértelmezett)</string>
+    <string name="pa_pie_angle_huge">Nagy</string>
+    <string name="pa_pie_angle_super">Hatalmas</string>
+    <string name="pa_pie_gap_none">Nincs</string>
+    <string name="pa_pie_gap_small">Kicsi</string>
+    <string name="pa_pie_gap_big">Nagy (alapértelmezett)</string>
+    <string name="pa_pie_gap_huge">Hatalmas</string>
+    <string name="pa_pie_mode_title">Pie Stílus</string>
+    <string name="pa_pie_mode_summary">Animációk és állapot változások kezelésének beállításai</string>
+    <string name="pa_pie_mode_bare">Csupasz</string>
+    <string name="pa_pie_mode_quick">Gyors</string>
+    <string name="pa_pie_mode_default">Alapértelmezett</string>
+    <string name="pa_pie_mode_slow">Lassú</string>
+    <string name="pa_pie_lastapp_title">Utolsó Alkalmazás</string>
+    <string name="pa_pie_lastapp_summary">Engedélyezi az utolsó alkalmazás gombot</string>
+    <string name="pa_pie_killtask_title">Feladat kilővése</string>
+    <string name="pa_pie_killtask_summary">Engedélyezi a feladat kilővése gombot</string>
+    <string name="pa_pie_notifications_title">Értesítések</string>
+    <string name="pa_pie_notifications_summary">Engedélyezi az értesítések gombot</string>
+    <string name="pa_pie_settings_panel_title">Gyors Beállítások Panel</string>
+    <string name="pa_pie_settings_panel_summary">Engedélyezi a kiterjesztett gyors beállítások panel gombot</string>
+    <string name="pa_pie_screenshot_title">Képernyőmentés</string>
+    <string name="pa_pie_screenshot_summary">Engedélyezi a képernyőmentés gombot</string>
+    <string name="pa_pie_color_title">Pie Szín Beállítások</string>
+    <string name="pa_pie_color_style_title">Pie Szín Stílus</string>
+    <string name="pa_pie_background_title">Háttérszín</string>
+    <string name="pa_pie_select_title">Kiválasztott elem színe</string>
+    <string name="pa_pie_outlines_title">Kontúr színe</string>
+    <string name="pa_pie_status_clock_title">Óra színe</string>
+    <string name="pa_pie_status_title">Állapotsáv színe</string>
+    <string name="pa_pie_chevron_title">Ék színe</string>
+    <string name="pa_pie_juice_title">Akkumulátor töltés színe</string>
+    <string name="pa_pie_button_color">Gomb színe</string>
+    <string name="pa_pie_button_color_title">Gombok színe</string>
+    <string name="pa_pie_always_right_title">Pie mindig a jobb oldalon</string>
+    <string name="pa_pie_always_right_summary">Pie mindig a jobb oldalon látszik fekvő módban is</string>
 </resources>
