@@ -68,4 +68,9 @@
 
     <string name="app_killed_message">Alkalmazás kilőve</string>
 
+    <!-- PA Pie controls -->
+    <string name="pie_date_format" translatable="false">ccc, dd MMM yyyy</string>
+    <string name="pie_hour_format_12" translatable="false">hh:mm</string>
+    <string name="pie_hour_format_24" translatable="false">HH:mm</string>
+    <string name="pie_am_pm" translatable="false">a</string>
 </resources>
