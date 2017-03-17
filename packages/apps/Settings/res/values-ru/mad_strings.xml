@@ -511,17 +511,17 @@
     <string name="shortcut_action_assist">Поиск</string>
 
     <!-- Sliding home -->
-    <string name="navbar_sliding_home_category">Скольжение по Домой</string>
-    <string name="navbar_sliding_home_enabled_title">Вкл. скольжение по кнопке Домой</string>
-    <string name="navbar_sliding_home_enabled_summary">Скольжение по Домой влево/вправо запускает действие</string>
-    <string name="navbar_sliding_home_left_title">Скольжение влево</string>
-    <string name="navbar_sliding_home_left_summary">Действие для выполнения при скольжении влево по Домой</string>
-    <string name="navbar_sliding_home_right_title">Скольжение вправо</string>
-    <string name="navbar_sliding_home_right_summary">Действие для выполнения при скольжении вправо по Домой</string>
+    <string name="navbar_sliding_home_category">Свайп по кл. Домой</string>
+    <string name="navbar_sliding_home_enabled_title">Вкл. свайп по кнопке Домой</string>
+    <string name="navbar_sliding_home_enabled_summary">Свайп по Домой влево/вправо запускает действие</string>
+    <string name="navbar_sliding_home_left_title">Свайп влево</string>
+    <string name="navbar_sliding_home_left_summary">Действие для выполнения при свайпе влево от кн. Домой</string>
+    <string name="navbar_sliding_home_right_title">Свайп вправо</string>
+    <string name="navbar_sliding_home_right_summary">Действие для выполнения при свайпе вправо от кн. Домой</string>
 
     <!-- double tap statusbar to sleep -->
-    <string name="double_tap_to_sleep_title">Даблтап для усыпления</string>
-    <string name="double_tap_to_sleep_summary">Дважды тапните на статусбаре для усыпления телефона</string>
+    <string name="double_tap_to_sleep_title">Двойной тап для выключения экрана</string>
+    <string name="double_tap_to_sleep_summary">Дважды тапните по статусбару для выключения экрана</string>
 
     <!-- Brightness control -->
     <string name="status_bar_toggle_brightness">Управление яркостью</string>
@@ -540,10 +540,10 @@
     <string name="show_network_traffic_all">Исходящий и входящий</string>
     <string name="show_network_traffic_bit">Бит/сек.</string>
     <string name="show_network_traffic_byte">Байт/сек.</string>
-    <string name="show_network_traffic_500">500 мсек</string>
-    <string name="show_network_traffic_1000">1000 мсек</string>
-    <string name="show_network_traffic_1500">1500 мсек</string>
-    <string name="show_network_traffic_2000">2000 мсек</string>
+    <string name="show_network_traffic_500">500 м/сек</string>
+    <string name="show_network_traffic_1000">1000 м/сек</string>
+    <string name="show_network_traffic_1500">1500 м/сек</string>
+    <string name="show_network_traffic_2000">2000 м/сек</string>
     <string name="network_traffic_autohide">Автоскрытие</string>
     <string name="network_traffic_autohide_summary">Скрывать индикатор скорости, когда нет активности</string>
     <string name="network_traffic_autohide_threshold">Отклонение неактивности</string>
@@ -586,43 +586,43 @@
     <string name="reset_android">Android</string>
 
     <!-- PA Pie control -->
-    <string name="pa_piecontrol_settings_summary">Настройки стиля, размера, цвета и целей Pie</string>
-    <string name="pa_pie_control_title">Настроить Pie</string>
-    <string name="pa_pie_control_enable_title">Включить управление Pie</string>
-    <string name="pa_pie_targets_title">Цели Pie</string>
-    <string name="pa_pie_style_title">Стиль Pie</string>
+    <string name="pa_piecontrol_settings_summary">Настройки стиля помощника нажатий</string>
+    <string name="pa_pie_control_title">Настроить помощника нажатий</string>
+    <string name="pa_pie_control_enable_title">Включить помощника нажатий</string>
+    <string name="pa_pie_targets_title">Функции помощника</string>
+    <string name="pa_pie_style_title">Внешний вид помощника</string>
     <string name="pa_pie_menu_title">Всегда показывать кнопку меню</string>
     <string name="pa_pie_menu_summary">Всегда показывать кнопку меню, даже если она не нужна</string>
-    <string name="pa_pie_size_title">Размер Pie</string>
-    <string name="pa_pie_size_summary">Размер элементов управления Pie</string>
+    <string name="pa_pie_size_title">Размер помощника</string>
+    <string name="pa_pie_size_summary">Размер элементов управления</string>
     <string name="pa_pie_size_small">Маленький</string>
     <string name="pa_pie_size_default">@string/pa_pie_mode_default</string>
-    <string name="pa_pie_size_large">Большой</string>
-    <string name="pa_pie_size_gigantic">Гигантский</string>
-    <string name="pa_pie_size_monster">Чудовищный</string>
+    <string name="pa_pie_size_large">Средний</string>
+    <string name="pa_pie_size_gigantic">Большой</string>
+    <string name="pa_pie_size_monster">Очень большой</string>
     <string name="pa_pie_size_enormous">Огромный</string>
     <string name="pa_pie_mode_default">По умолчанию</string>
-    <string name="pa_pie_gravity_title">Расположение Pie</string>
-    <string name="pa_pie_gravity_summary">Выбор расположения Pie</string>
-    <string name="pa_pie_gravity_bottom">Внизу</string>
+    <string name="pa_pie_gravity_title">Расположение помощника</string>
+    <string name="pa_pie_gravity_summary">Выбор расположения</string>
+    <string name="pa_pie_gravity_bottom">Снизу</string>
     <string name="pa_pie_gravity_right">Справа</string>
     <string name="pa_pie_gravity_left">Слева</string>
     <string name="pa_pie_gap_title">Расстояние между элементами</string>
-    <string name="pa_pie_gap_summary">Настройка расстояния, отделяющего элементы Pie друг от друга</string>
-    <string name="pa_pie_angle_title">Угол Pie</string>
-    <string name="pa_pie_angle_summary">Настроить угол краёв Pie</string>
-    <string name="pa_pie_angle_none">Нет (старый)</string>
+    <string name="pa_pie_gap_summary">Настройка расстояния между элементами управления</string>
+    <string name="pa_pie_angle_title">Углы помощника</string>
+    <string name="pa_pie_angle_summary">Настроить угол краёв элементов</string>
+    <string name="pa_pie_angle_none">Нет</string>
     <string name="pa_pie_angle_small">Маленький</string>
-    <string name="pa_pie_angle_big">Нормальный (по умолчанию)</string>
+    <string name="pa_pie_angle_big">По умолчанию</string>
     <string name="pa_pie_angle_huge">Большой</string>
     <string name="pa_pie_angle_super">Огромный</string>
     <string name="pa_pie_gap_none">Нет</string>
     <string name="pa_pie_gap_small">Маленькое</string>
-    <string name="pa_pie_gap_big">Большое (по умолчанию)</string>
+    <string name="pa_pie_gap_big">По умолчанию</string>
     <string name="pa_pie_gap_huge">Большое</string>
-    <string name="pa_pie_mode_title">Стиль Pie</string>
+    <string name="pa_pie_mode_title">Стиль помощьника</string>
     <string name="pa_pie_mode_summary">Управление обработкой анимациии и добавлением статуса</string>
-    <string name="pa_pie_mode_bare">Едва</string>
+    <string name="pa_pie_mode_bare">Без анимации</string>
     <string name="pa_pie_mode_quick">Быстро</string>
     <string name="pa_pie_mode_default">По умолчанию</string>
     <string name="pa_pie_mode_slow">Медленно</string>
@@ -636,8 +636,8 @@
     <string name="pa_pie_settings_panel_summary">Включить кнопку показа открытой панели быстрых настроек</string>
     <string name="pa_pie_screenshot_title">Снимок экрана</string>
     <string name="pa_pie_screenshot_summary">Включить кнопку скнимка экрана</string>
-    <string name="pa_pie_color_title">Настройки цвета Pie</string>
-    <string name="pa_pie_color_style_title">Стиль цвета Pie</string>
+    <string name="pa_pie_color_title">Настройки цвета помощника</string>
+    <string name="pa_pie_color_style_title">Стиль цвета помощника</string>
     <string name="pa_pie_background_title">Цвет фона</string>
     <string name="pa_pie_select_title">Цвет выделения</string>
     <string name="pa_pie_outlines_title">Цвет контура</string>
@@ -647,6 +647,6 @@
     <string name="pa_pie_juice_title">Цвет батареи</string>
     <string name="pa_pie_button_color">Цвет кнопки</string>
     <string name="pa_pie_button_color_title">Цвет кнопок</string>
-    <string name="pa_pie_always_right_title">Pie всегда справа</string>
-    <string name="pa_pie_always_right_summary">Pie всегда быдет выводиться справа в горизонтальной ориентации</string>
+    <string name="pa_pie_always_right_title">Помощник всегда справа</string>
+    <string name="pa_pie_always_right_summary">Помощник всегда быдет выводиться справа в горизонтальной ориентации</string>
 </resources>
