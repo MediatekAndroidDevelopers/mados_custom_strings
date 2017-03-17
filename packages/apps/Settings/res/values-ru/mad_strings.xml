@@ -511,13 +511,13 @@
     <string name="shortcut_action_assist">Поиск</string>
 
     <!-- Sliding home -->
-    <string name="navbar_sliding_home_category">Скольжение по Домой</string>
-    <string name="navbar_sliding_home_enabled_title">Вкл. скольжение по кнопке Домой</string>
-    <string name="navbar_sliding_home_enabled_summary">Скольжение по Домой влево/вправо запускает действие</string>
-    <string name="navbar_sliding_home_left_title">Скольжение влево</string>
-    <string name="navbar_sliding_home_left_summary">Действие для выполнения при скольжении влево по Домой</string>
-    <string name="navbar_sliding_home_right_title">Скольжение вправо</string>
-    <string name="navbar_sliding_home_right_summary">Действие для выполнения при скольжении вправо по Домой</string>
+    <string name="navbar_sliding_home_category">Свайп по кл. Домой</string>
+    <string name="navbar_sliding_home_enabled_title">Вкл. свайп по кнопке Домой</string>
+    <string name="navbar_sliding_home_enabled_summary">Свайп по Домой влево/вправо запускает действие</string>
+    <string name="navbar_sliding_home_left_title">Свайп влево</string>
+    <string name="navbar_sliding_home_left_summary">Действие для выполнения при свайпе влево от кн. Домой</string>
+    <string name="navbar_sliding_home_right_title">Свайп вправо</string>
+    <string name="navbar_sliding_home_right_summary">Действие для выполнения при свайпе вправо от кн. Домой</string>
 
     <!-- double tap statusbar to sleep -->
     <string name="double_tap_to_sleep_title">Двойной тап для выключения экрана</string>
@@ -586,14 +586,14 @@
     <string name="reset_android">Android</string>
 
     <!-- PA Pie control -->
-    <string name="pa_piecontrol_settings_summary">Настройки стиля помощьника нажатий</string>
-    <string name="pa_pie_control_title">Настроить помощьника нажатий</string>
-    <string name="pa_pie_control_enable_title">Включить помощьника нажатий</string>
-    <string name="pa_pie_targets_title">Функции помощьника</string>
-    <string name="pa_pie_style_title">Внешний вид помощьника</string>
+    <string name="pa_piecontrol_settings_summary">Настройки стиля помощника нажатий</string>
+    <string name="pa_pie_control_title">Настроить помощника нажатий</string>
+    <string name="pa_pie_control_enable_title">Включить помощника нажатий</string>
+    <string name="pa_pie_targets_title">Функции помощника</string>
+    <string name="pa_pie_style_title">Внешний вид помощника</string>
     <string name="pa_pie_menu_title">Всегда показывать кнопку меню</string>
     <string name="pa_pie_menu_summary">Всегда показывать кнопку меню, даже если она не нужна</string>
-    <string name="pa_pie_size_title">Размер помощьника</string>
+    <string name="pa_pie_size_title">Размер помощника</string>
     <string name="pa_pie_size_summary">Размер элементов управления</string>
     <string name="pa_pie_size_small">Маленький</string>
     <string name="pa_pie_size_default">@string/pa_pie_mode_default</string>
@@ -602,14 +602,14 @@
     <string name="pa_pie_size_monster">Очень большой</string>
     <string name="pa_pie_size_enormous">Огромный</string>
     <string name="pa_pie_mode_default">По умолчанию</string>
-    <string name="pa_pie_gravity_title">Расположение помощьника</string>
+    <string name="pa_pie_gravity_title">Расположение помощника</string>
     <string name="pa_pie_gravity_summary">Выбор расположения</string>
     <string name="pa_pie_gravity_bottom">Снизу</string>
     <string name="pa_pie_gravity_right">Справа</string>
     <string name="pa_pie_gravity_left">Слева</string>
     <string name="pa_pie_gap_title">Расстояние между элементами</string>
     <string name="pa_pie_gap_summary">Настройка расстояния между элементами управления</string>
-    <string name="pa_pie_angle_title">Углы помощьника</string>
+    <string name="pa_pie_angle_title">Углы помощника</string>
     <string name="pa_pie_angle_summary">Настроить угол краёв элементов</string>
     <string name="pa_pie_angle_none">Нет</string>
     <string name="pa_pie_angle_small">Маленький</string>
@@ -636,7 +636,7 @@
     <string name="pa_pie_settings_panel_summary">Включить кнопку показа открытой панели быстрых настроек</string>
     <string name="pa_pie_screenshot_title">Снимок экрана</string>
     <string name="pa_pie_screenshot_summary">Включить кнопку скнимка экрана</string>
-    <string name="pa_pie_color_title">Настройки цвета помощьника</string>
+    <string name="pa_pie_color_title">Настройки цвета помощника</string>
     <string name="pa_pie_color_style_title">Стиль цвета помощника</string>
     <string name="pa_pie_background_title">Цвет фона</string>
     <string name="pa_pie_select_title">Цвет выделения</string>
