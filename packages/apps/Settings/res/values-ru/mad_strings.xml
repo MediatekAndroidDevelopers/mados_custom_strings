@@ -637,7 +637,7 @@
     <string name="pa_pie_screenshot_title">Снимок экрана</string>
     <string name="pa_pie_screenshot_summary">Включить кнопку скнимка экрана</string>
     <string name="pa_pie_color_title">Настройки цвета помощьника</string>
-    <string name="pa_pie_color_style_title">Стиль цвета помощьника</string>
+    <string name="pa_pie_color_style_title">Стиль цвета помощника</string>
     <string name="pa_pie_background_title">Цвет фона</string>
     <string name="pa_pie_select_title">Цвет выделения</string>
     <string name="pa_pie_outlines_title">Цвет контура</string>
@@ -647,6 +647,6 @@
     <string name="pa_pie_juice_title">Цвет батареи</string>
     <string name="pa_pie_button_color">Цвет кнопки</string>
     <string name="pa_pie_button_color_title">Цвет кнопок</string>
-    <string name="pa_pie_always_right_title">Помощьник всегда справа</string>
-    <string name="pa_pie_always_right_summary">Помощьник всегда быдет выводиться справа в горизонтальной ориентации</string>
+    <string name="pa_pie_always_right_title">Помощник всегда справа</string>
+    <string name="pa_pie_always_right_summary">Помощник всегда быдет выводиться справа в горизонтальной ориентации</string>
 </resources>
