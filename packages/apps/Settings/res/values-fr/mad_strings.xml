@@ -130,7 +130,7 @@
 
     <!-- Performance settings  -->
     <string name="performance_settings_title">Performance</string>
-    <string name="performance_settings_summary">Réglage du gouverneur CPU et du planificateur d\'I/O</string>
+    <string name="performance_settings_summary">Réglage du gouverneur CPU et de l\'ordonnanceur d\'E/S </string>
 
     <!-- Performance Settings : Warning dialog  -->
     <string name="performance_settings_warning_title">Procédez avec prudence</string>
@@ -154,15 +154,15 @@
     <string name="cpu_set_on_boot_summary">Restaurer les paramètres du processeur au démarrage</string>
 
     <!-- Performance Settings : I/O scheduler settings title -->
-    <string name="io_scheds_title">Planificateur I/O </string>
+    <string name="io_scheds_title">Ordonnanceur d\'E/S </string>
     <!-- Performance Settings : I/O scheduler settings summary. -->
-    <string name="io_scheds_summary">Changer le planificateur I/O</string>
+    <string name="io_scheds_summary">Changer l\'ordonnanceur d\'E/S </string>
 
     <!-- Performance Settings : I/O scheduler settings sub items -->
-    <string name="io_sched_title">Planificateur I/O </string>
+    <string name="io_sched_title">Ordonnanceur d\'E/S </string>
     <string name="io_sched_summary">%S</string>
     <string name="io_sched_set_on_boot">Appliquer au demarage</string>
-    <string name="io_sched_set_on_boot_summary">Restaurer le planificateur I/O au démarrage</string>
+    <string name="io_sched_set_on_boot_summary">Restaurer l\'ordonnanceur d\'E/S au démarrage</string>
 
     <!-- Sensor Calibration -->
     <string name="sensor_calibration_title">Calibration capteur</string>
