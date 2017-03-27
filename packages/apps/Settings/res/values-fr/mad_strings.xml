@@ -542,7 +542,7 @@
 
     <!-- Clock settings -->
     <string name="clock_settings_title">Paramètres de l\'horloge</string>
-    <string name="clock_settings_summary">Options personnalisées d'horloge &amp; date</string>
+    <string name="clock_settings_summary">Options personnalisées d\'horloge &amp; date</string>
     <!-- clock date options -->
     <string name="clock_title_enable">Alignement</string>
     <string name="status_bar_show_clock_title">Montrer l\'horloge et la date</string>
