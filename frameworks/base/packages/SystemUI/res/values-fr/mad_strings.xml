@@ -23,25 +23,25 @@
 
     <!-- Quick Settings tiles -->
     <string name="quick_settings_screenshot_label">Capture d\'écran</string>
-    <string name="quick_settings_region_screenshot_label">capture partielle d'écran</string>
-    <string name="quick_settings_sync_label">synchronisation</string>
-    <string name="accessibility_quick_settings_sync_off">synchronisation éteint</string>
-    <string name="accessibility_quick_settings_sync_on">synchronisation allumé</string>
+    <string name="quick_settings_region_screenshot_label">Capture partielle d'écran</string>
+    <string name="quick_settings_sync_label">Synchronisation</string>
+    <string name="accessibility_quick_settings_sync_off">Synchronisation désactivé</string>
+    <string name="accessibility_quick_settings_sync_on">Synchronisation activé</string>
     <string name="accessibility_quick_settings_sync_changed_off">Désactivation de la synchronisation </string>
-    <string name="accessibility_quick_settings_sync_changed_on">activation de la synchronisation</string>
+    <string name="accessibility_quick_settings_sync_changed_on">Activation de la synchronisation</string>
     <string name="quick_settings_music_label">Musique</string>
     <string name="quick_settings_music_play">Lecture</string>
     <string name="quick_settings_music_pause">Pause</string>
     <string name="quick_settings_caffeine_label">Caffeine</string>
-    <string name="accessibility_quick_settings_caffeine_off">Caffeine éteint</string>
-    <string name="accessibility_quick_settings_caffeine_on">Caffeine allumé</string>
+    <string name="accessibility_quick_settings_caffeine_off">Caffeine désactivé</string>
+    <string name="accessibility_quick_settings_caffeine_on">Caffeine activé</string>
 
     <!-- Screen pinning dialog description (for devices without navbar) -->
-    <string name="screen_pinning_description_no_navbar">Cela le maintiendra en vue jusqu'à ce que vous débloquer. Appuyez et maintenez le bouton Précédent pour débloquer.</string>
+    <string name="screen_pinning_description_no_navbar">Cela le gardera visible jusqu'à ce que vous débloquer. Appuyez et maintenez le bouton Précédent pour débloquer.</string>
 
     <!-- NavBar Tuner -->
     <string name="menu_ime_always_show">Menu/Sélecteur de clavier(toujours affiché)</string>
-    <string name="search">recherche</string>
+    <string name="search">Recherche</string>
 
     <!-- Dialog title for navigation bar button selection -->
     <string name="navbar_dialog_title">Choisir une action a assigner</string>
@@ -59,11 +59,11 @@
     <string name="navbar_screenshot">Capture d\'écran</string>
 
     <!-- Content description of the power button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
-    <string name="accessibility_power">allumer</string>
+    <string name="accessibility_power">Allumer</string>
     <string name="accessibility_notifications">Notifications</string>
     <string name="accessibility_dpad_left">Curseur gauche</string>
     <string name="accessibility_dpad_right">Curseur droit</string>
-    <string name="accessibility_torch">Lampe</string>
+    <string name="accessibility_torch">Lampe torche</string>
     <string name="accessibility_screenshot">Capture d\'écran</string>
 
     <string name="app_killed_message">Tuer l\'App</string>
