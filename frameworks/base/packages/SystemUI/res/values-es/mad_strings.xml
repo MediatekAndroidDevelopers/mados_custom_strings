@@ -54,7 +54,7 @@
     <string name="navbar_menu_always_button">Botón Menú (Mostrar siempre)</string>
     <string name="navbar_menu_big_button">Botón Menú</string>
     <string name="navbar_power_button">Botón Encendido</string>
-    <string name="navbar_notifications_button">Botón Notificaciones<string>
+    <string name="navbar_notifications_button">Botón Notificaciones</string>
     <string name="navbar_torch">Linterna</string>
     <string name="navbar_screenshot">Captura</string>
 
