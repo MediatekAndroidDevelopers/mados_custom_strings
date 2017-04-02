@@ -181,6 +181,7 @@
     <string name="sensor_calibration_note">NOTE: The phone must stay still on a horizontal plane during calibration.</string>
     <string name="sensor_calibration_current_data_hint">Sensor current data: </string>
     <string name="sensor_calibration_sensor_data_hint">Sensor calibration data: </string>
+    <string name="sensor_calibration_success">Calibration succeeded</string>
 
     <string name="gyroscope_axis_switch">Switch up/down on vertical axis</string>
 
@@ -300,8 +301,21 @@
     <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
     <string name="app_ops_settings_summary">View or change app permissions</string>
 
-    <!-- > Substratum /layers4.0 -->
+    <!-- Substratum -->
     <string name="substratum_title">Substratum</string>
+    <!-- Manage applications: show substratum overlays -->
+    <string name="filter_substratum_apps">Substratum overlays</string>
+    <string name="menu_show_substratum">Show overlays</string>
+    <string name="menu_hide_substratum">Hide overlays</string>
+
+    <!-- Manage applications: show substratum icon overlays -->
+    <string name="filter_substratum_icons">Substratum icon overlays</string>
+    <string name="menu_show_substratum_icons">Show icon overlays</string>
+    <string name="menu_hide_substratum_icons">Hide icon overlays</string>
+
+    <!-- Force authorize substratum packages -->
+    <string name="force_authorize_substratum_packages_title">Force authorize every theme app</string>
+    <string name="force_authorize_substratum_packages_summary">Allow theme apps from unknown sources</string>
 
     <string name="sim_color_bar_title">Colorize signal bar</string>
 
