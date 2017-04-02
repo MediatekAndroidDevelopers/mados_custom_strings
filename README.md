@@ -32,3 +32,4 @@
 * Spanish translated by Danic23 & GeorgeRamga
 * Hungarian translated by Fehér Ákos
 * Polish translated by Kot Jarka
+* Malayalam translated by Abdul Majeed MP

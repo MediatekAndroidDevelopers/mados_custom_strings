@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2017 The madOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Reboot/Reboot Recovery QS Tile -->
+    <string name="quick_settings_reboot_label">പുനരാരംഭിക്കുക</string>
+    <string name="quick_settings_reboot_recovery_label">വീണ്ടെടുക്കൽ</string>
+
+    <string name="switch_bar_auto">യാന്ത്രികം</string>
+
+    <!-- Quick Settings tiles -->
+    <string name="quick_settings_screenshot_label">സ്ക്രീൻഷോട്ട്</string>
+    <string name="quick_settings_region_screenshot_label">ഭാഗിക സ്ക്രീൻഷോട്ട്</string>
+    <string name="quick_settings_sync_label">സമന്വയം</string>
+    <string name="accessibility_quick_settings_sync_off">വേർപ്പെടുത്തുക</string>
+    <string name="accessibility_quick_settings_sync_on">സമന്വയിപ്പിക്കുക</string>
+    <string name="accessibility_quick_settings_sync_changed_off">വേർപ്പെടുത്തിയിരിക്കുന്നു</string>
+    <string name="accessibility_quick_settings_sync_changed_on">സമന്വയപ്പെടുത്തിയിരിക്കുന്നു</string>
+    <string name="quick_settings_music_label">സംഗീതം</string>
+    <string name="quick_settings_music_play">ആരംഭിക്കുക</string>
+    <string name="quick_settings_music_pause">വിരാമമിടുക</string>
+    <string name="quick_settings_caffeine_label">ഉത്തേജകം</string>
+    <string name="accessibility_quick_settings_caffeine_off">ഉത്തേജകം  നിർത്തുക</string>
+    <string name="accessibility_quick_settings_caffeine_on">ഉത്തേജകം തുടങ്ങുക</string>
+
+    <!-- Screen pinning dialog description (for devices without navbar) -->
+    <string name="screen_pinning_description_no_navbar">നിങ്ങൾ ഒഴിവാക്കുന്നത് വരെ ഇത് കാഴ്ച നിലനിർത്തുന്നു. ഒഴിവാക്കാൻ വേണ്ടി തിരികെ ബട്ടൺ  അമർത്തിപ്പിടിക്കുക.</string>
+
+    <!-- NavBar Tuner -->
+    <string name="menu_ime_always_show">വിഭവങ്ങൾ / കീബോർഡ് വെച്ചുമാറൽ  (എപ്പോഴും കാണിക്കുക)</string>
+    <string name="search">തിരച്ചിൽ</string>
+
+    <!-- Dialog title for navigation bar button selection -->
+    <string name="navbar_dialog_title">നിർണയിക്കുന്നതിനായി ഒരു പ്രവർത്തനം തിരഞ്ഞെടുക്കുക</string>
+    <string name="navbar_home_button">ഗൃഹ ബട്ടൺ</string>
+    <string name="navbar_recent_button">സമീപകാല ബട്ടൺ</string>
+    <string name="navbar_search_button">തിരച്ചിൽ ബട്ടൺ</string>
+    <string name="navbar_back_button">തിരികെ ബട്ടൺ </string>
+    <string name="navbar_empty_button">ശൂന്യമായ ബട്ടൺ </string>
+    <string name="navbar_menu_conditional_button">വിഭവങ്ങൾ (യാന്ത്രികമായി മറയുന്ന) ബട്ടൺ </string>
+    <string name="navbar_menu_always_button">വിഭവങ്ങൾ (എപ്പോഴും കാണിക്കുന്ന) ബട്ടൺ </string>
+    <string name="navbar_menu_big_button">വിഭവങ്ങൾ ബട്ടൺ </string>
+    <string name="navbar_power_button">പവർ ബട്ടൺ </string>
+    <string name="navbar_notifications_button">അറിയിപ്പ് ബട്ടൺ </string>
+    <string name="navbar_torch">പന്തം / ടോർച്ച്</string>
+    <string name="navbar_screenshot">സ്ക്രീൻഷോട്</string>
+
+    <!-- Content description of the power button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_power">പവർ</string>
+    <string name="accessibility_notifications">അറിയിപ്പുകൾ</string>
+    <string name="accessibility_dpad_left">കഴ്‌സർ ഇടത്തേക്ക്</string>
+    <string name="accessibility_dpad_right">കഴ്‌സർ വലത്തേക്ക്t</string>
+    <string name="accessibility_torch">പന്തം / ടോർച്ച്</string>
+    <string name="accessibility_screenshot">സ്ക്രീൻഷോട്</string>
+
+    <string name="app_killed_message">അപ്ലിക്കേഷൻ നിർത്തപ്പെട്ടു</string>
+
+</resources>
