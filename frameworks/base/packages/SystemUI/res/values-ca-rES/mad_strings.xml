@@ -45,7 +45,7 @@
 
     <!-- Dialog title for navigation bar button selection -->
     <string name="navbar_dialog_title">Tria una acció per assignar</string>
-    <string name="navbar_home_button">Botó d'inici</string>
+    <string name="navbar_home_button">Botó d\'inici</string>
     <string name="navbar_recent_button">Botó de recents</string>
     <string name="navbar_search_button">Botó de cerca</string>
     <string name="navbar_back_button">Botó Enrrera</string>
@@ -53,7 +53,7 @@
     <string name="navbar_menu_conditional_button">Botó (amagarAutomàticament) de menú</string>
     <string name="navbar_menu_always_button">Botó mostrarSempre) de menú</string>
     <string name="navbar_menu_big_button">Botó de menú</string>
-    <string name="navbar_power_button">Botó d'encesa</string>
+    <string name="navbar_power_button">Botó d\'encesa</string>
     <string name="navbar_notifications_button">Botó de notificacions</string>
     <string name="navbar_torch">Torch</string>
     <string name="navbar_screenshot">Captura de pantalla</string>

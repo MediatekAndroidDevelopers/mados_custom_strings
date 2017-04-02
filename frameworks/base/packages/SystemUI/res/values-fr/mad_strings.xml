@@ -23,7 +23,7 @@
 
     <!-- Quick Settings tiles -->
     <string name="quick_settings_screenshot_label">Capture d\'écran</string>
-    <string name="quick_settings_region_screenshot_label">Capture partielle d'écran</string>
+    <string name="quick_settings_region_screenshot_label">Capture partielle d\'écran</string>
     <string name="quick_settings_sync_label">Synchronisation</string>
     <string name="accessibility_quick_settings_sync_off">Synchronisation désactivé</string>
     <string name="accessibility_quick_settings_sync_on">Synchronisation activé</string>
@@ -37,7 +37,7 @@
     <string name="accessibility_quick_settings_caffeine_on">Caffeine activé</string>
 
     <!-- Screen pinning dialog description (for devices without navbar) -->
-    <string name="screen_pinning_description_no_navbar">Cela le gardera visible jusqu'à ce que vous débloquer. Appuyez et maintenez le bouton Précédent pour débloquer.</string>
+    <string name="screen_pinning_description_no_navbar">Cela le gardera visible jusqu\'à ce que vous débloquer. Appuyez et maintenez le bouton Précédent pour débloquer.</string>
 
     <!-- NavBar Tuner -->
     <string name="menu_ime_always_show">Menu/Sélecteur de clavier(toujours affiché)</string>
