@@ -181,6 +181,7 @@
     <string name="sensor_calibration_note">При калибровке телефон должен лежать неподвижно на горизонтальной поверхности.</string>
     <string name="sensor_calibration_current_data_hint">Текущее значение сенсора: </string>
     <string name="sensor_calibration_sensor_data_hint">Значение калибровки сенсора:</string>
+    <string name="sensor_calibration_success">Калибровка успешна</string>
 
     <string name="gyroscope_axis_switch">Сменить верх/низ по вертикали</string>
 
@@ -292,7 +293,7 @@
     <string name="TDD_Btn_SET">SET</string>
     <!-- TDD Band Select end -->
 
-    <string name="set_success_title">Настройка успена</string>
+    <string name="set_success_title">Настройка успешна</string>
 
     <!-- > App Ops -->
     <!-- [CHAR LIMIT=NONE] App ops settings title, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
@@ -300,8 +301,21 @@
     <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
     <string name="app_ops_settings_summary">Посмотреть или настроить разрешения</string>
 
-    <!-- > Substratum /layers4.0 -->
+    <!-- Substratum -->
     <string name="substratum_title">Substratum</string>
+    <!-- Manage applications: show substratum overlays -->
+    <string name="filter_substratum_apps">Оверлеи Substratum</string>
+    <string name="menu_show_substratum">Показать оверлеи</string>
+    <string name="menu_hide_substratum">Скрыть оверлеи</string>
+
+    <!-- Manage applications: show substratum icon overlays -->
+    <string name="filter_substratum_icons">Оверлеи иконок Substratum</string>
+    <string name="menu_show_substratum_icons">Показывать оверлеи иконок</string>
+    <string name="menu_hide_substratum_icons">Скрыть оверлеи иконок</string>
+
+    <!-- Force authorize substratum packages -->
+    <string name="force_authorize_substratum_packages_title">Принудительно авторизовывать приложения тем</string>
+    <string name="force_authorize_substratum_packages_summary">Разрешить приложения тем из неизвестных источников</string>
 
     <string name="sim_color_bar_title">Цвет уровней сети</string>
 
@@ -648,5 +662,5 @@
     <string name="pa_pie_button_color">Цвет кнопки</string>
     <string name="pa_pie_button_color_title">Цвет кнопок</string>
     <string name="pa_pie_always_right_title">Pie всегда справа</string>
-    <string name="pa_pie_always_right_summary">Pie всегда быдет выводиться справа в горизонтальной ориентации</string>
+    <string name="pa_pie_always_right_summary">Pie всегда будет выводиться справа в горизонтальной ориентации</string>
 </resources>
