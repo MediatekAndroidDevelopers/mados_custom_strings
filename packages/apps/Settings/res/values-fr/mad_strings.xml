@@ -177,6 +177,7 @@
     <string name="sensor_calibration_note">REMARQUE: Le téléphone doit rester immobile sur une surface plane pendant le calibrage.</string>
     <string name="sensor_calibration_current_data_hint">Données actuelles du capteur: </string>
     <string name="sensor_calibration_sensor_data_hint">Données d\'étalonnage du capteur: </string>
+    <string name="sensor_calibration_success">Calibration réussie</string>
 
     <string name="gyroscope_axis_switch">Basculer vers le haut/bas sur l\'axe vertical</string>
 
@@ -296,8 +297,21 @@
     <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
     <string name="app_ops_settings_summary">Afficher ou modifier les autorisations d\'application</string>
 
-    <!-- > Substratum /layers4.0 -->
+    <!-- Substratum -->
     <string name="substratum_title">Substratum</string>
+    <!-- Manage applications: show substratum overlays -->
+    <string name="filter_substratum_apps">Substratum overlays</string>
+    <string name="menu_show_substratum">Montrer les overlays</string>
+    <string name="menu_hide_substratum">Cacher les overlays</string>
+
+    <!-- Manage applications: show substratum icon overlays -->
+    <string name="filter_substratum_icons">Substratum icon overlays</string>
+    <string name="menu_show_substratum_icons">Montrer icon overlays</string>
+    <string name="menu_hide_substratum_icons">Cacher icon overlays</string>
+
+    <!-- Force authorize substratum packages -->
+    <string name="force_authorize_substratum_packages_title">Force authorize every theme app</string>
+    <string name="force_authorize_substratum_packages_summary">Accepter les applications-thèmes de sources inconnues</string>
 
     <string name="sim_color_bar_title">Coloriser la barre de signalisation</string>
 
@@ -511,7 +525,7 @@
 
     <!-- double tap statusbar to sleep -->
     <string name="double_tap_to_sleep_title">Double-tap to sleep</string>
-    <string name="double_tap_to_sleep_summary">Double tap on the status bar to put the device to sleep</string>
+    <string name="double_tap_to_sleep_summary">Double tape sur la barre de status pour mettre l\'appareil en veille</string>
 
     <!-- Brightness control -->
     <string name="status_bar_toggle_brightness">Contrôle de la luminosité</string>
