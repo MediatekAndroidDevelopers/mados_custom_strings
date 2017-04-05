@@ -181,6 +181,7 @@
     <string name="sensor_calibration_note">FIGYELEM: A készülék vízszintes felületen feküdjön a kalibráció ideje alatt.</string>
     <string name="sensor_calibration_current_data_hint">Szenzor aktuális adata: </string>
     <string name="sensor_calibration_sensor_data_hint">Szenzor kalibrációs adata: </string>
+    <string name="sensor_calibration_success">Sikeres kalibráció</string>
 
     <string name="gyroscope_axis_switch">Függőleges tengely fel/le irányainak cseréje</string>
 
@@ -300,8 +301,21 @@
     <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
     <string name="app_ops_settings_summary">Alkalmazás engedélyek megtekintése és módosítása</string>
 
-    <!-- > Substratum /layers4.0 -->
+    <!-- Substratum -->
     <string name="substratum_title">Fedvények</string>
+    <!-- Manage applications: show substratum overlays -->
+    <string name="filter_substratum_apps">Fedvény rétegek</string>
+    <string name="menu_show_substratum">Rétegek mutatása</string>
+    <string name="menu_hide_substratum">Rétegek elrejtése</string>
+
+    <!-- Manage applications: show substratum icon overlays -->
+    <string name="filter_substratum_icons">Fedvény ikon rétegek</string>
+    <string name="menu_show_substratum_icons">Ikon rétegek mutatása</string>
+    <string name="menu_hide_substratum_icons">Ikon rétegek elrejtése</string>
+
+    <!-- Force authorize substratum packages -->
+    <string name="force_authorize_substratum_packages_title">Minden téma alkalmazás erőltetett engedélyezése</string>
+    <string name="force_authorize_substratum_packages_summary">Téma alkalmazás engedélyezése ismeretlen forrásokból</string>
 
     <string name="sim_color_bar_title">Jelzés sáv színezése</string>
 
