@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2017 The madOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="permlab_preventpower">പവർ കീ മറികടക്കുക</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_preventpower">ഒരു അപ്ലിക്കേഷൻ പവർ കീ മറികടക്കാൻ അനുവദിക്കുന്നു.</string>
+
+    <!-- Button to restart the phone in restart menu -->
+    <string name="reboot_reboot">പുനരാരംഭിക്കുക</string>
+    <!-- Button to restart the phone into recovery in restart menu -->
+    <string name="reboot_recovery">വീണ്ടെടുക്കൽ</string>
+    <!-- Button to soft restart the device in restart menu -->
+    <string name="reboot_soft">മൃദു പുനരാരംഭം</string>
+    <!-- Restart Confirmation Dialog. -->
+    <string name="reboot_confirm" product="tablet">നിങ്ങളുടെ ടാബ് ലെറ്റ് പുനരാരംഭിക്കും.</string>
+    <string name="reboot_confirm" product="default">നിങ്ങളുടെ ഫോൺ പുനരാരംഭിക്കും.</string>
+    <!-- Restart Progress Dialog. This is shown if the user chooses to restart the phone. -->
+    <string name="reboot_progress">പുനരാരംഭിക്കുന്നു\u2026</string>
+
+    <!-- label for item that screenshots in phone options dialog -->
+    <string name="global_action_screenshot">സ്ക്രീൻഷോട്ട്</string>
+
+    <!-- Fast Charge -->
+    <string name="fc_active_notification_title">ഫാസ്റ്റ് ചാർജ് ക്രമീകരണങ്ങൾ</string>
+    <string name="fc_active_notification_message">"ഫാസ്റ്റ് ചാർജ് ക്രമീകരണങ്ങൾക്കായി സ്പർശിക്കുക"</string>
+
+    <!-- Long-press back kill application -->
+    <string name="app_killed_message">അപ്ലിക്കേഷൻ നിർത്തി</string>
+
+    <!-- Notify user that they are in Lock-to-app (for devices without navbar) -->
+    <string name="lock_to_app_toast_no_navbar">ഈ സ്‌ക്രീനിന്റെ പിന് ഒഴിവാക്കാൻ  ബാക്ക് ബട്ടൺ അമർത്തി പിടിക്കുക.</string>
+</resources>

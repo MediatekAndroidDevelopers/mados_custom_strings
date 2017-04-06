@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+     Copyright (C) 2017 The madOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Buttons -->
+    <string name="buttons_pref_title">ബട്ടണുകൾ</string>
+    <string name="enable_navigation_bar_title">സോഫ്റ്റ്വെയർ കീകൾ  പ്രാപ്തമാക്കുക</string>
+    <string name="enable_navigation_bar_summary">സ്ക്രീനിലെ ഗതിനിയന്ത്രണ കീകൾ  പ്രാപ്തമാക്കുക</string>
+    <string name="hardware_brightness_keys_title">തെളിച്ചം</string>
+    <string name="hardware_brightness_keys_summary">ഗതിനിയന്ത്രണ കീകൾ തെളിച്ചം പ്രാപ്തമാക്കുക</string>
+    <string name="hardware_keys_home_key_title">ഗൃഹ ബട്ടൺ</string>
+    <string name="hardware_keys_back_key_title">തിരികെ ബട്ടൺ</string>
+    <string name="hardware_keys_menu_key_title">വിഭവ ബട്ടൺ</string>
+    <string name="hardware_keys_assist_key_title">സഹായ  ബട്ടൺ</string>
+    <string name="hardware_keys_app_switch_key_title">സമീപകാല ബട്ടൺ</string>
+    <string name="hardware_keys_camera_key_title">കാമറ ബട്ടൺ</string>
+    <string name="hardware_keys_short_press_title">ഹൃസ്വനേര അമർത്തലിന്റെ പ്രവർത്തനം</string>
+    <string name="hardware_keys_long_press_title">ദീർഘനേര അമർത്തലിന്റെ പ്രവർത്തനം</string>
+    <string name="hardware_keys_double_tap_title">രണ്ടുതവണ തൊടുന്നതിന്റെ പ്രവർത്തനം</string>
+    <string name="hardware_keys_action_nothing">പ്രവർത്തനം ഇല്ല</string>
+    <string name="hardware_keys_action_menu">വിഭവങ്ങൾ തുറക്കുക/അടക്കുക</string>
+    <string name="hardware_keys_action_app_switch">സമീപകാല പ്രവർത്തനങ്ങൾ</string>
+    <string name="hardware_keys_action_search">സഹായം തേടൽ</string>
+    <string name="hardware_keys_action_voice_search">ശബ്ദത്താൽ തിരയൽ</string>
+    <string name="hardware_keys_action_in_app_search">അപ്പ്ലികേഷനുകൾക്കുള്ളിൽ തിരയൽ</string>
+    <string name="hardware_keys_action_launch_camera">കാമറ തുറക്കുക </string>
+    <string name="hardware_keys_action_kill_app">പശ്ചാത്തല അപ്ലിക്കേഷനുകൾ നിർത്താൻ</string>
+
+    <!-- Notification light dialogs -->
+    <string name="edit_light_settings">വെളിച്ച ക്രമീകരണങ്ങൾ തിരുത്തുക</string>
+    <string name="pulse_speed_title">മിടിപ്പിന്റെ നീളവും വേഗതയും</string>
+    <string name="default_time">സാധാരണം</string>
+    <string name="custom_time">മറ്റു രീതി</string>
+    <string name="dialog_delete_title">ഒഴിവാക്കുക</string>
+    <string name="dialog_delete_message">തിരഞ്ഞെടുത്ത ഇനം നീക്കംചെയ്യണോ?</string>
+
+    <!-- Values for the notification light pulse spinners -->
+    <string name="pulse_length_always_on">എപ്പോഴും പ്രവർത്തനത്തിലായിരിക്കുക</string>
+    <string name="pulse_length_very_short">വളരെ ചെറിയത്</string>
+    <string name="pulse_length_short">ചെറിയത്</string>
+    <string name="pulse_length_normal">സാധാരണം</string>
+    <string name="pulse_length_long">നീളമുള്ളത്</string>
+    <string name="pulse_length_very_long">വളരെ നീളമുള്ളത്</string>
+    <string name="pulse_speed_very_fast">വളരെ വേഗമുള്ളത്</string>
+    <string name="pulse_speed_fast">വേഗമുള്ളത്</string>
+    <string name="pulse_speed_normal">സാധാരണം</string>
+    <string name="pulse_speed_slow">പതുക്കെ</string>
+    <string name="pulse_speed_very_slow">വളരെ പതുക്കെ</string>
+
+    <!-- Battery light settings -->
+    <string name="battery_light_title">ബാറ്ററി വെളിച്ചം</string>
+    <string name="battery_low_pulse_title">ബാറ്ററി കുറവാണെങ്കിൽ മിടിക്കുക</string>
+    <string name="battery_light_list_title">നിറങ്ങൾ</string>
+    <string name="battery_light_low_color_title">ബാറ്ററി കുറവാണ്</string>
+    <string name="battery_light_medium_color_title">വൈദ്യുതി ഉത്തേജിപ്പിക്കുന്നു</string>
+    <string name="battery_light_full_color_title">പൂർണ്ണമായും ഉത്തേജിപ്പിക്കപ്പെട്ടു</string>
+
+    <!-- Lights settings screen, notification light settings -->
+    <string name="notification_light_title">അറിയിപ്പു വെളിച്ചം</string>
+    <string name="notification_light_general_title">പൊതുവായ</string>
+    <string name="notification_light_applist_title">അപ്ലിക്കേഷനുകൾ</string>
+    <string name="notification_light_phonelist_title">ടെലിഫോണ്‍</string>
+    <string name="notification_light_use_custom">സമ്പ്രദായ മൂല്യങ്ങൾ ഉപയോഗിക്കുക</string>
+    <string name="notification_light_default_value">മൂല ക്രമീകരണം</string>
+    <string name="notification_light_missed_call_title">നഷ്ടപ്പെട്ട വിളികൾ</string>
+    <string name="notification_light_voicemail_title">ശബ്ദസന്ദേശം</string>
+
+    <!-- Lights settings, LED notification -->
+    <string name="led_notification_title">പ്രകാശ ക്രമീകരണങ്ങൾ</string>
+    <string name="led_notification_text">LED വെളിച്ചം ക്രമീകരണത്തിലൂടെ പ്രവർത്തനക്ഷമമാക്കി</string>
+    <string name="notification_light_no_apps_summary">ഓരോ അപ്ലിക്കേഷനുകൾക്ക‌‌‌‌‌‌് നിയന്ത്രണം ചേർക്കുന്നതിന്, സജീവമാക്കാൻ  മെനു ബാറിലെ  \'%1$s\' ഉം \'\u002b\' ഉം അമർത്തുക</string>
+
+    <string name="interruptions_ignore_while_media_title">പരുക്കന്‍ ശബ്ദം തടയുക</string>
+    <string name="interruptions_ignore_while_media_summary">ഒരു അറിയിപ്പ് ലഭിക്കുമ്പോൾ ദൃശ്യശ്രാവ്യ പിന്നണി ശബ്‌ദം കുറയ്ക്കരുത്</string>
+
+    <!-- Profiles settings  -->
+    <string name="profiles_add">കൂട്ടിച്ചേര്‍ക്കുക</string>
+
+    <!-- Reset Profiles -->
+    <string name="profile_reset_title">പുനഃക്രമീകരിക്കുക</string>
+
+    <!-- Add application dialog box title -->
+    <string name="profile_choose_app">അപ്ലിക്കേഷൻ തിരഞ്ഞെടുക്കുക</string>
+
+    <!-- M.A.D. extras -->
+    <string name="mad_settings_title">M.A.D. കൂട്ടിച്ചേര്‍ക്കലുകൾ</string>
+
+    <!-- for smartwake -->
+    <string name="smartwake_settings_title">സമര്‍ത്ഥമായ ഉണരൽ</string>
+    <string name="smartwake_settings_summary">സമര്‍ത്ഥമായ ഉണരലിന്റെ മുദ്രകള്‍ നിയന്ത്രിക്കുക</string>
+    <string name="smartwake_settings_category">സമര്‍ത്ഥമായ ഉണരൽ</string>
+    <string name="smartwake_support_gestures">പിന്തുണ മുദ്രകള്‍</string>
+    <string name="smartwake_settings_u_title">സ്ക്രീൻ സജീവമാക്കാൻ ഇരട്ട ഞെക്കൽ</string>
+    <string name="smartwake_settings_up_title">പൂട്ടു തുറക്കുന്നതിന് മുകളിലേക്ക് വരയ്ക്കുക</string>
+    <string name="smartwake_settings_down_title">സംഗീതം താൽക്കാലികമായി നിർത്തുന്നതിന് താഴേക്ക് വരയ്ക്കുക</string>
+    <string name="smartwake_settings_right_title">അടുത്ത ഗാനത്തിനായി വലത്തേക്ക് വരയ്ക്കുക</string>
+    <string name="smartwake_settings_left_title">മുമ്പത്തെ ഗാനത്തിനായി ഇടത്തേക്ക് വരയ്ക്കുക</string>
+    <string name="smartwake_settings_c_title">ഉണരുവാൻ c വരയ്ക്കുക</string>
+    <string name="smartwake_settings_w_title">ഉണരുവാൻ w വരയ്ക്കുക</string>
+    <string name="smartwake_settings_e_title">ഉണരുവാൻ e വരയ്ക്കുകe</string>
+    <string name="smartwake_settings_o_title">ഉണരുവാൻ o വരയ്ക്കുക</string>
+    <string name="smartwake_settings_m_title">ഉണരുവാൻ m വരയ്ക്കുക</string>
+    <string name="smartwake_settings_select_app_title">അപ്ലിക്കേഷൻ തിരഞ്ഞെടുക്കുക</string>
+    <string name="smartwake_settings_hint_search_app">അപ്ലിക്കേഷൻ തിരയുക</string>
+
+    <!-- Fast Charge -->
+    <string name="fast_charge_title">വേഗതയേറിയ ഉത്തേജിപ്പിക്കൽ</string>
+    <string name="fast_charge_summary">വേഗതയേറിയ ഉത്തേജിപ്പിക്കലിന്റെ ക്രമീകരണങ്ങൾ മാറ്റുക</string>
+    <string name="ac_charging_current_title">AC വൈദ്യുതി ഉത്തേജിപ്പിക്കുന്നു</string>
+    <string name="usb_charging_current_title">USB-യിലെ വൈദ്യുതി ഉത്തേജിപ്പിക്കുന്നു</string>
+    <string name="fast_charge_set_on_boot">ആരംഭത്തിൽ സജ്ജമാക്കുക</string>
+    <string name="fast_charge_set_on_boot_summary">വൈദ്യുതി ക്രമീകരണങ്ങൾ ആരംഭത്തിൽ പുനഃസ്ഥാപിക്കുക</string>
+    <string name="fast_charge_master">വേഗതയേറിയ ഉത്തേജിപ്പിക്കൽ പ്രാപ്തമാക്കുക</string>
+    <string name="fast_charge_notification_title">വേഗതയേറിയ ഉത്തേജിപ്പിക്കലിന്റെ അറിയിപ്പുകള്‍ കാണിക്കുക</string>
+    <string name="fast_charge_notification_summary">ഇത് വേഗതയേറിയ ഉത്തേജിപ്പിക്കലിന്റെ ക്രമീകരണങ്ങളിലേക്ക്  ഒരു  എളുപ്പവഴിയും കൂടെ അറിയിപ്പും സജ്ജമാക്കുന്നു</string>
+    <string name="qs_tile_fcharge">വേഗതയേറിയ ഉത്തേജിപ്പിക്കൽ</string>
+
+    <!-- Performance settings  -->
+    <string name="performance_settings_title">പ്രകടനം</string>
+    <string name="performance_settings_summary">നിയന്ത്രണ പ്രോസസ്സർ ഐ / ഒ ഷെഡ്യൂളർ ക്രമീകരണങ്ങൾ</string>
+
+    <!-- Performance Settings : Warning dialog  -->
+    <string name="performance_settings_warning_title">ശ്രദ്ധയോടെ മുമ്പോട്ട് പോകുക</string>
+    <string name="performance_settings_warning">ഈ ക്രമീകരണങ്ങൾ പരീക്ഷണങ്ങൾക്കായി ഉൾപ്പെടുത്തിയിരിക്കുന്നതാണ്. അതിൽ വരുത്തുന്ന മാറ്റങ്ങൾ അസ്ഥിരത, തകർച്ച, വസ്‌തുതകള്‍ക്ക്  നഷ്ടം വരുത്തുക അല്ലെങ്കിൽ ഹാർഡ്വെയർ പരാജയങ്ങൾ എന്നിവക്ക് കാരണമായേക്കാം.\n\nഈ ക്രമീകരണങ്ങളിൽ നിങ്ങൾഏതെങ്കിലും വിലയിൽ മാറ്റം വരുത്തിയെങ്കിൽ ഞങ്ങൾക്ക് ബഗ് റിപ്പോർട്ടുകൾ ഫയൽ ചെയ്യരുതെന്ന് അഭ്യർത്ഥിക്കുന്നു.</string>
+
+    <!-- Performance Settings : Processor Settings -->
+    <!-- Performance Settings : Processor settings title -->
+    <string name="processor_title"> പ്രോസസ്സർ</string>
+    <!-- Performance Settings : Processor settings summary. -->
+    <string name="processor_summary">സിപിയു ഗവർണറും ക്ലോക്ക് സ്പീഡും മാറ്റുക</string>
+
+    <!-- Performance Settings : Processor settings sub items -->
+    <string name="cpu_cur_freq_title">നിലവിലെ സിപിയു ആവൃത്തി</string>
+    <string name="cpu_governors_title">സിപിയു ഗവർണർ</string>
+    <string name="cpu_governors_summary">%S</string>
+    <string name="cpu_min_freq_title">ഏറ്റവും കുറഞ്ഞ സിപിയുവിന്റെ ആവൃത്തി</string>
+    <string name="cpu_min_freq_summary">%s</string>
+    <string name="cpu_max_freq_title">പരമാവധി സിപിയു ആവൃത്തി</string>
+    <string name="cpu_max_freq_summary">%s</string>
+    <string name="cpu_set_on_boot">ആരംഭത്തിൽ സജ്ജമാക്കുക</string>
+    <string name="cpu_set_on_boot_summary">പ്രോസെസ്സറിന്റെ ക്രമീകരണങ്ങൾ ആരംഭത്തിൽ പുനഃസ്ഥാപിക്കുക</string>
+
+    <!-- Performance Settings : I/O scheduler settings title -->
+    <string name="io_scheds_title">ഐ / ഒ ഷെഡ്യൂളർ</string>
+    <!-- Performance Settings : I/O scheduler settings summary. -->
+    <string name="io_scheds_summary">ഐ / ഒ ഷെഡ്യൂളർ മാറ്റുക</string>
+
+    <!-- Performance Settings : I/O scheduler settings sub items -->
+    <string name="io_sched_title">ഐ / ഒ ഷെഡ്യൂളർ</string>
+    <string name="io_sched_summary">%S</string>
+    <string name="io_sched_set_on_boot">ആരംഭത്തിൽ സജ്ജമാക്കുക</string>
+    <string name="io_sched_set_on_boot_summary">ഐ / ഒ ഷെഡ്യൂളറിന്റെ ക്രമീകരണങ്ങൾ ആരംഭത്തിൽ പുനഃസ്ഥാപിക്കുക</string>
+
+    <!-- Sensor Calibration -->
+    <string name="sensor_calibration_title">സെൻസർ ഒത്തുനോക്കൽ</string>
+    <string name="sensor_calibration_summary">ആക്സിലറോമീറ്റർ, ഗൈറോസ്കോപ്പ് എന്നിവയുടെ ക്രമീകരണങ്ങൾ</string>
+    <string name="sensor_calibration_summary_gsensor_only">ആക്സിലറോമീറ്റർ ക്രമീകരണങ്ങൾ</string>
+    <string name="sensor_calibration_summary_gyroscope_only">ഗൈറോസ്കോപ്പ് ക്രമീകരണങ്ങൾ</string>
+    <string name="sensor_calibration_gsensor">ആക്സിലെറോമീറ്റർ ഒത്തുനോക്കൽ</string>
+    <string name="sensor_calibration_gyroscope">ഗൈറോസ്കോപ്പ് ഒത്തുനോക്കൽ</string>
+    <string name="sensor_calibration_do_20">ഒത്തുനോക്കുക (20% സഹിഷ്ണുത)</string>
+    <string name="sensor_calibration_do_40">ഒത്തുനോക്കുക (40% സഹിഷ്ണുത)</string>
+    <string name="sensor_calibration_clear">ഒത്തുനോക്കൽ  വൃത്തിയാക്കുക</string>
+    <string name="sensor_calibration_note">ശ്രദ്ധിക്കുക: ഫോൺ ഒത്തുനോക്കലിനിടയിൽ ഒരു തിരശ്ചീന തലത്തിൽ എപ്പോഴും തുടരണം.</string>
+    <string name="sensor_calibration_current_data_hint">നിലവിലെ സെൻസർ വിവരങ്ങള്‍: </string>
+    <string name="sensor_calibration_sensor_data_hint">സെൻസർ  ഒത്തുനോക്കൽ വിവരങ്ങള്‍: </string>
+
+    <string name="gyroscope_axis_switch">ലംബമായ അക്ഷത്തിൽ മേലോട്ടും താഴോട്ടും മാറ്റുക</string>
+
+    <!-- BandMode  Start -->
+    <string name="query_result">അന്വേഷണം പരാജയപ്പെട്ടു</string>
+    <string name="query_support_message">അന്വേഷണ പിന്തുണയുള്ള സമ്പ്രദായം പരാജയപ്പെട്ടു.</string>
+    <string name="query_current_message">അന്വേഷണം നിലവിലുള്ള സമ്പ്രദായം പരാജയപ്പെട്ടു.</string>
+    <string name="query_btn_text">അടയ്ക്കുക</string>
+    <string name="set_success_message">ശരി സജ്ജമാക്കുക</string>
+    <string name="set_ok_text">ശരി</string>
+    <string name="set_fail_title">പരാജയപ്പെട്ടു</string>
+    <string name="set_fail_message">സജ്ജമാക്കൽ പരാജയപ്പെട്ടു</string>
+    <string name="set_fail_text">അടയ്ക്കുക</string>
+    <string name="reset_title">പുനഃക്രമീകരിക്കുക</string>
+    <string name="reset_message">സ്ഥിര ക്രമീകരണം പുനഃസജ്ജീകരിക്കണോ ?</string>
+    <string name="bandmode_sim1">സിം1</string>
+    <string name="bandmode_sim2">സിം2</string>
+    <string name="bandmode_sim3">സിം3</string>
+    <string name="bandmode_sim4">സിം4</string>
+    <!-- BandMode End -->
+
+    <!-- BandMode SIM2 Select start -->
+    <string name="BandModeSIM2">ബാൻഡ് സമ്പ്രദായം സിം2</string>
+    <string name="bandmodesim2_GSM">2ജി സമ്പ്രദായം</string>
+    <string name="bandmodesim2_GSM_EGSM900">EGSM900</string>
+    <string name="bandmodesim2_GSM_DCS1800">DCS1800</string>
+    <string name="bandmodesim2_GSM_PCS1900">PCS1900</string>
+    <string name="bandmodesim2_GSM_GSM850">ജിഎസ്എം850</string>
+    <string name="bandmodesim2_SET">സജ്ജീകരിക്കുക</string>
+    <string name="BandModeSIMSelect">സിം തിരഞ്ഞെടുക്കുക</string>
+    <string name="BandModeSIMTwo">ബാൻഡ് സജ്ജീകരിക്കുക</string>
+    <!-- BandMode SIM2 Select end -->
+
+    <!-- Band select start -->
+    <string name="BandSelect">ബാൻഡ് സമ്പ്രദായം</string>
+    <string name="BandSel_GSM">2ജി സമ്പ്രദായം</string>
+    <string name="BandSel_UMTS">3ജി സമ്പ്രദായം</string>
+    <string name="BandSel_SET">സജ്ജീകരിക്കുക</string>
+    <string name="BandSel_GSM_EGSM900">EGSM900</string>
+    <string name="BandSel_GSM_DCS1800">DCS1800</string>
+    <string name="BandSel_GSM_PCS1900">PCS1900</string>
+    <string name="BandSel_GSM_GSM850">ജിഎസ്എം850</string>
+    <string name="BandSel_UMTS_BAND_I">WCDMA-IMT-2000</string>
+    <string name="BandSel_UMTS_BAND_II">WCDMA-PCS-1900</string>
+    <string name="BandSel_UMTS_BAND_III">WCDMA-DCS-1800</string>
+    <string name="BandSel_UMTS_BAND_IV">WCDMA-AWS-1700</string>
+    <string name="BandSel_UMTS_BAND_V">WCDMA-CLR-850</string>
+    <string name="BandSel_UMTS_BAND_VI">WCDMA-800</string>
+    <string name="BandSel_UMTS_BAND_VII">WCDMA-IMT-E-2600</string>
+    <string name="BandSel_UMTS_BAND_VIII">WCDMA-GSM-900</string>
+    <string name="BandSel_UMTS_BAND_IX">WCDMA-1800</string>
+    <string name="BandSel_UMTS_BAND_X">WCDMA-1700</string>
+    <string name="BandSel_RESET">സ്ഥിര ക്രമീകരണം പുനഃസജ്ജീകരിക്കണോ ?</string>
+    <string name="BandSel_CDMA">സിഡിഎംഎ സമ്പ്രദായം</string>
+    <string name="BandSel_CDMA_BAND_0">ബാൻഡ് ക്ലാസ്സ് 0 (വടക്കേ അമേരിക്കയിലെ സെല്ലുലാർ ബാൻഡ്)</string>
+    <string name="BandSel_CDMA_BAND_1">ബാൻഡ് ക്ലാസ്സ് 1 (വടക്കേ അമേരിക്കയിലെ PCS ബാൻഡ്)</string>
+    <string name="BandSel_CDMA_BAND_2">ബാൻഡ് ക്ലാസ്സ് 2(TACS ബാൻഡ്)</string>
+    <string name="BandSel_CDMA_BAND_3">ബാൻഡ് ക്ലാസ്സ് 3(JTACS ബാൻഡ്)</string>
+    <string name="BandSel_CDMA_BAND_4">ബാൻഡ് ക്ലാസ്സ് 4 (കൊറിയയിലെ PCS ബാൻഡ്)</string>
+    <string name="BandSel_CDMA_BAND_5">ബാൻഡ് ക്ലാസ്സ് 5(NMT-450 ബാൻഡ്)</string>
+    <string name="BandSel_CDMA_BAND_6">ബാൻഡ് ക്ലാസ്സ് 6(IMT-2000 ബാൻഡ്)</string>
+    <string name="BandSel_CDMA_BAND_7">ബാൻഡ് ക്ലാസ്സ് 7 (വടക്കേ അമേരിക്കയിലെ 700Mhz സെല്ലുലാർ ബാൻഡ്)</string>
+    <string name="BandSel_CDMA_BAND_8">ബാൻഡ് ക്ലാസ്സ് 8 (1800-MHz ബാൻഡ്)</string>
+    <string name="BandSel_CDMA_BAND_9">ബാൻഡ് ക്ലാസ്സ് 9 (900-MHz ബാൻഡ്)</string>
+    <string name="BandSel_CDMA_BAND_10">ബാൻഡ് ക്ലാസ്സ് 10 (സെക്കൻഡറി 800 MHz ബാൻഡ്)</string>
+    <string name="BandSel_CDMA_BAND_11">ബാൻഡ് ക്ലാസ്സ് 11 (400 MHz യൂറോപ്യൻ PAMR ബാൻഡ്)</string>
+    <string name="BandSel_CDMA_BAND_12">ബാൻഡ് ക്ലാസ്സ് 12 (800 MHz PAMR ബാൻഡ്)</string>
+    <string name="BandSel_CDMA_BAND_13">ബാൻഡ് ക്ലാസ്സ് 13 (2.5 GHz IMT-2000 വിപുലീകരണ ബാൻഡ്)</string>
+    <string name="BandSel_CDMA_BAND_14">ബാൻഡ് ക്ലാസ്സ് 14 ( അമേരിക്കയിലെ PCS 1.9GHz ബാൻഡ്) </string>
+    <string name="BandSel_CDMA_BAND_15">ബാൻഡ് ക്ലാസ്സ് 15 (AWS ബാൻഡ്)</string>
+    <!-- Band select end -->
+
+    <!-- Dual Talk Band Select start -->
+    <string name="bandmodesim1_GSM">2ജി സമ്പ്രദായം</string>
+    <string name="bandmodesim1_GSM_EGSM900">EGSM900</string>
+    <string name="bandmodesim1_GSM_DCS1800">DCS1800</string>
+    <string name="bandmodesim1_GSM_PCS1900">PCS1900</string>
+    <string name="bandmodesim1_GSM_GSM850">ജിഎസ്എം850</string>
+    <string name="bandmodesim1_UMTS">3ജി സമ്പ്രദായം</string>
+    <string name="bandmodesim1_UMTS_BAND_I">WCDMA-IMT-2000</string>
+    <string name="bandmodesim1_UMTS_BAND_II">WCDMA-PCS-1900</string>
+    <string name="bandmodesim1_UMTS_BAND_III">WCDMA-DCS-1800</string>
+    <string name="bandmodesim1_UMTS_BAND_IV">WCDMA-AWS-1700</string>
+    <string name="bandmodesim1_UMTS_BAND_V">WCDMA-CLR-850</string>
+    <string name="bandmodesim1_UMTS_BAND_VI">WCDMA-800</string>
+    <string name="bandmodesim1_UMTS_BAND_VII">WCDMA-IMT-E-2600</string>
+    <string name="bandmodesim1_UMTS_BAND_VIII">WCDMA-GSM-900</string>
+    <string name="bandmodesim1_UMTS_BAND_IX">WCDMA-1800</string>
+    <string name="bandmodesim1_UMTS_BAND_X">WCDMA-1700</string>
+    <string name="bandmodesim1_LTE">4ജി സമ്പ്രദായം</string>
+    <string name="bandmodesim1_SET">സജ്ജീകരിക്കുക</string>
+    <string name="BandStart">ബാൻഡ് സമ്പ്രദായം</string>
+    <string name="BandModeSIM1">ബാൻഡ് സമ്പ്രദായം സിം1</string>
+    <string name="bandmode">ബാൻഡ് സമ്പ്രദായം</string>
+
+    <!-- TDD Band Select start -->
+    <string name="TDD_BandSel_GSM">2ജി സമ്പ്രദായം</string>
+    <string name="TDD_GSM_EGSM900">EGSM900</string>
+    <string name="TDD_GSM_DCS1800">DCS1800</string>
+    <string name="TDD_GSM_PCS1900">PCS1900</string>
+    <string name="TDD_GSM_GSM850">ജിഎസ്എം850</string>
+    <string name="TDD_BandSel_UMTS">3ജി സമ്പ്രദായം</string>
+    <string name="TDD_UMTS_BAND_I">TD_SCDMA ബാൻഡ് A</string>
+    <string name="TDD_UMTS_BAND_II">TD_SCDMA ബാൻഡ് B</string>
+    <string name="TDD_UMTS_BAND_III">TD_SCDMA ബാൻഡ് C</string>
+    <string name="TDD_UMTS_BAND_IV">TD_SCDMA ബാൻഡ് D</string>
+    <string name="TDD_UMTS_BAND_V">TD_SCDMA ബാൻഡ് E</string>
+    <string name="TDD_UMTS_BAND_VI">TD_SCDMA ബാൻഡ് F</string>
+    <string name="TDD_Btn_SET">സജ്ജീകരിക്കുക</string>
+    <!-- TDD Band Select end -->
+
+    <string name="set_success_title">ക്രമീകരണം വിജയകരമായിരിക്കുന്നു</string>
+
+    <!-- > App Ops -->
+    <!-- [CHAR LIMIT=NONE] App ops settings title, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
+    <string name="app_ops_settings">ഹീര അപ്ലിക്കേഷൻ</string>
+    <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
+    <string name="app_ops_settings_summary">അപ്ലിക്കേഷൻ അനുമതികൾ കാണുക അല്ലെങ്കിൽ മാറ്റം വരുത്തുക </string>
+
+    <!-- > Substratum /layers4.0 -->
+    <string name="substratum_title">അടിത്തട്ട്‌</string>
+
+    <string name="sim_color_bar_title">സിഗ്നൽ ബാർ വർണ്ണാഭമാക്കുക</string>
+
+    <!-- Doze pulse (ambient display) options -->
+    <string name="doze_list_mode_title">ലഘുനിദ്ര സമ്പ്രദായം</string>
+    <string name="doze_list_mode_summary">ലഘുനിദ്ര സമ്പ്രദായം സജ്ജീകരിക്കാൻ</string>
+
+    <string name="doze_pulse_title">സമയ ക്രമീകരണങ്ങൾ</string>
+    <string name="doze_pulse_duration_in_title">ക്രമത്തില്‍ ആവിര്‍ഭവിച്ചു തെളിഞ്ഞുവരല്‍</string>
+    <string name="doze_pulse_duration_in_summary"></string>
+
+    <string name="doze_pulse_duration_visible_title">ദൃശ്യ ദൈർഘ്യം</string>
+    <string name="doze_pulse_duration_visible_summary"></string>
+
+    <string name="doze_pulse_duration_out_title">അനുക്രമം മങ്ങിപ്പോകല്‍</string>
+    <string name="doze_pulse_duration_out_summary"></string>
+
+    <string name="doze_pulse_on_notifications_title">അറിയിപ്പുകൾക്ക് മേലുള്ള മിടിപ്പ്</string>
+    <string name="doze_pulse_on_notifications_summary">തീർച്ചപ്പെടുത്താത്ത അറിയിപ്പുകൾ മാത്രം പ്രവര്‍ത്തനക്ഷമമാക്കുക</string>
+
+    <string name="doze_time_mode_title">ഘടികാരവും തീയതിയും കാണിക്കുക</string>
+    <string name="doze_time_mode_summary"> യാതൊരു അറിയിപ്പും ഇല്ലാതിരിക്കുമ്പോൾ സമയം കാണിക്കാൻ നിര്‍ബന്ധിക്കുക</string>
+
+    <string name="twohundred_ms">200 ms</string>
+    <string name="fivehundred_ms">500 ms</string>
+    <string name="one_second">1 s</string>
+    <string name="one_second_default">1 s (മൂല ക്രമീകരണം)</string>
+    <string name="onehalf_second">1.5 s</string>
+    <string name="two_second">2 s</string>
+    <string name="twohalf_second">2.5 s</string>
+    <string name="three_second">3 s</string>
+    <string name="three_second_default">3 s (മൂല ക്രമീകരണം)</string>
+    <string name="threehalf_second">3.5 s</string>
+    <string name="four_second">4 s</string>
+    <string name="fourhalf_second">4.5 s</string>
+    <string name="five_second">5 s</string>
+
+    <string name="pocket_pulse_mode">കീശയും മിടിപ്പും</string>
+    <string name="pocket_only_mode">കീശ</string>
+    <string name="pulse_only_mode">മിടിപ്പ് (മൂല ക്രമീകരണം)</string>
+
+    <!-- Status bar -->
+    <string name="status_bar_title">സ്റ്റാറ്റസ് ബാർ</string>
+    <string name="status_bar_summary">സ്റ്റാറ്റസ് ബാർ ലുക്കും സ്വഭാവവും പരിഷ്ക്കരിക്കുക</string>
+
+    <string name="quick_pulldown_title">ദ്രുത വലിച്ചു താഴ്ത്തല്‍</string>
+    <string name="quick_pulldown_summary">%1$s സ്റ്റാറ്റസ് ബാർ വായ്ത്തല ദ്രുത ക്രമീകരണങ്ങൾ വലിച്ചു താഴ്ത്തുന്നു</string>
+    <string name="quick_pulldown_summary_left">ഇടത്</string>
+    <string name="quick_pulldown_summary_right">വലത്</string>
+    <string name="quick_pulldown_off">നിർത്തുക</string>
+    <string name="quick_pulldown_left">ഇടത്</string>
+    <string name="quick_pulldown_right">വലത്</string>
+
+    <string name="link_volume_option_title">ഫോണടിക്കുന്നതിന്റെയും അറിയിപ്പിന്റെയും ശബ്ദങ്ങൾ കൂട്ടിയോജിപ്പിക്കുക</string>
+    <string name="sim_ringtone_title">സിം %d റിംഗ്ടോൺ</string>
+    <string name="category_sounds">ശബ്ദങ്ങൾ</string>
+
+    <!-- ScrollSettings -->
+    <string name="scroll_settings_title">ചുരുൾ ക്രമീകരണങ്ങൾ</string>
+    <string name="scroll_settings_summary">ചുരുൾ ഘർഷണവും പ്രക്ഷേപ പ്രവേഗവും</string>
+    <string name="scroll_enabled_switch_title">ചുരുൾ ക്രമീകരണങ്ങൾ (അ)പ്രായോഗികമാക്കുക </string>
+    <string name="scroll_friction_title">ചുരുൾ ഘർഷണം</string>
+    <string name="custom_fling_velocity_title">ചുരുൾ പ്രക്ഷേപ പ്രവേഗം</string>
+    <string name="scroll_friction_summary">ചുരുളിനും പ്രക്ഷേപത്തിനും ഉപയോഗിച്ച ഘർഷണത്തിന്റെ അളവ്</string>
+    <string name="custom_fling_velocity_summary">ഒരു പ്രക്ഷേപം ആരംഭിക്കാൻ വേണ്ട പരമാവധി പ്രവേഗം</string>
+
+    <!-- Longpress Power torch -->
+    <string name="long_press_power_for_torch_title">പന്തത്തിനു വേണ്ടി ദീർഘനേരം പവർ ബട്ടൺ അമർത്തുക</string>
+    <string name="long_press_power_for_torch_summary"> സ്ക്രീൻ ഓഫ്  ആയിരിക്കെ ദീർഘനേരം പവർ ബട്ടൺ അമർത്തിയാൽ പന്തം തെളിക്കുകയോ കെടുത്തുകയോ ചെയ്യുന്നു.</string>
+
+    <string name="idle_stats_title">നിഷ്ക്രിയ സ്ഥിതിവിവരക്കണക്കുകൾ</string>
+
+    <!-- General strings -->
+    <string name="cancel">റദ്ദാക്കുക</string>
+    <string name="save">സംരക്ഷിക്കുക</string>
+
+    <!-- Battery customizations -->
+    <string name="status_bar_battery_style_category">ബാറ്ററി</string>
+    <string name="status_bar_battery_style_summary">ബാറ്ററി ചിഹ്നത്തിന്റെ ശൈലി ഇഷ്ടാനുസൃതമാക്കുക</string>
+    <string name="status_bar_battery_style_title">ബാറ്ററി പദവി ശൈലി</string>
+    <string name="status_bar_battery_style_icon_portrait">ചിഹ്നം - ഛായാചിത്രം</string>
+    <string name="status_bar_battery_style_icon_landscape">ചിഹ്നം - ഭൂദൃശം</string>
+    <string name="status_bar_battery_style_circle"> വൃത്തം</string>
+    <string name="status_bar_battery_style_text">എഴുത്ത്</string>
+    <string name="status_bar_battery_style_hidden">മറഞ്ഞിരിക്കുന്നത്</string>
+    <string name="status_bar_battery_percentage_title">ബാറ്ററി ശതമാനം</string>
+    <string name="status_bar_battery_percentage_default">മറഞ്ഞിരിക്കുന്നത്</string>
+    <string name="status_bar_battery_percentage_text_inside">ചിഹ്നത്തിന് അകത്ത്</string>
+    <string name="status_bar_battery_percentage_text_next">ചിഹ്നത്തിന് അടുത്ത്</string>
+
+    <!-- Seekbar -->
+    <string name="default_string">മൂല ക്രമീകരണം</string>
+
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">വർണ്ണം പെറുക്കിയടുക്കല്‍</string>
+    <string name="press_color_to_apply">പ്രയോഗിക്കാൻ  ചുവടെയുള്ള നിറം അമര്‍ത്തുക</string>
+    <string name="arrow_right">→</string>
+    <string name="hex">ഹെക്‌സാഡെസിമല്‍ :</string>
+    <string name="hex_hint">#ff000000</string>
+
+    <!-- Navigation bar -->
+    <string name="nav_bar_title">ഗതിനിയന്ത്രണ ബാർ</string>
+    <string name="nav_bar_summary">ഗതിനിയന്ത്രണ ബാറിന്റെ ബട്ടണുകൾ പരിഷ്ക്കരിക്കുക</string>
+    <string name="nav_bar_category_summary">ഗതിനിയന്ത്രണ ബാറിന്റെ ലുക്കും സ്വഭാവവും പരിഷ്ക്കരിക്കുക</string>
+    <string name="navbar_buttons_category_title">ഗതിനിയന്ത്രണ ബാറിന്റെ ബട്ടണുകൾ</string>
+    <string name="navbar_behaviour_category_title">പൊതുവായ ഗതിനിയന്ത്രണ ബാറിന്റെ പെരുമാറ്റം</string>
+
+    <string name="navigation_bar_title">ബട്ടണുകളും രേഖാചിത്രവും</string>
+    <string name="navigation_bar_help_text">
+	ആരംഭത്തിലെ തിരുത്തുകൾക്കായി ഗതിനിയന്ത്രണ ബാർ തുറന്നു കിട്ടുന്നതിനായി "തിരുത്തുക" തട്ടുക.\n\nഒരു ചിഹ്നത്തിന്റെ കുറുക്കുവഴി മാറ്റാൻ നിങ്ങൾക്ക് ആ ചിഹ്നത്തിൽ തട്ടുകയോ, അല്ലെങ്കിൽ നിങ്ങൾക്ക് ഒരു ചിഹ്നത്തിന് മേലുള്ള ദീർഘ അമർത്തിപ്പിടിക്കലിലൂടെ രേഖാചിത്രങ്ങൾ പുനഃക്രമീകരിക്കുകയോ ചെയ്യാം. \n\nനിങ്ങളുടെ മാറ്റങ്ങൾ സമർപ്പിക്കുവാൻ "സംരക്ഷിക്കുക" തട്ടുകയോ, അല്ലെങ്കിൽ രേഖാചിത്രങ്ങൾ സ്ഥിരസ്ഥിതി ക്രമീകരണങ്ങളിലേക്ക് പുനഃക്രമീകരിക്കാൻ "പുനഃസ്ഥാപിക്കുക" തട്ടുകയോ ചെയ്യുക.</string>
+    <string name="navigation_restore_button_text"> പുനഃസ്ഥാപിക്കുക\nമൂല ക്രമീകരണം</string>
+    <string name="navigation_edit_button_text">തിരുത്തക</string>
+    <string name="navigation_save_button_text">സംരക്ഷിക്കുക</string>
+    <string name="navigation_bar_reset_message">നിലവിലെ ക്രമീകരണങ്ങൾ ഇല്ലാതാക്കുകയും രേഖാചിത്ര മൂല ക്രമീകരണങ്ങൾ പുനഃസ്ഥാപിക്കുകയും ചെയ്യാണോ ?</string>
+
+    <string name="nav_arrow_keys_title">ആരോ കീകൾ കാണിക്കുക</string>
+    <string name="nav_arrow_keys_summary">എഴുതുമ്പോൾ  ഇടതും, വലതും ആരോ കീകൾ കാണിക്കുക</string>
+
+    <string name="nav_pixel_nav_title">പിക്സൽ ഡിസൈൻ പ്രാപ്തമാക്കുക</string>
+    <string name="nav_pixel_nav_summary">പിക്സൽ ഗൃഹ ബട്ടണിന്റെ രീതി സജീവമാക്കുന്നു</string>
+
+    <string name="navigation_bar_can_move_title">ഉപകരണം തിരിക്കുന്നതിനനുസരിച്ചു ഗതിനിയന്ത്രണ ബാർ നീക്കുക</string>
+    <string name="navigation_bar_can_move_summary">സജീവമാക്കുകയും, ഉപകരണം തിരിക്കുകയും ചെയ്യുമ്പോൾ, ഗതിനിയന്ത്രണ ബാർ സ്ക്രീനിന്റെ വശത്തേക്ക് നീങ്ങുന്നു .</string>
+
+    <string name="navbar_style_dimen_title">ഗതിനിയന്ത്രണ ബാറിന്റെ അളവുകൾ</string>
+    <string name="navbar_dimensions_reset_message">എല്ലാ അളവുകളും സ്ഥിരസ്ഥിതിയിലേക്ക്  പുനഃക്രമീകരിക്കണോ ?</string>
+    <string name="navigation_bar_height_title">ഗതിനിയന്ത്രണ ബാറിന്റെ ഉയരം</string>
+    <string name="navigation_bar_height_summary">ഛായാചിത്ര സമയത്ത് ഗതിനിയന്ത്രണ ബാറിന്റെ ഉയരം</string>
+    <string name="navigation_bar_height_landscape_title">ഭൂദൃശ സമയത്ത് ഗതിനിയന്ത്രണ ബാറിന്റെ ഉയരം</string>
+    <string name="navigation_bar_height_landscape_summary">ഭൂദൃശ സമയത്ത് ഗതിനിയന്ത്രണ ബാറിന്റെ ഉയരം</string>
+    <string name="navigation_bar_width_title">വീതി</string>
+    <string name="navigation_bar_width_summary">ബാർ ഒരു ചെരിവിലെങ്കിൽ ഗതിനിയന്ത്രണ ബാറിന്റെ ഉയരം</string>
+    <string name="navigation_bar_size_42_dp_default">42 dp (മൂല ക്രമീകരണം)</string>
+    <string name="navigation_bar_size_36_dp">36 dp</string>
+    <string name="navigation_bar_size_30_dp">30 dp</string>
+    <string name="navigation_bar_size_24_dp">24 dp</string>
+    <string name="navigation_bar_size_48_dp_default">48 dp (മൂല ക്രമീകരണം))</string>
+    <string name="navigation_bar_size_44_dp">44 dp</string>
+    <string name="navigation_bar_size_40_dp">40 dp</string>
+    <string name="navigation_bar_size_42_dp">42 dp</string>
+    <string name="navigation_bar_size_0_dp">0 dp (ഇല്ലാണ്ടാക്കുക)</string>
+
+    <!-- Navigation bar button color -->
+    <string name="navbar_button_tint_title">ഗതിനിയന്ത്രണ ബട്ടൺ നിഴലിപ്പ്‌</string>
+    <string name="nav_bar_dynamic_title">പരിവര്‍ത്തനാത്മകമായ ഗതിനിയന്ത്രണ ബാർ വർണ്ണം</string>
+    <string name="nav_bar_dynamic_summary">ഗതിനിയന്ത്രണ ബാർ പശ്ചാത്തലത്തിന് മുൻഭാഗത്തെ അപ്ലിക്കേഷന്റെ പ്രാഥമിക നിറം ഉപയോഗിക്കുക.</string>
+    <string name="navigation_bar_background_enabled_always_title">നിശ്ചലമായ ഗതിനിയന്ത്രണ ബാർ വർണ്ണം</string>
+    <string name="navigation_bar_background_enabled_fallback_title">ഗതിനിയന്ത്രണ ബാർ വർണ്ണം പിന്‍വലിക്കുക</string>
+    <string name="navigation_bar_background_enabled_always_summary">ഗതിനിയന്ത്രണ ബാർ പശ്ചാത്തല നിറമായി താഴെയുള്ള  നിറം ഉപയോഗിക്കുക</string>
+    <string name="navigation_bar_background_enabled_fallback_summary">പരിവര്‍ത്തനാത്മകമായ ഗതിനിയന്ത്രണ ബാർ വർണ്ണം ബട്ടണിന്റെ വർണവുമായി വളരെ അധികം സാമ്യമുള്ളതാണെങ്കിൽ  ഗതിനിയന്ത്രണ ബാറിന്റെ നിരത്തിലേക്ക്  താഴെയുള്ള  നിറം പിന്‍വലിക്കുക</string>
+    <string name="navigation_bar_background_title">ഗതിനിയന്ത്രണ ബാർ പശ്ചാത്തല നിറം</string>
+
+    <!-- SlimDim -->
+    <string name="dim_nav_buttons_category_title">മങ്ങിയ ഗതിനിയന്ത്രണ ബാർ</string>
+    <string name="dim_nav_buttons_category_summary">നിഷ്ക്രിയത്വത്തിനു ശേഷം ഗതിനിയന്ത്രണ ബാർ മങ്ങുന്നതിനുള്ള ഉപായങ്ങൾ</string>
+    <string name="dim_nav_buttons_title">നിഷ്ക്രിയത്വത്തിനു ശേഷം ബട്ടണുകൾ മങ്ങുക</string>
+    <string name="dim_nav_buttons_summary">ഒരു നിശ്ചിത കാലം ഗതിനിയന്ത്രണ ബാർ സംവദിക്കാതിരുന്നതിനു ശേഷം ഗതിനിയന്ത്രണ ബാർ ബട്ടണുകൾ മങ്ങുക</string>
+    <string name="dim_nav_buttons_timeout_title">മങ്ങുന്നത് മുമ്പ് സമയം അധിക്രമിക്കുക</string>
+    <string name="dim_nav_buttons_timeout_summary">ബട്ടണുകൾ മങ്ങുന്നത് മുമ്പ് കാത്തിരിക്കേണ്ട സമയം (മില്ലിസെക്കന്റിൽ)</string>
+    <string name="dim_nav_buttons_alpha_title">പ്രാരംഭ മങ്ങൽ</string>
+    <string name="dim_nav_buttons_alpha_summary">ബട്ടണുകൾ മങ്ങുന്നതിനുള്ള പ്രാരംഭ മൂല്യം</string>
+    <string name="dim_nav_buttons_animate_title">മങ്ങലിന്റെ ചലനം</string>
+    <string name="dim_nav_buttons_animate_summary">പ്രാരംഭ മങ്ങൽ ചലിപ്പിക്കുക</string>
+    <string name="dim_nav_buttons_animate_duration_title">ചലന സമയം</string>
+    <string name="dim_nav_buttons_animate_duration_summary">പ്രാരംഭ മങ്ങൽ ചലന സമയം (മില്ലിസെക്കന്റിൽ)</string>
+
+    <string name="dim_nav_buttons_touch_anywhere_title">മുഴുവൻ സ്‌ക്രീനിലെയും സ്പർശനങ്ങൾക്കായി കാതോർക്കുക</string>
+    <string name="dim_nav_buttons_touch_anywhere_summary_on">സ്ക്രീനിൽ എവിടെയും സ്പർശിക്കുമ്പോൾ ബട്ടണുകൾ തെളിയാൻ ഇടയാക്കുന്നു</string>
+    <string name="dim_nav_buttons_touch_anywhere_summary_off">ഗതിനിയന്ത്രണ ബാർ സ്പർശിക്കുമ്പോൾ മാത്രം ബട്ടണുകൾ തെളിയാൻ ഇടയാക്കുന്നു</string>
+
+    <string name="unit_msec">മില്ലിസെക്കൻഡ്</string>
+    <string name="reset">പുനഃക്രമീകരിക്കുക</string>
+
+    <!-- Actions -->
+    <string name="shortcut_action_none">ഒന്നുമില്ല</string>
+    <string name="shortcut_action_app"> ഭേദഗതി വരുത്തിയ അപ്ലിക്കേഷൻ</string>
+    <string name="shortcut_action_home">ഗൃഹം</string>
+    <string name="shortcut_action_back">പിന്നോട്ട്  </string>
+    <string name="shortcut_action_menu">പട്ടികകൾ</string>
+    <string name="shortcut_action_ime">ഐഎംഇ സ്വിച്ചർ തുറക്കുക </string>
+    <string name="shortcut_action_power_menu">പവർ പട്ടിക</string>
+    <string name="shortcut_action_recents">സമീപകാല</string>
+    <string name="shortcut_action_power">സ്ക്രീൻ ഓഫ് ചെയ്യുക</string>
+    <string name="shortcut_action_search">അപ്ലിക്കേഷനിൽ തിരയുക</string>
+    <string name="shortcut_action_ring_vib">മുഴങ്ങൽ/തരിപ്പ്</string>
+    <string name="shortcut_action_ring_silent">മുഴങ്ങൽ/നിശബ്ദം</string>
+    <string name="shortcut_action_ring_vib_silent">മുഴങ്ങൽ/തരിപ്പ്/നിശബ്ദം</string>
+    <string name="shortcut_action_torch">പന്തം / ടോർച്ച്</string>
+    <string name="shortcut_action_camera">കാമറ</string>
+    <string name="shortcut_action_media_next">സംഗീതം - അടുത്ത പാട്ട്</string>
+    <string name="shortcut_action_media_play_pause">സംഗീതം - ഓടിക്കുക / താൽക്കാലികമായി നിർത്തുക</string>
+    <string name="shortcut_action_media_previous">സംഗീതം - മുമ്പത്തെ പാട്ട്</string>
+    <string name="shortcut_action_wake_device">ഉപകരണം സജീവമാക്കുക</string>
+    <string name="shortcut_action_kill">മുൻഭാഗത്തെ അപ്ലിക്കേഷൻ നിർത്തുക</string>
+    <string name="shortcut_action_screenshot">സ്ക്രീൻഷോട്</string>
+    <string name="shortcut_action_screenshot_selected">തിരഞ്ഞെടുത്ത പ്രദേശത്തെ സ്ക്രീൻഷോട്ട്</string>
+    <string name="shortcut_action_lastapp">അവസാന അപ്ലിക്കേഷൻ</string>
+    <string name="shortcut_action_menu_big">വലിയ പട്ടിക</string>
+    <string name="shortcut_action_notifications">അറിയിപ്പുകൾ</string>
+    <string name="shortcut_action_qs">ദ്രുത ക്രമീകരണ പട്ടിക</string>
+    <string name="shortcut_action_smart">സമര്‍ത്ഥമായ വലിച്ചു താഴ്ത്തല്‍</string>
+    <string name="shortcut_action_assist">തിരച്ചിൽ</string>
+
+    <!-- Sliding home -->
+    <string name="navbar_sliding_home_category">തെന്നുന്ന ഗൃഹം</string>
+    <string name="navbar_sliding_home_enabled_title">തെന്നുന്ന ഗൃഹ ബട്ടൺ പ്രാപ്തമാക്കുക</string>
+    <string name="navbar_sliding_home_enabled_summary">പ്രവർത്തനങ്ങൾ നടത്തുന്നതിന് ഗൃഹ ബട്ടൺ ഇടത് / വലത് വശത്തേക്ക് നീക്കുക</string>
+    <string name="navbar_sliding_home_left_title">ഇടത് വശത്തേക്ക് നീക്കുക</string>
+    <string name="navbar_sliding_home_left_summary">ഗൃഹം ഇടത്തേക്ക് നീക്കുന്ന സമയത്ത് നടത്താനുള്ള പ്രവർത്തനം</string>
+    <string name="navbar_sliding_home_right_title">വലത് വശത്തേക്ക് നീക്കുക</string>
+    <string name="navbar_sliding_home_right_summary">ഗൃഹം വലത്തേക്ക് നീക്കുന്ന സമയത്ത് നടത്താനുള്ള പ്രവർത്തനം</string>
+
+    <!-- double tap statusbar to sleep -->
+    <string name="double_tap_to_sleep_title"> ഇരട്ട-തട്ടൽ ഉറക്കുന്നു</string>
+    <string name="double_tap_to_sleep_summary">ഉപകരണത്തെ ഉറക്കുന്നതിന് സ്റ്റാറ്റസ് ബാറിൽ രണ്ടുതവണ തട്ടുക</string>
+
+    <!-- Brightness control -->
+    <string name="status_bar_toggle_brightness">തെളിച്ച നിയന്ത്രണം</string>
+    <string name="status_bar_toggle_brightness_summary">സ്റ്റാറ്റസ് ബാറിന് കുറുകെ നീക്കുന്നതിലൂടെ തെളിച്ചം ക്രമീകരിക്കുക</string>
+
+    <!-- Network traffic Settings -->
+    <string name="nettraffic_settings_title">നെറ്റ് വർക്ക് സംസര്‍ഗ്ഗം</string>
+    <string name="nettraffic_settings_summary">നെറ്റ് വർക്ക് സംസര്‍ഗ്ഗം തിരഞ്ഞെടുക്കല്‍</string>
+    <!-- Network traffic options -->
+    <string name="show_network_traffic_state">സ്റ്റാറ്റസ് ബാർ സംസര്‍ഗ്ഗ മോണിറ്റർ</string>
+    <string name="show_network_traffic_unit">പ്രദർശിപ്പിക്കുന്ന യൂണിറ്റ്</string>
+    <string name="show_network_traffic_frequency">പുതുക്കലിനുളള ഇടവേള</string>
+    <string name="show_network_traffic_disable">അപ്രാപ്തമാക്കി</string>
+    <string name="show_network_traffic_up">പുറത്തേക്കുള്ള ഒഴുക്ക്</string>
+    <string name="show_network_traffic_down">അകത്തേക്കുള്ള ഒഴുക്ക്</string>
+    <string name="show_network_traffic_all">പുറത്തേക്കുള്ള ഒഴുക്കും അകത്തേക്കുള്ള ഒഴുക്കും</string>
+    <string name="show_network_traffic_bit">ബിറ്റുകൾ / സെക്കന്റ്</string>
+    <string name="show_network_traffic_byte">ബൈറ്റുകൾ / സെക്കന്റ് </string>
+    <string name="show_network_traffic_500">500 ms</string>
+    <string name="show_network_traffic_1000">1000 ms</string>
+    <string name="show_network_traffic_1500">1500 ms</string>
+    <string name="show_network_traffic_2000">2000 ms</string>
+    <string name="network_traffic_autohide">യാന്ത്രികമായി മറയുക</string>
+    <string name="network_traffic_autohide_summary">യാതൊരു വിധ പ്രവർത്തനവും ഇല്ലാതിരിക്കുമ്പോൾ സംസര്‍ഗ്ഗ മോണിറ്റർ മറയ്ക്കുക</string>
+    <string name="network_traffic_autohide_threshold">നിഷ്ക്രിയത്വ ഉമ്മരപ്പടി</string>
+    <string name="network_traffic_hidearrow">ആരോകൾ മറയ്ക്കുക</string>
+    <string name="network_traffic_hidearrow_summary">നെറ്റ് വർക്ക് സംസര്‍ഗ്ഗ സൂചക ആരോകൾ മറയ്ക്കുക</string>
+
+    <!-- Clock settings -->
+    <string name="clock_settings_title">ഘടികാര സജ്ജീകരണങ്ങൾ</string>
+    <string name="clock_settings_summary">ഘടികാരവും സമയവും മാറ്റുക</string>
+    <!-- clock date options -->
+    <string name="clock_title_enable">വിന്യാസം</string>
+    <string name="status_bar_show_clock_title">ഘടികാരവും തിയ്യതിയും കാണിക്കുക</string>
+    <string name="status_bar_clock_seconds_title">നിമിഷങ്ങൾ കാണിക്കുക</string>
+    <string name="status_bar_am_pm_title">എ.എം/പി.എം</string>
+    <string name="status_bar_am_pm_info">24 മണിക്കൂർ ഘടികാരം പ്രാപ്തമാക്കി</string>
+    <string name="right_clock">ഘടികാരം - വലത്ത്</string>
+    <string name="center_clock">ഘടികാരം - മധ്യത്തിൽ</string>
+    <string name="left_clock">ഘടികാരം - ഇടത്ത്</string>
+    <string name="clock_date_display">തിയ്യതി</string>
+    <string name="clock_date_style">തീയതി ശൈലി</string>
+    <string name="clock_date_position">തീയതി സ്ഥാനം</string>
+    <string name="clock_date_format">തീയതി രീതി</string>
+    <string name="clock_date_string_edittext_title">തീയതി രീതിയിൽ ആയിരിക്കണം ഉദാഹരണം : മാസം/ തിയ്യതി/ വര്ഷം</string>
+    <string name="clock_date_string_edittext_summary">ശൃംഖല നൽകുക</string>
+    <string name="clock_date_right">സമയത്തിന്റെ വലത്ത്</string>
+    <string name="clock_date_left">സമയത്തിന്റെ ഇടത്ത്</string>
+    <string name="clock_am_pm_date_normal">സാധാരണം</string>
+    <string name="clock_am_pm_date_small">ചെറിയത്</string>
+    <string name="clock_am_pm_date_none">മറക്കപ്പെട്ടത്</string>
+    <string name="clock_date_style_lowercase">ചെറിയക്ഷരം</string>
+    <string name="clock_date_style_uppercase">വലിയക്ഷരം</string>
+    <string name="clock_date_format_custom">കസ്റ്റം ജാവാ ഫോർമാറ്റ്</string>
+
+    <!-- MTK schedule power on/off -->
+    <string name="schedule_power_on_off_settings_title">മുൻകൂട്ടി തയ്യാറാക്കപ്പെട്ട ഓണാക്കലും ഓഫാക്കലും</string>
+
+</resources>

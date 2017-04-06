@@ -37,7 +37,7 @@
     <string name="hardware_keys_action_voice_search">recherche vocale</string>
     <string name="hardware_keys_action_in_app_search">Recherche dans l\'application</string>
     <string name="hardware_keys_action_launch_camera">Ouvrir camera</string>
-    <string name="hardware_keys_action_kill_app">tuer les applications en arriere-plan</string>
+    <string name="hardware_keys_action_kill_app">Tuer les applications en arriere-plan</string>
 
     <!-- Notification light dialogs -->
     <string name="edit_light_settings">Modifier les paramètres d\'éclairage</string>
@@ -48,34 +48,34 @@
     <string name="dialog_delete_message">Supprimer l\'article sélectionné ?</string>
 
     <!-- Values for the notification light pulse spinners -->
-    <string name="pulse_length_always_on">toujours allumé</string>
-    <string name="pulse_length_very_short">très court</string>
-    <string name="pulse_length_short">court</string>
+    <string name="pulse_length_always_on">Toujours allumé</string>
+    <string name="pulse_length_very_short">Très court</string>
+    <string name="pulse_length_short">Court</string>
     <string name="pulse_length_normal">Normal</string>
     <string name="pulse_length_long">Longue</string>
-    <string name="pulse_length_very_long">très longue</string>
-    <string name="pulse_speed_very_fast">très rapide</string>
-    <string name="pulse_speed_fast">rapide</string>
+    <string name="pulse_length_very_long">Très longue</string>
+    <string name="pulse_speed_very_fast">Très rapide</string>
+    <string name="pulse_speed_fast">Rapide</string>
     <string name="pulse_speed_normal">Normal</string>
-    <string name="pulse_speed_slow">lent</string>
-    <string name="pulse_speed_very_slow">très lent</string>
+    <string name="pulse_speed_slow">Lent</string>
+    <string name="pulse_speed_very_slow">Très lent</string>
 
     <!-- Battery light settings -->
     <string name="battery_light_title">Voyant batterie</string>
-    <string name="battery_low_pulse_title">vibration si la batterie est faible</string>
+    <string name="battery_low_pulse_title">Vibration si la batterie est faible</string>
     <string name="battery_light_list_title">Couleurs</string>
     <string name="battery_light_low_color_title">Batterie faible</string>
     <string name="battery_light_medium_color_title">charge</string>
-    <string name="battery_light_full_color_title">entièrement chargé</string>
+    <string name="battery_light_full_color_title">Entièrement chargé</string>
 
     <!-- Lights settings screen, notification light settings -->
     <string name="notification_light_title">Notifications LED</string>
     <string name="notification_light_general_title">Général</string>
     <string name="notification_light_applist_title">Apps</string>
     <string name="notification_light_phonelist_title">Téléphone</string>
-    <string name="notification_light_use_custom">utiliser des valeurs personalisées</string>
+    <string name="notification_light_use_custom">Utiliser des valeurs personalisées</string>
     <string name="notification_light_default_value">Défaut</string>
-    <string name="notification_light_missed_call_title">appel manqué</string>
+    <string name="notification_light_missed_call_title">Appel manqué</string>
     <string name="notification_light_voicemail_title">Répondeur</string>
 
     <!-- Lights settings, LED notification -->
@@ -104,10 +104,10 @@
     <string name="smartwake_settings_category">SmartWake</string>
     <string name="smartwake_support_gestures">Support des gestes</string>
     <string name="smartwake_settings_u_title">Double-clic pour réveiller le téléphone</string>
-    <string name="smartwake_settings_up_title">dessiner vers le haut pour déverrouiller</string>
-    <string name="smartwake_settings_down_title">dessiner vers le bas pour metre en pause la musique</string>
-    <string name="smartwake_settings_right_title">dessiner vers la droite pour passer à la musique suivante</string>
-    <string name="smartwake_settings_left_title">dessiner vers la gauche pour passer à la musique précédente</string>
+    <string name="smartwake_settings_up_title">Dessiner vers le haut pour déverrouiller</string>
+    <string name="smartwake_settings_down_title">Dessiner vers le bas pour metre en pause la musique</string>
+    <string name="smartwake_settings_right_title">Dessiner vers la droite pour passer à la musique suivante</string>
+    <string name="smartwake_settings_left_title">Dessiner vers la gauche pour passer à la musique précédente</string>
     <string name="smartwake_settings_c_title">Dessiner un C pour réveiller</string>
     <string name="smartwake_settings_w_title">Dessiner un w pour réveiller</string>
     <string name="smartwake_settings_e_title">Dessiner un e pour réveiller</string>
@@ -124,13 +124,13 @@
     <string name="fast_charge_set_on_boot">Mettre au démarrage</string>
     <string name="fast_charge_set_on_boot_summary">Restaurer les paramètres de charge au démarrage</string>
     <string name="fast_charge_master">Activer la charge rapide</string>
-    <string name="fast_charge_notification_title">afficher charge rapide dans les notifications</string>
+    <string name="fast_charge_notification_title">Afficher charge rapide dans les notifications</string>
     <string name="fast_charge_notification_summary">Cela permet une notification avec un accès rapide aux paramètres de la charge rapide</string>
     <string name="qs_tile_fcharge">Charge rapide</string>
 
     <!-- Performance settings  -->
     <string name="performance_settings_title">Performance</string>
-    <string name="performance_settings_summary">Réglage du gouverneur CPU et du planificateur d\'I/O</string>
+    <string name="performance_settings_summary">Réglage du gouverneur CPU et de l\'ordonnanceur d\'E/S </string>
 
     <!-- Performance Settings : Warning dialog  -->
     <string name="performance_settings_warning_title">Procédez avec prudence</string>
@@ -154,15 +154,15 @@
     <string name="cpu_set_on_boot_summary">Restaurer les paramètres du processeur au démarrage</string>
 
     <!-- Performance Settings : I/O scheduler settings title -->
-    <string name="io_scheds_title">planificateur I/O </string>
+    <string name="io_scheds_title">Ordonnanceur d\'E/S </string>
     <!-- Performance Settings : I/O scheduler settings summary. -->
-    <string name="io_scheds_summary">Changer le planificateur I/O</string>
+    <string name="io_scheds_summary">Changer l\'ordonnanceur d\'E/S </string>
 
     <!-- Performance Settings : I/O scheduler settings sub items -->
-    <string name="io_sched_title">Planificateur I/O </string>
+    <string name="io_sched_title">Ordonnanceur d\'E/S </string>
     <string name="io_sched_summary">%S</string>
     <string name="io_sched_set_on_boot">Appliquer au demarage</string>
-    <string name="io_sched_set_on_boot_summary">Restaurer le planificateur I/O au démarrage</string>
+    <string name="io_sched_set_on_boot_summary">Restaurer l\'ordonnanceur d\'E/S au démarrage</string>
 
     <!-- Sensor Calibration -->
     <string name="sensor_calibration_title">Calibration capteur</string>
@@ -171,12 +171,13 @@
     <string name="sensor_calibration_summary_gyroscope_only">Réglage du gyroscope</string>
     <string name="sensor_calibration_gsensor">Calibration de l\'accéléromètre</string>
     <string name="sensor_calibration_gyroscope">Calibration du gyroscope</string>
-    <string name="sensor_calibration_do_20">faire une calibration (20% tolérance)</string>
-    <string name="sensor_calibration_do_40">faire une calibration (40% tolérance)</string>
+    <string name="sensor_calibration_do_20">Faire une calibration (20% tolérance)</string>
+    <string name="sensor_calibration_do_40">Faire une calibration (40% tolérance)</string>
     <string name="sensor_calibration_clear">Effacer calibration</string>
     <string name="sensor_calibration_note">REMARQUE: Le téléphone doit rester immobile sur une surface plane pendant le calibrage.</string>
     <string name="sensor_calibration_current_data_hint">Données actuelles du capteur: </string>
     <string name="sensor_calibration_sensor_data_hint">Données d\'étalonnage du capteur: </string>
+    <string name="sensor_calibration_success">Calibration réussie</string>
 
     <string name="gyroscope_axis_switch">Basculer vers le haut/bas sur l\'axe vertical</string>
 
@@ -184,12 +185,12 @@
     <string name="query_result">Échec de la requête</string>
     <string name="query_support_message">Le mode de requête a échoué.</string>
     <string name="query_current_message">Le mode courant de requête a échoué.</string>
-    <string name="query_btn_text">fermer</string>
-    <string name="set_success_message">mettre OK</string>
+    <string name="query_btn_text">Fermer</string>
+    <string name="set_success_message">Mettre OK</string>
     <string name="set_ok_text">OK</string>
     <string name="set_fail_title">Échec</string>
-    <string name="set_fail_message">mettre Échec</string>
-    <string name="set_fail_text">fermer</string>
+    <string name="set_fail_message">Mettre Échec</string>
+    <string name="set_fail_text">Fermer</string>
     <string name="reset_title">Réinitialiser</string>
     <string name="reset_message">Réinitialiser les réglages par défaut ?</string>
     <string name="bandmode_sim1">SIM1</string>
@@ -229,7 +230,7 @@
     <string name="BandSel_UMTS_BAND_VIII">WCDMA-GSM-900</string>
     <string name="BandSel_UMTS_BAND_IX">WCDMA-1800</string>
     <string name="BandSel_UMTS_BAND_X">WCDMA-1700</string>
-    <string name="BandSel_RESET">Reset to default</string>
+    <string name="BandSel_RESET">Réstaurer par défaut</string>
     <string name="BandSel_CDMA">CDMA Mode</string>
     <string name="BandSel_CDMA_BAND_0">Band Class 0(North American Celluar Band)</string>
     <string name="BandSel_CDMA_BAND_1">Band Class 1(North American PCS band)</string>
@@ -296,8 +297,21 @@
     <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
     <string name="app_ops_settings_summary">Afficher ou modifier les autorisations d\'application</string>
 
-    <!-- > Substratum /layers4.0 -->
+    <!-- Substratum -->
     <string name="substratum_title">Substratum</string>
+    <!-- Manage applications: show substratum overlays -->
+    <string name="filter_substratum_apps">Substratum overlays</string>
+    <string name="menu_show_substratum">Montrer les overlays</string>
+    <string name="menu_hide_substratum">Cacher les overlays</string>
+
+    <!-- Manage applications: show substratum icon overlays -->
+    <string name="filter_substratum_icons">Substratum icon overlays</string>
+    <string name="menu_show_substratum_icons">Montrer icon overlays</string>
+    <string name="menu_hide_substratum_icons">Cacher icon overlays</string>
+
+    <!-- Force authorize substratum packages -->
+    <string name="force_authorize_substratum_packages_title">Force authorize every theme app</string>
+    <string name="force_authorize_substratum_packages_summary">Accepter les applications-thèmes de sources inconnues</string>
 
     <string name="sim_color_bar_title">Coloriser la barre de signalisation</string>
 
@@ -347,13 +361,13 @@
     <string name="quick_pulldown_summary">%1$s bord de la barre d\'état tire vers le bas des réglages rapides</string>
     <string name="quick_pulldown_summary_left">Gauche</string>
     <string name="quick_pulldown_summary_right">Droite</string>
-    <string name="quick_pulldown_off">éteint</string>
+    <string name="quick_pulldown_off">Éteint</string>
     <string name="quick_pulldown_left">Gauche</string>
     <string name="quick_pulldown_right">Droite</string>
 
-    <string name="link_volume_option_title">lien de sonnerie &amp; Volumes de notification</string>
+    <string name="link_volume_option_title">lier le volume de la sonnerie &amp; des notification</string>
     <string name="sim_ringtone_title">SIM %d sonnerie</string>
-    <string name="category_sounds">son</string>
+    <string name="category_sounds">Son</string>
 
     <!-- ScrollSettings -->
     <string name="scroll_settings_title">Paramètres de défilement</string>
@@ -365,8 +379,8 @@
     <string name="custom_fling_velocity_summary">La vélocité maximum pour commencer un fling</string>
 
     <!-- Longpress Power torch -->
-    <string name="long_press_power_for_torch_title">appui long sur le bouton allumage pour allumer la lampe torche</string>
-    <string name="long_press_power_for_torch_summary">appui long sur le bouton allumage (écran éteint) pour activer la lampe</string>
+    <string name="long_press_power_for_torch_title">Appui long sur le bouton allumage pour allumer la lampe torche</string>
+    <string name="long_press_power_for_torch_summary">Appui long sur le bouton allumage (écran éteint) pour activer la lampe</string>
 
     <string name="idle_stats_title">Stats d\'inactivité</string>
 
@@ -385,8 +399,8 @@
     <string name="status_bar_battery_style_hidden">Caché</string>
     <string name="status_bar_battery_percentage_title">Pourcentage batterie</string>
     <string name="status_bar_battery_percentage_default">Caché</string>
-    <string name="status_bar_battery_percentage_text_inside">dans l\'icône</string>
-    <string name="status_bar_battery_percentage_text_next">à côté de l\'icône</string>
+    <string name="status_bar_battery_percentage_text_inside">Dans l\'icône</string>
+    <string name="status_bar_battery_percentage_text_next">À côté de l\'icône</string>
 
     <!-- Seekbar -->
     <string name="default_string">Défaut</string>
@@ -408,7 +422,7 @@
     <string name="navigation_bar_title">Boutons et disposition</string>
     <string name="navigation_bar_help_text">Pour commencer, appuyez sur l\'icône d\'édition pour déverrouiller la barre de navigation.\n\nVous pouvez appuyer sur une icône pour modifier son raccourci ou appuyez longuement sur une icône pour réorganiser la mise en page.\n\nAppuyez sur la touche pour enregistrer vos modifications, Ou restaurer pour réinitialiser la mise en page aux paramètres par défaut.</string>
     <string name="navigation_restore_button_text">Restore\ndefaults</string>
-    <string name="navigation_edit_button_text">Edit</string>
+    <string name="navigation_edit_button_text">Editer</string>
     <string name="navigation_save_button_text">Sauvegarder</string>
     <string name="navigation_bar_reset_message">Supprimer les paramètres actuels et restaurer la mise en page par défaut ?</string>
 
@@ -472,26 +486,26 @@
 
     <!-- Actions -->
     <string name="shortcut_action_none">Aucun</string>
-    <string name="shortcut_action_app">App custom</string>
+    <string name="shortcut_action_app">App perso</string>
     <string name="shortcut_action_home">Accueil</string>
     <string name="shortcut_action_back">Retour</string>
     <string name="shortcut_action_menu">Menu</string>
-    <string name="shortcut_action_ime">Ouvrir IME Switcher</string>
-    <string name="shortcut_action_power_menu">Power menu</string>
+    <string name="shortcut_action_ime">Ouvrir le Sélecteur de clavier</string>
+    <string name="shortcut_action_power_menu">Menu Power</string>
     <string name="shortcut_action_recents">Récents</string>
-    <string name="shortcut_action_power">Screen Off</string>
-    <string name="shortcut_action_search">Search in app</string>
-    <string name="shortcut_action_ring_vib">Ring/Vib</string>
-    <string name="shortcut_action_ring_silent">Ring/Silent</string>
-    <string name="shortcut_action_ring_vib_silent">Ring/Vib/Silent</string>
+    <string name="shortcut_action_power">Éteindre l\'écran</string>
+    <string name="shortcut_action_search">Chercher dans l\'app</string>
+    <string name="shortcut_action_ring_vib">Sonnerie/Vib</string>
+    <string name="shortcut_action_ring_silent">Sonnerie/Silencieux</string>
+    <string name="shortcut_action_ring_vib_silent">Sonnerie/Vib/Silencieux</string>
     <string name="shortcut_action_torch">Lampe torche</string>
-    <string name="shortcut_action_camera">Camera</string>
+    <string name="shortcut_action_camera">Appareil photo</string>
     <string name="shortcut_action_media_next">Musique - piste suivante</string>
     <string name="shortcut_action_media_play_pause">Musique - lecture/pause</string>
     <string name="shortcut_action_media_previous">Musique - piste précédente</string>
     <string name="shortcut_action_wake_device">Réveiller l\'appareil</string>
     <string name="shortcut_action_kill">Tuer les apps en tâche de fond</string>
-    <string name="shortcut_action_screenshot">Capture écran</string>
+    <string name="shortcut_action_screenshot">Capture d\'écran</string>
     <string name="shortcut_action_screenshot_selected">Capture partielle d\'écran</string>
     <string name="shortcut_action_lastapp">Dernière app</string>
     <string name="shortcut_action_menu_big">Menu Big</string>
@@ -511,11 +525,11 @@
 
     <!-- double tap statusbar to sleep -->
     <string name="double_tap_to_sleep_title">Double-tap to sleep</string>
-    <string name="double_tap_to_sleep_summary">Double tap on the status bar to put the device to sleep</string>
+    <string name="double_tap_to_sleep_summary">Double tape sur la barre de status pour mettre l\'appareil en veille</string>
 
     <!-- Brightness control -->
-    <string name="status_bar_toggle_brightness">Brightness control</string>
-    <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
+    <string name="status_bar_toggle_brightness">Contrôle de la luminosité</string>
+    <string name="status_bar_toggle_brightness_summary">Ajuster la luminosité en glissant le long de la barre de status</string>
 
     <!-- Network traffic Settings -->
     <string name="nettraffic_settings_title">Trafic réseau</string>
@@ -535,14 +549,14 @@
     <string name="show_network_traffic_1500">1500 ms</string>
     <string name="show_network_traffic_2000">2000 ms</string>
     <string name="network_traffic_autohide">Auto hide</string>
-    <string name="network_traffic_autohide_summary">Hide the traffic monitor when there is no activity</string>
+    <string name="network_traffic_autohide_summary">Cacher le moniteur de traffic quand il n\'y a pas d\'activité</string>
     <string name="network_traffic_autohide_threshold">Seuil d\'inactivité</string>
-    <string name="network_traffic_hidearrow">Hide arrows</string>
-    <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
+    <string name="network_traffic_hidearrow">Masquer les flèches</string>
+    <string name="network_traffic_hidearrow_summary">Masquer les flèches indicatrices du moniteur de traffic</string>
 
     <!-- Clock settings -->
     <string name="clock_settings_title">Paramètres de l\'horloge</string>
-    <string name="clock_settings_summary">Custom clock and date options</string>
+    <string name="clock_settings_summary">Options personnalisées d\'horloge &amp; date</string>
     <!-- clock date options -->
     <string name="clock_title_enable">Alignement</string>
     <string name="status_bar_show_clock_title">Montrer l\'horloge et la date</string>
@@ -568,6 +582,6 @@
     <string name="clock_date_format_custom">Custom java format</string>
 
     <!-- MTK schedule power on/off -->
-    <string name="schedule_power_on_off_settings_title">Scheduled power on &amp; off</string>
+    <string name="schedule_power_on_off_settings_title">Réveil &amp; extinction programmés</string>
 
 </resources>
