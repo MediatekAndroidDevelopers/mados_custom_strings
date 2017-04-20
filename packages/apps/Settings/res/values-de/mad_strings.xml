@@ -285,4 +285,8 @@
     <!-- Longpress Power torch -->
     <string name="long_press_power_for_torch_title">Powerknopf Taschenlampe</string>
     <string name="long_press_power_for_torch_summary">Drücke und halte den An/Aus-Knopf um die Taschenlampe bei ausgeschaltetem Bildschirm zu (de)aktivieren.</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Schnelles Entsperren</string>
+    <string name="unlock_quick_unlock_control_summary">Automatisch Entsperren bei Pin (Ok Taste muss nicht mehr gedrückt werden)\nAnmerkung: Funktioniert nur bei Pin mit 4 Zeichen</string>
 </resources>
