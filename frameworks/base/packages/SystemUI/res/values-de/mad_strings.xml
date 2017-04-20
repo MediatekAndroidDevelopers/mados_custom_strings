@@ -34,4 +34,11 @@
 
     <!-- Screen pinning dialog description (for devices without navbar) -->
     <string name="screen_pinning_description_no_navbar">Bleibt im Vordergrund bis Ansicht durch Drücken und Halten von ZURÜCK verlassen wird.</string>
+
+    <!-- NFC QS tile -->
+    <string name="quick_settings_nfc_label">NFC</string>
+    <string name="accessibility_quick_settings_nfc_off">NFC aus.</string>
+    <string name="accessibility_quick_settings_nfc_on">NFC an.</string>
+    <string name="accessibility_quick_settings_nfc_changed_off">NFC ausgeschaltet.</string>
+    <string name="accessibility_quick_settings_nfc_changed_on">NFC eingeschaltet.</string>
 </resources>
