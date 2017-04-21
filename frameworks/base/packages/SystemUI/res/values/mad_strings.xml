@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-     Copyright (C) 2017 The madOS Project
+<!--  Copyright (C) 2016, 2017 The madOS Project
 
-     Licensed under the Apache License, Version 2.0 (the "License");
-     you may not use this file except in compliance with the License.
-     You may obtain a copy of the License at
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
 
-          http://www.apache.org/licenses/LICENSE-2.0
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
 
-     Unless required by applicable law or agreed to in writing, software
-     distributed under the License is distributed on an "AS IS" BASIS,
-     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-     See the License for the specific language governing permissions and
-     limitations under the License.
--->
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
     <!-- Reboot/Reboot Recovery QS Tile -->
     <string name="quick_settings_reboot_label">Reboot</string>
     <string name="quick_settings_reboot_recovery_label">Recovery</string>
@@ -35,7 +37,7 @@
     <string name="quick_settings_caffeine_label">Caffeine</string>
     <string name="accessibility_quick_settings_caffeine_off">Caffeine off</string>
     <string name="accessibility_quick_settings_caffeine_on">Caffeine on</string>
-
+    
     <!-- Screen pinning dialog description (for devices without navbar) -->
     <string name="screen_pinning_description_no_navbar">This keeps it in view until you unpin. Touch and hold the Back button to unpin.</string>
 
@@ -68,9 +70,28 @@
 
     <string name="app_killed_message">App Killed</string>
 
-    <!-- PA Pie controls -->
-    <string name="pie_date_format" translatable="false">ccc, dd MMM yyyy</string>
-    <string name="pie_hour_format_12" translatable="false">hh:mm</string>
-    <string name="pie_hour_format_24" translatable="false">HH:mm</string>
-    <string name="pie_am_pm" translatable="false">a</string>
+    <!-- Battery status in pie controls -->
+    <string name="pie_battery_status_charging">Charging (<xliff:g id="percent">%d</xliff:g>%%)</string>
+    <string name="pie_battery_status_full">Charged</string>
+    <string name="pie_battery_status_discharging"><xliff:g id="percent">%d</xliff:g>%% remaining</string>
+
+    <!-- Phone status in pie controls -->
+    <string name="pie_phone_status_no_service">No service</string>
+    <string name="pie_phone_status_airplane_mode">Airplane mode on</string>
+    <string name="pie_phone_status_emergency_only">Emergency calls only</string>
+
+    <!-- madOS QS Tile -->
+    <string name="qs_mad_extras_tile">madOS Extras</string>
+    <string name="quick_mad_extras_toast">lol, you really thought that long click works here? xD</string>
+
+    <!-- Slim Recents app-screen-->
+    <string name="recents_multiwin_warning">A multiwindow session is already active.\nJust tap an app if you want to dock it now.</string>
+    <string name="recents_multiwin_nolastapp">You removed all recents, please choose an app from launcher or drawer.</string>
+
+    <!-- NFC QS tile -->
+    <string name="quick_settings_nfc_label">NFC</string>
+    <string name="accessibility_quick_settings_nfc_off">NFC off.</string>
+    <string name="accessibility_quick_settings_nfc_on">NFC on.</string>
+    <string name="accessibility_quick_settings_nfc_changed_off">NFC turned off.</string>
+    <string name="accessibility_quick_settings_nfc_changed_on">NFC turned on.</string>
 </resources>
