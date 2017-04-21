@@ -663,4 +663,7 @@
     <string name="pa_pie_button_color_title">Χρώμα Πλήκτρων</string>
     <string name="pa_pie_always_right_title">Η πίτα πάντα στα δεξιά</string>
     <string name="pa_pie_always_right_summary">Η πίτα πάντα θα εμφανίζεται στα δεξία όταν το κινητό βρίσκεται οριζόντια</string>
+     <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Γρήγορο ξεκλείδωμα</string>
+    <string name="unlock_quick_unlock_control_summary">Αυτόματη ξεκλείδωμα μόλις εισαχθεί ο σωστός κωδικός PIN \nΣημείωση: θα λειτουργεί μόνο για 4 ψηφία PIN !</string>
 </resources>
