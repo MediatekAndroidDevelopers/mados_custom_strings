@@ -890,7 +890,7 @@
     <!-- Slim Recents panel -->
     <string name="mad_recents_summary">Настройки недавних приложений</string>
     <string name="recents_title">Недавние приложения</string>
-    <string name="slim_recents_title">Узкие вид недавних приложений</string>
+    <string name="slim_recents_title">Узкий вид недавних приложений</string>
     <string name="use_slim_recents_title">Использовать как альтернативу недавним</string>
     <string name="use_slim_recents_summary">Использовать узкий вид недавних приложений вместо вида по умолчанию</string>
     <string name="slim_recents_settings_title">Настройки узкого вида недавних</string>
