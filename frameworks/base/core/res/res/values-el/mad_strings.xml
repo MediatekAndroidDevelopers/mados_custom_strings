@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2017 The madOS Project
+     Copyright (C) 2016, 2017 The madOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -15,32 +14,53 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="permlab_preventpower">Παράκαμψη πλήκτρου ενεργοποίησης</string>
+    <string name="permlab_preventpower">override power key</string>
     <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-    <string name="permdesc_preventpower">Επέτρεψε στην εφαρμογή να παρακάμψει το πλήκτρο ενεργοποίησης.</string>
+    <string name="permdesc_preventpower">Allows an app to override the power key.</string>
 
     <!-- Button to restart the phone in restart menu -->
-    <string name="reboot_reboot">Επανεκκίνηση</string>
+    <string name="reboot_reboot">Restart</string>
     <!-- Button to restart the phone into recovery in restart menu -->
     <string name="reboot_recovery">Recovery</string>
     <!-- Button to soft restart the device in restart menu -->
-    <string name="reboot_soft">Επανεκκίνηση λογισμικού</string>
+    <string name="reboot_soft">Soft restart</string>
     <!-- Restart Confirmation Dialog. -->
-    <string name="reboot_confirm" product="tablet">Το tablet θα επανεκκινήσει.</string>
-    <string name="reboot_confirm" product="default">Το τηλέφωνο θα επανεκκινήσει.</string>
+    <string name="reboot_confirm" product="tablet">Your tablet will restart.</string>
+    <string name="reboot_confirm" product="default">Your phone will restart.</string>
     <!-- Restart Progress Dialog. This is shown if the user chooses to restart the phone. -->
-    <string name="reboot_progress">Επανεκκίνηση\u2026</string>
+    <string name="reboot_progress">Restarting\u2026</string>
 
     <!-- label for item that screenshots in phone options dialog -->
-    <string name="global_action_screenshot">Στιγμιότυπο Οθόνης</string>
+    <string name="global_action_screenshot">Screenshot</string>
 
     <!-- Fast Charge -->
-    <string name="fc_active_notification_title">Ρυθμίσεις γρήγορης φόρτισης</string>
-    <string name="fc_active_notification_message">"Πατήστε για ρυθμίσεις γρήγορης φόρτισης"</string>
-
+    <string name="fc_active_notification_title">Fast-Charge settings</string>
+    <string name="fc_active_notification_message">"Touch for Fast-Charge Settings"</string>
+    
     <!-- Long-press back kill application -->
-    <string name="app_killed_message">Η Εφαρμογή έκλεισε</string>
+    <string name="app_killed_message">Application killed</string>
 
     <!-- Notify user that they are in Lock-to-app (for devices without navbar) -->
-    <string name="lock_to_app_toast_no_navbar">Για ξεκαρφιτσώμα της οθόνης, πατήστε παρατεταμένα το πλήκτρο επιστροφής .</string>
+    <string name="lock_to_app_toast_no_navbar">To unpin this screen, touch and hold the Back button.</string>
+
+    <!-- status message in phone options dialog for when pie is on -->
+    <string name="global_actions_pie_mode_on_status">SlimPie is ON</string>
+
+    <!-- status message in phone options dialog for when pie is off -->
+    <string name="global_actions_pie_mode_off_status">SlimPie is OFF</string>
+
+    <!-- Error message if user want to try to disable all navigation options -->
+    <string name="disable_pie_navigation_error">You cannot disable pie controls. No other navigation is enabled. Enable first the navigation bar to turn off pie controls.</string>
+
+    <!-- status message in phone options dialog for when navigation bar is on -->
+    <string name="global_actions_nav_bar_mode_on_status">Navigation bar is ON</string>
+
+    <!-- status message in phone options dialog for when navigation bar is off -->
+    <string name="global_actions_nav_bar_mode_off_status">Navigation bar is OFF</string>
+
+    <!-- Error message if user want to try to disable all navigation options -->
+    <string name="disable_navigation_pie_error">You cannot disable the navigation bar. No other navigation is enabled. Enable first pie controls to turn off the navigation bar.</string>
+
+    <string name="singlehandmode_click_hint_message">Touch outside the screen to exit mini screen view</string>
+    <string name="singlehandmode_slide_hint_message">Slide your finger across the navigation bar to switch between the standard and mini screen views</string>
 </resources>
