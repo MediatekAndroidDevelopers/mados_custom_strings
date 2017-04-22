@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-     Copyright (C) 2017 The madOS Project
+     Copyright (C) 2016, 2017 The madOS Team
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -99,6 +99,7 @@
     <string name="mad_settings_title">madOS Extras</string>
     <!-- madOS extras-Categories -->
     <string name="mad_interface">Διεπαφή</string>
+	<string name="mad_recents">Πρόσφατα</string>
     <string name="mad_buttons">Πλήκτρα</string>
     <string name="mad_system">Σύστημα</string>
 
@@ -391,12 +392,6 @@
     <!-- General strings -->
     <string name="cancel">Ακύρωση</string>
     <string name="save">Αποθήκευση</string>
-    <string name="ok">OK</string>
-    <string name="reset">Επαναφορά</string>
-    <string name="help">Βοήθεια</string>
-    <string name="attention">Προσοχή</string>
-    <string name="enabled">Ενεργοποιημένο</string>
-    <string name="add">Προσθήκη</string>
 
     <!-- Battery customizations -->
     <string name="status_bar_battery_style_category">Μπαταρία</string>
@@ -414,13 +409,6 @@
 
     <!-- Seekbar -->
     <string name="default_string">Προεπιλογή</string>
-
-    <!-- Color Picker -->
-    <string name="dialog_color_picker">Επιλογή χρώματος</string>
-    <string name="press_color_to_apply">Διαλέξτε χρώμα για εγαρμόγη</string>
-    <string name="arrow_right">→</string>
-    <string name="hex">Hex:</string>
-    <string name="hex_hint">#ff000000</string>
 
     <!-- Navigation bar -->
     <string name="nav_bar_title">Γραμμή πλοήγησης</string>
@@ -591,76 +579,361 @@
     <string name="clock_date_style_uppercase">Κεφαλαία</string>
     <string name="clock_date_format_custom">Προσαρμοσμένη μορφή java</string>
 
-    <!-- MTK schedule power on/off -->
+    <!-- Scheduled power on/off -->
     <string name="schedule_power_on_off_settings_title">Προγραμματισμένη ενεργοποίηση &amp; απενεργοποίηση</string>
     <string name="schedule_summary">Ρυθμίσεις για προγραμματισμένη ενεργοποίηση/απενεργοποίηση</string>
+	
+	<string name="scheduled_power_on">Ενεργοπίηση</string>
+    <string name="scheduled_power_off">Απενεργοποίηση</string>
 
-    <!-- PA Pie -->
-    <string name="reset_paranoid">madOS</string>
-    <string name="reset_android">Android</string>
+    <string name="scheduled_power_edit_time">Επεξεργασία ώρας</string>
+    <string name="scheduled_power_edit_days">Επεξεργασία μέρες</string>
 
-    <!-- PA Pie control -->
-    <string name="pa_piecontrol_settings_summary">Προσαρμόστε τα στοιχεία πίτας, στυλ, μέγεθος και χρώμα</string>
-    <string name="pa_pie_control_title">Έλεγχος πίτας</string>
-    <string name="pa_pie_control_enable_title">Ενεργοποίηση ελέγχου πίτας</string>
-    <string name="pa_pie_targets_title">Στοιχεία πίτας</string>
-    <string name="pa_pie_style_title">Στυλ πίτας</string>
-    <string name="pa_pie_menu_title">Εμφάνιση πάντα του πλήκτρου μενού</string>
-    <string name="pa_pie_menu_summary">Κατά πόσο ή όχι το πλήκτρο μενού θα εμφανίζεται πάντα, ακόμα και όταν δεν απαιτείται</string>
-    <string name="pa_pie_size_title">Μέγεθος πίτας</string>
-    <string name="pa_pie_size_summary">Ορίστε το μεγέθος της πίτα</string>
-    <string name="pa_pie_size_small">Μικρό</string>
-    <string name="pa_pie_size_default">@string/pa_pie_mode_default</string>
-    <string name="pa_pie_size_large">Μεγάλο</string>
-    <string name="pa_pie_size_gigantic">Γιγάντιο</string>
-    <string name="pa_pie_size_monster">Τερατώδες</string>
-    <string name="pa_pie_size_enormous">Τεράστιο</string>
-    <string name="pa_pie_mode_default">Προεπιλογή</string>
-    <string name="pa_pie_gravity_title">Θέση πίτας</string>
-    <string name="pa_pie_gravity_summary">Ορίστε τη θέση όπου θα τοποθετηθεί η πίτα</string>
-    <string name="pa_pie_gravity_bottom">Κάτω</string>
-    <string name="pa_pie_gravity_right">Δεξιά</string>
-    <string name="pa_pie_gravity_left">Αριστερά</string>
-    <string name="pa_pie_gap_title">Κενό πλήκτρων</string>
-    <string name="pa_pie_gap_summary">Ρυθμίστε το κενό μεταξύ των πλήκτρων της πίτας</string>
-    <string name="pa_pie_angle_title">Γωνία πίτας</string>
-    <string name="pa_pie_angle_summary">Ορίστε τη γωνίας του άκρου της πίτας από το περιεχόμενο</string>
-    <string name="pa_pie_angle_none">Κανένας </string>
-    <string name="pa_pie_angle_small">Μικρό</string>
-    <string name="pa_pie_angle_big">Κανονικό (προεπιλογή)</string>
-    <string name="pa_pie_angle_huge">Μεγάλο</string>
-    <string name="pa_pie_angle_super">Τεράστιο</string>
-    <string name="pa_pie_gap_none">Κανένα</string>
-    <string name="pa_pie_gap_small">Μικρό</string>
-    <string name="pa_pie_gap_big">Μεγάλο (προεπιλογή)</string>
-    <string name="pa_pie_gap_huge">Τεράστιο</string>
-    <string name="pa_pie_mode_title">Στυλ πίτας</string>
-    <string name="pa_pie_mode_summary">Διαχειριστείτε τις κινούμενες εικόνες και προσθήκες</string>
-    <string name="pa_pie_mode_bare">Βαρετό</string>
-    <string name="pa_pie_mode_quick">Γρήγορο</string>
-    <string name="pa_pie_mode_default">προεπιλογή</string>
-    <string name="pa_pie_mode_slow">Αργό</string>
-    <string name="pa_pie_lastapp_title">Τελευταία εφαρμογή</string>
-    <string name="pa_pie_lastapp_summary">Ενεργοποίηση πλήκτρου τελευταίας εφαρμογής</string>
-    <string name="pa_pie_killtask_title">Τερματισμός εργασίας</string>
-    <string name="pa_pie_killtask_summary">Ενεργοποίηση πλήκτρου τερματισμού εργασίας</string>
-    <string name="pa_pie_notifications_title">Ειδοποιήσεις</string>
-    <string name="pa_pie_notifications_summary">Ενεργοποίηση πλήκτρου ειδοποιήσεων</string>
-    <string name="pa_pie_settings_panel_title">Πάνελ Γρήγορων ρυθμίσεων</string>
-    <string name="pa_pie_settings_panel_summary">Ενεργοποίηση πλήκτρου γρήγορων ρυθμίσεων</string>
-    <string name="pa_pie_screenshot_title">Στιγμιότυπο οθόνης</string>
-    <string name="pa_pie_screenshot_summary">Ενεργοποίηση πλήκτρου στιγμιότυπου οθόνης</string>
-    <string name="pa_pie_color_title">Ρυθμίσεις χρώματος πίτας</string>
-    <string name="pa_pie_color_style_title">Στυλ χρώματος πίτας</string>
-    <string name="pa_pie_background_title">Χρώμα Φόντου</string>
-    <string name="pa_pie_select_title">Χρώμα Επιλογής</string>
-    <string name="pa_pie_outlines_title">Χρώμα εσωτερικού περιγράμματος</string>
-    <string name="pa_pie_status_clock_title">Χρώμα Ρολογιού</string>
-    <string name="pa_pie_status_title">Χρώμα Κατάστασης</string>
-    <string name="pa_pie_chevron_title">Χρώμα εξωτερικού περιγράμματος</string>
-    <string name="pa_pie_juice_title">Χρώμα Μπαταρίας</string>
-    <string name="pa_pie_button_color">Χρώμα Πλήκτρου</string>
-    <string name="pa_pie_button_color_title">Χρώμα Πλήκτρων</string>
-    <string name="pa_pie_always_right_title">Η πίτα πάντα στα δεξιά</string>
-    <string name="pa_pie_always_right_summary">Η πίτα πάντα θα εμφανίζεται στα δεξία όταν το κινητό βρίσκεται οριζόντια</string>
+    <string name="scheduled_power_shutdown_message">Η συσκευή θα απενεργοποιηθεί σε <xliff:g id="seconds">%s</xliff:g> δευτερόλεπτα</string>
+
+    <string name="additional_options_title">Επιπλέον επιλογές</string>
+    <string name="attention">Προσοχή</string>
+
+    <!-- madOS versioning -->
+    <string name="mados_version"> Έκδοση madOS</string>
+    <string name="mados_version_default">Αγνωστη</string>
+    <!-- madOS About Phone, build date -->
+    <string name="build_date">Ημερομηνία έκδοσης</string>
+    <string name="build_date_default">2017-01-01-0000</string>
+
+    <!-- new pie -->
+    <string name="icon_color_mode_all_icons">Ολα τα εικονίδια</string>
+    <string name="icon_color_mode_system_icons">Εικονίδια συστήματος</string>
+    <string name="icon_color_mode_system_custom_icons">Εικονίδια Σύστηματος και προσαρμοσμένα</string>
+
+    <string name="title_pref_menu_display">Μενού ορατότητας</string>
+    <string name="summary_pref_menu_display">Πώς και πότε θέλετε να εμφανίζονται τα κουμπιά μενού?</string>
+    <string name="navigation_menu_default_behavior">Εμφάνιση κατόπιν αιτήματος (προεπιλογή)</string>
+    <string name="navigation_menu_never_show">Να μη εμφανίζεται ποτέ</string>
+    <string name="navigation_menu_always_show">Εμφάνιση πάντα</string>
+
+    <string name="shortcut_image_not_valid">Η επιλεγμένη εφαρμογή δεν επέστρεψε ένα έγκυρο εικονίδιο ή δεν υποστηρίζει την περικοπή εικόνας. Χρησιμοποιήστε μια άλλη εφαρμογή.</string>
+    <string name="shortcut_duplicate_entry">Η επιλεγμένη ενέργεια δεν μπορεί να προστεθεί δύο φορές</string>
+
+    <string name="shortcut_action_warning">Προειδοποίηση</string>
+    <string name="shortcut_action_warning_message">Δεν είναι δυνατή η διαγραφή της τελευταίας καταχώρησης</string>
+    <string name="shortcut_action_disable_message">Απενεργοποιημένο\nΠροσθέστε μια καταχώρηση για να ενεργοποιήσετε αυτήν τη λειτουργία</string>
+    <string name="shortcut_action_required_warning_message">Δεν είναι δυνατή η διαγραφή των απαιτούμενων κουμπιών</string>
+    <string name="shortcut_action_longpress">Παρατεταμένο:</string>
+    <string name="shortcut_action_select_action_longpress">επιλέξτε ενέργεια παρατεταμένου πατήματος:</string>
+    <string name="shortcut_action_select_action">Επιλέξτε ενέργεια:</string>
+    <string name="shortcut_action_select_action_newaction">Επιλέξτε νέα ενέργεια:</string>
+    <string name="shortcut_action_max">Μέγιστο μέγεθος εγγραφών έχει επιτευχθεί</string>
+    <string name="shortcut_action_reset">Επαναφορά</string>
+    <string name="shortcut_action_add">Προσθήκη</string>
+    <string name="shortcut_action_help_shortcut">Συντόμευση</string>
+    <string name="shortcut_action_help_button">Πλήκτρο</string>
+    <string name="shortcut_action_help_app">Εγαρμογή</string>
+    <string name="shortcut_action_help_icon">, Ενώ επιλέγοντας το εικονίδιο θα εμφανιστούν οι επιλογές προσαρμογής</string>
+    <string name="shortcut_action_help_main">Για να προσθέσετε ένα %1$s, επιλέξτε το κουμπί προσθήκη. Όταν ένα %1$s προστεθεί, επιλέγοντας την στήλη θα αλλάξει ο στόχος%2$s\n\nΓια να αφαιρέσετε ένα %1$s, Σύρετε τη σειρά οριζόντια αριστερά ή δεξιά. Επανατοποθετήστε ένα %1$s στην λίστα Στρέφοντας κάθετα την άγκυρα στα αριστερά.\n\nΓια να καταργήσετε ή να επαναφέρετε τις προεπιλογές, επιλέξτε το εικονίδιο Επαναφορά.</string>
+    <string name="shortcut_action_help_delete_last_entry">Αφαιρώντας όλα τα  %1$s στην λίστα Θα απενεργοποιήθει πλήρως τη λειτουργία.</string>
+    <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Αφαιρώντας όλα τα %1$s στην λίστα Θα απενεργοποιήσει πλήρως τη δεύτερη στρώση πίτας.</string>
+	
+	<string name="shortcuts_applications">Εγαρμογές</string>
+    <string name="shortcuts_select_custom_app_title">Επιλέξτε Προσαρμοσμένη εφαρμογή</string>
+    <string name="shortcuts_icon_default">Προεπιλογή</string>
+    <string name="shortcuts_icon_presets">Εικονίδια συστήματος</string>
+    <string name="shortcuts_icon_custom">Έκθεση</string>
+    <string name="shortcuts_icon_picker_type">Επιλέξτε είδος εικονιδίου:</string>
+    <string name="shortcuts_icon_picker_choose_icon_title">Επιλέξτε εικονίδιο</string>
+    <string name="shortcuts_icon_picker_alarm">Ξυπνιτήρι</string>
+    <string name="shortcuts_icon_picker_andy">Andy</string>
+    <string name="shortcuts_icon_picker_battery">Μπαταρία</string>
+    <string name="shortcuts_icon_picker_browser">Browser</string>
+    <string name="shortcuts_icon_picker_calendar">Ημερολόγιο</string>
+    <string name="shortcuts_icon_picker_camera">Φωτ.Μηχ</string>
+    <string name="shortcuts_icon_picker_cloud">Cloud</string>
+    <string name="shortcuts_icon_picker_contact">Επαφές</string>
+    <string name="shortcuts_icon_picker_directdial">Αμεσή κλήση</string>
+    <string name="shortcuts_icon_picker_directmessage">Αμεσο μήνυμα</string>
+    <string name="shortcuts_icon_picker_drive">Drive</string>
+    <string name="shortcuts_icon_picker_dropbox">Dropbox</string>
+    <string name="shortcuts_icon_picker_email">Email</string>
+    <string name="shortcuts_icon_picker_email2">Ενναλακτικό Email</string>
+    <string name="shortcuts_icon_picker_evernote">Evernote</string>
+    <string name="shortcuts_icon_picker_facebook">Facebook</string>
+    <string name="shortcuts_icon_picker_favorite">Αγαπημένα</string>
+    <string name="shortcuts_icon_picker_file_browser">Διαχειριστής αρχείων</string>
+    <string name="shortcuts_icon_picker_file_browser2">Ενναλακτικός Διαχειριστής αρχείων</string>
+    <string name="shortcuts_icon_picker_fitness">Fitness</string>
+    <string name="shortcuts_icon_picker_gallery">΄Έκθεση</string>
+    <string name="shortcuts_icon_picker_gears">Gears</string>
+    <string name="shortcuts_icon_picker_google_small">Google</string>
+    <string name="shortcuts_icon_picker_gplus">Google Plus</string>
+    <string name="shortcuts_icon_picker_gtalk">Hangouts</string>
+    <string name="shortcuts_icon_picker_help">Βοήθεια</string>
+    <string name="shortcuts_icon_picker_joystick">Joystick</string>
+	<string name="shortcuts_icon_picker_key">Λογαριασμοί</string>
+    <string name="shortcuts_icon_picker_laptop">Υπολογιστής</string>
+    <string name="shortcuts_icon_picker_notes">Σημειώσεις</string>
+    <string name="shortcuts_icon_picker_luggage">Ταξίδια</string>
+    <string name="shortcuts_icon_picker_maps">Χάρτες</string>
+    <string name="shortcuts_icon_picker_market">Αγορά</string>
+    <string name="shortcuts_icon_picker_movie">Ταινίες</string>
+    <string name="shortcuts_icon_picker_music">Μουσική</string>
+    <string name="shortcuts_icon_picker_nav">Πλοήγηση</string>
+    <string name="shortcuts_icon_picker_phone">Τηλέφωνο</string>
+    <string name="shortcuts_icon_picker_package">Πακέτο</string>
+    <string name="shortcuts_icon_picker_pinterest">Pinterest</string>
+    <string name="shortcuts_icon_picker_play">Παίξε</string>
+    <string name="shortcuts_icon_picker_pocket">Τσέπη</string>
+    <string name="shortcuts_icon_picker_quicksettings">Γρήγορες ρυθμίσεις</string>
+    <string name="shortcuts_icon_picker_rss">RSS Feed</string>
+    <string name="shortcuts_icon_picker_sdcard">SDCard</string>
+    <string name="shortcuts_icon_picker_search">Αναζήτηση</string>
+    <string name="shortcuts_icon_picker_sms">Μηνύματα</string>
+    <string name="shortcuts_icon_picker_tasks">Tasks</string>
+    <string name="shortcuts_icon_picker_terminal">Terminal</string>
+    <string name="shortcuts_icon_picker_transit">Transit</string>
+    <string name="shortcuts_icon_picker_tv">Τηλεόραση</string>
+    <string name="shortcuts_icon_picker_twitter">Twitter</string>
+    <string name="shortcuts_icon_picker_unlock">Ξεκλείδωμα</string>
+	
+	<string name="help">Βοήθεια</string>
+    <string name="no_home_key">Δεν έχετε πλέον αντιστοιχιστίσει κουμπί στο \"Home\" action!\n\nΑυτό μπορεί να καταστήσει τη συσκευή σας ακατάλληλη!</string>
+    <string name="no_back_key">Δεν έχετε πλέον αντιστοιχιστίσει κουμπί στο \"Back\" action!\n\nΑυτό μπορεί να καταστήσει τη συσκευή σας ακατάλληλη!</string>
+	
+	 <!-- Pie Control -->
+    <string name="pie_control_title">PIE</string>
+    <string name="pie_control_summary">Ενεργοπίηση πίτας ελέγχου</string>
+    <string name="piecontrol_settings_summary">Προσαρμόστε τα στοιχεία πίτας, στυλ, μέγεθος και χρώμα</string>
+    <string name="pie_control_size">Μέγεθος πλοήγησης</string>
+    <string name="pie_control_trigger_positions">Επιλογές για έναυσσμα</string>
+    <string name="pie_control_trigger_left">Ενεργοποίηση από το αριστερο μέρος οθόνης</string>
+    <string name="pie_control_trigger_bottom">Ενεργοποίησης από το Κάτω μέρος της οθόνης</string>
+    <string name="pie_control_trigger_right">Ενεργοποίηση από το δεξιό μέρος οθόνης</string>
+    <string name="pie_control_trigger_top">Ενεργοποίησης από το πάνω μέρος της οθόνης</string>
+    <string name="pie_control_trigger_top_summary">Η κορυφή πίτας δεν εμφανίζει πληροφορίες σχετικά με την κατάσταση και το ρολόι</string>
+    <string name="pie_button_style">Στύλ πλήκτρων</string>
+    <string name="pie_button_color_title">Χρώμα πλήκτρων</string>
+    <string name="pie_button_alpha_title">Διαφάνεια πλήκτρων</string>
+    <string name="pie_button_outline_color_title">Χρώμα εξωτερικών πλήκτρων </string>
+    <string name="pie_button_pressed_color_title">Χρώμα πατημένου πλήκτρου</string>
+    <string name="pie_button_long_pressed_color_title">Χρώμα παρατεταμένου πλήκτρου</string>
+    <string name="pie_button_pressed_alpha_title">Διαφάνεια πατημένου πλήκτρου</string>
+    <string name="pie_icon_style">Στύλ εικονιδίου πλήκτρου</string>
+    <string name="pie_icon_color_title">Χρώμα εικονιδίου πλήκτρου</string>
+    <string name="pie_icon_color_mode_title">Λειτουργία χρώματος εικονιδίου κουμπιού</string>
+    <string name="pie_icon_color_mode_dialog_title">Χρωμάτισε</string>
+    <string name="pie_icon_color_mode_summary">Αλλάξτε την Λειτουργία χρώματος εικονιδίου κουμπιού</string>
+    <string name="pie_trigger_note_title">Σημείωση</string>
+    <string name="pie_trigger_note_summary">Για να αποφύγετε τις συγκρούσεις με τη γραμμή κατάστασης ή τη γραμμή πλοήγησης, οι ενεργοποιητές σε αυτές τις άκρες απενεργοποιούνται αυτόματα αν είναι διαθέσιμο ένα ή και τα δύο</string>
+    <string name="pie_background_color_title">Χρώμα φόντου</string>
+    <string name="pie_snap_color_title">Χρώμα σημείου πρόσκρουσης</string>
+    <string name="pie_text_color_title">Χρώμα κειμένου</string>
+    <string name="pie_background_alpha_title">Διαφάνεια φόντου</string>
+    <string name="pie_mirror_right_title">Καθρέφτης δεξιά</string>
+    <string name="pie_mirror_right_summary">Καθρέψτε την δεξιά πίτα στον οριζόντιο άξονα</string>
+    <string name="pie_style">Στυλ και διάσταση</string>
+    <string name="pie_style_title">Στύλ</string>
+    <string name="pie_dimens_title">Διαστάσεις</string>
+	<string name="pie_show_snap_title">Εμφάνισε στιγμιότυπα</string>
+    <string name="pie_show_snap_summary">Δείχνει στιγμιότυπα για να αλλάξει δυναμικά το άκρο ενεργοποίηση</string>
+    <string name="pie_show_text_title">Εμφάνιση κατάστασης και ρολογιού</string>
+    <string name="pie_show_text_summary">Εμφανίζει την κατάσταση του τηλεφώνου, την ώρα και την ημερομηνία</string>
+    <string name="pie_show_background_title">Εμφάνιση φόντου</string>
+    <string name="pie_show_background_summary">Ενεργοποίηση οθόνης φόντου πίτας</string>
+    <string name="pie_button">Πλήκτρα</string>
+    <string name="pie_second_layer_active_title">Δέυτερο στρώμα πίτας</string>
+    <string name="pie_second_layer_active_summary">Αυτό επιτρέπει ένα επιπλέον στρώμα</string>
+    <string name="pie_button_second_layer">Δεύτερη στρώση πλήκτρων</string>
+    <string name="pie_button_second_layer_summary">Αλλάξτε την δεύτερη στρώση πλήκτρων πίτας</string>
+    <string name="pie_button_style_summary">Αλλάξτε το στυλ του κουμπιού πίτας</string>
+    <string name="pie_style_reset_message">Επαναφορά καταχωρήσεων στυλ στις προεπιλογές;</string>
+    <string name="pie_warning_no_navigation_present">Καμία άλλη πλοήγηση δεν είναι ενεργοποιημένη αυτήν τη στιγμή. Η απενεργοποίηση των ελέγχων πίτας μπορεί να οδηγήσει σε μια μη χρησιμοποιήσιμη συσκευή. Θέλετε να ενεργοποιήσετε την μπάρα πλοήγησης;</string>
+    <string name="pie_trigger_warning">Λιγότερο από μία από τις κύριες ενεργοποιήσεις (κάτω, αριστερά ή δεξιά) πρέπει να είναι ενεργοποιημένη.</string>
+
+    <string name="pie_layer_disable_forbidden">Δεν είναι δυνατή η απενεργοποίηση του δεύτερου στρώματος! Δεν υπάρχει διαθέσιμο άλλο \ 'κουμπί πίσω \'.</string>
+
+    <!-- Lockscreen weather -->
+    <string name="display_category_weather_title">Επιλογές καιρου στην οθόνη κλειδώματος</string>
+    <string name="lock_screen_weather_summary">Επιλογές καιρου στην οθόνη κλειδώματος</string>
+    <string name="lock_screen_weather_settings_title">Καιρός</string>
+    <string name="weather_cat_notifications_title">Ειδοποίησεις</string>
+    <string name="weather_show_weather_title">Εμφάνιση καιρου</string>
+    <string name="weather_show_weather_summary">Ενεργοποίηση εμφάνιση πληροφοριών καιρού</string>
+    <string name="weather_show_location_title">Εμφάνιση τοποθεσίας</string>
+    <string name="weather_show_location_summary">Ενεργοποίηση εμφάνισης τοποθεσίας</string>
+    <string name="weather_show_timestamp_title">Εμφάνιση ημερομηνίας</string>
+    <string name="weather_show_timestamp_summary">Ενεργοποίηση εμφάνισης ημερομηνίας</string>
+    <string name="weather_condition_icon_title">Εικονίδιο κατάστασης</string>
+    <string name="weather_condition_icon_dlg_title">Επιλέξτε ένα εικονίδιο για την εμφάνιση της κατάστασης του καιρού</string>
+    <string name="weather_condition_icon_monochrome_title">Ασπρόμαυρα</string>
+    <string name="weather_condition_icon_colored_title">Έγχρωμα</string>
+    <string name="weather_condition_icon_vclouds_title">VClouds</string>
+    <string name="icons_title">Εικονίδια</string>
+    <string name="position_right_title">Δεξιά</string>
+    <string name="position_centered_title">Στο κέντρο</string>
+    <string name="hidden_title">Κρυφό</string>
+    <string name="weather_hide_panel_title">Απόκρυψη πίνακας καιρού</string>
+    <string name="weather_hide_panel_dlg_title">Επιλέξτε πότε θα πρέπει να αποκρύπτεται ο πίνακας καιρού</string>
+    <string name="weather_hide_panel_auto_title">Αυτόματο</string>
+    <string name="weather_hide_panel_custom_title">Προσαρμογή</string>
+    <string name="weather_hide_panel_never_title">Ποτέ</string>
+    <string name="weather_hide_panel_auto_summary">Ο πίνακας καιρού θα αποκρύπτεται όταν οι ορατές ειδοποιήσεις θα φτάσουν στις μέγιστες επιτρεπόμενες ειδοποιήσεις στην οθόνη κλειδώματος</string>
+    <string name="weather_hide_panel_custom_summary">Ο πίνακας καιρού θα αποκρύπτεται όταν οι ορατές ειδοποιήσεις θα φτάσουν στον επιλεγμένο αριθμό ειδοποιήσεων</string>
+    <string name="weather_hide_panel_never_summary">Ο πίνακας καιρού δε θα κρυφτεί</string>
+    <string name="weather_number_of_notifications_title">Αριθμός ειδοποιήσεων</string>
+
+    <!-- Status bar temperature -->
+    <string name="weather_settings_title">Καιρός</string>
+    <string name="status_bar_temperature_title">Θερμοκρασία στην γραμμή κατάστασης</string>
+    <string name="weather_clock_options_title">Weather cLock options</string>
+    <string name="weather_clock_options_summary">Widget καιρού, και ρυθμίσεις πάροχου καιρού</string>
+    <string name="status_bar_temperature_hidden">Κρυφό</string>
+    <string name="status_bar_temperature_show_scale">Εμφανίζεται με κλίμακα</string>
+    <string name="status_bar_temperature_hide_scale">Εμφανίζεται χωρίς κλίμακα</string>
+    <string name="status_bar_temperature_location_title">Τοποθέτηση</string>
+    <string name="status_bar_temperature_location_summary">Επιλέξτε που θα εμφανίζεται η θερμοκρασίας στην γραμμή κατάστασης</string>
+    <string name="status_bar_temperature_location_right">Δεξιά</string>
+    <string name="status_bar_temperature_location_left">Αριστερά</string>
+    <string name="status_bar_weather_color_title">Χρώμα θερμοκρασίας</string>
+    <string name="status_bar_weather_size_title">Μέγεθος Γραμματοσειρά</string>
+    <string name="status_bar_weather_font_style_title">Γραμματοσειρά</string>
+    <string name="status_bar_weather_font_normal">Κανονικό</string>
+    <string name="status_bar_weather_font_italic">Italic</string>
+    <string name="status_bar_weather_font_bold">Bold</string>
+    <string name="status_bar_weather_font_bold_italic">Bold Italic</string>
+    <string name="status_bar_weather_font_light">Light</string>
+    <string name="status_bar_weather_font_light_italic">Light Italic</string>
+    <string name="status_bar_weather_font_thin">Thin</string>
+    <string name="status_bar_weather_font_thin_italic">Thin Italic</string>
+    <string name="status_bar_weather_font_condensed">Condensed</string>
+    <string name="status_bar_weather_font_condensed_italic">Condensed Italic</string>
+    <string name="status_bar_weather_font_condensed_light">Condensed Light</string>
+    <string name="status_bar_weather_font_condensed_light_italic">Condensed Light Italic</string>
+    <string name="status_bar_weather_font_condensed_bold">Condensed Bold</string>
+    <string name="status_bar_weather_font_condensed_bold_italic">Condensed Bold Italic</string>
+    <string name="status_bar_weather_font_medium">Μέτριο</string>
+    <string name="status_bar_weather_font_medium_italic">Μέτριο Italic</string>
+    <string name="status_bar_weather_font_black">Black</string>
+    <string name="status_bar_weather_font_black_italic">Black Italic</string>
+    <string name="status_bar_weather_font_dancingscript">DancingScript</string>
+    <string name="status_bar_weather_font_dancingscript_bold">DancingScript Bold</string>
+    <string name="status_bar_weather_font_comingsoon">ComingSoon</string>
+    <string name="status_bar_weather_font_notoserif">NotoSerif Normal</string>
+    <string name="status_bar_weather_font_notoserif_italic">NotoSerif Italic</string>
+    <string name="status_bar_weather_font_notoserif_bold">NotoSerif Bold</string>
+    <string name="status_bar_weather_font_notoserif_bold_italic">NotoSerif Bold Italic</string>
+
+    <!-- Quicks settings columns -->
+    <string name="qs_panel_title">Πάνελ γρήγορων ρυθμίσεων</string>
+    <string name="qs_panel_title_summary">Προσαρμογή του πάνελ γρήγ ρυθμίσεων</string>
+    <string name="qs_columns_title">Αριθμός αντικειμένων στη κάθε στήλη</string>
+    <string name="qs_rows_portrait_title">Αριθμός σειρών (κατακόρυφα)</string>
+    <string name="qs_rows_landscape_title">Αριθμός σειρών (οριζόντια)</string>
+    <!-- Quicks settings titles -->
+    <string name="qs_tile_title_visibility_title">Τίτλοι γρήγορων ρυθμίσεων</string>
+    <string name="qs_tile_title_visibility_summary">Ενεργοποίηση τίτλων στις γρήγορες ρυθμίσεις</string>
+
+    <!-- QS headers -->
+    <string name="qs_header_category">Κεφαλίδα γρήγορων ρυθμίσεων</string>
+    <string name="status_bar_custom_header_title">Προσαρμοσμένη εικόνα κεφαλίδας</string>
+    <string name="status_bar_custom_header_summary">Ενεργοποιήστε την εικόνα κεφαλίδας στον πίνακα ειδοποιήσεων</string>
+    <string name="daylight_header_pack_title">Πακέτο εικόνας κεφαλίδας</string>
+    <string name="status_bar_custom_header_shadow_title">Σκιά Εικόνας κεφαλίδας</string>
+    <string name="status_bar_custom_header_shadow_summary">Για καλύτερη ορατότητα στις φωτεινές εικόνες</string>
+    <string name="static_header_provider" translatable="false">Στατικό</string>
+    <string name="daylight_header_provider" translatable="false">φως ημέρας</string>
+    <string name="static_header_provider_title">Στατικό</string>
+    <string name="daylight_header_provider_title">Δυναμικό</string>
+    <string name="custom_header_provider_title">Προμηθευτής επικεφαλίδας</string>
+    <string name="custom_header_browse_title">Περιηγηθείτε στις εγκατεστημένες κεφαλίδες</string>
+    <string name="custom_header_browse_summary">Πατήστε παρατεταμένα οποιαδήποτε εικόνα θέλετε να χρησιμοποιήσετε για στατική λειτουργία</string>
+
+    <!-- Quicks settings vibrate -->
+    <string name="quick_settings_vibrate_title">Δόνηση κατά το άγγιγμα</string>
+    <string name="quick_settings_vibrate_summary">Δόνηση κατά το άγγιγμα των διακόπτων</string>
+
+    <!-- Lockscreen -->
+    <string name="lockscreen_settings_title">Οθόνη κλειδώματος</string>
+    <string name="mad_lockscreen_settings_summary">Προσαρμογή οθόνης κλειδώματος</string>
+    <!-- Lockscreen items clock, date, alarm text -->
+    <string name="lockscreen_items_settings_title">Αντικείμενα στην οθόνη κλειδώματος</string>
+    <string name="lockscreen_clock_title">Ρολόι στην οθόνη κλειδώματος</string>
+    <string name="lockscreen_date_title">Ημερομηνία στην οθόνη κλειδώματος</string>
+    <string name="lockscreen_alarm_title">Ξυπνιτήρι στην οθόνη κλειδώματος</string>
+    <string name="lockscreen_items_summary">Ενεργοποιήστε ή απενεργοποιήστε πολλά αντικείμενα στην οθόνη κλειδώματος </string>
+    <!-- Lockscreen clock fonts -->
+    <string name="lock_clock_font_title">Γραμματοσειρά ρολογιού στην οθόνη κλειδώματος</string>
+    <string name="lock_clock_font_summary">Αλλάξτε την προεπιλεγμένη γραμματοσειρά του ρολογιού της οθόνης κλειδώματος</string>
+    <string name="lock_clock_font_normal">Roboto</string>
+    <string name="lock_clock_font_bold">Roboto Bold</string>
+    <string name="lock_clock_font_italic">Roboto Italic</string>
+    <string name="lock_clock_font_bold_italic">Roboto Bold Italic</string>
+    <string name="lock_clock_font_light_normal">Roboto Light (Προεπιλογή)</string>
+    <string name="lock_clock_font_light_italic">Roboto Light Italic</string>
+    <string name="lock_clock_font_thin_normal">Roboto Thin</string>
+    <string name="lock_clock_font_thin_italic">Roboto Thin Italic</string>
+    <string name="lock_clock_font_condensed_normal">Roboto Condensed</string>
+    <string name="lock_clock_font_condensed_bold">Roboto Condensed Bold</string>
+    <string name="lock_clock_font_condensed_italic">Roboto Condensed Italic</string>
+    <string name="lock_clock_font_condensed_bold_italic">Roboto Condensed Bold Italic</string>
+    <string name="lock_clock_font_medium_normal">Roboto Medium</string>
+    <string name="lock_clock_font_medium_italic">Roboto Medium Italic</string>
+    <string name="lock_clock_font_black_normal">Roboto Black</string>
+    <string name="lock_clock_font_black_italic">Roboto Black Italic</string>
+    <string name="lock_clock_font_condensed_light_normal">Roboto Condensed Light</string>
+    <string name="lock_clock_font_condensed_light_italic">Roboto Condensed Light Italic</string>
+    <!-- Lockscreen cover art -->
+    <string name="media_art_title">Εξώφυλλο μέσων τέχνης</string>
+    <string name="media_art_summary">Ενεργοπίηση εξώφυλλου μέσων τέχνης στην οθόνη κλειδώματος</string>
+    <!-- Lockscreen double tap to sleep -->
+    <string name="double_tap_sleep_anywhere_title">Πατήστε δύο φορές οπουδήποτε για αναστολή λειτουργίας</string>
+    <string name="double_tap_sleep_anywhere_summary">Πατήστε δύο φορές οπουδήποτε στην οθόνη κλειδώματος για να θέσετε τη συσκευή σε αναστολή λειτουργίας</string>
+
+    <!-- Slim Recents panel -->
+    <string name="mad_recents_summary">Προσαρμογή για πρόσφατες εφαρμογές</string>
+    <string name="recents_title">Πρόσφατες εφαρμογές</string>
+    <string name="slim_recents_title">Πρόσφατα Slim</string>
+    <string name="use_slim_recents_title">Χρησιμοποιήστε εναλλακτικά πρόσφατα</string>
+    <string name="use_slim_recents_summary">Χρησιμοποίησε τα πρόσφατα SLIM  αντί των εργοστασιακών</string>
+    <string name="slim_recents_settings_title">Ρυθμίσεις προσφάτων Slim </string>
+    <string name="slim_recents_settings_summary">Προβολή των ρυθμίσεων για πρόσφατα Slim</string>
+    <string name="recent_panel_category">Πάνελ πρόσφατων εφαρμογών Slim</string>
+    <string name="show_running_tasks_title">Εμφανίζονται μόνο οι εφαρμογές που εκτελούνται</string>
+    <string name="recents_max_apps_title">Μέγιστες επιτρεπόμενες εφαρμογές</string>
+    <string name="recent_panel_scale_title">Μέγεθος</string>
+    <string name="recent_panel_expanded_mode_title">Λειτουργία προεπισκόπησης</string>
+    <string name="recent_panel_expanded_mode_summary">Οι πρόσφατες εργασίες επεκτάθηκαν στη λειτουργία προεπισκόπησης</string>
+    <string name="recent_panel_expanded_mode_auto">Αυτόματο (Προεπιλογή)</string>
+    <string name="recent_panel_expanded_mode_always">Πάντα</string>
+    <string name="recent_panel_expanded_mode_never">Ποτέ</string>
+    <string name="recent_panel_show_topmost_title">Εμφάνιση κορυφαίας εργασίας</string>
+    <string name="recent_panel_show_topmost_summary">Μην αποκλείσετε την πρόσφατη εργασία στην προβολή πρόσφατων</string>
+    <string name="recent_panel_bg_color_title">Χρώμα φόντου πίνακα</string>
+    <string name="recent_card_bg_color_title">Χρώμα φόντου κάρτας</string>
+    <string name="recent_reset_title">Επαναφορά στα αρχικά χρώματα</string>
+    <string name="recent_reset_confirm">Είστε βέβαιοι ότι θέλετε να επαναφέρετε το Slim Recent στα αρχικά χρώματα;</string>
+    <string name="default_auto_string">Προεπιλογή (app based)</string>
+    <string name="recent_panel_lefty_mode_title">Εμφάνιση στο αριστερό άκρο</string>
+    <string name="recent_panel_lefty_mode_summary">Εμφάνιση του πίνακα των πρόσφατων εφαρμογών στην αριστερή άκρη</string>
+    <string name="slim_icon_pack_title">Πακέτο εικονιδίων</string>
+    <string name="slim_icon_pack_summary">Εφαρμόστε ένα προσαρμοσμένο πακέτο εικονιδίων για εφαρμογές στον πίνακα εφαρμογών</string>
+    <string name="no_iconpacks_summary">Δεν έχουν εγκατασταθεί πακέτα εικονιδίων</string>
+    <string name="dialog_pick_iconpack_title">Επιλέξτε το πακέτο εικονιδίων</string>
+    <string name="default_iconpack_title">Προεπιλεγμένα εικονίδια</string>
+
+    <!-- Color picker -->
+    <string name="dialog_color_picker">Επιλογέας χρώματος</string>
+    <string name="press_color_to_apply">Πατήστε στο χρώμα για να εφαρμοστεί</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint" translatable="false">#FFDDDDDD</string>
+    <string name="hex_check_button_text">ΠΡΟΕΠΙΣΚΟΠΗ</string>
+    <string name="hex_reset_button_text">ΕΠΑΝΑΦΟΡΑ</string>
+    <string name="color_right_arrow" translatable="false">"→"</string>
+    <string name="color_down_arrow" translatable="false">"↓"</string>
+    <string name="longpress_info">Πατήστε παρατεταμένα το κουτί για να αποθηκεύσετε το χρώμα</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="color_default">Προεπιλογή</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Γρήγορο ξεκλείδωμα</string>
+    <string name="unlock_quick_unlock_control_summary">Αυτόματο ξεκλείδωμα οταν εισαχθεί ο σωστός κωδικός PIN \nΣημείωση: Λειτουργει μόνο για τετραψήφιο κωδικό PIN !</string>
 </resources>
