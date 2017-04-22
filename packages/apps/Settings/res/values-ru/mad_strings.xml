@@ -935,5 +935,26 @@
 
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
-    <string name="unlock_quick_unlock_control_summary">Автоматически разблокирует после введения верного ПИНа (необязательно нажимать OK)\nПримечание: работает только для четырёхзначных ПИНов!</string>
+    <string name="unlock_quick_unlock_control_summary">Автоматически разблокирует после введения верного ПИНа (необязательно нажимать OK)\nПримечание: работает только если правильно введено указаное ниже число цифр!</string>
+    <string name="lockscreen_quick_unlock_pin_length_title">Количество цифр PIN-кода</string>
+    <string name="lockscreen_quick_unlock_pin_length_summary">Пожалуйста, укажите количество цифр в ПИН-коде для работы быстрой разблокировки.</string>
+
+    <!-- Immersive recents -->
+    <string name="immersive_recents_title">Впечатление недавних задач</string>
+    <string name="immersive_recents_default">По умолчанию</string>
+    <string name="immersive_recents_fullscreen">Полный экран</string>
+    <string name="immersive_recents_statusbar">Только статусбар</string>
+    <string name="immersive_recents_navbar">Только навигационная панель</string>
+
+    <!-- Recent clear all button and location -->
+    <string name="show_clear_all_recents_button_title">Кнопка снятия всех недавних задач</string>
+    <string name="show_clear_all_recents_button_summary_on">Показывать кнопку снятия всех недавних задач</string>
+    <string name="show_clear_all_recents_button_summary_off">Показывать кн.снятия из AOSP</string>
+    <string name="recents_clear_all_location_title">Положение кнопки снятия всех недавних задач</string>
+    <string name="recents_clear_all_location_top_right">Сверху справа</string>
+    <string name="recents_clear_all_location_top_left">Сверху слева</string>
+    <string name="recents_clear_all_location_top_center">Сверху по центру</string>
+    <string name="recents_clear_all_location_bottom_right">Снизу справа</string>
+    <string name="recents_clear_all_location_bottom_left">Снизу слева</string>
+    <string name="recents_clear_all_location_bottom_center">Снизу по центру</string>
 </resources>
