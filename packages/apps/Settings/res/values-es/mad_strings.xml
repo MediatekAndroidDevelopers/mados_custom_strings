@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-     Copyright (C) 2017 The madOS Project
+     Copyright (C) 2016, 2017 The madOS Team
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -99,6 +99,7 @@
     <string name="mad_settings_title">madOS Extras</string>
     <!-- madOS extras-Categories -->
     <string name="mad_interface">Interfaz</string>
+	<string name="mad_recents">Recientes</string>
     <string name="mad_buttons">Botones</string>
     <string name="mad_system">Sistema</string>
 
@@ -181,7 +182,8 @@
     <string name="sensor_calibration_note">Nota: El teléfono debe permanecer inmóvil sobre un plano horizontal durante la calibración.</string>
     <string name="sensor_calibration_current_data_hint">Datos actuales del sensor: </string>
     <string name="sensor_calibration_sensor_data_hint">Datos de calibración del sensor: </string>
-
+	<string name="sensor_calibration_success">Calibración Completada</string>
+	
     <string name="gyroscope_axis_switch">Invertir eje vertical (arriba/abajo)</string>
 
     <!-- BandMode  Start -->
@@ -300,11 +302,24 @@
     <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
     <string name="app_ops_settings_summary">Ver o cambiar los permisos de la aplicación</string>
 
-    <!-- > Substratum /layers4.0 -->
+    <!-- Substratum -->
     <string name="substratum_title">Substratum</string>
+	<!-- Manage applications: show substratum overlays -->
+    <string name="filter_substratum_apps">superposiciones Substratum </string>
+    <string name="menu_show_substratum">Mostrar superposiciones</string>
+    <string name="menu_hide_substratum">Ocultar superposiciones</string>
+    
+	<!-- Manage applications: show substratum icon overlays -->
+    <string name="filter_substratum_icons">Icono Substratum</string>
+    <string name="menu_show_substratum_icons">Mostrar Icono</string>
+    <string name="menu_hide_substratum_icons">Ocultar Icono</string>
 
-    <string name="sim_color_bar_title">Colorear la barra de señal</string>
+    <!-- Force authorize substratum packages -->
+    <string name="force_authorize_substratum_packages_title">Forzar permitir cada aplicación</string>
+    <string name="force_authorize_substratum_packages_summary">Permitir aplicaciones de fuentes desconocidas</string>
 
+    <string name="sim_color_bar_title">Colorear Barra de señal</string>
+	
     <!-- Doze pulse (ambient display) options -->
     <string name="doze_list_mode_title">Modo Doze</string>
     <string name="doze_list_mode_summary">Opción para configurar el Modo Doze</string>
@@ -377,13 +392,7 @@
     <!-- General strings -->
     <string name="cancel">Cancelar</string>
     <string name="save">Guardar</string>
-    <string name="ok">Aceptar</string>
-    <string name="reset">Restablecer</string>
-    <string name="help">Ayuda</string>
-    <string name="attention">Atención</string>
-    <string name="enabled">Habilitado</string>
-    <string name="add">Añadir</string>
-
+	
     <!-- Battery customizations -->
     <string name="status_bar_battery_style_category">Batería</string>
     <string name="status_bar_battery_style_summary">Personalizar estilo de la batería</string>
@@ -400,13 +409,6 @@
 
     <!-- Seekbar -->
     <string name="default_string">Por Defecto</string>
-
-    <!-- Color Picker -->
-    <string name="dialog_color_picker">Selector de color</string>
-    <string name="press_color_to_apply">Presione el color de abajo para aplicar</string>
-    <string name="arrow_right">→</string>
-    <string name="hex">Hex:</string>
-    <string name="hex_hint">#ff000000</string>
 
     <!-- Navigation bar -->
     <string name="nav_bar_title">Barra de navegación</string>
@@ -577,76 +579,361 @@
     <string name="clock_date_style_uppercase">Mayúscula</string>
     <string name="clock_date_format_custom">Formato java personalizado</string>
 
-    <!-- MTK schedule power on/off -->
-    <string name="schedule_power_on_off_settings_title">Programación de Encendido &amp; Apagado</string>
-    <string name="schedule_summary">Ajustes de programación Encendido/Apagado</string>
+	 <!-- Scheduled power on/off -->
+    <string name="scheduled_power_on_off_title">Scheduled power on &amp; off</string>
+    <string name="scheduled_power_on_off_summary">Ajustes para scheduled power on / off</string>
 
-    <!-- PA Pie -->
-    <string name="reset_paranoid">madOS</string>
-    <string name="reset_android">Android</string>
+    <string name="scheduled_power_on">Encendido</string>
+    <string name="scheduled_power_off">Apagado</string>
 
-    <!-- PA Pie control -->
-    <string name="pa_piecontrol_settings_summary">Personalizar las acciones y estilo Pie</string>
-    <string name="pa_pie_control_title">Ajustes Pie</string>
-    <string name="pa_pie_control_enable_title">Habilitar Pie </string>
-    <string name="pa_pie_targets_title">Acciones Pie</string>
-    <string name="pa_pie_style_title">Modificaciones Pie</string>
-    <string name="pa_pie_menu_title">Mostrar siempre botón menú</string>
-    <string name="pa_pie_menu_summary">El botón menú se mostrará siempre</string>
-    <string name="pa_pie_size_title">Tamaño Pie</string>
-    <string name="pa_pie_size_summary">Defina el tamaño de los controles Pie</string>
-    <string name="pa_pie_size_small">Pequeño</string>
-    <string name="pa_pie_size_default">@string/pa_pie_mode_default</string>
-    <string name="pa_pie_size_large">Grande</string>
-    <string name="pa_pie_size_gigantic">Gigantesco</string>
-    <string name="pa_pie_size_monster">Monstruoso</string>
-    <string name="pa_pie_size_enormous">Enorme</string>
-    <string name="pa_pie_mode_default">Por defecto</string>
-    <string name="pa_pie_gravity_title">Ubicación Pie</string>
-    <string name="pa_pie_gravity_summary">Selecciona la ubicación donde aparecerá</string>
-    <string name="pa_pie_gravity_bottom">Abajo</string>
-    <string name="pa_pie_gravity_right">Derecha</string>
-    <string name="pa_pie_gravity_left">Izquierda</string>
-    <string name="pa_pie_gap_title">Ajustar separación</string>
-    <string name="pa_pie_gap_summary">Ajusta la separación entre los controles</string>
-    <string name="pa_pie_angle_title">Ángulo Pie</string>
-    <string name="pa_pie_angle_summary">Ajusta el ángulo de los bordes</string>
-    <string name="pa_pie_angle_none">Ninguna</string>
-    <string name="pa_pie_angle_small">Pequeña</string>
-    <string name="pa_pie_angle_big">Normal (Por defecto)</string>
-    <string name="pa_pie_angle_huge">Grande</string>
-    <string name="pa_pie_angle_super">Enorme</string>
-    <string name="pa_pie_gap_none">Ninguna</string>
-    <string name="pa_pie_gap_small">Pequeña</string>
-    <string name="pa_pie_gap_big">Grande (Por defecto)</string>
-    <string name="pa_pie_gap_huge">Enorme</string>
-    <string name="pa_pie_mode_title">Estilo Pie</string>
-    <string name="pa_pie_mode_summary">Administra las animaciones</string>
-    <string name="pa_pie_mode_bare">Simple</string>
-    <string name="pa_pie_mode_quick">Rápida</string>
-    <string name="pa_pie_mode_default">Por defecto</string>
-    <string name="pa_pie_mode_slow">Lenta</string>
-    <string name="pa_pie_lastapp_title">Última aplicación</string>
-    <string name="pa_pie_lastapp_summary">Habilitar botón última aplicación</string>
-    <string name="pa_pie_killtask_title">Cerrar Proceso</string>
-    <string name="pa_pie_killtask_summary">Habilitar botón cerrar proceso</string>
-    <string name="pa_pie_notifications_title">Notificaciones</string>
-    <string name="pa_pie_notifications_summary">Habilitar botón Notificaciones</string>
-    <string name="pa_pie_settings_panel_title">Panel de configuración rápido</string>
-    <string name="pa_pie_settings_panel_summary">Habilitar botón panel de configuración</string>
-    <string name="pa_pie_screenshot_title">Captura de pantalla</string>
-    <string name="pa_pie_screenshot_summary">Habilitar botón de Captura</string>
-    <string name="pa_pie_color_title">Ajustes de color Pie</string>
-    <string name="pa_pie_color_style_title">Modificar color</string>
-    <string name="pa_pie_background_title">Color Fondo</string>
-    <string name="pa_pie_select_title">Color Selección</string>
-    <string name="pa_pie_outlines_title">Color Contornos</string>
-    <string name="pa_pie_status_clock_title">Color Hora</string>
-    <string name="pa_pie_status_title">Color Información</string>
-    <string name="pa_pie_chevron_title">Color Perímetro</string>
-    <string name="pa_pie_juice_title">Color Batería</string>
-    <string name="pa_pie_button_color">Color Botón</string>
-    <string name="pa_pie_button_color_title">Color Botónes</string>
-    <string name="pa_pie_always_right_title">Siempre a la derecha</string>
-    <string name="pa_pie_always_right_summary">Aparecerá siempre a la derecha con el móvil en horizontal</string>
+    <string name="scheduled_power_edit_time">Editar Hora</string>
+    <string name="scheduled_power_edit_days">Editar Días</string>
+
+    <string name="scheduled_power_shutdown_message">El dispositivo se apagará en <xliff:g id="seconds">%s</xliff:g> segundos</string>
+
+    <string name="additional_options_title">Opciones adicionales</string>
+    <string name="attention">Atención</string>
+
+    <!-- madOS versioning -->
+    <string name="mados_version">Versión madOS </string>
+    <string name="mados_version_default">Desconocido</string>
+    <!-- madOS About Phone, build date -->
+    <string name="build_date">Fecha creación</string>
+    <string name="build_date_default">2017-01-01-0000</string>
+
+    <!-- new pie -->
+    <string name="icon_color_mode_all_icons">Todos los iconos</string>
+    <string name="icon_color_mode_system_icons">Iconos del sistema</string>
+    <string name="icon_color_mode_system_custom_icons">Iconos de sistema y personalizados</string>
+
+    <string name="title_pref_menu_display">Visibilidad del menú</string>
+    <string name="summary_pref_menu_display">¿Cómo y cuándo desea que aparezcan los botones del menú?</string>
+    <string name="navigation_menu_default_behavior">Mostrar a petición (Por defecto)</string>
+    <string name="navigation_menu_never_show">Mostrar nunca</string>
+    <string name="navigation_menu_always_show">Mostrar siempre</string>
+
+    <string name="shortcut_image_not_valid">La aplicación seleccionada no devolvió un icono válido o no las admite.Usa otra aplicación.</string>
+    <string name="shortcut_duplicate_entry">La acción elegida no se puede añadir dos veces</string>
+
+    <string name="shortcut_action_warning">Advertencia</string>
+    <string name="shortcut_action_warning_message">No es posible borrar la última entrada</string>
+    <string name="shortcut_action_disable_message">Deshabilitado\nAgrega una entrada para habilitar la función</string>
+    <string name="shortcut_action_required_warning_message">No es posible eliminar los botones necesarios</string>
+    <string name="shortcut_action_longpress">Pulsación larga:</string>
+    <string name="shortcut_action_select_action_longpress">Acción Pulsación larga:</string>
+    <string name="shortcut_action_select_action">Elija Acción:</string>
+    <string name="shortcut_action_select_action_newaction">Elija nueva acción:</string>
+    <string name="shortcut_action_max">Tamaño máximo de entradas alcanzado</string>
+    <string name="shortcut_action_reset">Restablecer</string>
+    <string name="shortcut_action_add">Añadir</string>
+    <string name="shortcut_action_help_shortcut">Atajo</string>
+    <string name="shortcut_action_help_button">Botón</string>
+    <string name="shortcut_action_help_app">Aplicación</string>
+    <string name="shortcut_action_help_icon">, Al seleccionar el icono se mostrarán las opciones de personalización</string>
+    <string name="shortcut_action_help_main">Para añadir un %1$s, elija Añadir.Una vez añadido un %1$s, al elegir la fila se cambiará el destino%2$s\n\nPara quitar un %1$s, deslice horizontalmente a izquierda o derecha.Vuelva a ordenar %1$ s en la lista deslice verticalmente a izquierda.\n\nPara borrar o resetear,elija Restablecer.</string>
+    <string name="shortcut_action_help_delete_last_entry">La eliminación de cada %1$s en la lista deshabilitará la función por completo.</string>
+    <string name="shortcut_action_help_pie_second_layer_delete_last_entry">La eliminación de cada %1$s en la lista deshabilitará completamente la segunda capa pie</string>
+
+    <string name="shortcuts_applications">Aplicaciones</string>
+    <string name="shortcuts_select_custom_app_title">Seleccionar aplicación personalizada</string>
+    <string name="shortcuts_icon_default">Por Defecto</string>
+    <string name="shortcuts_icon_presets">Iconos del sistema</string>
+    <string name="shortcuts_icon_custom">Galería</string>
+    <string name="shortcuts_icon_picker_type">Seleccione tipo de icono:</string>
+    <string name="shortcuts_icon_picker_choose_icon_title">Elegir icono</string>
+    <string name="shortcuts_icon_picker_alarm">Alarma</string>
+    <string name="shortcuts_icon_picker_andy">Andy</string>
+    <string name="shortcuts_icon_picker_battery">Batería</string>
+    <string name="shortcuts_icon_picker_browser">Navegador</string>
+    <string name="shortcuts_icon_picker_calendar">Calendario</string>
+    <string name="shortcuts_icon_picker_camera">Cámara</string>
+    <string name="shortcuts_icon_picker_cloud">Nube</string>
+    <string name="shortcuts_icon_picker_contact">Contacto</string>
+    <string name="shortcuts_icon_picker_directdial">Línea directa</string>
+    <string name="shortcuts_icon_picker_directmessage">Mensaje directo</string>
+    <string name="shortcuts_icon_picker_drive">Drive</string>
+    <string name="shortcuts_icon_picker_dropbox">Dropbox</string>
+    <string name="shortcuts_icon_picker_email">Email</string>
+    <string name="shortcuts_icon_picker_email2">Email Alternativo</string>
+    <string name="shortcuts_icon_picker_evernote">Evernote</string>
+    <string name="shortcuts_icon_picker_facebook">Facebook</string>
+    <string name="shortcuts_icon_picker_favorite">Favorito</string>
+    <string name="shortcuts_icon_picker_file_browser">Explorador de archivos</string>
+    <string name="shortcuts_icon_picker_file_browser2">Explorador de archivos alternativo</string>
+    <string name="shortcuts_icon_picker_fitness">Fitness</string>
+    <string name="shortcuts_icon_picker_gallery">Galería</string>
+    <string name="shortcuts_icon_picker_gears">Gears</string>
+    <string name="shortcuts_icon_picker_google_small">Google</string>
+    <string name="shortcuts_icon_picker_gplus">Google Plus</string>
+    <string name="shortcuts_icon_picker_gtalk">Hangouts</string>
+    <string name="shortcuts_icon_picker_help">Ayuda</string>
+    <string name="shortcuts_icon_picker_joystick">Joystick</string>
+    <string name="shortcuts_icon_picker_key">Claves/Cuentas</string>
+    <string name="shortcuts_icon_picker_laptop">Laptop</string>
+    <string name="shortcuts_icon_picker_notes">Notas</string>
+    <string name="shortcuts_icon_picker_luggage">Viajar</string>
+    <string name="shortcuts_icon_picker_maps">Mapas</string>
+    <string name="shortcuts_icon_picker_market">Tienda</string>
+    <string name="shortcuts_icon_picker_movie">Películas</string>
+    <string name="shortcuts_icon_picker_music">Música</string>
+    <string name="shortcuts_icon_picker_nav">Navegación</string>
+    <string name="shortcuts_icon_picker_phone">Teléfono</string>
+    <string name="shortcuts_icon_picker_package">Paquete</string>
+    <string name="shortcuts_icon_picker_pinterest">Pinterest</string>
+    <string name="shortcuts_icon_picker_play">Play</string>
+    <string name="shortcuts_icon_picker_pocket">Pocket</string>
+    <string name="shortcuts_icon_picker_quicksettings">Ajustes rápidos</string>
+    <string name="shortcuts_icon_picker_rss">RSS Feed</string>
+    <string name="shortcuts_icon_picker_sdcard">SDCard</string>
+    <string name="shortcuts_icon_picker_search">Buscar</string>
+    <string name="shortcuts_icon_picker_sms">Mensajería</string>
+    <string name="shortcuts_icon_picker_tasks">Tareas</string>
+    <string name="shortcuts_icon_picker_terminal">Terminal</string>
+    <string name="shortcuts_icon_picker_transit">Tránsito</string>
+    <string name="shortcuts_icon_picker_tv">TV</string>
+    <string name="shortcuts_icon_picker_twitter">Twitter</string>
+    <string name="shortcuts_icon_picker_unlock">Desbloquear</string>
+
+    <string name="help">Ayuda</string>
+    <string name="no_home_key">Ya no tienes ningún botón asignado a la acción \"Inicio\"\n\nEsto puede hacer que tu dispositivo sea inutilizable!</string>
+    <string name="no_back_key">Ya no tienes ningún botón asignado a la acción \"Atrás\"\n\nEsto puede hacer que tu dispositivo sea inutilizable!</string>
+
+    <!-- Pie Control -->
+    <string name="pie_control_title">PIE</string>
+    <string name="pie_control_summary">Habilitar controles PIE</string>
+    <string name="piecontrol_settings_summary">Personalizar diseño,tamaño y color PIE</string>
+    <string name="pie_control_size">Tamaño de navegación</string>
+    <string name="pie_control_trigger_positions">Opciones de lanzamiento</string>
+    <string name="pie_control_trigger_left">Lanzar desde la borde izquierda</string>
+    <string name="pie_control_trigger_bottom">Lanzar desde borde inferior</string>
+    <string name="pie_control_trigger_right">Lanzar desde borde derecha</string>
+    <string name="pie_control_trigger_top">Lanzar desde borde superior</string>
+    <string name="pie_control_trigger_top_summary">Al estar arriba no muestra información de estado y reloj</string>
+    <string name="pie_button_style">Estilo de los botones</string>
+    <string name="pie_button_color_title">Color del boton</string>
+    <string name="pie_button_alpha_title">Transparencia del botón</string>
+    <string name="pie_button_outline_color_title">Color contorno del botón</string>
+    <string name="pie_button_pressed_color_title">Color al pulsar botón</string>
+    <string name="pie_button_long_pressed_color_title">Color botón largo presionado</string>
+    <string name="pie_button_pressed_alpha_title">Transparencia botón pulsado</string>
+    <string name="pie_icon_style">Icono estilo botón</string>
+    <string name="pie_icon_color_title">Color icono del botón</string>
+    <string name="pie_icon_color_mode_title">Icono del botón de modo de color</string>
+    <string name="pie_icon_color_mode_dialog_title">Colorear</string>
+    <string name="pie_icon_color_mode_summary">Cambiar el modo de color del icono del botón</string>
+    <string name="pie_trigger_note_title">Nota</string>
+    <string name="pie_trigger_note_summary">Para evitar conflictos en la barra de estado de navegación,los Lanzadores en bordes se desactivarán si uno o ambos están disponibles</string>
+    <string name="pie_background_color_title">Color de fondo</string>
+    <string name="pie_snap_color_title">Color del punto de ajuste</string>
+    <string name="pie_text_color_title">Color del texto</string>
+    <string name="pie_background_alpha_title">Transparencia de fondo</string>
+    <string name="pie_mirror_right_title">Espeko derecho PIE</string>
+    <string name="pie_mirror_right_summary">Espejo del PIE derecho en eje horizontal</string>
+    <string name="pie_style">Estilo y dimensión</string>
+    <string name="pie_style_title">Estilo</string>
+    <string name="pie_dimens_title">Dimensión</string>
+    <string name="pie_show_snap_title">Mostrar puntos de referencia</string>
+    <string name="pie_show_snap_summary">Muestra puntos de presión para cambiar dinámicamente el borde del gatillo</string>
+    <string name="pie_show_text_title">Mostrar estado y reloj</string>
+    <string name="pie_show_text_summary">Muestra información del teléfono,hora y fecha</string>
+    <string name="pie_show_background_title">Mostrar fondo</string>
+    <string name="pie_show_background_summary">Habilitar la pantalla de fondo PIE</string>
+    <string name="pie_button">Botones</string>
+    <string name="pie_second_layer_active_title">Segunda capa PIE</string>
+    <string name="pie_second_layer_active_summary">Esto permite una capa adicional</string>
+    <string name="pie_button_second_layer">Botones de la segunda capa</string>
+    <string name="pie_button_second_layer_summary">Cambiar botones segunda capa</string>
+    <string name="pie_button_style_summary">Cambiar estilo botón PIE</string>
+    <string name="pie_style_reset_message">¿Restablecer estilo por defecto?</string>
+    <string name="pie_warning_no_navigation_present">Ninguna otra navegación está activada.Al desactivar los controles PIE puede inutilizar el dispositivo.¿Habilitar barra de navegación en su lugar?</string>
+    <string name="pie_trigger_warning">Es necesario activar un mínimo de lanzadores (inferior,izquierdo o derecho).</string>
+	
+    <string name="pie_layer_disable_forbidden">No se puede desactivar la segunda capa!No hay otro\'botón atrás\'disponible</string>
+
+    <!-- Lockscreen weather -->
+    <string name="display_category_weather_title">Opciones clima en Pantalla de Bloqueo</string>
+    <string name="lock_screen_weather_summary">Opciones clima en Pantalla de Bloqueo</string>
+    <string name="lock_screen_weather_settings_title">Clima</string>
+    <string name="weather_cat_notifications_title">Notifications</string>
+    <string name="weather_show_weather_title">Mostrar el clima</string>
+    <string name="weather_show_weather_summary">Habilitar para mostrar información meteorológica</string>
+    <string name="weather_show_location_title">Mostrar ubicación</string>
+    <string name="weather_show_location_summary">Habilitar para mostrar ubicación</string>
+    <string name="weather_show_timestamp_title">Mostrar hora/fecha</string>
+    <string name="weather_show_timestamp_summary">Habilitar para mostrar la hora/fecha</string>
+    <string name="weather_condition_icon_title">Icono de condición</string>
+    <string name="weather_condition_icon_dlg_title">Elija un icono para mostrar la condición meteorológica</string>
+    <string name="weather_condition_icon_monochrome_title">Monocroma</string>
+    <string name="weather_condition_icon_colored_title">De colores</string>
+    <string name="weather_condition_icon_vclouds_title">VClouds</string>
+    <string name="icons_title">Iconos</string>
+    <string name="position_right_title">Derecha</string>
+    <string name="position_centered_title">Centrado</string>
+    <string name="hidden_title">Oculto</string>
+    <string name="weather_hide_panel_title">Ocultar panel de tiempo</string>
+    <string name="weather_hide_panel_dlg_title">Elige cuando el panel meteorológico estará oculto</string>
+    <string name="weather_hide_panel_auto_title">Auto</string>
+    <string name="weather_hide_panel_custom_title">Personalizado</string>
+    <string name="weather_hide_panel_never_title">Nunca</string>
+    <string name="weather_hide_panel_auto_summary">El panel meteorológico se oculta cuando las notificaciones visibles alcanza las máximas permitidas en la pantalla de bloqueo</string>
+    <string name="weather_hide_panel_custom_summary">El panel meteorológico se oculta cuando las notificaciones visibles lleguen al número elegido de notificaciones</string>
+    <string name="weather_hide_panel_never_summary">El panel meteorológico no estará oculto</string>
+    <string name="weather_number_of_notifications_title">Número de notificaciones</string>
+
+    <!-- Status bar temperature -->
+    <string name="weather_settings_title">Clima</string>
+    <string name="status_bar_temperature_title">Temperatura clima de la barra de estado</string>
+    <string name="weather_clock_options_title">Opciones Reloj meteorológico</string>
+    <string name="weather_clock_options_summary">Widget de meteorología y proveedor</string>
+    <string name="status_bar_temperature_hidden">Oculto</string>
+    <string name="status_bar_temperature_show_scale">Se muestra con escala</string>
+    <string name="status_bar_temperature_hide_scale">Se muestra sin escala</string>
+    <string name="status_bar_temperature_location_title">Colocación</string>
+    <string name="status_bar_temperature_location_summary">Seleccione donde se muestra la temperatura en la barra de estado</string>
+    <string name="status_bar_temperature_location_right">Derecha</string>
+    <string name="status_bar_temperature_location_left">Izquierda</string>
+    <string name="status_bar_weather_color_title">Color de la temperatura</string>
+    <string name="status_bar_weather_size_title">Tamaño de fuente</string>
+    <string name="status_bar_weather_font_style_title">Fuente</string>
+    <string name="status_bar_weather_font_normal">Normal</string>
+    <string name="status_bar_weather_font_italic">Cursiva</string>
+    <string name="status_bar_weather_font_bold">Negrita</string>
+    <string name="status_bar_weather_font_bold_italic">Negrita Cursiva</string>
+    <string name="status_bar_weather_font_light">Ligera</string>
+    <string name="status_bar_weather_font_light_italic">Ligera Cursiva</string>
+    <string name="status_bar_weather_font_thin">Delgada</string>
+    <string name="status_bar_weather_font_thin_italic">Delgada Cursiva</string>
+    <string name="status_bar_weather_font_condensed">Condensada</string>
+    <string name="status_bar_weather_font_condensed_italic">Condensada Cursiva</string>
+    <string name="status_bar_weather_font_condensed_light">Condensada Ligera</string>
+    <string name="status_bar_weather_font_condensed_light_italic">Condensada Ligera Cursiva </string>
+    <string name="status_bar_weather_font_condensed_bold">Condensada Negrita</string>
+    <string name="status_bar_weather_font_condensed_bold_italic">Condensada Negrita Cursiva</string>
+    <string name="status_bar_weather_font_medium">Mediana</string>
+    <string name="status_bar_weather_font_medium_italic">Mediana Cursiva</string>
+    <string name="status_bar_weather_font_black">Negra</string>
+    <string name="status_bar_weather_font_black_italic">Negra Cursiva</string>
+    <string name="status_bar_weather_font_dancingscript">DancingScript</string>
+    <string name="status_bar_weather_font_dancingscript_bold">DancingScript Negrita</string>
+    <string name="status_bar_weather_font_comingsoon">ComingSoon</string>
+    <string name="status_bar_weather_font_notoserif">NotoSerif Normal</string>
+    <string name="status_bar_weather_font_notoserif_italic">NotoSerif Cursiva</string>
+    <string name="status_bar_weather_font_notoserif_bold">NotoSerif Negrita</string>
+    <string name="status_bar_weather_font_notoserif_bold_italic">NotoSerif Negrita Cursiva</string>
+
+    <!-- Quicks settings columns -->
+    <string name="qs_panel_title">Panel configuración rápida</string>
+    <string name="qs_panel_title_summary">Configuraciones rápidas</string>
+    <string name="qs_columns_title">Número de baldosas en la columna</string>
+    <string name="qs_rows_portrait_title">Número de filas (vertical)</string>
+    <string name="qs_rows_landscape_title">Número de filas (horizontal)</string>
+    <!-- Quicks settings titles -->
+    <string name="qs_tile_title_visibility_title">Título configuración rápida</string>
+    <string name="qs_tile_title_visibility_summary">Activar títulos en ajustes rápidos</string>
+
+    <!-- QS headers -->
+    <string name="qs_header_category">Configuración rápida del encabezado</string>
+    <string name="status_bar_custom_header_title">Imagen de encabezado personalizado</string>
+    <string name="status_bar_custom_header_summary">Activar imagen del encabezado del panel de notificaciones</string>
+    <string name="daylight_header_pack_title">Pack de imágenes de cabecera</string>
+    <string name="status_bar_custom_header_shadow_title">Sombra del encabezado</string>
+    <string name="status_bar_custom_header_shadow_summary">Para una mejor visibilidad en imágenes brillantes</string>
+    <string name="static_header_provider" translatable="false">Estática</string>
+    <string name="daylight_header_provider" translatable="false">Luz de día</string>
+    <string name="static_header_provider_title">Estática</string>
+    <string name="daylight_header_provider_title">Dinámica</string>
+    <string name="custom_header_provider_title">Proveedor encabezado</string>
+    <string name="custom_header_browse_title">Examinar encabezados instalados</string>
+    <string name="custom_header_browse_summary">Presión prolongada en una imagen para usarla en modo estático</string>
+
+    <!-- Quicks settings vibrate -->
+    <string name="quick_settings_vibrate_title">Vibrar al tocarlo</string>
+    <string name="quick_settings_vibrate_summary">Vibrar al tocar las baldosas</string>
+
+    <!-- Lockscreen -->
+    <string name="lockscreen_settings_title">Pantalla de bloqueo</string>
+    <string name="mad_lockscreen_settings_summary">Personalizaciones</string>
+    <!-- Lockscreen items clock, date, alarm text -->
+    <string name="lockscreen_items_settings_title">Elementos Pantalla de bloqueo</string>
+    <string name="lockscreen_clock_title">Reloj Pantalla de bloqueo</string>
+    <string name="lockscreen_date_title">Fecha Pantalla de bloqueo</string>
+    <string name="lockscreen_alarm_title">Texto de alarma</string>
+    <string name="lockscreen_items_summary">Activar o desactivar varios elementos de la pantalla de bloqueo</string>
+    <!-- Lockscreen clock fonts -->
+    <string name="lock_clock_font_title">Fuente del reloj de la Pantalla de bloqueo</string>
+    <string name="lock_clock_font_summary">Cambiar la fuente del widget de reloj de la Pantalla de bloqueo</string>
+    <string name="lock_clock_font_normal">Roboto</string>
+    <string name="lock_clock_font_bold">Roboto Negrita</string>
+    <string name="lock_clock_font_italic">Roboto Cursiva</string>
+    <string name="lock_clock_font_bold_italic">Roboto Negrita Cursiva</string>
+    <string name="lock_clock_font_light_normal">Roboto Ligera (por defecto)</string>
+    <string name="lock_clock_font_light_italic">Roboto Ligera Cursiva</string>
+    <string name="lock_clock_font_thin_normal">Roboto Delgada</string>
+    <string name="lock_clock_font_thin_italic">Roboto Delgada Cursiva</string>
+    <string name="lock_clock_font_condensed_normal">Roboto Condensada</string>
+    <string name="lock_clock_font_condensed_bold">Roboto Condensada Negrita</string>
+    <string name="lock_clock_font_condensed_italic">Roboto Condensada Cursiva</string>
+    <string name="lock_clock_font_condensed_bold_italic">Roboto Condensada Negrita Cursiva</string>
+    <string name="lock_clock_font_medium_normal">Roboto Mediana</string>
+    <string name="lock_clock_font_medium_italic">Roboto Mediana Cursiva</string>
+    <string name="lock_clock_font_black_normal">Roboto Black</string>
+    <string name="lock_clock_font_black_italic">Roboto Black Cursiva</string>
+    <string name="lock_clock_font_condensed_light_normal">Roboto Condensada Ligera</string>
+    <string name="lock_clock_font_condensed_light_italic">Roboto Condensada Ligera Cursiva</string>
+    <!-- Lockscreen cover art -->
+    <string name="media_art_title">Portada musical</string>
+    <string name="media_art_summary">Habilitar la portada musical en pantalla de bloqueo</string>
+    <!-- Lockscreen double tap to sleep -->
+    <string name="double_tap_sleep_anywhere_title">Doble-Toque para dormir</string>
+    <string name="double_tap_sleep_anywhere_summary">Doble-Toque en cualquier lugar de la pantalla para poner el dispositivo en reposo</string>
+
+    <!-- Slim Recents panel -->
+    <string name="mad_recents_summary">Personalizacion de Recientes</string>
+    <string name="recents_title">Aplicaciones recientes</string>
+    <string name="slim_recents_title">Recientes Slim </string>
+    <string name="use_slim_recents_title">Uso para una alternativa de recientes</string>
+    <string name="use_slim_recents_summary">Utilice recientes slim en lugar de la vista predeterminada actual</string>
+    <string name="slim_recents_settings_title">Ajustes recientes de Slim</string>
+    <string name="slim_recents_settings_summary">Ver la configuración Slim recientes</string>
+    <string name="recent_panel_category">Panel de aplicaciones recientes Slim</string>
+    <string name="show_running_tasks_title">Mostrar sólo aplicaciones en ejecución</string>
+    <string name="recents_max_apps_title">Máximo de aplicaciones permitidas</string>
+    <string name="recent_panel_scale_title">Tamaño</string>
+    <string name="recent_panel_expanded_mode_title">Modo ampliado</string>
+    <string name="recent_panel_expanded_mode_summary">Tareas recientes modo de vista ampliado</string>
+    <string name="recent_panel_expanded_mode_auto">Auto (por defecto)</string>
+    <string name="recent_panel_expanded_mode_always">Siempre</string>
+    <string name="recent_panel_expanded_mode_never">Nunca</string>
+    <string name="recent_panel_show_topmost_title">Mostrar tarea más alta</string>
+    <string name="recent_panel_show_topmost_summary">No excluya la tarea más alta en la vista reciente</string>
+    <string name="recent_panel_bg_color_title">Color de fondo del panel</string>
+    <string name="recent_card_bg_color_title">Color de fondo de la tarjeta</string>
+    <string name="recent_reset_title">Restablecer a color de stock</string>
+    <string name="recent_reset_confirm">¿Estás seguro que quieres restablecer Slim Recientes al color stock?</string>
+    <string name="default_auto_string">Por defecto (app based)</string>
+    <string name="recent_panel_lefty_mode_title">Mostrar en el borde izquierdo</string>
+    <string name="recent_panel_lefty_mode_summary">Mostrar el panel de aplicaciones recientes borde izquierdo</string>
+    <string name="slim_icon_pack_title">Pack de icono</string>
+    <string name="slim_icon_pack_summary">Aplicar un paquete de iconos en el panel</string>
+    <string name="no_iconpacks_summary">No hay pack de iconos instalados</string>
+    <string name="dialog_pick_iconpack_title">Selecciona pack de iconos</string>
+    <string name="default_iconpack_title">Iconos predeterminados</string>
+
+    <!-- Color picker -->
+    <string name="dialog_color_picker">Selector de color</string>
+    <string name="press_color_to_apply">Pulse en Color para aplicar</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint" translatable="false">#FFDDDDDD</string>
+    <string name="hex_check_button_text">VISUALIZAR</string>
+    <string name="hex_reset_button_text">RESETEAR</string>
+    <string name="color_right_arrow" translatable="false">"→"</string>
+    <string name="color_down_arrow" translatable="false">"↓"</string>
+    <string name="longpress_info">Pulsacion larga para guardar color</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="color_default">Por defecto</string>
+	
+	<!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Desbloqueo rápido</string>
+    <string name="unlock_quick_unlock_control_summary">Desbloquear automáticamente cuando se haya introducido el PIN (no se requiere presionar OK) \ nNota:¡sólo funcionará con PIN de 4 dígitos!</string>
 </resources>
