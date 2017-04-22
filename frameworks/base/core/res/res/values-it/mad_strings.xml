@@ -17,7 +17,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="permlab_preventpower">Controlla pulsante accensione</string>
     <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-    <string name="permdesc_preventpower">Consente ad una app di controllare l'accensione.</string>
+    <string name="permdesc_preventpower">Consente ad una app di controllare l\'accensione.</string>
 
     <!-- Button to restart the phone in restart menu -->
     <string name="reboot_reboot">Riavvio</string>

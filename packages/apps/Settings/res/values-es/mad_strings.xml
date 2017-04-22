@@ -139,7 +139,7 @@
 
     <!-- Performance Settings : Warning dialog  -->
     <string name="performance_settings_warning_title">Proceda con precaución</string>
-    <string name="performance_settings_warning">Estas configuraciones se incluyen para la experimentación y cualquier cambio que se realice en ellas puede causar inestabilidad, fallos, pérdida de datos o fallas de hardware. \ N \ nNo solicitemos que no se presenten informes de errores si se ha cambiado alguna de estas configuraciones de los valores predeterminados.</string>
+    <string name="performance_settings_warning">Estas configuraciones se incluyen para la experimentación y cualquier cambio que se realice en ellas puede causar inestabilidad, fallos, pérdida de datos o fallas de hardware.\n\nNo solicitemos que no se presenten informes de errores si se ha cambiado alguna de estas configuraciones de los valores predeterminados.</string>
 
     <!-- Performance Settings : Processor Settings -->
     <!-- Performance Settings : Processor settings title -->
@@ -418,7 +418,7 @@
     <string name="navbar_behaviour_category_title">Comportamiento general</string>
 
     <string name="navigation_bar_title">Botones y diseño</string>
-    <string name="navigation_bar_help_text">Para empezar, toca el ícono de edición para desbloquear la barra de navegación para editarla. \ N \ nPuede tocar en un icono para cambiar el acceso directo o presionar un icono para volver a organizar el diseño. \ N \ nPulsa para guardar los cambios, O restaurar para restablecer el diseño a la configuración predeterminada</string>
+    <string name="navigation_bar_help_text">Para empezar, toca el ícono de edición para desbloquear la barra de navegación para editarla.\n\nPuede tocar en un icono para cambiar el acceso directo o presionar un icono para volver a organizar el diseño.\n\nPulsa para guardar los cambios, O restaurar para restablecer el diseño a la configuración predeterminada</string>
     <string name="navigation_restore_button_text">Restaurar valores</string>
     <string name="navigation_edit_button_text">Editar</string>
     <string name="navigation_save_button_text">Guardar</string>
@@ -471,7 +471,7 @@
     <string name="dim_nav_buttons_alpha_title">Atenuación alfa</string>
     <string name="dim_nav_buttons_alpha_summary">Valor alfa para atenuar los botones</string>
     <string name="dim_nav_buttons_animate_title">Animación de atenuación</string>
-    <string name="dim_nav_buttons_animate_summary">Animación de devanecimiento alfa</string>
+    <string name="dim_nav_buttons_animate_summary">Animación de desvanecimiento alfa</string>
     <string name="dim_nav_buttons_animate_duration_title">Duración de la animación</string>
     <string name="dim_nav_buttons_animate_duration_summary">Duración (Milisegundos) de la animación alfa</string>
 
@@ -935,5 +935,5 @@
 	
 	<!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Desbloqueo rápido</string>
-    <string name="unlock_quick_unlock_control_summary">Desbloquear automáticamente cuando se haya introducido el PIN (no se requiere presionar OK) \ nNota:¡sólo funcionará con PIN de 4 dígitos!</string>
+    <string name="unlock_quick_unlock_control_summary">Desbloquear automáticamente cuando se haya introducido el PIN (no se requiere presionar OK) \nNota:¡sólo funcionará con PIN de 4 dígitos!</string>
 </resources>
