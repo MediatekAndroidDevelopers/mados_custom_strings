@@ -85,7 +85,7 @@
     <string name="quick_mad_extras_toast">¿Crees que realmente serviría de algo pulsar aquí? xD</string>
 
     <!-- Slim Recents app-screen-->
-    <string name="recents_multiwin_warning">Sesión de ventana múltiple ya está activa. \ NToca una aplicación si desea acoplarla ahora.</string>
+    <string name="recents_multiwin_warning">Sesión de ventana múltiple ya está activa.\nToca una aplicación si desea acoplarla ahora.</string>
     <string name="recents_multiwin_nolastapp">Has eliminado las aplicaciónes recientes, por favor, elige una del launcher o del cajón.</string>
 
     <!-- NFC QS tile -->
