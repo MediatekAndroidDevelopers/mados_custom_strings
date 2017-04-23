@@ -986,4 +986,9 @@
     <!-- Gestures Misc -->
     <string name="mad_gestures_settings">Γρήγορες χειρονομίες</string>
     <string name="mad_gestures_settings_summary">Γρήγορες κινήσεις για τον έλεγχο του τηλεφώνου σας</string>
+	
+	 <!-- Bluetooth status -->
+    <string name="bluetooth_battery_title">Κατασταση μπαταρίας του</string>
+    <string name="bluetooth_battery_summary">Εμφάνιση της κατάστασης της μπαταρίας για την τρέχουσα συνδεδεμένη συσκευή Bluetooth, εάν είναι διαθέσιμη.</string>
+	
 </resources>
