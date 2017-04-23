@@ -740,8 +740,8 @@
     <string name="pie_layer_disable_forbidden">Can\'t disable second layer! There\'s no other \'back button\' available.</string>
 
     <!-- Lockscreen weather -->
-    <string name="display_category_weather_title">Opções de Meteorologia no ecrâ bloqueio</string>
-    <string name="lock_screen_weather_summary">Opções de Meteorologia no ecrâ bloqueio</string>
+    <string name="display_category_weather_title">Opções de Meteorologia no ecrã bloqueio</string>
+    <string name="lock_screen_weather_summary">Opções de Meteorologia no ecrã bloqueio</string>
     <string name="lock_screen_weather_settings_title">Opções de Meteorologia</string>
     <string name="weather_cat_notifications_title">Notificações</string>
     <string name="weather_show_weather_title">Mostrar meteorologia</string>
@@ -839,10 +839,10 @@
     <string name="quick_settings_vibrate_summary">Vibrar ao tocar nos mosaicos das definições rápidas</string>
 
     <!-- Lockscreen -->
-    <string name="lockscreen_settings_title">Ecrâ de bloqueio</string>
-    <string name="mad_lockscreen_settings_summary">Customizações no ecrâ de bloqueio</string>
+    <string name="lockscreen_settings_title">Ecrã de bloqueio</string>
+    <string name="mad_lockscreen_settings_summary">Customizações no ecrã de bloqueio</string>
     <!-- Lockscreen items clock, date, alarm text -->
-    <string name="lockscreen_items_settings_title">Ítems do ecrâ de bloqueio</string>
+    <string name="lockscreen_items_settings_title">Ítems do ecrã de bloqueio</string>
     <string name="lockscreen_clock_title">Relógio no ecrã de bloqueio</string>
     <string name="lockscreen_date_title">Data no ecrã de bloqueio</string>
     <string name="lockscreen_alarm_title">Mostrar alarme no ecrã de bloqueio</string>
@@ -876,7 +876,7 @@
     <string name="double_tap_sleep_anywhere_summary">Toque duas vezes em qualquer área do ecrã de bloqueio para suspender o dispositivo</string>
 
     <!-- Slim Recents panel -->
-    <string name="mad_recents_summary">Customizações modo imersivo</string>
+    <string name="mad_recents_summary">Customizações no modo recentes</string>
     <string name="recents_title">Recentes</string>
     <string name="slim_recents_title">Recentes Slim</string>
     <string name="use_slim_recents_title">Usar recentes Slim</string>
@@ -916,4 +916,32 @@
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Desbloqueio rápido</string>
     <string name="unlock_quick_unlock_control_summary">Desbloquear automaticamente quando o PIN ou Palavra-passe correta é inserida (não é necessário pressionar OK)\nNote: Apenas para PINs com 4 Dígitos!</string>
+
+    <!-- Immersive recents -->
+    <string name="immersive_recents_title">Recentes imersivos</string>
+    <string name="immersive_recents_default">Padrão</string>
+    <string name="immersive_recents_fullscreen">Ecrã cheio</string>
+    <string name="immersive_recents_statusbar">Apenas barra de estado</string>
+    <string name="immersive_recents_navbar">Apenas barra de navegação</string>
+
+    <!-- Recent clear all button and location -->
+    <string name="show_clear_all_recents_button_title">Botão limpar</string>
+    <string name="show_clear_all_recents_button_summary_on">Mostrar botão Limpar tudo</string>
+    <string name="show_clear_all_recents_button_summary_off">Mostrar botão Limpar tudo AOSP</string>
+    <string name="recents_clear_all_location_title">Localização do botão Limpar tudo</string>
+    <string name="recents_clear_all_location_top_right">Canto superior direito</string>
+    <string name="recents_clear_all_location_top_left">Canto superior esquerdo</string>
+    <string name="recents_clear_all_location_top_center">Centrado em cima</string>
+    <string name="recents_clear_all_location_bottom_right">Canto inferior direito</string>
+    <string name="recents_clear_all_location_bottom_left">Canto inferior esquerdo</string>
+    <string name="recents_clear_all_location_bottom_center">Centrado em baixo</string>
+
+  <!-- Wakelock blocker -->
+  <string name="wakelock_blocker_title">Bloqueador de wakelocks</string>
+  <string name="wakelock_blocker_summary">Bloquear wakelocks do sistema</string>
+  <string name="wakelock_blocker_save">Guardar</string>
+  <string name="wakelock_list_header">Wakelocks disponíveis</string>
+  <string name="wakelock_blocker_reload">Recarregar</string>
+  <string name="wakelock_blocker_warning_title">Prosseguir com cautela</string>
+  <string name="wakelock_blocker_warning">Bloquear wakelocks pode causar instabilidade, falhas ou perda de dados</string>
 </resources>
