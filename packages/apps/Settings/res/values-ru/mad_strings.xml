@@ -102,6 +102,8 @@
     <string name="mad_recents">Недавние</string>
     <string name="mad_buttons">Кнопки</string>
     <string name="mad_system">Система</string>
+    <string name="mad_security">Безопасность</string>
+    <string name="mad_gestures">Жесты</string>
 
     <!-- for smartwake -->
     <string name="smartwake_settings_title">SmartWake</string>
@@ -976,4 +978,12 @@
     <string name="alarm_blocker_reload">Перезагрузить</string>
     <string name="alarm_blocker_warning_title">Продолжайте с осторожностью</string>
     <string name="alarm_blocker_warning">Блокировка сигналов тревоги приложений может привести к нестабильности, крашам и потере данных</string>
+
+    <!-- Buttons Misc -->
+    <string name="mad_buttons_settings">Настройки кнопок</string>
+    <string name="mad_buttons_settings_summary">Настройки кнопок, где можно задать действия и многое другое</string>
+
+    <!-- Gestures Misc -->
+    <string name="mad_gestures_settings">Быстрые жесты</string>
+    <string name="mad_gestures_settings_summary">Быстрые жесты для управления телефоном</string>
 </resources>
