@@ -102,7 +102,9 @@
 	<string name="mad_recents">Recientes</string>
     <string name="mad_buttons">Botones</string>
     <string name="mad_system">Sistema</string>
-
+    <string name="mad_security">Seguridad</string>
+    <string name="mad_gestures">Gestos</string>
+	
     <!-- for smartwake -->
     <string name="smartwake_settings_title">SmartWake</string>
     <string name="smartwake_settings_summary">Controlar gestos del SmartWake</string>
@@ -936,4 +938,52 @@
 	<!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Desbloqueo rápido</string>
     <string name="unlock_quick_unlock_control_summary">Desbloquear automáticamente cuando se haya introducido el PIN (no se requiere presionar OK) \nNota:¡sólo funcionará con PIN de 4 dígitos!</string>
+	<string name="lockscreen_quick_unlock_pin_length_title">Cantidad de dígitos PIN</string>
+    <string name="lockscreen_quick_unlock_pin_length_summary">Para desbloqueo rápido,establezca la longitud del PIN (cantidad de dígitos).</string>
+	
+    <!-- Immersive recents -->
+    <string name="immersive_recents_title">Recientes inmersiva</string>
+    <string name="immersive_recents_default">Por defecto</string>
+    <string name="immersive_recents_fullscreen">Pantalla completa</string>
+    <string name="immersive_recents_statusbar">Solo barra de estado</string>
+    <string name="immersive_recents_navbar">Navbar solo</string>
+
+    <!-- Recent clear all button and location -->
+    <string name="show_clear_all_recents_button_title">Borrar todo FAB</string>
+    <string name="show_clear_all_recents_button_summary_on">Mostrar borrar todo FAB</string>
+    <string name="show_clear_all_recents_button_summary_off">Mostrar borrar todo AOSP</string>
+    <string name="recents_clear_all_location_title">Borrar toda ubicación FAB</string>
+    <string name="recents_clear_all_location_top_right">Superior derecha</string>
+    <string name="recents_clear_all_location_top_left">Superior izquierda</string>
+    <string name="recents_clear_all_location_top_center">Superior centrado</string>
+    <string name="recents_clear_all_location_bottom_right">Abajo derecha</string>
+    <string name="recents_clear_all_location_bottom_left">Abajo izquierda</string>
+    <string name="recents_clear_all_location_bottom_center">Abajo centrado</string>
+
+    <!-- Wakelock blocker -->
+    <string name="wakelock_blocker_title">Bloqueador Wakelock</string>
+    <string name="wakelock_blocker_summary">Bloquear wakelocks del sistema</string>
+    <string name="wakelock_blocker_save">Guardar</string>
+    <string name="wakelock_list_header">Wakelocks disponibles</string>
+    <string name="wakelock_blocker_reload">Recargar</string>
+    <string name="wakelock_blocker_warning_title">Proceda con precaución</string>
+    <string name="wakelock_blocker_warning">Bloquear wakelocks tiene el potencial de causar inestabilidad, accidentes o pérdida de datos.</string>
+
+    <!-- Alarm blocker -->
+    <string name="alarm_blocker">Bloqueador de alarma</string>
+    <string name="alarm_blocker_title">Habilitar</string>
+    <string name="alarm_blocker_summary">Bloquear alarmas mientras la pantalla está apagada</string>
+    <string name="alarm_blocker_save">Guardar</string>
+    <string name="alarm_list_header">Alarmas disponibles</string>
+    <string name="alarm_blocker_reload">Recargar</string>
+    <string name="alarm_blocker_warning_title">Proceda con precaución</string>
+    <string name="alarm_blocker_warning">Bloquear Alarma tiene el potencial de causar inestabilidad, accidentes o pérdida de datos.</string>
+
+    <!-- Buttons Misc -->
+    <string name="mad_buttons_settings">Botones Opciones</string>
+    <string name="mad_buttons_settings_summary">Botón opciones,donde puede configurar acciones y más.</string>
+
+    <!-- Gestures Misc -->
+    <string name="mad_gestures_settings">Gestos rápidos</string>
+    <string name="mad_gestures_settings_summary">Gestos rápidos para controlar tu teléfono</string>
 </resources>
