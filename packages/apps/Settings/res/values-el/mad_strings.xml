@@ -935,5 +935,45 @@
 
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Γρήγορο ξεκλείδωμα</string>
-    <string name="unlock_quick_unlock_control_summary">Αυτόματο ξεκλείδωμα οταν εισαχθεί ο σωστός κωδικός PIN \nΣημείωση: Λειτουργει μόνο για τετραψήφιο κωδικό PIN !</string>
+    <string name="unlock_quick_unlock_control_summary">Αυτόματο ξεκλείδωμα οταν εισαχθεί ο σωστός κωδικός PIN \nΣημείωση: Λειτουργει μόνο όταν επιλέξετε τον σωστό αριθμό ψηφίων PIN !</string>
+    <string name="lockscreen_quick_unlock_pin_length_title">Πλήθος ψηφίων PIN</string>
+    <string name="lockscreen_quick_unlock_pin_length_summary">Για  να λειτουργήσει θα πρέπει να επιλέξετε τον σωστό αριθμό ψηφίων PIN.</string>	
+	
+    <!-- Immersive recents -->
+    <string name="immersive_recents_title">Πρόσφατα Immersive</string>
+    <string name="immersive_recents_default">Προεπιλογή</string>
+    <string name="immersive_recents_fullscreen">Πλήρης οθόνη</string>
+    <string name="immersive_recents_statusbar">Μόνο στη γραμμή κατάστασης</string>
+    <string name="immersive_recents_navbar">Μόνο στη γραμμή πλοήγησης</string>
+
+    <!-- Recent clear all button and location -->
+    <string name="show_clear_all_recents_button_title">Πλήκτρο εκκαθάρισης πρόσφατων εφαρμογών</string>
+    <string name="show_clear_all_recents_button_summary_on">Εμφάνιση πλήκτρου εκκαθάρισης</string>
+    <string name="show_clear_all_recents_button_summary_off">Εμφάνισε εικονίδιο AOSP</string>
+    <string name="recents_clear_all_location_title">Τοποθεσία πλήκτρου εκκαθάρισης πρόσφατων εφαρμογών</string>
+    <string name="recents_clear_all_location_top_right">Πάνω δεξιά</string>
+    <string name="recents_clear_all_location_top_left">Πάνω αριστερά</string>
+    <string name="recents_clear_all_location_top_center">Κορυφή κέντρο</string>
+    <string name="recents_clear_all_location_bottom_right">Κάτω δεξιά</string>
+    <string name="recents_clear_all_location_bottom_left">Κάτω αριστερά</string>
+    <string name="recents_clear_all_location_bottom_center">Κάτω κέντρο</string>
+
+    <!-- Wakelock blocker -->
+    <string name="wakelock_blocker_title"> Μπλοκάρισμα Wakelock</string>
+    <string name="wakelock_blocker_summary">Αποκλεισμός wakelocks συστήματος</string>
+    <string name="wakelock_blocker_save">Αποθήκευση</string>
+    <string name="wakelock_list_header">Διαθέσιμα wakelocks</string>
+    <string name="wakelock_blocker_reload">Επαναφόρτωση</string>
+    <string name="wakelock_blocker_warning_title">Προχωρήστε με προσοχή</string>
+    <string name="wakelock_blocker_warning">Το μπλοκάρισμα των wakelocks μπορεί να προκαλέσει αστάθεια ή απώλεια δεδομένων</string>
+
+    <!-- Alarm blocker -->
+    <string name="alarm_blocker">Μπλοκάρισμα Alarm</string>
+    <string name="alarm_blocker_title">Επιτρέψε</string>
+    <string name="alarm_blocker_summary">Απέλκεισε τα alarms ενώ η οθόνη είναι απενεργοποιημένη</string>
+    <string name="alarm_blocker_save">Αποθήκευση</string>
+    <string name="alarm_list_header">Διαθέσιμα alarms</string>
+    <string name="alarm_blocker_reload">Επαναφόρτωση</string>
+    <string name="alarm_blocker_warning_title">Προχωρήστε με προσοχή</string>
+    <string name="alarm_blocker_warning">Το μπλοκάρισμα των Alarm μπορεί να προκαλέσει αστάθεια ή απώλεια δεδομένων.</string>
 </resources>
