@@ -102,6 +102,7 @@
     <string name="mad_recents">Recents</string>
     <string name="mad_buttons">Buttons</string>
     <string name="mad_system">System</string>
+    <string name="mad_security">Security</string>
 
     <!-- for smartwake -->
     <string name="smartwake_settings_title">SmartWake</string>
