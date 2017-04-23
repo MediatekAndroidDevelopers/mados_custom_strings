@@ -103,6 +103,7 @@
     <string name="mad_buttons">Buttons</string>
     <string name="mad_system">System</string>
     <string name="mad_security">Security</string>
+    <string name="mad_gestures">Gestures</string>
 
     <!-- for smartwake -->
     <string name="smartwake_settings_title">SmartWake</string>
@@ -977,4 +978,12 @@
     <string name="alarm_blocker_reload">Reload</string>
     <string name="alarm_blocker_warning_title">Proceed with caution</string>
     <string name="alarm_blocker_warning">Blocking alarms have the potential to cause instability, crashes or data loss.</string>
+
+    <!-- Buttons Misc -->
+    <string name="mad_buttons_settings">Buttons Options</string>
+    <string name="mad_buttons_settings_summary">Button options, where you can set actions and more</string>
+
+    <!-- Gestures Misc -->
+    <string name="mad_gestures_settings">Quick Gestures</string>
+    <string name="mad_gestures_settings_summary">Quick Gestures to control your phone</string>
 </resources>
