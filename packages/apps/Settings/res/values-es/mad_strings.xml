@@ -988,7 +988,7 @@
     <string name="mad_gestures_settings_summary">Gestos rápidos para controlar tu teléfono</string>
 		
     <!-- Bluetooth status -->
-    <string name="bluetooth_battery_title">Mostrar estado batería Bluetooth</string>
+    <string name="bluetooth_battery_title">Mostrar la batería del dispositivo Bluetooth</string>
     <string name="bluetooth_battery_summary">Mostrar la batería del dispositivo bluetooth conectado,si está disponible.</string>
 	
 </resources
