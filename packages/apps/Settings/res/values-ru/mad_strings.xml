@@ -102,6 +102,8 @@
     <string name="mad_recents">Недавние</string>
     <string name="mad_buttons">Кнопки</string>
     <string name="mad_system">Система</string>
+    <string name="mad_security">Безопасность</string>
+    <string name="mad_gestures">Жесты</string>
 
     <!-- for smartwake -->
     <string name="smartwake_settings_title">SmartWake</string>
@@ -940,21 +942,53 @@
     <string name="lockscreen_quick_unlock_pin_length_summary">Пожалуйста, укажите количество цифр в ПИН-коде для работы быстрой разблокировки.</string>
 
     <!-- Immersive recents -->
-    <string name="immersive_recents_title">Впечатление недавних задач</string>
+    <string name="immersive_recents_title">Отображение недавних задач</string>
     <string name="immersive_recents_default">По умолчанию</string>
     <string name="immersive_recents_fullscreen">Полный экран</string>
     <string name="immersive_recents_statusbar">Только статусбар</string>
     <string name="immersive_recents_navbar">Только навигационная панель</string>
 
     <!-- Recent clear all button and location -->
-    <string name="show_clear_all_recents_button_title">Кнопка снятия всех недавних задач</string>
-    <string name="show_clear_all_recents_button_summary_on">Показывать кнопку снятия всех недавних задач</string>
-    <string name="show_clear_all_recents_button_summary_off">Показывать кн.снятия из AOSP</string>
-    <string name="recents_clear_all_location_title">Положение кнопки снятия всех недавних задач</string>
+    <string name="show_clear_all_recents_button_title">Кнопка Снятия всех задач</string>
+    <string name="show_clear_all_recents_button_summary_on">Показывать кн. Очистить всё</string>
+    <string name="show_clear_all_recents_button_summary_off">Показывать кн. из AOSP</string>
+    <string name="recents_clear_all_location_title">Положение кн. Очистить всё</string>
     <string name="recents_clear_all_location_top_right">Сверху справа</string>
     <string name="recents_clear_all_location_top_left">Сверху слева</string>
     <string name="recents_clear_all_location_top_center">Сверху по центру</string>
     <string name="recents_clear_all_location_bottom_right">Снизу справа</string>
     <string name="recents_clear_all_location_bottom_left">Снизу слева</string>
     <string name="recents_clear_all_location_bottom_center">Снизу по центру</string>
+
+    <!-- Wakelock blocker -->
+    <string name="wakelock_blocker_title">Блок вейклоков</string>
+    <string name="wakelock_blocker_summary">Блокировать системные вейклоки</string>
+    <string name="wakelock_blocker_save">Сохранить</string>
+    <string name="wakelock_list_header">Доступные вейклоки</string>
+    <string name="wakelock_blocker_reload">Перезагрузить</string>
+    <string name="wakelock_blocker_warning_title">Продолжайте с осторожностью</string>
+    <string name="wakelock_blocker_warning">Блокировка вейклоков может привести к нестабильности, крашам и потере данных</string>
+
+    <!-- Alarm blocker -->
+    <string name="alarm_blocker">Блок сигналов тревог</string>
+    <string name="alarm_blocker_title">Включить</string>
+    <string name="alarm_blocker_summary">Блокировка сигналов тревоги от приложений при выключенном экране. Это не будильник!</string>
+    <string name="alarm_blocker_save">Сохранить</string>
+    <string name="alarm_list_header">Доступные сигналы тревоги</string>
+    <string name="alarm_blocker_reload">Перезагрузить</string>
+    <string name="alarm_blocker_warning_title">Продолжайте с осторожностью</string>
+    <string name="alarm_blocker_warning">Блокировка сигналов тревоги приложений может привести к нестабильности, крашам и потере данных</string>
+
+    <!-- Buttons Misc -->
+    <string name="mad_buttons_settings">Настройки кнопок</string>
+    <string name="mad_buttons_settings_summary">Настройки кнопок, где можно задать действия и многое другое</string>
+
+    <!-- Gestures Misc -->
+    <string name="mad_gestures_settings">Быстрые жесты</string>
+    <string name="mad_gestures_settings_summary">Быстрые жесты для управления телефоном</string>
+
+    <!-- Bluetooth status -->
+    <string name="bluetooth_battery_title">Статус батареи по Bluetooth</string>
+    <string name="bluetooth_battery_summary">Показывает статус батареи подключенного по BT устройства, если это возможно.</string>
+
 </resources>
