@@ -942,7 +942,7 @@
     <string name="lockscreen_quick_unlock_pin_length_summary">Пожалуйста, укажите количество цифр в ПИН-коде для работы быстрой разблокировки.</string>
 
     <!-- Immersive recents -->
-    <string name="immersive_recents_title">Режим показа недавних задач</string>
+    <string name="immersive_recents_title">Отображение недавних задач</string>
     <string name="immersive_recents_default">По умолчанию</string>
     <string name="immersive_recents_fullscreen">Полный экран</string>
     <string name="immersive_recents_statusbar">Только статусбар</string>
