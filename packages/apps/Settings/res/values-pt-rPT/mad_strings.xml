@@ -964,4 +964,9 @@
     <!-- Gestures Misc -->
     <string name="mad_gestures_settings">Gestos rápidos</string>
     <string name="mad_gestures_settings_summary">Gestos rápidos, para controlar o seu telefone</string>
+
+    <!-- Bluetooth status -->
+    <string name="bluetooth_battery_title">Mostrar o nível de bateria do dispositivo Bluetooth</string>
+    <string name="bluetooth_battery_summary">Mostrar o nível de bateria do dispositivo Bluetooth conectado actualmente, se disponível.</string>
+
 </resources>

@@ -986,4 +986,9 @@
     <!-- Gestures Misc -->
     <string name="mad_gestures_settings">Quick Gestures</string>
     <string name="mad_gestures_settings_summary">Quick Gestures to control your phone</string>
+
+    <!-- Bluetooth status -->
+    <string name="bluetooth_battery_title">Show Bluetooth battery status</string>
+    <string name="bluetooth_battery_summary">Show battery status for the currently connected bluetooth device, if available.</string>
+
 </resources>
