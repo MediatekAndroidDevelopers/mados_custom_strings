@@ -986,4 +986,9 @@
     <!-- Gestures Misc -->
     <string name="mad_gestures_settings">Быстрые жесты</string>
     <string name="mad_gestures_settings_summary">Быстрые жесты для управления телефоном</string>
+
+    <!-- Bluetooth status -->
+    <string name="bluetooth_battery_title">Статус батареи по Bluetooth</string>
+    <string name="bluetooth_battery_summary">Показывает статус батареи подключенного по BT устройства, если это возможно.</string>
+
 </resources>
