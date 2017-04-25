@@ -991,4 +991,8 @@
     <string name="bluetooth_battery_title">Статус батареи по Bluetooth</string>
     <string name="bluetooth_battery_summary">Показывает статус батареи подключенного по BT устройства, если это возможно.</string>
 
+	<!-- Huawei's One hand mode -->
+    <string name="navbar_onehand_title">Однорукий режим в навигац.панели</string>
+    <string name="one_handed_mode_title">Однорукий режим</string>
+    <string name="one_handed_mode_summary">Свайп по навигац.панели для включения однорукого режима.</string>
 </resources>
