@@ -43,4 +43,25 @@
 
     <!-- Notify user that they are in Lock-to-app (for devices without navbar) -->
     <string name="lock_to_app_toast_no_navbar">要取消此屏幕的固定，請觸摸並按住返回鍵。</string>
+	
+    <!-- status message in phone options dialog for when pie is on -->
+    <string name="global_actions_pie_mode_on_status">扇形控制已打開</string>
+
+    <!-- status message in phone options dialog for when pie is off -->
+    <string name="global_actions_pie_mode_off_status">扇形控制已關閉</string>
+
+    <!-- Error message if user want to try to disable all navigation options -->
+    <string name="disable_pie_navigation_error">您不能禁用扇形控制，且沒有打開其他導航。若先啟用了導航欄，扇形控制將關閉。</string>
+
+    <!-- status message in phone options dialog for when navigation bar is on -->
+    <string name="global_actions_nav_bar_mode_on_status">導航欄已打開</string>
+
+    <!-- status message in phone options dialog for when navigation bar is off -->
+    <string name="global_actions_nav_bar_mode_off_status">導航欄已關閉</string>
+
+    <!-- Error message if user want to try to disable all navigation options -->
+    <string name="disable_navigation_pie_error">您不能禁用導航欄，且沒有打開其他導航。若先打開扇形控制，導航欄將關閉。 </string>
+
+    <string name="singlehandmode_click_hint_message">觸摸屏幕外可以退出迷你屏幕視圖</string>
+    <string name="singlehandmode_slide_hint_message">在導航欄上滑動手指以在標準和迷你屏幕視圖之間切換</string>
 </resources>
