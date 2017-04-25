@@ -935,5 +935,62 @@
 
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Sblocco rapido</string>
-    <string name="unlock_quick_unlock_control_summary">Sblocca automaticamente non appena il PIN corretto è stato inserito (senza premere "OK")\nNote: funziona solo con PIN a 4 cifre!</string>
+    <string name="unlock_quick_unlock_control_summary">Sblocca automaticamente non appena il PIN corretto è stato inserito (senza premere "OK")\nNote: funziona solo se il numero sottostante di cifre è impostato correttamente!</string>
+    <string name="lockscreen_quick_unlock_pin_length_title">Numero di cifre del PIN</string>
+    <string name="lockscreen_quick_unlock_pin_length_summary">Per lo sblocco rapido, imposta la linghezza del PIN (numero di cifre).</string>
+
+    <!-- Immersive recents -->
+    <string name="immersive_recents_title">Modalità recenti immersiva</string>
+    <string name="immersive_recents_default">Default</string>
+    <string name="immersive_recents_fullscreen">A tutto schermo</string>
+    <string name="immersive_recents_statusbar">Solo barra di stato</string>
+    <string name="immersive_recents_navbar">Solo barra di navigazione</string>
+
+    <!-- Recent clear all button and location -->
+    <string name="show_clear_all_recents_button_title">Rimuovi tutto (FAB)</string>
+    <string name="show_clear_all_recents_button_summary_on">Mostra rimuovi tutto (stile FAB)</string>
+    <string name="show_clear_all_recents_button_summary_off">Mostra rimuovi tutto (stile AOSP)</string>
+    <string name="recents_clear_all_location_title">Posizionamento pulsante rimuovi tutto stile FAB</string>
+    <string name="recents_clear_all_location_top_right">In alto a destra</string>
+    <string name="recents_clear_all_location_top_left">In alto a sinistra</string>
+    <string name="recents_clear_all_location_top_center">In alto al centro</string>
+    <string name="recents_clear_all_location_bottom_right">In basso a destraa</string>
+    <string name="recents_clear_all_location_bottom_left">In basso a sinistra</string>
+    <string name="recents_clear_all_location_bottom_center">In basso al centro</string>
+
+    <!-- Wakelock blocker -->
+    <string name="wakelock_blocker_title">Blocco Wakelock</string>
+    <string name="wakelock_blocker_summary">Blocco wakelocks di sistema</string>
+    <string name="wakelock_blocker_save">Salva</string>
+    <string name="wakelock_list_header">Wakelocks disponibili</string>
+    <string name="wakelock_blocker_reload">Ricarica</string>
+    <string name="wakelock_blocker_warning_title">Procedi con cautela</string>
+    <string name="wakelock_blocker_warning">Il blocco dei wakelocks può causare instabilità, blocchi o perdita di dati!</string>
+
+    <!-- Alarm blocker -->
+    <string name="alarm_blocker">Blocco allarmi</string>
+    <string name="alarm_blocker_title">Attiva</string>
+    <string name="alarm_blocker_summary">Blocco allarmi a schermo spento</string>
+    <string name="alarm_blocker_save">Salva</string>
+    <string name="alarm_list_header">Allarmi disponibili</string>
+    <string name="alarm_blocker_reload">Ricarica</string>
+    <string name="alarm_blocker_warning_title">Procedi con cautela</string>
+    <string name="alarm_blocker_warning">Il blocco degli allarmi può causare instabilità, blocchi o perdita di dati!</string>
+
+    <!-- Buttons Misc -->
+    <string name="mad_buttons_settings">Opzioni pulsanti</string>
+    <string name="mad_buttons_settings_summary">Opzioni pulsanti, impostazione azioni ed altro.</string>
+
+    <!-- Gestures Misc -->
+    <string name="mad_gestures_settings">Gestures rapide</string>
+    <string name="mad_gestures_settings_summary">Gestures rapide per il controllo del telefono</string>
+
+    <!-- Bluetooth status -->
+    <string name="bluetooth_battery_title">Mostra stato batteria Bluetooth</string>
+    <string name="bluetooth_battery_summary">Mostra stato batteria del dispositivo bluetooth attualmente connesso, se disponibile.</string>
+
+    <!-- Huawei's One hand mode -->
+    <string name="navbar_onehand_title">MOdalità barra di navigazione con una mano</string>
+    <string name="one_handed_mode_title">Modalità mano singola</string>
+    <string name="one_handed_mode_summary">Attivare la modalità mano singola con uno swipe sulla barra di navigazione</string>
 </resources>
