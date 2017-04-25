@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2017 The madOS Project
-
+	 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
-
+	 
           http://www.apache.org/licenses/LICENSE-2.0
-
+		  
      Unless required by applicable law or agreed to in writing, software
      distributed under the License is distributed on an "AS IS" BASIS,
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -16,100 +16,100 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Reboot/Reboot Recovery QS Tile -->
-    <string name="quick_settings_reboot_label">重啟</string>
+    <string name="quick_settings_reboot_label">重启</string>
     <string name="quick_settings_reboot_recovery_label">Recovery</string>
 
-    <string name="switch_bar_auto">自動</string>
+    <string name="switch_bar_auto">自动</string>
 
     <!-- Quick Settings tiles -->
     <string name="quick_settings_screenshot_label">截屏</string>
     <string name="quick_settings_region_screenshot_label">局部截屏</string>
     <string name="quick_settings_sync_label">同步</string>
-    <string name="accessibility_quick_settings_sync_off">關閉同步</string>
-    <string name="accessibility_quick_settings_sync_on">開啟同步</string>
-    <string name="accessibility_quick_settings_sync_changed_off">同步已關閉</string>
-    <string name="accessibility_quick_settings_sync_changed_on">同步已開啟</string>
-    <string name="quick_settings_music_label">音樂</string>
+    <string name="accessibility_quick_settings_sync_off">关闭同步</string>
+    <string name="accessibility_quick_settings_sync_on">开启同步</string>
+    <string name="accessibility_quick_settings_sync_changed_off">同步已关闭</string>
+    <string name="accessibility_quick_settings_sync_changed_on">同步已开启</string>
+    <string name="quick_settings_music_label">音乐</string>
     <string name="quick_settings_music_play">播放</string>
-    <string name="quick_settings_music_pause">暫停</string>
+    <string name="quick_settings_music_pause">暂停</string>
     <string name="quick_settings_caffeine_label">咖啡因</string>
-    <string name="accessibility_quick_settings_caffeine_off">關閉咖啡因</string>
-    <string name="accessibility_quick_settings_caffeine_on">開啟咖啡因</string>
+    <string name="accessibility_quick_settings_caffeine_off">关闭咖啡因</string>
+    <string name="accessibility_quick_settings_caffeine_on">开启咖啡因</string>
 
     <!-- Screen pinning dialog description (for devices without navbar) -->
-    <string name="screen_pinning_description_no_navbar">這將一直顯示到您取消固定。觸摸並按住返回鍵取消固定。</string>
+    <string name="screen_pinning_description_no_navbar">这将一直显示到您取消固定。触摸并按住返回键取消固定。</string>
 
     <!-- NavBar Tuner -->
-    <string name="menu_ime_always_show">菜單/鍵盤開關（一直顯示）</string>
-    <string name="search">搜尋</string>
+    <string name="menu_ime_always_show">菜单/键盘开关（一直显示）</string>
+    <string name="search">搜索</string>
 
     <!-- Dialog title for navigation bar button selection -->
-    <string name="navbar_dialog_title">選擇操作</string>
-    <string name="navbar_home_button">主頁鍵</string>
-    <string name="navbar_recent_button">最近鍵</string>
-    <string name="navbar_search_button">搜尋鍵</string>
-    <string name="navbar_back_button">返回鍵</string>
-    <string name="navbar_empty_button">空格鍵</string>
-    <string name="navbar_menu_conditional_button">菜單（自動隱藏）鍵</string>
-    <string name="navbar_menu_always_button">菜單（一直顯示）鍵</string>
-    <string name="navbar_menu_big_button">菜單鍵</string>
-    <string name="navbar_power_button">電源鍵</string>
-    <string name="navbar_notifications_button">通知鍵</string>
-    <string name="navbar_torch">手電筒</string>
+    <string name="navbar_dialog_title">选择操作</string>
+    <string name="navbar_home_button">主页键</string>
+    <string name="navbar_recent_button">最近键</string>
+    <string name="navbar_search_button">搜索键</string>
+    <string name="navbar_back_button">返回键</string>
+    <string name="navbar_empty_button">空格键</string>
+    <string name="navbar_menu_conditional_button">菜单（自动隐藏）键</string>
+    <string name="navbar_menu_always_button">菜单（一直显示）键</string>
+    <string name="navbar_menu_big_button">菜单键</string>
+    <string name="navbar_power_button">电源键</string>
+    <string name="navbar_notifications_button">通知键</string>
+    <string name="navbar_torch">手电筒</string>
     <string name="navbar_screenshot">截屏</string>
 
     <!-- Content description of the power button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
-    <string name="accessibility_power">電源</string>
+    <string name="accessibility_power">电源</string>
     <string name="accessibility_notifications">通知</string>
-    <string name="accessibility_dpad_left">光標向左</string>
-    <string name="accessibility_dpad_right">光標向右</string>
-    <string name="accessibility_torch">手電筒</string>
+    <string name="accessibility_dpad_left">光标向左</string>
+    <string name="accessibility_dpad_right">光标向右</string>
+    <string name="accessibility_torch">手电筒</string>
     <string name="accessibility_screenshot">截屏</string>
 
-    <string name="app_killed_message">應用殺</string>
+    <string name="app_killed_message">应用杀</string>
 
     <!-- Battery status in pie controls -->
-    <string name="pie_battery_status_charging">充電中(<xliff:g id="percent">%d</xliff:g>%%)</string>
-    <string name="pie_battery_status_full">已充滿</string>
-    <string name="pie_battery_status_discharging"><xliff:g id="percent">%d</xliff:g>%% 剩餘</string>
+    <string name="pie_battery_status_charging">充电中(<xliff:g id="percent">%d</xliff:g>%%)</string>
+    <string name="pie_battery_status_full">已充满</string>
+    <string name="pie_battery_status_discharging"><xliff:g id="percent">%d</xliff:g>%% 剩余</string>
 
     <!-- Phone status in pie controls -->
-    <string name="pie_phone_status_no_service">沒有信號</string>
-    <string name="pie_phone_status_airplane_mode">飛機模式開啟</string>
-    <string name="pie_phone_status_emergency_only">僅供緊急呼叫</string>
+    <string name="pie_phone_status_no_service">没有信号</string>
+    <string name="pie_phone_status_airplane_mode">飞机模式开启</string>
+    <string name="pie_phone_status_emergency_only">仅供紧急呼叫</string>
 
     <!-- madOS QS Tile -->
     <string name="qs_mad_extras_tile">madOS附加功能</string>
-    <string name="quick_mad_extras_toast">哈哈，你真的以為長按這里將工作？ </string>
+    <string name="quick_mad_extras_toast">哈哈，你真的以为长按这里将工作？</string>
 
     <!-- Slim Recents app-screen-->
-    <string name="recents_multiwin_warning">多窗口的會話已經被激活。 \n如果你想現在停靠只需輕按一個應用程式。 </string>
-    <string name="recents_multiwin_nolastapp">你刪除了所有的最近任務，請從啟動器或抽屜中打開一個應用程式。 </string>
+    <string name="recents_multiwin_warning">多窗口的会话已经被激活。\n如果你想现在停靠只需轻按一个应用程序。</string>
+    <string name="recents_multiwin_nolastapp">你删除了所有的最近任务，请从启动器或抽屉中打开一个应用程序。</string>
 
     <!-- NFC QS tile -->
     <string name="quick_settings_nfc_label">NFC</string>
-    <string name="accessibility_quick_settings_nfc_off">關閉NFC</string>
-    <string name="accessibility_quick_settings_nfc_on">打開NFC</string>
-    <string name="accessibility_quick_settings_nfc_changed_off">NFC已關閉</string>
-    <string name="accessibility_quick_settings_nfc_changed_on">NFC已打開</string>
+    <string name="accessibility_quick_settings_nfc_off">关闭NFC</string>
+    <string name="accessibility_quick_settings_nfc_on">打开NFC</string>
+    <string name="accessibility_quick_settings_nfc_changed_off">NFC已关闭</string>
+    <string name="accessibility_quick_settings_nfc_changed_on">NFC已打开</string>
 
     <!-- Compass QS Tile -->
-    <string name="quick_settings_compass_label">指南針</string>
-    <string name="quick_settings_compass_value"><xliff:g id="degrees">%1$.0f</xliff:g>\u00b0 <xliff:g id="direction">%2$s</xliff:g ></string>
+    <string name="quick_settings_compass_label">指南针</string>
+    <string name="quick_settings_compass_value"><xliff:g id="degrees">%1$.0f</xliff:g>\u00b0 <xliff:g id="direction">%2$s</xliff:g></string>
     <string name="quick_settings_compass_init">初始化\u2026</string>
-    <string name="accessibility_quick_settings_compass_off">關閉指南針</string>
-    <string name="accessibility_quick_settings_compass_on">打開指南針</string>
-    <string name="accessibility_quick_settings_compass_changed_off">指南針已關閉</string>
-    <string name="accessibility_quick_settings_compass_changed_on">指南針已打開</string>
+    <string name="accessibility_quick_settings_compass_off">关闭指南针</string>
+    <string name="accessibility_quick_settings_compass_on">打开指南针</string>
+    <string name="accessibility_quick_settings_compass_changed_off">指南针已关闭</string>
+    <string name="accessibility_quick_settings_compass_changed_on">指南针已打开</string>
     <string name="quick_settings_compass_N">北</string>
-    <string name="quick_settings_compass_NE">東北</string>
+    <string name="quick_settings_compass_NE">东北</string>
     <string name="quick_settings_compass_E">西</string>
-    <string name="quick_settings_compass_SE">東南</string>
+    <string name="quick_settings_compass_SE">东南</string>
     <string name="quick_settings_compass_S">南</string>
     <string name="quick_settings_compass_SW">西南</string>
     <string name="quick_settings_compass_W">西</string>
     <string name="quick_settings_compass_NW">西北</string>
     <!-- Language QS Tile -->
-    <string name="quick_settings_locale_label">語言</string>
-    <string name="quick_settings_locale_more_locales_toast">請配置多種語言以啟用切換功能</string>
+    <string name="quick_settings_locale_label">语言</string>
+    <string name="quick_settings_locale_more_locales_toast">请配置多种语言以启用切换功能</string>
  </resources>
