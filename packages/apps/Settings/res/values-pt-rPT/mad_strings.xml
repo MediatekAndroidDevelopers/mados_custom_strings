@@ -969,4 +969,8 @@
     <string name="bluetooth_battery_title">Mostrar o nível de bateria do dispositivo Bluetooth</string>
     <string name="bluetooth_battery_summary">Mostrar o nível de bateria do dispositivo Bluetooth conectado actualmente, se disponível.</string>
 
+    <!-- Huawei's One hand mode -->
+    <string name="navbar_onehand_title">Modo de Uma Mão na barra de navegação</string>
+    <string name="one_handed_mode_title">Modo de Uma Mão</string>
+    <string name="one_handed_mode_summary">Permite deslizar na barra de navegação para activar o modo de uma mão</string>
 </resources>
