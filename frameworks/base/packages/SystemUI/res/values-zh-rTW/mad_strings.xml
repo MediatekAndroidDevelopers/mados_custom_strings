@@ -41,13 +41,13 @@
 
     <!-- NavBar Tuner -->
     <string name="menu_ime_always_show">菜單/鍵盤開關（一直顯示）</string>
-    <string name="search">搜索</string>
+    <string name="search">搜尋</string>
 
     <!-- Dialog title for navigation bar button selection -->
     <string name="navbar_dialog_title">選擇操作</string>
     <string name="navbar_home_button">主頁鍵</string>
     <string name="navbar_recent_button">最近鍵</string>
-    <string name="navbar_search_button">搜索鍵</string>
+    <string name="navbar_search_button">搜尋鍵</string>
     <string name="navbar_back_button">返回鍵</string>
     <string name="navbar_empty_button">空格鍵</string>
     <string name="navbar_menu_conditional_button">菜單（自動隱藏）鍵</string>
@@ -67,4 +67,49 @@
     <string name="accessibility_screenshot">截屏</string>
 
     <string name="app_killed_message">應用殺</string>
-</resources>
+
+    <!-- Battery status in pie controls -->
+    <string name="pie_battery_status_charging">充電中(<xliff:g id="percent">%d</xliff:g>%%)</string>
+    <string name="pie_battery_status_full">已充滿</string>
+    <string name="pie_battery_status_discharging"><xliff:g id="percent">%d</xliff:g>%% 剩餘</string>
+
+    <!-- Phone status in pie controls -->
+    <string name="pie_phone_status_no_service">沒有信號</string>
+    <string name="pie_phone_status_airplane_mode">飛機模式開啟</string>
+    <string name="pie_phone_status_emergency_only">僅供緊急呼叫</string>
+
+    <!-- madOS QS Tile -->
+    <string name="qs_mad_extras_tile">madOS附加功能</string>
+    <string name="quick_mad_extras_toast">哈哈，你真的以為長按這里將工作？ </string>
+
+    <!-- Slim Recents app-screen-->
+    <string name="recents_multiwin_warning">多窗口的會話已經被激活。 \n如果你想現在停靠只需輕按一個應用程式。 </string>
+    <string name="recents_multiwin_nolastapp">你刪除了所有的最近任務，請從啟動器或抽屜中打開一個應用程式。 </string>
+
+    <!-- NFC QS tile -->
+    <string name="quick_settings_nfc_label">NFC</string>
+    <string name="accessibility_quick_settings_nfc_off">關閉NFC</string>
+    <string name="accessibility_quick_settings_nfc_on">打開NFC</string>
+    <string name="accessibility_quick_settings_nfc_changed_off">NFC已關閉</string>
+    <string name="accessibility_quick_settings_nfc_changed_on">NFC已打開</string>
+
+    <!-- Compass QS Tile -->
+    <string name="quick_settings_compass_label">指南針</string>
+    <string name="quick_settings_compass_value"><xliff:g id="degrees">%1$.0f</xliff:g>\u00b0 <xliff:g id="direction">%2$s</xliff:g ></string>
+    <string name="quick_settings_compass_init">初始化\u2026</string>
+    <string name="accessibility_quick_settings_compass_off">關閉指南針</string>
+    <string name="accessibility_quick_settings_compass_on">打開指南針</string>
+    <string name="accessibility_quick_settings_compass_changed_off">指南針已關閉</string>
+    <string name="accessibility_quick_settings_compass_changed_on">指南針已打開</string>
+    <string name="quick_settings_compass_N">北</string>
+    <string name="quick_settings_compass_NE">東北</string>
+    <string name="quick_settings_compass_E">西</string>
+    <string name="quick_settings_compass_SE">東南</string>
+    <string name="quick_settings_compass_S">南</string>
+    <string name="quick_settings_compass_SW">西南</string>
+    <string name="quick_settings_compass_W">西</string>
+    <string name="quick_settings_compass_NW">西北</string>
+    <!-- Language QS Tile -->
+    <string name="quick_settings_locale_label">語言</string>
+    <string name="quick_settings_locale_more_locales_toast">請配置多種語言以啟用切換功能</string>
+ </resources>
