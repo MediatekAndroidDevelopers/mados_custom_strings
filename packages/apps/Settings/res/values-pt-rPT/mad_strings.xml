@@ -979,7 +979,7 @@
     <string name="carrierlabel_title_summary">Opções para personalizar o nome do operador</string>
     <!-- Custom carrier label and position -->
     <string name="carrier_label_settings_title">Nome do operador</string>
-    <string name="carrier_label_settings_summary">Personalizar o nome da operador</string>
+    <string name="carrier_label_settings_summary">Personalizar o nome do operador</string>
     <string name="custom_carrier_label_title">Personalizar o nome do operador</string>
     <string name="custom_carrier_label_explain">Por favor, digite um novo nome. Deixar em branco para reverter ao padrão.</string>
     <string name="custom_carrier_label_notset">Nome personalizado de operador, não foi definido</string>
