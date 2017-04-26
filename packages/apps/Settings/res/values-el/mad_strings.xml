@@ -992,7 +992,24 @@
     <string name="bluetooth_battery_summary">Εμφάνιση της κατάστασης της μπαταρίας για την τρέχουσα συνδεδεμένη συσκευή Bluetooth, εάν είναι διαθέσιμη.</string>
 	
 	<!-- Huawei's One hand mode -->
-    <string name="navbar_onehand_title">Λειτουργία γραμμής πλοήγησης με το ένα χερι</string>
-    <string name="one_handed_mode_title">Λειτουργία με το ένα χερι</string>
+    <string name="navbar_onehand_title">Λειτουργία γραμμής πλοήγησης με το ένα χέρι</string>
+    <string name="one_handed_mode_title">Λειτουργία με το ένα χέρι</string>
     <string name="one_handed_mode_summary">Σύρατε πάνω στη γραμμή πλοήγησης για να ενεργοποιήσετε τη λειτουργία με το χέρι</string>
+
+<!-- Carrier Label -->
+    <string name="carrierlabel_title">Λογότυπο φορέα</string>
+    <string name="carrierlabel_title_summary">Διαμόρφωση λογότυπου φορέα</string>
+    <!-- Custom carrier label and position -->
+    <string name="carrier_label_settings_title">CΛογότυπο φορέα</string>
+    <string name="carrier_label_settings_summary">Διαμόρφωση λογότυπου φορέα</string>
+    <string name="custom_carrier_label_title">Προσαρμοσμένο λογότυπο φορέα</string>
+    <string name="custom_carrier_label_explain">Παρακαλώ εισάγετε νέο λογότυπο. Αφήστε το κενό για επαναφορά στο αρχικό.</string>
+    <string name="custom_carrier_label_notset">Προσαρμοσμένο λογότυπο δεν έχει ρυθμιστεί αυτήν τη στιγμή</string>
+    <string name="show_carrier_title">Λογότυπο φορέα</string>
+    <string name="show_carrier_disabled">Απενεργοποιημένο</string>
+    <string name="show_carrier_keyguard">Μόνο στην οθόνη κλειδώματος</string>
+    <string name="show_carrier_statusbar">Μόνο στην γραμμή κατάστασης</string>
+    <string name="show_carrier_enabled">Οθόνη κλειδώματος &amp; γραμμή κατάστασης</string>
+    <string name="status_bar_carrier_color">Χρώμα λογότυπου φορέα</string>
+    <string name="status_bar_carrier_size">Μέγεθος λογότυπου φορέα</string>
 </resources>
