@@ -995,4 +995,21 @@
     <string name="navbar_onehand_title">Однорукий режим в навигац.панели</string>
     <string name="one_handed_mode_title">Однорукий режим</string>
     <string name="one_handed_mode_summary">Свайп по навигац.панели для включения однорукого режима.</string>
+
+    <!-- Carrier Label -->
+    <string name="carrierlabel_title">Название оператора</string>
+    <string name="carrierlabel_title_summary">Настройки названия оператора связи</string>
+    <!-- Custom carrier label and position -->
+    <string name="carrier_label_settings_title">Название оператора</string>
+    <string name="carrier_label_settings_summary">Настроить название оператора</string>
+    <string name="custom_carrier_label_title">Произвольное название оператора</string>
+    <string name="custom_carrier_label_explain">Пожалуйста, введите новое название или оставьте пустым для возврата к исходному.</string>
+    <string name="custom_carrier_label_notset">Произвольное название не задано</string>
+    <string name="show_carrier_title">Название оператора</string>
+    <string name="show_carrier_disabled">Отключено</string>
+    <string name="show_carrier_keyguard">Только на экране блокировки</string>
+    <string name="show_carrier_statusbar">Только в статусбаре</string>
+    <string name="show_carrier_enabled">Экран блокировки и статусбар</string>
+    <string name="status_bar_carrier_color">Цвет названия оператора</string>
+    <string name="status_bar_carrier_size">Размер названия оператора</string>
 </resources>
