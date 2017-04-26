@@ -995,4 +995,21 @@
     <string name="navbar_onehand_title">導航欄中的單手模式</string>
     <string name="one_handed_mode_title">單手模式</string>
     <string name="one_handed_mode_summary">允許在導航欄上滑動以啟用單手模式</string>
+
+    <!-- Carrier Label -->
+    <string name="carrierlabel_title">運營商標籤</string>
+    <string name="carrierlabel_title_summary">自定義運營商標籤的選項</string>
+    <!-- Custom carrier label and position -->
+    <string name="carrier_label_settings_title">運營商標籤</string>
+    <string name="carrier_label_settings_summary">自定義運營商標籤</string>
+    <string name="custom_carrier_label_title">自定義運營商標籤</string>
+    <string name="custom_carrier_label_explain">請輸入新標籤，若留空恢復系統默認。</string>
+    <string name="custom_carrier_label_notset">自定義標籤當前未設置</string>
+    <string name="show_carrier_title">運營商標籤</string>
+    <string name="show_carrier_disabled">關閉</string>
+    <string name="show_carrier_keyguard">鎖屏</string>
+    <string name="show_carrier_statusbar">狀態欄</string>
+    <string name="show_carrier_enabled">鎖屏&amp;狀態欄</string>
+    <string name="status_bar_carrier_color">運營商標籤顏色</string>
+    <string name="status_bar_carrier_size">運營商標籤尺寸</string>
 </resources>
