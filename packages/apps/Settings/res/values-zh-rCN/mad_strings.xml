@@ -995,4 +995,21 @@
     <string name="navbar_onehand_title">导航栏中的单手模式</string>
     <string name="one_handed_mode_title">单手模式</string>
     <string name="one_handed_mode_summary">允许在导航栏上滑动以启用单手模式</string>
+
+    <!-- Carrier Label -->
+    <string name="carrierlabel_title">运营商标签</string>
+    <string name="carrierlabel_title_summary">自定义运营商标签的选项</string>
+    <!-- Custom carrier label and position -->
+    <string name="carrier_label_settings_title">运营商标签</string>
+    <string name="carrier_label_settings_summary">自定义运营商标签</string>
+    <string name="custom_carrier_label_title">自定义运营商标签</string>
+    <string name="custom_carrier_label_explain">请输入新标签，若留空恢复系统默认。</string>
+    <string name="custom_carrier_label_notset">自定义标签当前未设置</string>
+    <string name="show_carrier_title">运营商标签</string>
+    <string name="show_carrier_disabled">关闭</string>
+    <string name="show_carrier_keyguard">锁屏</string>
+    <string name="show_carrier_statusbar">状态栏</string>
+    <string name="show_carrier_enabled">锁屏&amp;状态栏</string>
+    <string name="status_bar_carrier_color">运营商标签颜色</string>
+    <string name="status_bar_carrier_size">运营商标签尺寸</string>
 </resources>
