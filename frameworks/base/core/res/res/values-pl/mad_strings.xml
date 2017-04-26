@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2017 The madOS Project
+     Copyright (C) 2016, 2017 The madOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -15,9 +15,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="permlab_preventpower">przejmij klawisz włącznika</string>
+    <string name="permlab_preventpower">Przejmij klawisz wyłącznika</string>
     <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-    <string name="permdesc_preventpower">Pozwala aplikacji na zmianę działania przycisku włącznika.</string>
+    <string name="permdesc_preventpower">Pozwala aplikacji na zmianę działania przycisku wyłącznika.</string>
 
     <!-- Button to restart the phone in restart menu -->
     <string name="reboot_reboot">Restart</string>
@@ -29,18 +29,39 @@
     <string name="reboot_confirm" product="tablet">Twój tablet uruchomi się ponownie.</string>
     <string name="reboot_confirm" product="default">Twój telefon uruchomi się ponownie.</string>
     <!-- Restart Progress Dialog. This is shown if the user chooses to restart the phone. -->
-    <string name="reboot_progress">Uruchamiam ponownie</string>
+    <string name="reboot_progress">Uruchamiam ponownie\u2026</string>
 
     <!-- label for item that screenshots in phone options dialog -->
     <string name="global_action_screenshot">Zrzut ekranu</string>
 
     <!-- Fast Charge -->
     <string name="fc_active_notification_title">Ustawienia szybkiego ładowania</string>
-    <string name="fc_active_notification_message">"Dotknij aby skonfigurować szybkie ładowanie"</string>
+    <string name="fc_active_notification_message">"Dotknij, aby skonfigurować szybkie ładowanie"</string>
 
     <!-- Long-press back kill application -->
     <string name="app_killed_message">Aplikacja została zamknięta</string>
 
     <!-- Notify user that they are in Lock-to-app (for devices without navbar) -->
     <string name="lock_to_app_toast_no_navbar">Aby odpiąć ten ekran, dotknij i przytrzymaj przycisk wróć.</string>
+    
+    <!-- status message in phone options dialog for when pie is on -->
+    <string name="global_actions_pie_mode_on_status">SlimPie włączone</string>
+
+    <!-- status message in phone options dialog for when pie is off -->
+    <string name="global_actions_pie_mode_off_status">SlimPie wyłączone</string>
+
+    <!-- Error message if user want to try to disable all navigation options -->
+    <string name="disable_pie_navigation_error">Nie możesz wyłączyć półkolistego menu (pie control), gdyż żadna inna metoda nawigacji nie jest włączona. Włącz najpierw pasek nawigacji aby wyłączyć półkoliste menu.</string>
+
+    <!-- status message in phone options dialog for when navigation bar is on -->
+    <string name="global_actions_nav_bar_mode_on_status">Pasek nawigacji włączony</string>
+
+    <!-- status message in phone options dialog for when navigation bar is off -->
+    <string name="global_actions_nav_bar_mode_off_status">Pasek nawigacji wyłączony</string>
+
+    <!-- Error message if user want to try to disable all navigation options -->
+    <string name="disable_navigation_pie_error">Nie możesz wyłączyć paska nawigacji, gdyż żadna inna metoda nawigacji nie jest włączona. Włącz najpierw półkoliste menu (pie control) aby wyłączyć pasek nawigacji</string>
+
+    <string name="singlehandmode_click_hint_message">Dotknij poza ekranem aby wyjść z trybu pomniejszonego ekranu.</string>
+    <string name="singlehandmode_slide_hint_message">Przesuń palec po pasku nawigacji aby przełączyć pomiędzy trybem normalnego i pomniejszonego ekranu.</string>
 </resources>
