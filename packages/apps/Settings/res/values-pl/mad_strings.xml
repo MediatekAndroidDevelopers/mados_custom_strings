@@ -102,6 +102,8 @@
     <string name="mad_recents">Ostatnie</string>
     <string name="mad_buttons">rzyciski</string>
     <string name="mad_system">System</string>
+    <string name="mad_security">Bezpieczeństwo</string>
+    <string name="mad_gestures">Gesty</string>
 
     <!-- for smartwake -->
     <string name="smartwake_settings_title">Gesty SmartWake</string>
@@ -527,7 +529,7 @@
 
     <!-- Brightness control -->
     <string name="status_bar_toggle_brightness">Regulacja jasności</string>
-    <string name="status_bar_toggle_brightness_summary">kontroluj jasność ekranu przesuwając po pasku stanu</string>
+    <string name="status_bar_toggle_brightness_summary">Kontroluj jasność ekranu przesuwając po pasku stanu</string>
 
     <!-- Network traffic Settings -->
     <string name="nettraffic_settings_title">Ruch sieciowy</string>
@@ -828,8 +830,8 @@
     <string name="qs_rows_portrait_title">Liczba rzędów (portret)</string>
     <string name="qs_rows_landscape_title">Liczba rzędów (poziom)</string>
     <!-- Quicks settings titles -->
-    <string name="qs_tile_title_visibility_title">Podpisy szybkich ustawień</string>
-    <string name="qs_tile_title_visibility_summary">Włącza podpisy skrótów szybkich ustawień</string>
+    <string name="qs_tile_title_visibility_title">Etykiety szybkich ustawień</string>
+    <string name="qs_tile_title_visibility_summary">Włącza podpisy dla skrótów szybkich ustawień</string>
 
     <!-- QS headers -->
     <string name="qs_header_category">Quick settings header</string>
@@ -935,5 +937,79 @@
 
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Szybkie odblokowywanie</string>
-    <string name="unlock_quick_unlock_control_summary">Odblokuje ekran od razu po wpisaniu poprawnego PINu (nie trzeba dodatkowo naciskać OK)\nUwaga: działa tylko dla 4 cyfrowych PINów</string>
+    <string name="unlock_quick_unlock_control_summary">Odblokuje ekran od razu po wpisaniu poprawnego PINu (nie trzeba dodatkowo naciskać OK)\nUwaga: działa tylko, jeśli poniżej prawidłowo określono długość PINu</string>
+    <string name="lockscreen_quick_unlock_pin_length_title">Długość PINu</string>
+    <string name="lockscreen_quick_unlock_pin_length_summary">Aby szybkie odlokowywanie działało, ustaw długość PINu (liczbę cyfr).</string>
+
+    <!-- Immersive recents -->
+    <string name="immersive_recents_title">Ekran ostatnich aplikacji</string>
+    <string name="immersive_recents_default">Domyślny</string>
+    <string name="immersive_recents_fullscreen">Tryb pełnoekranowy</string>
+    <string name="immersive_recents_statusbar">Tylko pasek statusu</string>
+    <string name="immersive_recents_navbar">Tylko pasek nawigacji</string>
+
+    <!-- Recent clear all button and location -->
+    <string name="show_clear_all_recents_button_title">Clear all FAB</string>
+    <string name="show_clear_all_recents_button_summary_on">Show clear all FAB</string>
+    <string name="show_clear_all_recents_button_summary_off">Show AOSP clear all</string>
+    <string name="recents_clear_all_location_title">Clear all FAB location</string>
+    <string name="recents_clear_all_location_top_right">Top right</string>
+    <string name="recents_clear_all_location_top_left">Top left</string>
+    <string name="recents_clear_all_location_top_center">Top center</string>
+    <string name="recents_clear_all_location_bottom_right">Bottom right</string>
+    <string name="recents_clear_all_location_bottom_left">Bottom left</string>
+    <string name="recents_clear_all_location_bottom_center">Bottom center</string>
+
+    <!-- Wakelock blocker -->
+    <string name="wakelock_blocker_title">Wakelock Blocker</string>
+    <string name="wakelock_blocker_summary">Block system wakelocks</string>
+    <string name="wakelock_blocker_save">Save</string>
+    <string name="wakelock_list_header">Available wakelocks</string>
+    <string name="wakelock_blocker_reload">Reload</string>
+    <string name="wakelock_blocker_warning_title">Proceed with caution</string>
+    <string name="wakelock_blocker_warning">Blocking wakelocks have the potential to cause instability, crashes or data loss</string>
+
+    <!-- Alarm blocker -->
+    <string name="alarm_blocker">Alarm blocker</string>
+    <string name="alarm_blocker_title">Enable</string>
+    <string name="alarm_blocker_summary">Block alarms while screen off</string>
+    <string name="alarm_blocker_save">Save</string>
+    <string name="alarm_list_header">Available alarms</string>
+    <string name="alarm_blocker_reload">Reload</string>
+    <string name="alarm_blocker_warning_title">Proceed with caution</string>
+    <string name="alarm_blocker_warning">Blocking alarms have the potential to cause instability, crashes or data loss.</string>
+
+    <!-- Buttons Misc -->
+    <string name="mad_buttons_settings">Opcje przycisków</string>
+    <string name="mad_buttons_settings_summary">Opcje przycisków, ustala wywoływane działania</string>
+
+    <!-- Gestures Misc -->
+    <string name="mad_gestures_settings">Szybkie gesty</string>
+    <string name="mad_gestures_settings_summary">Szybkie gesty pozwalają kontrolować telefon</string>
+
+    <!-- Bluetooth status -->
+    <string name="bluetooth_battery_title">Pokazuj status baterii bluetooth</string>
+    <string name="bluetooth_battery_summary">Pokazuje stan baterii podłączonego urządzenia bluetooth, jeśli dostępne.</string>
+
+    <!-- Huawei's One hand mode -->
+    <string name="navbar_onehand_title">Tryb jednoręczny na pasku nawigacji</string>
+    <string name="one_handed_mode_title">Tryb jednoręczny</string>
+    <string name="one_handed_mode_summary">Pozwala przesuwać po pasku nawigacji w celu włączenia trybu obsługi jedną ręką</string>
+
+    <!-- Carrier Label -->
+    <string name="carrierlabel_title">Nazwa usługodawcy</string>
+    <string name="carrierlabel_title_summary">Opcje do zmiany nazwy sieci komórkowej</string>
+    <!-- Custom carrier label and position -->
+    <string name="carrier_label_settings_title">Nazwa sieci</string>
+    <string name="carrier_label_settings_summary">Zmień nazwę sieci komórkowej</string>
+    <string name="custom_carrier_label_title">Własna nazwa sieci</string>
+    <string name="custom_carrier_label_explain">Wpisz nową nazwę. Pozostaw puste aby przywrócić domyślną nazwę.</string>
+    <string name="custom_carrier_label_notset">Własna nazwa nie została ustawiona</string>
+    <string name="show_carrier_title">Nazwa sieci</string>
+    <string name="show_carrier_disabled">Wyłączona</string>
+    <string name="show_carrier_keyguard">Tylko na ekranie blokady</string>
+    <string name="show_carrier_statusbar">Tylko na pasku stanu</string>
+    <string name="show_carrier_enabled">Na ekranie blokady i pasku stanu</string>
+    <string name="status_bar_carrier_color">Kolor nazwy sieci</string>
+    <string name="status_bar_carrier_size">Wielkość nazwy sieci</string>
 </resources>
