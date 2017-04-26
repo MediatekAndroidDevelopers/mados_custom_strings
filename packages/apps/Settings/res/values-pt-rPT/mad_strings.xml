@@ -973,4 +973,21 @@
     <string name="navbar_onehand_title">Modo de Uma Mão na barra de navegação</string>
     <string name="one_handed_mode_title">Modo de Uma Mão</string>
     <string name="one_handed_mode_summary">Permite deslizar na barra de navegação para activar o modo de uma mão</string>
+
+    <!-- Carrier Label -->
+    <string name="carrierlabel_title">Nome do operador</string>
+    <string name="carrierlabel_title_summary">Opções para personalizar o nome do operador</string>
+    <!-- Custom carrier label and position -->
+    <string name="carrier_label_settings_title">Nome do operador</string>
+    <string name="carrier_label_settings_summary">Personalizar o nome do operador</string>
+    <string name="custom_carrier_label_title">Personalizar o nome do operador</string>
+    <string name="custom_carrier_label_explain">Por favor, digite um novo nome. Deixar em branco para reverter ao padrão.</string>
+    <string name="custom_carrier_label_notset">Nome personalizado de operador, não foi definido</string>
+    <string name="show_carrier_title">Nome de operador</string>
+    <string name="show_carrier_disabled">Desativado</string>
+    <string name="show_carrier_keyguard">Apenas no ecrã de bloqueio</string>
+    <string name="show_carrier_statusbar">Apenas na barra de estado</string>
+    <string name="show_carrier_enabled">Ecrã de bloqueio &amp; barra de estado</string>
+    <string name="status_bar_carrier_color">Cor do nome de Operador</string>
+    <string name="status_bar_carrier_size">Tamanho do texto do nome de Operador</string>
 </resources>
