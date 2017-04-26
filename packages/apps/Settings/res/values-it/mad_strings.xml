@@ -947,10 +947,10 @@
     <string name="immersive_recents_navbar">Solo barra di navigazione</string>
 
     <!-- Recent clear all button and location -->
-    <string name="show_clear_all_recents_button_title">Rimuovi tutto (FAB)</string>
-    <string name="show_clear_all_recents_button_summary_on">Mostra rimuovi tutto (stile FAB)</string>
-    <string name="show_clear_all_recents_button_summary_off">Mostra rimuovi tutto (stile AOSP)</string>
-    <string name="recents_clear_all_location_title">Posizionamento pulsante rimuovi tutto stile FAB</string>
+    <string name="show_clear_all_recents_button_title">Stile pulsante chiusura apps recenti</string>
+    <string name="show_clear_all_recents_button_summary_on">Mostra pulsante chiudi tutto fluttuante</string>
+    <string name="show_clear_all_recents_button_summary_off">Mostra pulsante chiudi tutto classico (stile AOSP)</string>
+    <string name="recents_clear_all_location_title">Posizionamento pulsante chiudi tutto fluttuante</string>
     <string name="recents_clear_all_location_top_right">In alto a destra</string>
     <string name="recents_clear_all_location_top_left">In alto a sinistra</string>
     <string name="recents_clear_all_location_top_center">In alto al centro</string>
