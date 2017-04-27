@@ -991,4 +991,25 @@
     <string name="bluetooth_battery_title">Mostrar la batería del dispositivo Bluetooth</string>
     <string name="bluetooth_battery_summary">Mostrar la batería del dispositivo bluetooth conectado,si está disponible.</string>
 	
+    <!-- Huawei's One hand mode -->
+    <string name="navbar_onehand_title">Modo una mano en barra navegación</string>
+    <string name="one_handed_mode_title">Modo de una mano</string>
+    <string name="one_handed_mode_summary">Permite desplazarse por la barra de navegación para activar modo una mano</string>
+
+    <!-- Carrier Label -->
+    <string name="carrierlabel_title">Nombre de operadora</string>
+    <string name="carrierlabel_title_summary">Opciones para personalizar nombre de operadora</string>
+    <!-- Custom carrier label and position -->
+    <string name="carrier_label_settings_title">Nombre de operadora</string>
+    <string name="carrier_label_settings_summary">Personalizar nombre de operadora</string>
+    <string name="custom_carrier_label_title">Personalizar nombre de operadora</string>
+    <string name="custom_carrier_label_explain">Introduzca un nuevo nombre.Deje en blanco para volver al nombre stock.</string>
+    <string name="custom_carrier_label_notset">Nombre de operadora no establecida</string>
+    <string name="show_carrier_title">Nombre de operadora</string>
+    <string name="show_carrier_disabled">Desactivado</string>
+    <string name="show_carrier_keyguard">Sólo en la pantalla de bloqueo</string>
+    <string name="show_carrier_statusbar">Sólo en barra de estado</string>
+    <string name="show_carrier_enabled">Pantalla de bloqueo &amp; barra de estado</string>
+    <string name="status_bar_carrier_color">Color nombre de operadora</string>
+    <string name="status_bar_carrier_size">Tamaño nombre de operadora</string>
 </resources>

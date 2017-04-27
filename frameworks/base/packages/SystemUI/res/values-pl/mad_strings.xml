@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-     Copyright (C) 2017 The madOS Project
+<!--  Copyright (C) 2016, 2017 The madOS Project
 
-     Licensed under the Apache License, Version 2.0 (the "License");
-     you may not use this file except in compliance with the License.
-     You may obtain a copy of the License at
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
 
-          http://www.apache.org/licenses/LICENSE-2.0
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
 
-     Unless required by applicable law or agreed to in writing, software
-     distributed under the License is distributed on an "AS IS" BASIS,
-     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-     See the License for the specific language governing permissions and
-     limitations under the License.
--->
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+ 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
     <!-- Reboot/Reboot Recovery QS Tile -->
     <string name="quick_settings_reboot_label">Restart</string>
     <string name="quick_settings_reboot_recovery_label">Recovery</string>
@@ -27,8 +29,8 @@
     <string name="quick_settings_sync_label">Synchr.</string>
     <string name="accessibility_quick_settings_sync_off">Synchr. wył.</string>
     <string name="accessibility_quick_settings_sync_on">Synchr. wł.</string>
-    <string name="accessibility_quick_settings_sync_changed_off">Synchr. włączona</string>
-    <string name="accessibility_quick_settings_sync_changed_on">Synchr. wyłączona</string>
+    <string name="accessibility_quick_settings_sync_changed_off">Synchr. wyłączona</string>
+    <string name="accessibility_quick_settings_sync_changed_on">Synchr. włączona</string>
     <string name="quick_settings_music_label">Muzyka</string>
     <string name="quick_settings_music_play">Odtwarzaj</string>
     <string name="quick_settings_music_pause">Pauza</string>
@@ -68,4 +70,49 @@
 
     <string name="app_killed_message">Applikacja została zamknięta</string>
 
-</resources>
+    <!-- Battery status in pie controls -->
+    <string name="pie_battery_status_charging">Ładowanie (<xliff:g id="percent">%d</xliff:g>%%)</string>
+    <string name="pie_battery_status_full">Naładowano</string>
+    <string name="pie_battery_status_discharging"><xliff:g id="percent">%d</xliff:g>%% pozostało</string>
+
+    <!-- Phone status in pie controls -->
+    <string name="pie_phone_status_no_service">Brak usługi</string>
+    <string name="pie_phone_status_airplane_mode">Tryb samolotowy włączony</string>
+    <string name="pie_phone_status_emergency_only">Tylko połączenia alarmowe</string>
+
+    <!-- madOS QS Tile -->
+    <string name="qs_mad_extras_tile">madOS Extras</string>
+    <string name="quick_mad_extras_toast">Naprawdę myślałeś że długi klik działa tutaj? xD</string>
+
+    <!-- Slim Recents app-screen-->
+    <string name="recents_multiwin_warning">Sesja z wieloma oknami aktywna.\nDotknij aplikację, którą chesz zadokować.</string>
+    <string name="recents_multiwin_nolastapp">Usunąłeś wszystkie ostatnie okna, wybierz aplikację z launchera albo listy aplikacji.</string>
+
+    <!-- NFC QS tile -->
+    <string name="quick_settings_nfc_label">NFC</string>
+    <string name="accessibility_quick_settings_nfc_off">NFC wył.</string>
+    <string name="accessibility_quick_settings_nfc_on">NFC wł.</string>
+    <string name="accessibility_quick_settings_nfc_changed_off">NFC wyłączone.</string>
+    <string name="accessibility_quick_settings_nfc_changed_on">NFC właczone.</string>
+
+    <!-- Compass QS Tile -->
+    <string name="quick_settings_compass_label">Kompas</string>
+    <string name="quick_settings_compass_value"><xliff:g id="degrees">%1$.0f</xliff:g>\u00b0 <xliff:g id="direction">%2$s</xliff:g></string>
+    <string name="quick_settings_compass_init">Uruchamianie\u2026</string>
+    <string name="accessibility_quick_settings_compass_off">Kompas wył.</string>
+    <string name="accessibility_quick_settings_compass_on">Kompas wł.</string>
+    <string name="accessibility_quick_settings_compass_changed_off">Kompas wyłączony.</string>
+    <string name="accessibility_quick_settings_compass_changed_on">Kompas włączony.</string>
+    <string name="quick_settings_compass_N">N</string>
+    <string name="quick_settings_compass_NE">NE</string>
+    <string name="quick_settings_compass_E">E</string>
+    <string name="quick_settings_compass_SE">SE</string>
+    <string name="quick_settings_compass_S">S</string>
+    <string name="quick_settings_compass_SW">SW</string>
+    <string name="quick_settings_compass_W">W</string>
+    <string name="quick_settings_compass_NW">NW</string>
+    
+    <!-- Language QS Tile -->
+    <string name="quick_settings_locale_label">Język</string>
+    <string name="quick_settings_locale_more_locales_toast">Skonfiguruj wiele języków, aby włączyć opcję przełączania</string>
+ </resources>
