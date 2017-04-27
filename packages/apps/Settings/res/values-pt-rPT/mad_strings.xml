@@ -819,9 +819,14 @@
     <string name="qs_columns_title">Colunas</string>
     <string name="qs_rows_portrait_title">Linhas (retrato)</string>
     <string name="qs_rows_landscape_title">Linhas (paisagem)</string>
+
     <!-- Quicks settings titles -->
     <string name="qs_tile_title_visibility_title">Título dos mosaicos</string>
     <string name="qs_tile_title_visibility_summary">Habilita os títulos nas definições rápidas</string>
+
+    <!-- Disable Quicks settings -->
+    <string name="lockscreen_qs_disabled_title">Desabilitar as configurações rápidas</string>
+    <string name="lockscreen_qs_disabled_summary">Desabilita as configurações rápidas no ecrã de bloqueio</string>
 
     <!-- QS headers -->
     <string name="qs_header_category">Imagem de cabeçalho personalizada</string>
@@ -839,10 +844,6 @@
     <!-- Quicks settings vibrate -->
     <string name="quick_settings_vibrate_title">Vibrar ao tocar</string>
     <string name="quick_settings_vibrate_summary">Vibrar ao tocar nos mosaicos das definições rápidas</string>
-
-    <!-- Disable Quicks settings -->
-    <string name="lockscreen_qs_disabled_title">Desabilitar as configurações rápidas</string>
-    <string name="lockscreen_qs_disabled_summary">Desabilita as configurações rápidas no ecrã de bloqueio</string>
 
     <!-- Lockscreen -->
     <string name="lockscreen_settings_title">Ecrã de bloqueio</string>
