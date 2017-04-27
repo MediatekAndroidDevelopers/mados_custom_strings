@@ -612,7 +612,7 @@
     <string name="navigation_menu_never_show">Non mostrare mai</string>
     <string name="navigation_menu_always_show">Mostra sempre</string>
 
-    <string name="shortcut_image_not_valid">La app selezionata non contiene una icona valida o non supporta il ridimensionamento immagine. Usa un\'altra app.</string>
+    <string name="shortcut_image_not_valid">L\' app selezionata non contiene una icona valida o non supporta il ridimensionamento immagine. Usa un\'altra app.</string>
     <string name="shortcut_duplicate_entry">L\'azione selezionata non puà essere aggiunta due volte</string>
 
     <string name="shortcut_action_warning">Attenzione</string>
@@ -748,7 +748,7 @@
     <string name="pie_warning_no_navigation_present">Nessuna navigazione è attiva. Disabilitare i controlli pie può rendere inutilizzabile il dispositivo. Vuoi attivare la barra di nazigazione?</string>
     <string name="pie_trigger_warning">Almeno uno degli attivatori (inferiore, sinistra o destra) deve essere attivato.</string>
      
-     <string name="pie_layer_disable_forbidden">Can\'t disable second layer! There\'s no other \'back button\' available.</string>
+     <string name="pie_layer_disable_forbidden">Impossibile disabilitare il secondo layer! Nessun pulsante indietro disponibile.</string>
 
     <!-- Lockscreen weather -->
     <string name="display_category_weather_title">Impostazioni meteo nella schermata di blocco</string>
@@ -787,7 +787,7 @@
     <string name="weather_clock_options_summary">Widget meteo, ed impostazioni provider meteo</string>
     <string name="status_bar_temperature_hidden">Nascosto</string>
     <string name="status_bar_temperature_show_scale">Mostra in scala</string>
-    <string name="status_bar_temperature_hide_scale">Mostra nono in scala</string>
+    <string name="status_bar_temperature_hide_scale">Mostra non in scala</string>
     <string name="status_bar_temperature_location_title">Posizionamento</string>
     <string name="status_bar_temperature_location_summary">Seleziona la posizione della temperatura meteo nella barra di stato</string>
     <string name="status_bar_temperature_location_right">Mostra a destra</string>
@@ -904,18 +904,18 @@
     <string name="recent_panel_expanded_mode_auto">Auto (default)</string>
     <string name="recent_panel_expanded_mode_always">Sempre</string>
     <string name="recent_panel_expanded_mode_never">Mai</string>
-    <string name="recent_panel_show_topmost_title">Mostra topmost task</string>
-    <string name="recent_panel_show_topmost_summary">Non escludere topmost dalla visulazzazione recenti</string>
+    <string name="recent_panel_show_topmost_title">Mostra task principale</string>
+    <string name="recent_panel_show_topmost_summary">Non escludere task principale dalla visulazzazione recenti</string>
     <string name="recent_panel_bg_color_title">Colore sfondo pannello</string>
     <string name="recent_card_bg_color_title">Colore sfondo elemento</string>
     <string name="recent_reset_title">Resetta ai colori di default</string>
     <string name="recent_reset_confirm">Sei sicuro di voler resettare i colori modalità Slim?</string>
-    <string name="default_auto_string">Default (app based)</string>
-    <string name="recent_panel_lefty_mode_title">Show on the left edge</string>
+    <string name="default_auto_string">Default (im base alle app)</string>
+    <string name="recent_panel_lefty_mode_title">Mostra sul bordo sinistro</string>
     <string name="recent_panel_lefty_mode_summary">Mostra pannello recenti sul bordo sinistro</string>
     <string name="slim_icon_pack_title">Pacchetto icone</string>
     <string name="slim_icon_pack_summary">Applica un paccheto icone personalizzato nel pannello</string>
-    <string name="no_iconpacks_summary">NoNessun pacchetto icone installato</string>
+    <string name="no_iconpacks_summary">Nessun pacchetto icone installato</string>
     <string name="dialog_pick_iconpack_title">Seleziona pacchetto icone</string>
     <string name="default_iconpack_title">Icone di default</string>
 
@@ -924,16 +924,73 @@
     <string name="press_color_to_apply">Seleziona un colore da applicare</string>
     <string name="hex">Hex:</string>
     <string name="hex_hint" translatable="false">#FFDDDDDD</string>
-    <string name="hex_check_button_text">PREVIEW</string>
-    <string name="hex_reset_button_text">RESET</string>
+    <string name="hex_check_button_text">Anteprima</string>
+    <string name="hex_reset_button_text">Reset</string>
     <string name="color_right_arrow" translatable="false">"→"</string>
     <string name="color_down_arrow" translatable="false">"↓"</string>
-    <string name="longpress_info">Longpress box to save color</string>
+    <string name="longpress_info">Pressione prolungata sul box per salvare il colore</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
     <string name="color_default">Default</string>
 
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Sblocco rapido</string>
-    <string name="unlock_quick_unlock_control_summary">Sblocca automaticamente non appena il PIN corretto è stato inserito (senza premere "OK")\nNote: funziona solo con PIN a 4 cifre!</string>
+    <string name="unlock_quick_unlock_control_summary">Sblocca automaticamente non appena il PIN corretto è stato inserito (senza premere "OK")\nNote: funziona solo se il numero sottostante di cifre è impostato correttamente!</string>
+    <string name="lockscreen_quick_unlock_pin_length_title">Numero di cifre del PIN</string>
+    <string name="lockscreen_quick_unlock_pin_length_summary">Per lo sblocco rapido, imposta la linghezza del PIN (numero di cifre).</string>
+
+    <!-- Immersive recents -->
+    <string name="immersive_recents_title">Modalità recenti immersiva</string>
+    <string name="immersive_recents_default">Default</string>
+    <string name="immersive_recents_fullscreen">A tutto schermo</string>
+    <string name="immersive_recents_statusbar">Solo barra di stato</string>
+    <string name="immersive_recents_navbar">Solo barra di navigazione</string>
+
+    <!-- Recent clear all button and location -->
+    <string name="show_clear_all_recents_button_title">Stile pulsante chiusura apps recenti</string>
+    <string name="show_clear_all_recents_button_summary_on">Mostra pulsante chiudi tutto fluttuante</string>
+    <string name="show_clear_all_recents_button_summary_off">Mostra pulsante chiudi tutto classico (stile AOSP)</string>
+    <string name="recents_clear_all_location_title">Posizionamento pulsante chiudi tutto fluttuante</string>
+    <string name="recents_clear_all_location_top_right">In alto a destra</string>
+    <string name="recents_clear_all_location_top_left">In alto a sinistra</string>
+    <string name="recents_clear_all_location_top_center">In alto al centro</string>
+    <string name="recents_clear_all_location_bottom_right">In basso a destra</string>
+    <string name="recents_clear_all_location_bottom_left">In basso a sinistra</string>
+    <string name="recents_clear_all_location_bottom_center">In basso al centro</string>
+
+    <!-- Wakelock blocker -->
+    <string name="wakelock_blocker_title">Blocco Wakelock</string>
+    <string name="wakelock_blocker_summary">Blocco wakelocks di sistema</string>
+    <string name="wakelock_blocker_save">Salva</string>
+    <string name="wakelock_list_header">Wakelocks disponibili</string>
+    <string name="wakelock_blocker_reload">Ricarica</string>
+    <string name="wakelock_blocker_warning_title">Procedi con cautela</string>
+    <string name="wakelock_blocker_warning">Il blocco dei wakelocks può causare instabilità, blocchi o perdita di dati!</string>
+
+    <!-- Alarm blocker -->
+    <string name="alarm_blocker">Blocco allarmi</string>
+    <string name="alarm_blocker_title">Attiva</string>
+    <string name="alarm_blocker_summary">Blocco allarmi a schermo spento</string>
+    <string name="alarm_blocker_save">Salva</string>
+    <string name="alarm_list_header">Allarmi disponibili</string>
+    <string name="alarm_blocker_reload">Ricarica</string>
+    <string name="alarm_blocker_warning_title">Procedi con cautela</string>
+    <string name="alarm_blocker_warning">Il blocco degli allarmi può causare instabilità, blocchi o perdita di dati!</string>
+
+    <!-- Buttons Misc -->
+    <string name="mad_buttons_settings">Opzioni pulsanti</string>
+    <string name="mad_buttons_settings_summary">Opzioni pulsanti, impostazione azioni ed altro.</string>
+
+    <!-- Gestures Misc -->
+    <string name="mad_gestures_settings">Gestures rapide</string>
+    <string name="mad_gestures_settings_summary">Gestures rapide per il controllo del telefono</string>
+
+    <!-- Bluetooth status -->
+    <string name="bluetooth_battery_title">Mostra stato batteria Bluetooth</string>
+    <string name="bluetooth_battery_summary">Mostra stato batteria del dispositivo bluetooth attualmente connesso, se disponibile.</string>
+
+    <!-- Huawei's One hand mode -->
+    <string name="navbar_onehand_title">MOdalità barra di navigazione con una mano</string>
+    <string name="one_handed_mode_title">Modalità mano singola</string>
+    <string name="one_handed_mode_summary">Attivare la modalità mano singola con uno swipe sulla barra di navigazione</string>
 </resources>
