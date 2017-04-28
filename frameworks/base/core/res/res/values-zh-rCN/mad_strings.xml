@@ -63,5 +63,4 @@
     <string name="disable_navigation_pie_error">您不能禁用导航栏，且没有打开其他导航。若先打开扇形控制，导航栏将关闭。</string>
 
     <string name="singlehandmode_click_hint_message">触摸屏幕外可以退出迷你屏幕视图</string>
-    <string name="singlehandmode_slide_hint_message">在导航栏上滑动手指以在标准和迷你屏幕视图之间切换</string>
 </resources>

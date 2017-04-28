@@ -63,5 +63,4 @@
     <string name="disable_navigation_pie_error">Невозможно отключить навигационную панель, т.к. другое управление не включено. Для выключения навигационной панели сначала включите элемент управления PIE.</string>
 
     <string name="singlehandmode_click_hint_message">Для выхода из миниэкрана коснитесь снаружи экрана.</string>
-    <string name="singlehandmode_slide_hint_message">Для переключения между стандартным и миниэкраном проведите пальцем через навигационную панель.</string>
 </resources>

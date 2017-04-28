@@ -63,5 +63,4 @@
     <string name="disable_navigation_pie_error">Non puoi disabilitare la barra di navigazione. Non è attivo nessun controllo navigazione. Attiva prima i controlli pie e poi disabilita la barra di navigazione.</string>
 
     <string name="singlehandmode_click_hint_message">Tocca fuori dalla schermata per uscire dalla modalità schermo piccolo</string>
-    <string name="singlehandmode_slide_hint_message">Scorri il dito attraverso la barra di navigazione per passare dalla modalità standard a ll visualizzazione schermo piccolo</string>
 </resources>
