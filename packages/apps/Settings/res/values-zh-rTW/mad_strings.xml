@@ -829,6 +829,11 @@
     <string name="qs_columns_title">每行中的項目數量</string>
     <string name="qs_rows_portrait_title">每頁行數</string>
     <string name="qs_rows_landscape_title">項目間距</string>
+	
+    <!-- Disable Quicks settings -->
+    <string name="lockscreen_qs_disabled_title">禁用快速設置</string>
+    <string name="lockscreen_qs_disabled_summary">禁用安全鎖定屏幕上的快速設置</string>
+ 
     <!-- Quicks settings titles -->
     <string name="qs_tile_title_visibility_title">快速設置項目</string>
     <string name="qs_tile_title_visibility_summary">允許快速設置的項目</string>
