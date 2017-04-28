@@ -63,5 +63,4 @@
     <string name="disable_navigation_pie_error">No puede desactivar la barra de navegación.Ninguna otra navegación está habilitada.Active primero los controles PIE.</string>
 
     <string name="singlehandmode_click_hint_message">Toque fuera de la pantalla para salir de la mini visualización</string>
-    <string name="singlehandmode_slide_hint_message">Deslice el dedo por la barra de navegación para cambiar entre las vistas de pantalla estándar y mini</string>
 </resources>

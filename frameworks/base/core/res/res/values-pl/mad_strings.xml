@@ -63,5 +63,4 @@
     <string name="disable_navigation_pie_error">Nie możesz wyłączyć paska nawigacji, gdyż żadna inna metoda nawigacji nie jest włączona. Włącz najpierw półkoliste menu (pie control) aby wyłączyć pasek nawigacji</string>
 
     <string name="singlehandmode_click_hint_message">Dotknij poza ekranem aby wyjść z trybu pomniejszonego ekranu.</string>
-    <string name="singlehandmode_slide_hint_message">Przesuń palec po pasku nawigacji aby przełączyć pomiędzy trybem normalnego i pomniejszonego ekranu.</string>
 </resources>

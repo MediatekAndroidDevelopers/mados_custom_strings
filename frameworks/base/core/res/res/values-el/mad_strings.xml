@@ -63,5 +63,4 @@
     <string name="disable_navigation_pie_error">Δεν μπορεί να απενεργοποιηθεί η γραμμή πλοήγησης. Καμιά άλλη πλοήγηση δεν είναι ενεργή. Ενεργοποιήστε πρώτα την πίτα και μετά απενεργοποιήστε την γραμμή πλοήγησης.</string>
 
     <string name="singlehandmode_click_hint_message">Αγγίξτε έξω απο την οθόνη γι να βγείτε απο την Προβολή μικρής οθόνης </string>
-    <string name="singlehandmode_slide_hint_message">Σύρτε πάνω στην γραμμή πλοήγησης για εναλλαγή ανάμεσα σε κανονική και μικρή προβολή οθόνης</string>
 </resources>
