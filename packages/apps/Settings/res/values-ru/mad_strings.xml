@@ -836,7 +836,7 @@
 
     <!-- Disable Quicks settings -->
     <string name="lockscreen_qs_disabled_title">Выкл. быстрые настройки</string>
-    <string name="lockscreen_qs_disabled_summary">Выключает быстрые настройки на экране блокировки</string>
+    <string name="lockscreen_qs_disabled_summary">Выключает быстрые настройки на экране блокировки.</string>
 
     <!-- QS headers -->
     <string name="qs_header_category">Заголовок быстрых настроек</string>
