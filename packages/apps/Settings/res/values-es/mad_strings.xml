@@ -829,10 +829,15 @@
     <string name="qs_columns_title">Número de baldosas en la columna</string>
     <string name="qs_rows_portrait_title">Número de filas (vertical)</string>
     <string name="qs_rows_landscape_title">Número de filas (horizontal)</string>
+	
     <!-- Quicks settings titles -->
     <string name="qs_tile_title_visibility_title">Título configuración rápida</string>
     <string name="qs_tile_title_visibility_summary">Activar títulos en ajustes rápidos</string>
 
+    <!-- Disable Quicks settings -->
+    <string name="lockscreen_qs_disabled_title">Deshabilitar configuraciones rápidas</string>
+    <string name="lockscreen_qs_disabled_summary">Desactiva configuración rápida en pantalla de bloqueo</string>
+	
     <!-- QS headers -->
     <string name="qs_header_category">Configuración rápida del encabezado</string>
     <string name="status_bar_custom_header_title">Imagen de encabezado personalizado</string>
@@ -893,7 +898,7 @@
     <string name="mad_recents_summary">Personalizacion de Recientes</string>
     <string name="recents_title">Aplicaciones recientes</string>
     <string name="slim_recents_title">Recientes Slim </string>
-    <string name="use_slim_recents_title">Uso para una alternativa de recientes</string>
+    <string name="use_slim_recents_title">Utilizar una alternativa de Recientes</string>
     <string name="use_slim_recents_summary">Utilice recientes slim en lugar de la vista predeterminada actual</string>
     <string name="slim_recents_settings_title">Ajustes recientes de Slim</string>
     <string name="slim_recents_settings_summary">Ver la configuración Slim recientes</string>
