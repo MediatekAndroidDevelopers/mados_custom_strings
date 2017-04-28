@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2017 The madOS Project
+     Copyright (C) 2016, 2017 The madOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -43,4 +43,24 @@
 
     <!-- Notify user that they are in Lock-to-app (for devices without navbar) -->
     <string name="lock_to_app_toast_no_navbar">Для открепления экрана зажмите кнопку "Назад".</string>
+
+    <!-- status message in phone options dialog for when pie is on -->
+    <string name="global_actions_pie_mode_on_status">SlimPie включен.</string>
+
+    <!-- status message in phone options dialog for when pie is off -->
+    <string name="global_actions_pie_mode_off_status">SlimPie выключен.</string>
+
+    <!-- Error message if user want to try to disable all navigation options -->
+    <string name="disable_pie_navigation_error">Вы не можете отключить элементы управления PIE, т.к. другое управление не включено. Для выключения элементов управления PIE сначала включите панель навигации.</string>
+
+    <!-- status message in phone options dialog for when navigation bar is on -->
+    <string name="global_actions_nav_bar_mode_on_status">Навигационная панель включена.</string>
+
+    <!-- status message in phone options dialog for when navigation bar is off -->
+    <string name="global_actions_nav_bar_mode_off_status">Навигационная панель выключена.</string>
+
+    <!-- Error message if user want to try to disable all navigation options -->
+    <string name="disable_navigation_pie_error">Невозможно отключить навигационную панель, т.к. другое управление не включено. Для выключения навигационной панели сначала включите элемент управления PIE.</string>
+
+    <string name="singlehandmode_click_hint_message">Для выхода из миниэкрана коснитесь снаружи экрана.</string>
 </resources>

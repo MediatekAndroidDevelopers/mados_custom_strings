@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-     Copyright (C) 2017 The madOS Project
+<!--  Copyright (C) 2016, 2017 The madOS Project
 
-     Licensed under the Apache License, Version 2.0 (the "License");
-     you may not use this file except in compliance with the License.
-     You may obtain a copy of the License at
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
 
-          http://www.apache.org/licenses/LICENSE-2.0
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
 
-     Unless required by applicable law or agreed to in writing, software
-     distributed under the License is distributed on an "AS IS" BASIS,
-     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-     See the License for the specific language governing permissions and
-     limitations under the License.
--->
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
     <!-- Reboot/Reboot Recovery QS Tile -->
     <string name="quick_settings_reboot_label">Reiniciar</string>
     <string name="quick_settings_reboot_recovery_label">Recovery</string>
@@ -25,16 +27,16 @@
     <string name="quick_settings_screenshot_label">Captura</string>
     <string name="quick_settings_region_screenshot_label">Captura parcial</string>
     <string name="quick_settings_sync_label">Sincronización</string>
-    <string name="accessibility_quick_settings_sync_off">Apagar Sincronización</string>
-    <string name="accessibility_quick_settings_sync_on">Encender Sincronización</string>
-    <string name="accessibility_quick_settings_sync_changed_off">Sincronización desactivada</string>
-    <string name="accessibility_quick_settings_sync_changed_on">Sincronización activada</string>
+    <string name="accessibility_quick_settings_sync_off">Desactivar Sincronización</string>
+    <string name="accessibility_quick_settings_sync_on">Activar Sincronización</string>
+    <string name="accessibility_quick_settings_sync_changed_off">Sincronización Desactivada</string>
+    <string name="accessibility_quick_settings_sync_changed_on">Sincronización Activada</string>
     <string name="quick_settings_music_label">Música</string>
     <string name="quick_settings_music_play">Reproducir</string>
     <string name="quick_settings_music_pause">Pausa</string>
     <string name="quick_settings_caffeine_label">Cafeína</string>
-    <string name="accessibility_quick_settings_caffeine_off">Apagar Cafeína</string>
-    <string name="accessibility_quick_settings_caffeine_on">Encender Cafeína</string>
+    <string name="accessibility_quick_settings_caffeine_off">Desactivar Cafeína</string>
+    <string name="accessibility_quick_settings_caffeine_on">Activar Cafeína</string>
 
     <!-- Screen pinning dialog description (for devices without navbar) -->
     <string name="screen_pinning_description_no_navbar">Ésto lo mantiene a la vista hasta que se desancle. Toque y mantenga pulsado el botón atrás para desanclar.</string>
@@ -65,6 +67,52 @@
     <string name="accessibility_dpad_right">Cursor Derecho</string>
     <string name="accessibility_torch">Linterna</string>
     <string name="accessibility_screenshot">Captura</string>
-
+	
     <string name="app_killed_message">Aplicación Cerrada</string>
-</resources>
+
+    <!-- Battery status in pie controls -->
+    <string name="pie_battery_status_charging">Cargando (<xliff:g id="percent">%d</xliff:g>%%)</string>
+    <string name="pie_battery_status_full">Cargado</string>
+    <string name="pie_battery_status_discharging"><xliff:g id="percent">%d</xliff:g>%% Restante</string>
+
+    <!-- Phone status in pie controls -->
+    <string name="pie_phone_status_no_service">Sin servicio</string>
+    <string name="pie_phone_status_airplane_mode">Modo avión activado</string>
+    <string name="pie_phone_status_emergency_only">Solo llamadas de emergencia</string>
+
+    <!-- madOS QS Tile -->
+    <string name="qs_mad_extras_tile">madOS Extras</string>
+    <string name="quick_mad_extras_toast">¿Crees que realmente serviría de algo pulsar aquí? xD</string>
+
+    <!-- Slim Recents app-screen-->
+    <string name="recents_multiwin_warning">Sesión de ventana múltiple ya está activa.\nToca una aplicación si desea acoplarla ahora.</string>
+    <string name="recents_multiwin_nolastapp">Has eliminado las aplicaciónes recientes, por favor, elige una del launcher o del cajón.</string>
+
+    <!-- NFC QS tile -->
+    <string name="quick_settings_nfc_label">NFC</string>
+    <string name="accessibility_quick_settings_nfc_off">Desactivar NFC.</string>
+    <string name="accessibility_quick_settings_nfc_on">Activar NFC.</string>
+    <string name="accessibility_quick_settings_nfc_changed_off">NFC Desactivado.</string>
+    <string name="accessibility_quick_settings_nfc_changed_on">NFC Activado.</string>
+	
+	<!-- Compass QS Tile -->
+    <string name="quick_settings_compass_label">Brújula</string>
+    <string name="quick_settings_compass_value"><xliff:g id="degrees">%1$.0f</xliff:g>\u00b0 <xliff:g id="direction">%2$s</xliff:g></string>
+    <string name="quick_settings_compass_init">Inicializando\u2026</string>
+    <string name="accessibility_quick_settings_compass_off">Desactivar Brújula.</string>
+    <string name="accessibility_quick_settings_compass_on">Activar Brújula.</string>
+    <string name="accessibility_quick_settings_compass_changed_off">Brújula Desactivada</string>
+    <string name="accessibility_quick_settings_compass_changed_on">Brújula Activada.</string>
+    <string name="quick_settings_compass_N">N</string>
+    <string name="quick_settings_compass_NE">NE</string>
+    <string name="quick_settings_compass_E">E</string>
+    <string name="quick_settings_compass_SE">SE</string>
+    <string name="quick_settings_compass_S">S</string>
+    <string name="quick_settings_compass_SW">SO</string>
+    <string name="quick_settings_compass_W">O</string>
+    <string name="quick_settings_compass_NW">NO</string>
+    <!-- Language QS Tile -->
+    <string name="quick_settings_locale_label">Idioma</string>
+    <string name="quick_settings_locale_more_locales_toast">Configure varios idiomas para habilitar la funcionalidad</string>
+ </resources>
+ 

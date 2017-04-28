@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-     Copyright (C) 2017 The madOS Project
+     Copyright (C) 2016, 2017 The madOS Team
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -99,8 +99,11 @@
     <string name="mad_settings_title">madOS Extras</string>
     <!-- madOS extras-Categories -->
     <string name="mad_interface">Interface</string>
+    <string name="mad_recents">Recents</string>
     <string name="mad_buttons">Buttons</string>
     <string name="mad_system">System</string>
+    <string name="mad_security">Security</string>
+    <string name="mad_gestures">Gestures</string>
 
     <!-- for smartwake -->
     <string name="smartwake_settings_title">SmartWake</string>
@@ -391,12 +394,6 @@
     <!-- General strings -->
     <string name="cancel">Cancel</string>
     <string name="save">Save</string>
-    <string name="ok">OK</string>
-    <string name="reset">Reset</string>
-    <string name="help">Help</string>
-    <string name="attention">Attention</string>
-    <string name="enabled">Enabled</string>
-    <string name="add">Add</string>
 
     <!-- Battery customizations -->
     <string name="status_bar_battery_style_category">Battery</string>
@@ -414,13 +411,6 @@
 
     <!-- Seekbar -->
     <string name="default_string">Default</string>
-
-    <!-- Color Picker -->
-    <string name="dialog_color_picker">Color Picker</string>
-    <string name="press_color_to_apply">Press on color below to apply</string>
-    <string name="arrow_right">→</string>
-    <string name="hex">Hex:</string>
-    <string name="hex_hint">#ff000000</string>
 
     <!-- Navigation bar -->
     <string name="nav_bar_title">Navigation bar</string>
@@ -591,76 +581,440 @@
     <string name="clock_date_style_uppercase">Uppercase</string>
     <string name="clock_date_format_custom">Custom java format</string>
 
-    <!-- MTK schedule power on/off -->
-    <string name="schedule_power_on_off_settings_title">Scheduled power on &amp; off</string>
-    <string name="schedule_summary">Settings for scheduled power on / off</string>
+    <!-- Scheduled power on/off -->
+    <string name="scheduled_power_on_off_title">Scheduled power on &amp; off</string>
+    <string name="scheduled_power_on_off_summary">Settings for scheduled power on / off</string>
 
-    <!-- PA Pie -->
-    <string name="reset_paranoid">madOS</string>
-    <string name="reset_android">Android</string>
+    <string name="scheduled_power_on">Power on</string>
+    <string name="scheduled_power_off">Power off</string>
 
-    <!-- PA Pie control -->
-    <string name="pa_piecontrol_settings_summary">Customize Pie targets, sytle, size and color</string>
-    <string name="pa_pie_control_title">Pie Control</string>
-    <string name="pa_pie_control_enable_title">Enable Pie Control</string>
-    <string name="pa_pie_targets_title">Pie Targets</string>
-    <string name="pa_pie_style_title">Pie Style</string>
-    <string name="pa_pie_menu_title">Always show menu button</string>
-    <string name="pa_pie_menu_summary">Whether or not the menu button should always be shown, even when its not needed</string>
-    <string name="pa_pie_size_title">Pie Size</string>
-    <string name="pa_pie_size_summary">Define Pie controls size</string>
-    <string name="pa_pie_size_small">Small</string>
-    <string name="pa_pie_size_default">@string/pa_pie_mode_default</string>
-    <string name="pa_pie_size_large">Large</string>
-    <string name="pa_pie_size_gigantic">Gigantic</string>
-    <string name="pa_pie_size_monster">Monster</string>
-    <string name="pa_pie_size_enormous">Enormous</string>
-    <string name="pa_pie_mode_default">Default</string>
-    <string name="pa_pie_gravity_title">Pie Gravity</string>
-    <string name="pa_pie_gravity_summary">Select the location where the Pie will be placed</string>
-    <string name="pa_pie_gravity_bottom">Bottom</string>
-    <string name="pa_pie_gravity_right">Right</string>
-    <string name="pa_pie_gravity_left">Left</string>
-    <string name="pa_pie_gap_title">Item gap</string>
-    <string name="pa_pie_gap_summary">Adjust the gap that separates the Pie elements</string>
-    <string name="pa_pie_angle_title">Pie Angle</string>
-    <string name="pa_pie_angle_summary">Adjust the angle of pie\'s egdes from the attachment</string>
-    <string name="pa_pie_angle_none">None (old)</string>
-    <string name="pa_pie_angle_small">Small</string>
-    <string name="pa_pie_angle_big">Normal (default)</string>
-    <string name="pa_pie_angle_huge">Big</string>
-    <string name="pa_pie_angle_super">Huge</string>
-    <string name="pa_pie_gap_none">None</string>
-    <string name="pa_pie_gap_small">Small</string>
-    <string name="pa_pie_gap_big">Big (default)</string>
-    <string name="pa_pie_gap_huge">Huge</string>
-    <string name="pa_pie_mode_title">Pie Style</string>
-    <string name="pa_pie_mode_summary">Manage how animations and status additions will be handled</string>
-    <string name="pa_pie_mode_bare">Bare</string>
-    <string name="pa_pie_mode_quick">Quick</string>
-    <string name="pa_pie_mode_default">Default</string>
-    <string name="pa_pie_mode_slow">Slow</string>
-    <string name="pa_pie_lastapp_title">Last App</string>
-    <string name="pa_pie_lastapp_summary">Enable last app button</string>
-    <string name="pa_pie_killtask_title">Kill Task</string>
-    <string name="pa_pie_killtask_summary">Enable kill task button</string>
-    <string name="pa_pie_notifications_title">Notifications</string>
-    <string name="pa_pie_notifications_summary">Enable notifications button</string>
-    <string name="pa_pie_settings_panel_title">Quick Settings Panel</string>
-    <string name="pa_pie_settings_panel_summary">Enable expand quick settings panel button</string>
-    <string name="pa_pie_screenshot_title">Screenshot</string>
-    <string name="pa_pie_screenshot_summary">Enable screenshot button</string>
-    <string name="pa_pie_color_title">Pie Color Settings</string>
-    <string name="pa_pie_color_style_title">Pie Color Style</string>
-    <string name="pa_pie_background_title">Background Color</string>
-    <string name="pa_pie_select_title">Selection Color</string>
-    <string name="pa_pie_outlines_title">Outlines Color</string>
-    <string name="pa_pie_status_clock_title">Clock Color</string>
-    <string name="pa_pie_status_title">Status Color</string>
-    <string name="pa_pie_chevron_title">Chevron Color</string>
-    <string name="pa_pie_juice_title">Battery Juice Color</string>
-    <string name="pa_pie_button_color">Button Color</string>
-    <string name="pa_pie_button_color_title">Buttons Color</string>
-    <string name="pa_pie_always_right_title">Pie always on the right</string>
-    <string name="pa_pie_always_right_summary">Pie will be always shown on the right while in landscape</string>
+    <string name="scheduled_power_edit_time">Edit Time</string>
+    <string name="scheduled_power_edit_days">Edit Days</string>
+
+    <string name="scheduled_power_shutdown_message">Your device will shut down in <xliff:g id="seconds">%s</xliff:g> seconds</string>
+
+    <string name="additional_options_title">Additional options</string>
+    <string name="attention">Attention</string>
+
+    <!-- madOS versioning -->
+    <string name="mados_version">madOS version</string>
+    <string name="mados_version_default">Unknown</string>
+    <!-- madOS About Phone, build date -->
+    <string name="build_date">Build date</string>
+    <string name="build_date_default">2017-01-01-0000</string>
+
+    <!-- new pie -->
+    <string name="icon_color_mode_all_icons">All icons</string>
+    <string name="icon_color_mode_system_icons">System icons</string>
+    <string name="icon_color_mode_system_custom_icons">System and custom icons</string>
+
+    <string name="title_pref_menu_display">Menu visibility</string>
+    <string name="summary_pref_menu_display">How and when do you want the menu buttons to appear?</string>
+    <string name="navigation_menu_default_behavior">Show on request (default)</string>
+    <string name="navigation_menu_never_show">Never show</string>
+    <string name="navigation_menu_always_show">Always show</string>
+
+    <string name="shortcut_image_not_valid">The chosen app did not return a valid icon or does not support image cropping. Use another app.</string>
+    <string name="shortcut_duplicate_entry">The chosen action cannot be added twice</string>
+
+    <string name="shortcut_action_warning">Warning</string>
+    <string name="shortcut_action_warning_message">It is not possible to delete last entry</string>
+    <string name="shortcut_action_disable_message">Disabled\nAdd an entry to enable this feature</string>
+    <string name="shortcut_action_required_warning_message">It is not possible to delete required buttons</string>
+    <string name="shortcut_action_longpress">Longpress:</string>
+    <string name="shortcut_action_select_action_longpress">Choose longpress action:</string>
+    <string name="shortcut_action_select_action">Choose action:</string>
+    <string name="shortcut_action_select_action_newaction">Choose new action:</string>
+    <string name="shortcut_action_max">Maximum entries size has been reached</string>
+    <string name="shortcut_action_reset">Reset</string>
+    <string name="shortcut_action_add">Add</string>
+    <string name="shortcut_action_help_shortcut">shortcut</string>
+    <string name="shortcut_action_help_button">button</string>
+    <string name="shortcut_action_help_app">app</string>
+    <string name="shortcut_action_help_icon">, while selecting the icon will bring up customization options</string>
+    <string name="shortcut_action_help_main">To add a %1$s, select the Add icon. Once a %1$s is added, selecting the row will change the target%2$s\n\nTo remove a %1$s, swipe the row horizontally left or right. Re-order a %1$s in the list by vertically dragging the anchor on the left.\n\nTo clear or reset to defaults, select the Reset icon.</string>
+    <string name="shortcut_action_help_delete_last_entry">Removing every %1$s in the list will disable the feature entirely.</string>
+    <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Removing every %1$s in the list will disable the second pie layer entirely.</string>
+
+    <string name="shortcuts_applications">Applications</string>
+    <string name="shortcuts_select_custom_app_title">Select custom application</string>
+    <string name="shortcuts_icon_default">Default</string>
+    <string name="shortcuts_icon_presets">System icons</string>
+    <string name="shortcuts_icon_custom">Gallery</string>
+    <string name="shortcuts_icon_picker_type">Select icon type:</string>
+    <string name="shortcuts_icon_picker_choose_icon_title">Choose icon</string>
+    <string name="shortcuts_icon_picker_alarm">Alarm</string>
+    <string name="shortcuts_icon_picker_andy">Andy</string>
+    <string name="shortcuts_icon_picker_battery">Battery</string>
+    <string name="shortcuts_icon_picker_browser">Browser</string>
+    <string name="shortcuts_icon_picker_calendar">Calendar</string>
+    <string name="shortcuts_icon_picker_camera">Camera</string>
+    <string name="shortcuts_icon_picker_cloud">Cloud</string>
+    <string name="shortcuts_icon_picker_contact">Contact</string>
+    <string name="shortcuts_icon_picker_directdial">Direct Dial</string>
+    <string name="shortcuts_icon_picker_directmessage">Direct Message</string>
+    <string name="shortcuts_icon_picker_drive">Drive</string>
+    <string name="shortcuts_icon_picker_dropbox">Dropbox</string>
+    <string name="shortcuts_icon_picker_email">Email</string>
+    <string name="shortcuts_icon_picker_email2">Email Alternate</string>
+    <string name="shortcuts_icon_picker_evernote">Evernote</string>
+    <string name="shortcuts_icon_picker_facebook">Facebook</string>
+    <string name="shortcuts_icon_picker_favorite">Favorite</string>
+    <string name="shortcuts_icon_picker_file_browser">File Browser</string>
+    <string name="shortcuts_icon_picker_file_browser2">File Browser Alternate</string>
+    <string name="shortcuts_icon_picker_fitness">Fitness</string>
+    <string name="shortcuts_icon_picker_gallery">Gallery</string>
+    <string name="shortcuts_icon_picker_gears">Gears</string>
+    <string name="shortcuts_icon_picker_google_small">Google</string>
+    <string name="shortcuts_icon_picker_gplus">Google Plus</string>
+    <string name="shortcuts_icon_picker_gtalk">Hangouts</string>
+    <string name="shortcuts_icon_picker_help">Help</string>
+    <string name="shortcuts_icon_picker_joystick">Joystick</string>
+    <string name="shortcuts_icon_picker_key">Keys/Accounts</string>
+    <string name="shortcuts_icon_picker_laptop">Laptop</string>
+    <string name="shortcuts_icon_picker_notes">Notes</string>
+    <string name="shortcuts_icon_picker_luggage">Travel</string>
+    <string name="shortcuts_icon_picker_maps">Maps</string>
+    <string name="shortcuts_icon_picker_market">Market</string>
+    <string name="shortcuts_icon_picker_movie">Movies</string>
+    <string name="shortcuts_icon_picker_music">Music</string>
+    <string name="shortcuts_icon_picker_nav">Navigation</string>
+    <string name="shortcuts_icon_picker_phone">Phone</string>
+    <string name="shortcuts_icon_picker_package">Package</string>
+    <string name="shortcuts_icon_picker_pinterest">Pinterest</string>
+    <string name="shortcuts_icon_picker_play">Play</string>
+    <string name="shortcuts_icon_picker_pocket">Pocket</string>
+    <string name="shortcuts_icon_picker_quicksettings">Quick Settings</string>
+    <string name="shortcuts_icon_picker_rss">RSS Feed</string>
+    <string name="shortcuts_icon_picker_sdcard">SDCard</string>
+    <string name="shortcuts_icon_picker_search">Search</string>
+    <string name="shortcuts_icon_picker_sms">Messaging</string>
+    <string name="shortcuts_icon_picker_tasks">Tasks</string>
+    <string name="shortcuts_icon_picker_terminal">Terminal</string>
+    <string name="shortcuts_icon_picker_transit">Transit</string>
+    <string name="shortcuts_icon_picker_tv">TV</string>
+    <string name="shortcuts_icon_picker_twitter">Twitter</string>
+    <string name="shortcuts_icon_picker_unlock">Unlock</string>
+
+    <string name="help">Help</string>
+    <string name="no_home_key">You have no button assigned any more to the \"Home\" action!\n\nThis can make your device unusable!</string>
+    <string name="no_back_key">You have no button assigned any more to the \"Back\" action!\n\nThis can make your device unusable!</string>
+
+    <!-- Pie Control -->
+    <string name="pie_control_title">PIE</string>
+    <string name="pie_control_summary">Enable pie controls</string>
+    <string name="piecontrol_settings_summary">Customize Pie targets, sytle, size and color</string>
+    <string name="pie_control_size">Navigation size</string>
+    <string name="pie_control_trigger_positions">Trigger options</string>
+    <string name="pie_control_trigger_left">Trigger left screen border</string>
+    <string name="pie_control_trigger_bottom">Trigger bottom screen border</string>
+    <string name="pie_control_trigger_right">Trigger right screen border</string>
+    <string name="pie_control_trigger_top">Trigger top screen border</string>
+    <string name="pie_control_trigger_top_summary">Top pie does not show status and clock information</string>
+    <string name="pie_button_style">Buttons style</string>
+    <string name="pie_button_color_title">Button color</string>
+    <string name="pie_button_alpha_title">Button transparency</string>
+    <string name="pie_button_outline_color_title">Button outline color</string>
+    <string name="pie_button_pressed_color_title">Button pressed color</string>
+    <string name="pie_button_long_pressed_color_title">Button long pressed color</string>
+    <string name="pie_button_pressed_alpha_title">Button pressed transparency</string>
+    <string name="pie_icon_style">Button icon style</string>
+    <string name="pie_icon_color_title">Button icon color</string>
+    <string name="pie_icon_color_mode_title">Button icon color mode</string>
+    <string name="pie_icon_color_mode_dialog_title">Colorize</string>
+    <string name="pie_icon_color_mode_summary">Change the button icon color mode</string>
+    <string name="pie_trigger_note_title">Note</string>
+    <string name="pie_trigger_note_summary">To avoid conflicts with status bar or navigation bar, the triggers on these edges are automatically turned off if one or both are available</string>
+    <string name="pie_background_color_title">Background color</string>
+    <string name="pie_snap_color_title">Snap point color</string>
+    <string name="pie_text_color_title">Text color</string>
+    <string name="pie_background_alpha_title">Background transparency</string>
+    <string name="pie_mirror_right_title">Mirror right pie</string>
+    <string name="pie_mirror_right_summary">Mirror right pie on the horizontal axis</string>
+    <string name="pie_style">Style and dimension</string>
+    <string name="pie_style_title">Style</string>
+    <string name="pie_dimens_title">Dimension</string>
+    <string name="pie_show_snap_title">Show snap points</string>
+    <string name="pie_show_snap_summary">Shows snap points to change the trigger edge dynamically</string>
+    <string name="pie_show_text_title">Show status and clock</string>
+    <string name="pie_show_text_summary">Shows phone status, time and date information</string>
+    <string name="pie_show_background_title">Show background</string>
+    <string name="pie_show_background_summary">Enable pie background screen</string>
+    <string name="pie_button">Buttons</string>
+    <string name="pie_second_layer_active_title">Pie second layer</string>
+    <string name="pie_second_layer_active_summary">This enables an additional layer</string>
+    <string name="pie_button_second_layer">Buttons second layer</string>
+    <string name="pie_button_second_layer_summary">Change second layer buttons</string>
+    <string name="pie_button_style_summary">Change pie button style</string>
+    <string name="pie_style_reset_message">Reset style entries to default?</string>
+    <string name="pie_warning_no_navigation_present">No other navigation is currently enabled. Turning off pie controls can result in an unusable device. Do you want to enable navigation bar instead?</string>
+    <string name="pie_trigger_warning">Minimum one of the main triggers (bottom, left or right) needs to be enabled.</string>
+
+    <string name="pie_layer_disable_forbidden">Can\'t disable second layer! There\'s no other \'back button\' available.</string>
+
+    <!-- Lockscreen weather -->
+    <string name="display_category_weather_title">Lockscreen weather options</string>
+    <string name="lock_screen_weather_summary">Lockscreen weather options</string>
+    <string name="lock_screen_weather_settings_title">Weather</string>
+    <string name="weather_cat_notifications_title">Notifications</string>
+    <string name="weather_show_weather_title">Show weather</string>
+    <string name="weather_show_weather_summary">Enable to show weather information</string>
+    <string name="weather_show_location_title">Show location</string>
+    <string name="weather_show_location_summary">Enable to show the location</string>
+    <string name="weather_show_timestamp_title">Show timestamp</string>
+    <string name="weather_show_timestamp_summary">Enable to show the timestamp</string>
+    <string name="weather_condition_icon_title">Condition icon</string>
+    <string name="weather_condition_icon_dlg_title">Choose an icon for displaying the weather condition</string>
+    <string name="weather_condition_icon_monochrome_title">Monochrome</string>
+    <string name="weather_condition_icon_colored_title">Colored</string>
+    <string name="weather_condition_icon_vclouds_title">VClouds</string>
+    <string name="icons_title">Icons</string>
+    <string name="position_right_title">Right</string>
+    <string name="position_centered_title">Centered</string>
+    <string name="hidden_title">Hidden</string>
+    <string name="weather_hide_panel_title">Hide weather panel</string>
+    <string name="weather_hide_panel_dlg_title">Choose when the weather panel should be hidden</string>
+    <string name="weather_hide_panel_auto_title">Auto</string>
+    <string name="weather_hide_panel_custom_title">Custom</string>
+    <string name="weather_hide_panel_never_title">Never</string>
+    <string name="weather_hide_panel_auto_summary">The weather panel will be hidden when the visible notifications will reach the maximum allowed notifications on the lock screen</string>
+    <string name="weather_hide_panel_custom_summary">The weather panel will be hidden when the visible notifications will reach the chosen number of notifications</string>
+    <string name="weather_hide_panel_never_summary">The weather panel won\`t be hidden</string>
+    <string name="weather_number_of_notifications_title">Number of notifications</string>
+
+    <!-- Status bar temperature -->
+    <string name="weather_settings_title">Weather</string>
+    <string name="status_bar_temperature_title">Statusbar weather temperature</string>
+    <string name="weather_clock_options_title">Weather cLock options</string>
+    <string name="weather_clock_options_summary">Weather widget, and weather provider settings</string>
+    <string name="status_bar_temperature_hidden">Hidden</string>
+    <string name="status_bar_temperature_show_scale">Shown with scale</string>
+    <string name="status_bar_temperature_hide_scale">Shown without scale</string>
+    <string name="status_bar_temperature_location_title">Placement</string>
+    <string name="status_bar_temperature_location_summary">Select where the weather temperature is shown on the statusbar</string>
+    <string name="status_bar_temperature_location_right">Show on right</string>
+    <string name="status_bar_temperature_location_left">Show on left</string>
+    <string name="status_bar_weather_color_title">Temperature color</string>
+    <string name="status_bar_weather_size_title">Font size</string>
+    <string name="status_bar_weather_font_style_title">Font</string>
+    <string name="status_bar_weather_font_normal">Normal</string>
+    <string name="status_bar_weather_font_italic">Italic</string>
+    <string name="status_bar_weather_font_bold">Bold</string>
+    <string name="status_bar_weather_font_bold_italic">Bold Italic</string>
+    <string name="status_bar_weather_font_light">Light</string>
+    <string name="status_bar_weather_font_light_italic">Light Italic</string>
+    <string name="status_bar_weather_font_thin">Thin</string>
+    <string name="status_bar_weather_font_thin_italic">Thin Italic</string>
+    <string name="status_bar_weather_font_condensed">Condensed</string>
+    <string name="status_bar_weather_font_condensed_italic">Condensed Italic</string>
+    <string name="status_bar_weather_font_condensed_light">Condensed Light</string>
+    <string name="status_bar_weather_font_condensed_light_italic">Condensed Light Italic</string>
+    <string name="status_bar_weather_font_condensed_bold">Condensed Bold</string>
+    <string name="status_bar_weather_font_condensed_bold_italic">Condensed Bold Italic</string>
+    <string name="status_bar_weather_font_medium">Medium</string>
+    <string name="status_bar_weather_font_medium_italic">Medium Italic</string>
+    <string name="status_bar_weather_font_black">Black</string>
+    <string name="status_bar_weather_font_black_italic">Black Italic</string>
+    <string name="status_bar_weather_font_dancingscript">DancingScript</string>
+    <string name="status_bar_weather_font_dancingscript_bold">DancingScript Bold</string>
+    <string name="status_bar_weather_font_comingsoon">ComingSoon</string>
+    <string name="status_bar_weather_font_notoserif">NotoSerif Normal</string>
+    <string name="status_bar_weather_font_notoserif_italic">NotoSerif Italic</string>
+    <string name="status_bar_weather_font_notoserif_bold">NotoSerif Bold</string>
+    <string name="status_bar_weather_font_notoserif_bold_italic">NotoSerif Bold Italic</string>
+
+    <!-- Quicks settings columns -->
+    <string name="qs_panel_title">Quick settings panel</string>
+    <string name="qs_panel_title_summary">Quick settings customizations</string>
+    <string name="qs_columns_title">Number of tiles in column</string>
+    <string name="qs_rows_portrait_title">Number of rows (portrait)</string>
+    <string name="qs_rows_landscape_title">Number of rows (landscape)</string>
+
+    <!-- Quicks settings titles -->
+    <string name="qs_tile_title_visibility_title">Quick settings titles</string>
+    <string name="qs_tile_title_visibility_summary">Enable titles on quick settings</string>
+
+    <!-- Disable Quicks settings -->
+    <string name="lockscreen_qs_disabled_title">Disable quick settings</string>
+    <string name="lockscreen_qs_disabled_summary">Disables quick settings on secure lock screen</string>
+
+    <!-- QS headers -->
+    <string name="qs_header_category">Quick settings header</string>
+    <string name="status_bar_custom_header_title">Custom header image</string>
+    <string name="status_bar_custom_header_summary">Enable notification panel header image</string>
+    <string name="daylight_header_pack_title">Header image pack</string>
+    <string name="status_bar_custom_header_shadow_title">Shadow header image</string>
+    <string name="status_bar_custom_header_shadow_summary">For better visibility on bright images</string>
+    <string name="static_header_provider" translatable="false">static</string>
+    <string name="daylight_header_provider" translatable="false">daylight</string>
+    <string name="static_header_provider_title">Static</string>
+    <string name="daylight_header_provider_title">Dynamic</string>
+    <string name="custom_header_provider_title">Header provider</string>
+    <string name="custom_header_browse_title">Browse installed headers</string>
+    <string name="custom_header_browse_summary">Long press on any image to use for static mode</string>
+
+    <!-- Quicks settings vibrate -->
+    <string name="quick_settings_vibrate_title">Vibrate on touch</string>
+    <string name="quick_settings_vibrate_summary">Vibrate when touching tiles</string>
+
+    <!-- Lockscreen -->
+    <string name="lockscreen_settings_title">Lockscreen</string>
+    <string name="mad_lockscreen_settings_summary">Lockscreen customizations</string>
+    <!-- Lockscreen items clock, date, alarm text -->
+    <string name="lockscreen_items_settings_title">Lockscreen Items</string>
+    <string name="lockscreen_clock_title">Lockscreen clock</string>
+    <string name="lockscreen_date_title">Lockscreen date</string>
+    <string name="lockscreen_alarm_title">Lockscreen alarm text</string>
+    <string name="lockscreen_items_summary">Enable or disable several lockscreen items</string>
+    <!-- Lockscreen clock fonts -->
+    <string name="lock_clock_font_title">Lockscreen clock font</string>
+    <string name="lock_clock_font_summary">Change the default font of the lockscreen clock widget</string>
+    <string name="lock_clock_font_normal">Roboto</string>
+    <string name="lock_clock_font_bold">Roboto Bold</string>
+    <string name="lock_clock_font_italic">Roboto Italic</string>
+    <string name="lock_clock_font_bold_italic">Roboto Bold Italic</string>
+    <string name="lock_clock_font_light_normal">Roboto Light (default)</string>
+    <string name="lock_clock_font_light_italic">Roboto Light Italic</string>
+    <string name="lock_clock_font_thin_normal">Roboto Thin</string>
+    <string name="lock_clock_font_thin_italic">Roboto Thin Italic</string>
+    <string name="lock_clock_font_condensed_normal">Roboto Condensed</string>
+    <string name="lock_clock_font_condensed_bold">Roboto Condensed Bold</string>
+    <string name="lock_clock_font_condensed_italic">Roboto Condensed Italic</string>
+    <string name="lock_clock_font_condensed_bold_italic">Roboto Condensed Bold Italic</string>
+    <string name="lock_clock_font_medium_normal">Roboto Medium</string>
+    <string name="lock_clock_font_medium_italic">Roboto Medium Italic</string>
+    <string name="lock_clock_font_black_normal">Roboto Black</string>
+    <string name="lock_clock_font_black_italic">Roboto Black Italic</string>
+    <string name="lock_clock_font_condensed_light_normal">Roboto Condensed Light</string>
+    <string name="lock_clock_font_condensed_light_italic">Roboto Condensed Light Italic</string>
+    <!-- Lockscreen cover art -->
+    <string name="media_art_title">Media cover art</string>
+    <string name="media_art_summary">Enable media cover art on the lockscreen</string>
+    <!-- Lockscreen double tap to sleep -->
+    <string name="double_tap_sleep_anywhere_title">Double-tap to sleep anywhere</string>
+    <string name="double_tap_sleep_anywhere_summary">Double tap anywhere on the lockscreen to put the device to sleep</string>
+
+    <!-- Slim Recents panel -->
+    <string name="mad_recents_summary">Recents customizations</string>
+    <string name="recents_title">Recents apps</string>
+    <string name="slim_recents_title">Slim recents</string>
+    <string name="use_slim_recents_title">Use for a recents alterative</string>
+    <string name="use_slim_recents_summary">Use slim recents instead of the default recents view</string>
+    <string name="slim_recents_settings_title">Slim recents settings</string>
+    <string name="slim_recents_settings_summary">View the settings for slim recents</string>
+    <string name="recent_panel_category">Slim recent apps panel</string>
+    <string name="show_running_tasks_title">Only show running apps</string>
+    <string name="recents_max_apps_title">Max allowed apps</string>
+    <string name="recent_panel_scale_title">Size</string>
+    <string name="recent_panel_expanded_mode_title">Expanded mode</string>
+    <string name="recent_panel_expanded_mode_summary">Recent tasks expanded preview mode</string>
+    <string name="recent_panel_expanded_mode_auto">Auto (default)</string>
+    <string name="recent_panel_expanded_mode_always">Always</string>
+    <string name="recent_panel_expanded_mode_never">Never</string>
+    <string name="recent_panel_show_topmost_title">Show topmost task</string>
+    <string name="recent_panel_show_topmost_summary">Don\'t exclude the topmost task in recents view</string>
+    <string name="recent_panel_bg_color_title">Panel background color</string>
+    <string name="recent_card_bg_color_title">Card background color</string>
+    <string name="recent_reset_title">Reset to stock color</string>
+    <string name="recent_reset_confirm">Are you sure you want to reset Slim Recent to stock color?</string>
+    <string name="default_auto_string">Default (app based)</string>
+    <string name="recent_panel_lefty_mode_title">Show on the left edge</string>
+    <string name="recent_panel_lefty_mode_summary">Show recent apps panel on the left edge</string>
+    <string name="slim_icon_pack_title">Icon Pack</string>
+    <string name="slim_icon_pack_summary">Apply a custom icon pack for apps in the panel</string>
+    <string name="no_iconpacks_summary">No icon packs installed</string>
+    <string name="dialog_pick_iconpack_title">Pick icon pack</string>
+    <string name="default_iconpack_title">Default icons</string>
+
+    <!-- Color picker -->
+    <string name="dialog_color_picker">Color picker</string>
+    <string name="press_color_to_apply">Press on Color to apply</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint" translatable="false">#FFDDDDDD</string>
+    <string name="hex_check_button_text">PREVIEW</string>
+    <string name="hex_reset_button_text">RESET</string>
+    <string name="color_right_arrow" translatable="false">"→"</string>
+    <string name="color_down_arrow" translatable="false">"↓"</string>
+    <string name="longpress_info">Longpress box to save color</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="color_default">Default</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+    <string name="unlock_quick_unlock_control_summary">Automatically unlock as soon as the correct PIN has been entered (pressing OK not required)\nNote: will only work if below number of digits is set correctly!</string>
+    <string name="lockscreen_quick_unlock_pin_length_title">Amount of digits of the PIN</string>
+    <string name="lockscreen_quick_unlock_pin_length_summary">For Quick unlock to work, please set the PIN length (amount of digits).</string>
+
+    <!-- Immersive recents -->
+    <string name="immersive_recents_title">Immersive Recents</string>
+    <string name="immersive_recents_default">Default</string>
+    <string name="immersive_recents_fullscreen">Fullscreen</string>
+    <string name="immersive_recents_statusbar">Statusbar only</string>
+    <string name="immersive_recents_navbar">Navbar only</string>
+
+    <!-- Recent clear all button and location -->
+    <string name="show_clear_all_recents_button_title">Clear all FAB</string>
+    <string name="show_clear_all_recents_button_summary_on">Show clear all FAB</string>
+    <string name="show_clear_all_recents_button_summary_off">Show AOSP clear all</string>
+    <string name="recents_clear_all_location_title">Clear all FAB location</string>
+    <string name="recents_clear_all_location_top_right">Top right</string>
+    <string name="recents_clear_all_location_top_left">Top left</string>
+    <string name="recents_clear_all_location_top_center">Top center</string>
+    <string name="recents_clear_all_location_bottom_right">Bottom right</string>
+    <string name="recents_clear_all_location_bottom_left">Bottom left</string>
+    <string name="recents_clear_all_location_bottom_center">Bottom center</string>
+
+    <!-- Wakelock blocker -->
+    <string name="wakelock_blocker_title">Wakelock Blocker</string>
+    <string name="wakelock_blocker_summary">Block system wakelocks</string>
+    <string name="wakelock_blocker_save">Save</string>
+    <string name="wakelock_list_header">Available wakelocks</string>
+    <string name="wakelock_blocker_reload">Reload</string>
+    <string name="wakelock_blocker_warning_title">Proceed with caution</string>
+    <string name="wakelock_blocker_warning">Blocking wakelocks have the potential to cause instability, crashes or data loss</string>
+
+    <!-- Alarm blocker -->
+    <string name="alarm_blocker">Alarm blocker</string>
+    <string name="alarm_blocker_title">Enable</string>
+    <string name="alarm_blocker_summary">Block alarms while screen off</string>
+    <string name="alarm_blocker_save">Save</string>
+    <string name="alarm_list_header">Available alarms</string>
+    <string name="alarm_blocker_reload">Reload</string>
+    <string name="alarm_blocker_warning_title">Proceed with caution</string>
+    <string name="alarm_blocker_warning">Blocking alarms have the potential to cause instability, crashes or data loss.</string>
+
+    <!-- Buttons Misc -->
+    <string name="mad_buttons_settings">Buttons Options</string>
+    <string name="mad_buttons_settings_summary">Button options, where you can set actions and more</string>
+
+    <!-- Gestures Misc -->
+    <string name="mad_gestures_settings">Quick Gestures</string>
+    <string name="mad_gestures_settings_summary">Quick Gestures to control your phone</string>
+
+    <!-- Bluetooth status -->
+    <string name="bluetooth_battery_title">Show Bluetooth battery status</string>
+    <string name="bluetooth_battery_summary">Show battery status for the currently connected bluetooth device, if available.</string>
+
+    <!-- Huawei's One hand mode -->
+    <string name="navbar_onehand_title">One Hand Mode in the NavigationBar</string>
+    <string name="one_handed_mode_title">One Handed mode</string>
+    <string name="one_handed_mode_summary">Allows swiping on the navigation bar to enable one handed mode</string>
+
+    <!-- Carrier Label -->
+    <string name="carrierlabel_title">Carrier Label</string>
+    <string name="carrierlabel_title_summary">Options to customize the carrier label</string>
+    <!-- Custom carrier label and position -->
+    <string name="carrier_label_settings_title">Carrier Label</string>
+    <string name="carrier_label_settings_summary">Customize the carrier label</string>
+    <string name="custom_carrier_label_title">Custom carrier label</string>
+    <string name="custom_carrier_label_explain">Please enter a new label. Leave blank to revert to stock label.</string>
+    <string name="custom_carrier_label_notset">Custom label currently not set</string>
+    <string name="show_carrier_title">Carrier label</string>
+    <string name="show_carrier_disabled">Disabled</string>
+    <string name="show_carrier_keyguard">Lockscreen only</string>
+    <string name="show_carrier_statusbar">Statusbar only</string>
+    <string name="show_carrier_enabled">Lockscreen &amp; statusbar</string>
+    <string name="status_bar_carrier_color">Carrier label color</string>
+    <string name="status_bar_carrier_size">Carrier label size</string>
 </resources>
