@@ -829,9 +829,14 @@
     <string name="qs_columns_title">Αριθμός αντικειμένων στη κάθε στήλη</string>
     <string name="qs_rows_portrait_title">Αριθμός σειρών (κατακόρυφα)</string>
     <string name="qs_rows_landscape_title">Αριθμός σειρών (οριζόντια)</string>
+	
     <!-- Quicks settings titles -->
     <string name="qs_tile_title_visibility_title">Τίτλοι γρήγορων ρυθμίσεων</string>
     <string name="qs_tile_title_visibility_summary">Ενεργοποίηση τίτλων στις γρήγορες ρυθμίσεις</string>
+
+	<!-- Disable Quicks settings -->
+    <string name="lockscreen_qs_disabled_title">Απενεργοποίηση γρήγορων ρυθμίσεων</string>
+    <string name="lockscreen_qs_disabled_summary">Απενεργοποιεί τις γρήγορες ρυθμίσεις στην ασφαλή οθόνη κλειδώματος</string>
 
     <!-- QS headers -->
     <string name="qs_header_category">Κεφαλίδα γρήγορων ρυθμίσεων</string>
