@@ -829,10 +829,15 @@
     <string name="qs_columns_title">每行中的项目数量</string>
     <string name="qs_rows_portrait_title">每页行数</string>
     <string name="qs_rows_landscape_title">项目间距</string>
+	
     <!-- Quicks settings titles -->
     <string name="qs_tile_title_visibility_title">快速设置项目</string>
     <string name="qs_tile_title_visibility_summary">允许快速设置的项目</string>
 
+    <!-- Disable Quicks settings -->
+    <string name="lockscreen_qs_disabled_title">禁用快速设置</string>
+    <string name="lockscreen_qs_disabled_summary">禁用安全锁定屏幕上的快速设置</string>
+ 
     <!-- QS headers -->
     <string name="qs_header_category">头快速设置</string>
     <string name="status_bar_custom_header_title">自定义头图片</string>
