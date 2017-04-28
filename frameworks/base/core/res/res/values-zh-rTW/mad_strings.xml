@@ -63,5 +63,4 @@
     <string name="disable_navigation_pie_error">您不能禁用導航欄，且沒有打開其他導航。若先打開扇形控制，導航欄將關閉。 </string>
 
     <string name="singlehandmode_click_hint_message">觸摸屏幕外可以退出迷你屏幕視圖</string>
-    <string name="singlehandmode_slide_hint_message">在導航欄上滑動手指以在標準和迷你屏幕視圖之間切換</string>
 </resources>

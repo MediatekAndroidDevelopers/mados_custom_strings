@@ -100,7 +100,7 @@
     <!-- madOS extras-Categories -->
     <string name="mad_interface">Interfejs</string>
     <string name="mad_recents">Ostatnie</string>
-    <string name="mad_buttons">rzyciski</string>
+    <string name="mad_buttons">rzyciski</string>
     <string name="mad_system">System</string>
     <string name="mad_security">Bezpieczeństwo</string>
     <string name="mad_gestures">Gesty</string>

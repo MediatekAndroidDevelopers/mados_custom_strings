@@ -829,9 +829,14 @@
     <string name="qs_columns_title">Number of tiles in column</string>
     <string name="qs_rows_portrait_title">Number of rows (portrait)</string>
     <string name="qs_rows_landscape_title">Number of rows (landscape)</string>
+
     <!-- Quicks settings titles -->
     <string name="qs_tile_title_visibility_title">Quick settings titles</string>
     <string name="qs_tile_title_visibility_summary">Enable titles on quick settings</string>
+
+    <!-- Disable Quicks settings -->
+    <string name="lockscreen_qs_disabled_title">Disable quick settings</string>
+    <string name="lockscreen_qs_disabled_summary">Disables quick settings on secure lock screen</string>
 
     <!-- QS headers -->
     <string name="qs_header_category">Quick settings header</string>
