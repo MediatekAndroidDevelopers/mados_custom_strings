@@ -995,11 +995,11 @@
     <string name="one_handed_mode_summary">Attivare la modalità mano singola con uno swipe sulla barra di navigazione</string>
    
      <!-- OmniJaws -->
-+    <string name="weather_title">Weather</string>
-+    <string name="weather_config_title">Weather tile settings</string>
++    <string name="weather_title">Meteo</string>
++    <string name="weather_config_title">Impostazioni tile meteo</string>
 +    <string name="weather_config_summary"></string>
-+    <string name="lockscreen_weather_title">Lockscreen weather info</string>
-+    <string name="lockscreen_weather_config_title">Lockscreen weather info settings</string>
++    <string name="lockscreen_weather_title">Informazioni meteo con schermo bloccato</string>
++    <string name="lockscreen_weather_config_title">Impostazioni informazioni meteo con schermo bloccato</string>
 +    <string name="lockscreen_weather_config_summary"></string>
 +
 +    <!-- StatusBar weather settings -->
