@@ -761,8 +761,6 @@
     <string name="weather_show_weather_summary">Habilitar para mostrar información meteorológica</string>
     <string name="weather_show_location_title">Mostrar ubicación</string>
     <string name="weather_show_location_summary">Habilitar para mostrar ubicación</string>
-    <string name="weather_show_timestamp_title">Mostrar hora/fecha</string>
-    <string name="weather_show_timestamp_summary">Habilitar para mostrar la hora/fecha</string>
     <string name="weather_condition_icon_title">Icono de condición</string>
     <string name="weather_condition_icon_dlg_title">Elija un icono para mostrar la condición meteorológica</string>
     <string name="weather_condition_icon_monochrome_title">Monocroma</string>
@@ -781,6 +779,9 @@
     <string name="weather_hide_panel_custom_summary">El panel meteorológico se oculta cuando las notificaciones visibles lleguen al número elegido de notificaciones</string>
     <string name="weather_hide_panel_never_summary">El panel meteorológico no estará oculto</string>
     <string name="weather_number_of_notifications_title">Número de notificaciones</string>
+    <string name="weather_settings_options_title">Configuración de ubicación</string>
+    <string name="weather_settings_summary">Elegir ubicación y otros ajustes</string>
+    <string name="weather_show_location_summary">Mostrar ubicación del tiempo</string>
 
     <!-- Status bar temperature -->
     <string name="weather_settings_title">Clima</string>
@@ -1017,4 +1018,24 @@
     <string name="show_carrier_enabled">Pantalla de bloqueo &amp; barra de estado</string>
     <string name="status_bar_carrier_color">Color nombre de operadora</string>
     <string name="status_bar_carrier_size">Tamaño nombre de operadora</string>
-</resources>
+
+    <!-- OmniJaws -->
+    <string name="weather_title">Clima</string>
+    <string name="weather_config_title">Configuración de baldosa clima</string>
+    <string name="weather_config_summary"></string>
+    <string name="lockscreen_weather_title">Información clima en Pantalla bloqueo</string>
+    <string name="lockscreen_weather_config_title">Configuración clima pantalla bloqueo</string>
+    <string name="lockscreen_weather_config_summary"></string>
+
+    <!-- StatusBar weather settings -->
+    <string name="statusbar_weather_category">Barra de estado clima</string>
+    <string name="statusbar_weather_title">Barra de estado clima</string>
+    <string name="statusbar_weather_summary">Configurar desde configuración QS/Clima.</string>
+    <string name="statusbar_weather_dialog_title">Estilo de estado de la barra de clima</string>
+    <string name="status_bar_weather_hidden">Clima oculto</string>
+    <string name="status_bar_temperature_image_show_scale">Mostrar temperatura con escala e imagen</string>
+    <string name="status_bar_temperature_image_hide_scale">Mostrar temperatura sin escala e imagen</string>
+    <string name="status_bar_temperature_show_scale_hide_image">Mostrar temperatura con escala</string>
+    <string name="status_bar_temperature_hide_scale_hide_image">Mostrar temperatura sin escala</string>
+    <string name="status_bar_show_image">Mostrar imagen</string>
+ </resources>
