@@ -759,8 +759,6 @@
     <string name="weather_show_weather_summary">Attiva per mostrare informazioni meteo</string>
     <string name="weather_show_location_title">Mostra posizione</string>
     <string name="weather_show_location_summary">Attiva per mostrare posizione</string>
-    <string name="weather_show_timestamp_title">Mostra registrazione orario</string>
-    <string name="weather_show_timestamp_summary">Attiva per mostrare registrazione orario</string>
     <string name="weather_condition_icon_title">Icona condizioni meteo</string>
     <string name="weather_condition_icon_dlg_title">Scegli una icona per le condizioni meteo</string>
     <string name="weather_condition_icon_monochrome_title">Monocromatica</string>
@@ -779,7 +777,9 @@
     <string name="weather_hide_panel_custom_summary">Il pannello meteo deve essere nascosto quando le notifiche visibili raggiungono un numero specfico</string>
     <string name="weather_hide_panel_never_summary">Il pannello meteo non deve essere mai nascosto</string>
     <string name="weather_number_of_notifications_title">Numero delle notifiche</string>
-  
+  + <string name="weather_settings_options_title">Impostazioni località</string>
++   <string name="weather_settings_summary">Imposta località e altri valori</string>
++   <string name="weather_show_location_summary">Mostra località meteo</string>
     <!-- Status bar temperature -->
     <string name="weather_settings_title">Meteo</string>
     <string name="status_bar_temperature_title">Temperatura meteo nella barra di stato</string>
@@ -993,4 +993,24 @@
     <string name="navbar_onehand_title">MOdalità barra di navigazione con una mano</string>
     <string name="one_handed_mode_title">Modalità mano singola</string>
     <string name="one_handed_mode_summary">Attivare la modalità mano singola con uno swipe sulla barra di navigazione</string>
+   
+     <!-- OmniJaws -->
++    <string name="weather_title">Weather</string>
++    <string name="weather_config_title">Weather tile settings</string>
++    <string name="weather_config_summary"></string>
++    <string name="lockscreen_weather_title">Lockscreen weather info</string>
++    <string name="lockscreen_weather_config_title">Lockscreen weather info settings</string>
++    <string name="lockscreen_weather_config_summary"></string>
++
++    <!-- StatusBar weather settings -->
++    <string name="statusbar_weather_category">Meteo nella barra di stato</string>
++    <string name="statusbar_weather_title">Meteo nella barra di stato</string>
++    <string name="statusbar_weather_summary">Configurazione impostazioni rapide/Meteo.</string>
++    <string name="statusbar_weather_dialog_title">Stile meteo nella barra di stato</string>
++    <string name="status_bar_weather_hidden">Nascondi meteo</string>
++    <string name="status_bar_temperature_image_show_scale">Mostra temperatura con gradi e immagine</string>
++    <string name="status_bar_temperature_image_hide_scale">Mostra temperatura con immagine e senza gradi</string>
++    <string name="status_bar_temperature_show_scale_hide_image">Mostra temperatura con gradi</string>
++    <string name="status_bar_temperature_hide_scale_hide_image">Mostra temperatura senza gradi</string>
++    <string name="status_bar_show_image">Mostra immagine</string>
 </resources>
