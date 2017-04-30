@@ -14,7 +14,9 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
+
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+     
     <!-- Reboot/Reboot Recovery QS Tile -->
     <string name="quick_settings_reboot_label">Riavvia</string>
     <string name="quick_settings_reboot_recovery_label">Recovery</string>
@@ -25,26 +27,26 @@
     <string name="quick_settings_screenshot_label">Screenshot</string>
     <string name="quick_settings_region_screenshot_label">Screenshot parziale</string>
     <string name="quick_settings_sync_label">Sync</string>
-    <string name="accessibility_quick_settings_sync_off">Sync off</string>
-    <string name="accessibility_quick_settings_sync_on">Sync on</string>
-    <string name="accessibility_quick_settings_sync_changed_off">Sync disattivata</string>
-    <string name="accessibility_quick_settings_sync_changed_on">Sync attivata</string>
+    <string name="accessibility_quick_settings_sync_off">Disattiva sincronizzazione</string>
+    <string name="accessibility_quick_settings_sync_on">Attiva sincronizzazione</string>
+    <string name="accessibility_quick_settings_sync_changed_off">Sincr. disattivata</string>
+    <string name="accessibility_quick_settings_sync_changed_on">Sincr. attivata</string>
     <string name="quick_settings_music_label">Musica</string>
     <string name="quick_settings_music_play">Play</string>
     <string name="quick_settings_music_pause">Pausa</string>
     <string name="quick_settings_caffeine_label">Caffeine</string>
-    <string name="accessibility_quick_settings_caffeine_off">Caffeine off</string>
-    <string name="accessibility_quick_settings_caffeine_on">Caffeine on</string>
+    <string name="accessibility_quick_settings_caffeine_off">Caffeine disattivata</string>
+    <string name="accessibility_quick_settings_caffeine_on">Caffeine attivata</string>
 
     <!-- Screen pinning dialog description (for devices without navbar) -->
-    <string name="screen_pinning_description_no_navbar">Rimane in vista fino allo sblocco. Mantieni premuto il pulsante indietro Back per sbloccare.</string>
+    <string name="screen_pinning_description_no_navbar">Rimane in vista fino allo sblocco. Mantieni premuto il pulsante indietro per sbloccare.</string>
 
     <!-- NavBar Tuner -->
-    <string name="menu_ime_always_show">Menu / Keyboard Switcher (always show)</string>
-    <string name="search">Search</string>
+    <string name="menu_ime_always_show">Selettore Menu / tastiera (mostra sempre)</string>
+    <string name="search">Cerca</string>
 
     <!-- Dialog title for navigation bar button selection -->
-    <string name="navbar_dialog_title">Choose action to assign</string>
+    <string name="navbar_dialog_title">Scegli azione da assegnare</string>
     <string name="navbar_home_button">Pulsante Home</string>
     <string name="navbar_recent_button">Pulsante recenti</string>
     <string name="navbar_search_button">Pulsante ricerca</string>
@@ -61,11 +63,65 @@
     <!-- Content description of the power button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
     <string name="accessibility_power">Power</string>
     <string name="accessibility_notifications">Notifiche</string>
-    <string name="accessibility_dpad_left">Cursore sinistro</string>
-    <string name="accessibility_dpad_right">Cursore destra</string>
+    <string name="accessibility_dpad_left">Cursore a sinistra</string>
+    <string name="accessibility_dpad_right">Cursore a destra</string>
     <string name="accessibility_torch">Torcia</string>
     <string name="accessibility_screenshot">ScreenShot</string>
 
     <string name="app_killed_message">Applicazione terminata</string>
+     
+    <!-- Battery status in pie controls -->
+    <string name="pie_battery_status_charging">In carica (<xliff:g id="percent">%d</xliff:g>%%)</string>
+    <string name="pie_battery_status_full">Carico</string>
+    <string name="pie_battery_status_discharging"><xliff:g id="percent">%d</xliff:g>%% residua</string>
 
+    <!-- Phone status in pie controls -->
+    <string name="pie_phone_status_no_service">Nessun servizio</string>
+    <string name="pie_phone_status_airplane_mode">Modalità aereo attiva</string>
+    <string name="pie_phone_status_emergency_only">Solo chiamate di emergenza</string>
+
+    <!-- madOS QS Tile -->
+    <string name="qs_mad_extras_tile">madOS Extras</string>
+    <string name="quick_mad_extras_toast">lol, hai pensato davvero che un click prolungato qui funzionasse davvero? xD</string>
+
+    <!-- Slim Recents app-screen-->
+    <string name="recents_multiwin_warning">Una sessione multifinestre è già attiva.\nJust seleziona una app.</string>
+    <string name="recents_multiwin_nolastapp">Hai eliminato tutti le app recenti, scegli una app dal launcher o dal drawer.</string>
+
+    <!-- NFC QS tile -->
+    <string name="quick_settings_nfc_label">NFC</string>
+    <string name="accessibility_quick_settings_nfc_off">Attiva NFC.</string>
+    <string name="accessibility_quick_settings_nfc_on">Spegni NFC.</string>
+    <string name="accessibility_quick_settings_nfc_changed_off">NFC è spento.</string>
+    <string name="accessibility_quick_settings_nfc_changed_on">NFC è acceso.</string>
+
+    <!-- Compass QS Tile -->
+    <string name="quick_settings_compass_label">Bussola</string>
+    <string name="quick_settings_compass_value"><xliff:g id="degrees">%1$.0f</xliff:g>\u00b0 <xliff:g id="direction">%2$s</xliff:g></string>
+    <string name="quick_settings_compass_init">Inizializzazione\u2026</string>
+    <string name="accessibility_quick_settings_compass_off">Spegni Bussola.</string>
+    <string name="accessibility_quick_settings_compass_on">Attiva Bussola.</string>
+    <string name="accessibility_quick_settings_compass_changed_off">La bussola è spenta.</string>
+    <string name="accessibility_quick_settings_compass_changed_on">La bussola è accesa.</string>
+    <string name="quick_settings_compass_N">N</string>
+    <string name="quick_settings_compass_NE">NE</string>
+    <string name="quick_settings_compass_E">E</string>
+    <string name="quick_settings_compass_SE">SE</string>
+    <string name="quick_settings_compass_S">S</string>
+    <string name="quick_settings_compass_SW">SW</string>
+    <string name="quick_settings_compass_W">W</string>
+    <string name="quick_settings_compass_NW">NW</string>
+    <!-- Language QS Tile -->
+    <string name="quick_settings_locale_label">Lingua</string>
+    <string name="quick_settings_locale_more_locales_toast">Configura più lingue per attivare il pulsante di selezione</string>
+    <!-- OmniJaws weather qs tile -->
+    <string name="omnijaws_service_error">Errore</string>
+    <string name="omnijaws_service_unkown">Nessun dato meteo</string>
+    <string name="omnijaws_detail_header">Meteo</string>
+    <string name="omnijaws_label_default">Meteo</string>
+    <string name="omnijaws_current_text">Adesso</string>
+    <string name="omnijaws_package_not_available">Servizio meteo OmniJaws non disponibile</string>
+
+    <!-- Weather string format in expanded statusbar header -->
+<string name="status_bar_weather_format"><xliff:g id="temp">%1$s</xliff:g></string>
 </resources>
