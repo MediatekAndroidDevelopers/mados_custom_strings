@@ -761,8 +761,6 @@
     <string name="weather_show_weather_summary">允许显示天气信息</string>
     <string name="weather_show_location_title">显示位置</string>
     <string name="weather_show_location_summary">允许显示位置</string>
-    <string name="weather_show_timestamp_title">显示时间戳</string>
-    <string name="weather_show_timestamp_summary">允许显示时间戳</string>
     <string name="weather_condition_icon_title">状态图标</string>
     <string name="weather_condition_icon_dlg_title">选择一个用于显示天气状况的图标</string>
     <string name="weather_condition_icon_monochrome_title">单色</string>
@@ -781,7 +779,10 @@
     <string name="weather_hide_panel_custom_summary">当可见通知将到达所选择的通知数时，天气面板将被隐藏。</string>
     <string name="weather_hide_panel_never_summary">天气面板不会被隐藏</string>
     <string name="weather_number_of_notifications_title">通知数量</string>
-
+    <string name="weather_settings_options_title">位置设置</string>
+    <string name="weather_settings_summary">选择位置和其他设置</string>
+    <string name="weather_show_location_summary">显示天气位置</string>
+	
     <!-- Status bar temperature -->
     <string name="weather_settings_title">天气</string>
     <string name="status_bar_temperature_title">状态栏天气温度</string>
@@ -823,6 +824,9 @@
     <string name="status_bar_weather_font_notoserif_bold">NotoSerif 粗</string>
     <string name="status_bar_weather_font_notoserif_bold_italic">NotoSerif 粗斜体</string>
 
+    <string name="weather_show_timestamp_title">显示时间戳</string>
+    <string name="weather_show_timestamp_summary">允许显示时间戳</string>
+	
     <!-- Quicks settings columns -->
     <string name="qs_panel_title">快速设置面板</string>
     <string name="qs_panel_title_summary">自定义快速设置</string>
@@ -1017,4 +1021,24 @@
     <string name="show_carrier_enabled">锁屏&amp;状态栏</string>
     <string name="status_bar_carrier_color">运营商标签颜色</string>
     <string name="status_bar_carrier_size">运营商标签尺寸</string>
-</resources>
+	
+    <!-- OmniJaws -->
+    <string name="weather_title">天气</string>
+    <string name="weather_config_title">天气瓷片设置</string>
+    <string name="weather_config_summary"></string>
+    <string name="lockscreen_weather_title">锁屏天气信息</string>
+    <string name="lockscreen_weather_config_title">锁屏天气信息设置</string>
+    <string name="lockscreen_weather_config_summary"></string>
+
+    <!-- StatusBar weather settings -->
+    <string name="statusbar_weather_category">状态栏天气</string>
+    <string name="statusbar_weather_title">状态栏天气</string>
+    <string name="statusbar_weather_summary">在快速设置中配置天气。</string>
+    <string name="statusbar_weather_dialog_title">状态栏天气样式</string>
+    <string name="status_bar_weather_hidden">隐藏天气</string>
+    <string name="status_bar_temperature_image_show_scale">刻度图象显示温度</string>
+    <string name="status_bar_temperature_image_hide_scale">无刻度有图像显示温度</string>
+    <string name="status_bar_temperature_show_scale_hide_image">有刻度显示温度</string>
+    <string name="status_bar_temperature_hide_scale_hide_image">无刻度显示温度</string>
+    <string name="status_bar_show_image">显示图像</string>
+ </resources>
