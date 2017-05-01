@@ -995,23 +995,23 @@
     <string name="one_handed_mode_summary">Attivare la modalità mano singola con uno swipe sulla barra di navigazione</string>
    
      <!-- OmniJaws -->
-+    <string name="weather_config_title">Impostazioni tile meteo</string>
-+    <string name="weather_config_summary"></string>
-+    <string name="lockscreen_weather_title">Informazioni meteo con schermo bloccato</string>
-+    <string name="lockscreen_weather_config_title">Impostazioni informazioni meteo con schermo bloccato</string>
-+    <string name="lockscreen_weather_config_summary"></string>
-+
-+    <!-- StatusBar weather settings -->
-+    <string name="statusbar_weather_category">Meteo nella barra di stato</string>
-+    <string name="statusbar_weather_title">Meteo nella barra di stato</string>
-+    <string name="statusbar_weather_summary">Configurazione impostazioni rapide/Meteo.</string>
-+    <string name="statusbar_weather_dialog_title">Stile meteo nella barra di stato</string>
-+    <string name="status_bar_weather_hidden">Nascondi meteo</string>
-+    <string name="status_bar_temperature_image_show_scale">Mostra temperatura con gradi e immagine</string>
-+    <string name="status_bar_temperature_image_hide_scale">Mostra temperatura con immagine e senza gradi</string>
-+    <string name="status_bar_temperature_show_scale_hide_image">Mostra temperatura con gradi</string>
-+    <string name="status_bar_temperature_hide_scale_hide_image">Mostra temperatura senza gradi</string>
-+    <string name="status_bar_show_image">Mostra immagine</string>
+    <string name="weather_config_title">Impostazioni tile meteo</string>
+    <string name="weather_config_summary"></string>
+    <string name="lockscreen_weather_title">Informazioni meteo con schermo bloccato</string>
+    <string name="lockscreen_weather_config_title">Impostazioni informazioni meteo con schermo bloccato</string>
+    <string name="lockscreen_weather_config_summary"></string>
+
+    <!-- StatusBar weather settings -->
+    <string name="statusbar_weather_category">Meteo nella barra di stato</string>
+    <string name="statusbar_weather_title">Meteo nella barra di stato</string>
+    <string name="statusbar_weather_summary">Configurazione impostazioni rapide/Meteo.</string>
+    <string name="statusbar_weather_dialog_title">Stile meteo nella barra di stato</string>
+    <string name="status_bar_weather_hidden">Nascondi meteo</string>
+    <string name="status_bar_temperature_image_show_scale">Mostra temperatura con gradi e immagine</string>
+    <string name="status_bar_temperature_image_hide_scale">Mostra temperatura con immagine e senza gradi</string>
+    <string name="status_bar_temperature_show_scale_hide_image">Mostra temperatura con gradi</string>
+    <string name="status_bar_temperature_hide_scale_hide_image">Mostra temperatura senza gradi</string>
+    <string name="status_bar_show_image">Mostra immagine</string>
     <string name="weather_title">Weather</string>
     <string name="weather_config_title">Weather tile settings</string>
     <string name="weather_config_summary"></string>
