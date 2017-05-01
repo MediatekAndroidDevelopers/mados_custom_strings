@@ -824,6 +824,9 @@
     <string name="status_bar_weather_font_notoserif_bold">NotoSerif Bold</string>
     <string name="status_bar_weather_font_notoserif_bold_italic">NotoSerif Bold Italic</string>
 
+    <string name="weather_show_timestamp_title">Show timestamp</string>
+    <string name="weather_show_timestamp_summary">Enable to show the timestamp</string>
+
     <!-- Quicks settings columns -->
     <string name="qs_panel_title">Quick settings panel</string>
     <string name="qs_panel_title_summary">Quick settings customizations</string>
