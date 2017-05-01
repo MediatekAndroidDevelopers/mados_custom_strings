@@ -19,21 +19,6 @@
     <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
     <string name="permdesc_preventpower">Επέτρεψε στην εφαρμογή να παρακάμψει το πλήκτρο ενεργοποίησης.</string>
 
-    <!-- Button to restart the phone in restart menu -->
-    <string name="reboot_reboot">Επανεκκίνηση</string>
-    <!-- Button to restart the phone into recovery in restart menu -->
-    <string name="reboot_recovery">Recovery</string>
-    <!-- Button to soft restart the device in restart menu -->
-    <string name="reboot_soft">Επανεκκίνηση λογισμικού</string>
-    <!-- Restart Confirmation Dialog. -->
-    <string name="reboot_confirm" product="tablet">Το tablet θα επανεκκινήσει.</string>
-    <string name="reboot_confirm" product="default">Το τηλέφωνο θα επανεκκινήσει.</string>
-    <!-- Restart Progress Dialog. This is shown if the user chooses to restart the phone. -->
-    <string name="reboot_progress">Επανεκκίνηση\u2026</string>
-
-    <!-- label for item that screenshots in phone options dialog -->
-    <string name="global_action_screenshot">Στιγμιότυπο Οθόνης</string>
-
     <!-- Fast Charge -->
     <string name="fc_active_notification_title">Ρυθμίσεις γρήγορης φόρτισης</string>
     <string name="fc_active_notification_message">"Πατήστε για ρυθμίσεις γρήγορης φόρτισης"</string>
@@ -63,4 +48,25 @@
     <string name="disable_navigation_pie_error">Δεν μπορεί να απενεργοποιηθεί η γραμμή πλοήγησης. Καμιά άλλη πλοήγηση δεν είναι ενεργή. Ενεργοποιήστε πρώτα την πίτα και μετά απενεργοποιήστε την γραμμή πλοήγησης.</string>
 
     <string name="singlehandmode_click_hint_message">Αγγίξτε έξω απο την οθόνη γι να βγείτε απο την Προβολή μικρής οθόνης </string>
+
+	<!-- mad custom power menu -->
+    <!-- Reboot Dialog -->
+    <string name="global_action_reboot">Επανεκκίνηση</string>
+    <!-- Button to reboot the phone in reboot menu -->
+    <string name="reboot_reboot">Επανεκκίνηση</string>
+    <!-- Button to reboot the phone into recovery in reboot menu-->
+    <string name="reboot_recovery">Recovery</string>
+    <!-- Button to reboot the phone into bootloader in reboot menu -->
+    <string name="reboot_bootloader">Bootloader</string>
+    <!-- Button to soft reboot the device in reboot menu -->
+    <string name="reboot_soft">Επανεκκίνηση λογισμικού</string>
+    <!-- Reboot Confirmation Dialog. -->
+    <string name="reboot_confirm" product="tablet">Το τάμπλετ θα επανεκκινήσει.</string>
+    <string name="reboot_confirm" product="default">Το τηφέφωνο θα επανεκκινήσει.</string>
+    <!-- Reboot Progress Dialog. This is shown if the user chooses to reboot the phone. -->
+    <string name="reboot_progress">Επανεκκίνηση\u2026</string>
+    <!-- label for item that screenshots in phone options dialog -->
+    <string name="global_action_screenshot">Στιγμιότυπο οθόνης</string>
+    <!-- screenshot on the power menu -->
+    <string name="powermenu_screenshot">Στιγμιότυπο οθόνης</string>
 </resources>
