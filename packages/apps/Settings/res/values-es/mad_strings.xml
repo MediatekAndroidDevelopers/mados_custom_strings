@@ -824,10 +824,13 @@
     <string name="status_bar_weather_font_notoserif_bold">NotoSerif Negrita</string>
     <string name="status_bar_weather_font_notoserif_bold_italic">NotoSerif Negrita Cursiva</string>
 
+    <string name="weather_show_timestamp_title">Mostrar fecha y hora</string>
+    <string name="weather_show_timestamp_summary">Permite mostrar la fecha y hora</string>
+
     <!-- Quicks settings columns -->
     <string name="qs_panel_title">Panel configuración rápida</string>
     <string name="qs_panel_title_summary">Configuraciones rápidas</string>
-    <string name="qs_columns_title">Número de baldosas en la columna</string>
+    <string name="qs_columns_title">Número de iconos en la columna</string>
     <string name="qs_rows_portrait_title">Número de filas (vertical)</string>
     <string name="qs_rows_landscape_title">Número de filas (horizontal)</string>
 	
@@ -856,7 +859,7 @@
 
     <!-- Quicks settings vibrate -->
     <string name="quick_settings_vibrate_title">Vibrar al tocarlo</string>
-    <string name="quick_settings_vibrate_summary">Vibrar al tocar las baldosas</string>
+    <string name="quick_settings_vibrate_summary">Vibrar al tocar los iconos</string>
 
     <!-- Lockscreen -->
     <string name="lockscreen_settings_title">Pantalla de bloqueo</string>
@@ -1021,7 +1024,7 @@
 
     <!-- OmniJaws -->
     <string name="weather_title">Clima</string>
-    <string name="weather_config_title">Configuración de baldosa clima</string>
+    <string name="weather_config_title">Configuración del icono clima</string>
     <string name="weather_config_summary"></string>
     <string name="lockscreen_weather_title">Información clima en Pantalla bloqueo</string>
     <string name="lockscreen_weather_config_title">Configuración clima pantalla bloqueo</string>
