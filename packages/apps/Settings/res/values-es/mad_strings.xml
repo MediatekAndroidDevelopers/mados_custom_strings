@@ -1041,4 +1041,16 @@
     <string name="status_bar_temperature_show_scale_hide_image">Mostrar temperatura con escala</string>
     <string name="status_bar_temperature_hide_scale_hide_image">Mostrar temperatura sin escala</string>
     <string name="status_bar_show_image">Mostrar imagen</string>
+	
+	<!-- Power Menu -->
+    <string name="powermenu_title">Menú de apagado</string>
+    <string name="powermenu_settings_summary">Personalizar menú apagado</string>
+    <string name="powermenu_screenshot">Captura</string>
+    <string name="powermenu_power">Power</string>
+    <string name="powermenu_reboot">Reiniciar</string>
+    <string name="powermenu_airplane">Modo Avión</string>
+    <string name="powermenu_settings">Ajustes</string>
+    <string name="powermenu_lockdown">Bloquear</string>
+    <string name="powermenu_soundpanel">Panel de sonido</string>
+	
  </resources>
