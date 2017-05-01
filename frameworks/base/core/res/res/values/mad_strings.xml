@@ -19,21 +19,6 @@
     <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
     <string name="permdesc_preventpower">Allows an app to override the power key.</string>
 
-    <!-- Button to restart the phone in restart menu -->
-    <string name="reboot_reboot">Restart</string>
-    <!-- Button to restart the phone into recovery in restart menu -->
-    <string name="reboot_recovery">Recovery</string>
-    <!-- Button to soft restart the device in restart menu -->
-    <string name="reboot_soft">Soft restart</string>
-    <!-- Restart Confirmation Dialog. -->
-    <string name="reboot_confirm" product="tablet">Your tablet will restart.</string>
-    <string name="reboot_confirm" product="default">Your phone will restart.</string>
-    <!-- Restart Progress Dialog. This is shown if the user chooses to restart the phone. -->
-    <string name="reboot_progress">Restarting\u2026</string>
-
-    <!-- label for item that screenshots in phone options dialog -->
-    <string name="global_action_screenshot">Screenshot</string>
-
     <!-- Fast Charge -->
     <string name="fc_active_notification_title">Fast-Charge settings</string>
     <string name="fc_active_notification_message">"Touch for Fast-Charge Settings"</string>
@@ -63,4 +48,25 @@
     <string name="disable_navigation_pie_error">You cannot disable the navigation bar. No other navigation is enabled. Enable first pie controls to turn off the navigation bar.</string>
 
     <string name="singlehandmode_click_hint_message">Touch outside the screen to exit mini screen view</string>
+
+    <!-- mad custom power menu -->
+    <!-- Reboot Dialog -->
+    <string name="global_action_reboot">Reboot</string>
+    <!-- Button to reboot the phone in reboot menu -->
+    <string name="reboot_reboot">Reboot</string>
+    <!-- Button to reboot the phone into recovery in reboot menu-->
+    <string name="reboot_recovery">Recovery</string>
+    <!-- Button to reboot the phone into bootloader in reboot menu -->
+    <string name="reboot_bootloader">Bootloader</string>
+    <!-- Button to soft reboot the device in reboot menu -->
+    <string name="reboot_soft">Soft reboot</string>
+    <!-- Reboot Confirmation Dialog. -->
+    <string name="reboot_confirm" product="tablet">Your tablet will reboot.</string>
+    <string name="reboot_confirm" product="default">Your phone will reboot.</string>
+    <!-- Reboot Progress Dialog. This is shown if the user chooses to reboot the phone. -->
+    <string name="reboot_progress">Rebooting\u2026</string>
+    <!-- label for item that screenshots in phone options dialog -->
+    <string name="global_action_screenshot">Screenshot</string>
+    <!-- screenshot on the power menu -->
+    <string name="powermenu_screenshot">Screenshot</string>
 </resources>
