@@ -823,6 +823,9 @@
     <string name="status_bar_weather_font_notoserif_italic">NotoSerif Italic</string>
     <string name="status_bar_weather_font_notoserif_bold">NotoSerif Bold</string>
     <string name="status_bar_weather_font_notoserif_bold_italic">NotoSerif Bold Italic</string>
+	
+    <string name="weather_show_timestamp_title">Εμφάνιση σφραγίδας χρόνου</string>
+    <string name="weather_show_timestamp_summary">Ενεργοποίηση εμφάνισης σφραγίδας χρόνου</string>
 
     <!-- Quicks settings columns -->
     <string name="qs_panel_title">Πάνελ γρήγορων ρυθμίσεων</string>
@@ -1038,4 +1041,16 @@
     <string name="status_bar_temperature_show_scale_hide_image">Εμφάνιση θερμοκρασίας με ποσοστό</string>
     <string name="status_bar_temperature_hide_scale_hide_image">Εμφάνιση θερμοκρασίας χωρίς ποσοστό</string>
     <string name="status_bar_show_image">Εμφάνιση εικόνας</string>
+	
+	 <!-- Power Menu -->
+    <string name="powermenu_title">Μενού ισχύος</string>
+    <string name="powermenu_settings_summary">Προσαρμογή μενού ισχύος</string>
+    <string name="powermenu_screenshot">Στιγμιότυπο οθόνης</string>
+    <string name="powermenu_power">Ενεργοποίηση</string>
+    <string name="powermenu_reboot">Επανεκκινήση</string>
+    <string name="powermenu_airplane">Λειτουργία πτήσης</string>
+    <string name="powermenu_settings">Ρυθμίσεις</string>
+    <string name="powermenu_lockdown">Κλείδωμα</string>
+    <string name="powermenu_soundpanel">Πάνελ ήχου</string>
+
 </resources>
