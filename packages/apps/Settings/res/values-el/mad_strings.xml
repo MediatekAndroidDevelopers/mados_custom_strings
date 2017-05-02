@@ -1046,11 +1046,17 @@
     <string name="powermenu_title">Μενού ισχύος</string>
     <string name="powermenu_settings_summary">Προσαρμογή μενού ισχύος</string>
     <string name="powermenu_screenshot">Στιγμιότυπο οθόνης</string>
+    <string name="powermenu_torch">Φακός</string>
     <string name="powermenu_power">Ενεργοποίηση</string>
     <string name="powermenu_reboot">Επανεκκινήση</string>
     <string name="powermenu_airplane">Λειτουργία πτήσης</string>
     <string name="powermenu_settings">Ρυθμίσεις</string>
     <string name="powermenu_lockdown">Κλείδωμα</string>
     <string name="powermenu_soundpanel">Πάνελ ήχου</string>
+    <string name="powermenu_users">Χρήστες</string>
 
-</resources>
+	<!-- Power menu on secure lockscreen -->
+    <string name="lockscreen_enable_power_menu_title">Εμφάνιση μενού ισχύος στην οθόνη κλειδώματος</string>
+    <string name="lockscreen_enable_power_menu_summary">Απενεργοποιεί το μενού ισχύος στις ασφαλείς οθόνες κλειδώματος</string>
+ </resources>
+
