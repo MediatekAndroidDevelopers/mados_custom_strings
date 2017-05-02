@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-     Copyright (C) 2017 The madOS Project
+     Copyright (C) 2016, 2017 The madOS Team
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -1041,4 +1041,22 @@
     <string name="status_bar_temperature_show_scale_hide_image">有刻度顯示溫度</string>
     <string name="status_bar_temperature_hide_scale_hide_image">無刻度顯示溫度</string>
     <string name="status_bar_show_image">顯示圖像</string>
+	
+    <!-- Power Menu -->
+    <string name="powermenu_title">電源菜單</string>
+    <string name="powermenu_settings_summary">自定義電源菜單</string>
+    <string name="powermenu_screenshot">截屏</string>
+    <string name="powermenu_torch">手電筒</string>	
+    <string name="powermenu_power">電源</string>
+    <string name="powermenu_reboot">重啟</string>
+    <string name="powermenu_airplane">飛行模式</string>
+    <string name="powermenu_settings">設置</string>
+    <string name="powermenu_lockdown">鎖定</string>
+    <string name="powermenu_soundpanel">聲音面板</string>
+    <string name="powermenu_users">用戶</string>
+
+    <!-- Power menu on secure lockscreen -->
+    <string name="lockscreen_enable_power_menu_title">鎖屏時允許顯示電源菜單</string>
+    <string name="lockscreen_enable_power_menu_summary">此選項僅安全鎖屏時將禁用電源菜單</string>
  </resources>
+ 
