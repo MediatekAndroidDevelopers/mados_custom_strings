@@ -966,7 +966,7 @@
     <string name="recents_clear_all_location_top_left">Πάνω αριστερά</string>
     <string name="recents_clear_all_location_top_center">Πάνω κέντρο</string>
     <string name="recents_clear_all_location_bottom_right">Κάτω δεξιά</string>
-θπ    <string name="recents_clear_all_location_bottom_left">Κάτω αριστερά</string>
+    <string name="recents_clear_all_location_bottom_left">Κάτω αριστερά</string>
     <string name="recents_clear_all_location_bottom_center">Κάτω κέντρο</string>
 
     <!-- Wakelock blocker -->

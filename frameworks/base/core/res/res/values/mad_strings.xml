@@ -69,4 +69,6 @@
     <string name="global_action_screenshot">Screenshot</string>
     <!-- screenshot on the power menu -->
     <string name="powermenu_screenshot">Screenshot</string>
+    <!-- Powermenu Torch -->
+    <string name="global_action_torch">Flashlight</string>
 </resources>
