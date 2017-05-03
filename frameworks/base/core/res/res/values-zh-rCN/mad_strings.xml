@@ -56,7 +56,7 @@
     <string name="reboot_reboot">重启</string>
     <!-- Button to reboot the phone into recovery in reboot menu -->
     <string name="reboot_recovery">Recovery</string>
-    <!-- Button to reboot the phone into bootloader in reboot menu -->+
+    <!-- Button to reboot the phone into bootloader in reboot menu -->
     <string name="reboot_bootloader">Bootloader</string>
     <!-- Button to soft reboot the device in reboot menu -->
     <string name="reboot_soft">软重启</string>

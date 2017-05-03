@@ -49,7 +49,7 @@
 
     <string name="singlehandmode_click_hint_message">Αγγίξτε έξω απο την οθόνη γι να βγείτε απο την Προβολή μικρής οθόνης </string>
 
-	<!-- mad custom power menu -->
+    <!-- mad custom power menu -->
     <!-- Reboot Dialog -->
     <string name="global_action_reboot">Επανεκκίνηση</string>
     <!-- Button to reboot the phone in reboot menu -->
@@ -69,6 +69,6 @@
     <string name="global_action_screenshot">Στιγμιότυπο οθόνης</string>
     <!-- screenshot on the power menu -->
     <string name="powermenu_screenshot">Στιγμιότυπο οθόνης</string>
-	<!-- Powermenu Torch -->
-+    <string name="global_action_torch">Φακός</string>
+    <!-- Powermenu Torch -->
+    <string name="global_action_torch">Φακός</string>
 </resources>
