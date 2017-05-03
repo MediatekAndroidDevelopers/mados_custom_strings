@@ -19,22 +19,7 @@
     <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
     <string name="permdesc_preventpower">Permite que una aplicación reemplace la tecla de encendido.</string>
 
-    <!-- Button to restart the phone in restart menu -->
-    <string name="reboot_reboot">Reiniciar</string>
-    <!-- Button to restart the phone into recovery in restart menu -->
-    <string name="reboot_recovery">Recovery</string>
-    <!-- Button to soft restart the device in restart menu -->
-    <string name="reboot_soft">Reinicio Suave</string>
-    <!-- Restart Confirmation Dialog. -->
-    <string name="reboot_confirm" product="tablet">Su tablet se reiniciará.</string>
-    <string name="reboot_confirm" product="default">Su teléfono se reiniciará.</string>
-    <!-- Restart Progress Dialog. This is shown if the user chooses to restart the phone. -->
-    <string name="reboot_progress">Reiniciando\u2026</string>
-
-    <!-- label for item that screenshots in phone options dialog -->
-    <string name="global_action_screenshot">Captura</string>
-
-    <!-- Fast Charge -->
+	 <!-- Fast Charge -->
     <string name="fc_active_notification_title">Opciones de Carga Rápida </string>
     <string name="fc_active_notification_message">"configurar Carga Rápida"</string>
 
@@ -45,22 +30,45 @@
     <string name="lock_to_app_toast_no_navbar">Para desvincular esta pantalla, toque y mantenga presionado el botón Atrás.</string>
 	
 	<!-- status message in phone options dialog for when pie is on -->
-    <string name="global_actions_pie_mode_on_status">SlimPie ACTIVADO</string>
+    <string name="global_actions_pie_mode_on_status">SlimPie activado.</string>
 
     <!-- status message in phone options dialog for when pie is off -->
-    <string name="global_actions_pie_mode_off_status">SlimPie DESACTIVADO</string>
+    <string name="global_actions_pie_mode_off_status">SlimPie desactivado.</string>
 
     <!-- Error message if user want to try to disable all navigation options -->
     <string name="disable_pie_navigation_error">No puede desactivar los controles PIE.Ninguna navegación está habilitada.Habilite primero la barra de navegación.</string>
 
     <!-- status message in phone options dialog for when navigation bar is on -->
-    <string name="global_actions_nav_bar_mode_on_status">Barra de navegación ACTIVADA</string>
+    <string name="global_actions_nav_bar_mode_on_status">Barra de navegación activada.</string>
 
     <!-- status message in phone options dialog for when navigation bar is off -->
-    <string name="global_actions_nav_bar_mode_off_status">Barra de navegación DESACTIVADA</string>
+    <string name="global_actions_nav_bar_mode_off_status">Barra de navegación desactivada.</string>
 
     <!-- Error message if user want to try to disable all navigation options -->
     <string name="disable_navigation_pie_error">No puede desactivar la barra de navegación.Ninguna otra navegación está habilitada.Active primero los controles PIE.</string>
 
     <string name="singlehandmode_click_hint_message">Toque fuera de la pantalla para salir de la mini visualización</string>
+	
+    <!-- mad custom power menu -->
+    <!-- Reboot Dialog -->
+    <string name="global_action_reboot">Reiniciar</string>
+    <!-- Button to reboot the phone in reboot menu -->
+    <string name="reboot_reboot">Reiniciar</string>
+    <!-- Button to reboot the phone into recovery in reboot menu-->
+    <string name="reboot_recovery">Recovery</string>
+    <!-- Button to reboot the phone into bootloader in reboot menu -->
+    <string name="reboot_bootloader">Bootloader</string>
+    <!-- Button to soft reboot the device in reboot menu -->
+    <string name="reboot_soft">Reinicio Suave</string>
+    <!-- Reboot Confirmation Dialog. -->
+    <string name="reboot_confirm" product="tablet">Su tablet se reiniciará.</string>
+    <string name="reboot_confirm" product="default">Su teléfono se reiniciará.</string>
+    <!-- Reboot Progress Dialog. This is shown if the user chooses to reboot the phone. -->
+    <string name="reboot_progress">Reiniciando\u2026</string>
+    <!-- label for item that screenshots in phone options dialog -->
+    <string name="global_action_screenshot">Captura</string>
+    <!-- screenshot on the power menu -->
+    <string name="powermenu_screenshot">Captura</string>
+    <!-- Powermenu Torch -->
+    <string name="global_action_torch">Linterna</string>
 </resources>
