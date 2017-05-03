@@ -1046,11 +1046,16 @@
     <string name="powermenu_title">Menú de apagado</string>
     <string name="powermenu_settings_summary">Personalizar menú apagado</string>
     <string name="powermenu_screenshot">Captura</string>
-    <string name="powermenu_power">Power</string>
+    <string name="powermenu_torch">Linterna</string>
+    <string name="powermenu_power">Apagar</string>
     <string name="powermenu_reboot">Reiniciar</string>
     <string name="powermenu_airplane">Modo Avión</string>
     <string name="powermenu_settings">Ajustes</string>
     <string name="powermenu_lockdown">Bloquear</string>
     <string name="powermenu_soundpanel">Panel de sonido</string>
+    <string name="powermenu_users">Usuarios</string>
 	
- </resources>
+     <!-- Power menu on secure lockscreen -->
+     <string name="lockscreen_enable_power_menu_title">Mostrar menú energía en pantalla bloqueo</string>
+     <string name="lockscreen_enable_power_menu_summary">Esta opción desactivará el menú de apagado en la pantalla de bloqueo</string>
+   </resources>
