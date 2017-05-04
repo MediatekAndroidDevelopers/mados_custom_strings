@@ -1042,7 +1042,7 @@
     <string name="status_bar_temperature_hide_scale_hide_image">Mostrar temperatura sin escala</string>
     <string name="status_bar_show_image">Mostrar imagen</string>
 	
-	<!-- Power Menu -->
+    <!-- Power Menu -->
     <string name="powermenu_title">Menú de apagado</string>
     <string name="powermenu_settings_summary">Personalizar menú apagado</string>
     <string name="powermenu_screenshot">Captura</string>
@@ -1054,8 +1054,9 @@
     <string name="powermenu_lockdown">Bloquear</string>
     <string name="powermenu_soundpanel">Panel de sonido</string>
     <string name="powermenu_users">Usuarios</string>
+    <string name="powermenu_onthego_title">Modo On-The-Go</string>
 	
      <!-- Power menu on secure lockscreen -->
-     <string name="lockscreen_enable_power_menu_title">Mostrar menú energía en pantalla bloqueo</string>
+     <string name="lockscreen_enable_power_menu_title">Mostrar menú de apagado en pantalla bloqueo</string>
      <string name="lockscreen_enable_power_menu_summary">Esta opción desactivará el menú de apagado en la pantalla de bloqueo</string>
    </resources>
