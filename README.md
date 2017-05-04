@@ -20,7 +20,7 @@
 
 ### Translations ###
 * German translated by M.A.D. team & curtisy1
-* Portuguese (Portugal) translated by M.A.D. team & fusant
+* Portuguese (Portugal) translated by M.A.D. team & fusant & lingfude
 * Portuguese (Brazil) translated by Aníbal Cézar Catheringer Ribeiro
 * Russian translated by Borizzz & Deepflex
 * French translated by Wandrille du Chalard & Moyster
