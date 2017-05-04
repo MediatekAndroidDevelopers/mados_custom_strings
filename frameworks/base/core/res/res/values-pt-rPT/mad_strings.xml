@@ -24,7 +24,7 @@
     <!-- Button to restart the phone into recovery in restart menu -->
     <string name="reboot_recovery">Recuperação</string>
     <!-- Button to soft restart the device in restart menu -->
-    <string name="reboot_soft">Reinício suave</string>
+    <string name="reboot_soft">Reinício rápido</string>
     <!-- Restart Confirmation Dialog. -->
     <string name="reboot_confirm" product="tablet">O tablet vai reiniciar.</string>
     <string name="reboot_confirm" product="default">O telefone vai reiniciar.</string>
