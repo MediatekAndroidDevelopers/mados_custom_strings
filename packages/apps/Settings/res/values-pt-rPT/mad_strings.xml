@@ -21,7 +21,7 @@
     <string name="enable_navigation_bar_summary">Ativar teclas de navegação no ecrã</string>
     <string name="hardware_brightness_keys_title">Luz das teclas de navegação</string>
     <string name="hardware_brightness_keys_summary">Ativar luz das teclas de navegação</string>
-    <string name="hardware_keys_home_key_title">Tecla casa</string>
+    <string name="hardware_keys_home_key_title">Tecla inicio</string>
     <string name="hardware_keys_back_key_title">Tecla retroceder</string>
     <string name="hardware_keys_menu_key_title">Tecla menu</string>
     <string name="hardware_keys_assist_key_title">Tecla assistente</string>
@@ -41,7 +41,7 @@
 
     <!-- Notification light dialogs -->
     <string name="edit_light_settings">Editar definições do LED de notificações</string>
-    <string name="pulse_speed_title">Duração e velocidade do pulso</string>
+    <string name="pulse_speed_title">Duração e velocidade do piscar</string>
     <string name="default_time">Normal</string>
     <string name="custom_time">Personalizado</string>
     <string name="dialog_delete_title">Apagar</string>
@@ -62,9 +62,9 @@
 
     <!-- Battery light settings -->
     <string name="battery_light_title">Luz da bateria</string>
-    <string name="battery_low_pulse_title">Pulsar em caso de bateria fraca</string>
+    <string name="battery_low_pulse_title">Piscar em caso de bateria fraca</string>
     <string name="battery_light_list_title">Cores</string>
-    <string name="battery_light_low_color_title">Batteria fraca</string>
+    <string name="battery_light_low_color_title">Bateria fraca</string>
     <string name="battery_light_medium_color_title">A carregar</string>
     <string name="battery_light_full_color_title">Carregada</string>
 
@@ -81,7 +81,7 @@
     <!-- Lights settings, LED notification -->
     <string name="led_notification_title">Definições do LED de notificação</string>
     <string name="led_notification_text">Luz ativa nas definições</string>
-    <string name="notification_light_no_apps_summary">Para adicionar o controlo por app, ativar \'%1$s\' e pressionar \'\u002b\' na barra de menu</string>
+    <string name="notification_light_no_apps_summary">Para adicionar o controlo por aplicação, ativar \'%1$s\' e pressionar \'\u002b\' na barra de menu</string>
 
     <string name="interruptions_ignore_while_media_title">Prevenir interrupção do áudio</string>
     <string name="interruptions_ignore_while_media_summary">Não interromper áudio quando surge uma notificação</string>
@@ -136,7 +136,7 @@
     <string name="qs_tile_fcharge">Carregamento rápido</string>
 
     <!-- Performance settings  -->
-    <string name="performance_settings_title">Performance</string>
+    <string name="performance_settings_title">Desempenho</string>
     <string name="performance_settings_summary">Controlo do processador e das definições do programador I/O</string>
 
     <!-- Performance Settings : Warning dialog  -->
@@ -299,7 +299,7 @@
 
     <!-- > App Ops -->
     <!-- [CHAR LIMIT=NONE] App ops settings title, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
-    <string name="app_ops_settings">App Ops</string>
+    <string name="app_ops_settings">Operações das Aplicações</string>
     <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
     <string name="app_ops_settings_summary">Ver ou mudar permissões das aplicações</string>
 
@@ -315,7 +315,7 @@
 
     <!-- Doze pulse (ambient display) options -->
     <string name="doze_list_mode_title">Visualização de ambiente</string>
-    <string name="doze_list_mode_summary">Ativar o ecrã quando surgirem notificações</string>
+    <string name="doze_list_mode_summary">Ativar o ecrã quando surgem notificações</string>
 
     <string name="doze_pulse_title">Definições de tempo</string>
     <string name="doze_pulse_duration_in_title">Desvanecimento inicial</string>
@@ -327,7 +327,7 @@
     <string name="doze_pulse_duration_out_title">Desvanecimento final</string>
     <string name="doze_pulse_duration_out_summary"></string>
 
-    <string name="doze_pulse_on_notifications_title">Pulsar em notificações</string>
+    <string name="doze_pulse_on_notifications_title">Piscar em notificações</string>
     <string name="doze_pulse_on_notifications_summary">Ativar apenas em notificações pendentes</string>
 
     <string name="doze_time_mode_title">Mostrar relógio e data</string>
@@ -347,9 +347,9 @@
     <string name="fourhalf_second">4,5 s</string>
     <string name="five_second">5 s</string>
 
-    <string name="pocket_pulse_mode">Bolso e pulso</string>
+    <string name="pocket_pulse_mode">Bolso e piscar</string>
     <string name="pocket_only_mode">Bolso</string>
-    <string name="pulse_only_mode">Pulso (default)</string>
+    <string name="pulse_only_mode">Piscar (default)</string>
 
     <!-- Status bar -->
     <string name="status_bar_title">Barra de estado</string>
@@ -411,8 +411,8 @@
     <string name="navbar_behaviour_category_title">Comportamento geral da barra de navegação</string>
 
     <string name="navigation_bar_title">Botões e esquema</string>
-    <string name="navigation_bar_help_text">Para começar tocar no ícone editar para desbloquear a barra de navegação para edição.\n\nPodes tocar num ícone para mudar o seu atalho ou tocar continuamente para rearranjar a disposição.\n\nTocar em guardar para aplicar as alterações ou em restaurar para repor as predefinições.</string>
-    <string name="navigation_restore_button_text">Restaurar\ndefaults</string>
+    <string name="navigation_bar_help_text">Para começar tocar no ícone editar para desbloquear a barra de navegação para edição.\n\nPode tocar num ícone para mudar o seu atalho ou tocar continuamente para rearranjar a disposição.\n\nTocar em guardar para Aplicar as alterações ou em Restaurar para repor as predefinições.</string>
+    <string name="navigation_restore_button_text">Restaurar\npredefinições</string>
     <string name="navigation_edit_button_text">Editar</string>
     <string name="navigation_save_button_text">Guardar</string>
     <string name="navigation_bar_reset_message">Eliminar todas as alterações e restaurar predefinições?</string>
@@ -421,7 +421,7 @@
     <string name="nav_arrow_keys_summary">Mostrar seta para e esquerda e para a direita enquanto escrevo</string>
 
     <string name="nav_pixel_nav_title">Ativar o esquema Pixel</string>
-    <string name="nav_pixel_nav_summary">Ativa o esquema predefinido do Pixel para o botão casa</string>
+    <string name="nav_pixel_nav_summary">Ativa o esquema predefinido do Pixel para a Tecla inicio</string>
 
     <string name="navigation_bar_can_move_title">Mover a barra de navegação se o dispositivo for rodado</string>
     <string name="navigation_bar_can_move_summary">Quando ativada e o dispositivo dor rodado, a barra de navegação é movida para o lado do ecrã</string>
@@ -445,9 +445,9 @@
     <string name="navigation_bar_size_0_dp">0 dp (off)</string>
 
     <!-- Navigation bar button color -->
-    <string name="navbar_button_tint_title">Matiz da barra de navegação</string>
+    <string name="navbar_button_tint_title">Matriz da barra de navegação</string>
     <string name="nav_bar_dynamic_title">Cor dinâmica na barra de navegação</string>
-    <string name="nav_bar_dynamic_summary">Usar a cor primária da aplicação em primeiro plano como fundo barra de navegação.</string>
+    <string name="nav_bar_dynamic_summary">Usar a cor primária da aplicação em primeiro plano como fundo da barra de navegação.</string>
     <string name="navigation_bar_background_enabled_always_title">Cor estática na barra de navegação</string>
     <string name="navigation_bar_background_enabled_fallback_title">Cor de trás na barra de navegação</string>
     <string name="navigation_bar_background_enabled_always_summary">Usar a cor de trás no fundo da barra de navegação</string>
@@ -457,7 +457,7 @@
     <!-- SlimDim -->
     <string name="dim_nav_buttons_category_title">Obscurecer a barra de navegação</string>
     <string name="dim_nav_buttons_category_summary">Opções para escurecer a barra de navegação em caso de inatividade</string>
-    <string name="dim_nav_buttons_title">Obscurecer butões após inatividade</string>
+    <string name="dim_nav_buttons_title">Obscurecer botões após inatividade</string>
     <string name="dim_nav_buttons_summary">Obscurecer os botões após não interagir com a barra de navegação após um período de tempo</string>
     <string name="dim_nav_buttons_timeout_title">Tempo antes de obscurecer</string>
     <string name="dim_nav_buttons_timeout_summary">Tempo (em milissegundos) a aguardar antes de escurecer os botões</string>
@@ -473,12 +473,12 @@
     <string name="dim_nav_buttons_touch_anywhere_summary_off">Apenas tocar na barra de tarefas vai fazer aparecer os botões</string>
 
     <string name="unit_msec">msec</string>
-    <string name="reset">Reset</string>
+    <string name="reset">Restaurar</string>
 
     <!-- Actions -->
     <string name="shortcut_action_none">Nenhuma</string>
     <string name="shortcut_action_app">Aplicação personalizada</string>
-    <string name="shortcut_action_home">Casa</string>
+    <string name="shortcut_action_home">Inicio</string>
     <string name="shortcut_action_back">Retroceder</string>
     <string name="shortcut_action_menu">Menu</string>
     <string name="shortcut_action_ime">Abrir editor de método de introdução</string>
@@ -506,13 +506,13 @@
     <string name="shortcut_action_assist">Procurar</string>
 
     <!-- Sliding home -->
-    <string name="navbar_sliding_home_category">Botão casa inteligente</string>
-    <string name="navbar_sliding_home_enabled_title">Ativar deslizamento do botão casa</string>
-    <string name="navbar_sliding_home_enabled_summary">Delizar o botão casa para esquerda/direita para realizar diversas ações</string>
+    <string name="navbar_sliding_home_category">Botão inicio inteligente</string>
+    <string name="navbar_sliding_home_enabled_title">Ativar deslizamento do botão inicio</string>
+    <string name="navbar_sliding_home_enabled_summary">Delizar o botão inicio para esquerda/direita para realizar diversas ações</string>
     <string name="navbar_sliding_home_left_title">Deslizar para a esquerda</string>
-    <string name="navbar_sliding_home_left_summary">Ação a realizar quando o botão casa é deslizado para a esquerda</string>
+    <string name="navbar_sliding_home_left_summary">Ação a realizar quando o botão inicio é deslizado para a esquerda</string>
     <string name="navbar_sliding_home_right_title">Deslizar para a direita</string>
-    <string name="navbar_sliding_home_right_summary">Ação a realizar quando o botão casa é deslizado para a direita</string>
+    <string name="navbar_sliding_home_right_summary">Ação a realizar quando o botão inicio é deslizado para a direita</string>
 
     <!-- double tap statusbar to sleep -->
     <string name="double_tap_to_sleep_title">Duplo toque para suspender</string>
@@ -574,15 +574,15 @@
 
     <!-- Scheduled power on/off -->
     <string name="scheduled_power_on_off_title">Programar Desligar ligado &amp; desligado</string>
-    <string name="scheduled_power_on_off_summary">Opções para programação de energia ligado / desligado</string>
+    <string name="scheduled_power_on_off_summary">Opções para programação de energia ligado/desligado</string>
 
-    <string name="scheduled_power_on">Activar</string>
-    <string name="scheduled_power_off">Desactivar</string>
+    <string name="scheduled_power_on">Ativar</string>
+    <string name="scheduled_power_off">Desativar</string>
 
     <string name="scheduled_power_edit_time">Editar Hora</string>
     <string name="scheduled_power_edit_days">Editar Dias</string>
 
-    <string name="scheduled_power_shutdown_message">Seu telefone desligará em <xliff:g id="seconds">%s</xliff:g> segundos</string>
+    <string name="scheduled_power_shutdown_message">O telefone irá desligar em <xliff:g id="seconds">%s</xliff:g> segundos</string>
 
     <string name="additional_options_title">Opções adicionais</string>
     <string name="attention">Atenção</string>
@@ -597,11 +597,11 @@
     <!-- new pie -->
     <string name="icon_color_mode_all_icons">Todos os ícones</string>
     <string name="icon_color_mode_system_icons">Ícones de sistema</string>
-    <string name="icon_color_mode_system_custom_icons">System and custom icons</string>
+    <string name="icon_color_mode_system_custom_icons">Sistema e ícones personalizados</string>
 
     <string name="title_pref_menu_display">Visibilidade do menu</string>
     <string name="summary_pref_menu_display">Como e quando quer que os botões do menu apareçam?</string>
-    <string name="navigation_menu_default_behavior">Mostrar a pedido (padrão)</string>
+    <string name="navigation_menu_default_behavior">Mostrar a pedido (predefinido)</string>
     <string name="navigation_menu_never_show">Nunca mostrar</string>
     <string name="navigation_menu_always_show">Mostrar sempre</string>
 
@@ -622,7 +622,7 @@
     <string name="shortcut_action_help_button">botão</string>
     <string name="shortcut_action_help_app">aplicação</string>
     <string name="shortcut_action_help_icon">, enquanto selecionar o ícone, aparecerão as opções de personalização</string>
-    <string name="shortcut_action_help_main">Para adicionar um %1$s, selecione o ícone Adicionar.  Quando adicionado um %1$s, ao selecionar a linha poderá mudar o %2$s\n\nPara eliminar um %1$s, deslize a linha na horizontal à esquerda ou à direita.  Para reordenar um %1$s na lista arraste-o na vertical pressionando o ícone à sua esquerda.\n\nPara limpar e redefinir aos valores de origem, selecione o ícone de Restaurar.</string>
+    <string name="shortcut_action_help_main">Para adicionar um %1$s, selecione o ícone Adicionar. Quando adicionado um %1$s, ao selecionar a linha poderá mudar o %2$s\n\nPara eliminar um %1$s, deslize a linha na horizontal à esquerda ou à direita. Para reordenar um %1$s na lista arraste-o na vertical pressionando o ícone à sua esquerda.\n\nPara limpar e redefinir aos valores de origem, selecione o ícone Restaurar.</string>
     <string name="shortcut_action_help_delete_last_entry">Remover todos os %1$s na lista irá desativar o recurso inteiramente.</string>
     <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Remover todos os %1$s na lista desativará a segunda camada da PIE.</string>
 
@@ -688,7 +688,7 @@
 
     <string name="help">Ajuda</string>
     <string name="no_home_key">Não tem nenhum botão atribuído para a ação \"Home\"!\n\nIsto pode tornar o seu dispositivo inutilizável!</string>
-    <string name="no_back_key">Não tem nenhum botão atribuído para a ação \"Back\" action!\n\nIsto pode tornar o seu dispositivo inutilizável!</string>
+    <string name="no_back_key">Não tem nenhum botão atribuído para a ação \"Back\"!\n\nIsto pode tornar o seu dispositivo inutilizável!</string>
 
     <!-- Pie Control -->
     <string name="pie_control_title">PIE</string>
@@ -737,13 +737,13 @@
     <string name="pie_button_style_summary">Mudar o estilo dos botões da PIE</string>
     <string name="pie_style_reset_message">Restaurar as entradas de estilo para o padrão?</string>
     <string name="pie_warning_no_navigation_present">Nenhum outro modo de navegação está ativado no momento. Desativar os controlos PIE pode resultar num dispositivo inutilizável. Quer ativar a barra de navegação em vez disso?</string>
-   <string name="pie_trigger_warning">No mínimo um dos principais pontos de ativação (inferior, esquerda ou direita) precisa ser ativado.</string>
+   <string name="pie_trigger_warning">No mínimo um dos principais pontos de ativação (inferior, esquerda ou direita) precisa de ser ativado.</string>
 
-    <string name="pie_layer_disable_forbidden">Can\'t disable second layer! There\'s no other \'back button\' available.</string>
+    <string name="pie_layer_disable_forbidden">Não é possivel desativar a segunda camada! Existe outro botão retroceder disponível.</string>
 
     <!-- Lockscreen weather -->
-    <string name="display_category_weather_title">Opções de Meteorologia no ecrã bloqueio</string>
-    <string name="lock_screen_weather_summary">Opções de Meteorologia no ecrã bloqueio</string>
+    <string name="display_category_weather_title">Opções de Meteorologia no ecrã de bloqueio</string>
+    <string name="lock_screen_weather_summary">Opções de Meteorologia no ecrã de bloqueio</string>
     <string name="lock_screen_weather_settings_title">Opções de Meteorologia</string>
     <string name="weather_cat_notifications_title">Notificações</string>
     <string name="weather_show_weather_title">Mostrar meteorologia</string>
@@ -814,8 +814,8 @@
     <string name="status_bar_weather_font_notoserif_bold_italic">NotoSerif negrito itálico</string>
 
     <!-- Quicks settings columns -->
-    <string name="qs_panel_title">Painel Definições rápidas</string>
-    <string name="qs_panel_title_summary">Customizações das definições rápidas</string>
+    <string name="qs_panel_title">Painel definições rápidas</string>
+    <string name="qs_panel_title_summary">Customização das definições rápidas</string>
     <string name="qs_columns_title">Colunas</string>
     <string name="qs_rows_portrait_title">Linhas (retrato)</string>
     <string name="qs_rows_landscape_title">Linhas (paisagem)</string>
@@ -825,8 +825,8 @@
     <string name="qs_tile_title_visibility_summary">Habilita os títulos nas definições rápidas</string>
 
     <!-- Disable Quicks settings -->
-    <string name="lockscreen_qs_disabled_title">Desabilitar as configurações rápidas</string>
-    <string name="lockscreen_qs_disabled_summary">Desabilita as configurações rápidas no ecrã de bloqueio</string>
+    <string name="lockscreen_qs_disabled_title">Desativar as configurações rápidas</string>
+    <string name="lockscreen_qs_disabled_summary">Desativa as configurações rápidas no ecrã de bloqueio</string>
 
     <!-- QS headers -->
     <string name="qs_header_category">Imagem de cabeçalho personalizada</string>
@@ -847,13 +847,13 @@
 
     <!-- Lockscreen -->
     <string name="lockscreen_settings_title">Ecrã de bloqueio</string>
-    <string name="mad_lockscreen_settings_summary">Customizações no ecrã de bloqueio</string>
+    <string name="mad_lockscreen_settings_summary">Customização do ecrã de bloqueio</string>
     <!-- Lockscreen items clock, date, alarm text -->
-    <string name="lockscreen_items_settings_title">Ítems do ecrã de bloqueio</string>
+    <string name="lockscreen_items_settings_title">Itens do ecrã de bloqueio</string>
     <string name="lockscreen_clock_title">Relógio no ecrã de bloqueio</string>
     <string name="lockscreen_date_title">Data no ecrã de bloqueio</string>
     <string name="lockscreen_alarm_title">Mostrar alarme no ecrã de bloqueio</string>
-    <string name="lockscreen_items_summary">Adicionar ou remover vários ítems no ecrã de bloqueio</string>
+    <string name="lockscreen_items_summary">Adicionar ou remover vários itens no ecrã de bloqueio</string>
     <!-- Lockscreen clock fonts -->
     <string name="lock_clock_font_title">Opções de tipo de letra</string>
     <string name="lock_clock_font_summary">Alterar o tipo de letra do relógio no ecrã de bloqueio</string>
@@ -876,14 +876,14 @@
     <string name="lock_clock_font_condensed_light_normal">Roboto Condensed Light</string>
     <string name="lock_clock_font_condensed_light_italic">Roboto Condensed Light Italic</string>
     <!-- Lockscreen cover art -->
-    <string name="media_art_title">Mostrar capa do album de música</string>
+    <string name="media_art_title">Mostrar capa do Álbum de música</string>
     <string name="media_art_summary">Ativa a capa do Álbum de música no ecrã de bloqueio</string>
     <!-- Lockscreen double tap to sleep -->
     <string name="double_tap_sleep_anywhere_title">Desligar com 2 toques</string>
     <string name="double_tap_sleep_anywhere_summary">Toque duas vezes em qualquer área do ecrã de bloqueio para suspender o dispositivo</string>
 
     <!-- Slim Recents panel -->
-    <string name="mad_recents_summary">Customizações no modo recentes</string>
+    <string name="mad_recents_summary">Customização do modo recentes</string>
     <string name="recents_title">Recentes</string>
     <string name="slim_recents_title">Recentes Slim</string>
     <string name="use_slim_recents_title">Usar recentes Slim</string>
@@ -896,7 +896,7 @@
     <string name="recent_panel_scale_title">Tamanho</string>
     <string name="recent_panel_expanded_mode_title">Modo expandido</string>
     <string name="recent_panel_expanded_mode_summary">Modo de visualização expandida de tarefas recentes</string>
-    <string name="recent_panel_expanded_mode_auto">Automático (padrão)</string>
+    <string name="recent_panel_expanded_mode_auto">Automático (predefinido)</string>
     <string name="recent_panel_expanded_mode_always">Sempre</string>
     <string name="recent_panel_expanded_mode_never">Nunca</string>
     <string name="recent_panel_show_topmost_title">Mostrar tarefa corrente</string>
@@ -916,17 +916,17 @@
     <string name="dialog_color_picker">Seletor de cores</string>
     <string name="press_color_to_apply">Pressione Cor para aplicar</string>
     <string name="hex_check_button_text">PREVISUALIZAR</string>
-    <string name="hex_reset_button_text">REDEFINIR</string>
-    <string name="longpress_info">Toque longo na caixa para salvar a cor</string>
-    <string name="color_default">Padrão</string>
+    <string name="hex_reset_button_text">RESTAURAR</string>
+    <string name="longpress_info">Toque longo na caixa para guardar a cor</string>
+    <string name="color_default">Predefinido</string>
 
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Desbloqueio rápido</string>
-    <string name="unlock_quick_unlock_control_summary">Desbloquear automaticamente quando o PIN ou Palavra-passe correta é inserida (não é necessário pressionar OK)\nNote: Apenas para PINs com 4 Dígitos!</string>
+    <string name="unlock_quick_unlock_control_summary">Desbloquear automaticamente quando o PIN ou Palavra-passe correta é inserida (não é necessário pressionar OK)\nNota: Apenas para PINs com 4 dígitos!</string>
 
     <!-- Immersive recents -->
     <string name="immersive_recents_title">Recentes imersivos</string>
-    <string name="immersive_recents_default">Padrão</string>
+    <string name="immersive_recents_default">Predefinido</string>
     <string name="immersive_recents_fullscreen">Ecrã cheio</string>
     <string name="immersive_recents_statusbar">Apenas barra de estado</string>
     <string name="immersive_recents_navbar">Apenas barra de navegação</string>
@@ -968,16 +968,16 @@
 
     <!-- Gestures Misc -->
     <string name="mad_gestures_settings">Gestos rápidos</string>
-    <string name="mad_gestures_settings_summary">Gestos rápidos, para controlar o seu telefone</string>
+    <string name="mad_gestures_settings_summary">Gestos rápidos, para controlar o seu dispositivo</string>
 
     <!-- Bluetooth status -->
     <string name="bluetooth_battery_title">Mostrar o nível de bateria do dispositivo Bluetooth</string>
-    <string name="bluetooth_battery_summary">Mostrar o nível de bateria do dispositivo Bluetooth conectado actualmente, se disponível.</string>
+    <string name="bluetooth_battery_summary">Mostrar o nível de bateria do dispositivo Bluetooth conectado atualmente, se disponível.</string>
 
     <!-- Huawei's One hand mode -->
     <string name="navbar_onehand_title">Modo de Uma Mão na barra de navegação</string>
     <string name="one_handed_mode_title">Modo de Uma Mão</string>
-    <string name="one_handed_mode_summary">Permite deslizar na barra de navegação para activar o modo de uma mão</string>
+    <string name="one_handed_mode_summary">Permite deslizar na barra de navegação para ativar o modo de uma mão</string>
 
     <!-- Carrier Label -->
     <string name="carrierlabel_title">Nome do operador</string>
@@ -986,13 +986,13 @@
     <string name="carrier_label_settings_title">Nome do operador</string>
     <string name="carrier_label_settings_summary">Personalizar o nome do operador</string>
     <string name="custom_carrier_label_title">Personalizar o nome do operador</string>
-    <string name="custom_carrier_label_explain">Por favor, digite um novo nome. Deixar em branco para reverter ao padrão.</string>
-    <string name="custom_carrier_label_notset">Nome personalizado de operador, não foi definido</string>
-    <string name="show_carrier_title">Nome de operador</string>
+    <string name="custom_carrier_label_explain">Por favor, digite um novo nome. Deixar em branco para reverter para o predefinido.</string>
+    <string name="custom_carrier_label_notset">O nome personalizado do operador, não foi definido</string>
+    <string name="show_carrier_title">Nome do operador</string>
     <string name="show_carrier_disabled">Desativado</string>
     <string name="show_carrier_keyguard">Apenas no ecrã de bloqueio</string>
     <string name="show_carrier_statusbar">Apenas na barra de estado</string>
     <string name="show_carrier_enabled">Ecrã de bloqueio &amp; barra de estado</string>
-    <string name="status_bar_carrier_color">Cor do nome de Operador</string>
-    <string name="status_bar_carrier_size">Tamanho do texto do nome de Operador</string>
+    <string name="status_bar_carrier_color">Cor do nome do Operador</string>
+    <string name="status_bar_carrier_size">Tamanho do texto do nome do Operador</string>
 </resources>
