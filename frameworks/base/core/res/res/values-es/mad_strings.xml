@@ -71,4 +71,8 @@
     <string name="powermenu_screenshot">Captura</string>
     <!-- Powermenu Torch -->
     <string name="global_action_torch">Linterna</string>
+    <!-- Powermenu current user -->
+    <string name="global_action_current_user">Actual</string>
+    <!-- Powermenu on-the-go -->
+    <string name="global_action_onthego">Modo On-The-Go</string>	
 </resources>
