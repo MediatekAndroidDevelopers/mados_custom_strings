@@ -71,4 +71,8 @@
     <string name="powermenu_screenshot">Скриншот</string>
     <!-- Powermenu Torch -->
     <string name="global_action_torch">Фонарик</string>
+    <!-- Powermenu current user -->
+    <string name="global_action_current_user">Текущий</string>
+    <!-- Powermenu on-the-go -->
+    <string name="global_action_onthego">Режим На-Ходу</string>
 </resources>
