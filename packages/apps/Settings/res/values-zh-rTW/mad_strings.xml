@@ -1054,7 +1054,8 @@
     <string name="powermenu_lockdown">鎖定</string>
     <string name="powermenu_soundpanel">聲音面板</string>
     <string name="powermenu_users">用戶</string>
-
+    <string name="powermenu_onthego_title">即時模式</string>
+	
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">鎖屏時允許顯示電源菜單</string>
     <string name="lockscreen_enable_power_menu_summary">此選項僅安全鎖屏時將禁用電源菜單</string>
