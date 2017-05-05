@@ -1054,6 +1054,7 @@
     <string name="powermenu_lockdown">Lock Down</string>
     <string name="powermenu_soundpanel">Sound Panel</string>
     <string name="powermenu_users">Users</string>
+    <string name="powermenu_onthego_title">On-The-Go Mode</string>
 
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">Show power menu lock screen</string>
