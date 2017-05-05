@@ -71,4 +71,8 @@
     <string name="powermenu_screenshot">Screenshot</string>
     <!-- Powermenu Torch -->
     <string name="global_action_torch">Flashlight</string>
+    <!-- Powermenu current user -->
+    <string name="global_action_current_user">Current</string>
+    <!-- Powermenu on-the-go -->
+    <string name="global_action_onthego">On-The-Go Mode</string>
 </resources>
