@@ -32,7 +32,7 @@
     <string name="hardware_keys_double_tap_title">Podwójne naciśnięcie</string>
     <string name="hardware_keys_action_nothing">Nic nie rób</string>
     <string name="hardware_keys_action_menu">Otwórz/zamknij menu</string>
-    <string name="hardware_keys_action_app_switch">Przegląd ostatnich aplik.</string>
+    <string name="hardware_keys_action_app_switch">Ostatnie aplik.</string>
     <string name="hardware_keys_action_search">Asystent wyszukiwania</string>
     <string name="hardware_keys_action_voice_search">Wyszukiwanie głosowe</string>
     <string name="hardware_keys_action_in_app_search">Wyszukiwanie wewn. aplik.</string>
@@ -100,7 +100,7 @@
     <!-- madOS extras-Categories -->
     <string name="mad_interface">Interfejs</string>
     <string name="mad_recents">Ostatnie</string>
-    <string name="mad_buttons">rzyciski</string>
+    <string name="mad_buttons">Przyciski</string>
     <string name="mad_system">System</string>
     <string name="mad_security">Bezpieczeństwo</string>
     <string name="mad_gestures">Gesty</string>
@@ -300,7 +300,7 @@
 
     <!-- > App Ops -->
     <!-- [CHAR LIMIT=NONE] App ops settings title, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
-    <string name="app_ops_settings">App ops</string>
+    <string name="app_ops_settings">Uprawnienia aplikacji</string>
     <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
     <string name="app_ops_settings_summary">Wyświetla lub zmienia uprawnienia aplikacji</string>
 
@@ -337,7 +337,7 @@
     <string name="doze_pulse_duration_out_summary"></string>
 
     <string name="doze_pulse_on_notifications_title">Pulsuj przy powiadomieniach</string>
-    <string name="doze_pulse_on_notifications_summary">Trigger activation only on pending notifications</string>
+    <string name="doze_pulse_on_notifications_summary">Aktywuj tylko przy nieprzeczytanych powiadomieniach</string>
 
     <string name="doze_time_mode_title">Pokaż zegar i datę</string>
     <string name="doze_time_mode_summary">Wymuś pokazywanie czasu jeśli brak powiadomień</string>
@@ -562,7 +562,7 @@
     <string name="status_bar_show_clock_title">Wyświetlaj datę i czas</string>
     <string name="status_bar_clock_seconds_title">Wyświetlaj sekundy</string>
     <string name="status_bar_am_pm_title">AM/PM</string>
-    <string name="status_bar_am_pm_info">24 godzinny zegar włączony</string>
+    <string name="status_bar_am_pm_info">24-godzinny zegar włączony</string>
     <string name="right_clock">Z prawej</string>
     <string name="center_clock">Wyśrodkuj</string>
     <string name="left_clock">Z lewej</string>
@@ -761,9 +761,7 @@
     <string name="weather_show_weather_summary">Włącz aby wyświetlać informacje o pogodzie</string>
     <string name="weather_show_location_title">Pokazuj położenie</string>
     <string name="weather_show_location_summary">Włącz aby wyświetlać położenie</string>
-    <string name="weather_show_timestamp_title">Pokazuj sygnaturę czasu</string>
-    <string name="weather_show_timestamp_summary">Włącz aby wyświetlać czas</string>
-    <string name="weather_condition_icon_title">Ikona warunków</string>
+    <string name="weather_condition_icon_title">Ikona pogody</string>
     <string name="weather_condition_icon_dlg_title">Wybierz ikonę do wyświetlania warunków pogodowych</string>
     <string name="weather_condition_icon_monochrome_title">Czarno-biała</string>
     <string name="weather_condition_icon_colored_title">Kolorowa</string>
@@ -781,6 +779,9 @@
     <string name="weather_hide_panel_custom_summary">Panel pogody będzie ukrywany jeśli liczba powiadomień przekroczy wybraną liczbę powiadomień na ekranie blokady</string>
     <string name="weather_hide_panel_never_summary">Panel pogody nie będzie ukrywany</string>
     <string name="weather_number_of_notifications_title">Liczba powiadomień</string>
+    <string name="weather_settings_options_title">Ustawienia lokalizacji</string>
+    <string name="weather_settings_summary">Wybierz lokalizację i inne ustawienia</string>
+    <string name="weather_show_location_summary">Wyświetlaj lokalizację prognozy pogody</string>
 
     <!-- Status bar temperature -->
     <string name="weather_settings_title">Pogoda</string>
@@ -823,15 +824,23 @@
     <string name="status_bar_weather_font_notoserif_bold">NotoSerif Bold</string>
     <string name="status_bar_weather_font_notoserif_bold_italic">NotoSerif Bold Italic</string>
 
+    <string name="weather_show_timestamp_title">Wyświetl znacznik czas</string>
+    <string name="weather_show_timestamp_summary">Włącza wyświetlanie znacznika czasu</string>
+
     <!-- Quicks settings columns -->
     <string name="qs_panel_title">Panel szybkich ustawień</string>
     <string name="qs_panel_title_summary">Dostosowywanie panelu szybkich ustawień</string>
     <string name="qs_columns_title">Liczba kafelków w kolumnie</string>
-    <string name="qs_rows_portrait_title">Liczba rzędów (portret)</string>
-    <string name="qs_rows_landscape_title">Liczba rzędów (poziom)</string>
+    <string name="qs_rows_portrait_title">Liczba rzędów (tryb portretowy)</string>
+    <string name="qs_rows_landscape_title">Liczba rzędów (tryb horyzontalny)</string>
+
     <!-- Quicks settings titles -->
     <string name="qs_tile_title_visibility_title">Etykiety szybkich ustawień</string>
     <string name="qs_tile_title_visibility_summary">Włącza podpisy dla skrótów szybkich ustawień</string>
+
+    <!-- Disable Quicks settings -->
+    <string name="lockscreen_qs_disabled_title">Wyłącz szybkie ustawienia</string>
+    <string name="lockscreen_qs_disabled_summary">Wyłącza dostęp do szybkich ustawień na zabezpieczonym zablokowanym ekranie</string>
 
     <!-- QS headers -->
     <string name="qs_header_category">Quick settings header</string>
@@ -961,23 +970,23 @@
     <string name="recents_clear_all_location_bottom_center">Bottom center</string>
 
     <!-- Wakelock blocker -->
-    <string name="wakelock_blocker_title">Wakelock Blocker</string>
-    <string name="wakelock_blocker_summary">Block system wakelocks</string>
-    <string name="wakelock_blocker_save">Save</string>
-    <string name="wakelock_list_header">Available wakelocks</string>
-    <string name="wakelock_blocker_reload">Reload</string>
-    <string name="wakelock_blocker_warning_title">Proceed with caution</string>
-    <string name="wakelock_blocker_warning">Blocking wakelocks have the potential to cause instability, crashes or data loss</string>
+    <string name="wakelock_blocker_title">Bloker Wakelock-ów</string>
+    <string name="wakelock_blocker_summary">Blokuj systemowe wakelock-i</string>
+    <string name="wakelock_blocker_save">Zapisz</string>
+    <string name="wakelock_list_header">Dostępne wakelock-i</string>
+    <string name="wakelock_blocker_reload">Przeładuj</string>
+    <string name="wakelock_blocker_warning_title">Ostrożnie</string>
+    <string name="wakelock_blocker_warning">Blokowanie wakelock-ów może potencjalnie powodować niestabilność, błędy lub utratę danych</string>
 
     <!-- Alarm blocker -->
-    <string name="alarm_blocker">Alarm blocker</string>
-    <string name="alarm_blocker_title">Enable</string>
-    <string name="alarm_blocker_summary">Block alarms while screen off</string>
-    <string name="alarm_blocker_save">Save</string>
-    <string name="alarm_list_header">Available alarms</string>
-    <string name="alarm_blocker_reload">Reload</string>
-    <string name="alarm_blocker_warning_title">Proceed with caution</string>
-    <string name="alarm_blocker_warning">Blocking alarms have the potential to cause instability, crashes or data loss.</string>
+    <string name="alarm_blocker">Bloker alarmów</string>
+    <string name="alarm_blocker_title">Włącz</string>
+    <string name="alarm_blocker_summary">Blokuje alarmy przy wyłączonym ekranie</string>
+    <string name="alarm_blocker_save">Zapisz</string>
+    <string name="alarm_list_header">Dostępne alarmy</string>
+    <string name="alarm_blocker_reload">Przeładuj</string>
+    <string name="alarm_blocker_warning_title">Ostrożnie</string>
+    <string name="alarm_blocker_warning">Blokowanie alarmów może potencjalnie powodować niestabilność, błędy lub utratę danych</string>
 
     <!-- Buttons Misc -->
     <string name="mad_buttons_settings">Opcje przycisków</string>
@@ -1012,4 +1021,24 @@
     <string name="show_carrier_enabled">Na ekranie blokady i pasku stanu</string>
     <string name="status_bar_carrier_color">Kolor nazwy sieci</string>
     <string name="status_bar_carrier_size">Wielkość nazwy sieci</string>
+    
+    <!-- OmniJaws -->
+    <string name="weather_title">Pogoda</string>
+    <string name="weather_config_title">Ustawienia kafelka pogody</string>
+    <string name="weather_config_summary"></string>
+    <string name="lockscreen_weather_title">Pogoda na ekranie blokady</string>
+    <string name="lockscreen_weather_config_title">Ustawienia pogody na ekranie blokady</string>
+    <string name="lockscreen_weather_config_summary"></string>
+
+    <!-- StatusBar weather settings -->
+    <string name="statusbar_weather_category">Pogoda na pasku stanu</string>
+    <string name="statusbar_weather_title">Pogoda na pasku stanu</string>
+    <string name="statusbar_weather_summary">Configure from QS settings/Weather.</string>
+    <string name="statusbar_weather_dialog_title">Styl pogody na pasku stanu</string>
+    <string name="status_bar_weather_hidden">Ukrywaj pogodę</string>
+    <string name="status_bar_temperature_image_show_scale">Wyświetlaj temperaturę ze skalą i obrazkiem</string>
+    <string name="status_bar_temperature_image_hide_scale">Wyświetla temperaturę bez skali</string>
+    <string name="status_bar_temperature_show_scale_hide_image">Wyświetlaj temperaturę ze skalą</string>
+    <string name="status_bar_temperature_hide_scale_hide_image">Wyświetla temperaturę bez skali</string>
+    <string name="status_bar_show_image">Pokaż obraz</string>
 </resources>

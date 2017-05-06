@@ -761,8 +761,6 @@
     <string name="weather_show_weather_summary">Включите для показа погоды</string>
     <string name="weather_show_location_title">Показывать положение</string>
     <string name="weather_show_location_summary">Включите для показа месторасположения</string>
-    <string name="weather_show_timestamp_title">Показывать время</string>
-    <string name="weather_show_timestamp_summary">Включите для показа времени</string>
     <string name="weather_condition_icon_title">Иконка погоды</string>
     <string name="weather_condition_icon_dlg_title">Показывать иконку погоды</string>
     <string name="weather_condition_icon_monochrome_title">Чёрно-белая</string>
@@ -781,6 +779,9 @@
     <string name="weather_hide_panel_custom_summary">Панель погоды будет скрыта, когда количество показываемых уведомлений достигнет указанного числа уведомлений.</string>
     <string name="weather_hide_panel_never_summary">Панель погоды не будет скрыта.</string>
     <string name="weather_number_of_notifications_title">Количество уведомлений</string>
+    <string name="weather_settings_options_title">Настройки расположения</string>
+    <string name="weather_settings_summary">Выбрать расположение и другие настройки</string>
+    <string name="weather_show_location_summary">Показывать расположение погоды</string>
 
     <!-- Status bar temperature -->
     <string name="weather_settings_title">Погода</string>
@@ -822,6 +823,9 @@
     <string name="status_bar_weather_font_notoserif_italic">NotoSerif курсив</string>
     <string name="status_bar_weather_font_notoserif_bold">NotoSerif жирный</string>
     <string name="status_bar_weather_font_notoserif_bold_italic">NotoSerif жирный курсив</string>
+
+    <string name="weather_show_timestamp_title">Показывать время</string>
+    <string name="weather_show_timestamp_summary">Включите для показа времени</string>
 
     <!-- Quicks settings columns -->
     <string name="qs_panel_title">Панель быстрых настроек</string>
@@ -1017,4 +1021,41 @@
     <string name="show_carrier_enabled">Экран блокировки и статусбар</string>
     <string name="status_bar_carrier_color">Цвет названия оператора</string>
     <string name="status_bar_carrier_size">Размер названия оператора</string>
+
+    <!-- OmniJaws -->
+    <string name="weather_title">Погода</string>
+    <string name="weather_config_title">Настройки плитки погоды</string>
+    <string name="weather_config_summary"></string>
+    <string name="lockscreen_weather_title">Погода на экране блокировки</string>
+    <string name="lockscreen_weather_config_title">Настройки погоды на экране блокировки</string>
+    <string name="lockscreen_weather_config_summary"></string>
+
+    <!-- StatusBar weather settings -->
+    <string name="statusbar_weather_category">Погода в статусбаре</string>
+    <string name="statusbar_weather_title">Погода в статусбаре</string>
+    <string name="statusbar_weather_summary">Настройки из настроек плиток/погоды.</string>
+    <string name="statusbar_weather_dialog_title">Стиль погоды в статусбаре</string>
+    <string name="status_bar_weather_hidden">Погода скрыта</string>
+    <string name="status_bar_temperature_image_show_scale">Температура с масштабированием и картинкой</string>
+    <string name="status_bar_temperature_image_hide_scale">Температура с изображением без масштабирования</string>
+    <string name="status_bar_temperature_show_scale_hide_image">Температура с масштабированием</string>
+    <string name="status_bar_temperature_hide_scale_hide_image">Температура без масштабирования</string>
+    <string name="status_bar_show_image">Показывать изображение</string>
+
+    <!-- Power Menu -->
+    <string name="powermenu_title">Меню выключения</string>
+    <string name="powermenu_settings_summary">Настройки меню выключения</string>
+    <string name="powermenu_screenshot">Скриншот</string>
+    <string name="powermenu_torch">Фонарик</string>
+    <string name="powermenu_power">Выключение</string>
+    <string name="powermenu_reboot">Перезагрузка</string>
+    <string name="powermenu_airplane">Авиарежим</string>
+    <string name="powermenu_settings">Настройки</string>
+    <string name="powermenu_lockdown">Блокировка</string>
+    <string name="powermenu_soundpanel">Звуковая панель</string>
+    <string name="powermenu_users">Пользователи</string>
+
+    <!-- Power menu on secure lockscreen -->
+    <string name="lockscreen_enable_power_menu_title">Показывать меню выключения на экране блокировки</string>
+    <string name="lockscreen_enable_power_menu_summary">Выключить меню выключения на экране безопасной блокировки</string>
 </resources>

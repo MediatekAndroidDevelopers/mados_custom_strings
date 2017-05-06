@@ -761,8 +761,6 @@
     <string name="weather_show_weather_summary">Habilitar para mostrar información meteorológica</string>
     <string name="weather_show_location_title">Mostrar ubicación</string>
     <string name="weather_show_location_summary">Habilitar para mostrar ubicación</string>
-    <string name="weather_show_timestamp_title">Mostrar hora/fecha</string>
-    <string name="weather_show_timestamp_summary">Habilitar para mostrar la hora/fecha</string>
     <string name="weather_condition_icon_title">Icono de condición</string>
     <string name="weather_condition_icon_dlg_title">Elija un icono para mostrar la condición meteorológica</string>
     <string name="weather_condition_icon_monochrome_title">Monocroma</string>
@@ -781,6 +779,9 @@
     <string name="weather_hide_panel_custom_summary">El panel meteorológico se oculta cuando las notificaciones visibles lleguen al número elegido de notificaciones</string>
     <string name="weather_hide_panel_never_summary">El panel meteorológico no estará oculto</string>
     <string name="weather_number_of_notifications_title">Número de notificaciones</string>
+    <string name="weather_settings_options_title">Configuración de ubicación</string>
+    <string name="weather_settings_summary">Elegir ubicación y otros ajustes</string>
+    <string name="weather_show_location_summary">Mostrar ubicación del tiempo</string>
 
     <!-- Status bar temperature -->
     <string name="weather_settings_title">Clima</string>
@@ -823,10 +824,13 @@
     <string name="status_bar_weather_font_notoserif_bold">NotoSerif Negrita</string>
     <string name="status_bar_weather_font_notoserif_bold_italic">NotoSerif Negrita Cursiva</string>
 
+    <string name="weather_show_timestamp_title">Mostrar fecha y hora</string>
+    <string name="weather_show_timestamp_summary">Permite mostrar la fecha y hora</string>
+
     <!-- Quicks settings columns -->
     <string name="qs_panel_title">Panel configuración rápida</string>
     <string name="qs_panel_title_summary">Configuraciones rápidas</string>
-    <string name="qs_columns_title">Número de baldosas en la columna</string>
+    <string name="qs_columns_title">Número de iconos en la columna</string>
     <string name="qs_rows_portrait_title">Número de filas (vertical)</string>
     <string name="qs_rows_landscape_title">Número de filas (horizontal)</string>
 	
@@ -855,7 +859,7 @@
 
     <!-- Quicks settings vibrate -->
     <string name="quick_settings_vibrate_title">Vibrar al tocarlo</string>
-    <string name="quick_settings_vibrate_summary">Vibrar al tocar las baldosas</string>
+    <string name="quick_settings_vibrate_summary">Vibrar al tocar los iconos</string>
 
     <!-- Lockscreen -->
     <string name="lockscreen_settings_title">Pantalla de bloqueo</string>
@@ -1017,4 +1021,42 @@
     <string name="show_carrier_enabled">Pantalla de bloqueo &amp; barra de estado</string>
     <string name="status_bar_carrier_color">Color nombre de operadora</string>
     <string name="status_bar_carrier_size">Tamaño nombre de operadora</string>
-</resources>
+
+    <!-- OmniJaws -->
+    <string name="weather_title">Clima</string>
+    <string name="weather_config_title">Configuración del icono clima</string>
+    <string name="weather_config_summary"></string>
+    <string name="lockscreen_weather_title">Información clima en Pantalla bloqueo</string>
+    <string name="lockscreen_weather_config_title">Configuración clima pantalla bloqueo</string>
+    <string name="lockscreen_weather_config_summary"></string>
+
+    <!-- StatusBar weather settings -->
+    <string name="statusbar_weather_category">Barra de estado clima</string>
+    <string name="statusbar_weather_title">Barra de estado clima</string>
+    <string name="statusbar_weather_summary">Configurar desde configuración QS/Clima.</string>
+    <string name="statusbar_weather_dialog_title">Estilo de estado de la barra de clima</string>
+    <string name="status_bar_weather_hidden">Clima oculto</string>
+    <string name="status_bar_temperature_image_show_scale">Mostrar temperatura con escala e imagen</string>
+    <string name="status_bar_temperature_image_hide_scale">Mostrar temperatura sin escala e imagen</string>
+    <string name="status_bar_temperature_show_scale_hide_image">Mostrar temperatura con escala</string>
+    <string name="status_bar_temperature_hide_scale_hide_image">Mostrar temperatura sin escala</string>
+    <string name="status_bar_show_image">Mostrar imagen</string>
+	
+    <!-- Power Menu -->
+    <string name="powermenu_title">Menú de apagado</string>
+    <string name="powermenu_settings_summary">Personalizar menú apagado</string>
+    <string name="powermenu_screenshot">Captura</string>
+    <string name="powermenu_torch">Linterna</string>
+    <string name="powermenu_power">Apagar</string>
+    <string name="powermenu_reboot">Reiniciar</string>
+    <string name="powermenu_airplane">Modo Avión</string>
+    <string name="powermenu_settings">Ajustes</string>
+    <string name="powermenu_lockdown">Bloquear</string>
+    <string name="powermenu_soundpanel">Panel de sonido</string>
+    <string name="powermenu_users">Usuarios</string>
+    <string name="powermenu_onthego_title">Modo On-The-Go</string>
+	
+     <!-- Power menu on secure lockscreen -->
+     <string name="lockscreen_enable_power_menu_title">Mostrar menú de apagado en pantalla bloqueo</string>
+     <string name="lockscreen_enable_power_menu_summary">Esta opción desactivará el menú de apagado en la pantalla de bloqueo</string>
+   </resources>

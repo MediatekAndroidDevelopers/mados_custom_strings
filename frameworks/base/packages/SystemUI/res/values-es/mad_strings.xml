@@ -95,7 +95,7 @@
     <string name="accessibility_quick_settings_nfc_changed_off">NFC Desactivado.</string>
     <string name="accessibility_quick_settings_nfc_changed_on">NFC Activado.</string>
 	
-	<!-- Compass QS Tile -->
+    <!-- Compass QS Tile -->
     <string name="quick_settings_compass_label">Brújula</string>
     <string name="quick_settings_compass_value"><xliff:g id="degrees">%1$.0f</xliff:g>\u00b0 <xliff:g id="direction">%2$s</xliff:g></string>
     <string name="quick_settings_compass_init">Inicializando\u2026</string>
@@ -110,9 +110,30 @@
     <string name="quick_settings_compass_S">S</string>
     <string name="quick_settings_compass_SW">SO</string>
     <string name="quick_settings_compass_W">O</string>
-    <string name="quick_settings_compass_NW">NO</string>
+    <string name="quick_settings_compass_NW">NO</string>	
     <!-- Language QS Tile -->
     <string name="quick_settings_locale_label">Idioma</string>
-    <string name="quick_settings_locale_more_locales_toast">Configure varios idiomas para habilitar la funcionalidad</string>
- </resources>
+    <string name="quick_settings_locale_more_locales_toast">Configure varios idiomas para habilitar la funcionalidad</string>	
+    <!-- OmniJaws weather qs tile -->
+     <string name="omnijaws_service_error">Error</string>
+     <string name="omnijaws_service_unkown">Sin datos meteorológicos</string>
+     <string name="omnijaws_detail_header">Clima</string>
+     <string name="omnijaws_label_default">Clima</string>
+     <string name="omnijaws_current_text">Ahora</string>
+     <string name="omnijaws_package_not_available">OmniJaws no disponible</string>
  
+     <!-- Weather string format in expanded statusbar header -->
+     <string name="status_bar_weather_format"><xliff:g id="temp">%1$s</xliff:g></string>
+	
+     <!-- On The Go Mode-->
+     <string name="onthego_notif_ticker">On-The-Go activado</string>
+     <string name="onthego_notif_title">On-The-Go está activo</string>
+     <string name="onthego_notif_stop">Detener</string>
+     <string name="onthego_notif_options">Opciones</string>
+     <string name="onthego_notif_error">Imposible iniciar On-The-Go</string>
+     <string name="onthego_notif_restart">Reiniciar On-The-Go</string>
+     <string name="onthego_notif_camera_changed">Modo de cámara cambiado</string>
+     <string name="onthego_transparency">Transparencia</string>
+     <string name="onthego_front_camera">Usar cámara frontal</string>
+     <string name="onthego_service_toggle">Reiniciar automáticamente el servicio</string>
+   </resources>

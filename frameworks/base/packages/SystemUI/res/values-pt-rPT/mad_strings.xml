@@ -37,7 +37,7 @@
     <string name="accessibility_quick_settings_caffeine_on">Desligar cafeína</string>
 
     <!-- Screen pinning dialog description (for devices without navbar) -->
-    <string name="screen_pinning_description_no_navbar">Manter a barra de navegação visível até destacar. Manter premido o botão retroceder para destacar.</string>
+    <string name="screen_pinning_description_no_navbar">Manter a barra de navegação visível até destacar. Manter pressionado o botão retroceder para destacar.</string>
 
     <!-- NavBar Tuner -->
     <string name="menu_ime_always_show">Alternar menu/teclado (sempre visível)</string>
@@ -45,7 +45,7 @@
 
     <!-- Dialog title for navigation bar button selection -->
     <string name="navbar_dialog_title">Escolher ação para atribuir</string>
-    <string name="navbar_home_button">Botão casa</string>
+    <string name="navbar_home_button">Botão inicio</string>
     <string name="navbar_recent_button">Botão recentes</string>
     <string name="navbar_search_button">Botão pesquisa</string>
     <string name="navbar_back_button">Botão retroceder</string>

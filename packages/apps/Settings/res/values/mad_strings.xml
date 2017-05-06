@@ -761,8 +761,6 @@
     <string name="weather_show_weather_summary">Enable to show weather information</string>
     <string name="weather_show_location_title">Show location</string>
     <string name="weather_show_location_summary">Enable to show the location</string>
-    <string name="weather_show_timestamp_title">Show timestamp</string>
-    <string name="weather_show_timestamp_summary">Enable to show the timestamp</string>
     <string name="weather_condition_icon_title">Condition icon</string>
     <string name="weather_condition_icon_dlg_title">Choose an icon for displaying the weather condition</string>
     <string name="weather_condition_icon_monochrome_title">Monochrome</string>
@@ -781,6 +779,9 @@
     <string name="weather_hide_panel_custom_summary">The weather panel will be hidden when the visible notifications will reach the chosen number of notifications</string>
     <string name="weather_hide_panel_never_summary">The weather panel won\`t be hidden</string>
     <string name="weather_number_of_notifications_title">Number of notifications</string>
+    <string name="weather_settings_options_title">Location settings</string>
+    <string name="weather_settings_summary">Choose location and other settings</string>
+    <string name="weather_show_location_summary">Display weather location</string>
 
     <!-- Status bar temperature -->
     <string name="weather_settings_title">Weather</string>
@@ -822,6 +823,9 @@
     <string name="status_bar_weather_font_notoserif_italic">NotoSerif Italic</string>
     <string name="status_bar_weather_font_notoserif_bold">NotoSerif Bold</string>
     <string name="status_bar_weather_font_notoserif_bold_italic">NotoSerif Bold Italic</string>
+
+    <string name="weather_show_timestamp_title">Show timestamp</string>
+    <string name="weather_show_timestamp_summary">Enable to show the timestamp</string>
 
     <!-- Quicks settings columns -->
     <string name="qs_panel_title">Quick settings panel</string>
@@ -1017,4 +1021,42 @@
     <string name="show_carrier_enabled">Lockscreen &amp; statusbar</string>
     <string name="status_bar_carrier_color">Carrier label color</string>
     <string name="status_bar_carrier_size">Carrier label size</string>
-</resources>
+
+    <!-- OmniJaws -->
+    <string name="weather_title">Weather</string>
+    <string name="weather_config_title">Weather tile settings</string>
+    <string name="weather_config_summary"></string>
+    <string name="lockscreen_weather_title">Lockscreen weather info</string>
+    <string name="lockscreen_weather_config_title">Lockscreen weather info settings</string>
+    <string name="lockscreen_weather_config_summary"></string>
+
+    <!-- StatusBar weather settings -->
+    <string name="statusbar_weather_category">Status bar weather</string>
+    <string name="statusbar_weather_title">Status bar weather</string>
+    <string name="statusbar_weather_summary">Configure from QS settings/Weather.</string>
+    <string name="statusbar_weather_dialog_title">Status bar weather style</string>
+    <string name="status_bar_weather_hidden">Hidden weather</string>
+    <string name="status_bar_temperature_image_show_scale">Show temp with scale and image</string>
+    <string name="status_bar_temperature_image_hide_scale">Show temp with image without scale</string>
+    <string name="status_bar_temperature_show_scale_hide_image">Show temp with scale</string>
+    <string name="status_bar_temperature_hide_scale_hide_image">Show temp without scale</string>
+    <string name="status_bar_show_image">Show image</string>
+
+    <!-- Power Menu -->
+    <string name="powermenu_title">Power menu</string>
+    <string name="powermenu_settings_summary">Power menu customizations</string>
+    <string name="powermenu_screenshot">Screenshot</string>
+    <string name="powermenu_torch">Flashlight</string>
+    <string name="powermenu_power">Power</string>
+    <string name="powermenu_reboot">Reboot</string>
+    <string name="powermenu_airplane">Airplane</string>
+    <string name="powermenu_settings">Settings</string>
+    <string name="powermenu_lockdown">Lock Down</string>
+    <string name="powermenu_soundpanel">Sound Panel</string>
+    <string name="powermenu_users">Users</string>
+    <string name="powermenu_onthego_title">On-The-Go Mode</string>
+
+    <!-- Power menu on secure lockscreen -->
+    <string name="lockscreen_enable_power_menu_title">Show power menu lock screen</string>
+    <string name="lockscreen_enable_power_menu_summary">This option will only disable the power menu on secure lock screens</string>
+ </resources>
