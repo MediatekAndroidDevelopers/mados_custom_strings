@@ -124,4 +124,16 @@
 	
 	<!-- Weather string format in expanded statusbar header -->
     <string name="status_bar_weather_format"><xliff:g id="temp">%1$s</xliff:g></string>
+	
+	<!-- On The Go Mode-->
+    <string name="onthego_notif_ticker">Η λειτουργία εν κινήσει είναι ενεργή</string>
+    <string name="onthego_notif_title">Η λειτουργία εν κινήσει είναι ενεργή</string>
+    <string name="onthego_notif_stop">Διακοπή</string>
+    <string name="onthego_notif_options">Επιλογές</string>
+    <string name="onthego_notif_error">Αδυναμία ενεργοποίησης λειτουργίας εν κινήσει</string>
+    <string name="onthego_notif_restart">Επανεκκίνηση λειτουργίας εν κινήσει</string>
+    <string name="onthego_notif_camera_changed">Η λειτουργία φωτογραφικής μηχανής άλλαξε</string>
+    <string name="onthego_transparency">Διαφάνεια</string>
+    <string name="onthego_front_camera">Χρήση μποστινής κάμερας</string>
+    <string name="onthego_service_toggle">Αυτόματη επανεκκίνηση λειτουργίας</string>
 </resources>
