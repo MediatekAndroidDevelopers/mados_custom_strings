@@ -1054,6 +1054,7 @@
     <string name="powermenu_lockdown">Блокировка</string>
     <string name="powermenu_soundpanel">Звуковая панель</string>
     <string name="powermenu_users">Пользователи</string>
+    <string name="powermenu_onthego_title">Режим На-Ходу</string>
 
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">Показывать меню выключения на экране блокировки</string>
