@@ -1054,7 +1054,8 @@
     <string name="powermenu_lockdown">Κλείδωμα</string>
     <string name="powermenu_soundpanel">Πάνελ ήχου</string>
     <string name="powermenu_users">Χρήστες</string>
-
+    <string name="powermenu_onthego_title">Λειτουργία εν κινήσει</string>
+	
 	<!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">Εμφάνιση μενού ισχύος στην οθόνη κλειδώματος</string>
     <string name="lockscreen_enable_power_menu_summary">Απενεργοποιεί το μενού ισχύος στις ασφαλείς οθόνες κλειδώματος</string>
