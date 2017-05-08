@@ -71,4 +71,8 @@
     <string name="powermenu_screenshot">Στιγμιότυπο οθόνης</string>
     <!-- Powermenu Torch -->
     <string name="global_action_torch">Φακός</string>
+	<!-- Powermenu current user -->
+    <string name="global_action_current_user">Τρέχων</string>
+    <!-- Powermenu on-the-go -->
+    <string name="global_action_onthego">Λειτουργία Εν κινήσει</string>
 </resources>
