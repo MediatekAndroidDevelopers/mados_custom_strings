@@ -124,4 +124,16 @@
 
     <!-- Weather string format in expanded statusbar header -->
     <string name="status_bar_weather_format"><xliff:g id="temp">%1$s</xliff:g></string>
+	
+    <!-- On The Go Mode-->
+    <string name="onthego_notif_ticker">即時模式激活</string>
+    <string name="onthego_notif_title">即時模式處於激活狀態</string>
+    <string name="onthego_notif_stop">停止</string>
+    <string name="onthego_notif_options">選項</string>
+    <string name="onthego_notif_error">無法啟動即時模式</string>
+    <string name="onthego_notif_restart">重新開始</string>
+    <string name="onthego_notif_camera_changed">相機模式已更改</string>
+    <string name="onthego_transparency">透明度</string>
+    <string name="onthego_front_camera">使用前置攝像頭</string>
+    <string name="onthego_service_toggle">自動重啟服務</string>
  </resources>
