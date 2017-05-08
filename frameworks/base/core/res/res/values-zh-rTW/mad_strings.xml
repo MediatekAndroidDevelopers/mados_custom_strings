@@ -71,4 +71,8 @@
     <string name="powermenu_screenshot">截屏</string>	
     <!-- Powermenu Torch -->
     <string name="global_action_torch">手電筒</string>
+    <!-- Powermenu current user -->
+    <string name="global_action_current_user">當前用戶</string>
+    <!-- Powermenu on-the-go -->
+    <string name="global_action_onthego">即時模式</string>
 </resources>
