@@ -184,6 +184,7 @@
     <string name="sensor_calibration_note">NOTA: O telefone deve estar em plano horizontal durante a calibração.</string>
     <string name="sensor_calibration_current_data_hint">Dados atuais da calibração do sensor: </string>
     <string name="sensor_calibration_sensor_data_hint">Dados da calibração do sensor: </string>
+    <string name="sensor_calibration_success">Calibração bem sucedida</string>
 
     <string name="gyroscope_axis_switch">Ligar/desligar no eixo vertical</string>
 
@@ -303,13 +304,21 @@
     <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
     <string name="app_ops_settings_summary">Ver ou mudar permissões das aplicações</string>
 
-    <!-- > Substratum /layers4.0 -->
     <!-- Substratum -->
     <string name="substratum_title">Temas</string>
     <!-- Manage applications: show substratum overlays -->
     <string name="filter_substratum_apps">Sobreposições dos Temas</string>
     <string name="menu_show_substratum">Mostrar sobreposições</string>
     <string name="menu_hide_substratum">Esconder as sobreposições</string>
+
+    <!-- Manage applications: show substratum icon overlays -->
+    <string name="filter_substratum_icons">Ícone Substratum</string>
+    <string name="menu_show_substratum_icons">Mostrar ícone</string>
+    <string name="menu_hide_substratum_icons">Esconder ícone</string>
+
+    <!-- Force authorize substratum packages -->
+    <string name="force_authorize_substratum_packages_title">Forçar permitir para cada aplicação de temas</string>
+    <string name="force_authorize_substratum_packages_summary">Permitir aplicações de temas de fontes desconhecidas</string>
 
     <string name="sim_color_bar_title">Colorir ícones da barra de estado</string>
 
@@ -607,6 +616,7 @@
 
     <string name="shortcut_image_not_valid">A aplicação escolhida não devolveu um ícone válido ou não admite recortes na imagem. Utilize outra aplicação.</string>
     <string name="shortcut_duplicate_entry">A ação escolhida não pode ser adicionada duas vezes</string>
+
     <string name="shortcut_action_warning">Aviso</string>
     <string name="shortcut_action_warning_message">Não é possível eliminar a última entrada</string>
     <string name="shortcut_action_disable_message">Desativado\nAdicionar uma entrada para ativar este recurso</string>
@@ -709,7 +719,6 @@
     <string name="pie_button_long_pressed_color_title">Cor do botão pressionado com toque longo</string>
     <string name="pie_button_pressed_alpha_title">Transparência do botão pressionado</string>
     <string name="pie_icon_style">Estilo do ícone do botão</string>
-
     <string name="pie_icon_color_title">Cor do ícone do botão</string>
     <string name="pie_icon_color_mode_title">Modo de cor do ícone do botão</string>
     <string name="pie_icon_color_mode_dialog_title">Colorir</string>
@@ -730,8 +739,10 @@
     <string name="pie_show_text_title">Mostrar estado e relógio</string>
     <string name="pie_show_text_summary">Mostra informações de data, hora e estado do dispositivo</string>
     <string name="pie_show_background_title">Mostrar plano de fundo</string>
-    <string name="pie_show_background_summary">Ativar o ecrã de fundo da PIE</string>
+    <string name="pie_show_background_summary">Ativar o ecrã de fundo PIE</string>
     <string name="pie_button">Botões</string>
+    <string name="pie_second_layer_active_title">Segunda camada PIE</string>
+    <string name="pie_second_layer_active_summary">Isto ativa uma camada adicional</string>
     <string name="pie_button_second_layer">Segunda camada de botões</string>
     <string name="pie_button_second_layer_summary">Alterar botões da segunda camada</string>
     <string name="pie_button_style_summary">Mudar o estilo dos botões da PIE</string>
@@ -750,8 +761,6 @@
     <string name="weather_show_weather_summary">Ative para mostrar informações meteorológicas</string>
     <string name="weather_show_location_title">Mostrar localização</string>
     <string name="weather_show_location_summary">Ative para mostrar a localização</string>
-    <string name="weather_show_timestamp_title">Mostrar hora</string>
-    <string name="weather_show_timestamp_summary">Ative para mostrar a hora</string>
     <string name="weather_condition_icon_title">Conjunto de ícones</string>
     <string name="weather_condition_icon_dlg_title">Escolher um ícone para mostrar a condição meteorológica</string>
     <string name="weather_condition_icon_monochrome_title">Monocromático</string>
@@ -760,8 +769,7 @@
     <string name="icons_title">Ícones</string>
     <string name="position_right_title">Direita</string>
     <string name="position_centered_title">Centrado</string>
-    <string name="hidden_title">Não mostrar</string>
-    <string name="weather_cat_notifications_title">Notificações</string>
+    <string name="hidden_title">Ocultar</string>
     <string name="weather_hide_panel_title">Ocultar painel de meteorologia</string>
     <string name="weather_hide_panel_dlg_title">Selecione quando é que o painel da meteorologia deve ser ocultado</string>
     <string name="weather_hide_panel_auto_title">Automaticamente</string>
@@ -771,6 +779,9 @@
     <string name="weather_hide_panel_custom_summary">O painel da meteorologia será ocultado quando as notificações visíveis atingirem o número escolhido de notificações no ecrã de bloqueio</string>
     <string name="weather_hide_panel_never_summary">O painel da meteorologia não será escondido</string>
     <string name="weather_number_of_notifications_title">Número de notificações</string>
+    <string name="weather_settings_options_title">Definições de localização</string>
+    <string name="weather_settings_summary">Escolha a localização e outras definições</string>
+    <string name="weather_show_location_summary">Ative para mostrar a localização</string>
 
     <!-- Status bar temperature -->
     <string name="weather_settings_title">Meteorologia</string>
@@ -813,6 +824,9 @@
     <string name="status_bar_weather_font_notoserif_bold">NotoSerif Negrito</string>
     <string name="status_bar_weather_font_notoserif_bold_italic">NotoSerif negrito itálico</string>
 
+    <string name="weather_show_timestamp_summary">Ative para mostrar a hora</string>
+    <string name="weather_show_timestamp_title">Mostrar hora</string>
+
     <!-- Quicks settings columns -->
     <string name="qs_panel_title">Painel definições rápidas</string>
     <string name="qs_panel_title_summary">Customização das definições rápidas</string>
@@ -835,6 +849,8 @@
     <string name="daylight_header_pack_title">Pacote de imagens do cabeçalho</string>
     <string name="status_bar_custom_header_shadow_title">Escurecer a imagem do cabeçalho</string>
     <string name="status_bar_custom_header_shadow_summary">Para melhor visibilidade nas imagens brilhantes</string>
+    <string name="static_header_provider" translatable="false">Estática</string>
+    <string name="daylight_header_provider" translatable="false">Luz do dia</string>
     <string name="static_header_provider_title">Estática</string>
     <string name="daylight_header_provider_title">Dinâmica</string>
     <string name="custom_header_provider_title">Origem do cabeçalho</string>
@@ -903,9 +919,11 @@
     <string name="recent_panel_show_topmost_summary">Não eliminar a tarefa corrente da vista de aplicações recentes</string>
     <string name="recent_panel_bg_color_title">Cor do fundo do painel</string>
     <string name="recent_card_bg_color_title">Cor do fundo do cartão</string>
-    <string name="recent_card_text_color_title">Cor do texto do cartão</string>
-    <string name="slim_recents_mem_display_long_click_clear_title">Pressão longa na barra de memória</string>
-    <string name="slim_recents_mem_display_long_click_clear_summary">Limpar as aplicações recentes com pressão longa na barra de memória</string>
+    <string name="recent_reset_title">Restaurar a cor original</string>
+    <string name="recent_reset_confirm">Tem a certeza que pretende restaurar Slim Recentes para a cor original?</string>
+    <string name="default_auto_string">Predefinição (baseado na aplicação)</string>
+    <string name="recent_panel_lefty_mode_title">Mostrar na margem esquerda</string>
+    <string name="recent_panel_lefty_mode_summary">Mostrar painel de aplicações recentes na margem esquerda</string>
     <string name="slim_icon_pack_title">Pacote de ícones</string>
     <string name="slim_icon_pack_summary">Aplicar um pacote de ícones personalizado para aplicações no painel</string>
     <string name="no_iconpacks_summary">Nenhum pacote de ícones instalado</string>
@@ -915,14 +933,22 @@
     <!-- Color picker -->
     <string name="dialog_color_picker">Seletor de cores</string>
     <string name="press_color_to_apply">Pressione Cor para aplicar</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint" translatable="false">#FFDDDDDD</string>
     <string name="hex_check_button_text">PREVISUALIZAR</string>
     <string name="hex_reset_button_text">RESTAURAR</string>
+    <string name="color_right_arrow" translatable="false">"→"</string>
+    <string name="color_down_arrow" translatable="false">"↓"</string>
     <string name="longpress_info">Toque longo na caixa para guardar a cor</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
     <string name="color_default">Predefinido</string>
 
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Desbloqueio rápido</string>
     <string name="unlock_quick_unlock_control_summary">Desbloquear automaticamente quando o PIN ou Palavra-passe correta é inserida (não é necessário pressionar OK)\nNota: Apenas para PINs com 4 dígitos!</string>
+    <string name="lockscreen_quick_unlock_pin_length_title">Numero de digitos do PIN</string>
+    <string name="lockscreen_quick_unlock_pin_length_summary">Para que o Desbloqueio Rápido funcione, defina o comprimento do PIN (numero de dígitos).</string>
 
     <!-- Immersive recents -->
     <string name="immersive_recents_title">Recentes imersivos</string>
@@ -995,4 +1021,42 @@
     <string name="show_carrier_enabled">Ecrã de bloqueio &amp; barra de estado</string>
     <string name="status_bar_carrier_color">Cor do nome do Operador</string>
     <string name="status_bar_carrier_size">Tamanho do texto do nome do Operador</string>
-</resources>
+
+    <!-- OmniJaws -->
+    <string name="weather_title">Meteorologia</string>
+    <string name="weather_config_title">Definições de Meteorologia</string>
+    <string name="weather_config_summary"></string>
+    <string name="lockscreen_weather_title">Informação de meteorologia no ecrã de bloqueio</string>
+    <string name="lockscreen_weather_config_title">Definições de meteorologia no ecrã de bloqueio</string>
+    <string name="lockscreen_weather_config_summary"></string>
+
+    <!-- StatusBar weather settings -->
+    <string name="statusbar_weather_category">Meteorologia na barra de estado</string>
+    <string name="statusbar_weather_title">Meteorologia na barra de estado</string>
+    <string name="statusbar_weather_summary">Configurar a partir de QS definições/Meteorologia.</string>
+    <string name="statusbar_weather_dialog_title">Estilo da meteorologia na barra de estado</string>
+    <string name="status_bar_weather_hidden">Ocultar meteorologia</string>
+    <string name="status_bar_temperature_image_show_scale">Mostrar temperatura com escala e imagem</string>
+    <string name="status_bar_temperature_image_hide_scale">Mostrar temperatura com imagem sem escala</string>
+    <string name="status_bar_temperature_show_scale_hide_image">Mostrar temperatura com escala</string>
+    <string name="status_bar_temperature_hide_scale_hide_image">Mostrar temperatura sem escala</string>
+    <string name="status_bar_show_image">Mostrar imagem</string>
+
+    <!-- Power Menu -->
+    <string name="powermenu_title">Menu de energia</string>
+    <string name="powermenu_settings_summary">Customização do menu de energia</string>
+    <string name="powermenu_screenshot">Captura de ecrã</string>
+    <string name="powermenu_torch">Lanterna</string>
+    <string name="powermenu_power">Desligar</string>
+    <string name="powermenu_reboot">Reiniciar</string>
+    <string name="powermenu_airplane">Modo Avião</string>
+    <string name="powermenu_settings">Definições</string>
+    <string name="powermenu_lockdown">Bloquear</string>
+    <string name="powermenu_soundpanel">Painel de som</string>
+    <string name="powermenu_users">Utilizadores</string>
+    <string name="powermenu_onthego_title">Modo On-The-Go</string>
+
+    <!-- Power menu on secure lockscreen -->
+    <string name="lockscreen_enable_power_menu_title">Mostrar menu de energia no ecrã de bloqueio</string>
+    <string name="lockscreen_enable_power_menu_summary">Esta opção apenas desativa o menu de energia no ecrã de bloqueio</string>
+ </resources>
