@@ -1054,7 +1054,8 @@
     <string name="powermenu_lockdown">锁定</string>
     <string name="powermenu_soundpanel">声音面板</string>
     <string name="powermenu_users">用户</string>
-
+    <string name="powermenu_onthego_title">即时模式</string>
+	
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">锁屏时允许显示电源菜单</string>
     <string name="lockscreen_enable_power_menu_summary">此选项仅安全锁屏时将禁用电源菜单</string>
