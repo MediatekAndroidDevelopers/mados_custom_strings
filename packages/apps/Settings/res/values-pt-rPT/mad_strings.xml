@@ -925,7 +925,7 @@
     <string name="recent_panel_lefty_mode_title">Mostrar na margem esquerda</string>
     <string name="recent_panel_lefty_mode_summary">Mostrar painel de aplicações recentes na margem esquerda</string>
     <string name="slim_icon_pack_title">Pacote de ícones</string>
-    <string name="slim_icon_pack_summary">Apply a custom icon pack for apps in the panel</string>
+    <string name="slim_icon_pack_summary">Aplicar um pacote de ícones personalizado para aplicações no painel</string>
     <string name="no_iconpacks_summary">Nenhum pacote de ícones instalado</string>
     <string name="dialog_pick_iconpack_title">Escolher pacote de ícones</string>
     <string name="default_iconpack_title">Ícones predefinidos</string>
