@@ -124,4 +124,16 @@
 
     <!-- Weather string format in expanded statusbar header -->
     <string name="status_bar_weather_format"><xliff:g id="temp">%1$s</xliff:g></string>
+
+    <!-- On The Go Mode-->
+    <string name="onthego_notif_ticker">Tryb On-The-Go włączony</string>
+    <string name="onthego_notif_title">Tryb On-The-Go jest aktywny</string>
+    <string name="onthego_notif_stop">Stop</string>
+    <string name="onthego_notif_options">Opcje</string>
+    <string name="onthego_notif_error">Nie można włączyć trybu On-The-Go</string>
+    <string name="onthego_notif_restart">Ponowne włączanie On-The-Go</string>
+    <string name="onthego_notif_camera_changed">Kamera przełączona</string>
+    <string name="onthego_transparency">Przezroczystość</string>
+    <string name="onthego_front_camera">Użyj przedniego aparatu</string>
+    <string name="onthego_service_toggle">Automatycznie restartuj</string>
  </resources>
