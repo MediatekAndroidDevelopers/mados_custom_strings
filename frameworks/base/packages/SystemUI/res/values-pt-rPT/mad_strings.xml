@@ -35,7 +35,7 @@
     <string name="quick_settings_music_play">Reproduzir</string>
     <string name="quick_settings_music_pause">Pausar</string>
     <string name="quick_settings_caffeine_label">Cafeína</string>
-    <string name="accessibility_quick_settings_caffeine_off">Desativer cafeína</string>
+    <string name="accessibility_quick_settings_caffeine_off">Desativar cafeína</string>
     <string name="accessibility_quick_settings_caffeine_on">Ativar cafeína</string>
 
     <!-- Screen pinning dialog description (for devices without navbar) -->
