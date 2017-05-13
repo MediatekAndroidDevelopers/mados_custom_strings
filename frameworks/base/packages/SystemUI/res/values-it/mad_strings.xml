@@ -123,5 +123,17 @@
     <string name="omnijaws_package_not_available">Servizio meteo OmniJaws non disponibile</string>
 
     <!-- Weather string format in expanded statusbar header -->
-<string name="status_bar_weather_format"><xliff:g id="temp">%1$s</xliff:g></string>
-</resources>
+    <string name="status_bar_weather_format"><xliff:g id="temp">%1$s</xliff:g></string>
+
+    <!-- On The Go Mode-->
+    <string name="onthego_notif_ticker">On-The-Go attivato</string>
+    <string name="onthego_notif_title">On-The-Go è attivo</string>
+    <string name="onthego_notif_stop">Stop</string>
+    <string name="onthego_notif_options">Opzioni</string>
+    <string name="onthego_notif_error">Impossibile avviare modalità On-The-Go</string>
+    <string name="onthego_notif_restart">Riavvia On-The-Go</string>
+    <string name="onthego_notif_camera_changed">Modalità Camera cambiataa</string>
+    <string name="onthego_transparency">Trasparenza</string>
+    <string name="onthego_front_camera">Usa camera frontale</string>
+    <string name="onthego_service_toggle">Riavvio automatico del servizio</string>
+     </resources>
