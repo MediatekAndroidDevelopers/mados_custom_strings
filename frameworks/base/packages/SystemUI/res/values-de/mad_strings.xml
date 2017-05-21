@@ -33,7 +33,51 @@
     <string name="accessibility_quick_settings_caffeine_on">Caffeine an</string>
 
     <!-- Screen pinning dialog description (for devices without navbar) -->
-    <string name="screen_pinning_description_no_navbar">Bleibt im Vordergrund bis Ansicht durch Drücken und Halten von ZURÜCK verlassen wird.</string>
+    <string name="screen_pinning_description_no_navbar">Bleibt im Vordergrund bis die Ansicht durch Drücken und Halten der Zurück Taste verlassen wird.</string>
+
+    <!-- NavBar Tuner -->
+    <string name="search">Suche</string>
+
+    <!-- Dialog title for navigation bar button selection -->
+    <string name="navbar_dialog_title">Wählen eine Aktion aus um diese zuzuordnen</string>
+    <string name="navbar_home_button">Home-Taste</string>
+    <string name="navbar_recent_button">Zuletzt-verwendet Taste</string>
+    <string name="navbar_search_button">Suchtaste</string>
+    <string name="navbar_back_button">Zurück-Taste</string>
+    <string name="navbar_empty_button">unbelegte Taste</string>
+    <string name="navbar_menu_conditional_button">Menü-Taste (wird automatisch versteckt)</string>
+    <string name="navbar_menu_always_button">Menü-Taste (wird immer angezeigt)</string>
+    <string name="navbar_menu_big_button">Menü-Taste</string>
+    <string name="navbar_power_button">Power-Taste</string>
+    <string name="navbar_notifications_button">Benachrichtigungstaste</string>
+    <string name="navbar_torch">Taschenlampe</string>
+    <string name="navbar_screenshot">Bildschirmfoto</string>
+
+    <!-- Content description of the power button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_power">Power</string>
+    <string name="accessibility_notifications">Benachrichtigungen</string>
+    <string name="accessibility_dpad_left">Mauszeiger links</string>
+    <string name="accessibility_dpad_right">Mauszeiger rechts</string>
+    <string name="accessibility_torch">Taschenlampe</string>
+    <string name="accessibility_screenshot">Bildschirmfoto</string>
+
+    <string name="app_killed_message">App wurde beendet</string>
+
+    <!-- Battery status in pie controls -->
+    <string name="pie_battery_status_charging">Laden (<xliff:g id="percent">%d</xliff:g>%%)</string>
+    <string name="pie_battery_status_full">Aufgeladen</string>
+    <string name="pie_battery_status_discharging"><xliff:g id="percent">%d</xliff:g>%% verbleibend</string>
+
+    <!-- Phone status in pie controls -->
+    <string name="pie_phone_status_no_service">Kein Service</string>
+    <string name="pie_phone_status_airplane_mode">Flugzeugmodus an</string>
+    <string name="pie_phone_status_emergency_only">Nur Notfallanrufe möglich</string>
+
+    <!-- madOS QS Tile -->
+    <string name="qs_mad_extras_tile">madOS Extras</string>
+
+    <!-- Slim Recents app-screen-->
+    <string name="recents_multiwin_nolastapp">Du hast alle zuletzte geöffneten Apps beendet, bitte öffne eine App vom Launcher oder der Appübersicht.</string>
 
     <!-- NFC QS tile -->
     <string name="quick_settings_nfc_label">NFC</string>
@@ -41,4 +85,46 @@
     <string name="accessibility_quick_settings_nfc_on">NFC an.</string>
     <string name="accessibility_quick_settings_nfc_changed_off">NFC ausgeschaltet.</string>
     <string name="accessibility_quick_settings_nfc_changed_on">NFC eingeschaltet.</string>
+
+    <!-- Compass QS Tile -->
+    <string name="quick_settings_compass_label">Kompass</string>
+    <string name="quick_settings_compass_value"><xliff:g id="degrees">%1$.0f</xliff:g>\u00b0 <xliff:g id="direction">%2$s</xliff:g></string>
+    <string name="quick_settings_compass_init">Initialisierung\u2026</string>
+    <string name="accessibility_quick_settings_compass_off">Kompass aus.</string>
+    <string name="accessibility_quick_settings_compass_on">Kompass an.</string>
+    <string name="accessibility_quick_settings_compass_changed_off">Kompass wurde deaktiviert.</string>
+    <string name="accessibility_quick_settings_compass_changed_on">Kompass wurde aktiviert.</string>
+    <string name="quick_settings_compass_N">N</string>
+    <string name="quick_settings_compass_NE">NE</string>
+    <string name="quick_settings_compass_E">E</string>
+    <string name="quick_settings_compass_SE">SE</string>
+    <string name="quick_settings_compass_S">S</string>
+    <string name="quick_settings_compass_SW">SW</string>
+    <string name="quick_settings_compass_W">W</string>
+    <string name="quick_settings_compass_NW">NW</string>
+    <!-- Language QS Tile -->
+    <string name="quick_settings_locale_label">Sprache</string>
+    <string name="quick_settings_locale_more_locales_toast">Bitte konfiguriere mehrere Sprachen um diese Funktion verwenden zu können.</string>
+    <!-- OmniJaws weather qs tile -->
+    <string name="omnijaws_service_error">Fehler</string>
+    <string name="omnijaws_service_unkown">Keine Wetterdaten</string>
+    <string name="omnijaws_detail_header">Wetter</string>
+    <string name="omnijaws_label_default">Wetter</string>
+    <string name="omnijaws_current_text">Jetzt</string>
+    <string name="omnijaws_package_not_available">OmniJaws nicht verfügbar</string>
+
+    <!-- Weather string format in expanded statusbar header -->
+    <string name="status_bar_weather_format"><xliff:g id="temp">%1$s</xliff:g></string>
+
+    <!-- On The Go Mode-->
+    <string name="onthego_notif_ticker">On-The-Go wurde aktiviert.</string>
+    <string name="onthego_notif_title">On-The-Go ist aktiviert.</string>
+    <string name="onthego_notif_stop">Stop</string>
+    <string name="onthego_notif_options">Optionen</string>
+    <string name="onthego_notif_error">Start von On-The-Go war nicht möglich</string>
+    <string name="onthego_notif_restart">Neustart von On-The-Go</string>
+    <string name="onthego_notif_camera_changed">Kameramodus verändert</string>
+    <string name="onthego_transparency">Transparency</string>
+    <string name="onthego_front_camera">Verwende die Frontkamera</string>
+    <string name="onthego_service_toggle">Starte den SErvice automatisch neu</string>
 </resources>
