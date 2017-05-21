@@ -389,7 +389,11 @@
     <string name="long_press_power_for_torch_title">Long press power for torch torch</string>
     <string name="long_press_power_for_torch_summary">Long pressing power button with screen off toggles torch on/off</string>
 
+    <!-- Idle stats -->
     <string name="idle_stats_title">Idle stats</string>
+    <string name="idle_stats_boot_time">Time since boot</string>
+    <string name="idle_stats_awake_time">Awake</string>
+    <string name="idle_stats_deepsleep_time">Deepsleep</string>
 
     <!-- General strings -->
     <string name="cancel">Cancel</string>

@@ -289,6 +289,12 @@
     <string name="long_press_power_for_torch_title">Power-Taste als Taschenlampe verwenden</string>
     <string name="long_press_power_for_torch_summary">Drücke und halte den An/Aus-Taste um die Taschenlampe bei ausgeschaltetem Bildschirm zu (de)aktivieren.</string>
 
+    <!-- Idle stats -->
+    <string name="idle_stats_title">Inaktivitäts-Statistik</string>
+    <string name="idle_stats_boot_time">Zeit seit dem Start</string>
+    <string name="idle_stats_awake_time">Wach</string>
+    <string name="idle_stats_deepsleep_time">Tiefschlaf</string>
+
     <!-- General strings -->
     <string name="cancel">Abbrechen</string>
     <string name="save">Speichern</string>
