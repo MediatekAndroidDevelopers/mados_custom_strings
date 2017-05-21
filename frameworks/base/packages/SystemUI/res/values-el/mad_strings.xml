@@ -21,8 +21,6 @@
     <string name="quick_settings_reboot_label">Επανεκκίνηση</string>
     <string name="quick_settings_reboot_recovery_label">Recovery</string>
 
-    <string name="switch_bar_auto">Αυτόματο</string>
-
     <!-- Quick Settings tiles -->
     <string name="quick_settings_screenshot_label">Στιγμιότυπο οθόνης</string>
     <string name="quick_settings_region_screenshot_label">Μερικό Στιγμιοτυπο οθόνης</string>
@@ -85,7 +83,6 @@
     <string name="quick_mad_extras_toast">lol, Σκεφτήκατε πραγματικά ότι το παρατεταμένο κλικ λειτουργεί εδώ? xD</string>
 
     <!-- Slim Recents app-screen-->
-    <string name="recents_multiwin_warning">Μια περίοδος πολλαπλών παραθύρων είναι ήδη ενεργή.\nΑπλώς αγγίξτε μια εφαρμογή αν θέλετε να την αποβάλετε τώρα.</string>
     <string name="recents_multiwin_nolastapp">Κλείστε όλες τις πρόσφατες εφαρμογές και επιλέξτε μια απο την αρχική οθόνη.</string>
 
     <!-- NFC QS tile -->

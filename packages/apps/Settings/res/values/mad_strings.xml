@@ -109,7 +109,7 @@
     <string name="smartwake_settings_title">SmartWake</string>
     <string name="smartwake_settings_summary">Control SmartWake gestures</string>
     <string name="smartwake_settings_category">SmartWake</string>
-    <string name="smartwake_support_gestures">Support Gestures</string>
+    <string name="smartwake_support_gestures">Supported Gestures</string>
     <string name="smartwake_settings_u_title">Double click to wake screen</string>
     <string name="smartwake_settings_up_title">Draw up to unlock</string>
     <string name="smartwake_settings_down_title">Draw down to pause music</string>
@@ -902,7 +902,7 @@
     <string name="mad_recents_summary">Recents customizations</string>
     <string name="recents_title">Recents apps</string>
     <string name="slim_recents_title">Slim recents</string>
-    <string name="use_slim_recents_title">Use for a recents alterative</string>
+    <string name="use_slim_recents_title">Use for a recents alternative</string>
     <string name="use_slim_recents_summary">Use slim recents instead of the default recents view</string>
     <string name="slim_recents_settings_title">Slim recents settings</string>
     <string name="slim_recents_settings_summary">View the settings for slim recents</string>
