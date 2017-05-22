@@ -28,24 +28,6 @@
 
     <!-- Notify user that they are in Lock-to-app (for devices without navbar) -->
     <string name="lock_to_app_toast_no_navbar">Para desvincular esta pantalla, toque y mantenga presionado el botón Atrás.</string>
-	
-	<!-- status message in phone options dialog for when pie is on -->
-    <string name="global_actions_pie_mode_on_status">SlimPie activado.</string>
-
-    <!-- status message in phone options dialog for when pie is off -->
-    <string name="global_actions_pie_mode_off_status">SlimPie desactivado.</string>
-
-    <!-- Error message if user want to try to disable all navigation options -->
-    <string name="disable_pie_navigation_error">No puede desactivar los controles PIE.Ninguna navegación está habilitada.Habilite primero la barra de navegación.</string>
-
-    <!-- status message in phone options dialog for when navigation bar is on -->
-    <string name="global_actions_nav_bar_mode_on_status">Barra de navegación activada.</string>
-
-    <!-- status message in phone options dialog for when navigation bar is off -->
-    <string name="global_actions_nav_bar_mode_off_status">Barra de navegación desactivada.</string>
-
-    <!-- Error message if user want to try to disable all navigation options -->
-    <string name="disable_navigation_pie_error">No puede desactivar la barra de navegación.Ninguna otra navegación está habilitada.Active primero los controles PIE.</string>
 
     <string name="singlehandmode_click_hint_message">Toque fuera de la pantalla para salir de la mini visualización</string>
 	

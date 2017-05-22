@@ -28,24 +28,6 @@
 
     <!-- Notify user that they are in Lock-to-app (for devices without navbar) -->
     <string name="lock_to_app_toast_no_navbar">Aby odpiąć ten ekran, dotknij i przytrzymaj przycisk wróć.</string>
-    
-    <!-- status message in phone options dialog for when pie is on -->
-    <string name="global_actions_pie_mode_on_status">SlimPie włączone</string>
-
-    <!-- status message in phone options dialog for when pie is off -->
-    <string name="global_actions_pie_mode_off_status">SlimPie wyłączone</string>
-
-    <!-- Error message if user want to try to disable all navigation options -->
-    <string name="disable_pie_navigation_error">Nie możesz wyłączyć półkolistego menu (pie control), gdyż żadna inna metoda nawigacji nie jest włączona. Włącz najpierw pasek nawigacji aby wyłączyć półkoliste menu.</string>
-
-    <!-- status message in phone options dialog for when navigation bar is on -->
-    <string name="global_actions_nav_bar_mode_on_status">Pasek nawigacji włączony</string>
-
-    <!-- status message in phone options dialog for when navigation bar is off -->
-    <string name="global_actions_nav_bar_mode_off_status">Pasek nawigacji wyłączony</string>
-
-    <!-- Error message if user want to try to disable all navigation options -->
-    <string name="disable_navigation_pie_error">Nie możesz wyłączyć paska nawigacji, gdyż żadna inna metoda nawigacji nie jest włączona. Włącz najpierw półkoliste menu (pie control) aby wyłączyć pasek nawigacji</string>
 
     <string name="singlehandmode_click_hint_message">Dotknij poza ekranem aby wyjść z trybu pomniejszonego ekranu.</string>
 

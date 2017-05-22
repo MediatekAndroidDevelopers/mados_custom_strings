@@ -21,8 +21,6 @@
     <string name="quick_settings_reboot_label">重启</string>
     <string name="quick_settings_reboot_recovery_label">Recovery</string>
 
-    <string name="switch_bar_auto">自动</string>
-
     <!-- Quick Settings tiles -->
     <string name="quick_settings_screenshot_label">截屏</string>
     <string name="quick_settings_region_screenshot_label">局部截屏</string>
@@ -85,7 +83,6 @@
     <string name="quick_mad_extras_toast">哈哈，你真的以为长按这里将工作？</string>
 
     <!-- Slim Recents app-screen-->
-    <string name="recents_multiwin_warning">多窗口的会话已经被激活。\n如果你想现在停靠只需轻按一个应用程序。</string>
     <string name="recents_multiwin_nolastapp">你删除了所有的最近任务，请从启动器或抽屉中打开一个应用程序。</string>
 
     <!-- NFC QS tile -->

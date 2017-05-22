@@ -21,8 +21,6 @@
     <string name="quick_settings_reboot_label">Riavvia</string>
     <string name="quick_settings_reboot_recovery_label">Recovery</string>
 
-    <string name="switch_bar_auto">Auto</string>
-
     <!-- Quick Settings tiles -->
     <string name="quick_settings_screenshot_label">Screenshot</string>
     <string name="quick_settings_region_screenshot_label">Screenshot parziale</string>
@@ -85,7 +83,6 @@
     <string name="quick_mad_extras_toast">lol, hai pensato davvero che un click prolungato qui funzionasse davvero? xD</string>
 
     <!-- Slim Recents app-screen-->
-    <string name="recents_multiwin_warning">Una sessione multifinestre è già attiva.\nJust seleziona una app.</string>
     <string name="recents_multiwin_nolastapp">Hai eliminato tutti le app recenti, scegli una app dal launcher o dal drawer.</string>
 
     <!-- NFC QS tile -->

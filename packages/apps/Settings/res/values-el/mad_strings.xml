@@ -389,7 +389,11 @@
     <string name="long_press_power_for_torch_title">Παρατεταμένο πάτημα πληκτρού ενεργοποίησης για ενεργοποίηση φακού</string>
     <string name="long_press_power_for_torch_summary">Παρατεταμένο πάτημα πληκτρού ενεργοποίησης  για εναλλαγή φακού on/off ενω η οθόνη είναι κλειστή</string>
 
+    <!-- Idle stats -->
     <string name="idle_stats_title">Στατιστικά αδράνειας</string>
+    <string name="idle_stats_boot_time">Χρόνος από την εκκίνηση</string>
+    <string name="idle_stats_awake_time">Χωρίς ύπνο</string>
+    <string name="idle_stats_deepsleep_time">Βαθύς ύπνος</string>
 
     <!-- General strings -->
     <string name="cancel">Ακύρωση</string>
@@ -585,7 +589,7 @@
     <string name="schedule_power_on_off_settings_title">Προγραμματισμένη ενεργοποίηση &amp; απενεργοποίηση</string>
     <string name="schedule_summary">Ρυθμίσεις για προγραμματισμένη ενεργοποίηση/απενεργοποίηση</string>
 	
-	<string name="scheduled_power_on">Ενεργοποίηση</string>
+    <string name="scheduled_power_on">Ενεργοποίηση</string>
     <string name="scheduled_power_off">Απενεργοποίηση</string>
 
     <string name="scheduled_power_edit_time">Επεξεργασία ώρας</string>
@@ -636,7 +640,7 @@
     <string name="shortcut_action_help_delete_last_entry">Αφαιρώντας όλα τα  %1$s στην λίστα Θα απενεργοποιήθει πλήρως τη λειτουργία.</string>
     <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Αφαιρώντας όλα τα %1$s στην λίστα Θα απενεργοποιήσει πλήρως τη δεύτερη στρώση πίτας.</string>
 	
-	<string name="shortcuts_applications">Εγαρμογές</string>
+    <string name="shortcuts_applications">Εγαρμογές</string>
     <string name="shortcuts_select_custom_app_title">Επιλέξτε προσαρμοσμένη εφαρμογή</string>
     <string name="shortcuts_icon_default">Προεπιλογή</string>
     <string name="shortcuts_icon_presets">Εικονίδια συστήματος</string>
@@ -696,7 +700,7 @@
     <string name="shortcuts_icon_picker_twitter">Twitter</string>
     <string name="shortcuts_icon_picker_unlock">Ξεκλείδωμα</string>
 	
-	<string name="help">Βοήθεια</string>
+    <string name="help">Βοήθεια</string>
     <string name="no_home_key">Δεν έχετε πλέον αντιστοιχιστίσει κουμπί στο \"Home\" action!\n\nΑυτό μπορεί να καταστήσει τη συσκευή σας ακατάλληλη!</string>
     <string name="no_back_key">Δεν έχετε πλέον αντιστοιχιστίσει κουμπί στο \"Back\" action!\n\nΑυτό μπορεί να καταστήσει τη συσκευή σας ακατάλληλη!</string>
 	
