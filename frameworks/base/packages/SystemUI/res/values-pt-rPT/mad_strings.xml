@@ -21,8 +21,6 @@
     <string name="quick_settings_reboot_label">Reiniciar</string>
     <string name="quick_settings_reboot_recovery_label">Recuperação</string>
 
-    <string name="switch_bar_auto">Automático</string>
-
     <!-- Quick Settings tiles -->
     <string name="quick_settings_screenshot_label">Captura de ecrã</string>
     <string name="quick_settings_region_screenshot_label">Captura parcial de ecrã</string>
@@ -85,7 +83,6 @@
     <string name="quick_mad_extras_toast">lol, pensavas mesmo que o toque longo funcionava aqui? xD</string>
 
     <!-- Slim Recents app-screen-->
-    <string name="recents_multiwin_warning">Já está ativa uma Sessão de multiplas janelas.\nBasta tocar numa aplicação se quiser encaixá-la agora.</string>
     <string name="recents_multiwin_nolastapp">Eliminou todas as aplicações recentes, por favor, escolha uma aplicação do lançador ou da gaveta.</string>
 
     <!-- NFC QS tile -->

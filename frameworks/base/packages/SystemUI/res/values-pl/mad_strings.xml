@@ -21,8 +21,6 @@
     <string name="quick_settings_reboot_label">Restart</string>
     <string name="quick_settings_reboot_recovery_label">Recovery</string>
 
-    <string name="switch_bar_auto">Automat.</string>
-
     <!-- Quick Settings tiles -->
     <string name="quick_settings_screenshot_label">Zrzut ekranu</string>
     <string name="quick_settings_region_screenshot_label">Zrzut części ekr.</string>
@@ -85,7 +83,6 @@
     <string name="quick_mad_extras_toast">Naprawdę myślałeś że długi klik działa tutaj? xD</string>
 
     <!-- Slim Recents app-screen-->
-    <string name="recents_multiwin_warning">Sesja z wieloma oknami aktywna.\nDotknij aplikację, którą chesz zadokować.</string>
     <string name="recents_multiwin_nolastapp">Usunąłeś wszystkie ostatnie okna, wybierz aplikację z launchera albo listy aplikacji.</string>
 
     <!-- NFC QS tile -->
