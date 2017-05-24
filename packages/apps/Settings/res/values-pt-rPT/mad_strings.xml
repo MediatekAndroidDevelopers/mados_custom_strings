@@ -389,7 +389,11 @@
     <string name="long_press_power_for_torch_title">Utilizar a tecla de energia para ligar a lanterna</string>
     <string name="long_press_power_for_torch_summary">Pressionar durante algum tempo a tecla de energia com o ecrã desligado liga/desliga a lanterna</string>
 
+    <!-- Idle stats -->
     <string name="idle_stats_title">Estatísticas de inatividade</string>
+    <string name="idle_stats_boot_time">Tempo desde o arranque</string>
+    <string name="idle_stats_awake_time">Acordado</string>
+    <string name="idle_stats_deepsleep_time">Sono profundo</string>
 
     <!-- General strings -->
     <string name="cancel">Cancelar</string>
