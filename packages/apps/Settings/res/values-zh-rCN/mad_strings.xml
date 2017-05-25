@@ -389,7 +389,11 @@
     <string name="long_press_power_for_torch_title">长按电源开关手电筒</string>
     <string name="long_press_power_for_torch_summary">息屏状态下长按电源键开关手电筒</string>
 
+    <!-- Idle stats -->
     <string name="idle_stats_title">空闲统计</string>
+    <string name="idle_stats_boot_time">自启动时间</string>
+    <string name="idle_stats_awake_time">唤醒</string>
+    <string name="idle_stats_deepsleep_time">深度睡眠</string>
 
     <!-- General strings -->
     <string name="cancel">取消</string>
@@ -1059,5 +1063,4 @@
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">锁屏时允许显示电源菜单</string>
     <string name="lockscreen_enable_power_menu_summary">此选项仅安全锁屏时将禁用电源菜单</string>
- </resources>
- 
+ </resources> 
