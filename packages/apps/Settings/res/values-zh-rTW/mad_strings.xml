@@ -389,7 +389,11 @@
     <string name="long_press_power_for_torch_title">長按電源開關手電筒</string>
     <string name="long_press_power_for_torch_summary">息屏狀態下長按電源鍵開關手電筒</string>
 
+     <!-- Idle stats -->
     <string name="idle_stats_title">空閒統計</string>
+    <string name="idle_stats_boot_time">自啟動時間</string>
+    <string name="idle_stats_awake_time">喚醒</string>
+    <string name="idle_stats_deepsleep_time">深度睡眠</string>
 
     <!-- General strings -->
     <string name="cancel">取消</string>
