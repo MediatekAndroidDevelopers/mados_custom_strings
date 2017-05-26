@@ -90,14 +90,8 @@
     <string name="pref_camera_coloreffect_entry_point_red_yellow">Tono Rojo-Amarillo</string>
     <string name="pref_camera_coloreffect_entry_cartoonize">Dibujo</string>
 
-    <!-- Power shutter -->
-    <string name="pref_camera_power_shutter_default" translatable="false">off</string>
-
     <!-- Touch focus duration -->
     <string name="pref_camera_focustime_title">Duración de enfoque</string>
-    <string name="pref_camera_focustime_default" translatable="false">3000</string>
-    <string name="pref_camera_video_focustime_default" translatable="false">200</string>
-
     <string name="pref_camera_focustime_entry_0">0 s</string>
     <string name="pref_camera_focustime_entry_3">3 s</string>
     <string name="pref_camera_focustime_entry_5">5 s</string>
@@ -106,7 +100,6 @@
 
     <!-- Grid -->
     <string name="pref_grid_title">Cuadrícula</string>
-    <string name="pref_grid_default" translatable="false">off</string>
 
     <!-- JPEG Quality -->
     <string name="pref_camera_jpegquality_entry_0">Baja</string>
@@ -138,7 +131,6 @@
     <string name="pref_camera_antibanding_entry_3">Automático</string>
 
     <!-- Storage -->
-    <string name="pref_camera_storage_default" translatable="false">0</string>
     <string name="pref_camera_storage_entry_0">Teléfono</string>
     <string name="pref_camera_storage_entry_1">Tarjeta SD</string>
 
