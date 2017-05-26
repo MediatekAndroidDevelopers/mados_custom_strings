@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013-2015 The CyanogenMod Project
+     Copyright (C) 2017 The madOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- aspect ratio greater than 16:9, so "widescreen" or "cinematic" -->
+    <string name="pref_camera_aspectratio_wide">Ancho</string>
+
+    <!-- format for entries in the picture size menu. Parameter one is aspect ratio
+         parameter two is size in megapixels, e.g. "(4:3) 12.1 megapixels"
+         NOTE: for Chinese (zh) and Korean (ko) the pixel number (parameter two)
+         will be multiplied by 100 as those languages want to count by ten thousands -->
+    <string name="pref_camera_megapixel_format">(%1$s) %2$1.1f MP</string>
+
+    <!-- Settings screen, scene mode -->
+	  <string name="pref_camera_scenemode_entry_refocus">Macro+</string>
+    <string name="pref_camera_scenemode_entry_antimotionblur">Reducción desenfoque de movimiento</string>
+    <string name="pref_camera_scenemode_entry_aqua">Agua</string>
+    <string name="pref_camera_scenemode_entry_ar">Realidad aumentada</string>
+    <string name="pref_camera_scenemode_entry_asd">Mejor foto</string>
+    <string name="pref_camera_scenemode_entry_baby">Bebé</string>
+    <string name="pref_camera_scenemode_entry_backgroundblur">Desenfoque de fondo</string>
+    <string name="pref_camera_scenemode_entry_backlight">Retroiluminación</string>
+    <string name="pref_camera_scenemode_entry_backlightportrait">Retrato retroiluminado</string>
+    <string name="pref_camera_scenemode_entry_barcode">Código de barras</string>
+    <string name="pref_camera_scenemode_entry_beach">playa</string>
+    <string name="pref_camera_scenemode_entry_beauty">Belleza</string>
+    <string name="pref_camera_scenemode_entry_candlelight">Luz de vela</string>
+    <string name="pref_camera_scenemode_entry_cine">Cine</string>
+    <string name="pref_camera_scenemode_entry_closeup">Macro</string>
+    <string name="pref_camera_scenemode_entry_dark">Oscuro</string>
+    <string name="pref_camera_scenemode_entry_dish">Cena</string>
+    <string name="pref_camera_scenemode_entry_duskdawn">Atardecer</string>
+    <string name="pref_camera_scenemode_entry_document">Papel</string>
+    <string name="pref_camera_scenemode_entry_fallcolor">Color de otoño</string>
+    <string name="pref_camera_scenemode_entry_fireworks">Fuegos artificiales</string>
+    <string name="pref_camera_scenemode_entry_flowers">Flores</string>
+    <string name="pref_camera_scenemode_entry_handheldtwilight">Atardecer (sin soporte)</string>
+    <string name="pref_camera_scenemode_entry_highsensitivity">Alta sensibilidad</string>
+    <string name="pref_camera_scenemode_entry_indoor">Interior</string>
+    <string name="pref_camera_scenemode_entry_landscape">Paisaje</string>
+    <string name="pref_camera_scenemode_entry_mix_illuminant">Iluminación desigual</string>
+    <string name="pref_camera_scenemode_entry_mood">Ambiente</string>
+    <string name="pref_camera_scenemode_entry_nightportrait">Retrato nocturno</string>
+    <string name="pref_camera_scenemode_entry_nightindoor">Noche interior</string>
+    <string name="pref_camera_scenemode_entry_oldfilm">Película vieja</string>
+    <string name="pref_camera_scenemode_entry_pet">Mascota</string>
+    <string name="pref_camera_scenemode_entry_portrait">Retrato</string>
+    <string name="pref_camera_scenemode_entry_snow">Nieve</string>
+    <string name="pref_camera_scenemode_entry_softskin">Piel suave</string>
+    <string name="pref_camera_scenemode_entry_sports">Deportes</string>
+    <string name="pref_camera_scenemode_entry_spotlight">Foco</string>
+    <string name="pref_camera_scenemode_entry_steadyphoto">Foto estable</string>
+    <string name="pref_camera_scenemode_entry_supernight">Noche oscura</string>
+    <string name="pref_camera_scenemode_entry_sweepstitch">Barrido panorámico</string>
+    <string name="pref_camera_scenemode_entry_text">Texto</string>
+    <string name="pref_camera_scenemode_entry_theatre">Teatro</string>
+    <string name="pref_camera_scenemode_entry_whiteboard">Pizarra blanca</string>
+
+    <!-- Settings screen, focus mode -->
+    <string name="pref_camera_focusmode_entry_continuous">Continuo</string>
+    <string name="pref_camera_focusmode_entry_mw_continuous">Continuo (MW)</string>
+    <string name="pref_camera_focusmode_entry_extended">Extendido</string>
+    <string name="pref_camera_focusmode_entry_facedetect">Detección facial</string>
+    <string name="pref_camera_focusmode_entry_facepriority">Prioridad facial</string>
+    <string name="pref_camera_focusmode_entry_fixed">Fijo</string>
+    <string name="pref_camera_focusmode_entry_normal">Normal</string>
+    <string name="pref_camera_focusmode_entry_portrait">Retrato</string>
+    <string name="pref_camera_focusmode_entry_hyperfocal">Hiperfocal</string>
+
+    <!-- Color effects -->
+    <string name="pref_camera_coloreffect_entry_washed">Lavado</string>
+    <string name="pref_camera_coloreffect_entry_vintage_warm">Vintage (Caliente)</string>
+    <string name="pref_camera_coloreffect_entry_vintage_cold">Vintage (Frio)</string>
+    <string name="pref_camera_coloreffect_entry_point_blue">Tono azul</string>
+    <string name="pref_camera_coloreffect_entry_point_green">Tono verde</string>
+    <string name="pref_camera_coloreffect_entry_point_red_yellow">Tono Rojo-Amarillo</string>
+    <string name="pref_camera_coloreffect_entry_cartoonize">Dibujo</string>
+
+    <!-- Touch focus duration -->
+    <string name="pref_camera_focustime_title">Duración de enfoque</string>
+    <string name="pref_camera_focustime_entry_0">0 s</string>
+    <string name="pref_camera_focustime_entry_3">3 s</string>
+    <string name="pref_camera_focustime_entry_5">5 s</string>
+    <string name="pref_camera_focustime_entry_10">10 s</string>
+    <string name="pref_camera_focustime_entry_infinite">Infinita</string>
+
+    <!-- Grid -->
+    <string name="pref_grid_title">Cuadrícula</string>
+
+    <!-- JPEG Quality -->
+    <string name="pref_camera_jpegquality_entry_0">Baja</string>
+    <string name="pref_camera_jpegquality_entry_1">Estándar</string>
+    <string name="pref_camera_jpegquality_entry_2">Alta</string>
+
+    <!-- ISO -->
+    <string name="pref_camera_iso_entry_auto">Automático</string>
+    <string name="pref_camera_iso_entry_iso100">ISO100</string>
+    <string name="pref_camera_iso_entry_iso200">ISO200</string>
+    <string name="pref_camera_iso_entry_iso400">ISO400</string>
+    <string name="pref_camera_iso_entry_iso800">ISO800</string>
+    <string name="pref_camera_iso_entry_iso1600">ISO1600</string>
+
+    <!-- Contrast -->
+    <string name="pref_camera_contrast_entry_low">Bajo</string>
+    <string name="pref_camera_contrast_entry_medium">Medio</string>
+    <string name="pref_camera_contrast_entry_high">Alto</string>
+
+    <!-- Saturation -->
+    <string name="pref_camera_saturation_entry_low">Baja</string>
+    <string name="pref_camera_saturation_entry_medium">Media</string>
+    <string name="pref_camera_saturation_entry_high">Alta</string>
+
+    <!-- Anti Banding -->
+    <string name="pref_camera_antibanding_entry_0">Apagado</string>
+    <string name="pref_camera_antibanding_entry_1">50 Hz</string>
+    <string name="pref_camera_antibanding_entry_2">60 Hz</string>
+    <string name="pref_camera_antibanding_entry_3">Automático</string>
+
+    <!-- Storage -->
+    <string name="pref_camera_storage_entry_0">Teléfono</string>
+    <string name="pref_camera_storage_entry_1">Tarjeta SD</string>
+
+    <!-- Settings titles -->
+    <string name="pref_camera_settings_title">Ajustes</string>
+    <string name="pref_camera_settings_photo_category">Foto</string>
+    <string name="pref_camera_settings_video_category">Vídeo</string>
+    <string name="pref_camera_settings_others_category">Otros</string>
+
+    <string name="pref_camera_picture_size_title">Tamaño de imagen</string>
+    <string name="pref_camera_jpeg_quality_title">Calidad de imagen</string>
+    <string name="pref_camera_iso_title">ISO</string>
+    <string name="pref_camera_saturation_title">Saturación</string>
+    <string name="pref_camera_contrast_title">Contraste</string>
+    <string name="pref_camera_anti_banding_title">Anti parpadeo</string>
+
+    <string name="pref_camera_video_quality_title">Calidad de vídeo</string>
+    <string name="pref_camera_time_lapse_title">Cámara rápida</string>
+    <string name="pref_camera_focus_mode_title">Modo de enfoque</string>
+
+    <string name="pref_camera_face_detection_title">Detección de rostro</string>
+    <string name="pref_camera_storage_title">Almacenamiento</string>
+    <string name="pref_camera_gps_location_title">Localización GPS</string>
+    <string name="pref_camera_shutter_sound_title">Sonido del obturador</string>
+    <string name="pref_camera_power_shutter_title">Disparador alternativo</string>
+    <string name="pref_camera_exposure_title">Exposición</string>
+    <string name="pref_camera_white_balance_title">Balance blancos</string>
+
+</resources>

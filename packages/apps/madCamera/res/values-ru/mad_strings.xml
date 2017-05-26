@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013-2015 The CyanogenMod Project
+     Copyright (C) 2017 The madOS Project, Russian translate by Borizzz from XDA (iMiKE on 4PDA.ru)
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- aspect ratio greater than 16:9, so "widescreen" or "cinematic" -->
+    <string name="pref_camera_aspectratio_wide">Широкоформатный</string>
+
+    <!-- format for entries in the picture size menu. Parameter one is aspect ratio
+         parameter two is size in megapixels, e.g. "(4:3) 12.1 megapixels"
+         NOTE: for Chinese (zh) and Korean (ko) the pixel number (parameter two)
+         will be multiplied by 100 as those languages want to count by ten thousands -->
+    <string name="pref_camera_megapixel_format">(%1$s) %2$1.1f Мпикс</string>
+
+    <!-- Settings screen, scene mode -->
+    <string name="pref_camera_scenemode_entry_antimotionblur">Уменьшение смаза движения</string>
+    <string name="pref_camera_scenemode_entry_aqua">Вода</string>
+    <string name="pref_camera_scenemode_entry_ar">Дополненная реальность</string>
+    <string name="pref_camera_scenemode_entry_asd">Лучший кадр</string>
+    <string name="pref_camera_scenemode_entry_baby">Дети</string>
+    <string name="pref_camera_scenemode_entry_backgroundblur">Боке</string>
+    <string name="pref_camera_scenemode_entry_backlight">Подсветка</string>
+    <string name="pref_camera_scenemode_entry_backlightportrait">Портрет с подсветкой</string>
+    <string name="pref_camera_scenemode_entry_barcode">Штрихкод</string>
+    <string name="pref_camera_scenemode_entry_beach">Пляж</string>
+    <string name="pref_camera_scenemode_entry_beauty">Красота</string>
+    <string name="pref_camera_scenemode_entry_candlelight">Искусственное освещение</string>
+    <string name="pref_camera_scenemode_entry_cine">Кино</string>
+    <string name="pref_camera_scenemode_entry_closeup">Крупный план</string>
+    <string name="pref_camera_scenemode_entry_dark">Темнота</string>
+    <string name="pref_camera_scenemode_entry_dish">Еда</string>
+    <string name="pref_camera_scenemode_entry_duskdawn">Сумерки/рассвет</string>
+    <string name="pref_camera_scenemode_entry_document">Документ</string>
+    <string name="pref_camera_scenemode_entry_fallcolor">Осень</string>
+    <string name="pref_camera_scenemode_entry_fireworks">Фейерверк</string>
+    <string name="pref_camera_scenemode_entry_flowers">Цветы</string>
+    <string name="pref_camera_scenemode_entry_handheldtwilight">Ручные сумерки</string>
+    <string name="pref_camera_scenemode_entry_highsensitivity">Высокая чувствительность</string>
+    <string name="pref_camera_scenemode_entry_indoor">В помещении</string>
+    <string name="pref_camera_scenemode_entry_landscape">Пейзаж</string>
+    <string name="pref_camera_scenemode_entry_mix_illuminant">Смешанный свет</string>
+    <string name="pref_camera_scenemode_entry_mood">Настроение</string>
+    <string name="pref_camera_scenemode_entry_nightportrait">Ночной портрет</string>
+    <string name="pref_camera_scenemode_entry_nightindoor">Ночное помещение</string>
+    <string name="pref_camera_scenemode_entry_oldfilm">Старый фильм</string>
+    <string name="pref_camera_scenemode_entry_pet">Животные</string>
+    <string name="pref_camera_scenemode_entry_portrait">Портрет</string>
+    <string name="pref_camera_scenemode_entry_snow">Снег</string>
+    <string name="pref_camera_scenemode_entry_softskin">Мягкая кожа</string>
+    <string name="pref_camera_scenemode_entry_sports">Спорт</string>
+    <string name="pref_camera_scenemode_entry_spotlight">Прожектор</string>
+    <string name="pref_camera_scenemode_entry_steadyphoto">Устойчивое фото</string>
+    <string name="pref_camera_scenemode_entry_supernight">Тёмная ночь</string>
+    <string name="pref_camera_scenemode_entry_sweepstitch">Сшить/соединить</string>
+    <string name="pref_camera_scenemode_entry_text">Текст</string>
+    <string name="pref_camera_scenemode_entry_theatre">Театр</string>
+    <string name="pref_camera_scenemode_entry_whiteboard">Доска</string>
+
+    <!-- Settings screen, focus mode -->
+    <string name="pref_camera_focusmode_entry_continuous">Непрерывный</string>
+    <string name="pref_camera_focusmode_entry_mw_continuous">Непрерывный (MW)</string>
+    <string name="pref_camera_focusmode_entry_extended">Расширенный</string>
+    <string name="pref_camera_focusmode_entry_facedetect">Распознавание лиц</string>
+    <string name="pref_camera_focusmode_entry_facepriority">Приоритет лиц</string>
+    <string name="pref_camera_focusmode_entry_fixed">Фиксированный</string>
+    <string name="pref_camera_focusmode_entry_normal">Нормальный</string>
+    <string name="pref_camera_focusmode_entry_portrait">Портрет</string>
+    <string name="pref_camera_focusmode_entry_hyperfocal">Гиперфокальный</string>
+
+    <!-- Color effects -->
+    <string name="pref_camera_coloreffect_entry_washed">Выстиранный</string>
+    <string name="pref_camera_coloreffect_entry_vintage_warm">Винтажный тёплый</string>
+    <string name="pref_camera_coloreffect_entry_vintage_cold">Винтажный холодный</string>
+    <string name="pref_camera_coloreffect_entry_point_blue">Синий</string>
+    <string name="pref_camera_coloreffect_entry_point_green">Зелёный</string>
+    <string name="pref_camera_coloreffect_entry_point_red_yellow">Красно-жёлтый</string>
+    <string name="pref_camera_coloreffect_entry_cartoonize">Мультипликация</string>
+
+    <!-- Touch focus duration -->
+    <string name="pref_camera_focustime_title">Длительность тач-фокуса</string>
+    <string name="pref_camera_focustime_entry_0">0 сек</string>
+    <string name="pref_camera_focustime_entry_3">3 сек</string>
+    <string name="pref_camera_focustime_entry_5">5 сек</string>
+    <string name="pref_camera_focustime_entry_10">10 сек</string>
+    <string name="pref_camera_focustime_entry_infinite">Бесконечность</string>
+
+    <!-- Grid -->
+    <string name="pref_grid_title">Сетка</string>
+
+    <!-- JPEG Quality -->
+    <string name="pref_camera_jpegquality_entry_0">Низкое</string>
+    <string name="pref_camera_jpegquality_entry_1">Стандартное</string>
+    <string name="pref_camera_jpegquality_entry_2">Высокое</string>
+
+    <!-- ISO -->
+    <string name="pref_camera_iso_entry_auto">Авто</string>
+    <string name="pref_camera_iso_entry_iso100">ISO100</string>
+    <string name="pref_camera_iso_entry_iso200">ISO200</string>
+    <string name="pref_camera_iso_entry_iso400">ISO400</string>
+    <string name="pref_camera_iso_entry_iso800">ISO800</string>
+    <string name="pref_camera_iso_entry_iso1600">ISO1600</string>
+
+    <!-- Contrast -->
+    <string name="pref_camera_contrast_entry_low">Низкий</string>
+    <string name="pref_camera_contrast_entry_medium">Средний</string>
+    <string name="pref_camera_contrast_entry_high">Высокий</string>
+
+    <!-- Saturation -->
+    <string name="pref_camera_saturation_entry_low">Низкая</string>
+    <string name="pref_camera_saturation_entry_medium">Средняя</string>
+    <string name="pref_camera_saturation_entry_high">Высокая</string>
+
+    <!-- Anti Banding -->
+    <string name="pref_camera_antibanding_entry_0">Выкл</string>
+    <string name="pref_camera_antibanding_entry_1">50 Hz</string>
+    <string name="pref_camera_antibanding_entry_2">60 Hz</string>
+    <string name="pref_camera_antibanding_entry_3">Авто</string>
+
+    <!-- Storage -->
+    <string name="pref_camera_storage_entry_0">Телефон</string>
+    <string name="pref_camera_storage_entry_1">SD-карта</string>
+
+    <!-- Settings titles -->
+    <string name="pref_camera_settings_title">Настройки</string>
+    <string name="pref_camera_settings_photo_category">Фото</string>
+    <string name="pref_camera_settings_video_category">Видео</string>
+    <string name="pref_camera_settings_others_category">Другие</string>
+
+    <string name="pref_camera_picture_size_title">Размер фото</string>
+    <string name="pref_camera_jpeg_quality_title">Качество фото</string>
+    <string name="pref_camera_iso_title">ISO</string>
+    <string name="pref_camera_saturation_title">Насыщенность</string>
+    <string name="pref_camera_contrast_title">Контраст</string>
+    <string name="pref_camera_anti_banding_title">Антиобъединение</string>
+
+    <string name="pref_camera_video_quality_title">Качество видео</string>
+    <string name="pref_camera_time_lapse_title">Таймлапс</string>
+    <string name="pref_camera_focus_mode_title">Режим фокусировки</string>
+
+    <string name="pref_camera_face_detection_title">Распознавание лиц</string>
+    <string name="pref_camera_storage_title">Где хранить</string>
+    <string name="pref_camera_gps_location_title">Геотэги (GPS)</string>
+    <string name="pref_camera_shutter_sound_title">Звук затвора</string>
+    <string name="pref_camera_power_shutter_title">Затвор</string>
+    <string name="pref_camera_exposure_title">Экспозиция</string>
+    <string name="pref_camera_white_balance_title">Баланс белого</string>
+
+</resources>

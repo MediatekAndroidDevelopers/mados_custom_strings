@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013-2015 The CyanogenMod Project
+     Copyright (C) 2017 The madOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- aspect ratio greater than 16:9, so "widescreen" or "cinematic" -->
+    <string name="pref_camera_aspectratio_wide">宽</string>
+
+    <!-- format for entries in the picture size menu. Parameter one is aspect ratio
+         parameter two is size in megapixels, e.g. "(4:3) 12.1 megapixels"
+         NOTE: for Chinese (zh) and Korean (ko) the pixel number (parameter two)
+         will be multiplied by 100 as those languages want to count by ten thousands -->
+    <string name="pref_camera_megapixel_format">(%1$s) %2$1.1f 百万像素</string>
+
+    <!-- Settings screen, scene mode -->
+    <string name="pref_camera_scenemode_entry_antimotionblur">运动模糊减少</string>
+    <string name="pref_camera_scenemode_entry_aqua">水色</string>
+    <string name="pref_camera_scenemode_entry_ar">增强现实</string>
+    <string name="pref_camera_scenemode_entry_asd">最好的拍摄</string>
+    <string name="pref_camera_scenemode_entry_baby">宝宝</string>
+    <string name="pref_camera_scenemode_entry_backgroundblur">背景模糊</string>
+    <string name="pref_camera_scenemode_entry_backlight">逆光</string>
+    <string name="pref_camera_scenemode_entry_backlightportrait">背光画像</string>
+    <string name="pref_camera_scenemode_entry_barcode">条码</string>
+    <string name="pref_camera_scenemode_entry_beach">海滩</string>
+    <string name="pref_camera_scenemode_entry_beauty">美女</string>
+    <string name="pref_camera_scenemode_entry_candlelight">烛火</string>
+    <string name="pref_camera_scenemode_entry_cine">电影</string>
+    <string name="pref_camera_scenemode_entry_closeup">特写</string>
+    <string name="pref_camera_scenemode_entry_dark">黑暗</string>
+    <string name="pref_camera_scenemode_entry_dish">碟</string>
+    <string name="pref_camera_scenemode_entry_duskdawn">黄昏黎明</string>
+    <string name="pref_camera_scenemode_entry_document">文件</string>
+    <string name="pref_camera_scenemode_entry_fallcolor">秋色</string>
+    <string name="pref_camera_scenemode_entry_fireworks">烟花</string>
+    <string name="pref_camera_scenemode_entry_flowers">花卉</string>
+    <string name="pref_camera_scenemode_entry_handheldtwilight">手持曙光</string>
+    <string name="pref_camera_scenemode_entry_highsensitivity">高灵敏度</string>
+    <string name="pref_camera_scenemode_entry_indoor">室內</string>
+    <string name="pref_camera_scenemode_entry_landscape">风景</string>
+    <string name="pref_camera_scenemode_entry_mix_illuminant">混合照明</string>
+    <string name="pref_camera_scenemode_entry_mood">心情</string>
+    <string name="pref_camera_scenemode_entry_nightportrait">夜间人像</string>
+    <string name="pref_camera_scenemode_entry_nightindoor">夜间室内</string>
+    <string name="pref_camera_scenemode_entry_oldfilm">老电影</string>
+    <string name="pref_camera_scenemode_entry_pet">宠物</string>
+    <string name="pref_camera_scenemode_entry_portrait">肖像</string>
+    <string name="pref_camera_scenemode_entry_snow">雪</string>
+    <string name="pref_camera_scenemode_entry_softskin">柔软的皮肤</string>
+    <string name="pref_camera_scenemode_entry_sports">运动</string>
+    <string name="pref_camera_scenemode_entry_spotlight">聚光灯</string>
+    <string name="pref_camera_scenemode_entry_steadyphoto">稳定的照片</string>
+    <string name="pref_camera_scenemode_entry_supernight">漆黑的夜晚</string>
+    <string name="pref_camera_scenemode_entry_sweepstitch">扫迹</string>
+    <string name="pref_camera_scenemode_entry_text">文本</string>
+    <string name="pref_camera_scenemode_entry_theatre">剧场</string>
+    <string name="pref_camera_scenemode_entry_whiteboard">电子白板</string>
+
+    <!-- Settings screen, focus mode -->
+    <string name="pref_camera_focusmode_entry_continuous">连续</string>
+    <string name="pref_camera_focusmode_entry_mw_continuous">连续 (MW)</string>
+    <string name="pref_camera_focusmode_entry_extended">扩展</string>
+    <string name="pref_camera_focusmode_entry_facedetect">面部侦测</string>
+    <string name="pref_camera_focusmode_entry_facepriority">脸部优先</string>
+    <string name="pref_camera_focusmode_entry_fixed">固定</string>
+    <string name="pref_camera_focusmode_entry_normal">正常</string>
+    <string name="pref_camera_focusmode_entry_portrait">肖像</string>
+    <string name="pref_camera_focusmode_entry_hyperfocal">超焦距</string>
+
+    <!-- Color effects -->
+    <string name="pref_camera_coloreffect_entry_washed">水洗</string>
+    <string name="pref_camera_coloreffect_entry_vintage_warm">复古温暖</string>
+    <string name="pref_camera_coloreffect_entry_vintage_cold">复古冷</string>
+    <string name="pref_camera_coloreffect_entry_point_blue">蓝点</string>
+    <string name="pref_camera_coloreffect_entry_point_green">绿点</string>
+    <string name="pref_camera_coloreffect_entry_point_red_yellow">一点红黄</string>
+    <string name="pref_camera_coloreffect_entry_cartoonize">漫画化</string>
+
+    <!-- Touch focus duration -->
+    <string name="pref_camera_focustime_title">触控对焦时间</string>
+    <string name="pref_camera_focustime_entry_0">0s</string>
+    <string name="pref_camera_focustime_entry_3">3s</string>
+    <string name="pref_camera_focustime_entry_5">5s</string>
+    <string name="pref_camera_focustime_entry_10">10s</string>
+    <string name="pref_camera_focustime_entry_infinite">无穷</string>
+
+    <!-- Grid -->
+    <string name="pref_grid_title">网格</string>
+
+    <!-- JPEG Quality -->
+    <string name="pref_camera_jpegquality_entry_0">低</string>
+    <string name="pref_camera_jpegquality_entry_1">标准</string>
+    <string name="pref_camera_jpegquality_entry_2">高</string>
+
+    <!-- ISO -->
+    <string name="pref_camera_iso_entry_auto">自动</string>
+    <string name="pref_camera_iso_entry_iso100">ISO100</string>
+    <string name="pref_camera_iso_entry_iso200">ISO200</string>
+    <string name="pref_camera_iso_entry_iso400">ISO400</string>
+    <string name="pref_camera_iso_entry_iso800">ISO800</string>
+    <string name="pref_camera_iso_entry_iso1600">ISO1600</string>
+
+    <!-- Contrast -->
+    <string name="pref_camera_contrast_entry_low">低</string>
+    <string name="pref_camera_contrast_entry_medium">中等</string>
+    <string name="pref_camera_contrast_entry_high">高</string>
+
+    <!-- Saturation -->
+    <string name="pref_camera_saturation_entry_low">低</string>
+    <string name="pref_camera_saturation_entry_medium">中等</string>
+    <string name="pref_camera_saturation_entry_high">高</string>
+
+    <!-- Anti Banding -->
+    <string name="pref_camera_antibanding_entry_0">Off</string>
+    <string name="pref_camera_antibanding_entry_1">50 Hz</string>
+    <string name="pref_camera_antibanding_entry_2">60 Hz</string>
+    <string name="pref_camera_antibanding_entry_3">自动</string>
+
+    <!-- Storage -->
+    <string name="pref_camera_storage_entry_0">手机</string>
+    <string name="pref_camera_storage_entry_1">SD卡</string>
+
+    <!-- Settings titles -->
+    <string name="pref_camera_settings_title">设置</string>
+    <string name="pref_camera_settings_photo_category">照片</string>
+    <string name="pref_camera_settings_video_category">视频</string>
+    <string name="pref_camera_settings_others_category">其他</string>
+
+    <string name="pref_camera_picture_size_title">图片尺寸</string>
+    <string name="pref_camera_jpeg_quality_title">图像质量</string>
+    <string name="pref_camera_iso_title">ISO</string>
+    <string name="pref_camera_saturation_title">饱和</string>
+    <string name="pref_camera_contrast_title">对比</string>
+    <string name="pref_camera_anti_banding_title">反冲带</string>
+
+    <string name="pref_camera_video_quality_title">视频质量</string>
+    <string name="pref_camera_time_lapse_title">时间流逝</string>
+    <string name="pref_camera_focus_mode_title">对焦模式</string>
+
+    <string name="pref_camera_face_detection_title">人脸检测</string>
+    <string name="pref_camera_storage_title">存储</string>
+    <string name="pref_camera_gps_location_title">GPS位置</string>
+    <string name="pref_camera_shutter_sound_title">快门声</string>
+    <string name="pref_camera_power_shutter_title">电动快门</string>
+    <string name="pref_camera_exposure_title">曝光</string>
+    <string name="pref_camera_white_balance_title">白平衡</string>
+
+</resources>
