@@ -70,15 +70,15 @@
     <string name="pref_camera_scenemode_entry_whiteboard">Quadro branco</string>
 
     <!-- Settings screen, focus mode -->
-    <string name="pref_camera_focusmode_entry_continuous">Continuous</string>
-    <string name="pref_camera_focusmode_entry_mw_continuous">Continuous (MW)</string>
-    <string name="pref_camera_focusmode_entry_extended">Extended</string>
-    <string name="pref_camera_focusmode_entry_facedetect">Face detect</string>
-    <string name="pref_camera_focusmode_entry_facepriority">Face priority</string>
-    <string name="pref_camera_focusmode_entry_fixed">Fixed</string>
+    <string name="pref_camera_focusmode_entry_continuous">Contínuo</string>
+    <string name="pref_camera_focusmode_entry_mw_continuous">Contínuo (MW)</string>
+    <string name="pref_camera_focusmode_entry_extended">Aumentado</string>
+    <string name="pref_camera_focusmode_entry_facedetect">Deteção de rosto</string>
+    <string name="pref_camera_focusmode_entry_facepriority">Prioridade ao rosto</string>
+    <string name="pref_camera_focusmode_entry_fixed">Fixo</string>
     <string name="pref_camera_focusmode_entry_normal">Normal</string>
-    <string name="pref_camera_focusmode_entry_portrait">Portrait</string>
-    <string name="pref_camera_focusmode_entry_hyperfocal">Hyperfocal</string>
+    <string name="pref_camera_focusmode_entry_portrait">Retrato</string>
+    <string name="pref_camera_focusmode_entry_hyperfocal">Hiperfocal</string>
 
     <!-- Color effects -->
     <string name="pref_camera_coloreffect_entry_washed">Washed</string>
