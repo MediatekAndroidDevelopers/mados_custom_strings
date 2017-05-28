@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-     Copyright (C) 2017 The madOS Project
+<!--  Copyright (C) 2016, 2017 The madOS Project
 
-     Licensed under the Apache License, Version 2.0 (the "License");
-     you may not use this file except in compliance with the License.
-     You may obtain a copy of the License at
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
 
-          http://www.apache.org/licenses/LICENSE-2.0
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
 
-     Unless required by applicable law or agreed to in writing, software
-     distributed under the License is distributed on an "AS IS" BASIS,
-     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-     See the License for the specific language governing permissions and
-     limitations under the License.
--->
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
     <!-- Reboot/Reboot Recovery QS Tile -->
     <string name="quick_settings_reboot_label">Újraindítás</string>
     <string name="quick_settings_reboot_recovery_label">Recovery</string>
@@ -67,4 +69,71 @@
     <string name="accessibility_screenshot">Képernyőmentés</string>
 
     <string name="app_killed_message">Alkalmazás kilőve</string>
-</resources>
+
+    <!-- Battery status in pie controls -->
+    <string name="pie_battery_status_charging">Töltés (<xliff:g id="percent">%d</xliff:g>%%)</string>
+    <string name="pie_battery_status_full">Feltöltve</string>
+    <string name="pie_battery_status_discharging"><xliff:g id="percent">%d</xliff:g>%% van hátra</string>
+
+    <!-- Phone status in pie controls -->
+    <string name="pie_phone_status_no_service">Nincs szolgáltatás</string>
+    <string name="pie_phone_status_airplane_mode">Repülőgép mód bekapcsolva</string>
+    <string name="pie_phone_status_emergency_only">Csak vészhívás</string>
+
+    <!-- madOS QS Tile -->
+    <string name="qs_mad_extras_tile">madOS Extrák</string>
+    <string name="quick_mad_extras_toast">lol, tényleg azt hitted, hogy a hosszú kattintás működik itt? xD</string>
+
+    <!-- Slim Recents app-screen-->
+    <string name="recents_multiwin_warning">Egy többablakos munkamenet már aktív.\nCsak érints meg egy alkalmazást a beágyazáshoz.</string>
+    <string name="recents_multiwin_nolastapp">Eltávolítottál minden futó alkalmazást, kérlek válassz egyet az indítóból vagy a rajzolóból.</string>
+
+    <!-- NFC QS tile -->
+    <string name="quick_settings_nfc_label">NFC</string>
+    <string name="accessibility_quick_settings_nfc_off">NFC ki.</string>
+    <string name="accessibility_quick_settings_nfc_on">NFC be.</string>
+    <string name="accessibility_quick_settings_nfc_changed_off">NFC kikapcsolva.</string>
+    <string name="accessibility_quick_settings_nfc_changed_on">NFC bekapcsolva.</string>
+
+    <!-- Compass QS Tile -->
+    <string name="quick_settings_compass_label">Iránytű</string>
+    <string name="quick_settings_compass_value"><xliff:g id="degrees">%1$.0f</xliff:g>\u00b0 <xliff:g id="direction">%2$s</xliff:g></string>
+    <string name="quick_settings_compass_init">Inicializálás\u2026</string>
+    <string name="accessibility_quick_settings_compass_off">Iránytű ki.</string>
+    <string name="accessibility_quick_settings_compass_on">Iránytű be.</string>
+    <string name="accessibility_quick_settings_compass_changed_off">Iránytű kikapcsolva.</string>
+    <string name="accessibility_quick_settings_compass_changed_on">Iránytű bekapcsolva.</string>
+    <string name="quick_settings_compass_N">É</string>
+    <string name="quick_settings_compass_NE">ÉK</string>
+    <string name="quick_settings_compass_E">K</string>
+    <string name="quick_settings_compass_SE">DK</string>
+    <string name="quick_settings_compass_S">D</string>
+    <string name="quick_settings_compass_SW">DNy</string>
+    <string name="quick_settings_compass_W">Ny</string>
+    <string name="quick_settings_compass_NW">ÉNy</string>
+    <!-- Language QS Tile -->
+    <string name="quick_settings_locale_label">Nyelv</string>
+    <string name="quick_settings_locale_more_locales_toast">Kérlek állíts be több nyelvet a választó funkció bekapcsolásához</string>
+    <!-- OmniJaws weather qs tile -->
+    <string name="omnijaws_service_error">Hiba</string>
+    <string name="omnijaws_service_unkown">Nincs időjárás információ</string>
+    <string name="omnijaws_detail_header">Időjárás</string>
+    <string name="omnijaws_label_default">Időjárás</string>
+    <string name="omnijaws_current_text">Most</string>
+    <string name="omnijaws_package_not_available">OmniJaws nem elérhető</string>
+
+    <!-- Weather string format in expanded statusbar header -->
+    <string name="status_bar_weather_format"><xliff:g id="temp">%1$s</xliff:g></string>
+
+    <!-- On The Go Mode-->
+    <string name="onthego_notif_ticker">On-The-Go aktiválva</string>
+    <string name="onthego_notif_title">On-The-Go aktív</string>
+    <string name="onthego_notif_stop">Stop</string>
+    <string name="onthego_notif_options">Beállítások</string>
+    <string name="onthego_notif_error">On-The-Go nem indítható</string>
+    <string name="onthego_notif_restart">On-The-Go újraindíŧása</string>
+    <string name="onthego_notif_camera_changed">Kamera mód megváltozott</string>
+    <string name="onthego_transparency">Átlátszóság</string>
+    <string name="onthego_front_camera">Előlapi kamera használata</string>
+    <string name="onthego_service_toggle">Szolgáltatás automatikus újraindítása</string>
+ </resources>
