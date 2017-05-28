@@ -19,21 +19,6 @@
     <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
     <string name="permdesc_preventpower">Pozwala aplikacji na zmianę działania przycisku wyłącznika.</string>
 
-    <!-- Button to restart the phone in restart menu -->
-    <string name="reboot_reboot">Restart</string>
-    <!-- Button to restart the phone into recovery in restart menu -->
-    <string name="reboot_recovery">Recovery</string>
-    <!-- Button to soft restart the device in restart menu -->
-    <string name="reboot_soft">Miękki restart</string>
-    <!-- Restart Confirmation Dialog. -->
-    <string name="reboot_confirm" product="tablet">Twój tablet uruchomi się ponownie.</string>
-    <string name="reboot_confirm" product="default">Twój telefon uruchomi się ponownie.</string>
-    <!-- Restart Progress Dialog. This is shown if the user chooses to restart the phone. -->
-    <string name="reboot_progress">Uruchamiam ponownie\u2026</string>
-
-    <!-- label for item that screenshots in phone options dialog -->
-    <string name="global_action_screenshot">Zrzut ekranu</string>
-
     <!-- Fast Charge -->
     <string name="fc_active_notification_title">Ustawienia szybkiego ładowania</string>
     <string name="fc_active_notification_message">"Dotknij, aby skonfigurować szybkie ładowanie"</string>
@@ -43,24 +28,33 @@
 
     <!-- Notify user that they are in Lock-to-app (for devices without navbar) -->
     <string name="lock_to_app_toast_no_navbar">Aby odpiąć ten ekran, dotknij i przytrzymaj przycisk wróć.</string>
-    
-    <!-- status message in phone options dialog for when pie is on -->
-    <string name="global_actions_pie_mode_on_status">SlimPie włączone</string>
-
-    <!-- status message in phone options dialog for when pie is off -->
-    <string name="global_actions_pie_mode_off_status">SlimPie wyłączone</string>
-
-    <!-- Error message if user want to try to disable all navigation options -->
-    <string name="disable_pie_navigation_error">Nie możesz wyłączyć półkolistego menu (pie control), gdyż żadna inna metoda nawigacji nie jest włączona. Włącz najpierw pasek nawigacji aby wyłączyć półkoliste menu.</string>
-
-    <!-- status message in phone options dialog for when navigation bar is on -->
-    <string name="global_actions_nav_bar_mode_on_status">Pasek nawigacji włączony</string>
-
-    <!-- status message in phone options dialog for when navigation bar is off -->
-    <string name="global_actions_nav_bar_mode_off_status">Pasek nawigacji wyłączony</string>
-
-    <!-- Error message if user want to try to disable all navigation options -->
-    <string name="disable_navigation_pie_error">Nie możesz wyłączyć paska nawigacji, gdyż żadna inna metoda nawigacji nie jest włączona. Włącz najpierw półkoliste menu (pie control) aby wyłączyć pasek nawigacji</string>
 
     <string name="singlehandmode_click_hint_message">Dotknij poza ekranem aby wyjść z trybu pomniejszonego ekranu.</string>
+
+    <!-- mad custom power menu -->
+    <!-- Reboot Dialog -->
+    <string name="global_action_reboot">Restart</string>
+    <!-- Button to reboot the phone in reboot menu -->
+    <string name="reboot_reboot">Restart</string>
+    <!-- Button to reboot the phone into recovery in reboot menu-->
+    <string name="reboot_recovery">Recovery</string>
+    <!-- Button to reboot the phone into bootloader in reboot menu -->
+    <string name="reboot_bootloader">Bootloader</string>
+    <!-- Button to soft reboot the device in reboot menu -->
+    <string name="reboot_soft">Miękki restart</string>
+    <!-- Reboot Confirmation Dialog. -->
+    <string name="reboot_confirm" product="tablet">Twój tablet uruchomi się ponownie</string>
+    <string name="reboot_confirm" product="default">Twój telefon uruchomi się ponownie</string>
+    <!-- Reboot Progress Dialog. This is shown if the user chooses to reboot the phone. -->
+    <string name="reboot_progress">Ponowne uruchomienie\u2026</string>
+    <!-- label for item that screenshots in phone options dialog -->
+    <string name="global_action_screenshot">Zrzut ekranu</string>
+    <!-- screenshot on the power menu -->
+    <string name="powermenu_screenshot">Zrzut ekranu</string>
+    <!-- Powermenu Torch -->
+    <string name="global_action_torch">Latarka</string>
+    <!-- Powermenu current user -->
+    <string name="global_action_current_user">Aktualny użytkownik</string>
+    <!-- Powermenu on-the-go -->
+    <string name="global_action_onthego">Tryb On-The-Go</string>
 </resources>

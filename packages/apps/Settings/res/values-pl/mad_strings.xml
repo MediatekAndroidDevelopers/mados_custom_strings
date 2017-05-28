@@ -849,8 +849,6 @@
     <string name="daylight_header_pack_title">Header image pack</string>
     <string name="status_bar_custom_header_shadow_title">Shadow header image</string>
     <string name="status_bar_custom_header_shadow_summary">For better visibility on bright images</string>
-    <string name="static_header_provider" translatable="false">static</string>
-    <string name="daylight_header_provider" translatable="false">daylight</string>
     <string name="static_header_provider_title">Static</string>
     <string name="daylight_header_provider_title">Dynamic</string>
     <string name="custom_header_provider_title">Header provider</string>
@@ -934,11 +932,8 @@
     <string name="dialog_color_picker">Próbnik kolorów</string>
     <string name="press_color_to_apply">Przytrzymaj na kolorze aby użyć</string>
     <string name="hex">Hex:</string>
-    <string name="hex_hint" translatable="false">#FFDDDDDD</string>
     <string name="hex_check_button_text">PODGLĄD</string>
     <string name="hex_reset_button_text">RESETUJ</string>
-    <string name="color_right_arrow" translatable="false">"→"</string>
-    <string name="color_down_arrow" translatable="false">"↓"</string>
     <string name="longpress_info">Przytrzymaj aby zachować kolor</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
@@ -1041,4 +1036,22 @@
     <string name="status_bar_temperature_show_scale_hide_image">Wyświetlaj temperaturę ze skalą</string>
     <string name="status_bar_temperature_hide_scale_hide_image">Wyświetla temperaturę bez skali</string>
     <string name="status_bar_show_image">Pokaż obraz</string>
+
+    <!-- Power Menu -->
+    <string name="powermenu_title">Menu przycisku zasilania</string>
+    <string name="powermenu_settings_summary">Dostosowanie menu przycisku zasilania</string>
+    <string name="powermenu_screenshot">Zrzut ekranu</string>
+    <string name="powermenu_torch">Latarka</string>
+    <string name="powermenu_power">Wyłącz</string>
+    <string name="powermenu_reboot">Restart</string>
+    <string name="powermenu_airplane">Tryb samolotowy</string>
+    <string name="powermenu_settings">Ustawienia</string>
+    <string name="powermenu_lockdown">Zablokuj</string>
+    <string name="powermenu_soundpanel">Dźwięki</string>
+    <string name="powermenu_users">Użytkownicy</string>
+    <string name="powermenu_onthego_title">Tyb On-The-Go</string>
+
+    <!-- Power menu on secure lockscreen -->
+    <string name="lockscreen_enable_power_menu_title">Menu przycisku zasilania na ekranie blokady</string>
+    <string name="lockscreen_enable_power_menu_summary">Ta opcja blokuje wyświetlanie menu przycisku zasilania na zabezpieczonym ekranie blokady</string>
 </resources>

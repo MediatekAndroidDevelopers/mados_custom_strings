@@ -389,7 +389,11 @@
     <string name="long_press_power_for_torch_title">長按電源開關手電筒</string>
     <string name="long_press_power_for_torch_summary">息屏狀態下長按電源鍵開關手電筒</string>
 
+    <!-- Idle stats -->
     <string name="idle_stats_title">空閒統計</string>
+    <string name="idle_stats_boot_time">自啟動時間</string>
+    <string name="idle_stats_awake_time">喚醒</string>
+    <string name="idle_stats_deepsleep_time">深度睡眠</string>
 
     <!-- General strings -->
     <string name="cancel">取消</string>
@@ -849,8 +853,6 @@
     <string name="daylight_header_pack_title">頭圖像包</string>
     <string name="status_bar_custom_header_shadow_title">投影頭圖像</string>
     <string name="status_bar_custom_header_shadow_summary">為了明亮圖像更好的可視性</string>
-    <string name="static_header_provider" translatable="false">靜態</string>
-    <string name="daylight_header_provider" translatable="false">動態</string>
     <string name="static_header_provider_title">靜態</string>
     <string name="daylight_header_provider_title">動態</string>
     <string name="custom_header_provider_title">頭提供者</string>
@@ -934,11 +936,8 @@
     <string name="dialog_color_picker">選色器</string>
     <string name="press_color_to_apply">按下顏色以應用</string>
     <string name="hex">Hex:</string>
-    <string name="hex_hint" translatable="false">#FFDDDDDD</string>
     <string name="hex_check_button_text">預覽</string>
     <string name="hex_reset_button_text">重置</string>
-    <string name="color_right_arrow" translatable="false">"→"</string>
-    <string name="color_down_arrow" translatable="false">"↓"</string>
     <string name="longpress_info">長按框保存顏色</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
@@ -1054,7 +1053,8 @@
     <string name="powermenu_lockdown">鎖定</string>
     <string name="powermenu_soundpanel">聲音面板</string>
     <string name="powermenu_users">用戶</string>
-
+    <string name="powermenu_onthego_title">即時模式</string>
+	
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">鎖屏時允許顯示電源菜單</string>
     <string name="lockscreen_enable_power_menu_summary">此選項僅安全鎖屏時將禁用電源菜單</string>

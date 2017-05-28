@@ -21,8 +21,6 @@
     <string name="quick_settings_reboot_label">Riavvia</string>
     <string name="quick_settings_reboot_recovery_label">Recovery</string>
 
-    <string name="switch_bar_auto">Auto</string>
-
     <!-- Quick Settings tiles -->
     <string name="quick_settings_screenshot_label">Screenshot</string>
     <string name="quick_settings_region_screenshot_label">Screenshot parziale</string>
@@ -85,7 +83,6 @@
     <string name="quick_mad_extras_toast">lol, hai pensato davvero che un click prolungato qui funzionasse davvero? xD</string>
 
     <!-- Slim Recents app-screen-->
-    <string name="recents_multiwin_warning">Una sessione multifinestre è già attiva.\nJust seleziona una app.</string>
     <string name="recents_multiwin_nolastapp">Hai eliminato tutti le app recenti, scegli una app dal launcher o dal drawer.</string>
 
     <!-- NFC QS tile -->
@@ -123,5 +120,17 @@
     <string name="omnijaws_package_not_available">Servizio meteo OmniJaws non disponibile</string>
 
     <!-- Weather string format in expanded statusbar header -->
-<string name="status_bar_weather_format"><xliff:g id="temp">%1$s</xliff:g></string>
-</resources>
+    <string name="status_bar_weather_format"><xliff:g id="temp">%1$s</xliff:g></string>
+
+    <!-- On The Go Mode-->
+    <string name="onthego_notif_ticker">On-The-Go attivato</string>
+    <string name="onthego_notif_title">On-The-Go è attivo</string>
+    <string name="onthego_notif_stop">Stop</string>
+    <string name="onthego_notif_options">Opzioni</string>
+    <string name="onthego_notif_error">Impossibile avviare modalità On-The-Go</string>
+    <string name="onthego_notif_restart">Riavvia On-The-Go</string>
+    <string name="onthego_notif_camera_changed">Modalità Camera cambiataa</string>
+    <string name="onthego_transparency">Trasparenza</string>
+    <string name="onthego_front_camera">Usa camera frontale</string>
+    <string name="onthego_service_toggle">Riavvio automatico del servizio</string>
+     </resources>

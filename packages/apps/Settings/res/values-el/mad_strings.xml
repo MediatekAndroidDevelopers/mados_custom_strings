@@ -304,7 +304,7 @@
     <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
     <string name="app_ops_settings_summary">Επεξεργασία δικαιωμάτων εφαρμογών</string>
 
-        <!-- Substratum -->
+    <!-- Substratum -->
     <string name="substratum_title">Substratum</string>
     <!-- Manage applications: show substratum overlays -->
     <string name="filter_substratum_apps">Επικαλύψεις Substratum </string>
@@ -389,7 +389,11 @@
     <string name="long_press_power_for_torch_title">Παρατεταμένο πάτημα πληκτρού ενεργοποίησης για ενεργοποίηση φακού</string>
     <string name="long_press_power_for_torch_summary">Παρατεταμένο πάτημα πληκτρού ενεργοποίησης  για εναλλαγή φακού on/off ενω η οθόνη είναι κλειστή</string>
 
+    <!-- Idle stats -->
     <string name="idle_stats_title">Στατιστικά αδράνειας</string>
+    <string name="idle_stats_boot_time">Χρόνος από την εκκίνηση</string>
+    <string name="idle_stats_awake_time">Χωρίς ύπνο</string>
+    <string name="idle_stats_deepsleep_time">Βαθύς ύπνος</string>
 
     <!-- General strings -->
     <string name="cancel">Ακύρωση</string>
@@ -585,7 +589,7 @@
     <string name="schedule_power_on_off_settings_title">Προγραμματισμένη ενεργοποίηση &amp; απενεργοποίηση</string>
     <string name="schedule_summary">Ρυθμίσεις για προγραμματισμένη ενεργοποίηση/απενεργοποίηση</string>
 	
-	<string name="scheduled_power_on">Ενεργοποίηση</string>
+    <string name="scheduled_power_on">Ενεργοποίηση</string>
     <string name="scheduled_power_off">Απενεργοποίηση</string>
 
     <string name="scheduled_power_edit_time">Επεξεργασία ώρας</string>
@@ -636,7 +640,7 @@
     <string name="shortcut_action_help_delete_last_entry">Αφαιρώντας όλα τα  %1$s στην λίστα Θα απενεργοποιήθει πλήρως τη λειτουργία.</string>
     <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Αφαιρώντας όλα τα %1$s στην λίστα Θα απενεργοποιήσει πλήρως τη δεύτερη στρώση πίτας.</string>
 	
-	<string name="shortcuts_applications">Εγαρμογές</string>
+    <string name="shortcuts_applications">Εγαρμογές</string>
     <string name="shortcuts_select_custom_app_title">Επιλέξτε προσαρμοσμένη εφαρμογή</string>
     <string name="shortcuts_icon_default">Προεπιλογή</string>
     <string name="shortcuts_icon_presets">Εικονίδια συστήματος</string>
@@ -696,11 +700,11 @@
     <string name="shortcuts_icon_picker_twitter">Twitter</string>
     <string name="shortcuts_icon_picker_unlock">Ξεκλείδωμα</string>
 	
-	<string name="help">Βοήθεια</string>
+    <string name="help">Βοήθεια</string>
     <string name="no_home_key">Δεν έχετε πλέον αντιστοιχιστίσει κουμπί στο \"Home\" action!\n\nΑυτό μπορεί να καταστήσει τη συσκευή σας ακατάλληλη!</string>
     <string name="no_back_key">Δεν έχετε πλέον αντιστοιχιστίσει κουμπί στο \"Back\" action!\n\nΑυτό μπορεί να καταστήσει τη συσκευή σας ακατάλληλη!</string>
 	
-	 <!-- Pie Control -->
+    <!-- Pie Control -->
     <string name="pie_control_title">Πίτα</string>
     <string name="pie_control_summary">Ενεργοποίηση πίτας ελέγχου</string>
     <string name="piecontrol_settings_summary">Προσαρμόστε τα στοιχεία πίτας, στυλ, μέγεθος και χρώμα</string>
@@ -838,7 +842,7 @@
     <string name="qs_tile_title_visibility_title">Τίτλοι γρήγορων ρυθμίσεων</string>
     <string name="qs_tile_title_visibility_summary">Ενεργοποίηση τίτλων στις γρήγορες ρυθμίσεις</string>
 
-	<!-- Disable Quicks settings -->
+    <!-- Disable Quicks settings -->
     <string name="lockscreen_qs_disabled_title">Απενεργοποίηση γρήγορων ρυθμίσεων</string>
     <string name="lockscreen_qs_disabled_summary">Απενεργοποιεί τις γρήγορες ρυθμίσεις στην ασφαλή οθόνη κλειδώματος</string>
 
@@ -849,8 +853,6 @@
     <string name="daylight_header_pack_title">Πακέτο εικόνας κεφαλίδας</string>
     <string name="status_bar_custom_header_shadow_title">Σκιά Εικόνας κεφαλίδας</string>
     <string name="status_bar_custom_header_shadow_summary">Για καλύτερη ορατότητα στις φωτεινές εικόνες</string>
-    <string name="static_header_provider" translatable="false">Στατικό</string>
-    <string name="daylight_header_provider" translatable="false">φως ημέρας</string>
     <string name="static_header_provider_title">Στατικό</string>
     <string name="daylight_header_provider_title">Δυναμικό</string>
     <string name="custom_header_provider_title">Προμηθευτής επικεφαλίδας</string>
@@ -934,11 +936,8 @@
     <string name="dialog_color_picker">Επιλογέας χρώματος</string>
     <string name="press_color_to_apply">Πατήστε στο χρώμα για να εφαρμοστεί</string>
     <string name="hex">Hex:</string>
-    <string name="hex_hint" translatable="false">#FFDDDDDD</string>
     <string name="hex_check_button_text">ΠΡΟΕΠΙΣΚΟΠΗ</string>
     <string name="hex_reset_button_text">ΕΠΑΝΑΦΟΡΑ</string>
-    <string name="color_right_arrow" translatable="false">"→"</string>
-    <string name="color_down_arrow" translatable="false">"↓"</string>
     <string name="longpress_info">Πατήστε παρατεταμένα το κουτί για να αποθηκεύσετε το χρώμα</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
@@ -995,20 +994,20 @@
     <!-- Gestures Misc -->
     <string name="mad_gestures_settings">Γρήγορες χειρονομίες</string>
     <string name="mad_gestures_settings_summary">Γρήγορες κινήσεις για τον έλεγχο του τηλεφώνου σας</string>
-	
-	 <!-- Bluetooth status -->
+
+    <!-- Bluetooth status -->
     <string name="bluetooth_battery_title">Κατάσταση μπαταρίας του Bluetooth</string>
     <string name="bluetooth_battery_summary">Εμφάνιση της κατάστασης της μπαταρίας για την τρέχουσα συνδεδεμένη συσκευή Bluetooth, εάν είναι διαθέσιμη.</string>
 	
-	<!-- Huawei's One hand mode -->
+    <!-- Huawei's One hand mode -->
     <string name="navbar_onehand_title">Λειτουργία γραμμής πλοήγησης με το ένα χέρι</string>
     <string name="one_handed_mode_title">Λειτουργία με το ένα χέρι</string>
     <string name="one_handed_mode_summary">Σύρατε πάνω στη γραμμή πλοήγησης για να ενεργοποιήσετε τη λειτουργία με το χέρι</string>
 
-        <!-- Carrier Label -->
+    <!-- Carrier Label -->
     <string name="carrierlabel_title">Λογότυπο φορέα</string>
     <string name="carrierlabel_title_summary">Διαμόρφωση λογότυπου φορέα</string>
-        <!-- Custom carrier label and position -->
+    <!-- Custom carrier label and position -->
     <string name="carrier_label_settings_title">CΛογότυπο φορέα</string>
     <string name="carrier_label_settings_summary">Διαμόρφωση λογότυπου φορέα</string>
     <string name="custom_carrier_label_title">Προσαρμοσμένο λογότυπο φορέα</string>
@@ -1022,7 +1021,7 @@
     <string name="status_bar_carrier_color">Χρώμα λογότυπου φορέα</string>
     <string name="status_bar_carrier_size">Μέγεθος λογότυπου φορέα</string>
 	
-	<!-- OmniJaws -->
+    <!-- OmniJaws -->
     <string name="weather_title">Καιρός</string>
     <string name="weather_config_title">Ρυθμίσεις πλακιδίου καιρού</string>
     <string name="weather_config_summary"></string>
@@ -1030,7 +1029,7 @@
     <string name="lockscreen_weather_config_title">Ρυθμίσεις καιρού στην οθόνη κλειδώματος</string>
     <string name="lockscreen_weather_config_summary"></string>
 
-        <!-- StatusBar weather settings -->
+    <!-- StatusBar weather settings -->
     <string name="statusbar_weather_category">Καιρός στη γραμμή κατάστασης</string>
     <string name="statusbar_weather_title">Καιρός στη γραμμή κατάστασης</string>
     <string name="statusbar_weather_summary">Ρύθμιση από QS Ρυθμίσεις/καιρός.</string>
@@ -1041,8 +1040,8 @@
     <string name="status_bar_temperature_show_scale_hide_image">Εμφάνιση θερμοκρασίας με ποσοστό</string>
     <string name="status_bar_temperature_hide_scale_hide_image">Εμφάνιση θερμοκρασίας χωρίς ποσοστό</string>
     <string name="status_bar_show_image">Εμφάνιση εικόνας</string>
-	
-	 <!-- Power Menu -->
+
+    <!-- Power Menu -->
     <string name="powermenu_title">Μενού ισχύος</string>
     <string name="powermenu_settings_summary">Προσαρμογή μενού ισχύος</string>
     <string name="powermenu_screenshot">Στιγμιότυπο οθόνης</string>
@@ -1054,9 +1053,9 @@
     <string name="powermenu_lockdown">Κλείδωμα</string>
     <string name="powermenu_soundpanel">Πάνελ ήχου</string>
     <string name="powermenu_users">Χρήστες</string>
-
-	<!-- Power menu on secure lockscreen -->
+    <string name="powermenu_onthego_title">Λειτουργία εν κινήσει</string>
+	
+    <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">Εμφάνιση μενού ισχύος στην οθόνη κλειδώματος</string>
     <string name="lockscreen_enable_power_menu_summary">Απενεργοποιεί το μενού ισχύος στις ασφαλείς οθόνες κλειδώματος</string>
  </resources>
-

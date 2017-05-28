@@ -838,8 +838,6 @@
     <string name="daylight_header_pack_title">Pacchetto immagini intestazione</string>
     <string name="status_bar_custom_header_shadow_title">Mostra immagine intestazione</string>
     <string name="status_bar_custom_header_shadow_summary">Migliorare visibilità di immagini luminose</string>
-    <string name="static_header_provider" translatable="false">static</string>
-    <string name="daylight_header_provider" translatable="false">daylight</string>
     <string name="static_header_provider_title">Statico</string>
     <string name="daylight_header_provider_title">Dinamico</string>
     <string name="custom_header_provider_title">Fornitore intestazioni</string>
@@ -923,11 +921,8 @@
     <string name="dialog_color_picker">Selettore colore</string>
     <string name="press_color_to_apply">Seleziona un colore da applicare</string>
     <string name="hex">Hex:</string>
-    <string name="hex_hint" translatable="false">#FFDDDDDD</string>
     <string name="hex_check_button_text">Anteprima</string>
     <string name="hex_reset_button_text">Reset</string>
-    <string name="color_right_arrow" translatable="false">"→"</string>
-    <string name="color_down_arrow" translatable="false">"↓"</string>
     <string name="longpress_info">Pressione prolungata sul box per salvare il colore</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>

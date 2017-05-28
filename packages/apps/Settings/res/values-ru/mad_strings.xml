@@ -109,7 +109,7 @@
     <string name="smartwake_settings_title">SmartWake</string>
     <string name="smartwake_settings_summary">Управление жестами SmartWake</string>
     <string name="smartwake_settings_category">SmartWake</string>
-    <string name="smartwake_support_gestures">Поддержка жестов</string>
+    <string name="smartwake_support_gestures">Поддерживаемые жесты</string>
     <string name="smartwake_settings_u_title">Даблтап для включения экрана</string>
     <string name="smartwake_settings_up_title">Рисовать ↑ для разблокировки</string>
     <string name="smartwake_settings_down_title">Рисовать ↓ для паузы музыки</string>
@@ -389,7 +389,11 @@
     <string name="long_press_power_for_torch_title">Зажать кн. питания для вкл. фонарика</string>
     <string name="long_press_power_for_torch_summary">Зажать кн. питания при выключенном экране включает/выключает фонарик</string>
 
+    <!-- Idle stats -->
     <string name="idle_stats_title">Статистика бездействия</string>
+    <string name="idle_stats_boot_time">Время с загрузки</string>
+    <string name="idle_stats_awake_time">Бодрствование</string>
+    <string name="idle_stats_deepsleep_time">Глубокий сон</string>
 
     <!-- General strings -->
     <string name="cancel">Отмена</string>
@@ -849,8 +853,6 @@
     <string name="daylight_header_pack_title">Выбор картинки заголовка</string>
     <string name="status_bar_custom_header_shadow_title">Тень картинки заголовка</string>
     <string name="status_bar_custom_header_shadow_summary">Для лучшей видимости на светлых изображениях</string>
-    <string name="static_header_provider" translatable="false">static</string>
-    <string name="daylight_header_provider" translatable="false">daylight</string>
     <string name="static_header_provider_title">Статичный</string>
     <string name="daylight_header_provider_title">Динамический</string>
     <string name="custom_header_provider_title">Поставщик заголовка</string>
@@ -934,11 +936,8 @@
     <string name="dialog_color_picker">Выбор цвета</string>
     <string name="press_color_to_apply">Нажмите цвет для выбора</string>
     <string name="hex">Hex:</string>
-    <string name="hex_hint" translatable="false">#FFDDDDDD</string>
     <string name="hex_check_button_text">ПОСМОТРЕТЬ</string>
     <string name="hex_reset_button_text">СБРОС</string>
-    <string name="color_right_arrow" translatable="false">"→"</string>
-    <string name="color_down_arrow" translatable="false">"↓"</string>
     <string name="longpress_info">Лонгпресс на квадратике для сохранения</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
@@ -1054,6 +1053,7 @@
     <string name="powermenu_lockdown">Блокировка</string>
     <string name="powermenu_soundpanel">Звуковая панель</string>
     <string name="powermenu_users">Пользователи</string>
+    <string name="powermenu_onthego_title">Режим На-Ходу</string>
 
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">Показывать меню выключения на экране блокировки</string>

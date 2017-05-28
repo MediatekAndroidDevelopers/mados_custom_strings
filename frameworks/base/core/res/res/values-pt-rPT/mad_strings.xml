@@ -19,21 +19,6 @@
     <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
     <string name="permdesc_preventpower">Permite a uma aplicação controlar a tecla de energia.</string>
 
-    <!-- Button to restart the phone in restart menu -->
-    <string name="reboot_reboot">Reiniciar</string>
-    <!-- Button to restart the phone into recovery in restart menu -->
-    <string name="reboot_recovery">Recuperação</string>
-    <!-- Button to soft restart the device in restart menu -->
-    <string name="reboot_soft">Reinício rápido</string>
-    <!-- Restart Confirmation Dialog. -->
-    <string name="reboot_confirm" product="tablet">O tablet vai reiniciar.</string>
-    <string name="reboot_confirm" product="default">O telefone vai reiniciar.</string>
-    <!-- Restart Progress Dialog. This is shown if the user chooses to restart the phone. -->
-    <string name="reboot_progress">A reiniciar\u2026</string>
-
-    <!-- label for item that screenshots in phone options dialog -->
-    <string name="global_action_screenshot">Captura de ecrã</string>
-
     <!-- Fast Charge -->
     <string name="fc_active_notification_title">Definições de carregamento rápido</string>
     <string name="fc_active_notification_message">"Tocar para aceder a definições de carregamento rápido"</string>
@@ -43,4 +28,33 @@
 
     <!-- Notify user that they are in Lock-to-app (for devices without navbar) -->
     <string name="lock_to_app_toast_no_navbar">Para destacar este ecrã, manter pressionada a tecla voltar.</string>
+
+    <string name="singlehandmode_click_hint_message">Toque fora do ecrã para sair da mini visualização.</string>
+
+    <!-- mad custom power menu -->
+    <!-- Reboot Dialog -->
+    <string name="global_action_reboot">Reiniciar</string>
+    <!-- Button to reboot the phone in reboot menu -->
+    <string name="reboot_reboot">Reiniciar</string>
+    <!-- Button to reboot the phone into recovery in reboot menu-->
+    <string name="reboot_recovery">Recuperação</string>
+    <!-- Button to reboot the phone into bootloader in reboot menu -->
+    <string name="reboot_bootloader">Bootloader</string>
+    <!-- Button to soft reboot the device in reboot menu -->
+    <string name="reboot_soft">Reinício rápido</string>
+    <!-- Reboot Confirmation Dialog. -->
+    <string name="reboot_confirm" product="tablet">O seu tablet vai reiniciar.</string>
+    <string name="reboot_confirm" product="default">O seu telefone vai reiniciar.</string>
+    <!-- Reboot Progress Dialog. This is shown if the user chooses to reboot the phone. -->
+    <string name="reboot_progress">A reiniciar\u2026</string>
+    <!-- label for item that screenshots in phone options dialog -->
+    <string name="global_action_screenshot">Captura de ecrã</string>
+    <!-- screenshot on the power menu -->
+    <string name="powermenu_screenshot">Captura de ecrã</string>
+    <!-- Powermenu Torch -->
+    <string name="global_action_torch">Lanterna</string>
+    <!-- Powermenu current user -->
+    <string name="global_action_current_user">Atual</string>
+    <!-- Powermenu on-the-go -->
+    <string name="global_action_onthego">Modo On-The-Go</string>
 </resources>

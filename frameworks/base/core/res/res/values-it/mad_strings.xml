@@ -44,23 +44,5 @@
     <!-- Notify user that they are in Lock-to-app (for devices without navbar) -->
     <string name="lock_to_app_toast_no_navbar">Per sbloccare lo schermo, mantieni premuto il pulsante indietro.</string>
 
-    <!-- status message in phone options dialog for when pie is on -->
-    <string name="global_actions_pie_mode_on_status">SlimPie è attivo</string>
-
-    <!-- status message in phone options dialog for when pie is off -->
-    <string name="global_actions_pie_mode_off_status">SlimPie è spento</string>
-
-    <!-- Error message if user want to try to disable all navigation options -->
-    <string name="disable_pie_navigation_error">Non puoi disabilitare i controlli Pie. Non è attivo nessun controllo navigazione. Attiva prima la barra di navigazione e poi disabilita controlli pie.</string>
-
-    <!-- status message in phone options dialog for when navigation bar is on -->
-    <string name="global_actions_nav_bar_mode_on_status">Barra di navigazione attiva</string>
-
-    <!-- status message in phone options dialog for when navigation bar is off -->
-    <string name="global_actions_nav_bar_mode_off_status">Barra di navigazione non è attiva</string>
-
-    <!-- Error message if user want to try to disable all navigation options -->
-    <string name="disable_navigation_pie_error">Non puoi disabilitare la barra di navigazione. Non è attivo nessun controllo navigazione. Attiva prima i controlli pie e poi disabilita la barra di navigazione.</string>
-
     <string name="singlehandmode_click_hint_message">Tocca fuori dalla schermata per uscire dalla modalità schermo piccolo</string>
 </resources>

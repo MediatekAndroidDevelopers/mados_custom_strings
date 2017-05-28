@@ -21,8 +21,6 @@
     <string name="quick_settings_reboot_label">Επανεκκίνηση</string>
     <string name="quick_settings_reboot_recovery_label">Recovery</string>
 
-    <string name="switch_bar_auto">Αυτόματο</string>
-
     <!-- Quick Settings tiles -->
     <string name="quick_settings_screenshot_label">Στιγμιότυπο οθόνης</string>
     <string name="quick_settings_region_screenshot_label">Μερικό Στιγμιοτυπο οθόνης</string>
@@ -70,7 +68,7 @@
 
     <string name="app_killed_message">Η Εφαρμογή διακόπηκε</string>
 	
-	<!-- Battery status in pie controls -->
+    <!-- Battery status in pie controls -->
     <string name="pie_battery_status_charging">Φόρτιση (<xliff:g id="percent">%d</xliff:g>%%)</string>
     <string name="pie_battery_status_full">Φορτίστηκε</string>
     <string name="pie_battery_status_discharging"><xliff:g id="percent">%d</xliff:g>%% Απομένει</string>
@@ -85,7 +83,6 @@
     <string name="quick_mad_extras_toast">lol, Σκεφτήκατε πραγματικά ότι το παρατεταμένο κλικ λειτουργεί εδώ? xD</string>
 
     <!-- Slim Recents app-screen-->
-    <string name="recents_multiwin_warning">Μια περίοδος πολλαπλών παραθύρων είναι ήδη ενεργή.\nΑπλώς αγγίξτε μια εφαρμογή αν θέλετε να την αποβάλετε τώρα.</string>
     <string name="recents_multiwin_nolastapp">Κλείστε όλες τις πρόσφατες εφαρμογές και επιλέξτε μια απο την αρχική οθόνη.</string>
 
     <!-- NFC QS tile -->
@@ -95,7 +92,7 @@
     <string name="accessibility_quick_settings_nfc_changed_off">NFC απενεργοποιήθηκε.</string>
     <string name="accessibility_quick_settings_nfc_changed_on">NFC ενεργοποιήθηκε.</string>
 	
-	<!-- Compass QS Tile -->
+    <!-- Compass QS Tile -->
     <string name="quick_settings_compass_label">Πυξίδα</string>
     <string name="quick_settings_compass_value"><xliff:g id="degrees">%1$.0f</xliff:g>\u00b0 <xliff:g id="direction">%2$s</xliff:g></string>
     <string name="quick_settings_compass_init">Initializing\u2026</string>
@@ -122,6 +119,18 @@
     <string name="omnijaws_current_text">Τώρα</string>
     <string name="omnijaws_package_not_available">OmniJaws δεν είναι διαθέσιμο</string>
 	
-	<!-- Weather string format in expanded statusbar header -->
+    <!-- Weather string format in expanded statusbar header -->
     <string name="status_bar_weather_format"><xliff:g id="temp">%1$s</xliff:g></string>
+	
+    <!-- On The Go Mode-->
+    <string name="onthego_notif_ticker">Η λειτουργία εν κινήσει είναι ενεργή</string>
+    <string name="onthego_notif_title">Η λειτουργία εν κινήσει είναι ενεργή</string>
+    <string name="onthego_notif_stop">Διακοπή</string>
+    <string name="onthego_notif_options">Επιλογές</string>
+    <string name="onthego_notif_error">Αδυναμία ενεργοποίησης λειτουργίας εν κινήσει</string>
+    <string name="onthego_notif_restart">Επανεκκίνηση λειτουργίας εν κινήσει</string>
+    <string name="onthego_notif_camera_changed">Η λειτουργία φωτογραφικής μηχανής άλλαξε</string>
+    <string name="onthego_transparency">Διαφάνεια</string>
+    <string name="onthego_front_camera">Χρήση μποστινής κάμερας</string>
+    <string name="onthego_service_toggle">Αυτόματη επανεκκίνηση λειτουργίας</string>
 </resources>
