@@ -670,7 +670,7 @@
     <string name="shortcuts_icon_picker_gtalk">Hangouts</string>
     <string name="shortcuts_icon_picker_help">Segítség</string>
     <string name="shortcuts_icon_picker_joystick">Joystick</string>
-    <string name="shortcuts_icon_picker_key">Kulcsok/Hozzásérések</string>
+    <string name="shortcuts_icon_picker_key">Kulcsok/Hozzáférések</string>
     <string name="shortcuts_icon_picker_laptop">Laptop</string>
     <string name="shortcuts_icon_picker_notes">Jegyzetek</string>
     <string name="shortcuts_icon_picker_luggage">Utazás</string>
@@ -724,155 +724,155 @@
     <string name="pie_icon_color_mode_dialog_title">Színezés</string>
     <string name="pie_icon_color_mode_summary">Gomb ikon szín mód megváltoztatása</string>
     <string name="pie_trigger_note_title">Jegyzet</string>
-    <string name="pie_trigger_note_summary">To avoid conflicts with status bar or navigation bar, the triggers on these edges are automatically turned off if one or both are available</string>
+    <string name="pie_trigger_note_summary">A navigációs és állapot sávval való ütközés elkerülése érdekében, a programindító azokon a széleken automatikusan kikapcsolja egyiket vagy mindkettőt</string>
     <string name="pie_background_color_title">Háttérszín</string>
     <string name="pie_snap_color_title">Snap point color</string>
     <string name="pie_text_color_title">Szövegszín</string>
     <string name="pie_background_alpha_title">Háttér átlátszóság</string>
-    <string name="pie_mirror_right_title">Mirror right pie</string>
-    <string name="pie_mirror_right_summary">Mirror right pie on the horizontal axis</string>
-    <string name="pie_style">Style and dimension</string>
-    <string name="pie_style_title">Style</string>
-    <string name="pie_dimens_title">Dimension</string>
-    <string name="pie_show_snap_title">Show snap points</string>
-    <string name="pie_show_snap_summary">Shows snap points to change the trigger edge dynamically</string>
-    <string name="pie_show_text_title">Show status and clock</string>
-    <string name="pie_show_text_summary">Shows phone status, time and date information</string>
-    <string name="pie_show_background_title">Show background</string>
-    <string name="pie_show_background_summary">Enable pie background screen</string>
+    <string name="pie_mirror_right_title">Pie jobb tükrözése</string>
+    <string name="pie_mirror_right_summary">Pie jobbra tükrözése a vízszintes tengelyen</string>
+    <string name="pie_style">Stílus és méret</string>
+    <string name="pie_style_title">Stílus</string>
+    <string name="pie_dimens_title">Méret</string>
+    <string name="pie_show_snap_title">Mutassa a törés pontot</string>
+    <string name="pie_show_snap_summary">Mutassa a törés pontot a programindító szélén dinamikusan</string>
+    <string name="pie_show_text_title">Állapot és óra mutatása</string>
+    <string name="pie_show_text_summary">Mutassa a telefon állapotát, idő és dátum információt</string>
+    <string name="pie_show_background_title">Háttér mutatása</string>
+    <string name="pie_show_background_summary">Pie képernyő háttér engedélyezése</string>
     <string name="pie_button">Gombok</string>
-    <string name="pie_second_layer_active_title">Pie second layer</string>
-    <string name="pie_second_layer_active_summary">This enables an additional layer</string>
-    <string name="pie_button_second_layer">Buttons second layer</string>
-    <string name="pie_button_second_layer_summary">Change second layer buttons</string>
-    <string name="pie_button_style_summary">Change pie button style</string>
-    <string name="pie_style_reset_message">Reset style entries to default?</string>
-    <string name="pie_warning_no_navigation_present">No other navigation is currently enabled. Turning off pie controls can result in an unusable device. Do you want to enable navigation bar instead?</string>
-    <string name="pie_trigger_warning">Minimum one of the main triggers (bottom, left or right) needs to be enabled.</string>
+    <string name="pie_second_layer_active_title">Pie második réteg</string>
+    <string name="pie_second_layer_active_summary">Engedélyez egy másik réteget</string>
+    <string name="pie_button_second_layer">Gomb második réteg</string>
+    <string name="pie_button_second_layer_summary">Második gomb réteg módosítása</string>
+    <string name="pie_button_style_summary">Pie gomb stílus módosítása</string>
+    <string name="pie_style_reset_message">Visszaállítod alaphelyzetbe?</string>
+    <string name="pie_warning_no_navigation_present">Jelenleg nincs más navigáció engedélyezve. Pie vezérlés kikapcsolva használhatatlan lesz az eszköz. Szeretnéd engedélyezni navigációs sáv helyett?</string>
+    <string name="pie_trigger_warning">Minimium egy fő programindítót (alul, bal vagy jobb) engedélyezned kell.</string>
 
     <string name="pie_layer_disable_forbidden">Can\'t disable second layer! There\'s no other \'back button\' available.</string>
 
     <!-- Lockscreen weather -->
-    <string name="display_category_weather_title">Lockscreen weather options</string>
-    <string name="lock_screen_weather_summary">Lockscreen weather options</string>
-    <string name="lock_screen_weather_settings_title">Weather</string>
-    <string name="weather_cat_notifications_title">Notifications</string>
-    <string name="weather_show_weather_title">Show weather</string>
-    <string name="weather_show_weather_summary">Enable to show weather information</string>
-    <string name="weather_show_location_title">Show location</string>
-    <string name="weather_show_location_summary">Enable to show the location</string>
-    <string name="weather_condition_icon_title">Condition icon</string>
-    <string name="weather_condition_icon_dlg_title">Choose an icon for displaying the weather condition</string>
-    <string name="weather_condition_icon_monochrome_title">Monochrome</string>
-    <string name="weather_condition_icon_colored_title">Colored</string>
+    <string name="display_category_weather_title">Zárképernyő időjárás beállítások</string>
+    <string name="lock_screen_weather_summary">Zárképernyő időjárás beállítások</string>
+    <string name="lock_screen_weather_settings_title">Időjárás</string>
+    <string name="weather_cat_notifications_title">Értesítések</string>
+    <string name="weather_show_weather_title">Időjárás mutatása</string>
+    <string name="weather_show_weather_summary">Időjárás információk kijelzésének engedélyezése</string>
+    <string name="weather_show_location_title">Hely mutatása</string>
+    <string name="weather_show_location_summary">Hely kijelzésének engedélyezése</string>
+    <string name="weather_condition_icon_title">Állapot ikon</string>
+    <string name="weather_condition_icon_dlg_title">Válassz ikont az időjárás állapotok kijelzéséhez</string>
+    <string name="weather_condition_icon_monochrome_title">Monokróm</string>
+    <string name="weather_condition_icon_colored_title">Színes</string>
     <string name="weather_condition_icon_vclouds_title">VClouds</string>
-    <string name="icons_title">Icons</string>
-    <string name="position_right_title">Right</string>
-    <string name="position_centered_title">Centered</string>
-    <string name="hidden_title">Hidden</string>
-    <string name="weather_hide_panel_title">Hide weather panel</string>
-    <string name="weather_hide_panel_dlg_title">Choose when the weather panel should be hidden</string>
-    <string name="weather_hide_panel_auto_title">Auto</string>
-    <string name="weather_hide_panel_custom_title">Custom</string>
-    <string name="weather_hide_panel_never_title">Never</string>
-    <string name="weather_hide_panel_auto_summary">The weather panel will be hidden when the visible notifications will reach the maximum allowed notifications on the lock screen</string>
-    <string name="weather_hide_panel_custom_summary">The weather panel will be hidden when the visible notifications will reach the chosen number of notifications</string>
-    <string name="weather_hide_panel_never_summary">The weather panel won\`t be hidden</string>
-    <string name="weather_number_of_notifications_title">Number of notifications</string>
-    <string name="weather_settings_options_title">Location settings</string>
-    <string name="weather_settings_summary">Choose location and other settings</string>
-    <string name="weather_show_location_summary">Display weather location</string>
+    <string name="icons_title">Ikonok</string>
+    <string name="position_right_title">Jobbra</string>
+    <string name="position_centered_title">Középre</string>
+    <string name="hidden_title">Rejtett</string>
+    <string name="weather_hide_panel_title">Időjárás panel elrejtése</string>
+    <string name="weather_hide_panel_dlg_title">Válassz, mikor legyen rejtve az időjárás panel</string>
+    <string name="weather_hide_panel_auto_title">Automatikus</string>
+    <string name="weather_hide_panel_custom_title">Egyéni</string>
+    <string name="weather_hide_panel_never_title">Soha</string>
+    <string name="weather_hide_panel_auto_summary">Az időjárás panel el lesz rejtve, amikor a látható értesítések elérik a maximális engedélyezett értesítéseket a zárképernyőn</string>
+    <string name="weather_hide_panel_custom_summary">Az időjárás panel el lesz rejtve, amikor a látható értesítések elérik a kiválasztott értesítések számát</string>
+    <string name="weather_hide_panel_never_summary">Az időjárás panel nem lesz elrejtve</string>
+    <string name="weather_number_of_notifications_title">Értesítések száma</string>
+    <string name="weather_settings_options_title">Hely beállítások</string>
+    <string name="weather_settings_summary">Hely választás és egyéb beállítások</string>
+    <string name="weather_show_location_summary">Kijelzi az időjárás helyét</string>
 
     <!-- Status bar temperature -->
-    <string name="weather_settings_title">Weather</string>
-    <string name="status_bar_temperature_title">Statusbar weather temperature</string>
-    <string name="weather_clock_options_title">Weather cLock options</string>
-    <string name="weather_clock_options_summary">Weather widget, and weather provider settings</string>
-    <string name="status_bar_temperature_hidden">Hidden</string>
+    <string name="weather_settings_title">Időjárás</string>
+    <string name="status_bar_temperature_title">Állapotsáv időjárás hőmérséklet</string>
+    <string name="weather_clock_options_title">cLock időjárás beállítások</string>
+    <string name="weather_clock_options_summary">Időjárás widget, és időjárás szolgáltató beállítások</string>
+    <string name="status_bar_temperature_hidden">Rejtett</string>
     <string name="status_bar_temperature_show_scale">Shown with scale</string>
     <string name="status_bar_temperature_hide_scale">Shown without scale</string>
-    <string name="status_bar_temperature_location_title">Placement</string>
-    <string name="status_bar_temperature_location_summary">Select where the weather temperature is shown on the statusbar</string>
-    <string name="status_bar_temperature_location_right">Show on right</string>
-    <string name="status_bar_temperature_location_left">Show on left</string>
-    <string name="status_bar_weather_color_title">Temperature color</string>
-    <string name="status_bar_weather_size_title">Font size</string>
-    <string name="status_bar_weather_font_style_title">Font</string>
-    <string name="status_bar_weather_font_normal">Normal</string>
-    <string name="status_bar_weather_font_italic">Italic</string>
-    <string name="status_bar_weather_font_bold">Bold</string>
-    <string name="status_bar_weather_font_bold_italic">Bold Italic</string>
-    <string name="status_bar_weather_font_light">Light</string>
-    <string name="status_bar_weather_font_light_italic">Light Italic</string>
-    <string name="status_bar_weather_font_thin">Thin</string>
-    <string name="status_bar_weather_font_thin_italic">Thin Italic</string>
-    <string name="status_bar_weather_font_condensed">Condensed</string>
-    <string name="status_bar_weather_font_condensed_italic">Condensed Italic</string>
-    <string name="status_bar_weather_font_condensed_light">Condensed Light</string>
-    <string name="status_bar_weather_font_condensed_light_italic">Condensed Light Italic</string>
-    <string name="status_bar_weather_font_condensed_bold">Condensed Bold</string>
-    <string name="status_bar_weather_font_condensed_bold_italic">Condensed Bold Italic</string>
-    <string name="status_bar_weather_font_medium">Medium</string>
-    <string name="status_bar_weather_font_medium_italic">Medium Italic</string>
-    <string name="status_bar_weather_font_black">Black</string>
-    <string name="status_bar_weather_font_black_italic">Black Italic</string>
+    <string name="status_bar_temperature_location_title">Elhelyezkedés</string>
+    <string name="status_bar_temperature_location_summary">Válaszd ki az időjárás hőmérséklet kijelzés helyét az állapotsávon</string>
+    <string name="status_bar_temperature_location_right">Jobb oldalon</string>
+    <string name="status_bar_temperature_location_left">Bal oldalon</string>
+    <string name="status_bar_weather_color_title">Hőmérséklet szín</string>
+    <string name="status_bar_weather_size_title">Betűméret</string>
+    <string name="status_bar_weather_font_style_title">Betűtípus</string>
+    <string name="status_bar_weather_font_normal">Normál</string>
+    <string name="status_bar_weather_font_italic">Dőlt</string>
+    <string name="status_bar_weather_font_bold">Félkövér</string>
+    <string name="status_bar_weather_font_bold_italic">Félkövér dőlt</string>
+    <string name="status_bar_weather_font_light">Lágy</string>
+    <string name="status_bar_weather_font_light_italic">Lágy dőlt</string>
+    <string name="status_bar_weather_font_thin">Vékony</string>
+    <string name="status_bar_weather_font_thin_italic">Vékony dőlt</string>
+    <string name="status_bar_weather_font_condensed">Sűrített</string>
+    <string name="status_bar_weather_font_condensed_italic">Sűrített dőlt</string>
+    <string name="status_bar_weather_font_condensed_light">Sűrített lágy</string>
+    <string name="status_bar_weather_font_condensed_light_italic">Sűrített lágy dőlt</string>
+    <string name="status_bar_weather_font_condensed_bold">Sűrített félkövér</string>
+    <string name="status_bar_weather_font_condensed_bold_italic">Sűrített félkövér dőlt</string>
+    <string name="status_bar_weather_font_medium">Közepes</string>
+    <string name="status_bar_weather_font_medium_italic">Közepes dőlt</string>
+    <string name="status_bar_weather_font_black">Fekete</string>
+    <string name="status_bar_weather_font_black_italic">Fekete dőlt</string>
     <string name="status_bar_weather_font_dancingscript">DancingScript</string>
-    <string name="status_bar_weather_font_dancingscript_bold">DancingScript Bold</string>
+    <string name="status_bar_weather_font_dancingscript_bold">DancingScript félkövér</string>
     <string name="status_bar_weather_font_comingsoon">ComingSoon</string>
-    <string name="status_bar_weather_font_notoserif">NotoSerif Normal</string>
-    <string name="status_bar_weather_font_notoserif_italic">NotoSerif Italic</string>
-    <string name="status_bar_weather_font_notoserif_bold">NotoSerif Bold</string>
-    <string name="status_bar_weather_font_notoserif_bold_italic">NotoSerif Bold Italic</string>
+    <string name="status_bar_weather_font_notoserif">NotoSerif Normál</string>
+    <string name="status_bar_weather_font_notoserif_italic">NotoSerif dőlt</string>
+    <string name="status_bar_weather_font_notoserif_bold">NotoSerif félkövér</string>
+    <string name="status_bar_weather_font_notoserif_bold_italic">NotoSerif félkövér dőlt</string>
 
-    <string name="weather_show_timestamp_title">Show timestamp</string>
-    <string name="weather_show_timestamp_summary">Enable to show the timestamp</string>
+    <string name="weather_show_timestamp_title">Időbélyeg kijelzés</string>
+    <string name="weather_show_timestamp_summary">Engedélyezi az időbélyeg kijelzését</string>
 
     <!-- Quicks settings columns -->
-    <string name="qs_panel_title">Quick settings panel</string>
-    <string name="qs_panel_title_summary">Quick settings customizations</string>
-    <string name="qs_columns_title">Number of tiles in column</string>
-    <string name="qs_rows_portrait_title">Number of rows (portrait)</string>
-    <string name="qs_rows_landscape_title">Number of rows (landscape)</string>
+    <string name="qs_panel_title">Gyorsbeállítások panel</string>
+    <string name="qs_panel_title_summary">Gyorsbeállítások testreszabás</string>
+    <string name="qs_columns_title">Csempék száma az oszloponként</string>
+    <string name="qs_rows_portrait_title">Sorok száma (álló)</string>
+    <string name="qs_rows_landscape_title">Sorok száma (fekvő)</string>
 
     <!-- Quicks settings titles -->
-    <string name="qs_tile_title_visibility_title">Quick settings titles</string>
-    <string name="qs_tile_title_visibility_summary">Enable titles on quick settings</string>
+    <string name="qs_tile_title_visibility_title">Gyorsbeállítások csempéi</string>
+    <string name="qs_tile_title_visibility_summary">Gyorsbeállítások csempéinek engedélyezése</string>
 
     <!-- Disable Quicks settings -->
-    <string name="lockscreen_qs_disabled_title">Disable quick settings</string>
-    <string name="lockscreen_qs_disabled_summary">Disables quick settings on secure lock screen</string>
+    <string name="lockscreen_qs_disabled_title">Gyorsbeállítások kikapcsolása</string>
+    <string name="lockscreen_qs_disabled_summary">Gyorsbeállítások kikapcsolása a zárképernyőn</string>
 
     <!-- QS headers -->
-    <string name="qs_header_category">Quick settings header</string>
-    <string name="status_bar_custom_header_title">Custom header image</string>
-    <string name="status_bar_custom_header_summary">Enable notification panel header image</string>
-    <string name="daylight_header_pack_title">Header image pack</string>
-    <string name="status_bar_custom_header_shadow_title">Shadow header image</string>
-    <string name="status_bar_custom_header_shadow_summary">For better visibility on bright images</string>
+    <string name="qs_header_category">Gyorsbeállítások fejrész</string>
+    <string name="status_bar_custom_header_title">Egyéni fejrész kép</string>
+    <string name="status_bar_custom_header_summary">Értesítési panel fejrész képének engedélyezése</string>
+    <string name="daylight_header_pack_title">Fejrész kép csomag</string>
+    <string name="status_bar_custom_header_shadow_title">Fejrész kép árnyék</string>
+    <string name="status_bar_custom_header_shadow_summary">Jobb láthatóség érdekében a világos képeknél</string>
     <string name="static_header_provider" translatable="false">static</string>
     <string name="daylight_header_provider" translatable="false">daylight</string>
-    <string name="static_header_provider_title">Static</string>
-    <string name="daylight_header_provider_title">Dynamic</string>
-    <string name="custom_header_provider_title">Header provider</string>
-    <string name="custom_header_browse_title">Browse installed headers</string>
-    <string name="custom_header_browse_summary">Long press on any image to use for static mode</string>
+    <string name="static_header_provider_title">Statikus</string>
+    <string name="daylight_header_provider_title">Dinamikus</string>
+    <string name="custom_header_provider_title">Fejrész szolgáltató</string>
+    <string name="custom_header_browse_title">Telepített fejrészek böngészése</string>
+    <string name="custom_header_browse_summary">Tartsd nyomva bármely képen a statikus mód használatához</string>
 
     <!-- Quicks settings vibrate -->
-    <string name="quick_settings_vibrate_title">Vibrate on touch</string>
-    <string name="quick_settings_vibrate_summary">Vibrate when touching tiles</string>
+    <string name="quick_settings_vibrate_title">Rezgés érintésre</string>
+    <string name="quick_settings_vibrate_summary">Csempék érintésekor rezeg</string>
 
     <!-- Lockscreen -->
-    <string name="lockscreen_settings_title">Lockscreen</string>
-    <string name="mad_lockscreen_settings_summary">Lockscreen customizations</string>
+    <string name="lockscreen_settings_title">Zárképernyő</string>
+    <string name="mad_lockscreen_settings_summary">Zárképernyő testreszabás</string>
     <!-- Lockscreen items clock, date, alarm text -->
-    <string name="lockscreen_items_settings_title">Lockscreen Items</string>
-    <string name="lockscreen_clock_title">Lockscreen clock</string>
-    <string name="lockscreen_date_title">Lockscreen date</string>
-    <string name="lockscreen_alarm_title">Lockscreen alarm text</string>
-    <string name="lockscreen_items_summary">Enable or disable several lockscreen items</string>
+    <string name="lockscreen_items_settings_title">Zárképernyő elemek</string>
+    <string name="lockscreen_clock_title">Zárképernyő óra</string>
+    <string name="lockscreen_date_title">Zárképernyő dátum</string>
+    <string name="lockscreen_alarm_title">Zárképernyő ébresztő szöveg</string>
+    <string name="lockscreen_items_summary">Különböző zárképernyő elemek be- és kikapcsolása</string>
     <!-- Lockscreen clock fonts -->
-    <string name="lock_clock_font_title">Lockscreen clock font</string>
-    <string name="lock_clock_font_summary">Change the default font of the lockscreen clock widget</string>
+    <string name="lock_clock_font_title">Zárképernyő óra betűtípus</string>
+    <string name="lock_clock_font_summary">Válassz betűtípust a zárképernyő órájához</string>
     <string name="lock_clock_font_normal">Roboto</string>
     <string name="lock_clock_font_bold">Roboto Bold</string>
     <string name="lock_clock_font_italic">Roboto Italic</string>
@@ -892,43 +892,43 @@
     <string name="lock_clock_font_condensed_light_normal">Roboto Condensed Light</string>
     <string name="lock_clock_font_condensed_light_italic">Roboto Condensed Light Italic</string>
     <!-- Lockscreen cover art -->
-    <string name="media_art_title">Media cover art</string>
-    <string name="media_art_summary">Enable media cover art on the lockscreen</string>
+    <string name="media_art_title">Borítókép</string>
+    <string name="media_art_summary">Borítókép engedélyezése a zárképernyőn</string>
     <!-- Lockscreen double tap to sleep -->
-    <string name="double_tap_sleep_anywhere_title">Double-tap to sleep anywhere</string>
-    <string name="double_tap_sleep_anywhere_summary">Double tap anywhere on the lockscreen to put the device to sleep</string>
+    <string name="double_tap_sleep_anywhere_title">Dupla érintés az alvó módhoz bárhol</string>
+    <string name="double_tap_sleep_anywhere_summary">Érintsd duplán bárhol a zárképernyőn az eszköz alvó módba juttatásához</string>
 
     <!-- Slim Recents panel -->
-    <string name="mad_recents_summary">Recents customizations</string>
-    <string name="recents_title">Recents apps</string>
+    <string name="mad_recents_summary">Legutóbbi alkalmazások nézetének testreszabása</string>
+    <string name="recents_title">Legutóbbi alkalmazások</string>
     <string name="slim_recents_title">Slim recents</string>
-    <string name="use_slim_recents_title">Use for a recents alterative</string>
-    <string name="use_slim_recents_summary">Use slim recents instead of the default recents view</string>
-    <string name="slim_recents_settings_title">Slim recents settings</string>
-    <string name="slim_recents_settings_summary">View the settings for slim recents</string>
-    <string name="recent_panel_category">Slim recent apps panel</string>
-    <string name="show_running_tasks_title">Only show running apps</string>
-    <string name="recents_max_apps_title">Max allowed apps</string>
-    <string name="recent_panel_scale_title">Size</string>
-    <string name="recent_panel_expanded_mode_title">Expanded mode</string>
-    <string name="recent_panel_expanded_mode_summary">Recent tasks expanded preview mode</string>
-    <string name="recent_panel_expanded_mode_auto">Auto (default)</string>
-    <string name="recent_panel_expanded_mode_always">Always</string>
-    <string name="recent_panel_expanded_mode_never">Never</string>
-    <string name="recent_panel_show_topmost_title">Show topmost task</string>
-    <string name="recent_panel_show_topmost_summary">Don\'t exclude the topmost task in recents view</string>
-    <string name="recent_panel_bg_color_title">Panel background color</string>
-    <string name="recent_card_bg_color_title">Card background color</string>
-    <string name="recent_reset_title">Reset to stock color</string>
+    <string name="use_slim_recents_title">Használata a legutóbbi alkalmazások nézetének alternatívájaként</string>
+    <string name="use_slim_recents_summary">Slim recents használata az alapértelmezett legutóbbi alkalmazások nézete helyett</string>
+    <string name="slim_recents_settings_title">Slim recents beállítások</string>
+    <string name="slim_recents_settings_summary">Slim recents beállításai</string>
+    <string name="recent_panel_category">Slim recent alkalmazások panel</string>
+    <string name="show_running_tasks_title">Csak a futó alkalmazások</string>
+    <string name="recents_max_apps_title">Maximálisan engedélyezett alkalmazások</string>
+    <string name="recent_panel_scale_title">Méret</string>
+    <string name="recent_panel_expanded_mode_title">Bővített mód</string>
+    <string name="recent_panel_expanded_mode_summary">Legutóbbi feladatok bővített előnézeti módja</string>
+    <string name="recent_panel_expanded_mode_auto">Automatikus (alapértelmezett)</string>
+    <string name="recent_panel_expanded_mode_always">Mindig</string>
+    <string name="recent_panel_expanded_mode_never">Soha</string>
+    <string name="recent_panel_show_topmost_title">Legfőbb feladatok mutatása</string>
+    <string name="recent_panel_show_topmost_summary">Nem tűnteti el a legfőbb feladatokat a legutóbbiak nézetéből</string>
+    <string name="recent_panel_bg_color_title">Panel háttérszín</string>
+    <string name="recent_card_bg_color_title">Kártya háttérszín</string>
+    <string name="recent_reset_title">Visszaállítás gyári színekre</string>
     <string name="recent_reset_confirm">Are you sure you want to reset Slim Recent to stock color?</string>
-    <string name="default_auto_string">Default (app based)</string>
-    <string name="recent_panel_lefty_mode_title">Show on the left edge</string>
-    <string name="recent_panel_lefty_mode_summary">Show recent apps panel on the left edge</string>
-    <string name="slim_icon_pack_title">Icon Pack</string>
-    <string name="slim_icon_pack_summary">Apply a custom icon pack for apps in the panel</string>
-    <string name="no_iconpacks_summary">No icon packs installed</string>
-    <string name="dialog_pick_iconpack_title">Pick icon pack</string>
-    <string name="default_iconpack_title">Default icons</string>
+    <string name="default_auto_string">Alapértelmezett (alkalmazás alapú)</string>
+    <string name="recent_panel_lefty_mode_title">Baloldali mód</string>
+    <string name="recent_panel_lefty_mode_summary">Legutóbbi alkalmazások panel mutatása a baloldali élen</string>
+    <string name="slim_icon_pack_title">Ikon csomag</string>
+    <string name="slim_icon_pack_summary">Egyéni ikon csomag alkalmazása a panel alkalmazásaihoz</string>
+    <string name="no_iconpacks_summary">Nincs ikon csomag telepítve</string>
+    <string name="dialog_pick_iconpack_title">Válassz ikon csomagot</string>
+    <string name="default_iconpack_title">Alapértelmezett ikonok</string>
 
     <!-- Color picker -->
     <string name="dialog_color_picker">Színválasztó</string>
@@ -945,48 +945,48 @@
     <string name="color_default">Alapértelmezett</string>
 
     <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
-    <string name="unlock_quick_unlock_control_summary">Automatically unlock as soon as the correct PIN has been entered (pressing OK not required)\nNote: will only work if below number of digits is set correctly!</string>
-    <string name="lockscreen_quick_unlock_pin_length_title">Amount of digits of the PIN</string>
-    <string name="lockscreen_quick_unlock_pin_length_summary">For Quick unlock to work, please set the PIN length (amount of digits).</string>
+    <string name="unlock_quick_unlock_control_title">Gyors feloldás</string>
+    <string name="unlock_quick_unlock_control_summary">Automatikus feloldás a helyes jelszó/PIN kód megadása után (OK nem szükséges)\nFigyelem: csak akkor működik, ha a számjegyek száma helyes!</string>
+    <string name="lockscreen_quick_unlock_pin_length_title">A PIN számjegyek száma</string>
+    <string name="lockscreen_quick_unlock_pin_length_summary">A gyors feloldás működéséhez kérlek add meg a PIN hosszát (a számjegyek száma).</string>
 
     <!-- Immersive recents -->
-    <string name="immersive_recents_title">Immersive Recents</string>
-    <string name="immersive_recents_default">Default</string>
-    <string name="immersive_recents_fullscreen">Fullscreen</string>
-    <string name="immersive_recents_statusbar">Statusbar only</string>
-    <string name="immersive_recents_navbar">Navbar only</string>
+    <string name="immersive_recents_title">Ragadó legutóbbiak</string>
+    <string name="immersive_recents_default">Alapértelmezett</string>
+    <string name="immersive_recents_fullscreen">Teljes képernyőn</string>
+    <string name="immersive_recents_statusbar">Csak állapotsávon</string>
+    <string name="immersive_recents_navbar">Csak navigációs sávon</string>
 
     <!-- Recent clear all button and location -->
     <string name="show_clear_all_recents_button_title">Clear all FAB</string>
     <string name="show_clear_all_recents_button_summary_on">Show clear all FAB</string>
     <string name="show_clear_all_recents_button_summary_off">Show AOSP clear all</string>
     <string name="recents_clear_all_location_title">Clear all FAB location</string>
-    <string name="recents_clear_all_location_top_right">Top right</string>
-    <string name="recents_clear_all_location_top_left">Top left</string>
-    <string name="recents_clear_all_location_top_center">Top center</string>
-    <string name="recents_clear_all_location_bottom_right">Bottom right</string>
-    <string name="recents_clear_all_location_bottom_left">Bottom left</string>
-    <string name="recents_clear_all_location_bottom_center">Bottom center</string>
+    <string name="recents_clear_all_location_top_right">Jobb felül</string>
+    <string name="recents_clear_all_location_top_left">Bal felül</string>
+    <string name="recents_clear_all_location_top_center">Középen felül</string>
+    <string name="recents_clear_all_location_bottom_right">Jobb alul</string>
+    <string name="recents_clear_all_location_bottom_left">Bal alul</string>
+    <string name="recents_clear_all_location_bottom_center">Középen alul</string>
 
     <!-- Wakelock blocker -->
-    <string name="wakelock_blocker_title">Wakelock Blocker</string>
-    <string name="wakelock_blocker_summary">Block system wakelocks</string>
-    <string name="wakelock_blocker_save">Save</string>
-    <string name="wakelock_list_header">Available wakelocks</string>
-    <string name="wakelock_blocker_reload">Reload</string>
-    <string name="wakelock_blocker_warning_title">Proceed with caution</string>
-    <string name="wakelock_blocker_warning">Blocking wakelocks have the potential to cause instability, crashes or data loss</string>
+    <string name="wakelock_blocker_title">Wakelock blokkoló</string>
+    <string name="wakelock_blocker_summary">Rendszer wakelock-ok blokkolása</string>
+    <string name="wakelock_blocker_save">Mentés</string>
+    <string name="wakelock_list_header">Meglévő wakelock-ok</string>
+    <string name="wakelock_blocker_reload">Újratöltés</string>
+    <string name="wakelock_blocker_warning_title">Járj el körültekintően</string>
+    <string name="wakelock_blocker_warning">A wakelock-ok blokkolása instabilitáshoz, összeomláshoz vagy adatvesztéshez vezethet</string>
 
     <!-- Alarm blocker -->
-    <string name="alarm_blocker">Alarm blocker</string>
-    <string name="alarm_blocker_title">Enable</string>
-    <string name="alarm_blocker_summary">Block alarms while screen off</string>
-    <string name="alarm_blocker_save">Save</string>
-    <string name="alarm_list_header">Available alarms</string>
-    <string name="alarm_blocker_reload">Reload</string>
-    <string name="alarm_blocker_warning_title">Proceed with caution</string>
-    <string name="alarm_blocker_warning">Blocking alarms have the potential to cause instability, crashes or data loss.</string>
+    <string name="alarm_blocker">Riasztás blokkoló</string>
+    <string name="alarm_blocker_title">Engedélyez</string>
+    <string name="alarm_blocker_summary">Riasztások blokkolása kikapcsolt képernyőnél</string>
+    <string name="alarm_blocker_save">Mentés</string>
+    <string name="alarm_list_header">Meglévő riasztások</string>
+    <string name="alarm_blocker_reload">Újratöltés</string>
+    <string name="alarm_blocker_warning_title">Járj el körültekintően</string>
+    <string name="alarm_blocker_warning">A riasztások blokkolása instabilitáshoz, összeomláshoz vagy adatvesztéshez vezethet.</string>
 
     <!-- Buttons Misc -->
     <string name="mad_buttons_settings">Gombok beállításai</string>
@@ -997,30 +997,30 @@
     <string name="mad_gestures_settings_summary">Gyors gesztusok a telefon vezérléséhez</string>
 
     <!-- Bluetooth status -->
-    <string name="bluetooth_battery_title">Show Bluetooth battery status</string>
-    <string name="bluetooth_battery_summary">Show battery status for the currently connected bluetooth device, if available.</string>
+    <string name="bluetooth_battery_title">Bluetooth akkumulátor állapotának megjelenítése</string>
+    <string name="bluetooth_battery_summary">A csatlakoztatott bluetooth eszköz akkumulátor állapotának megjelenítése, ha rendelkezésre áll.</string>
 
     <!-- Huawei's One hand mode -->
     <string name="navbar_onehand_title">One Hand Mode in the NavigationBar</string>
-    <string name="one_handed_mode_title">One Handed mode</string>
-    <string name="one_handed_mode_summary">Allows swiping on the navigation bar to enable one handed mode</string>
+    <string name="one_handed_mode_title">Egykezes üzemmód</string>
+    <string name="one_handed_mode_summary">Engedélyezi a navigációs sávon való csúsztatást az egykezes üzemmód engedélyezéséhez</string>
 
     <!-- Carrier Label -->
     <string name="carrierlabel_title">Carrier Label</string>
     <string name="carrierlabel_title_summary">Options to customize the carrier label</string>
     <!-- Custom carrier label and position -->
-    <string name="carrier_label_settings_title">Carrier Label</string>
-    <string name="carrier_label_settings_summary">Customize the carrier label</string>
-    <string name="custom_carrier_label_title">Custom carrier label</string>
-    <string name="custom_carrier_label_explain">Please enter a new label. Leave blank to revert to stock label.</string>
-    <string name="custom_carrier_label_notset">Custom label currently not set</string>
-    <string name="show_carrier_title">Carrier label</string>
-    <string name="show_carrier_disabled">Disabled</string>
-    <string name="show_carrier_keyguard">Lockscreen only</string>
-    <string name="show_carrier_statusbar">Statusbar only</string>
-    <string name="show_carrier_enabled">Lockscreen &amp; statusbar</string>
-    <string name="status_bar_carrier_color">Carrier label color</string>
-    <string name="status_bar_carrier_size">Carrier label size</string>
+    <string name="carrier_label_settings_title">Szolgáltatói címke</string>
+    <string name="carrier_label_settings_summary">Szolgáltatói címke testreszabása</string>
+    <string name="custom_carrier_label_title">Egyéni szolgáltató név</string>
+    <string name="custom_carrier_label_explain">Adj meg egy új címkét. Hagyd üresen az eredeti visszaállításához.</string>
+    <string name="custom_carrier_label_notset">Egyéni címke jelenleg nincs beállítva</string>
+    <string name="show_carrier_title">Szolgáltatói címke</string>
+    <string name="show_carrier_disabled">Letiltva</string>
+    <string name="show_carrier_keyguard">Csak zárképernyő</string>
+    <string name="show_carrier_statusbar">Csak állapotsáv</string>
+    <string name="show_carrier_enabled">Zárképernyő és állapotsáv</string>
+    <string name="status_bar_carrier_color">Szolgáltatói címke színe</string>
+    <string name="status_bar_carrier_size">Szolgáltatói címke betűmérete</string>
 
     <!-- OmniJaws -->
     <string name="weather_title">Időjárás</string>
@@ -1031,32 +1031,32 @@
     <string name="lockscreen_weather_config_summary"></string>
 
     <!-- StatusBar weather settings -->
-    <string name="statusbar_weather_category">Status bar weather</string>
-    <string name="statusbar_weather_title">Status bar weather</string>
-    <string name="statusbar_weather_summary">Configure from QS settings/Weather.</string>
-    <string name="statusbar_weather_dialog_title">Status bar weather style</string>
-    <string name="status_bar_weather_hidden">Hidden weather</string>
-    <string name="status_bar_temperature_image_show_scale">Show temp with scale and image</string>
-    <string name="status_bar_temperature_image_hide_scale">Show temp with image without scale</string>
-    <string name="status_bar_temperature_show_scale_hide_image">Show temp with scale</string>
-    <string name="status_bar_temperature_hide_scale_hide_image">Show temp without scale</string>
-    <string name="status_bar_show_image">Show image</string>
+    <string name="statusbar_weather_category">Állapotsáv időjárás</string>
+    <string name="statusbar_weather_title">Állapotsáv időjárás</string>
+    <string name="statusbar_weather_summary">Gyorsbeállítások/időjárás beállítása.</string>
+    <string name="statusbar_weather_dialog_title">Állapotsáv időjárás stílusa</string>
+    <string name="status_bar_weather_hidden">Időjárás elrejtése</string>
+    <string name="status_bar_temperature_image_show_scale">Hőmérséklet mértékegységgel és képpel</string>
+    <string name="status_bar_temperature_image_hide_scale">Hőmérséklet képpel mértékegység nélkül</string>
+    <string name="status_bar_temperature_show_scale_hide_image">Hőmérséklet mértékegységgel</string>
+    <string name="status_bar_temperature_hide_scale_hide_image">Hőmérséklet mértékegység nélkül</string>
+    <string name="status_bar_show_image">Kép megjelenítése</string>
 
     <!-- Power Menu -->
-    <string name="powermenu_title">Power menu</string>
-    <string name="powermenu_settings_summary">Power menu customizations</string>
-    <string name="powermenu_screenshot">Screenshot</string>
-    <string name="powermenu_torch">Flashlight</string>
-    <string name="powermenu_power">Power</string>
-    <string name="powermenu_reboot">Reboot</string>
-    <string name="powermenu_airplane">Airplane</string>
-    <string name="powermenu_settings">Settings</string>
-    <string name="powermenu_lockdown">Lock Down</string>
-    <string name="powermenu_soundpanel">Sound Panel</string>
-    <string name="powermenu_users">Users</string>
-    <string name="powermenu_onthego_title">On-The-Go Mode</string>
+    <string name="powermenu_title">Kikapcsoló menü</string>
+    <string name="powermenu_settings_summary">Kikapcsoló menü testreszabása</string>
+    <string name="powermenu_screenshot">Képernyőmentés</string>
+    <string name="powermenu_torch">Zseblámpa</string>
+    <string name="powermenu_power">Kikapcsolás</string>
+    <string name="powermenu_reboot">Újraindítás</string>
+    <string name="powermenu_airplane">Repülőgépes üzemmód</string>
+    <string name="powermenu_settings">Beállítások</string>
+    <string name="powermenu_lockdown">Lezárás</string>
+    <string name="powermenu_soundpanel">Hang panel</string>
+    <string name="powermenu_users">Felhasználók</string>
+    <string name="powermenu_onthego_title">On-The-Go mód</string>
 
     <!-- Power menu on secure lockscreen -->
-    <string name="lockscreen_enable_power_menu_title">Show power menu lock screen</string>
-    <string name="lockscreen_enable_power_menu_summary">This option will only disable the power menu on secure lock screens</string>
+    <string name="lockscreen_enable_power_menu_title">Kikapcsoló menü a zárképernyőn</string>
+    <string name="lockscreen_enable_power_menu_summary">Ez a beállítás csak a biztonságos zárképernyőn tiltja le a kikapcsoló menüt</string>
  </resources>
