@@ -853,8 +853,6 @@
     <string name="daylight_header_pack_title">Pacote de imagens do cabeçalho</string>
     <string name="status_bar_custom_header_shadow_title">Escurecer a imagem do cabeçalho</string>
     <string name="status_bar_custom_header_shadow_summary">Para melhor visibilidade nas imagens brilhantes</string>
-    <string name="static_header_provider" translatable="false">Estática</string>
-    <string name="daylight_header_provider" translatable="false">Luz do dia</string>
     <string name="static_header_provider_title">Estática</string>
     <string name="daylight_header_provider_title">Dinâmica</string>
     <string name="custom_header_provider_title">Origem do cabeçalho</string>
@@ -938,11 +936,8 @@
     <string name="dialog_color_picker">Seletor de cores</string>
     <string name="press_color_to_apply">Pressione Cor para aplicar</string>
     <string name="hex">Hex:</string>
-    <string name="hex_hint" translatable="false">#FFDDDDDD</string>
     <string name="hex_check_button_text">PREVISUALIZAR</string>
     <string name="hex_reset_button_text">RESTAURAR</string>
-    <string name="color_right_arrow" translatable="false">"→"</string>
-    <string name="color_down_arrow" translatable="false">"↓"</string>
     <string name="longpress_info">Toque longo na caixa para guardar a cor</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>

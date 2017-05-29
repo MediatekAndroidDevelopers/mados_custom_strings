@@ -853,8 +853,6 @@
     <string name="daylight_header_pack_title">Πακέτο εικόνας κεφαλίδας</string>
     <string name="status_bar_custom_header_shadow_title">Σκιά Εικόνας κεφαλίδας</string>
     <string name="status_bar_custom_header_shadow_summary">Για καλύτερη ορατότητα στις φωτεινές εικόνες</string>
-    <string name="static_header_provider" translatable="false">Στατικό</string>
-    <string name="daylight_header_provider" translatable="false">φως ημέρας</string>
     <string name="static_header_provider_title">Στατικό</string>
     <string name="daylight_header_provider_title">Δυναμικό</string>
     <string name="custom_header_provider_title">Προμηθευτής επικεφαλίδας</string>
@@ -938,11 +936,8 @@
     <string name="dialog_color_picker">Επιλογέας χρώματος</string>
     <string name="press_color_to_apply">Πατήστε στο χρώμα για να εφαρμοστεί</string>
     <string name="hex">Hex:</string>
-    <string name="hex_hint" translatable="false">#FFDDDDDD</string>
     <string name="hex_check_button_text">ΠΡΟΕΠΙΣΚΟΠΗ</string>
     <string name="hex_reset_button_text">ΕΠΑΝΑΦΟΡΑ</string>
-    <string name="color_right_arrow" translatable="false">"→"</string>
-    <string name="color_down_arrow" translatable="false">"↓"</string>
     <string name="longpress_info">Πατήστε παρατεταμένα το κουτί για να αποθηκεύσετε το χρώμα</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
@@ -1064,4 +1059,3 @@
     <string name="lockscreen_enable_power_menu_title">Εμφάνιση μενού ισχύος στην οθόνη κλειδώματος</string>
     <string name="lockscreen_enable_power_menu_summary">Απενεργοποιεί το μενού ισχύος στις ασφαλείς οθόνες κλειδώματος</string>
  </resources>
-
