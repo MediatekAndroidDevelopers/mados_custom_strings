@@ -867,13 +867,13 @@
     <string name="lockscreen_settings_title">Экран блокировки</string>
     <string name="mad_lockscreen_settings_summary">Настройки экрана блокировки</string>
     <!-- Lockscreen items clock, date, alarm text -->
-    <string name="lockscreen_items_settings_title">Элементы локскрина</string>
-    <string name="lockscreen_clock_title">Часы локскрина</string>
-    <string name="lockscreen_date_title">Дата локскрина</string>
-    <string name="lockscreen_alarm_title">Текст сигнала на локскрине</string>
+    <string name="lockscreen_items_settings_title">Элементы экрана блокировки</string>
+    <string name="lockscreen_clock_title">Часы экрана блокировки</string>
+    <string name="lockscreen_date_title">Дата экрана блокировки</string>
+    <string name="lockscreen_alarm_title">Текст сигнала на экране блокировки</string>
     <string name="lockscreen_items_summary">Включить или выключить некоторые элементы экрана блокировки</string>
     <!-- Lockscreen clock fonts -->
-    <string name="lock_clock_font_title">Шрифт часов локскрина</string>
+    <string name="lock_clock_font_title">Шрифт часов экрана блокировки</string>
     <string name="lock_clock_font_summary">Изменить шрифт по умолчанию виджета часов</string>
     <string name="lock_clock_font_normal">Roboto</string>
     <string name="lock_clock_font_bold">Roboto жирный</string>
