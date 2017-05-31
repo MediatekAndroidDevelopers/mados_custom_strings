@@ -868,9 +868,9 @@
     <string name="mad_lockscreen_settings_summary">Настройки экрана блокировки</string>
     <!-- Lockscreen items clock, date, alarm text -->
     <string name="lockscreen_items_settings_title">Элементы экрана блокировки</string>
-    <string name="lockscreen_clock_title">Часы экрана блокировки</string>
-    <string name="lockscreen_date_title">Дата экрана блокировки</string>
-    <string name="lockscreen_alarm_title">Текст сигнала на экране блокировки</string>
+    <string name="lockscreen_clock_title">Часы</string>
+    <string name="lockscreen_date_title">Дата</string>
+    <string name="lockscreen_alarm_title">Текст сигнала</string>
     <string name="lockscreen_items_summary">Включить или выключить некоторые элементы экрана блокировки</string>
     <!-- Lockscreen clock fonts -->
     <string name="lock_clock_font_title">Шрифт часов экрана блокировки</string>
@@ -1058,4 +1058,12 @@
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">Показывать меню выключения на экране блокировки</string>
     <string name="lockscreen_enable_power_menu_summary">Выключить меню выключения на экране безопасной блокировки</string>
+
+    <!-- Wi-Fi frequency band settings -->
+    <string name="wifi_setting_frequency_band_title">Полоса частот Wi\u2011Fi</string>
+    <string name="wifi_setting_frequency_band_summary">Можно установить дипазон частот</string>
+    <string name="wifi_setting_frequency_band_error">Возникла проблема при установке полосы частот.</string>
+    <string name="wifi_setting_frequency_band_automatic">Автоматически</string>
+    <string name="wifi_setting_frequency_band_5ghz_only">Только 5Ггц</string>
+    <string name="wifi_setting_frequency_band_24ghz_only">Только 2,4Ггц</string>
 </resources>
