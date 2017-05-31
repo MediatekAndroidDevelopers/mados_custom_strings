@@ -75,7 +75,7 @@
 
     <!-- Phone status in pie controls -->
     <string name="pie_phone_status_no_service">Нет сети</string>
-    <string name="pie_phone_status_airplane_mode">Режим «В самолёте»</string>
+    <string name="pie_phone_status_airplane_mode">Режим полёта</string>
     <string name="pie_phone_status_emergency_only">Только экстренные вызовы</string>
 
     <!-- madOS QS Tile -->
