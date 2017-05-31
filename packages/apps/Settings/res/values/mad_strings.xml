@@ -1063,4 +1063,12 @@
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">Show power menu lock screen</string>
     <string name="lockscreen_enable_power_menu_summary">This option will only disable the power menu on secure lock screens</string>
+
+    <!-- Wi-Fi frequency band settings -->
+    <string name="wifi_setting_frequency_band_title">Wi\u2011Fi frequency band</string>
+    <string name="wifi_setting_frequency_band_summary">Specify the frequency range of operation</string>
+    <string name="wifi_setting_frequency_band_error">There was a problem setting the frequency band.</string>
+    <string name="wifi_setting_frequency_band_automatic">Automatic</string>
+    <string name="wifi_setting_frequency_band_5ghz_only">5 GHz only</string>
+    <string name="wifi_setting_frequency_band_24ghz_only">2.4 GHz only</string>
  </resources>
