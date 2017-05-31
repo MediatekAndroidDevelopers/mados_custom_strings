@@ -1058,4 +1058,12 @@
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">Mostrar menu de energia no ecrã de bloqueio</string>
     <string name="lockscreen_enable_power_menu_summary">Esta opção apenas desativa o menu de energia no ecrã de bloqueio</string>
+
+    <!-- Wi-Fi frequency band settings -->
+    <string name="wifi_setting_frequency_band_title">Wi\u2011Fi frequência de banda</string>
+    <string name="wifi_setting_frequency_band_summary">Definir a gama de frequências de operação</string>
+    <string name="wifi_setting_frequency_band_error">Ocorreu um problema ao definir a frequência de banda.</string>
+    <string name="wifi_setting_frequency_band_automatic">Automático</string>
+    <string name="wifi_setting_frequency_band_5ghz_only">Apenas 5 GHz</string>
+    <string name="wifi_setting_frequency_band_24ghz_only">Apenas 2.4 GHz</string>
  </resources>
