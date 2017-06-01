@@ -989,7 +989,7 @@
 
     <!-- Buttons Misc -->
     <string name="mad_buttons_settings">Configurar botones</string>
-    <string name="mad_buttons_settings_summary">Ajustes para configurar las acciones.</string>
+    <string name="mad_buttons_settings_summary">Ajustes para configurar acciones.</string>
 
     <!-- Gestures Misc -->
     <string name="mad_gestures_settings">Gestos rápidos</string>
