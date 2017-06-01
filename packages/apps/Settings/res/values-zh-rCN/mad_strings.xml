@@ -1058,4 +1058,12 @@
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">锁屏时允许显示电源菜单</string>
     <string name="lockscreen_enable_power_menu_summary">此选项仅安全锁屏时将禁用电源菜单</string>
- </resources> 
+
+    <!-- Wi-Fi frequency band settings -->
+    <string name="wifi_setting_frequency_band_title">Wi\u2011Fi 频带</string>
+    <string name="wifi_setting_frequency_band_summary">指定操作的频率范围</string>
+    <string name="wifi_setting_frequency_band_error">设置频段时出现问题。</string>
+    <string name="wifi_setting_frequency_band_automatic">自动</string>
+    <string name="wifi_setting_frequency_band_5ghz_only">仅5GHz</string>
+    <string name="wifi_setting_frequency_band_24ghz_only">仅2.4GHz</string>
+ </resources>
