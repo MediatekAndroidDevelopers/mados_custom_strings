@@ -585,9 +585,9 @@
     <string name="clock_date_style_uppercase">Mayúscula</string>
     <string name="clock_date_format_custom">Formato java personalizado</string>
 
-	 <!-- Scheduled power on/off -->
-    <string name="scheduled_power_on_off_title">Scheduled power on &amp; off</string>
-    <string name="scheduled_power_on_off_summary">Ajustes para scheduled power on / off</string>
+    <!-- Scheduled power on/off -->
+    <string name="scheduled_power_on_off_title">Programar encendido y apagado</string>
+    <string name="scheduled_power_on_off_summary">Ajustes para el encendido y apagado</string>
 
     <string name="scheduled_power_on">Encendido</string>
     <string name="scheduled_power_off">Apagado</string>
@@ -957,10 +957,10 @@
     <string name="immersive_recents_navbar">Navbar solo</string>
 
     <!-- Recent clear all button and location -->
-    <string name="show_clear_all_recents_button_title">Borrar todo FAB</string>
-    <string name="show_clear_all_recents_button_summary_on">Mostrar borrar todo FAB</string>
+    <string name="show_clear_all_recents_button_title">Borrar todo</string>
+    <string name="show_clear_all_recents_button_summary_on">Mostrar icono Borrar todo</string>
     <string name="show_clear_all_recents_button_summary_off">Mostrar borrar todo AOSP</string>
-    <string name="recents_clear_all_location_title">Borrar toda ubicación FAB</string>
+    <string name="recents_clear_all_location_title">Ubicación icono borrar todo</string>
     <string name="recents_clear_all_location_top_right">Superior derecha</string>
     <string name="recents_clear_all_location_top_left">Superior izquierda</string>
     <string name="recents_clear_all_location_top_center">Superior centrado</string>
@@ -988,8 +988,8 @@
     <string name="alarm_blocker_warning">Bloquear Alarma tiene el potencial de causar inestabilidad, accidentes o pérdida de datos.</string>
 
     <!-- Buttons Misc -->
-    <string name="mad_buttons_settings">Botones Opciones</string>
-    <string name="mad_buttons_settings_summary">Botón opciones,donde puede configurar acciones y más.</string>
+    <string name="mad_buttons_settings">Configurar botones</string>
+    <string name="mad_buttons_settings_summary">Ajustes para configurar las acciones.</string>
 
     <!-- Gestures Misc -->
     <string name="mad_gestures_settings">Gestos rápidos</string>
@@ -1058,4 +1058,13 @@
      <!-- Power menu on secure lockscreen -->
      <string name="lockscreen_enable_power_menu_title">Mostrar menú de apagado en pantalla bloqueo</string>
      <string name="lockscreen_enable_power_menu_summary">Esta opción desactivará el menú de apagado en la pantalla de bloqueo</string>
-   </resources>
+	
+    <!-- Wi-Fi frequency band settings -->
+    <string name="wifi_setting_frequency_band_title">Wi\u2011Fi frecuencia de banda</string>
+    <string name="wifi_setting_frequency_band_summary">Definir el rango de frecuencia</string>
+    <string name="wifi_setting_frequency_band_error">Hubo un problema al establecer la banda de frecuencia.</string>
+    <string name="wifi_setting_frequency_band_automatic">Automático</string>
+    <string name="wifi_setting_frequency_band_5ghz_only">Solo 5 GHz</string>
+    <string name="wifi_setting_frequency_band_24ghz_only">Solo 2.4 GHz</string>
+	
+</resources>
