@@ -528,7 +528,7 @@
     <string name="navbar_sliding_home_right_summary">Acción a realizar cuando se desliza de inicio a la derecha</string>
 
     <!-- double tap statusbar to sleep -->
-    <string name="double_tap_to_sleep_title">Doble pulsacón para reposo</string>
+    <string name="double_tap_to_sleep_title">Doble pulsación para reposo</string>
     <string name="double_tap_to_sleep_summary">Pulsa dos veces en la barra de estado para poner el dispositivo en reposo</string>
 
     <!-- Brightness control -->
@@ -834,9 +834,9 @@
     <!-- Quicks settings columns -->
     <string name="qs_panel_title">Panel configuración rápida</string>
     <string name="qs_panel_title_summary">Configuraciones rápidas</string>
-    <string name="qs_columns_title">Número de iconos en la columna</string>
-    <string name="qs_rows_portrait_title">Número de filas (vertical)</string>
-    <string name="qs_rows_landscape_title">Número de filas (horizontal)</string>
+    <string name="qs_columns_title">Número de iconos por fila</string>
+    <string name="qs_rows_portrait_title">Número filas en posición vertical</string>
+    <string name="qs_rows_landscape_title">Número filas en posición horizontal</string>
 	
     <!-- Quicks settings titles -->
     <string name="qs_tile_title_visibility_title">Título configuración rápida</string>
