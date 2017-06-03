@@ -74,7 +74,7 @@
     <string name="notification_light_applist_title">Aplicaciones</string>
     <string name="notification_light_phonelist_title">Teléfono</string>
     <string name="notification_light_use_custom">Usar valores personalizados</string>
-    <string name="notification_light_default_value">Por Defecto</string>
+    <string name="notification_light_default_value">Por defecto</string>
     <string name="notification_light_missed_call_title">Llamada perdida</string>
     <string name="notification_light_voicemail_title">Mensaje de voz</string>
 
@@ -356,9 +356,9 @@
     <string name="fourhalf_second">4.5 s</string>
     <string name="five_second">5 s</string>
 
-    <string name="pocket_pulse_mode">Pocket and pulse</string>
-    <string name="pocket_only_mode">Pocket</string>
-    <string name="pulse_only_mode">Pulse (Por defecto)</string>
+    <string name="pocket_pulse_mode">Bolsillo y Latido</string>
+    <string name="pocket_only_mode">Bolsillo</string>
+    <string name="pulse_only_mode">Latido (Por defecto)</string>
 
     <!-- Status bar -->
     <string name="status_bar_title">Barra de estado</string>
@@ -379,15 +379,15 @@
     <!-- ScrollSettings -->
     <string name="scroll_settings_title">Ajustes de desplazamiento</string>
     <string name="scroll_settings_summary">Cambiar la fricción y la velocidad</string>
-    <string name="scroll_enabled_switch_title">(De)activar ajustes de desplazamiento</string>
+    <string name="scroll_enabled_switch_title">Activar ajustes de desplazamiento</string>
     <string name="scroll_friction_title">Fricción de desplazamiento</string>
     <string name="custom_fling_velocity_title">Velocidad de desplazamiento</string>
     <string name="scroll_friction_summary">Cantidad de fricción aplicada</string>
     <string name="custom_fling_velocity_summary">Velocidad máxima</string>
 
     <!-- Longpress Power torch -->
-    <string name="long_press_power_for_torch_title">Pulsación prolongada para encender Linterna</string>
-    <string name="long_press_power_for_torch_summary">Pulsación prolongada en botón encendido con pantalla apagada enciende/apaga linterna</string>
+    <string name="long_press_power_for_torch_title">Encender Linterna</string>
+    <string name="long_press_power_for_torch_summary">Pulsación prolongada en el botón de encendido con la pantalla apagada enciende/apaga la linterna</string>
 
     <!-- Idle stats -->
     <string name="idle_stats_title">Estadísticas de inactividad</string>
@@ -436,7 +436,7 @@
     <string name="nav_pixel_nav_title">Habilitar diseño de píxeles</string>
     <string name="nav_pixel_nav_summary">Activa el estilo del botón de inicio de píxeles</string>
 
-    <string name="navigation_bar_can_move_title">Mover la barra de navegación si se gira el dispositivo</string>
+    <string name="navigation_bar_can_move_title">Girar barra de navegación</string>
     <string name="navigation_bar_can_move_summary">Cuando se activa y el dispositivo gira, la barra de navegación se mueve hacia el lado de la pantalla</string>
 
     <string name="navbar_style_dimen_title">Dimensiones barra de navegación</string>
@@ -528,7 +528,7 @@
     <string name="navbar_sliding_home_right_summary">Acción a realizar cuando se desliza de inicio a la derecha</string>
 
     <!-- double tap statusbar to sleep -->
-    <string name="double_tap_to_sleep_title">Doble pulsacón para reposo</string>
+    <string name="double_tap_to_sleep_title">Doble pulsación para reposo</string>
     <string name="double_tap_to_sleep_summary">Pulsa dos veces en la barra de estado para poner el dispositivo en reposo</string>
 
     <!-- Brightness control -->
@@ -585,9 +585,9 @@
     <string name="clock_date_style_uppercase">Mayúscula</string>
     <string name="clock_date_format_custom">Formato java personalizado</string>
 
-	 <!-- Scheduled power on/off -->
-    <string name="scheduled_power_on_off_title">Scheduled power on &amp; off</string>
-    <string name="scheduled_power_on_off_summary">Ajustes para scheduled power on / off</string>
+    <!-- Scheduled power on/off -->
+    <string name="scheduled_power_on_off_title">Programar encendido y apagado</string>
+    <string name="scheduled_power_on_off_summary">Ajustes para el encendido y apagado</string>
 
     <string name="scheduled_power_on">Encendido</string>
     <string name="scheduled_power_off">Apagado</string>
@@ -642,7 +642,7 @@
 
     <string name="shortcuts_applications">Aplicaciones</string>
     <string name="shortcuts_select_custom_app_title">Seleccionar aplicación personalizada</string>
-    <string name="shortcuts_icon_default">Por Defecto</string>
+    <string name="shortcuts_icon_default">Por defecto</string>
     <string name="shortcuts_icon_presets">Iconos del sistema</string>
     <string name="shortcuts_icon_custom">Galería</string>
     <string name="shortcuts_icon_picker_type">Seleccione tipo de icono:</string>
@@ -733,8 +733,8 @@
     <string name="pie_snap_color_title">Color del punto de ajuste</string>
     <string name="pie_text_color_title">Color del texto</string>
     <string name="pie_background_alpha_title">Transparencia de fondo</string>
-    <string name="pie_mirror_right_title">Espeko derecho PIE</string>
-    <string name="pie_mirror_right_summary">Espejo del PIE derecho en eje horizontal</string>
+    <string name="pie_mirror_right_title">Espejo derecho PIE</string>
+    <string name="pie_mirror_right_summary">Duplica PIE en eje horizontal</string>
     <string name="pie_style">Estilo y dimensión</string>
     <string name="pie_style_title">Estilo</string>
     <string name="pie_dimens_title">Dimensión</string>
@@ -832,14 +832,14 @@
     <string name="weather_show_timestamp_summary">Permite mostrar la fecha y hora</string>
 
     <!-- Quicks settings columns -->
-    <string name="qs_panel_title">Panel configuración rápida</string>
-    <string name="qs_panel_title_summary">Configuraciones rápidas</string>
-    <string name="qs_columns_title">Número de iconos en la columna</string>
-    <string name="qs_rows_portrait_title">Número de filas (vertical)</string>
-    <string name="qs_rows_landscape_title">Número de filas (horizontal)</string>
+    <string name="qs_panel_title">Panel de ajustes rápidos</string>
+    <string name="qs_panel_title_summary">Configurar los ajustes rápidos</string>
+    <string name="qs_columns_title">Número de iconos por fila</string>
+    <string name="qs_rows_portrait_title">Número filas en posición vertical</string>
+    <string name="qs_rows_landscape_title">Número filas en posición horizontal</string>
 	
     <!-- Quicks settings titles -->
-    <string name="qs_tile_title_visibility_title">Título configuración rápida</string>
+    <string name="qs_tile_title_visibility_title">Títulos en los ajustes rápidos</string>
     <string name="qs_tile_title_visibility_summary">Activar títulos en ajustes rápidos</string>
 
     <!-- Disable Quicks settings -->
@@ -847,21 +847,21 @@
     <string name="lockscreen_qs_disabled_summary">Desactiva configuración rápida en pantalla de bloqueo</string>
 	
     <!-- QS headers -->
-    <string name="qs_header_category">Configuración rápida del encabezado</string>
-    <string name="status_bar_custom_header_title">Imagen de encabezado personalizado</string>
-    <string name="status_bar_custom_header_summary">Activar imagen del encabezado del panel de notificaciones</string>
-    <string name="daylight_header_pack_title">Pack de imágenes de cabecera</string>
+    <string name="qs_header_category">Configuración del encabezado</string>
+    <string name="status_bar_custom_header_title">Imagen personalizada</string>
+    <string name="status_bar_custom_header_summary">Activar imagen personalizada en el encabezado del panel de notificaciones</string>
+    <string name="daylight_header_pack_title">Pack de imágenes</string>
     <string name="status_bar_custom_header_shadow_title">Sombra del encabezado</string>
     <string name="status_bar_custom_header_shadow_summary">Para una mejor visibilidad en imágenes brillantes</string>
-    <string name="static_header_provider_title">Estática</string>
-    <string name="daylight_header_provider_title">Dinámica</string>
-    <string name="custom_header_provider_title">Proveedor encabezado</string>
+    <string name="static_header_provider_title">Estático</string>
+    <string name="daylight_header_provider_title">Dinámico</string>
+    <string name="custom_header_provider_title">Diseño del encabezado</string>
     <string name="custom_header_browse_title">Examinar encabezados instalados</string>
     <string name="custom_header_browse_summary">Presión prolongada en una imagen para usarla en modo estático</string>
 
     <!-- Quicks settings vibrate -->
-    <string name="quick_settings_vibrate_title">Vibrar al tocarlo</string>
-    <string name="quick_settings_vibrate_summary">Vibrar al tocar los iconos</string>
+    <string name="quick_settings_vibrate_title">Vibrar al pulsar</string>
+    <string name="quick_settings_vibrate_summary">Vibrar al pulsar los iconos</string>
 
     <!-- Lockscreen -->
     <string name="lockscreen_settings_title">Pantalla de bloqueo</string>
@@ -889,16 +889,16 @@
     <string name="lock_clock_font_condensed_bold_italic">Roboto Condensada Negrita Cursiva</string>
     <string name="lock_clock_font_medium_normal">Roboto Mediana</string>
     <string name="lock_clock_font_medium_italic">Roboto Mediana Cursiva</string>
-    <string name="lock_clock_font_black_normal">Roboto Black</string>
-    <string name="lock_clock_font_black_italic">Roboto Black Cursiva</string>
+    <string name="lock_clock_font_black_normal">Roboto Negrita</string>
+    <string name="lock_clock_font_black_italic">Roboto Negrita Cursiva</string>
     <string name="lock_clock_font_condensed_light_normal">Roboto Condensada Ligera</string>
     <string name="lock_clock_font_condensed_light_italic">Roboto Condensada Ligera Cursiva</string>
     <!-- Lockscreen cover art -->
     <string name="media_art_title">Portada musical</string>
     <string name="media_art_summary">Habilitar la portada musical en pantalla de bloqueo</string>
     <!-- Lockscreen double tap to sleep -->
-    <string name="double_tap_sleep_anywhere_title">Doble-Toque para dormir</string>
-    <string name="double_tap_sleep_anywhere_summary">Doble-Toque en cualquier lugar de la pantalla para poner el dispositivo en reposo</string>
+    <string name="double_tap_sleep_anywhere_title">Doble pulsación para dormir</string>
+    <string name="double_tap_sleep_anywhere_summary">Doble pulsación en cualquier lugar de la pantalla de bloqueo para poner el dispositivo en reposo</string>
 
     <!-- Slim Recents panel -->
     <string name="mad_recents_summary">Personalizacion de Recientes</string>
@@ -909,7 +909,7 @@
     <string name="slim_recents_settings_title">Ajustes recientes de Slim</string>
     <string name="slim_recents_settings_summary">Ver la configuración Slim recientes</string>
     <string name="recent_panel_category">Panel de aplicaciones recientes Slim</string>
-    <string name="show_running_tasks_title">Mostrar sólo aplicaciones en ejecución</string>
+    <string name="show_running_tasks_title">Ver solo aplicaciones en ejecución</string>
     <string name="recents_max_apps_title">Máximo de aplicaciones permitidas</string>
     <string name="recent_panel_scale_title">Tamaño</string>
     <string name="recent_panel_expanded_mode_title">Modo ampliado</string>
@@ -923,7 +923,7 @@
     <string name="recent_card_bg_color_title">Color de fondo de la tarjeta</string>
     <string name="recent_reset_title">Restablecer a color de stock</string>
     <string name="recent_reset_confirm">¿Estás seguro que quieres restablecer Slim Recientes al color stock?</string>
-    <string name="default_auto_string">Por defecto (app based)</string>
+    <string name="default_auto_string">Por defecto</string>
     <string name="recent_panel_lefty_mode_title">Mostrar en el borde izquierdo</string>
     <string name="recent_panel_lefty_mode_summary">Mostrar el panel de aplicaciones recientes borde izquierdo</string>
     <string name="slim_icon_pack_title">Pack de icono</string>
@@ -957,10 +957,10 @@
     <string name="immersive_recents_navbar">Navbar solo</string>
 
     <!-- Recent clear all button and location -->
-    <string name="show_clear_all_recents_button_title">Borrar todo FAB</string>
-    <string name="show_clear_all_recents_button_summary_on">Mostrar borrar todo FAB</string>
+    <string name="show_clear_all_recents_button_title">Borrar todo</string>
+    <string name="show_clear_all_recents_button_summary_on">Mostrar icono Borrar todo</string>
     <string name="show_clear_all_recents_button_summary_off">Mostrar borrar todo AOSP</string>
-    <string name="recents_clear_all_location_title">Borrar toda ubicación FAB</string>
+    <string name="recents_clear_all_location_title">Ubicación icono borrar todo</string>
     <string name="recents_clear_all_location_top_right">Superior derecha</string>
     <string name="recents_clear_all_location_top_left">Superior izquierda</string>
     <string name="recents_clear_all_location_top_center">Superior centrado</string>
@@ -988,15 +988,15 @@
     <string name="alarm_blocker_warning">Bloquear Alarma tiene el potencial de causar inestabilidad, accidentes o pérdida de datos.</string>
 
     <!-- Buttons Misc -->
-    <string name="mad_buttons_settings">Botones Opciones</string>
-    <string name="mad_buttons_settings_summary">Botón opciones,donde puede configurar acciones y más.</string>
+    <string name="mad_buttons_settings">Configurar botones</string>
+    <string name="mad_buttons_settings_summary">Ajustes para configurar acciones.</string>
 
     <!-- Gestures Misc -->
     <string name="mad_gestures_settings">Gestos rápidos</string>
     <string name="mad_gestures_settings_summary">Gestos rápidos para controlar tu teléfono</string>
 		
     <!-- Bluetooth status -->
-    <string name="bluetooth_battery_title">Mostrar la batería del dispositivo Bluetooth</string>
+    <string name="bluetooth_battery_title">Mostrar batería dispositivo Bluetooth</string>
     <string name="bluetooth_battery_summary">Mostrar la batería del dispositivo bluetooth conectado,si está disponible.</string>
 	
     <!-- Huawei's One hand mode -->
@@ -1030,10 +1030,10 @@
     <string name="lockscreen_weather_config_summary"></string>
 
     <!-- StatusBar weather settings -->
-    <string name="statusbar_weather_category">Barra de estado clima</string>
-    <string name="statusbar_weather_title">Barra de estado clima</string>
-    <string name="statusbar_weather_summary">Configurar desde configuración QS/Clima.</string>
-    <string name="statusbar_weather_dialog_title">Estilo de estado de la barra de clima</string>
+    <string name="statusbar_weather_category">Clima en la barra de estado</string>
+    <string name="statusbar_weather_title">Clima en la barra de estado</string>
+    <string name="statusbar_weather_summary">Configurar desde ajustes rápidos/Clima.</string>
+    <string name="statusbar_weather_dialog_title">Estilo del clima en barra de estado</string>
     <string name="status_bar_weather_hidden">Clima oculto</string>
     <string name="status_bar_temperature_image_show_scale">Mostrar temperatura con escala e imagen</string>
     <string name="status_bar_temperature_image_hide_scale">Mostrar temperatura sin escala e imagen</string>
@@ -1058,4 +1058,13 @@
      <!-- Power menu on secure lockscreen -->
      <string name="lockscreen_enable_power_menu_title">Mostrar menú de apagado en pantalla bloqueo</string>
      <string name="lockscreen_enable_power_menu_summary">Esta opción desactivará el menú de apagado en la pantalla de bloqueo</string>
-   </resources>
+	
+    <!-- Wi-Fi frequency band settings -->
+    <string name="wifi_setting_frequency_band_title">Wi\u2011Fi frecuencia de banda</string>
+    <string name="wifi_setting_frequency_band_summary">Definir el rango de frecuencia</string>
+    <string name="wifi_setting_frequency_band_error">Hubo un problema al establecer la banda de frecuencia.</string>
+    <string name="wifi_setting_frequency_band_automatic">Automático</string>
+    <string name="wifi_setting_frequency_band_5ghz_only">Solo 5 GHz</string>
+    <string name="wifi_setting_frequency_band_24ghz_only">Solo 2.4 GHz</string>
+	
+</resources>
