@@ -1062,7 +1062,7 @@
     <!-- Wi-Fi frequency band settings -->
     <string name="wifi_setting_frequency_band_title">Wi\u2011Fi frecuencia de banda</string>
     <string name="wifi_setting_frequency_band_summary">Definir el rango de frecuencia</string>
-    <string name="wifi_setting_frequency_band_error">Hubo un problema al establecer la banda de frecuencia.</string>
+    <string name="wifi_setting_frequency_band_error">Hubo un problema al establecer la frecuencia de banda.</string>
     <string name="wifi_setting_frequency_band_automatic">Automático</string>
     <string name="wifi_setting_frequency_band_5ghz_only">Solo 5 GHz</string>
     <string name="wifi_setting_frequency_band_24ghz_only">Solo 2.4 GHz</string>
