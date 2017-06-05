@@ -300,9 +300,9 @@
 
     <!-- > App Ops -->
     <!-- [CHAR LIMIT=NONE] App ops settings title, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
-    <string name="app_ops_settings">App ops</string>
+    <string name="app_ops_settings">Administrar aplicaciones</string>
     <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
-    <string name="app_ops_settings_summary">Ver o cambiar los permisos de la aplicación</string>
+    <string name="app_ops_settings_summary">Modificar los permisos de las aplicaciónes</string>
 
     <!-- Substratum -->
     <string name="substratum_title">Substratum</string>
@@ -430,13 +430,13 @@
     <string name="navigation_save_button_text">Guardar</string>
     <string name="navigation_bar_reset_message">¿Eliminar la configuración actual y restaurar el diseño predeterminado?</string>
 
-    <string name="nav_arrow_keys_title">Mostrar teclas de flecha</string>
-    <string name="nav_arrow_keys_summary">Mostrar teclas de flecha izquierda y derecha al escribir</string>
+    <string name="nav_arrow_keys_title">Activar teclas con flechas</string>
+    <string name="nav_arrow_keys_summary">Mostrar teclas con flechas izquierda y derecha al escribir</string>
 
-    <string name="nav_pixel_nav_title">Habilitar diseño de píxeles</string>
-    <string name="nav_pixel_nav_summary">Activa el estilo del botón de inicio de píxeles</string>
+    <string name="nav_pixel_nav_title">Habilitar diseño Pixel</string>
+    <string name="nav_pixel_nav_summary">Activa el estilo Pixel en el botón de inicio</string>
 
-    <string name="navigation_bar_can_move_title">Girar barra de navegación</string>
+    <string name="navigation_bar_can_move_title">Mover barra de navegación</string>
     <string name="navigation_bar_can_move_summary">Cuando se activa y el dispositivo gira, la barra de navegación se mueve hacia el lado de la pantalla</string>
 
     <string name="navbar_style_dimen_title">Dimensiones barra de navegación</string>
@@ -835,8 +835,8 @@
     <string name="qs_panel_title">Panel de ajustes rápidos</string>
     <string name="qs_panel_title_summary">Configurar los ajustes rápidos</string>
     <string name="qs_columns_title">Número de iconos por fila</string>
-    <string name="qs_rows_portrait_title">Número filas en posición vertical</string>
-    <string name="qs_rows_landscape_title">Número filas en posición horizontal</string>
+    <string name="qs_rows_portrait_title">Número de filas en posición vertical</string>
+    <string name="qs_rows_landscape_title">Número de filas en posición horizontal</string>
 	
     <!-- Quicks settings titles -->
     <string name="qs_tile_title_visibility_title">Títulos en los ajustes rápidos</string>
@@ -988,8 +988,8 @@
     <string name="alarm_blocker_warning">Bloquear Alarma tiene el potencial de causar inestabilidad, accidentes o pérdida de datos.</string>
 
     <!-- Buttons Misc -->
-    <string name="mad_buttons_settings">Configurar botones</string>
-    <string name="mad_buttons_settings_summary">Ajustes para configurar acciones.</string>
+    <string name="mad_buttons_settings">Botones</string>
+    <string name="mad_buttons_settings_summary">Configurar las acciones e iluminación.</string>
 
     <!-- Gestures Misc -->
     <string name="mad_gestures_settings">Gestos rápidos</string>
