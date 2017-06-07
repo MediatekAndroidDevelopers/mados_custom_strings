@@ -586,8 +586,8 @@
     <string name="clock_date_format_custom">Произвольный java-формат</string>
 
     <!-- Scheduled power on/off -->
-    <string name="schedule_power_on_off_settings_title">Включение и выключение по расписанию</string>
-    <string name="schedule_summary">Настройки вкл./выкл. по расписанию</string>
+    <string name="schedule_power_on_off_title">Включение и выключение по расписанию</string>
+    <string name="schedule_power_on_off_summary">Настройки вкл./выкл. по расписанию</string>
 
     <string name="scheduled_power_on">Включение</string>
     <string name="scheduled_power_off">Выключение</string>
@@ -870,7 +870,7 @@
     <string name="lockscreen_items_settings_title">Элементы экрана блокировки</string>
     <string name="lockscreen_clock_title">Часы</string>
     <string name="lockscreen_date_title">Дата</string>
-    <string name="lockscreen_alarm_title">Текст сигнала</string>
+    <string name="lockscreen_alarm_title">Будильник</string>
     <string name="lockscreen_items_summary">Включить или выключить некоторые элементы экрана блокировки</string>
     <!-- Lockscreen clock fonts -->
     <string name="lock_clock_font_title">Шрифт часов экрана блокировки</string>
