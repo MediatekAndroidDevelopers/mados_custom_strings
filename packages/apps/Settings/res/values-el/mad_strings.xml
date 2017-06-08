@@ -587,7 +587,7 @@
 
     <!-- Scheduled power on/off -->
     <string name="schedule_power_on_off_settings_title">Προγραμματισμένη ενεργοποίηση &amp; απενεργοποίηση</string>
-    <string name="schedule_summary">Ρυθμίσεις για προγραμματισμένη ενεργοποίηση/απενεργοποίηση</string>
+    <string name="schedule_summary">Ρυθμίσεις για προγραμματισμένη ενεργοποίηση / απενεργοποίηση</string>
 	
     <string name="scheduled_power_on">Ενεργοποίηση</string>
     <string name="scheduled_power_off">Απενεργοποίηση</string>
