@@ -969,7 +969,7 @@
     <string name="recents_clear_all_location_bottom_center">Abajo centrado</string>
 
     <!-- Wakelock blocker -->
-    <string name="wakelock_blocker_title">Bloqueador Wakelock</string>
+    <string name="wakelock_blocker_title">Bloquear Wakelocks</string>
     <string name="wakelock_blocker_summary">Bloquear wakelocks del sistema</string>
     <string name="wakelock_blocker_save">Guardar</string>
     <string name="wakelock_list_header">Wakelocks disponibles</string>
@@ -978,17 +978,17 @@
     <string name="wakelock_blocker_warning">Bloquear wakelocks tiene el potencial de causar inestabilidad, accidentes o pérdida de datos.</string>
 
     <!-- Alarm blocker -->
-    <string name="alarm_blocker">Bloqueador de alarma</string>
+    <string name="alarm_blocker">Bloquear alarmas</string>
     <string name="alarm_blocker_title">Habilitar</string>
-    <string name="alarm_blocker_summary">Bloquear alarmas mientras la pantalla está apagada</string>
+    <string name="alarm_blocker_summary">Bloquear alarmas de las aplicaciones mientras la pantalla está apagada</string>
     <string name="alarm_blocker_save">Guardar</string>
     <string name="alarm_list_header">Alarmas disponibles</string>
     <string name="alarm_blocker_reload">Recargar</string>
     <string name="alarm_blocker_warning_title">Proceda con precaución</string>
-    <string name="alarm_blocker_warning">Bloquear Alarma tiene el potencial de causar inestabilidad, accidentes o pérdida de datos.</string>
+    <string name="alarm_blocker_warning">Bloquear Alarmas tiene el potencial de causar inestabilidad, accidentes o pérdida de datos.</string>
 
     <!-- Buttons Misc -->
-    <string name="mad_buttons_settings">Botones</string>
+    <string name="mad_buttons_settings">Configurar botones</string>
     <string name="mad_buttons_settings_summary">Configurar las acciones e iluminación.</string>
 
     <!-- Gestures Misc -->
