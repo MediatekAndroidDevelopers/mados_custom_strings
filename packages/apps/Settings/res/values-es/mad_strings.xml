@@ -96,7 +96,7 @@
     <string name="profile_choose_app">Seleccionar aplicación</string>
 
     <!-- madOS extras -->
-    <string name="mad_settings_title">madOS Extras</string>
+    <string name="mad_settings_title">Extras madOS</string>
     <!-- madOS extras-Categories -->
     <string name="mad_interface">Interfaz</string>
 	<string name="mad_recents">Recientes</string>
