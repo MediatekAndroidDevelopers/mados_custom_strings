@@ -586,8 +586,8 @@
     <string name="clock_date_format_custom">Произвольный java-формат</string>
 
     <!-- Scheduled power on/off -->
-    <string name="schedule_power_on_off_settings_title">Включение и выключение по расписанию</string>
-    <string name="schedule_summary">Настройки вкл./выкл. по расписанию</string>
+    <string name="schedule_power_on_off_title">Включение и выключение по расписанию</string>
+    <string name="schedule_power_on_off_summary">Настройки вкл./выкл. по расписанию</string>
 
     <string name="scheduled_power_on">Включение</string>
     <string name="scheduled_power_off">Выключение</string>
@@ -793,8 +793,8 @@
     <string name="weather_clock_options_title">Настройки погоды cLock</string>
     <string name="weather_clock_options_summary">Настройки виджета и поставщика погоды</string>
     <string name="status_bar_temperature_hidden">Скрыто</string>
-    <string name="status_bar_temperature_show_scale">Показывать в масштабе</string>
-    <string name="status_bar_temperature_hide_scale">Показывать не в масштабе</string>
+    <string name="status_bar_temperature_show_scale">Показывать шкалу</string>
+    <string name="status_bar_temperature_hide_scale">Не показывать шкалу</string>
     <string name="status_bar_temperature_location_title">Расположение</string>
     <string name="status_bar_temperature_location_summary">Выберите, где показывать температуру в статусбаре</string>
     <string name="status_bar_temperature_location_right">Показывать справа</string>
@@ -867,13 +867,13 @@
     <string name="lockscreen_settings_title">Экран блокировки</string>
     <string name="mad_lockscreen_settings_summary">Настройки экрана блокировки</string>
     <!-- Lockscreen items clock, date, alarm text -->
-    <string name="lockscreen_items_settings_title">Элементы локскрина</string>
-    <string name="lockscreen_clock_title">Часы локскрина</string>
-    <string name="lockscreen_date_title">Дата локскрина</string>
-    <string name="lockscreen_alarm_title">Текст сигнала на локскрине</string>
+    <string name="lockscreen_items_settings_title">Элементы экрана блокировки</string>
+    <string name="lockscreen_clock_title">Часы</string>
+    <string name="lockscreen_date_title">Дата</string>
+    <string name="lockscreen_alarm_title">Будильник</string>
     <string name="lockscreen_items_summary">Включить или выключить некоторые элементы экрана блокировки</string>
     <!-- Lockscreen clock fonts -->
-    <string name="lock_clock_font_title">Шрифт часов локскрина</string>
+    <string name="lock_clock_font_title">Шрифт часов экрана блокировки</string>
     <string name="lock_clock_font_summary">Изменить шрифт по умолчанию виджета часов</string>
     <string name="lock_clock_font_normal">Roboto</string>
     <string name="lock_clock_font_bold">Roboto жирный</string>
@@ -1035,11 +1035,11 @@
     <string name="statusbar_weather_summary">Настройки из настроек плиток/погоды.</string>
     <string name="statusbar_weather_dialog_title">Стиль погоды в статусбаре</string>
     <string name="status_bar_weather_hidden">Погода скрыта</string>
-    <string name="status_bar_temperature_image_show_scale">Температура с масштабированием и картинкой</string>
-    <string name="status_bar_temperature_image_hide_scale">Температура с изображением без масштабирования</string>
-    <string name="status_bar_temperature_show_scale_hide_image">Температура с масштабированием</string>
-    <string name="status_bar_temperature_hide_scale_hide_image">Температура без масштабирования</string>
-    <string name="status_bar_show_image">Показывать изображение</string>
+    <string name="status_bar_temperature_image_show_scale">Температура со шкалой и иконкой</string>
+    <string name="status_bar_temperature_image_hide_scale">Температура с иконкой без шкалы</string>
+    <string name="status_bar_temperature_show_scale_hide_image">Температура со шкалой</string>
+    <string name="status_bar_temperature_hide_scale_hide_image">Только температура</string>
+    <string name="status_bar_show_image">Только иконка погоды</string>
 
     <!-- Power Menu -->
     <string name="powermenu_title">Меню выключения</string>
@@ -1048,7 +1048,7 @@
     <string name="powermenu_torch">Фонарик</string>
     <string name="powermenu_power">Выключение</string>
     <string name="powermenu_reboot">Перезагрузка</string>
-    <string name="powermenu_airplane">Авиарежим</string>
+    <string name="powermenu_airplane">Режим полёта</string>
     <string name="powermenu_settings">Настройки</string>
     <string name="powermenu_lockdown">Блокировка</string>
     <string name="powermenu_soundpanel">Звуковая панель</string>
@@ -1058,4 +1058,12 @@
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">Показывать меню выключения на экране блокировки</string>
     <string name="lockscreen_enable_power_menu_summary">Выключить меню выключения на экране безопасной блокировки</string>
+
+    <!-- Wi-Fi frequency band settings -->
+    <string name="wifi_setting_frequency_band_title">Полоса частот Wi\u2011Fi</string>
+    <string name="wifi_setting_frequency_band_summary">Можно установить дипазон частот</string>
+    <string name="wifi_setting_frequency_band_error">Возникла проблема при установке полосы частот.</string>
+    <string name="wifi_setting_frequency_band_automatic">Автоматически</string>
+    <string name="wifi_setting_frequency_band_5ghz_only">Только 5Ггц</string>
+    <string name="wifi_setting_frequency_band_24ghz_only">Только 2,4Ггц</string>
 </resources>

@@ -587,7 +587,7 @@
 
     <!-- Scheduled power on/off -->
     <string name="schedule_power_on_off_settings_title">Προγραμματισμένη ενεργοποίηση &amp; απενεργοποίηση</string>
-    <string name="schedule_summary">Ρυθμίσεις για προγραμματισμένη ενεργοποίηση/απενεργοποίηση</string>
+    <string name="schedule_summary">Ρυθμίσεις για προγραμματισμένη ενεργοποίηση / απενεργοποίηση</string>
 	
     <string name="scheduled_power_on">Ενεργοποίηση</string>
     <string name="scheduled_power_off">Απενεργοποίηση</string>
@@ -1058,4 +1058,12 @@
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">Εμφάνιση μενού ισχύος στην οθόνη κλειδώματος</string>
     <string name="lockscreen_enable_power_menu_summary">Απενεργοποιεί το μενού ισχύος στις ασφαλείς οθόνες κλειδώματος</string>
+	
+    <!-- Wi-Fi frequency band settings -->
+    <string name="wifi_setting_frequency_band_title">Wi\u2011Fi Συχνότητα φάσματος</string>
+    <string name="wifi_setting_frequency_band_summary">Ορίστε το φάσμα συχνοτήτων λειτουργίας</string>
+    <string name="wifi_setting_frequency_band_error">Παρουσιάστηκε πρόβλημα κατά τη ρύθμιση της ζώνης συχνοτήτων.</string>
+    <string name="wifi_setting_frequency_band_automatic">Αυτόματο</string>
+    <string name="wifi_setting_frequency_band_5ghz_only">5 GHz Μόνο</string>
+    <string name="wifi_setting_frequency_band_24ghz_only">2.4 GHz Μόνο</string>
  </resources>
