@@ -586,8 +586,8 @@
     <string name="clock_date_format_custom">Произвольный java-формат</string>
 
     <!-- Scheduled power on/off -->
-    <string name="schedule_power_on_off_title">Включение и выключение по расписанию</string>
-    <string name="schedule_power_on_off_summary">Настройки вкл./выкл. по расписанию</string>
+    <string name="scheduled_power_on_off_title">Включение и выключение по расписанию</string>
+    <string name="scheduled_power_on_off_summary">Настройки вкл./выкл. по расписанию</string>
 
     <string name="scheduled_power_on">Включение</string>
     <string name="scheduled_power_off">Выключение</string>
