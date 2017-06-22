@@ -902,6 +902,10 @@
     <string name="double_tap_sleep_anywhere_title">Double-tap to sleep anywhere</string>
     <string name="double_tap_sleep_anywhere_summary">Double tap anywhere on the lockscreen to put the device to sleep</string>
 
+    <!-- Lockscreen battery info -->
+    <string name="lockscreen_battery_info_title">Lockscreen battery info</string>
+    <string name="lockscreen_battery_info_summary">Display real time charger current, voltage and battery temperature on lockscreen while charging</string>
+
     <!-- Slim Recents panel -->
     <string name="mad_recents_summary">Recents customizations</string>
     <string name="recents_title">Recents apps</string>
