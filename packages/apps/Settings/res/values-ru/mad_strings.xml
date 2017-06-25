@@ -900,6 +900,10 @@
     <string name="double_tap_sleep_anywhere_title">Даблтап в любом месте для сна</string>
     <string name="double_tap_sleep_anywhere_summary">Даблтап в любом месте для перевода телефона в сон</string>
 
+    <!-- Lockscreen battery info -->
+    <string name="lockscreen_battery_info_title">Инфо батарейки на экране блокировки</string>
+    <string name="lockscreen_battery_info_summary">Показывать в реальном времени силу тока, напряжение и температуру батареи на экране блокировки во время зарядки</string>
+
     <!-- Slim Recents panel -->
     <string name="mad_recents_summary">Настройки недавних приложений</string>
     <string name="recents_title">Недавние приложения</string>

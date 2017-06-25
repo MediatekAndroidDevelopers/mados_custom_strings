@@ -586,8 +586,8 @@
     <string name="clock_date_format_custom">Προσαρμοσμένη μορφή java</string>
 
     <!-- Scheduled power on/off -->
-    <string name="schedule_power_on_off_settings_title">Προγραμματισμένη ενεργοποίηση &amp; απενεργοποίηση</string>
-    <string name="schedule_summary">Ρυθμίσεις για προγραμματισμένη ενεργοποίηση / απενεργοποίηση</string>
+    <string name="scheduled_power_on_off_settings_title">Προγραμματισμένη ενεργοποίηση &amp; απενεργοποίηση</string>
+    <string name="scheduled_summary">Ρυθμίσεις για προγραμματισμένη ενεργοποίηση / απενεργοποίηση</string>
 	
     <string name="scheduled_power_on">Ενεργοποίηση</string>
     <string name="scheduled_power_off">Απενεργοποίηση</string>
@@ -900,6 +900,10 @@
     <string name="double_tap_sleep_anywhere_title">Πατήστε δύο φορές οπουδήποτε για αναστολή λειτουργίας</string>
     <string name="double_tap_sleep_anywhere_summary">Πατήστε δύο φορές οπουδήποτε στην οθόνη κλειδώματος για να θέσετε τη συσκευή σε αναστολή λειτουργίας</string>
 
+    <!-- Lockscreen battery info -->
+    <string name="lockscreen_battery_info_title">Πληροφορίες μπαταρίας στην οθόνη κλειδώματος</string>
+    <string name="lockscreen_battery_info_summary">Εμφάνιση τρέχοντος φορτίου ρεύματος, βολτ και θερμοκρασία μπαταρίας στην οθόνη κλειδώματος όταν φορτίζει</string>
+   
     <!-- Slim Recents panel -->
     <string name="mad_recents_summary">Επεξεργασία πρόσφατων εφαρμογών</string>
     <string name="recents_title">Πρόσφατες εφαρμογές</string>
