@@ -900,6 +900,10 @@
     <string name="double_tap_sleep_anywhere_title">Πατήστε δύο φορές οπουδήποτε για αναστολή λειτουργίας</string>
     <string name="double_tap_sleep_anywhere_summary">Πατήστε δύο φορές οπουδήποτε στην οθόνη κλειδώματος για να θέσετε τη συσκευή σε αναστολή λειτουργίας</string>
 
+    <!-- Lockscreen battery info -->
+    <string name="lockscreen_battery_info_title">Πληροφορίες μπαταρίας στην οθόνη κλειδώματος</string>
+    <string name="lockscreen_battery_info_summary">Εμφάνιση τρέχοντος φορτίου ρεύματος, βολτ και θερμοκρασία μπαταρίας στην οθόνη κλειδώματος όταν φορτίζει</string>
+   
     <!-- Slim Recents panel -->
     <string name="mad_recents_summary">Επεξεργασία πρόσφατων εφαρμογών</string>
     <string name="recents_title">Πρόσφατες εφαρμογές</string>
