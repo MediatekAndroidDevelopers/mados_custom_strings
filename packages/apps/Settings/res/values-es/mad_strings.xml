@@ -899,7 +899,11 @@
     <!-- Lockscreen double tap to sleep -->
     <string name="double_tap_sleep_anywhere_title">Doble pulsación para dormir</string>
     <string name="double_tap_sleep_anywhere_summary">Doble pulsación en cualquier lugar de la pantalla de bloqueo para poner el dispositivo en reposo</string>
-
+    
+    <!-- Lockscreen battery info -->
+    <string name="lockscreen_battery_info_title">Información de batería en la pantalla de bloqueo</string>
+    <string name="lockscreen_battery_info_summary">Mostrar la corriente del cargador,el voltaje y temperatura de la batería en la pantalla de bloqueo durante la carga</string>
+	
     <!-- Slim Recents panel -->
     <string name="mad_recents_summary">Personalizacion de Recientes</string>
     <string name="recents_title">Aplicaciones recientes</string>
