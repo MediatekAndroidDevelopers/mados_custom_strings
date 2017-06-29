@@ -38,6 +38,8 @@
     <string name="hardware_keys_action_in_app_search">Поиск внутри приложения</string>
     <string name="hardware_keys_action_launch_camera">Открыть камеру</string>
     <string name="hardware_keys_action_kill_app">Убить активное приложение</string>
+    <string name="hardware_keys_action_assist">Запустить помощника</string>
+    <string name="hardware_keys_action_sleep">Усыпить</string>
 
     <!-- Notification light dialogs -->
     <string name="edit_light_settings">Редактировать настройки света</string>
@@ -1070,4 +1072,7 @@
     <string name="wifi_setting_frequency_band_automatic">Автоматически</string>
     <string name="wifi_setting_frequency_band_5ghz_only">Только 5Ггц</string>
     <string name="wifi_setting_frequency_band_24ghz_only">Только 2,4Ггц</string>
+
+    <string name="hardware_keys_fingerprint_key_title">Отпечаток пальца при включенном экране</string>
+
 </resources>
