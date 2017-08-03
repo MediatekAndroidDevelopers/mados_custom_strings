@@ -38,7 +38,9 @@
     <string name="hardware_keys_action_in_app_search">应用内搜索</string>
     <string name="hardware_keys_action_launch_camera">打开相机</string>
     <string name="hardware_keys_action_kill_app">应用杀</string>
-
+    <string name="hardware_keys_action_assist">启动辅助</string>
+    <string name="hardware_keys_action_sleep">入睡</string>
+	
     <!-- Notification light dialogs -->
     <string name="edit_light_settings">编辑灯光设置</string>
     <string name="pulse_speed_title">脉冲长度和速度</string>
@@ -1064,6 +1066,9 @@
     <string name="wifi_setting_frequency_band_summary">指定操作的频率范围</string>
     <string name="wifi_setting_frequency_band_error">设置频段时出现问题。</string>
     <string name="wifi_setting_frequency_band_automatic">自动</string>
-    <string name="wifi_setting_frequency_band_5ghz_only">仅5GHz</string>
-    <string name="wifi_setting_frequency_band_24ghz_only">仅2.4GHz</string>
+    <string name="wifi_setting_frequency_band_5ghz_only">仅 5 GHz</string>
+    <string name="wifi_setting_frequency_band_24ghz_only">仅 2.4 GHz</string>
+
+    <string name="hardware_keys_fingerprint_key_title">屏幕上指纹</string>
+
  </resources>

@@ -38,6 +38,8 @@
     <string name="hardware_keys_action_in_app_search">In-app search</string>
     <string name="hardware_keys_action_launch_camera">Open camera</string>
     <string name="hardware_keys_action_kill_app">Kill foreground app</string>
+    <string name="hardware_keys_action_assist">Launch assist</string>
+    <string name="hardware_keys_action_sleep">put to sleep</string>
 
     <!-- Notification light dialogs -->
     <string name="edit_light_settings">Edit light settings</string>
@@ -902,6 +904,10 @@
     <string name="double_tap_sleep_anywhere_title">Double-tap to sleep anywhere</string>
     <string name="double_tap_sleep_anywhere_summary">Double tap anywhere on the lockscreen to put the device to sleep</string>
 
+    <!-- Lockscreen battery info -->
+    <string name="lockscreen_battery_info_title">Lockscreen battery info</string>
+    <string name="lockscreen_battery_info_summary">Display real time charger current, voltage and battery temperature on lockscreen while charging</string>
+
     <!-- Slim Recents panel -->
     <string name="mad_recents_summary">Recents customizations</string>
     <string name="recents_title">Recents apps</string>
@@ -1071,4 +1077,7 @@
     <string name="wifi_setting_frequency_band_automatic">Automatic</string>
     <string name="wifi_setting_frequency_band_5ghz_only">5 GHz only</string>
     <string name="wifi_setting_frequency_band_24ghz_only">2.4 GHz only</string>
+
+    <string name="hardware_keys_fingerprint_key_title">Fingerprint when screen on</string>
+
  </resources>
