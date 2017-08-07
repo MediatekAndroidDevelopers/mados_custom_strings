@@ -324,9 +324,7 @@
     <string name="menu_hide_substratum_icons">Hide icon overlays</string>
 
     <!-- Force authorize substratum packages -->
-    <string name="force_authorize_substratum_packages_title">Tüm uygulamaları temalarken doğrulamayı zorla</string>
-    <string name="force_authorize_substratum_packages_summary">Bilinmeyen kaynaklardan tema uygulamaya izin ver</string>
-
+    
     <string name="sim_color_bar_title">Sinyal Barını Renklendir</string>
 
     <!-- Doze pulse (ambient display) options -->
