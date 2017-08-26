@@ -38,6 +38,8 @@
     <string name="hardware_keys_action_in_app_search">Поиск внутри приложения</string>
     <string name="hardware_keys_action_launch_camera">Открыть камеру</string>
     <string name="hardware_keys_action_kill_app">Убить активное приложение</string>
+    <string name="hardware_keys_action_assist">Запустить помощника</string>
+    <string name="hardware_keys_action_sleep">Усыпить</string>
 
     <!-- Notification light dialogs -->
     <string name="edit_light_settings">Редактировать настройки света</string>
@@ -586,8 +588,8 @@
     <string name="clock_date_format_custom">Произвольный java-формат</string>
 
     <!-- Scheduled power on/off -->
-    <string name="schedule_power_on_off_title">Включение и выключение по расписанию</string>
-    <string name="schedule_power_on_off_summary">Настройки вкл./выкл. по расписанию</string>
+    <string name="scheduled_power_on_off_title">Включение и выключение по расписанию</string>
+    <string name="scheduled_power_on_off_summary">Настройки вкл./выкл. по расписанию</string>
 
     <string name="scheduled_power_on">Включение</string>
     <string name="scheduled_power_off">Выключение</string>
@@ -900,6 +902,10 @@
     <string name="double_tap_sleep_anywhere_title">Даблтап в любом месте для сна</string>
     <string name="double_tap_sleep_anywhere_summary">Даблтап в любом месте для перевода телефона в сон</string>
 
+    <!-- Lockscreen battery info -->
+    <string name="lockscreen_battery_info_title">Инфо батарейки на экране блокировки</string>
+    <string name="lockscreen_battery_info_summary">Показывать в реальном времени силу тока, напряжение и температуру батареи на экране блокировки во время зарядки</string>
+
     <!-- Slim Recents panel -->
     <string name="mad_recents_summary">Настройки недавних приложений</string>
     <string name="recents_title">Недавние приложения</string>
@@ -1066,4 +1072,7 @@
     <string name="wifi_setting_frequency_band_automatic">Автоматически</string>
     <string name="wifi_setting_frequency_band_5ghz_only">Только 5Ггц</string>
     <string name="wifi_setting_frequency_band_24ghz_only">Только 2,4Ггц</string>
+
+    <string name="hardware_keys_fingerprint_key_title">Отпечаток пальца при включенном экране</string>
+
 </resources>
