@@ -39,7 +39,9 @@
     <string name="hardware_keys_action_launch_camera">Open camera</string>
     <string name="hardware_keys_action_kill_app">Kill foreground app</string>
     <string name="hardware_keys_action_assist">Launch assist</string>
-    <string name="hardware_keys_action_sleep">put to sleep</string>
+    <string name="hardware_keys_action_last_app">Toggle last app</string>
+    <string name="hardware_keys_action_splitscreen">Splitscreen</string>
+    <string name="hardware_keys_action_screen_off">Turn off screen</string>
 
     <!-- Notification light dialogs -->
     <string name="edit_light_settings">Edit light settings</string>
