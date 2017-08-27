@@ -39,7 +39,9 @@
     <string name="hardware_keys_action_launch_camera">Άνοιγμα Φωτ.Μηχ</string>
     <string name="hardware_keys_action_kill_app">Κλείσιμο ενεργής εφαρμογής</string>
     <string name="hardware_keys_action_assist">Έναρξη βοηθού</string>
-    <string name="hardware_keys_action_sleep">Ύπνος</string>
+    <string name="hardware_keys_action_last_app">Εναλλαγή τελευταίας εφαρμογής</string>
+    <string name="hardware_keys_action_splitscreen">Χωρισμένη οθόνη</string>
+    <string name="hardware_keys_action_screen_off">Απενεργοποίηση οθόνης</string>
 	
     <!-- Notification light dialogs -->
     <string name="edit_light_settings">Επεξεργασία ρυθμίσεων φωτισμού</string>
