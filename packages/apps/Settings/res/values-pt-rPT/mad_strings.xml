@@ -38,6 +38,10 @@
     <string name="hardware_keys_action_in_app_search">Procura na aplicação</string>
     <string name="hardware_keys_action_launch_camera">Abrir a câmara</string>
     <string name="hardware_keys_action_kill_app">Fechar aplicação em primeiro plano</string>
+    <string name="hardware_keys_action_assist">Abrir Assistente</string>
+    <string name="hardware_keys_action_last_app">Alternar última aplicação</string>
+    <string name="hardware_keys_action_splitscreen">Dividir ecrã</string>
+    <string name="hardware_keys_action_screen_off">Desligar o ecrã</string>
 
     <!-- Notification light dialogs -->
     <string name="edit_light_settings">Editar definições do LED de notificações</string>
@@ -858,6 +862,8 @@
     <string name="custom_header_provider_title">Origem do cabeçalho</string>
     <string name="custom_header_browse_title">Ver os cabeçalhos instalados</string>
     <string name="custom_header_browse_summary">Pressão longa em qualquer imagem para usar no modo estático</string>
+    <string name="custom_header_browse_title">Procurar cabeçalhos instalados</string>
+    <string name="custom_header_browse_summary">Pressione longamente qualquer imagem para usar no modo estático</string>
 
     <!-- Quicks settings vibrate -->
     <string name="quick_settings_vibrate_title">Vibrar ao tocar</string>
@@ -899,6 +905,10 @@
     <!-- Lockscreen double tap to sleep -->
     <string name="double_tap_sleep_anywhere_title">Desligar com 2 toques</string>
     <string name="double_tap_sleep_anywhere_summary">Toque duas vezes em qualquer área do ecrã de bloqueio para suspender o dispositivo</string>
+
+    <!-- Lockscreen battery info -->
+    <string name="lockscreen_battery_info_title">Informação da bateria no ecrã de bloqueio</string>
+    <string name="lockscreen_battery_info_summary">Ao carregar, mostra a corrente do carregador em tempo real, a tensão e a temperatura da bateria no ecrã de bloqueio</string>
 
     <!-- Slim Recents panel -->
     <string name="mad_recents_summary">Customização do modo recentes</string>
@@ -1066,4 +1076,30 @@
     <string name="wifi_setting_frequency_band_automatic">Automático</string>
     <string name="wifi_setting_frequency_band_5ghz_only">Apenas 5 GHz</string>
     <string name="wifi_setting_frequency_band_24ghz_only">Apenas 2.4 GHz</string>
+
+
+    <string name="hardware_keys_fingerprint_key_title">Impressão digital quando ecrã está ligado</string>
+
+    <!-- Color engine -->
+    <string name="theme_switch_palette">Alternar entre cores primária e destaque</string>
+    <string name="theme_title">Sistema de cor</string>
+    <string name="theme_summary">Selecione diferentes cores para o seu tema atual</string>
+    <string name="theme_accent_color">Cor de destaque</string>
+    <string name="theme_primary_color">Cor primária</string>
+    <string name="theme">Tema</string>
+    <string name="oms_enabled">Os modos de tema não estão disponíveis porque um tema do Substratum está atualmente aplicado</string>
+    <string name="red">Vermelho</string>
+    <string name="orange">Laranja</string>
+    <string name="blue">Azul</string>
+    <string name="green">Verde</string>
+    <string name="yellow">Amarelo</string>
+    <string name="purple">Roxo</string>
+    <string name="pink">Rosa</string>
+    <string name="dark">Escuro</string>
+    <string name="pixel">Pixel</string>
+    <string name="teal">Predefinido</string>
+    <string name="Ciano">Scooter</string>
+    <string name="grey">Cinzento</string>
+    <string name="default_string">Predefinido</string>
+
  </resources>
