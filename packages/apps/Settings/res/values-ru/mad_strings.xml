@@ -39,7 +39,9 @@
     <string name="hardware_keys_action_launch_camera">Открыть камеру</string>
     <string name="hardware_keys_action_kill_app">Убить активное приложение</string>
     <string name="hardware_keys_action_assist">Запустить помощника</string>
-    <string name="hardware_keys_action_sleep">Усыпить</string>
+    <string name="hardware_keys_action_last_app">Последнее приложение</string>
+    <string name="hardware_keys_action_splitscreen">Многооконный режим</string>
+    <string name="hardware_keys_action_screen_off">Выключить экран</string>
 
     <!-- Notification light dialogs -->
     <string name="edit_light_settings">Редактировать настройки света</string>
@@ -1074,5 +1076,27 @@
     <string name="wifi_setting_frequency_band_24ghz_only">Только 2,4Ггц</string>
 
     <string name="hardware_keys_fingerprint_key_title">Отпечаток пальца при включенном экране</string>
+
+    <!-- Color engine -->
+    <string name="theme_switch_palette">Переключение между основным и доп.цветом</string>
+    <string name="theme_title">Движок цветов</string>
+    <string name="theme_summary">Выбрать цвета для текущей темы</string>
+    <string name="theme_accent_color">Дополнительный цвет</string>
+    <string name="theme_primary_color">Основной цвет</string>
+    <string name="theme">Тема</string>
+    <string name="oms_enabled">Темы недоступны, т.к. применена тема от Substratum</string>
+    <string name="red">Красный</string>
+    <string name="orange">Оранжевый киноварь</string>
+    <string name="blue">Пиксель синий</string>
+    <string name="green">Зелёный</string>
+    <string name="yellow">Жёлтый супернова</string>
+    <string name="purple">Пурпурный</string>
+    <string name="pink">Розовый</string>
+    <string name="dark">Тёмный</string>
+    <string name="pixel">Пиксель</string>
+    <string name="teal">По умолчанию</string>
+    <string name="cyan">Сине-зелёный</string>
+    <string name="grey">Серый</string>
+    <string name="default_string">По умолчанию</string>
 
 </resources>
