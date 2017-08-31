@@ -1078,7 +1078,7 @@
     <string name="hardware_keys_fingerprint_key_title">Отпечаток пальца при включенном экране</string>
 
     <!-- Color engine -->
-    <string name="theme_switch_palette">Переключение между осноным и доп.цветом</string>
+    <string name="theme_switch_palette">Переключение между основным и доп.цветом</string>
     <string name="theme_title">Движок цветов</string>
     <string name="theme_summary">Выбрать цвета для текущей темы</string>
     <string name="theme_accent_color">Дополнительный цвет</string>
