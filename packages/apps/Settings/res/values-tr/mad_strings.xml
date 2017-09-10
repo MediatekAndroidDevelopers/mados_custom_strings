@@ -21,7 +21,7 @@
     <string name="enable_navigation_bar_summary">Ekrandaki sanal tuşları etkinleştir</string>
     <string name="hardware_brightness_keys_title">Arka Işık</string>
     <string name="hardware_brightness_keys_summary">Tuşların arka ışığını etkinleştir</string>
-    <string name="hardware_keys_home_key_title">Ev Tuşu</string>
+    <string name="hardware_keys_home_key_title">Ana Ekran Tuşu</string>
     <string name="hardware_keys_back_key_title">Geri Tuşu</string>
     <string name="hardware_keys_menu_key_title">Menü Tuşu</string>
     <string name="hardware_keys_assist_key_title">Asistan Tuşu</string>
@@ -207,22 +207,22 @@
     <!-- BandMode End -->
 
     <!-- BandMode SIM2 Select start -->
-    <string name="BandModeSIM2">Band Mode SIM2</string>
-    <string name="bandmodesim2_GSM">GSM Mode</string>
+    <string name="BandModeSIM2">SIM2 için Band Modu</string>
+    <string name="bandmodesim2_GSM">GSM Modeu</string>
     <string name="bandmodesim2_GSM_EGSM900">EGSM900</string>
     <string name="bandmodesim2_GSM_DCS1800">DCS1800</string>
     <string name="bandmodesim2_GSM_PCS1900">PCS1900</string>
     <string name="bandmodesim2_GSM_GSM850">GSM850</string>
-    <string name="bandmodesim2_SET">SET</string>
-    <string name="BandModeSIMSelect">SIM Select</string>
-    <string name="BandModeSIMTwo">Band SET</string>
+    <string name="bandmodesim2_SET">Ayarla</string>
+    <string name="BandModeSIMSelect">SIM'i Seç</string>
+    <string name="BandModeSIMTwo">Bandı Seç</string>
     <!-- BandMode SIM2 Select end -->
 
     <!-- Band select start -->
-    <string name="BandSelect">Band Mode</string>
-    <string name="BandSel_GSM">GSM Mode</string>
-    <string name="BandSel_UMTS">UMTS Mode</string>
-    <string name="BandSel_SET">SET</string>
+    <string name="BandSelect">Band Modu</string>
+    <string name="BandSel_GSM">GSM Modu</string>
+    <string name="BandSel_UMTS">UMTS Modu</string>
+    <string name="BandSel_SET">Ayarla</string>
     <string name="BandSel_GSM_EGSM900">EGSM900</string>
     <string name="BandSel_GSM_DCS1800">DCS1800</string>
     <string name="BandSel_GSM_PCS1900">PCS1900</string>
@@ -237,33 +237,35 @@
     <string name="BandSel_UMTS_BAND_VIII">WCDMA-GSM-900</string>
     <string name="BandSel_UMTS_BAND_IX">WCDMA-1800</string>
     <string name="BandSel_UMTS_BAND_X">WCDMA-1700</string>
-    <string name="BandSel_RESET">Reset to default</string>
-    <string name="BandSel_CDMA">CDMA Mode</string>
-    <string name="BandSel_CDMA_BAND_0">Band Class 0(North American Celluar Band)</string>
-    <string name="BandSel_CDMA_BAND_1">Band Class 1(North American PCS band)</string>
-    <string name="BandSel_CDMA_BAND_2">Band Class 2(TACS band)</string>
-    <string name="BandSel_CDMA_BAND_3">Band Class 3(JTACS band)</string>
-    <string name="BandSel_CDMA_BAND_4">Band Class 4(Korean PCS band)</string>
-    <string name="BandSel_CDMA_BAND_5">Band Class 5(NMT-450 Band)</string>
-    <string name="BandSel_CDMA_BAND_6">Band Class 6(IMT-2000 band)</string>
-    <string name="BandSel_CDMA_BAND_7">Band Class 7(North American 700Mhz Celluar Band)</string>
-    <string name="BandSel_CDMA_BAND_8">Band Class 8 (1800-MHz Band)</string>
-    <string name="BandSel_CDMA_BAND_9">Band Class 9 (900-MHz Band)</string>
-    <string name="BandSel_CDMA_BAND_10">Band Class 10 (Secondary 800 MHz Band)</string>
-    <string name="BandSel_CDMA_BAND_11">Band Class 11 (400 MHz European PAMR Band</string>
-    <string name="BandSel_CDMA_BAND_12">Band Class 12 (800 MHz PAMR Band)</string>
-    <string name="BandSel_CDMA_BAND_13">Band Class 13 (2.5 GHz IMT-2000 Extension Band)</string>
-    <string name="BandSel_CDMA_BAND_14">Band Class 14 (US PCS 1.9GHz Band) </string>
-    <string name="BandSel_CDMA_BAND_15">Band Class 15 (AWS Band)</string>
+    <string name="BandSel_RESET">Varsayılana Dön</string>
+    <string name="BandSel_CDMA">CDMA Modu</string>
+    <string name="BandSel_CDMA_BAND_0">Band Sınıfı 0(North American Celluar Band)</string>
+    <string name="BandSel_CDMA_BAND_1">Band Sınıfı 1(North American PCS band)</string>
+    <string name="BandSel_CDMA_BAND_2">Band Sınıfı 2(TACS band)</string>
+    <string name="BandSel_CDMA_BAND_3">Band Sınıfı 3(JTACS band)</string>
+    <string name="BandSel_CDMA_BAND_4">Band Sınıfı 4(Korean PCS band)</string>
+    <string name="BandSel_CDMA_BAND_5">Band Sınıfı 5(NMT-450 Band)</string>
+    <string name="BandSel_CDMA_BAND_6">Band Sınıfı 6(IMT-2000 band)</string>
+    <string name="BandSel_CDMA_BAND_7">Band Sınıfı 7(North American 700Mhz Celluar Band)</string>
+    <string name="BandSel_CDMA_BAND_8">Band Sınıfı 8 (1800-MHz Band)</string>
+    <string name="BandSel_CDMA_BAND_9">Band Sınıfı 9 (900-MHz Band)</string>
+    <string name="BandSel_CDMA_BAND_10">Band Sınıfı 10 (Secondary 800 MHz Band)</string>
+    <string name="BandSel_CDMA_BAND_11">Band Sınıfı 11 (400 MHz European PAMR Band</string>
+    <string name="BandSel_CDMA_BAND_12">Band Sınıfı 12 (800 MHz PAMR Band)</string>
+    <string name="BandSel_CDMA_BAND_13">Band Sınıfı 13 (2.5 GHz IMT-2000 Extension Band)</string>
+    <string name="BandSel_CDMA_BAND_14">Band Sınıfı 14 (US PCS 1.9GHz Band) </string>
+    <string name="BandSel_CDMA_BAND_15">Band Sınıfı 15 (AWS Band)</string>
     <!-- Band select end -->
 
     <!-- Dual Talk Band Select start -->
-    <string name="bandmodesim1_GSM">GSM Mode</string>
+    <string name="bandmodesim1_GSM">GSM Modu</string>
     <string name="bandmodesim1_GSM_EGSM900">EGSM900</string>
     <string name="bandmodesim1_GSM_DCS1800">DCS1800</string>
     <string name="bandmodesim1_GSM_PCS1900">PCS1900</string>
     <string name="bandmodesim1_GSM_GSM850">GSM850</string>
-    <string name="bandmodesim1_UMTS">UMTS Mode</string>
+
+    <string name="bandmodesim1_UMTS">UMTS Modu</string>
+
     <string name="bandmodesim1_UMTS_BAND_I">WCDMA-IMT-2000</string>
     <string name="bandmodesim1_UMTS_BAND_II">WCDMA-PCS-1900</string>
     <string name="bandmodesim1_UMTS_BAND_III">WCDMA-DCS-1800</string>
@@ -274,14 +276,17 @@
     <string name="bandmodesim1_UMTS_BAND_VIII">WCDMA-GSM-900</string>
     <string name="bandmodesim1_UMTS_BAND_IX">WCDMA-1800</string>
     <string name="bandmodesim1_UMTS_BAND_X">WCDMA-1700</string>
-    <string name="bandmodesim1_LTE">LTE Mode</string>
-    <string name="bandmodesim1_SET">SET</string>
-    <string name="BandStart">Band Mode</string>
-    <string name="BandModeSIM1">Band Mode SIM1</string>
-    <string name="bandmode">Band Mode</string>
+
+    <string name="bandmodesim1_LTE">LTE Modu</string>
+    <string name="bandmodesim1_SET">Ayarla</string>
+    <string name="BandStart">Band Modu</string>
+    <string name="BandModeSIM1">SIM1 Band Modu</string>
+    <string name="bandmode">Band Modu</string>
 
     <!-- TDD Band Select start -->
-    <string name="TDD_BandSel_GSM">GSM Mode</string>
+    <string name="TDD_BandSel_GSM">GSM Modu</string>
+
+   
     <string name="TDD_GSM_EGSM900">EGSM900</string>
     <string name="TDD_GSM_DCS1800">DCS1800</string>
     <string name="TDD_GSM_PCS1900">PCS1900</string>
@@ -296,13 +301,15 @@
     <string name="TDD_Btn_SET">SET</string>
     <!-- TDD Band Select end -->
 
-    <string name="set_success_title">Setting success</string>
+
+    <string name="set_success_title">Ayarlamalar Başarılı</string>
 
     <!-- > App Ops -->
     <!-- [CHAR LIMIT=NONE] App ops settings title, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
-    <string name="app_ops_settings">App ops</string>
+    <string name="app_ops_settings">Uygulama izinleri</string>
     <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
-    <string name="app_ops_settings_summary">View or change app permissions</string>
+    <string name="app_ops_settings_summary">Uygulama izinlerini düzenleyin</string>
+
 
     <!-- Substratum -->
     <string name="substratum_title">Substratum</string>
@@ -317,6 +324,28 @@
     <string name="menu_hide_substratum_icons">Hide icon overlays</string>
 
     <!-- Force authorize substratum packages -->
+    
+    <string name="sim_color_bar_title">Sinyal Barını Renklendir</string>
+
+    <!-- Doze pulse (ambient display) options -->
+    <string name="doze_list_mode_title">Doze modu</string>
+    <string name="doze_list_mode_summary">Doze modunu ayarlayın</string>
+
+    <string name="doze_pulse_title">Süre Ayarları</string>
+    <string name="doze_pulse_duration_in_title">Ekranı açık tutma süresi</string>
+    <string name="doze_pulse_duration_in_summary"></string>
+
+    <string name="doze_pulse_duration_visible_title">Giriş Animasyonu süresi</string>
+    <string name="doze_pulse_duration_visible_summary"></string>
+
+    <string name="doze_pulse_duration_out_title">Çıkış animasyon süresi</string>
+    <string name="doze_pulse_duration_out_summary"></string>
+
+    <string name="doze_pulse_on_notifications_title">Bildirimlerde ekranı aç</string>
+    <string name="doze_pulse_on_notifications_summary">Sadece bekleyen bildirimlerde ayarlayın</string>
+
+    <string name="doze_time_mode_title">Tarih ve Saati göster</string>
+
     <string name="force_authorize_substratum_packages_title">Force authorize every theme app</string>
     <string name="force_authorize_substratum_packages_summary">Allow theme apps from unknown sources</string>
 
@@ -340,6 +369,7 @@
     <string name="doze_pulse_on_notifications_summary">Trigger activation only on pending notifications</string>
 
     <string name="doze_time_mode_title">Show clock and date</string>
+
     <string name="doze_time_mode_summary">Force showing time when there is no notification</string>
 
     <string name="twohundred_ms">200 ms</string>
@@ -1030,6 +1060,49 @@
     <string name="weather_title">Weather</string>
     <string name="weather_config_title">Weather tile settings</string>
     <string name="weather_config_summary"></string>
+
+  <string name="lockscreen_weather_title">Kilit ekranı hava durumu bilgileri</string>
+    <string name="lockscreen_weather_config_title">Kilit ekranı hava durumu bilgileri</string>
+    <string name="lockscreen_weather_config_summary"></string>
+
+    <!-- StatusBar weather settings -->
+    <string name="statusbar_weather_category">Durum çubuğu hava durumu</string>
+    <string name="statusbar_weather_title">Durum çubuğu hava durumu</string>
+    <string name="statusbar_weather_summary">Buradan ayarlayın Ayarlar/Hava Durumu.</string>
+    <string name="statusbar_weather_dialog_title">Durum çubuğu hava bilgileri</string>
+    <string name="status_bar_weather_hidden">Gizlenmiş hava durumu</string>
+    <string name="status_bar_temperature_image_show_scale">Resimli ve ölçekli olarak sıcaklık göster</string>
+    <string name="status_bar_temperature_image_hide_scale">Resimli ve ölçeksiz olarak sıcaklık göster</string>
+    <string name="status_bar_temperature_show_scale_hide_image">Ölçekli sıcaklık göster</string>
+    <string name="status_bar_temperature_hide_scale_hide_image">Ölçeksiz sıcaklık göster</string>
+    <string name="status_bar_show_image">Resmi Göster</string>
+
+    <!-- Power Menu -->
+    <string name="powermenu_title">Güç Menüsü</string>
+    <string name="powermenu_settings_summary">Güç Menüsü Özelleştirmeleri</string>
+    <string name="powermenu_screenshot">Ekran Görüntüsü</string>
+    <string name="powermenu_torch">Flash Işığı</string>
+    <string name="powermenu_power">Güç</string>
+    <string name="powermenu_reboot">Yeniden Başlat</string>
+    <string name="powermenu_airplane">Uçak Modu</string>
+    <string name="powermenu_settings">Ayarlar</string>
+    <string name="powermenu_lockdown">Kilitle</string>
+    <string name="powermenu_soundpanel">Ses Paneli</string>
+    <string name="powermenu_users">Kullanıcılar</string>
+    <string name="powermenu_onthego_title">On-The-Go Modu</string>
+
+    <!-- Power menu on secure lockscreen -->
+    <string name="lockscreen_enable_power_menu_title">Kilit ekranında güç menüsünü göster</string>
+    <string name="lockscreen_enable_power_menu_summary">Bu seçenek kilit ekranında güvenli kilitler var ise aktif olur</string>
+
+    <!-- Wi-Fi frequency band settings -->
+    <string name="wifi_setting_frequency_band_title">Wi\u2011Fi Frekansı Bandı</string>
+    <string name="wifi_setting_frequency_band_summary">Yaşadığınız bölge için özel frekans ayarları</string>
+    <string name="wifi_setting_frequency_band_error">Frekans bandını seçerken bir sorun oluştu.</string>
+    <string name="wifi_setting_frequency_band_automatic">Otomatik</string>
+    <string name="wifi_setting_frequency_band_5ghz_only">Sadece 5 GHz</string>
+    <string name="wifi_setting_frequency_band_24ghz_only">Sadece 2.4 GHz</string>
+
     <string name="lockscreen_weather_title">Lockscreen weather info</string>
     <string name="lockscreen_weather_config_title">Lockscreen weather info settings</string>
     <string name="lockscreen_weather_config_summary"></string>
@@ -1071,4 +1144,5 @@
     <string name="wifi_setting_frequency_band_automatic">Automatic</string>
     <string name="wifi_setting_frequency_band_5ghz_only">5 GHz only</string>
     <string name="wifi_setting_frequency_band_24ghz_only">2.4 GHz only</string>
+
  </resources>
