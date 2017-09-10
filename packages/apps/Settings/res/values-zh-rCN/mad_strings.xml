@@ -1073,4 +1073,26 @@
 
     <string name="hardware_keys_fingerprint_key_title">屏幕上指纹</string>
 
- </resources>
+    <!-- Color engine -->
+    <string name="theme_switch_palette">原色调和强调色之间切换</string>
+    <string name="theme_title">色彩引擎</string>
+    <string name="theme_summary">为您当前的主题选择不同的颜色</string>
+    <string name="theme_accent_color">强调色</string>
+    <string name="theme_primary_color">原色调</string>
+    <string name="theme">主题</string>
+    <string name="oms_enabled">主题模式不可用，因为当前应用了“底层”主题</string>
+    <string name="red">火炬红</string>
+    <string name="orange">朱红</string>
+    <string name="blue">像素蓝</string>
+    <string name="green">利马绿</string>
+    <string name="yellow">超新星黄</string>
+    <string name="purple">热紫色</string>
+    <string name="pink">粉玫瑰</string>
+    <string name="dark">黑暗</string>
+    <string name="pixel">像素</string>
+    <string name="teal">默认</string>
+    <string name="cyan">摩托车</string>
+    <string name="grey">灰色</string>
+    <string name="default_string">默认</string>
+
+ </resources> 
