@@ -27,7 +27,6 @@
     <string name="hardware_keys_assist_key_title">Keresés gomb</string>
     <string name="hardware_keys_app_switch_key_title">Előzmények gomb</string>
     <string name="hardware_keys_camera_key_title">Kamera gomb</string>
-    <string name="hardware_keys_short_press_title">Rövid érintés eseménye</string>
     <string name="hardware_keys_long_press_title">Hosszan érintés eseménye</string>
     <string name="hardware_keys_double_tap_title">Dupla érintés eseménye</string>
     <string name="hardware_keys_action_nothing">Nincs esemény</string>
@@ -35,7 +34,6 @@
     <string name="hardware_keys_action_app_switch">Alkalmazás előzmények</string>
     <string name="hardware_keys_action_search">Kereső asszisztens</string>
     <string name="hardware_keys_action_voice_search">Hangalapú keresés</string>
-    <string name="hardware_keys_action_in_app_search">Alkalmazáson belüli keresés</string>
     <string name="hardware_keys_action_launch_camera">Kamera indítása</string>
     <string name="hardware_keys_action_kill_app">Alkalmazás bezárása</string>
 
@@ -128,20 +126,13 @@
     <string name="fast_charge_summary">Gyors Töltés beállítások</string>
     <string name="ac_charging_current_title">Hálózati töltés</string>
     <string name="usb_charging_current_title">USB töltés</string>
-    <string name="fast_charge_set_on_boot">Beállítás indításkor</string>
-    <string name="fast_charge_set_on_boot_summary">Töltési beállítások visszaállítása indításkor</string>
     <string name="fast_charge_master">Gyors Töltés engedélyezés</string>
     <string name="fast_charge_notification_title">Gyors Töltés értesítések</string>
     <string name="fast_charge_notification_summary">Engedélyezi a Gyors Töltés beállítások értesítéseit</string>
-    <string name="qs_tile_fcharge">Gyors Töltés</string>
 
     <!-- Performance settings  -->
     <string name="performance_settings_title">Teljesítmény</string>
     <string name="performance_settings_summary">Processzor and I/O ütemező beállítások</string>
-
-    <!-- Performance Settings : Warning dialog  -->
-    <string name="performance_settings_warning_title">Csak óvatosan!</string>
-    <string name="performance_settings_warning">Ezek a beállítások kísérleti funkciókat tartalmaznak és minden módosításuk instabilitási, összeomlási, adatvesztési és hardver meghibásodási veszélyt rejt magában.\n\nKérjük, ne küldjön hibajelzést ha bármely értéket megváltoztatja az alapértelmezettről.</string>
 
     <!-- Performance Settings : Processor Settings -->
     <!-- Performance Settings : Processor settings title -->
@@ -157,8 +148,6 @@
     <string name="cpu_min_freq_summary">%s</string>
     <string name="cpu_max_freq_title">Maximális CPU frekvencia</string>
     <string name="cpu_max_freq_summary">%s</string>
-    <string name="cpu_set_on_boot">Beállítás indításkor</string>
-    <string name="cpu_set_on_boot_summary">Processzor beállítások visszaállítása indításkor</string>
 
     <!-- Performance Settings : I/O scheduler settings title -->
     <string name="io_scheds_title">I/O ütemező</string>
@@ -168,8 +157,6 @@
     <!-- Performance Settings : I/O scheduler settings sub items -->
     <string name="io_sched_title">I/O ütemező</string>
     <string name="io_sched_summary">%S</string>
-    <string name="io_sched_set_on_boot">Beállítás indításkor</string>
-    <string name="io_sched_set_on_boot_summary">I/O ütemező beállítások visszaállítása indításkor</string>
 
     <!-- Sensor Calibration -->
     <string name="sensor_calibration_title">Szenzor kalibráció</string>
@@ -189,15 +176,10 @@
     <string name="gyroscope_axis_switch">Függőleges tengely fel/le irányainak cseréje</string>
 
     <!-- BandMode  Start -->
-    <string name="query_result">Lekérdezés hibás.</string>
     <string name="query_support_message">Támogatott mód lekérdezése hibás.</string>
     <string name="query_current_message">Aktuális mód lekérdezése hibás.</string>
-    <string name="query_btn_text">Bezár</string>
     <string name="set_success_message">Beállítás rendben</string>
-    <string name="set_ok_text">OK</string>
-    <string name="set_fail_title">Hibás</string>
     <string name="set_fail_message">Beállítás hibás</string>
-    <string name="set_fail_text">Bezár</string>
     <string name="reset_title">Visszaállítás</string>
     <string name="reset_message">Visszaállítás az alapértelmezett értékekre?</string>
     <string name="bandmode_sim1">SIM1</string>
@@ -207,7 +189,6 @@
     <!-- BandMode End -->
 
     <!-- BandMode SIM2 Select start -->
-    <string name="BandModeSIM2">SIM2 sáv mód</string>
     <string name="bandmodesim2_GSM">GSM mód</string>
     <string name="bandmodesim2_GSM_EGSM900">EGSM900</string>
     <string name="bandmodesim2_GSM_DCS1800">DCS1800</string>
@@ -215,11 +196,9 @@
     <string name="bandmodesim2_GSM_GSM850">GSM850</string>
     <string name="bandmodesim2_SET">SET</string>
     <string name="BandModeSIMSelect">SIM választás</string>
-    <string name="BandModeSIMTwo">Sáv SET</string>
     <!-- BandMode SIM2 Select end -->
 
     <!-- Band select start -->
-    <string name="BandSelect">Sáv mód</string>
     <string name="BandSel_GSM">GSM mód</string>
     <string name="BandSel_UMTS">UMTS mód</string>
     <string name="BandSel_SET">SET</string>
@@ -239,22 +218,6 @@
     <string name="BandSel_UMTS_BAND_X">WCDMA-1700</string>
     <string name="BandSel_RESET">Visszaállítás alapértelmezettre</string>
     <string name="BandSel_CDMA">CDMA mód</string>
-    <string name="BandSel_CDMA_BAND_0">Band Class 0(North American Celluar Band)</string>
-    <string name="BandSel_CDMA_BAND_1">Band Class 1(North American PCS band)</string>
-    <string name="BandSel_CDMA_BAND_2">Band Class 2(TACS band)</string>
-    <string name="BandSel_CDMA_BAND_3">Band Class 3(JTACS band)</string>
-    <string name="BandSel_CDMA_BAND_4">Band Class 4(Korean PCS band)</string>
-    <string name="BandSel_CDMA_BAND_5">Band Class 5(NMT-450 Band)</string>
-    <string name="BandSel_CDMA_BAND_6">Band Class 6(IMT-2000 band)</string>
-    <string name="BandSel_CDMA_BAND_7">Band Class 7(North American 700Mhz Celluar Band)</string>
-    <string name="BandSel_CDMA_BAND_8">Band Class 8 (1800-MHz Band)</string>
-    <string name="BandSel_CDMA_BAND_9">Band Class 9 (900-MHz Band)</string>
-    <string name="BandSel_CDMA_BAND_10">Band Class 10 (Secondary 800 MHz Band)</string>
-    <string name="BandSel_CDMA_BAND_11">Band Class 11 (400 MHz European PAMR Band</string>
-    <string name="BandSel_CDMA_BAND_12">Band Class 12 (800 MHz PAMR Band)</string>
-    <string name="BandSel_CDMA_BAND_13">Band Class 13 (2.5 GHz IMT-2000 Extension Band)</string>
-    <string name="BandSel_CDMA_BAND_14">Band Class 14 (US PCS 1.9GHz Band) </string>
-    <string name="BandSel_CDMA_BAND_15">Band Class 15 (AWS Band)</string>
     <!-- Band select end -->
 
     <!-- Dual Talk Band Select start -->
@@ -275,9 +238,6 @@
     <string name="bandmodesim1_UMTS_BAND_IX">WCDMA-1800</string>
     <string name="bandmodesim1_UMTS_BAND_X">WCDMA-1700</string>
     <string name="bandmodesim1_LTE">LTE mód</string>
-    <string name="bandmodesim1_SET">SET</string>
-    <string name="BandStart">Sáv mód</string>
-    <string name="BandModeSIM1">SIM1 sáv mód</string>
     <string name="bandmode">Sáv mód</string>
 
     <!-- TDD Band Select start -->
@@ -295,14 +255,6 @@
     <string name="TDD_UMTS_BAND_VI">TD_SCDMA Band F</string>
     <string name="TDD_Btn_SET">SET</string>
     <!-- TDD Band Select end -->
-
-    <string name="set_success_title">Sikeres beállítás</string>
-
-    <!-- > App Ops -->
-    <!-- [CHAR LIMIT=NONE] App ops settings title, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
-    <string name="app_ops_settings">Alkalmazás műveletek</string>
-    <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
-    <string name="app_ops_settings_summary">Alkalmazás engedélyek megtekintése és módosítása</string>
 
     <!-- Substratum -->
     <string name="substratum_title">Fedvények</string>
@@ -322,44 +274,6 @@
 
     <string name="sim_color_bar_title">Jelzés sáv színezése</string>
 
-    <!-- Doze pulse (ambient display) options -->
-    <string name="doze_list_mode_title">Szundi mód</string>
-    <string name="doze_list_mode_summary">Szundi mód beállításának lehetősége</string>
-
-    <string name="doze_pulse_title">Idő beállítások</string>
-    <string name="doze_pulse_duration_in_title">Beúsztatás</string>
-    <string name="doze_pulse_duration_in_summary"></string>
-
-    <string name="doze_pulse_duration_visible_title">Látható időtartam</string>
-    <string name="doze_pulse_duration_visible_summary"></string>
-
-    <string name="doze_pulse_duration_out_title">Elhalványítás</string>
-    <string name="doze_pulse_duration_out_summary"></string>
-
-    <string name="doze_pulse_on_notifications_title">Értesítésekre pulzál</string>
-    <string name="doze_pulse_on_notifications_summary">Aktiválás váltása csak függőben lévő értesítések esetén</string>
-
-    <string name="doze_time_mode_title">Óra és dátum mutatása</string>
-    <string name="doze_time_mode_summary">Idő megjelenítésének kényszerítése, ha nincs értesítés</string>
-
-    <string name="twohundred_ms">200 ms</string>
-    <string name="fivehundred_ms">500 ms</string>
-    <string name="one_second">1 mp</string>
-    <string name="one_second_default">1 mp (alapértelmezett)</string>
-    <string name="onehalf_second">1,5 mp</string>
-    <string name="two_second">2 mp</string>
-    <string name="twohalf_second">2,5 mp</string>
-    <string name="three_second">3 mp</string>
-    <string name="three_second_default">3 mp (alapértelmezett)</string>
-    <string name="threehalf_second">3,5 mp</string>
-    <string name="four_second">4 mp</string>
-    <string name="fourhalf_second">4,5 mp</string>
-    <string name="five_second">5 mp</string>
-
-    <string name="pocket_pulse_mode">Zseb és pulzálás</string>
-    <string name="pocket_only_mode">Zseb</string>
-    <string name="pulse_only_mode">Pulzálás (alapértelmezett)</string>
-
     <!-- Status bar -->
     <string name="status_bar_title">Értesítési sáv</string>
     <string name="status_bar_summary">Értesítési sáv kinézetének és működésének módosítása</string>
@@ -372,10 +286,6 @@
     <string name="quick_pulldown_left">Balra</string>
     <string name="quick_pulldown_right">Jobbra</string>
 
-    <string name="link_volume_option_title">Csengő- és értesítési hangok összekötése</string>
-    <string name="sim_ringtone_title">SIM %d csengőhang</string>
-    <string name="category_sounds">Hangok</string>
-
     <!-- ScrollSettings -->
     <string name="scroll_settings_title">Görgetési beállítások</string>
     <string name="scroll_settings_summary">Change friction and fling velocity</string>
@@ -385,29 +295,8 @@
     <string name="scroll_friction_summary">Súrlódás mértékének beállítása a görgetéshez és hajításhoz</string>
     <string name="custom_fling_velocity_summary">Hajítás indításának maximális sebessége</string>
 
-    <!-- Longpress Power torch -->
-    <string name="long_press_power_for_torch_title">Bekapcsoló gomb hosszan nyomása a zseblámpához</string>
-    <string name="long_press_power_for_torch_summary">Kikapcsolt képernyőnél a bekapcsoló gomb hosszan nyomása be- és kikapcsolja a zseblámpát</string>
-
+    <!-- Idle stats -->
     <string name="idle_stats_title">Üresjárat statisztika</string>
-
-    <!-- General strings -->
-    <string name="cancel">Mégsem</string>
-    <string name="save">Mentés</string>
-
-    <!-- Battery customizations -->
-    <string name="status_bar_battery_style_category">Akkumulátor</string>
-    <string name="status_bar_battery_style_summary">Akkumulátor ikon stílus beállítások</string>
-    <string name="status_bar_battery_style_title">Akkumulátor állapotjelző stílusa</string>
-    <string name="status_bar_battery_style_icon_portrait">Álló ikon</string>
-    <string name="status_bar_battery_style_icon_landscape">Fekvő ikon</string>
-    <string name="status_bar_battery_style_circle">Kör</string>
-    <string name="status_bar_battery_style_text">Szöveg</string>
-    <string name="status_bar_battery_style_hidden">Rejtett</string>
-    <string name="status_bar_battery_percentage_title">Akkumulátor százalék</string>
-    <string name="status_bar_battery_percentage_default">Rejtett</string>
-    <string name="status_bar_battery_percentage_text_inside">Az ikon belsejében</string>
-    <string name="status_bar_battery_percentage_text_next">Az ikon mellett</string>
 
     <!-- Seekbar -->
     <string name="default_string">Alapértelmezett</string>
@@ -484,36 +373,6 @@
     <string name="unit_msec">másodperc</string>
     <string name="reset">Visszaállítás</string>
 
-    <!-- Actions -->
-    <string name="shortcut_action_none">Semmi</string>
-    <string name="shortcut_action_app">Egyéni alkalmazás</string>
-    <string name="shortcut_action_home">Kezdőképernyő</string>
-    <string name="shortcut_action_back">Vissza</string>
-    <string name="shortcut_action_menu">Menü</string>
-    <string name="shortcut_action_ime">Billentyűzet váltó megnyitása</string>
-    <string name="shortcut_action_power_menu">Kikapcsolási menü</string>
-    <string name="shortcut_action_recents">Előzmények</string>
-    <string name="shortcut_action_power">Képernyő ki</string>
-    <string name="shortcut_action_search">Alkalmazáson belüli keresés</string>
-    <string name="shortcut_action_ring_vib">Cseng/Rezeg</string>
-    <string name="shortcut_action_ring_silent">Cseng/Néma</string>
-    <string name="shortcut_action_ring_vib_silent">Cseng/Rezeg/Néma</string>
-    <string name="shortcut_action_torch">Zseblámpa</string>
-    <string name="shortcut_action_camera">Kamera</string>
-    <string name="shortcut_action_media_next">Zene - következő szám</string>
-    <string name="shortcut_action_media_play_pause">Zene - lejátszás/szünet</string>
-    <string name="shortcut_action_media_previous">Zene - előző szám</string>
-    <string name="shortcut_action_wake_device">Eszköz felébresztése</string>
-    <string name="shortcut_action_kill">Alkalmazás kilövése</string>
-    <string name="shortcut_action_screenshot">Képernyőmentés</string>
-    <string name="shortcut_action_screenshot_selected">Képernyőmentés a kiválasztott területről</string>
-    <string name="shortcut_action_lastapp">Utolsó alkalmazás</string>
-    <string name="shortcut_action_menu_big">Menu Big</string>
-    <string name="shortcut_action_notifications">Értesítések</string>
-    <string name="shortcut_action_qs">Gyorsbeállítások panel</string>
-    <string name="shortcut_action_smart">Intelligens legördítés</string>
-    <string name="shortcut_action_assist">Keresés</string>
-
     <!-- Sliding home -->
     <string name="navbar_sliding_home_category">Kezdőgomb csúsztatás</string>
     <string name="navbar_sliding_home_enabled_title">Engedélyezi a kezdőgomb csúsztatását</string>
@@ -522,6 +381,29 @@
     <string name="navbar_sliding_home_left_summary">Esemény indítása a kezdőgomb balra csúsztatásával</string>
     <string name="navbar_sliding_home_right_title">Csúsztatás jobbra</string>
     <string name="navbar_sliding_home_right_summary">Esemény indítása a kezdőgomb jobbra csúsztatásával</string>
+
+    <!-- Actions -->
+    <string name="shortcut_action_none">Semmi</string>
+    <string name="shortcut_action_home">Kezdőképernyő</string>
+    <string name="shortcut_action_back">Vissza</string>
+    <string name="shortcut_action_ime">Billentyűzet váltó megnyitása</string>
+    <string name="shortcut_action_power_menu">Kikapcsolási menü</string>
+    <string name="shortcut_action_recents">Előzmények</string>
+    <string name="shortcut_action_power">Képernyő ki</string>
+    <string name="shortcut_action_ring_vib">Cseng/Rezeg</string>
+    <string name="shortcut_action_ring_silent">Cseng/Néma</string>
+    <string name="shortcut_action_ring_vib_silent">Cseng/Rezeg/Néma</string>
+    <string name="shortcut_action_torch">Zseblámpa</string>
+    <string name="shortcut_action_camera">Kamera</string>
+    <string name="shortcut_action_media_next">Zene - következő szám</string>
+    <string name="shortcut_action_media_play_pause">Zene - lejátszás/szünet</string>
+    <string name="shortcut_action_media_previous">Zene - előző szám</string>
+    <string name="shortcut_action_kill">Alkalmazás kilövése</string>
+    <string name="shortcut_action_screenshot">Képernyőmentés</string>
+    <string name="shortcut_action_screenshot_selected">Képernyőmentés a kiválasztott területről</string>
+    <string name="shortcut_action_lastapp">Utolsó alkalmazás</string>
+    <string name="shortcut_action_notifications">Értesítések</string>
+    <string name="shortcut_action_assist">Keresés</string>
 
     <!-- double tap statusbar to sleep -->
     <string name="double_tap_to_sleep_title">Dupla érintés alvó módhoz</string>
@@ -599,9 +481,6 @@
     <!-- madOS versioning -->
     <string name="mados_version">madOS verzió</string>
     <string name="mados_version_default">Ismeretlen</string>
-    <!-- madOS About Phone, build date -->
-    <string name="build_date">Építési dátum</string>
-    <string name="build_date_default">2017-01-01-0000</string>
 
     <!-- new pie -->
     <string name="icon_color_mode_all_icons">Minden ikon</string>
@@ -628,9 +507,7 @@
     <string name="shortcut_action_max">Elértük a maximális bejegyzés számot</string>
     <string name="shortcut_action_reset">Visszaállítás</string>
     <string name="shortcut_action_add">Hozzáadás</string>
-    <string name="shortcut_action_help_shortcut">parancsikon</string>
     <string name="shortcut_action_help_button">gomb</string>
-    <string name="shortcut_action_help_app">alkalmazás</string>
     <string name="shortcut_action_help_icon">, while selecting the icon will bring up customization options</string>
     <string name="shortcut_action_help_main">%1$s hozzáadásához, válaszd az ikon hozzáadását. Amint egy %1$s hozzáadva, a sor kiválasztásával megváltozik a cél%2$s\n\n%1$s eltávolításához, húzd a sort vízszintesen balra vagy jobbra. %1$s újrarendezéséhez a listában fogd meg a bal oldali horgonyt.\n\nTörléshez vagy az alapértelmezett visszaállításához válaszd a Visszaállítás ikont.</string>
     <string name="shortcut_action_help_delete_last_entry">Az összes %1$s eltávolítása teljesen kikapcsolja ezt a képességet.</string>
@@ -638,63 +515,6 @@
 
     <string name="shortcuts_applications">Alkalmazások</string>
     <string name="shortcuts_select_custom_app_title">Válassz egyéni alkalmazást</string>
-    <string name="shortcuts_icon_default">alapértelmezett</string>
-    <string name="shortcuts_icon_presets">Rendszer ikonok</string>
-    <string name="shortcuts_icon_custom">Galéria</string>
-    <string name="shortcuts_icon_picker_type">Válassz ikon típust:</string>
-    <string name="shortcuts_icon_picker_choose_icon_title">Válassz ikont</string>
-    <string name="shortcuts_icon_picker_alarm">Riasztás</string>
-    <string name="shortcuts_icon_picker_andy">Andy</string>
-    <string name="shortcuts_icon_picker_battery">Akkumulátor</string>
-    <string name="shortcuts_icon_picker_browser">Böngésző</string>
-    <string name="shortcuts_icon_picker_calendar">Naptár</string>
-    <string name="shortcuts_icon_picker_camera">Kamera</string>
-    <string name="shortcuts_icon_picker_cloud">Felhő</string>
-    <string name="shortcuts_icon_picker_contact">Névjegy</string>
-    <string name="shortcuts_icon_picker_directdial">Közvetlen hívás</string>
-    <string name="shortcuts_icon_picker_directmessage">Közvetlen üzenet</string>
-    <string name="shortcuts_icon_picker_drive">Drive</string>
-    <string name="shortcuts_icon_picker_dropbox">Dropbox</string>
-    <string name="shortcuts_icon_picker_email">Email</string>
-    <string name="shortcuts_icon_picker_email2">Email alternatíva</string>
-    <string name="shortcuts_icon_picker_evernote">Evernote</string>
-    <string name="shortcuts_icon_picker_facebook">Facebook</string>
-    <string name="shortcuts_icon_picker_favorite">Kedvencek</string>
-    <string name="shortcuts_icon_picker_file_browser">Fájlkezelő</string>
-    <string name="shortcuts_icon_picker_file_browser2">Fájlkezelő alternatíva</string>
-    <string name="shortcuts_icon_picker_fitness">Fitness</string>
-    <string name="shortcuts_icon_picker_gallery">Galéria</string>
-    <string name="shortcuts_icon_picker_gears">Gears</string>
-    <string name="shortcuts_icon_picker_google_small">Google</string>
-    <string name="shortcuts_icon_picker_gplus">Google Plus</string>
-    <string name="shortcuts_icon_picker_gtalk">Hangouts</string>
-    <string name="shortcuts_icon_picker_help">Segítség</string>
-    <string name="shortcuts_icon_picker_joystick">Joystick</string>
-    <string name="shortcuts_icon_picker_key">Kulcsok/Hozzáférések</string>
-    <string name="shortcuts_icon_picker_laptop">Laptop</string>
-    <string name="shortcuts_icon_picker_notes">Jegyzetek</string>
-    <string name="shortcuts_icon_picker_luggage">Utazás</string>
-    <string name="shortcuts_icon_picker_maps">Maps</string>
-    <string name="shortcuts_icon_picker_market">Market</string>
-    <string name="shortcuts_icon_picker_movie">Film</string>
-    <string name="shortcuts_icon_picker_music">Zene</string>
-    <string name="shortcuts_icon_picker_nav">Navigáció</string>
-    <string name="shortcuts_icon_picker_phone">Telefon</string>
-    <string name="shortcuts_icon_picker_package">Csomag</string>
-    <string name="shortcuts_icon_picker_pinterest">Pinterest</string>
-    <string name="shortcuts_icon_picker_play">Play</string>
-    <string name="shortcuts_icon_picker_pocket">Pocket</string>
-    <string name="shortcuts_icon_picker_quicksettings">Gyors beállítások</string>
-    <string name="shortcuts_icon_picker_rss">RSS folyam</string>
-    <string name="shortcuts_icon_picker_sdcard">SD kártya</string>
-    <string name="shortcuts_icon_picker_search">Keresés</string>
-    <string name="shortcuts_icon_picker_sms">SMS</string>
-    <string name="shortcuts_icon_picker_tasks">Feladatok</string>
-    <string name="shortcuts_icon_picker_terminal">Terminal</string>
-    <string name="shortcuts_icon_picker_transit">Transit</string>
-    <string name="shortcuts_icon_picker_tv">TV</string>
-    <string name="shortcuts_icon_picker_twitter">Twitter</string>
-    <string name="shortcuts_icon_picker_unlock">Feloldás</string>
 
     <string name="help">Segítség</string>
     <string name="no_home_key">Nincs többé gomb rendelve a \"Kezdőképernyő\" tevékenységhez!\n\nEz használhatatlanná teheti az eszközt!</string>
@@ -703,7 +523,7 @@
     <!-- Pie Control -->
     <string name="pie_control_title">PIE</string>
     <string name="pie_control_summary">Pie vezérlők engedélyezése</string>
-    <string name="piecontrol_settings_summary">Pie célok, stílus, méret és szín testreszabás</string>
+    <string name="pie_control_settings_summary">Pie célok, stílus, méret és szín testreszabás</string>
     <string name="pie_control_size">Navigáció méret</string>
     <string name="pie_control_trigger_positions">Esemény beállítások</string>
     <string name="pie_control_trigger_left">Képernyő bal szegély eseménye</string>
@@ -753,7 +573,6 @@
     <string name="pie_layer_disable_forbidden">Can\'t disable second layer! There\'s no other \'back button\' available.</string>
 
     <!-- Lockscreen weather -->
-    <string name="display_category_weather_title">Zárképernyő időjárás beállítások</string>
     <string name="lock_screen_weather_summary">Zárképernyő időjárás beállítások</string>
     <string name="lock_screen_weather_settings_title">Időjárás</string>
     <string name="weather_cat_notifications_title">Értesítések</string>
@@ -761,15 +580,6 @@
     <string name="weather_show_weather_summary">Időjárás információk kijelzésének engedélyezése</string>
     <string name="weather_show_location_title">Hely mutatása</string>
     <string name="weather_show_location_summary">Hely kijelzésének engedélyezése</string>
-    <string name="weather_condition_icon_title">Állapot ikon</string>
-    <string name="weather_condition_icon_dlg_title">Válassz ikont az időjárás állapotok kijelzéséhez</string>
-    <string name="weather_condition_icon_monochrome_title">Monokróm</string>
-    <string name="weather_condition_icon_colored_title">Színes</string>
-    <string name="weather_condition_icon_vclouds_title">VClouds</string>
-    <string name="icons_title">Ikonok</string>
-    <string name="position_right_title">Jobbra</string>
-    <string name="position_centered_title">Középre</string>
-    <string name="hidden_title">Rejtett</string>
     <string name="weather_hide_panel_title">Időjárás panel elrejtése</string>
     <string name="weather_hide_panel_dlg_title">Válassz, mikor legyen rejtve az időjárás panel</string>
     <string name="weather_hide_panel_auto_title">Automatikus</string>
@@ -779,53 +589,6 @@
     <string name="weather_hide_panel_custom_summary">Az időjárás panel el lesz rejtve, amikor a látható értesítések elérik a kiválasztott értesítések számát</string>
     <string name="weather_hide_panel_never_summary">Az időjárás panel nem lesz elrejtve</string>
     <string name="weather_number_of_notifications_title">Értesítések száma</string>
-    <string name="weather_settings_options_title">Hely beállítások</string>
-    <string name="weather_settings_summary">Hely választás és egyéb beállítások</string>
-    <string name="weather_show_location_summary">Kijelzi az időjárás helyét</string>
-
-    <!-- Status bar temperature -->
-    <string name="weather_settings_title">Időjárás</string>
-    <string name="status_bar_temperature_title">Állapotsáv időjárás hőmérséklet</string>
-    <string name="weather_clock_options_title">cLock időjárás beállítások</string>
-    <string name="weather_clock_options_summary">Időjárás widget, és időjárás szolgáltató beállítások</string>
-    <string name="status_bar_temperature_hidden">Rejtett</string>
-    <string name="status_bar_temperature_show_scale">Shown with scale</string>
-    <string name="status_bar_temperature_hide_scale">Shown without scale</string>
-    <string name="status_bar_temperature_location_title">Elhelyezkedés</string>
-    <string name="status_bar_temperature_location_summary">Válaszd ki az időjárás hőmérséklet kijelzés helyét az állapotsávon</string>
-    <string name="status_bar_temperature_location_right">Jobb oldalon</string>
-    <string name="status_bar_temperature_location_left">Bal oldalon</string>
-    <string name="status_bar_weather_color_title">Hőmérséklet szín</string>
-    <string name="status_bar_weather_size_title">Betűméret</string>
-    <string name="status_bar_weather_font_style_title">Betűtípus</string>
-    <string name="status_bar_weather_font_normal">Normál</string>
-    <string name="status_bar_weather_font_italic">Dőlt</string>
-    <string name="status_bar_weather_font_bold">Félkövér</string>
-    <string name="status_bar_weather_font_bold_italic">Félkövér dőlt</string>
-    <string name="status_bar_weather_font_light">Lágy</string>
-    <string name="status_bar_weather_font_light_italic">Lágy dőlt</string>
-    <string name="status_bar_weather_font_thin">Vékony</string>
-    <string name="status_bar_weather_font_thin_italic">Vékony dőlt</string>
-    <string name="status_bar_weather_font_condensed">Sűrített</string>
-    <string name="status_bar_weather_font_condensed_italic">Sűrített dőlt</string>
-    <string name="status_bar_weather_font_condensed_light">Sűrített lágy</string>
-    <string name="status_bar_weather_font_condensed_light_italic">Sűrített lágy dőlt</string>
-    <string name="status_bar_weather_font_condensed_bold">Sűrített félkövér</string>
-    <string name="status_bar_weather_font_condensed_bold_italic">Sűrített félkövér dőlt</string>
-    <string name="status_bar_weather_font_medium">Közepes</string>
-    <string name="status_bar_weather_font_medium_italic">Közepes dőlt</string>
-    <string name="status_bar_weather_font_black">Fekete</string>
-    <string name="status_bar_weather_font_black_italic">Fekete dőlt</string>
-    <string name="status_bar_weather_font_dancingscript">DancingScript</string>
-    <string name="status_bar_weather_font_dancingscript_bold">DancingScript félkövér</string>
-    <string name="status_bar_weather_font_comingsoon">ComingSoon</string>
-    <string name="status_bar_weather_font_notoserif">NotoSerif Normál</string>
-    <string name="status_bar_weather_font_notoserif_italic">NotoSerif dőlt</string>
-    <string name="status_bar_weather_font_notoserif_bold">NotoSerif félkövér</string>
-    <string name="status_bar_weather_font_notoserif_bold_italic">NotoSerif félkövér dőlt</string>
-
-    <string name="weather_show_timestamp_title">Időbélyeg kijelzés</string>
-    <string name="weather_show_timestamp_summary">Engedélyezi az időbélyeg kijelzését</string>
 
     <!-- Quicks settings columns -->
     <string name="qs_panel_title">Gyorsbeállítások panel</string>
@@ -862,7 +625,6 @@
     <string name="quick_settings_vibrate_summary">Csempék érintésekor rezeg</string>
 
     <!-- Lockscreen -->
-    <string name="lockscreen_settings_title">Zárképernyő</string>
     <string name="mad_lockscreen_settings_summary">Zárképernyő testreszabás</string>
     <!-- Lockscreen items clock, date, alarm text -->
     <string name="lockscreen_items_settings_title">Zárképernyő elemek</string>
@@ -897,7 +659,6 @@
     <!-- Lockscreen double tap to sleep -->
     <string name="double_tap_sleep_anywhere_title">Dupla érintés az alvó módhoz bárhol</string>
     <string name="double_tap_sleep_anywhere_summary">Érintsd duplán bárhol a zárképernyőn az eszköz alvó módba juttatásához</string>
-
     <!-- Slim Recents panel -->
     <string name="mad_recents_summary">Legutóbbi alkalmazások nézetének testreszabása</string>
     <string name="recents_title">Legutóbbi alkalmazások</string>
@@ -906,7 +667,6 @@
     <string name="use_slim_recents_summary">Slim recents használata az alapértelmezett legutóbbi alkalmazások nézete helyett</string>
     <string name="slim_recents_settings_title">Slim recents beállítások</string>
     <string name="slim_recents_settings_summary">Slim recents beállításai</string>
-    <string name="recent_panel_category">Slim recent alkalmazások panel</string>
     <string name="show_running_tasks_title">Csak a futó alkalmazások</string>
     <string name="recents_max_apps_title">Maximálisan engedélyezett alkalmazások</string>
     <string name="recent_panel_scale_title">Méret</string>
@@ -933,22 +693,6 @@
     <!-- Color picker -->
     <string name="dialog_color_picker">Színválasztó</string>
     <string name="press_color_to_apply">Nyomj egy színre az alkalmazásához</string>
-    <string name="hex">Hex:</string>
-    <string name="hex_hint" translatable="false">#FFDDDDDD</string>
-    <string name="hex_check_button_text">ELŐNÉZET</string>
-    <string name="hex_reset_button_text">VISSZAÁLLÍTÁS</string>
-    <string name="color_right_arrow" translatable="false">"→"</string>
-    <string name="color_down_arrow" translatable="false">"↓"</string>
-    <string name="longpress_info">Hosszan nyomás a szín mentéséhez</string>
-    <string name="arrow_right">→</string>
-    <string name="arrow_down">↓</string>
-    <string name="color_default">Alapértelmezett</string>
-
-    <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Gyors feloldás</string>
-    <string name="unlock_quick_unlock_control_summary">Automatikus feloldás a helyes jelszó/PIN kód megadása után (OK nem szükséges)\nFigyelem: csak akkor működik, ha a számjegyek száma helyes!</string>
-    <string name="lockscreen_quick_unlock_pin_length_title">A PIN számjegyek száma</string>
-    <string name="lockscreen_quick_unlock_pin_length_summary">A gyors feloldás működéséhez kérlek add meg a PIN hosszát (a számjegyek száma).</string>
 
     <!-- Immersive recents -->
     <string name="immersive_recents_title">Ragadó legutóbbiak</string>
@@ -992,10 +736,6 @@
     <string name="mad_buttons_settings">Gombok beállításai</string>
     <string name="mad_buttons_settings_summary">Gomb beállítások, tevékenységek és egyebek beállításai</string>
 
-    <!-- Gestures Misc -->
-    <string name="mad_gestures_settings">Gyors gesztusok</string>
-    <string name="mad_gestures_settings_summary">Gyors gesztusok a telefon vezérléséhez</string>
-
     <!-- Bluetooth status -->
     <string name="bluetooth_battery_title">Bluetooth akkumulátor állapotának megjelenítése</string>
     <string name="bluetooth_battery_summary">A csatlakoztatott bluetooth eszköz akkumulátor állapotának megjelenítése, ha rendelkezésre áll.</string>
@@ -1009,8 +749,6 @@
     <string name="carrierlabel_title">Carrier Label</string>
     <string name="carrierlabel_title_summary">Options to customize the carrier label</string>
     <!-- Custom carrier label and position -->
-    <string name="carrier_label_settings_title">Szolgáltatói címke</string>
-    <string name="carrier_label_settings_summary">Szolgáltatói címke testreszabása</string>
     <string name="custom_carrier_label_title">Egyéni szolgáltató név</string>
     <string name="custom_carrier_label_explain">Adj meg egy új címkét. Hagyd üresen az eredeti visszaállításához.</string>
     <string name="custom_carrier_label_notset">Egyéni címke jelenleg nincs beállítva</string>
@@ -1054,7 +792,7 @@
     <string name="powermenu_lockdown">Lezárás</string>
     <string name="powermenu_soundpanel">Hang panel</string>
     <string name="powermenu_users">Felhasználók</string>
-    <string name="powermenu_onthego_title">On-The-Go mód</string>
+    <string name="powermenu_onthego">On-The-Go mód</string>
 
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">Kikapcsoló menü a zárképernyőn</string>
