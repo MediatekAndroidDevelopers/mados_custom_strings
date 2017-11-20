@@ -58,6 +58,9 @@
 
     <string name="app_killed_message">应用杀</string>
 
+    <!-- Notify user that they are in Lock-to-app (for devices without navbar) -->
+    <string name="lock_to_app_toast_no_navbar">要取消固定此屏幕，请触摸并按住返回键。</string>
+
     <!-- Battery status in pie controls -->
     <string name="pie_battery_status_charging">充电中(<xliff:g id="percent">%d</xliff:g>%%)</string>
     <string name="pie_battery_status_full">已充满</string>
@@ -65,7 +68,7 @@
 
     <!-- Phone status in pie controls -->
     <string name="pie_phone_status_no_service">没有信号</string>
-    <string name="pie_phone_status_airplane_mode">飞机模式开启</string>
+    <string name="pie_phone_status_airplane_mode">飞行模式开启</string>
     <string name="pie_phone_status_emergency_only">仅供紧急呼叫</string>
 
     <!-- madOS QS Tile -->
@@ -99,10 +102,13 @@
     <!-- OmniJaws weather qs tile -->
     <string name="omnijaws_service_error">错误</string>
     <string name="omnijaws_service_unkown">没有天气数据</string>
+    <string name="omnijaws_service_error_long">加载天气数据时出错</string>
+    <string name="omnijaws_service_disabled">服务被禁用</string>
     <string name="omnijaws_detail_header">天气</string>
     <string name="omnijaws_label_default">天气</string>
     <string name="omnijaws_current_text">现在</string>
     <string name="omnijaws_package_not_available">OmniJaws不可用</string>
+    <string name="omnijaws_service_last_update">最后更新：</string>
 	
     <!-- On The Go Mode-->
     <string name="onthego_notif_ticker">即时模式激活</string>
