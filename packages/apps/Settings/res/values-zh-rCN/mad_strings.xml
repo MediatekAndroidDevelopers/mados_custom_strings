@@ -28,6 +28,7 @@
     <string name="hardware_keys_app_switch_key_title">近期键</string>
     <string name="hardware_keys_camera_key_title">相机键</string>
     <string name="hardware_keys_long_press_title">长按</string>
+    <string name="hardware_keys_single_tap_title">单击</string>	
     <string name="hardware_keys_double_tap_title">双击</string>
     <string name="hardware_keys_action_nothing">空</string>
     <string name="hardware_keys_action_menu">打开/关闭菜单</string>
@@ -618,6 +619,8 @@
     <string name="daylight_header_pack_title">头图像包</string>
     <string name="status_bar_custom_header_shadow_title">投影头图像</string>
     <string name="status_bar_custom_header_shadow_summary">为了明亮图像更好的可视性</string>
+    <string name="static_header_provider" translatable="false">静态</string>
+    <string name="daylight_header_provider" translatable="false">动态</string>
     <string name="static_header_provider_title">静态</string>
     <string name="daylight_header_provider_title">动态</string>
     <string name="custom_header_provider_title">头提供者</string>
@@ -663,6 +666,9 @@
     <!-- Lockscreen double tap to sleep -->
     <string name="double_tap_sleep_anywhere_title">锁屏双击睡眠</string>
     <string name="double_tap_sleep_anywhere_summary">双击锁屏上的任意位置，使设备进入睡眠状态</string>
+    <!-- Lockscreen battery info -->
+    <string name="lockscreen_battery_info_title">锁屏电池信息</string>
+    <string name="lockscreen_battery_info_summary">充电时在锁屏上显示实时充电器电流，电压和电池温度</string>
 
     <!-- Slim Recents panel -->
     <string name="mad_recents_summary">近期定制</string>
@@ -738,8 +744,8 @@
     <string name="alarm_blocker_warning">阻塞闹钟可能导致不稳定，崩溃或数据丢失。</string>
 
     <!-- Buttons Misc -->
-    <string name="mad_buttons_settings">按键选项</string>
-    <string name="mad_buttons_settings_summary">按键选项，您可以在其中设置操作等</string>
+    <string name="mad_buttons_settings">按键</string>
+    <string name="mad_buttons_settings_summary">按键，您可以在其中设置操作等</string>
 
     <!-- Bluetooth status -->
     <string name="bluetooth_battery_title">显示蓝牙电池状态</string>
