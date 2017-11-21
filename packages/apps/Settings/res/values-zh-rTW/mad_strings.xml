@@ -27,18 +27,16 @@
     <string name="hardware_keys_assist_key_title">幫助鍵</string>
     <string name="hardware_keys_app_switch_key_title">最近鍵</string>
     <string name="hardware_keys_camera_key_title">相機鍵</string>
-    <string name="hardware_keys_short_press_title">短按</string>
     <string name="hardware_keys_long_press_title">長按</string>
+    <string name="hardware_keys_single_tap_title">單擊</string>
     <string name="hardware_keys_double_tap_title">雙擊</string>
     <string name="hardware_keys_action_nothing">空</string>
     <string name="hardware_keys_action_menu">打開/關閉菜單</string>
     <string name="hardware_keys_action_app_switch">最近任務</string>
     <string name="hardware_keys_action_search">搜尋助理</string>
     <string name="hardware_keys_action_voice_search">語音搜尋</string>
-    <string name="hardware_keys_action_in_app_search">應用內搜尋</string>
     <string name="hardware_keys_action_launch_camera">打開相機</string>
     <string name="hardware_keys_action_kill_app">應用殺</string>
-    <string name="hardware_keys_action_assist">啟動輔助</string>
     <string name="hardware_keys_action_last_app">切換最後一個應用</string>
     <string name="hardware_keys_action_splitscreen">分屏</string>
     <string name="hardware_keys_action_screen_off">關閉屏幕</string>
@@ -132,20 +130,13 @@
     <string name="fast_charge_summary">更改快速充電設置</string>
     <string name="ac_charging_current_title">AC 充電電流</string>
     <string name="usb_charging_current_title">USB 充電電流</string>
-    <string name="fast_charge_set_on_boot">在啟動時設置</string>
-    <string name="fast_charge_set_on_boot_summary">在啟動時恢復充電設置</string>
     <string name="fast_charge_master">啟用快速充電</string>
     <string name="fast_charge_notification_title">顯示快速充電通知</string>
     <string name="fast_charge_notification_summary">這將啟用快速訪問到快速充電設置的通知</string>
-    <string name="qs_tile_fcharge">快速充電</string>
 
     <!-- Performance settings -->
     <string name="performance_settings_title">性能</string>
     <string name="performance_settings_summary">控制處理器和I/O調度設置</string>
-
-    <!-- Performance Settings : Warning dialog -->
-    <string name="performance_settings_warning_title">謹慎行事</string>
-    <string name="performance_settings_warning">對此實驗設置中進行的任何更改都有可能導致其不穩定性，崩潰，數據丟失或者硬件故障。\n\n這些任何設置如果已從默認值更改，請求您不要提交錯誤報告。</string>
 
     <!-- Performance Settings : Processor Settings -->
     <!-- Performance Settings : Processor settings title -->
@@ -161,8 +152,6 @@
     <string name="cpu_min_freq_summary">%s</string>
     <string name="cpu_max_freq_title">最大CPU頻率</string>
     <string name="cpu_max_freq_summary">%s</string>
-    <string name="cpu_set_on_boot">在啟動時設置</string>
-    <string name="cpu_set_on_boot_summary">在啟動時恢復處理器設置</string>
 
     <!-- Performance Settings : I/O scheduler settings title -->
     <string name="io_scheds_title">I/O調度器</string>
@@ -172,8 +161,6 @@
     <!-- Performance Settings : I/O scheduler settings sub items -->
     <string name="io_sched_title">I/O調度器</string>
     <string name="io_sched_summary">%S</string>
-    <string name="io_sched_set_on_boot">在啟動時設置</string>
-    <string name="io_sched_set_on_boot_summary">在啟動時恢復I/O調度器設置</string>
 
     <!-- Sensor Calibration -->
     <string name="sensor_calibration_title">傳感器校準</string>
@@ -193,15 +180,10 @@
     <string name="gyroscope_axis_switch">垂直軸上/下切換</string>
 
     <!-- BandMode Start -->
-    <string name="query_result">查詢失敗</string>
     <string name="query_support_message">查詢支持模式失敗。</string>
     <string name="query_current_message">查詢當前模式失敗。</string>
-    <string name="query_btn_text">關閉</string>
     <string name="set_success_message">設置成功</string>
-    <string name="set_ok_text">成功</string>
-    <string name="set_fail_title">失敗</string>
     <string name="set_fail_message">設置失敗</string>
-    <string name="set_fail_text">關閉</string>
     <string name="reset_title">重置</string>
     <string name="reset_message">重置為默認設置？</string>
     <string name="bandmode_sim1">SIM1</string>
@@ -211,7 +193,6 @@
     <!-- BandMode End -->
 
     <!-- BandMode SIM2 Select start -->
-    <string name="BandModeSIM2">頻帶模式 SIM2</string>
     <string name="bandmodesim2_GSM">GSM 模式</string>
     <string name="bandmodesim2_GSM_EGSM900">EGSM900</string>
     <string name="bandmodesim2_GSM_DCS1800">DCS1800</string>
@@ -219,11 +200,9 @@
     <string name="bandmodesim2_GSM_GSM850">GSM850</string>
     <string name="bandmodesim2_SET">設置</string>
     <string name="BandModeSIMSelect">SIM選擇</string>
-    <string name="BandModeSIMTwo">頻帶設置</string>
     <!-- BandMode SIM2 Select end -->
 
     <!-- Band select start -->
-    <string name="BandSelect">頻帶模式</string>
     <string name="BandSel_GSM">GSM 模式</string>
     <string name="BandSel_UMTS">UMTS 模式</string>
     <string name="BandSel_SET">設置</string>
@@ -243,22 +222,6 @@
     <string name="BandSel_UMTS_BAND_X">WCDMA-1700</string>
     <string name="BandSel_RESET">重置為默認</string>
     <string name="BandSel_CDMA">CDMA 模式</string>
-    <string name="BandSel_CDMA_BAND_0">Band Class 0(North American Celluar Band)</string>
-    <string name="BandSel_CDMA_BAND_1">Band Class 1(North American PCS band)</string>
-    <string name="BandSel_CDMA_BAND_2">Band Class 2(TACS band)</string>
-    <string name="BandSel_CDMA_BAND_3">Band Class 3(JTACS band)</string>
-    <string name="BandSel_CDMA_BAND_4">Band Class 4(Korean PCS band)</string>
-    <string name="BandSel_CDMA_BAND_5">Band Class 5(NMT-450 Band)</string>
-    <string name="BandSel_CDMA_BAND_6">Band Class 6(IMT-2000 band)</string>
-    <string name="BandSel_CDMA_BAND_7">Band Class 7(North American 700Mhz Celluar Band)</string>
-    <string name="BandSel_CDMA_BAND_8">Band Class 8 (1800-MHz Band)</string>
-    <string name="BandSel_CDMA_BAND_9">Band Class 9 (900-MHz Band)</string>
-    <string name="BandSel_CDMA_BAND_10">Band Class 10 (Secondary 800 MHz Band)</string>
-    <string name="BandSel_CDMA_BAND_11">Band Class 11 (400 MHz European PAMR Band</string>
-    <string name="BandSel_CDMA_BAND_12">Band Class 12 (800 MHz PAMR Band)</string>
-    <string name="BandSel_CDMA_BAND_13">Band Class 13 (2.5 GHz IMT-2000 Extension Band)</string>
-    <string name="BandSel_CDMA_BAND_14">Band Class 14 (US PCS 1.9GHz Band)</string>
-    <string name="BandSel_CDMA_BAND_15">Band Class 15 (AWS Band)</string>
     <!-- Band select end -->
 
     <!-- Dual Talk Band Select start -->
@@ -279,9 +242,6 @@
     <string name="bandmodesim1_UMTS_BAND_IX">WCDMA-1800</string>
     <string name="bandmodesim1_UMTS_BAND_X">WCDMA-1700</string>
     <string name="bandmodesim1_LTE">LTE 模式</string>
-    <string name="bandmodesim1_SET">設置</string>
-    <string name="BandStart">頻帶模式</string>
-    <string name="BandModeSIM1">頻帶模式 SIM1</string>
     <string name="bandmode">頻帶模式</string>
 
     <!-- TDD Band Select start -->
@@ -299,14 +259,6 @@
     <string name="TDD_UMTS_BAND_VI">TD_SCDMA Band F</string>
     <string name="TDD_Btn_SET">設置</string>
     <!-- TDD Band Select end -->
-
-    <string name="set_success_title">設置成功</string>
-
-    <!-- > App Ops -->
-    <!-- [CHAR LIMIT=NONE] App ops settings title, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
-    <string name="app_ops_settings">權限管理</string>
-    <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
-    <string name="app_ops_settings_summary">查看或更改應用權限</string>
 
     <!-- Substratum -->
     <string name="substratum_title">底層</string>
@@ -326,44 +278,6 @@
 
     <string name="sim_color_bar_title">著色信號條</string>
 
-    <!-- Doze pulse (ambient display) options -->
-    <string name="doze_list_mode_title">打盹模式</string>
-    <string name="doze_list_mode_summary">設置打盹模式</string>
-
-    <string name="doze_pulse_title">時間設置</string>
-    <string name="doze_pulse_duration_in_title">淡入</string>
-    <string name="doze_pulse_duration_in_summary"></string>
-
-    <string name="doze_pulse_duration_visible_title">可見持續時間</string>
-    <string name="doze_pulse_duration_visible_summary"></string>
-
-    <string name="doze_pulse_duration_out_title">淡出</string>
-    <string name="doze_pulse_duration_out_summary"></string>
-
-    <string name="doze_pulse_on_notifications_title">通知喚醒</string>
-    <string name="doze_pulse_on_notifications_summary">僅在待處理通知上觸發激活</string>
-
-    <string name="doze_time_mode_title">顯示日期和時間</string>
-    <string name="doze_time_mode_summary">強制在沒有通知時顯示時間</string>
-
-    <string name="twohundred_ms">200 ms</string>
-    <string name="fivehundred_ms">500 ms</string>
-    <string name="one_second">1 s</string>
-    <string name="one_second_default">1 s （默認）</string>
-    <string name="onehalf_second">1.5 s</string>
-    <string name="two_second">2 s</string>
-    <string name="twohalf_second">2.5 s</string>
-    <string name="three_second">3 s</string>
-    <string name="three_second_default">3 s （默認）</string>
-    <string name="threehalf_second">3.5 s</string>
-    <string name="four_second">4 s</string>
-    <string name="fourhalf_second">4.5 s</string>
-    <string name="five_second">5 s</string>
-
-    <string name="pocket_pulse_mode">口袋和脈沖模式</string>
-    <string name="pocket_only_mode">口袋模式</string>
-    <string name="pulse_only_mode">脈沖模式（默認）</string>
-
     <!-- Status bar -->
     <string name="status_bar_title">狀態欄</string>
     <string name="status_bar_summary">修改狀態欄的外觀和行為</string>
@@ -376,10 +290,6 @@
     <string name="quick_pulldown_left">左邊</string>
     <string name="quick_pulldown_right">右邊</string>
 
-    <string name="link_volume_option_title">同步鈴聲&amp;通知音量</string>
-    <string name="sim_ringtone_title">SIM %d 鈴聲</string>
-    <string name="category_sounds">聲音</string>
-
     <!-- ScrollSettings -->
     <string name="scroll_settings_title">滾動設置</string>
     <string name="scroll_settings_summary">改變滾動摩擦和滾動速度</string>
@@ -389,33 +299,11 @@
     <string name="scroll_friction_summary">適用於滾動摩擦量</string>
     <string name="custom_fling_velocity_summary">開始滾動的最大速度</string>
 
-    <!-- Longpress Power torch -->
-    <string name="long_press_power_for_torch_title">長按電源開關手電筒</string>
-    <string name="long_press_power_for_torch_summary">息屏狀態下長按電源鍵開關手電筒</string>
-
     <!-- Idle stats -->
     <string name="idle_stats_title">空閒統計</string>
     <string name="idle_stats_boot_time">自啟動時間</string>
     <string name="idle_stats_awake_time">喚醒</string>
     <string name="idle_stats_deepsleep_time">深度睡眠</string>
-
-    <!-- General strings -->
-    <string name="cancel">取消</string>
-    <string name="save">保存</string>
-
-    <!-- Battery customizations -->
-    <string name="status_bar_battery_style_category">電池</string>
-    <string name="status_bar_battery_style_summary">自定義電池圖標樣式</string>
-    <string name="status_bar_battery_style_title">電池狀態樣式</string>
-    <string name="status_bar_battery_style_icon_portrait">直立</string>
-    <string name="status_bar_battery_style_icon_landscape">橫臥</string>
-    <string name="status_bar_battery_style_circle">圓圈</string>
-    <string name="status_bar_battery_style_text">文本</string>
-    <string name="status_bar_battery_style_hidden">隱藏</string>
-    <string name="status_bar_battery_percentage_title">電量百分比</string>
-    <string name="status_bar_battery_percentage_default">隱藏</string>
-    <string name="status_bar_battery_percentage_text_inside">圖標內</string>
-    <string name="status_bar_battery_percentage_text_next">圖標旁</string>
 
     <!-- Seekbar -->
     <string name="default_string">默認</string>
@@ -492,36 +380,6 @@
     <string name="unit_msec">毫秒</string>
     <string name="reset">重置</string>
 
-    <!-- Actions -->
-    <string name="shortcut_action_none">無</string>
-    <string name="shortcut_action_app">自定義應用程式</string>
-    <string name="shortcut_action_home">主頁</string>
-    <string name="shortcut_action_back">返回</string>
-    <string name="shortcut_action_menu">菜單</string>
-    <string name="shortcut_action_ime">打開IME切換器</string>
-    <string name="shortcut_action_power_menu">電源菜單</string>
-    <string name="shortcut_action_recents">最近任務</string>
-    <string name="shortcut_action_power">屏幕關閉</string>
-    <string name="shortcut_action_search">應用內搜尋</string>
-    <string name="shortcut_action_ring_vib">響鈴/振動</string>
-    <string name="shortcut_action_ring_silent">響鈴/靜音</string>
-    <string name="shortcut_action_ring_vib_silent">響鈴/振動/靜音</string>
-    <string name="shortcut_action_torch">手電筒</string>
-    <string name="shortcut_action_camera">相機</string>
-    <string name="shortcut_action_media_next">音樂 - 下一首</string>
-    <string name="shortcut_action_media_play_pause">音樂 - 播放/暫停</string>
-    <string name="shortcut_action_media_previous">音樂 - 上一首</string>
-    <string name="shortcut_action_wake_device">喚醒設備</string>
-    <string name="shortcut_action_kill">應用殺</string>
-    <string name="shortcut_action_screenshot">截屏</string>
-    <string name="shortcut_action_screenshot_selected">局部截屏</string>
-    <string name="shortcut_action_lastapp">最後應用</string>
-    <string name="shortcut_action_menu_big">大菜單</string>
-    <string name="shortcut_action_notifications">通知</string>
-    <string name="shortcut_action_qs">快速設置面板</string>
-    <string name="shortcut_action_smart">智能下拉</string>
-    <string name="shortcut_action_assist">搜尋</string>
-
     <!-- Sliding home -->
     <string name="navbar_sliding_home_category">滑動主頁鍵</string>
     <string name="navbar_sliding_home_enabled_title">啟用滑動主頁鍵</string>
@@ -530,6 +388,29 @@
     <string name="navbar_sliding_home_left_summary">向左滑動時執行的動作</string>
     <string name="navbar_sliding_home_right_title">向右滑動</string>
     <string name="navbar_sliding_home_right_summary">向右滑動時執行的動作</string>
+
+    <!-- Actions -->
+    <string name="shortcut_action_none">無</string>
+    <string name="shortcut_action_home">主頁</string>
+    <string name="shortcut_action_back">返回</string>
+    <string name="shortcut_action_ime">打開IME切換器</string>
+    <string name="shortcut_action_power_menu">電源菜單</string>
+    <string name="shortcut_action_recents">最近任務</string>
+    <string name="shortcut_action_power">屏幕關閉</string>
+    <string name="shortcut_action_ring_vib">響鈴/振動</string>
+    <string name="shortcut_action_ring_silent">響鈴/靜音</string>
+    <string name="shortcut_action_ring_vib_silent">響鈴/振動/靜音</string>
+    <string name="shortcut_action_torch">手電筒</string>
+    <string name="shortcut_action_camera">相機</string>
+    <string name="shortcut_action_media_next">音樂 - 下一首</string>
+    <string name="shortcut_action_media_play_pause">音樂 - 播放/暫停</string>
+    <string name="shortcut_action_media_previous">音樂 - 上一首</string>
+    <string name="shortcut_action_kill">應用殺</string>
+    <string name="shortcut_action_screenshot">截屏</string>
+    <string name="shortcut_action_screenshot_selected">局部截屏</string>
+    <string name="shortcut_action_lastapp">最後應用</string>
+    <string name="shortcut_action_notifications">通知</string>
+    <string name="shortcut_action_assist">搜尋</string>
 
     <!-- double tap statusbar to sleep -->
     <string name="double_tap_to_sleep_title">雙擊狀態欄睡眠</string>
@@ -607,9 +488,6 @@
     <!-- madOS versioning -->
     <string name="mados_version">madOS版本</string>
     <string name="mados_version_default">未知</string>
-    <!-- madOS About Phone, build date -->
-    <string name="build_date">建立日期</string>
-    <string name="build_date_default">2017-01-01-0000</string>
 
     <!-- new pie -->
     <string name="icon_color_mode_all_icons">所有圖標</string>
@@ -636,9 +514,7 @@
     <string name="shortcut_action_max">已達到最大條目大小</string>
     <string name="shortcut_action_reset">重置</string>
     <string name="shortcut_action_add">添加</string>
-    <string name="shortcut_action_help_shortcut">快捷方式</string>
     <string name="shortcut_action_help_button">按鍵</string>
-    <string name="shortcut_action_help_app">應用</string>
     <string name="shortcut_action_help_icon">，同時選擇圖標將顯示自定義選項</string>
     <string name="shortcut_action_help_main">要添加%1$s，請選擇添加圖標。添加%1$s後，選擇該行將更改目標%2$s \n \n要刪除%1$s，請向左或向右滑動該行。通過垂直拖動左側的錨點來重新排列列表中的%1$s。 \n \n要清除或重置為默認值，請選擇重置圖標。 </string>
     <string name="shortcut_action_help_delete_last_entry">刪除列表中的每個%1$s將完全禁用該功能。 </string>
@@ -646,63 +522,6 @@
 
     <string name="shortcuts_applications">應用</string>
     <string name="shortcuts_select_custom_app_title">選擇自定義應用程式</string>
-    <string name="shortcuts_icon_default">默認</string>
-    <string name="shortcuts_icon_presets">系統圖標</string>
-    <string name="shortcuts_icon_custom">圖庫</string>
-    <string name="shortcuts_icon_picker_type">選擇圖標類型：</string>
-    <string name="shortcuts_icon_picker_choose_icon_title">選擇圖標</string>
-    <string name="shortcuts_icon_picker_alarm">鬧鐘</string>
-    <string name="shortcuts_icon_picker_andy">Andy模擬器</string>
-    <string name="shortcuts_icon_picker_battery">電池</string>
-    <string name="shortcuts_icon_picker_browser">瀏覽器</string>
-    <string name="shortcuts_icon_picker_calendar">日曆</string>
-    <string name="shortcuts_icon_picker_camera">相機</string>
-    <string name="shortcuts_icon_picker_cloud">雲</string>
-    <string name="shortcuts_icon_picker_contact">聯繫人</string>
-    <string name="shortcuts_icon_picker_directdial">直撥</string>
-    <string name="shortcuts_icon_picker_directmessage">私信</string>
-    <string name="shortcuts_icon_picker_drive">駕駛</string>
-    <string name="shortcuts_icon_picker_dropbox">Dropbox</string>
-    <string name="shortcuts_icon_picker_email">電子郵件</string>
-    <string name="shortcuts_icon_picker_email2">備用郵箱</string>
-    <string name="shortcuts_icon_picker_evernote">印象筆記</string>
-    <string name="shortcuts_icon_picker_facebook">Facebook</string>
-    <string name="shortcuts_icon_picker_favorite">搜藏夾</string>
-    <string name="shortcuts_icon_picker_file_browser">文件瀏覽器</string>
-    <string name="shortcuts_icon_picker_file_browser2">備用文件瀏覽器</string>
-    <string name="shortcuts_icon_picker_fitness">健身</string>
-    <string name="shortcuts_icon_picker_gallery">圖庫</string>
-    <string name="shortcuts_icon_picker_gears">Gears</string>
-    <string name="shortcuts_icon_picker_google_small">Google</string>
-    <string name="shortcuts_icon_picker_gplus">Google Plus</string>
-    <string name="shortcuts_icon_picker_gtalk">Hangouts</string>
-    <string name="shortcuts_icon_picker_help">幫助</string>
-    <string name="shortcuts_icon_picker_joystick">操縱桿</string>
-    <string name="shortcuts_icon_picker_key">Keys/Accounts</string>
-    <string name="shortcuts_icon_picker_laptop">筆記本電腦</string>
-    <string name="shortcuts_icon_picker_notes">筆記</string>
-    <string name="shortcuts_icon_picker_luggage">旅行</string>
-    <string name="shortcuts_icon_picker_maps">地圖</string>
-    <string name="shortcuts_icon_picker_market">市場</string>
-    <string name="shortcuts_icon_picker_movie">電影</string>
-    <string name="shortcuts_icon_picker_music">音樂</string>
-    <string name="shortcuts_icon_picker_nav">導航</string>
-    <string name="shortcuts_icon_picker_phone">電話</string>
-    <string name="shortcuts_icon_picker_package">包</string>
-    <string name="shortcuts_icon_picker_pinterest">Pinterest</string>
-    <string name="shortcuts_icon_picker_play">Play</string>
-    <string name="shortcuts_icon_picker_pocket">Pocket</string>
-    <string name="shortcuts_icon_picker_quicksettings">快速設置</string>
-    <string name="shortcuts_icon_picker_rss">RSS訂閱</string>
-    <string name="shortcuts_icon_picker_sdcard">SD卡</string>
-    <string name="shortcuts_icon_picker_search">搜尋</string>
-    <string name="shortcuts_icon_picker_sms">報文發送</string>
-    <string name="shortcuts_icon_picker_tasks">任務</string>
-    <string name="shortcuts_icon_picker_terminal">終端</string>
-    <string name="shortcuts_icon_picker_transit">交通</string>
-    <string name="shortcuts_icon_picker_tv">TV</string>
-    <string name="shortcuts_icon_picker_twitter">Twitter</string>
-    <string name="shortcuts_icon_picker_unlock">解鎖</string>
 
     <string name="help">幫助</string>
     <string name="no_home_key">您沒有給任何按鈕分配“主頁”操作！ \n\n這樣可以使您的設備無法使用！ </string>
@@ -711,7 +530,7 @@
     <!-- Pie Control -->
     <string name="pie_control_title">扇形控制</string>
     <string name="pie_control_summary">啟用扇形控制</string>
-    <string name="piecontrol_settings_summary">自定義扇形控制的對象，樣式，大小和顏色</string>
+    <string name="pie_control_settings_summary">自定義扇形控制的對象，樣式，大小和顏色</string>
     <string name="pie_control_size">導航尺寸</string>
     <string name="pie_control_trigger_positions">觸發選項</string>
     <string name="pie_control_trigger_left">左屏幕邊框觸發</string>
@@ -761,7 +580,6 @@
     <string name="pie_layer_disable_forbidden">不能禁用第二層！沒有其他的“返回鍵”可用。 </string>
 
     <!-- Lockscreen weather -->
-    <string name="display_category_weather_title">鎖屏天氣選項</string>
     <string name="lock_screen_weather_summary">鎖屏天氣選項</string>
     <string name="lock_screen_weather_settings_title">天氣</string>
     <string name="weather_cat_notifications_title">通知</string>
@@ -769,15 +587,6 @@
     <string name="weather_show_weather_summary">允許顯示天氣信息</string>
     <string name="weather_show_location_title">顯示位置</string>
     <string name="weather_show_location_summary">允許顯示位置</string>
-    <string name="weather_condition_icon_title">狀態圖標</string>
-    <string name="weather_condition_icon_dlg_title">選擇一個用於顯示天氣狀況的圖標</string>
-    <string name="weather_condition_icon_monochrome_title">單色</string>
-    <string name="weather_condition_icon_colored_title">彩色</string>
-    <string name="weather_condition_icon_vclouds_title">VClouds</string>
-    <string name="icons_title">圖標</string>
-    <string name="position_right_title">右邊</string>
-    <string name="position_centered_title">居中</string>
-    <string name="hidden_​​title">隱藏</string>
     <string name="weather_hide_panel_title">隱藏天氣面板</string>
     <string name="weather_hide_panel_dlg_title">選擇何時隱藏天氣面板</string>
     <string name="weather_hide_panel_auto_title">自動</string>
@@ -787,53 +596,6 @@
     <string name="weather_hide_panel_custom_summary">當可見通知將到達所選擇的通知數時，天氣面板將被隱藏。 </string>
     <string name="weather_hide_panel_never_summary">天氣面板不會被隱藏</string>
     <string name="weather_number_of_notifications_title">通知數量</string>
-    <string name="weather_settings_options_title">位置設置</string>
-    <string name="weather_settings_summary">選擇位置和其他設置</string>
-    <string name="weather_show_location_summary">顯示天氣位置</string>
-
-    <!-- Status bar temperature -->
-    <string name="weather_settings_title">天氣</string>
-    <string name="status_bar_temperature_title">狀態欄天氣溫度</string>
-    <string name="weather_clock_options_title">天氣時鐘選項</string>
-    <string name="weather_clock_options_summary">天氣小部件和天氣提供者設置</string>
-    <string name="status_bar_temperature_hidden">隱藏</string>
-    <string name="status_bar_temperature_show_scale">顯示尺寸</string>
-    <string name="status_bar_temperature_hide_scale">隱藏尺寸</string>
-    <string name="status_bar_temperature_location_title">放置</string>
-    <string name="status_bar_temperature_location_summary">選擇狀態欄上顯示天氣溫度的位置</string>
-    <string name="status_bar_temperature_location_right">右側顯示</string>
-    <string name="status_bar_temperature_location_left">左側顯示</string>
-    <string name="status_bar_weather_color_title">溫度顏色</string>
-    <string name="status_bar_weather_size_title">字體大小</string>
-    <string name="status_bar_weather_font_style_title">字體</string>
-    <string name="status_bar_weather_font_normal">正常</string>
-    <string name="status_bar_weather_font_italic">斜體</string>
-    <string name="status_bar_weather_font_bold">粗</string>
-    <string name="status_bar_weather_font_bold_italic">粗斜體</string>
-    <string name="status_bar_weather_font_light">細</string>
-    <string name="status_bar_weather_font_light_italic">細斜體</string>
-    <string name="status_bar_weather_font_thin">纖細</string>
-    <string name="status_bar_weather_font_thin_italic">纖細斜體</string>
-    <string name="status_bar_weather_font_condensed">極細</string>
-    <string name="status_bar_weather_font_condensed_italic">極細斜體</string>
-    <string name="status_bar_weather_font_condensed_light">超級細</string>
-    <string name="status_bar_weather_font_condensed_light_italic">超級細斜體</string>
-    <string name="status_bar_weather_font_condensed_bold">超級粗</string>
-    <string name="status_bar_weather_font_condensed_bold_italic">超級粗斜體</string>
-    <string name="status_bar_weather_font_medium">中等</string>
-    <string name="status_bar_weather_font_medium_italic">中等斜體</string>
-    <string name="status_bar_weather_font_black">黑體</string>
-    <string name="status_bar_weather_font_black_italic">黑斜體</string>
-    <string name="status_bar_weather_font_dancingscript">DancingScript</string>
-    <string name="status_bar_weather_font_dancingscript_bold">DancingScript 粗</string>
-    <string name="status_bar_weather_font_comingsoon">ComingSoon</string>
-    <string name="status_bar_weather_font_notoserif">NotoSerif 正常</string>
-    <string name="status_bar_weather_font_notoserif_italic">NotoSerif 斜體</string>
-    <string name="status_bar_weather_font_notoserif_bold">NotoSerif 粗</string>
-    <string name="status_bar_weather_font_notoserif_bold_italic">NotoSerif 粗斜體</string>
-	
-    <string name="weather_show_timestamp_title">顯示時間戳</string>
-    <string name="weather_show_timestamp_summary">允許顯示時間戳</string>
 
     <!-- Quicks settings columns -->
     <string name="qs_panel_title">快速設置面板</string>
@@ -857,6 +619,8 @@
     <string name="daylight_header_pack_title">頭圖像包</string>
     <string name="status_bar_custom_header_shadow_title">投影頭圖像</string>
     <string name="status_bar_custom_header_shadow_summary">為了明亮圖像更好的可視性</string>
+    <string name="static_header_provider" translatable="false">静态</string>
+    <string name="daylight_header_provider" translatable="false">動態</string>
     <string name="static_header_provider_title">靜態</string>
     <string name="daylight_header_provider_title">動態</string>
     <string name="custom_header_provider_title">頭提供者</string>
@@ -868,7 +632,6 @@
     <string name="quick_settings_vibrate_summary">觸摸項目時振動</string>
 
     <!-- Lockscreen -->
-    <string name="lockscreen_settings_title">鎖屏</string>
     <string name="mad_lockscreen_settings_summary">自定義鎖屏</string>
     <!-- Lockscreen items clock, date, alarm text -->
     <string name="lockscreen_items_settings_title">鎖屏項目</string>
@@ -903,6 +666,9 @@
     <!-- Lockscreen double tap to sleep -->
     <string name="double_tap_sleep_anywhere_title">鎖屏雙擊睡眠</string>
     <string name="double_tap_sleep_anywhere_summary">雙擊鎖屏上的任意位置，使設備進入睡眠狀態</string>
+    <!-- Lockscreen battery info -->
+    <string name="lockscreen_battery_info_title">鎖屏電池信息</string>
+    <string name="lockscreen_battery_info_summary">充電時在鎖屏上顯示實時充電器電流，電壓和電池溫度</string>
 
     <!-- Slim Recents panel -->
     <string name="mad_recents_summary">近期定制</string>
@@ -912,7 +678,6 @@
     <string name="use_slim_recents_summary">使用微近期，而不是默認的近期任務列表</string>
     <string name="slim_recents_settings_title">微近期設置</string>
     <string name="slim_recents_settings_summary">查看微近期的設置</string>
-    <string name="recent_panel_category">修改微近期的應用程式面板</string>
     <string name="show_running_tasks_title">只顯示正在運行的應用程式</string>
     <string name="recents_max_apps_title">最多允許應用</string>
     <string name="recent_panel_scale_title">尺寸</string>
@@ -939,19 +704,6 @@
     <!-- Color picker -->
     <string name="dialog_color_picker">選色器</string>
     <string name="press_color_to_apply">按下顏色以應用</string>
-    <string name="hex">Hex:</string>
-    <string name="hex_check_button_text">預覽</string>
-    <string name="hex_reset_button_text">重置</string>
-    <string name="longpress_info">長按框保存顏色</string>
-    <string name="arrow_right">→</string>
-    <string name="arrow_down">↓</string>
-    <string name="color_default">默認</string>
-
-<!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">快速解鎖</string>
-    <string name="unlock_quick_unlock_control_summary">輸入正確的PIN後自動解鎖（按確定不需要）\n注意：只有下面的數字位置正確設置才能工作！ </string>
-    <string name="lockscreen_quick_unlock_pin_length_title">PIN碼的位數</string>
-    <string name="lockscreen_quick_unlock_pin_length_summary">要快速解鎖才能正常工作，請設置PIN長度（位數）。 </string>
 
     <!-- Immersive recents -->
     <string name="immersive_recents_title">沉浸式</string>
@@ -992,12 +744,8 @@
     <string name="alarm_blocker_warning">阻塞鬧鐘可能導致不穩定，崩潰或數據丟失。 </string>
 
     <!-- Buttons Misc -->
-    <string name="mad_buttons_settings">按鍵選項</string>
-    <string name="mad_buttons_settings_summary">按鍵選項，您可以在其中設置操作等</string>
-
-    <!-- Gestures Misc -->
-    <string name="mad_gestures_settings">快速手勢</string>
-    <string name="mad_gestures_settings_summary">手勢快速來控制你的手機</string>
+    <string name="mad_buttons_settings">按鍵</string>
+    <string name="mad_buttons_settings_summary">按鍵，您可以在其中設置操作等</string>
 
     <!-- Bluetooth status -->
     <string name="bluetooth_battery_title">顯示藍牙電池狀態</string>
@@ -1012,8 +760,6 @@
     <string name="carrierlabel_title">運營商標籤</string>
     <string name="carrierlabel_title_summary">自定義運營商標籤的選項</string>
     <!-- Custom carrier label and position -->
-    <string name="carrier_label_settings_title">運營商標籤</string>
-    <string name="carrier_label_settings_summary">自定義運營商標籤</string>
     <string name="custom_carrier_label_title">自定義運營商標籤</string>
     <string name="custom_carrier_label_explain">請輸入新標籤，若留空恢復系統默認。</string>
     <string name="custom_carrier_label_notset">自定義標籤當前未設置</string>
@@ -1057,19 +803,11 @@
     <string name="powermenu_lockdown">鎖定</string>
     <string name="powermenu_soundpanel">聲音面板</string>
     <string name="powermenu_users">用戶</string>
-    <string name="powermenu_onthego_title">即時模式</string>
+    <string name="powermenu_onthego">即時模式</string>
 	
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">鎖屏時允許顯示電源菜單</string>
     <string name="lockscreen_enable_power_menu_summary">此選項僅安全鎖屏時將禁用電源菜單</string>
-	
-    <!-- Wi-Fi frequency band settings -->
-    <string name="wifi_setting_frequency_band_title">Wi\u2011Fi 頻帶</string>
-    <string name="wifi_setting_frequency_band_summary">指定操作的頻率範圍</string>
-    <string name="wifi_setting_frequency_band_error">設置頻段時出現問題。</string>
-    <string name="wifi_setting_frequency_band_automatic">自動</string>
-    <string name="wifi_setting_frequency_band_5ghz_only">僅 5 GHz</string>
-    <string name="wifi_setting_frequency_band_24ghz_only">僅 2.4 GHz</string>
 
     <string name="hardware_keys_fingerprint_key_title">屏幕上指紋</string>
 
@@ -1093,7 +831,6 @@
     <string name="teal">默認</string>
     <string name="cyan">摩托車</string>
     <string name="grey">灰色</string>
-    <string name="default_string">默認</string>
 
  </resources>
  

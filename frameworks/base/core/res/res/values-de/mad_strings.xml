@@ -19,20 +19,7 @@
     <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
     <string name="permdesc_preventpower">Erlaubt Apps die Power-Taste zu überschreiben.</string>
 
-    <!-- Fast Charge -->
-    <string name="fc_active_notification_title">Schnelllade Einstellungen</string>
-    <string name="fc_active_notification_message">"Öffne die Schnelllade Einstellungen"</string>
-
-    <!-- Long-press back kill application -->
-    <string name="app_killed_message">Anwendung beendet</string>
-
-    <!-- Notify user that they are in Lock-to-app (for devices without navbar) -->
-    <string name="lock_to_app_toast_no_navbar">Drücke und halte die Zurück Taste um diese Ansicht zu verlassen.</string>
-
-    <string name="singlehandmode_click_hint_message">Tippe außerhalb der kleinen Ansicht um diese zu beenden.</string>
-
-    <!-- Reboot Dialog -->
-    <string name="global_action_reboot">Neustart</string>
+    <!-- mad custom power menu -->
     <!-- Button to reboot the phone in reboot menu -->
     <string name="reboot_reboot">Neustart</string>
     <!-- Button to soft reboot the device in reboot menu -->
@@ -44,12 +31,22 @@
     <string name="reboot_progress">Starte neu\u2026</string>
     <!-- label for item that screenshots in phone options dialog -->
     <string name="global_action_screenshot">Bildschirmfoto</string>
-    <!-- screenshot on the power menu -->
-    <string name="powermenu_screenshot">Bildschirmfoto</string>
     <!-- Powermenu Torch -->
     <string name="global_action_torch">Taschenlampe</string>
     <!-- Powermenu current user -->
     <string name="global_action_current_user">Aktuell</string>
     <!-- Powermenu on-the-go -->
     <string name="global_action_onthego">On-The-Go Modus</string>
+
+    <!-- Fast Charge -->
+    <string name="fc_active_notification_title">Schnelllade Einstellungen</string>
+    <string name="fc_active_notification_message">"Öffne die Schnelllade Einstellungen"</string>
+
+    <!-- Long-press back kill application -->
+    <string name="app_killed_message">Anwendung beendet</string>
+
+    <!-- Notify user that they are in Lock-to-app (for devices without navbar) -->
+    <string name="lock_to_app_toast_no_navbar">Drücke und halte die Zurück Taste um diese Ansicht zu verlassen.</string>
+
+    <string name="singlehandmode_click_hint_message">Tippe außerhalb der kleinen Ansicht um diese zu beenden.</string>
 </resources>

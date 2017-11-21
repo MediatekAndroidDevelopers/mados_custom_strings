@@ -14,13 +14,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-     
-    <!-- Reboot/Reboot Recovery QS Tile -->
-    <string name="quick_settings_reboot_label">Riavvia</string>
-    <string name="quick_settings_reboot_recovery_label">Recovery</string>
-
     <!-- Quick Settings tiles -->
     <string name="quick_settings_screenshot_label">Screenshot</string>
     <string name="quick_settings_region_screenshot_label">Screenshot parziale</string>
@@ -38,10 +32,6 @@
 
     <!-- Screen pinning dialog description (for devices without navbar) -->
     <string name="screen_pinning_description_no_navbar">Rimane in vista fino allo sblocco. Mantieni premuto il pulsante indietro per sbloccare.</string>
-
-    <!-- NavBar Tuner -->
-    <string name="menu_ime_always_show">Selettore Menu / tastiera (mostra sempre)</string>
-    <string name="search">Cerca</string>
 
     <!-- Dialog title for navigation bar button selection -->
     <string name="navbar_dialog_title">Scegli azione da assegnare</string>
@@ -85,13 +75,6 @@
     <!-- Slim Recents app-screen-->
     <string name="recents_multiwin_nolastapp">Hai eliminato tutti le app recenti, scegli una app dal launcher o dal drawer.</string>
 
-    <!-- NFC QS tile -->
-    <string name="quick_settings_nfc_label">NFC</string>
-    <string name="accessibility_quick_settings_nfc_off">Attiva NFC.</string>
-    <string name="accessibility_quick_settings_nfc_on">Spegni NFC.</string>
-    <string name="accessibility_quick_settings_nfc_changed_off">NFC è spento.</string>
-    <string name="accessibility_quick_settings_nfc_changed_on">NFC è acceso.</string>
-
     <!-- Compass QS Tile -->
     <string name="quick_settings_compass_label">Bussola</string>
     <string name="quick_settings_compass_value"><xliff:g id="degrees">%1$.0f</xliff:g>\u00b0 <xliff:g id="direction">%2$s</xliff:g></string>
@@ -108,9 +91,11 @@
     <string name="quick_settings_compass_SW">SW</string>
     <string name="quick_settings_compass_W">W</string>
     <string name="quick_settings_compass_NW">NW</string>
+
     <!-- Language QS Tile -->
     <string name="quick_settings_locale_label">Lingua</string>
     <string name="quick_settings_locale_more_locales_toast">Configura più lingue per attivare il pulsante di selezione</string>
+
     <!-- OmniJaws weather qs tile -->
     <string name="omnijaws_service_error">Errore</string>
     <string name="omnijaws_service_unkown">Nessun dato meteo</string>
@@ -118,9 +103,6 @@
     <string name="omnijaws_label_default">Meteo</string>
     <string name="omnijaws_current_text">Adesso</string>
     <string name="omnijaws_package_not_available">Servizio meteo OmniJaws non disponibile</string>
-
-    <!-- Weather string format in expanded statusbar header -->
-    <string name="status_bar_weather_format"><xliff:g id="temp">%1$s</xliff:g></string>
 
     <!-- On The Go Mode-->
     <string name="onthego_notif_ticker">On-The-Go attivato</string>
@@ -133,4 +115,4 @@
     <string name="onthego_transparency">Trasparenza</string>
     <string name="onthego_front_camera">Usa camera frontale</string>
     <string name="onthego_service_toggle">Riavvio automatico del servizio</string>
-     </resources>
+</resources>

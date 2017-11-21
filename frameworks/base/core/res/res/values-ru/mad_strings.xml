@@ -19,6 +19,27 @@
     <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
     <string name="permdesc_preventpower">Разрешить приложению изменять кнопку включения.</string>
 
+    <!-- mad custom power menu -->
+    <!-- Button to reboot the phone in reboot menu -->
+    <string name="reboot_reboot">Перезагрузка</string>
+    <!-- Button to reboot the phone into recovery in reboot menu-->
+    <string name="reboot_recovery">Рекавери</string>
+    <!-- Button to soft reboot the device in reboot menu -->
+    <string name="reboot_soft">Мягкая перезагрузка</string>
+    <!-- Reboot Confirmation Dialog. -->
+    <string name="reboot_confirm" product="tablet">Ваш планшет будет перезагружен.</string>
+    <string name="reboot_confirm" product="default">Ваш телефон будет перезагружен.</string>
+    <!-- Reboot Progress Dialog. This is shown if the user chooses to reboot the phone. -->
+    <string name="reboot_progress">Перезагрузка\u2026</string>
+    <!-- label for item that screenshots in phone options dialog -->
+    <string name="global_action_screenshot">Скриншот</string>
+    <!-- Powermenu Torch -->
+    <string name="global_action_torch">Фонарик</string>
+    <!-- Powermenu current user -->
+    <string name="global_action_current_user">Текущий</string>
+    <!-- Powermenu on-the-go -->
+    <string name="global_action_onthego">Режим На-Ходу</string>
+
     <!-- Fast Charge -->
     <string name="fc_active_notification_title">Быстрая зарядка</string>
     <string name="fc_active_notification_message">"Настройки быстрой зарядки"</string>
@@ -30,31 +51,4 @@
     <string name="lock_to_app_toast_no_navbar">Для открепления экрана зажмите кнопку "Назад".</string>
 
     <string name="singlehandmode_click_hint_message">Для выхода из миниэкрана коснитесь снаружи экрана.</string>
-
-    <!-- mad custom power menu -->
-    <!-- Reboot Dialog -->
-    <string name="global_action_reboot">Перезагрузка</string>
-    <!-- Button to reboot the phone in reboot menu -->
-    <string name="reboot_reboot">Перезагрузка</string>
-    <!-- Button to reboot the phone into recovery in reboot menu-->
-    <string name="reboot_recovery">Рекавери</string>
-    <!-- Button to reboot the phone into bootloader in reboot menu -->
-    <string name="reboot_bootloader">Бутлоадер</string>
-    <!-- Button to soft reboot the device in reboot menu -->
-    <string name="reboot_soft">Мягкая перезагрузка</string>
-    <!-- Reboot Confirmation Dialog. -->
-    <string name="reboot_confirm" product="tablet">Ваш планшет будет перезагружен.</string>
-    <string name="reboot_confirm" product="default">Ваш телефон будет перезагружен.</string>
-    <!-- Reboot Progress Dialog. This is shown if the user chooses to reboot the phone. -->
-    <string name="reboot_progress">Перезагрузка\u2026</string>
-    <!-- label for item that screenshots in phone options dialog -->
-    <string name="global_action_screenshot">Скриншот</string>
-    <!-- screenshot on the power menu -->
-    <string name="powermenu_screenshot">Скриншот</string>
-    <!-- Powermenu Torch -->
-    <string name="global_action_torch">Фонарик</string>
-    <!-- Powermenu current user -->
-    <string name="global_action_current_user">Текущий</string>
-    <!-- Powermenu on-the-go -->
-    <string name="global_action_onthego">Режим На-Ходу</string>
 </resources>

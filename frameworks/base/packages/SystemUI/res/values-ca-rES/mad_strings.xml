@@ -15,10 +15,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Reboot/Reboot Recovery QS Tile -->
-    <string name="quick_settings_reboot_label">Reiniciar</string>
-    <string name="quick_settings_reboot_recovery_label">Recuperació</string>
-
     <!-- Quick Settings tiles -->
     <string name="quick_settings_screenshot_label">Captura de pantalla</string>
     <string name="quick_settings_region_screenshot_label">Captura de pantalla parcial</string>
@@ -36,10 +32,6 @@
 
     <!-- Screen pinning dialog description (for devices without navbar) -->
     <string name="screen_pinning_description_no_navbar">Això ho deixarà visible fins que ho desfixis. Prem i manté el botó Enrrera per desfixar.</string>
-
-    <!-- NavBar Tuner -->
-    <string name="menu_ime_always_show">Intercanviador de Menú / Teclat (mostrar sempre)</string>
-    <string name="search">Cercar</string>
 
     <!-- Dialog title for navigation bar button selection -->
     <string name="navbar_dialog_title">Tria una acció per assignar</string>
