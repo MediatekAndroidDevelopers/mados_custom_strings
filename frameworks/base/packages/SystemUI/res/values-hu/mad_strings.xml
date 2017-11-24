@@ -58,6 +58,9 @@
 
     <string name="app_killed_message">Alkalmazás kilőve</string>
 
+    <!-- Notify user that they are in Lock-to-app (for devices without navbar) -->
+    <string name="lock_to_app_toast_no_navbar">A képernyő eltávolításához tartsd nyomva a Vissza gombot.</string>
+
     <!-- Battery status in pie controls -->
     <string name="pie_battery_status_charging">Töltés (<xliff:g id="percent">%d</xliff:g>%%)</string>
     <string name="pie_battery_status_full">Feltöltve</string>
@@ -99,10 +102,13 @@
     <!-- OmniJaws weather qs tile -->
     <string name="omnijaws_service_error">Hiba</string>
     <string name="omnijaws_service_unkown">Nincs időjárás információ</string>
+    <string name="omnijaws_service_error_long">Hiba az időjárás információk betöltése közben</string>
+    <string name="omnijaws_service_disabled">Szolgáltatás letiltva</string>
     <string name="omnijaws_detail_header">Időjárás</string>
     <string name="omnijaws_label_default">Időjárás</string>
     <string name="omnijaws_current_text">Most</string>
     <string name="omnijaws_package_not_available">OmniJaws nem elérhető</string>
+    <string name="omnijaws_service_last_update">Utoljára frissítve:</string>
 
     <!-- On The Go Mode-->
     <string name="onthego_notif_ticker">On-The-Go aktiválva</string>
