@@ -30,7 +30,6 @@
     <string name="reboot_confirm" product="default">നിങ്ങളുടെ ഫോൺ പുനരാരംഭിക്കും.</string>
     <!-- Restart Progress Dialog. This is shown if the user chooses to restart the phone. -->
     <string name="reboot_progress">പുനരാരംഭിക്കുന്നു\u2026</string>
-
     <!-- label for item that screenshots in phone options dialog -->
     <string name="global_action_screenshot">സ്ക്രീൻഷോട്ട്</string>
 

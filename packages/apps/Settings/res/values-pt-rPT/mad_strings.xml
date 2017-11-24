@@ -27,7 +27,6 @@
     <string name="hardware_keys_assist_key_title">Tecla assistente</string>
     <string name="hardware_keys_app_switch_key_title">Tecla recentes</string>
     <string name="hardware_keys_camera_key_title">Tecla câmara</string>
-    <string name="hardware_keys_short_press_title">Ação toque rápido</string>
     <string name="hardware_keys_long_press_title">Ação toque longo</string>
     <string name="hardware_keys_double_tap_title">Ação toque duplo</string>
     <string name="hardware_keys_action_nothing">Nenhuma ação</string>
@@ -35,9 +34,11 @@
     <string name="hardware_keys_action_app_switch">Recentes</string>
     <string name="hardware_keys_action_search">Assistente de pesquisa</string>
     <string name="hardware_keys_action_voice_search">Procura por voz</string>
-    <string name="hardware_keys_action_in_app_search">Procura na aplicação</string>
     <string name="hardware_keys_action_launch_camera">Abrir a câmara</string>
     <string name="hardware_keys_action_kill_app">Fechar aplicação em primeiro plano</string>
+    <string name="hardware_keys_action_last_app">Alternar última aplicação</string>
+    <string name="hardware_keys_action_splitscreen">Dividir ecrã</string>
+    <string name="hardware_keys_action_screen_off">Desligar o ecrã</string>
 
     <!-- Notification light dialogs -->
     <string name="edit_light_settings">Editar definições do LED de notificações</string>
@@ -128,20 +129,13 @@
     <string name="fast_charge_summary">Alterar definições de carregamento rápido</string>
     <string name="ac_charging_current_title">Corrente de carregamento AC</string>
     <string name="usb_charging_current_title">Corrente de carregamento USB</string>
-    <string name="fast_charge_set_on_boot">Restaurar ao reiniciar</string>
-    <string name="fast_charge_set_on_boot_summary">Restaurar as definições de carregamento ao reiniciar</string>
     <string name="fast_charge_master">Ativar o carregamento rápido</string>
     <string name="fast_charge_notification_title">Mostrar notificação de carregamento rápido</string>
     <string name="fast_charge_notification_summary">Ativa uma notificação com acesso direto às definições de carregamento rápido</string>
-    <string name="qs_tile_fcharge">Carregamento rápido</string>
 
     <!-- Performance settings  -->
     <string name="performance_settings_title">Desempenho</string>
     <string name="performance_settings_summary">Controlo do processador e das definições do programador I/O</string>
-
-    <!-- Performance Settings : Warning dialog  -->
-    <string name="performance_settings_warning_title">Cuidado ao alterar estas definições</string>
-    <string name="performance_settings_warning">Estas definições são experimentais e quaisquer alterações realizadas têm potencial para causar instabilidade, falhas, falhas de hardware ou perda de dados.\n\nSolicitamos que não sejam enviados relatórios de bugs se alguma destas definições for alterada das suas predefinições.</string>
 
     <!-- Performance Settings : Processor Settings -->
     <!-- Performance Settings : Processor settings title -->
@@ -157,8 +151,6 @@
     <string name="cpu_min_freq_summary">%s</string>
     <string name="cpu_max_freq_title">Frequência máxima da CPU</string>
     <string name="cpu_max_freq_summary">%s</string>
-    <string name="cpu_set_on_boot">Restaurar ao reiniciar</string>
-    <string name="cpu_set_on_boot_summary">Restaurar definições ao reiniciar</string>
 
     <!-- Performance Settings : I/O scheduler settings title -->
     <string name="io_scheds_title">Programador I/O</string>
@@ -168,8 +160,6 @@
     <!-- Performance Settings : I/O scheduler settings sub items -->
     <string name="io_sched_title">Programador I/O</string>
     <string name="io_sched_summary">%S</string>
-    <string name="io_sched_set_on_boot">Restaurar ao reiniciar</string>
-    <string name="io_sched_set_on_boot_summary">Restaurar definições do programador I/O ao reiniciar</string>
 
     <!-- Sensor Calibration -->
     <string name="sensor_calibration_title">Calibração de sensores</string>
@@ -189,15 +179,10 @@
     <string name="gyroscope_axis_switch">Ligar/desligar no eixo vertical</string>
 
     <!-- BandMode  Start -->
-    <string name="query_result">Falhou a pesquisa</string>
     <string name="query_support_message">Falhou a pesquisa de bandas suportadas.</string>
     <string name="query_current_message">Falhou a pesquisa da banda atual.</string>
-    <string name="query_btn_text">Fechar</string>
     <string name="set_success_message">Concluído</string>
-    <string name="set_ok_text">OK</string>
-    <string name="set_fail_title">Falhou</string>
     <string name="set_fail_message">Falhou a alteração</string>
-    <string name="set_fail_text">Fechar</string>
     <string name="reset_title">Repor</string>
     <string name="reset_message">Repor valores predefinidos?</string>
     <string name="bandmode_sim1">SIM1</string>
@@ -207,7 +192,6 @@
     <!-- BandMode End -->
 
     <!-- BandMode SIM2 Select start -->
-    <string name="BandModeSIM2">Modo de bandas SIM2</string>
     <string name="bandmodesim2_GSM">Modo GSM</string>
     <string name="bandmodesim2_GSM_EGSM900">EGSM900</string>
     <string name="bandmodesim2_GSM_DCS1800">DCS1800</string>
@@ -215,11 +199,9 @@
     <string name="bandmodesim2_GSM_GSM850">GSM850</string>
     <string name="bandmodesim2_SET">Aplicar</string>
     <string name="BandModeSIMSelect">Selecionar SIM</string>
-    <string name="BandModeSIMTwo">Selecionar bandas</string>
     <!-- BandMode SIM2 Select end -->
 
     <!-- Band select start -->
-    <string name="BandSelect">Modo de Bandas</string>
     <string name="BandSel_GSM">Modo GSM</string>
     <string name="BandSel_UMTS">Modo UMTS</string>
     <string name="BandSel_SET">Aplicar</string>
@@ -239,22 +221,6 @@
     <string name="BandSel_UMTS_BAND_X">WCDMA-1700</string>
     <string name="BandSel_RESET">Restaurar predefinições</string>
     <string name="BandSel_CDMA">Modo CDMA</string>
-    <string name="BandSel_CDMA_BAND_0">Banda Classe 0(Redes da América do Norte)</string>
-    <string name="BandSel_CDMA_BAND_1">Banda Classe 1(Banda PCS da América do Norte)</string>
-    <string name="BandSel_CDMA_BAND_2">Banda Classe 2(TACS band)</string>
-    <string name="BandSel_CDMA_BAND_3">Banda Classe 3(Banda JTACS)</string>
-    <string name="BandSel_CDMA_BAND_4">Banda Classe 4(Banda coreana PCS)</string>
-    <string name="BandSel_CDMA_BAND_5">Banda Classe 5(Banda NMT-450)</string>
-    <string name="BandSel_CDMA_BAND_6">Banda Classe 6(Banda IMT-2000)</string>
-    <string name="BandSel_CDMA_BAND_7">Banda Classe 7(Banda celular da América do Norte 700Mhz)</string>
-    <string name="BandSel_CDMA_BAND_8">Banda Classe 8 (Banda 1800-MHz)</string>
-    <string name="BandSel_CDMA_BAND_9">Banda Classe 9 (Banda 900MHz)</string>
-    <string name="BandSel_CDMA_BAND_10">Banda Classe 10 (Banda secundária 800 MHz)</string>
-    <string name="BandSel_CDMA_BAND_11">Band Class 11 (Banda europeia PAMR 400MHz</string>
-    <string name="BandSel_CDMA_BAND_12">Band Class 12 (Banda PAMR 800MHz)</string>
-    <string name="BandSel_CDMA_BAND_13">Band Class 13 (Banda de extensão IMT-2000 2.5GHz)</string>
-    <string name="BandSel_CDMA_BAND_14">Band Class 14 (Banda US PCS 1.9GHz) </string>
-    <string name="BandSel_CDMA_BAND_15">Band Class 15 (Banda AWS)</string>
     <!-- Band select end -->
 
     <!-- Dual Talk Band Select start -->
@@ -275,9 +241,6 @@
     <string name="bandmodesim1_UMTS_BAND_IX">WCDMA-1800</string>
     <string name="bandmodesim1_UMTS_BAND_X">WCDMA-1700</string>
     <string name="bandmodesim1_LTE">Modo LTE</string>
-    <string name="bandmodesim1_SET">Aplicar</string>
-    <string name="BandStart">Banda/modo</string>
-    <string name="BandModeSIM1">Banda/modo SIM1</string>
     <string name="bandmode">Banda/modo</string>
 
     <!-- TDD Band Select start -->
@@ -295,14 +258,6 @@
     <string name="TDD_UMTS_BAND_VI">TD_SCDMA Banda F</string>
     <string name="TDD_Btn_SET">Aplicar</string>
     <!-- TDD Band Select end -->
-
-    <string name="set_success_title">Alterado com sucesso</string>
-
-    <!-- > App Ops -->
-    <!-- [CHAR LIMIT=NONE] App ops settings title, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
-    <string name="app_ops_settings">Operações das Aplicações</string>
-    <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
-    <string name="app_ops_settings_summary">Ver ou mudar permissões das aplicações</string>
 
     <!-- Substratum -->
     <string name="substratum_title">Temas</string>
@@ -322,44 +277,6 @@
 
     <string name="sim_color_bar_title">Colorir ícones da barra de estado</string>
 
-    <!-- Doze pulse (ambient display) options -->
-    <string name="doze_list_mode_title">Visualização de ambiente</string>
-    <string name="doze_list_mode_summary">Ativar o ecrã quando surgem notificações</string>
-
-    <string name="doze_pulse_title">Definições de tempo</string>
-    <string name="doze_pulse_duration_in_title">Desvanecimento inicial</string>
-    <string name="doze_pulse_duration_in_summary"></string>
-
-    <string name="doze_pulse_duration_visible_title">Visível durante</string>
-    <string name="doze_pulse_duration_visible_summary"></string>
-
-    <string name="doze_pulse_duration_out_title">Desvanecimento final</string>
-    <string name="doze_pulse_duration_out_summary"></string>
-
-    <string name="doze_pulse_on_notifications_title">Piscar em notificações</string>
-    <string name="doze_pulse_on_notifications_summary">Ativar apenas em notificações pendentes</string>
-
-    <string name="doze_time_mode_title">Mostrar relógio e data</string>
-    <string name="doze_time_mode_summary">Forçar tempo quando não há notificações</string>
-
-    <string name="twohundred_ms">200 ms</string>
-    <string name="fivehundred_ms">500 ms</string>
-    <string name="one_second">1 s</string>
-    <string name="one_second_default">1 s (default)</string>
-    <string name="onehalf_second">1,5 s</string>
-    <string name="two_second">2 s</string>
-    <string name="twohalf_second">2,5 s</string>
-    <string name="three_second">3 s</string>
-    <string name="three_second_default">3 s (default)</string>
-    <string name="threehalf_second">3,5 s</string>
-    <string name="four_second">4 s</string>
-    <string name="fourhalf_second">4,5 s</string>
-    <string name="five_second">5 s</string>
-
-    <string name="pocket_pulse_mode">Bolso e piscar</string>
-    <string name="pocket_only_mode">Bolso</string>
-    <string name="pulse_only_mode">Piscar (default)</string>
-
     <!-- Status bar -->
     <string name="status_bar_title">Barra de estado</string>
     <string name="status_bar_summary">Modificar aparência e comportamento da barra de estado</string>
@@ -372,10 +289,6 @@
     <string name="quick_pulldown_left">Esquerdo</string>
     <string name="quick_pulldown_right">Direito</string>
 
-    <string name="link_volume_option_title">Emparelhar os volumes do toque e das notificações</string>
-    <string name="sim_ringtone_title">SIM %d toque</string>
-    <string name="category_sounds">Sons</string>
-
     <!-- ScrollSettings -->
     <string name="scroll_settings_title">Definições de deslocamento</string>
     <string name="scroll_settings_summary">Alterar a fricção e a velocidade de deslocamento</string>
@@ -385,33 +298,11 @@
     <string name="scroll_friction_summary">Quantidade de fricção aplicada no deslocamento</string>
     <string name="custom_fling_velocity_summary">Velocidade máxima para iniciar um deslocamento longo</string>
 
-    <!-- Longpress Power torch -->
-    <string name="long_press_power_for_torch_title">Utilizar a tecla de energia para ligar a lanterna</string>
-    <string name="long_press_power_for_torch_summary">Pressionar durante algum tempo a tecla de energia com o ecrã desligado liga/desliga a lanterna</string>
-
     <!-- Idle stats -->
     <string name="idle_stats_title">Estatísticas de inatividade</string>
     <string name="idle_stats_boot_time">Tempo desde o arranque</string>
     <string name="idle_stats_awake_time">Acordado</string>
     <string name="idle_stats_deepsleep_time">Sono profundo</string>
-
-    <!-- General strings -->
-    <string name="cancel">Cancelar</string>
-    <string name="save">Guardar</string>
-
-    <!-- Battery customizations -->
-    <string name="status_bar_battery_style_category">Bateria</string>
-    <string name="status_bar_battery_style_summary">Personalizar o ícone da bateria</string>
-    <string name="status_bar_battery_style_title">Estilo do estado da bateria</string>
-    <string name="status_bar_battery_style_icon_portrait">Ícone vertical</string>
-    <string name="status_bar_battery_style_icon_landscape">Ícone horizontal</string>
-    <string name="status_bar_battery_style_circle">Circular</string>
-    <string name="status_bar_battery_style_text">Texto</string>
-    <string name="status_bar_battery_style_hidden">Escondido</string>
-    <string name="status_bar_battery_percentage_title">Percentagem da bateria</string>
-    <string name="status_bar_battery_percentage_default">Escondida</string>
-    <string name="status_bar_battery_percentage_text_inside">Dentro do ícone</string>
-    <string name="status_bar_battery_percentage_text_next">Ao lado do ícone</string>
 
     <!-- Seekbar -->
     <string name="default_string">Predefinido</string>
@@ -488,36 +379,6 @@
     <string name="unit_msec">msec</string>
     <string name="reset">Restaurar</string>
 
-    <!-- Actions -->
-    <string name="shortcut_action_none">Nenhuma</string>
-    <string name="shortcut_action_app">Aplicação personalizada</string>
-    <string name="shortcut_action_home">Inicio</string>
-    <string name="shortcut_action_back">Retroceder</string>
-    <string name="shortcut_action_menu">Menu</string>
-    <string name="shortcut_action_ime">Abrir editor de método de introdução</string>
-    <string name="shortcut_action_power_menu">Menu de energia</string>
-    <string name="shortcut_action_recents">Recentes</string>
-    <string name="shortcut_action_power">Ecrã desligado</string>
-    <string name="shortcut_action_search">Procurar na aplicação</string>
-    <string name="shortcut_action_ring_vib">Tocar/Vibrar</string>
-    <string name="shortcut_action_ring_silent">Tocar/Silêncio</string>
-    <string name="shortcut_action_ring_vib_silent">Tocar/Vibrar/Silêncio</string>
-    <string name="shortcut_action_torch">Lanterna</string>
-    <string name="shortcut_action_camera">Câmara</string>
-    <string name="shortcut_action_media_next">Música seguinte</string>
-    <string name="shortcut_action_media_play_pause">Tocar/pausar música</string>
-    <string name="shortcut_action_media_previous">Música anterior</string>
-    <string name="shortcut_action_wake_device">Acordar dispositivo</string>
-    <string name="shortcut_action_kill">Fechar aplicação em primeiro plano</string>
-    <string name="shortcut_action_screenshot">Captura de ecrã</string>
-    <string name="shortcut_action_screenshot_selected">Captura parcial de ecrã</string>
-    <string name="shortcut_action_lastapp">Última aplicação</string>
-    <string name="shortcut_action_menu_big">Menu grande</string>
-    <string name="shortcut_action_notifications">Notificações</string>
-    <string name="shortcut_action_qs">Painel de definições rápidas</string>
-    <string name="shortcut_action_smart">Puxar para baixo inteligente</string>
-    <string name="shortcut_action_assist">Procurar</string>
-
     <!-- Sliding home -->
     <string name="navbar_sliding_home_category">Botão inicio inteligente</string>
     <string name="navbar_sliding_home_enabled_title">Ativar deslizamento do botão inicio</string>
@@ -526,6 +387,29 @@
     <string name="navbar_sliding_home_left_summary">Ação a realizar quando o botão inicio é deslizado para a esquerda</string>
     <string name="navbar_sliding_home_right_title">Deslizar para a direita</string>
     <string name="navbar_sliding_home_right_summary">Ação a realizar quando o botão inicio é deslizado para a direita</string>
+
+    <!-- Actions -->
+    <string name="shortcut_action_none">Nenhuma</string>
+    <string name="shortcut_action_home">Inicio</string>
+    <string name="shortcut_action_back">Retroceder</string>
+    <string name="shortcut_action_ime">Abrir editor de método de introdução</string>
+    <string name="shortcut_action_power_menu">Menu de energia</string>
+    <string name="shortcut_action_recents">Recentes</string>
+    <string name="shortcut_action_power">Ecrã desligado</string>
+    <string name="shortcut_action_ring_vib">Tocar/Vibrar</string>
+    <string name="shortcut_action_ring_silent">Tocar/Silêncio</string>
+    <string name="shortcut_action_ring_vib_silent">Tocar/Vibrar/Silêncio</string>
+    <string name="shortcut_action_torch">Lanterna</string>
+    <string name="shortcut_action_camera">Câmara</string>
+    <string name="shortcut_action_media_next">Música seguinte</string>
+    <string name="shortcut_action_media_play_pause">Tocar/pausar música</string>
+    <string name="shortcut_action_media_previous">Música anterior</string>
+    <string name="shortcut_action_kill">Fechar aplicação em primeiro plano</string>
+    <string name="shortcut_action_screenshot">Captura de ecrã</string>
+    <string name="shortcut_action_screenshot_selected">Captura parcial de ecrã</string>
+    <string name="shortcut_action_lastapp">Última aplicação</string>
+    <string name="shortcut_action_notifications">Notificações</string>
+    <string name="shortcut_action_assist">Procurar</string>
 
     <!-- double tap statusbar to sleep -->
     <string name="double_tap_to_sleep_title">Duplo toque para suspender</string>
@@ -603,9 +487,6 @@
     <!-- madOS versioning -->
     <string name="mados_version">Versão madOS</string>
     <string name="mados_version_default">Desconhecido</string>
-    <!-- madOS About Phone, build date -->
-    <string name="build_date">Data da compilação</string>
-    <string name="build_date_default">2017-01-01-0000</string>
 
     <!-- new pie -->
     <string name="icon_color_mode_all_icons">Todos os ícones</string>
@@ -632,9 +513,7 @@
     <string name="shortcut_action_max">Foi atingido o tamanho máximo de entradas</string>
     <string name="shortcut_action_reset">Restaurar</string>
     <string name="shortcut_action_add">Adicionar</string>
-    <string name="shortcut_action_help_shortcut">atalho</string>
     <string name="shortcut_action_help_button">botão</string>
-    <string name="shortcut_action_help_app">aplicação</string>
     <string name="shortcut_action_help_icon">, enquanto selecionar o ícone, aparecerão as opções de personalização</string>
     <string name="shortcut_action_help_main">Para adicionar um %1$s, selecione o ícone Adicionar. Quando adicionado um %1$s, ao selecionar a linha poderá mudar o %2$s\n\nPara eliminar um %1$s, deslize a linha na horizontal à esquerda ou à direita. Para reordenar um %1$s na lista arraste-o na vertical pressionando o ícone à sua esquerda.\n\nPara limpar e redefinir aos valores de origem, selecione o ícone Restaurar.</string>
     <string name="shortcut_action_help_delete_last_entry">Remover todos os %1$s na lista irá desativar o recurso inteiramente.</string>
@@ -642,63 +521,6 @@
 
     <string name="shortcuts_applications">Aplicações</string>
     <string name="shortcuts_select_custom_app_title">Selecione a aplicação personalizada</string>
-    <string name="shortcuts_icon_picker_type">Selecione o tipo de ícone:</string>
-    <string name="shortcuts_icon_default">Predefinido</string>
-    <string name="shortcuts_icon_presets">Ícones de sistema</string>
-    <string name="shortcuts_icon_custom">Galeria</string>
-    <string name="shortcuts_icon_picker_choose_icon_title">Escolha o ícone</string>
-    <string name="shortcuts_icon_picker_alarm">Alarme</string>
-    <string name="shortcuts_icon_picker_andy">Andy</string>
-    <string name="shortcuts_icon_picker_battery">Bateria</string>
-    <string name="shortcuts_icon_picker_browser">Navegador</string>
-    <string name="shortcuts_icon_picker_calendar">Calendário</string>
-    <string name="shortcuts_icon_picker_camera">Câmara</string>
-    <string name="shortcuts_icon_picker_cloud">Nuvem</string>
-    <string name="shortcuts_icon_picker_contact">Contacto</string>
-    <string name="shortcuts_icon_picker_directdial">Marcação direta</string>
-    <string name="shortcuts_icon_picker_directmessage">Mensagens diretas</string>
-    <string name="shortcuts_icon_picker_drive">Drive</string>
-    <string name="shortcuts_icon_picker_dropbox">Dropbox</string>
-    <string name="shortcuts_icon_picker_email">E-mail</string>
-    <string name="shortcuts_icon_picker_email2">E-mail alternativo</string>
-    <string name="shortcuts_icon_picker_evernote">Evernote</string>
-    <string name="shortcuts_icon_picker_facebook">Facebook</string>
-    <string name="shortcuts_icon_picker_favorite">Favorito</string>
-    <string name="shortcuts_icon_picker_file_browser">Explorador de ficheiros</string>
-    <string name="shortcuts_icon_picker_file_browser2">Explorador de ficheros alternativo</string>
-    <string name="shortcuts_icon_picker_fitness">Fitness</string>
-    <string name="shortcuts_icon_picker_gallery">Galeria</string>
-    <string name="shortcuts_icon_picker_gears">Gears</string>
-    <string name="shortcuts_icon_picker_google_small">Google</string>
-    <string name="shortcuts_icon_picker_gplus">Google Plus</string>
-    <string name="shortcuts_icon_picker_gtalk">Hangouts</string>
-    <string name="shortcuts_icon_picker_help">Ajuda</string>
-    <string name="shortcuts_icon_picker_joystick">Joystick</string>
-    <string name="shortcuts_icon_picker_key">Chaves/contas</string>
-    <string name="shortcuts_icon_picker_laptop">Computador portátil</string>
-    <string name="shortcuts_icon_picker_notes">Notas</string>
-    <string name="shortcuts_icon_picker_luggage">Viagem</string>
-    <string name="shortcuts_icon_picker_maps">Mapas</string>
-    <string name="shortcuts_icon_picker_market">Market</string>
-    <string name="shortcuts_icon_picker_movie">Filmes</string>
-    <string name="shortcuts_icon_picker_music">Música</string>
-    <string name="shortcuts_icon_picker_nav">Navegação</string>
-    <string name="shortcuts_icon_picker_phone">Telefone</string>
-    <string name="shortcuts_icon_picker_package">Pacote</string>
-    <string name="shortcuts_icon_picker_pinterest">Pinterest</string>
-    <string name="shortcuts_icon_picker_play">Reproduzir</string>
-    <string name="shortcuts_icon_picker_pocket">Pocket</string>
-    <string name="shortcuts_icon_picker_quicksettings">Definições rápidas</string>
-    <string name="shortcuts_icon_picker_rss">RSS Feed</string>
-    <string name="shortcuts_icon_picker_sdcard">Cartão SD</string>
-    <string name="shortcuts_icon_picker_search">Pesquisar</string>
-    <string name="shortcuts_icon_picker_sms">Mensagens</string>
-    <string name="shortcuts_icon_picker_tasks">Tarefas</string>
-    <string name="shortcuts_icon_picker_terminal">Terminal</string>
-    <string name="shortcuts_icon_picker_transit">Trânsito</string>
-    <string name="shortcuts_icon_picker_tv">TV</string>
-    <string name="shortcuts_icon_picker_twitter">Twitter</string>
-    <string name="shortcuts_icon_picker_unlock">Desbloquear</string>
 
     <string name="help">Ajuda</string>
     <string name="no_home_key">Não tem nenhum botão atribuído para a ação \"Home\"!\n\nIsto pode tornar o seu dispositivo inutilizável!</string>
@@ -707,7 +529,7 @@
     <!-- Pie Control -->
     <string name="pie_control_title">PIE</string>
     <string name="pie_control_summary">Ativar os controlos PIE</string>
-    <string name="piecontrol_settings_summary">Customizar alvos da Pie, estilo, tamanho e cor</string>
+    <string name="pie_control_settings_summary">Customizar alvos da Pie, estilo, tamanho e cor</string>
     <string name="pie_control_size">Tamanho da navegação</string>
     <string name="pie_control_trigger_positions">Opções de ativação</string>
     <string name="pie_control_trigger_left">Ativar no lado esquerdo do ecrã</string>
@@ -757,7 +579,6 @@
     <string name="pie_layer_disable_forbidden">Não é possivel desativar a segunda camada! Existe outro botão retroceder disponível.</string>
 
     <!-- Lockscreen weather -->
-    <string name="display_category_weather_title">Opções de Meteorologia no ecrã de bloqueio</string>
     <string name="lock_screen_weather_summary">Opções de Meteorologia no ecrã de bloqueio</string>
     <string name="lock_screen_weather_settings_title">Opções de Meteorologia</string>
     <string name="weather_cat_notifications_title">Notificações</string>
@@ -765,15 +586,6 @@
     <string name="weather_show_weather_summary">Ative para mostrar informações meteorológicas</string>
     <string name="weather_show_location_title">Mostrar localização</string>
     <string name="weather_show_location_summary">Ative para mostrar a localização</string>
-    <string name="weather_condition_icon_title">Conjunto de ícones</string>
-    <string name="weather_condition_icon_dlg_title">Escolher um ícone para mostrar a condição meteorológica</string>
-    <string name="weather_condition_icon_monochrome_title">Monocromático</string>
-    <string name="weather_condition_icon_colored_title">Colorido</string>
-    <string name="weather_condition_icon_vclouds_title">VClouds</string>
-    <string name="icons_title">Ícones</string>
-    <string name="position_right_title">Direita</string>
-    <string name="position_centered_title">Centrado</string>
-    <string name="hidden_title">Ocultar</string>
     <string name="weather_hide_panel_title">Ocultar painel de meteorologia</string>
     <string name="weather_hide_panel_dlg_title">Selecione quando é que o painel da meteorologia deve ser ocultado</string>
     <string name="weather_hide_panel_auto_title">Automaticamente</string>
@@ -783,53 +595,6 @@
     <string name="weather_hide_panel_custom_summary">O painel da meteorologia será ocultado quando as notificações visíveis atingirem o número escolhido de notificações no ecrã de bloqueio</string>
     <string name="weather_hide_panel_never_summary">O painel da meteorologia não será escondido</string>
     <string name="weather_number_of_notifications_title">Número de notificações</string>
-    <string name="weather_settings_options_title">Definições de localização</string>
-    <string name="weather_settings_summary">Escolha a localização e outras definições</string>
-    <string name="weather_show_location_summary">Ative para mostrar a localização</string>
-
-    <!-- Status bar temperature -->
-    <string name="weather_settings_title">Meteorologia</string>
-    <string name="status_bar_temperature_title">Temperatura na Barra de Estado</string>
-    <string name="weather_clock_options_title">Opções de meteorologia do widget cLock</string>
-    <string name="weather_clock_options_summary">Widget de Meteorologia, e definições do provedor Meteorologia</string>
-    <string name="status_bar_temperature_hidden">Não mostrar</string>
-    <string name="status_bar_temperature_show_scale">Mostrar com escala</string>
-    <string name="status_bar_temperature_hide_scale">Mostrar sem escala</string>
-    <string name="status_bar_temperature_location_title">Posição</string>
-    <string name="status_bar_temperature_location_summary">Selecione onde apresentar a temperatura na barra de estado</string>
-    <string name="status_bar_temperature_location_right">Mostrar à direita</string>
-    <string name="status_bar_temperature_location_left">Mostrar à esquerda</string>
-    <string name="status_bar_weather_color_title">Cor</string>
-    <string name="status_bar_weather_size_title">Tamanho da letra</string>
-    <string name="status_bar_weather_font_style_title">Tipo de letra</string>
-    <string name="status_bar_weather_font_normal">Normal</string>
-    <string name="status_bar_weather_font_italic">Itálico</string>
-    <string name="status_bar_weather_font_bold">Negrito</string>
-    <string name="status_bar_weather_font_bold_italic">Itálico negrito</string>
-    <string name="status_bar_weather_font_light">Claro</string>
-    <string name="status_bar_weather_font_light_italic">Itálico claro</string>
-    <string name="status_bar_weather_font_thin">Fino</string>
-    <string name="status_bar_weather_font_thin_italic">Itálico fino</string>
-    <string name="status_bar_weather_font_condensed">Condensado</string>
-    <string name="status_bar_weather_font_condensed_italic">Itálico condensado</string>
-    <string name="status_bar_weather_font_condensed_light">Condensado claro</string>
-    <string name="status_bar_weather_font_condensed_light_italic">Itálico condensado claro</string>
-    <string name="status_bar_weather_font_condensed_bold">Negrito condensado</string>
-    <string name="status_bar_weather_font_condensed_bold_italic">Itálico negrito condensado</string>
-    <string name="status_bar_weather_font_medium">Médio</string>
-    <string name="status_bar_weather_font_medium_italic">Itálico médio</string>
-    <string name="status_bar_weather_font_black">Escuro</string>
-    <string name="status_bar_weather_font_black_italic">Itálico escuro</string>
-    <string name="status_bar_weather_font_dancingscript">DancingScript</string>
-    <string name="status_bar_weather_font_dancingscript_bold">DancingScript Negrito</string>
-    <string name="status_bar_weather_font_comingsoon">ComingSoon</string>
-    <string name="status_bar_weather_font_notoserif">NotoSerif Normal</string>
-    <string name="status_bar_weather_font_notoserif_italic">NotoSerif itálico</string>
-    <string name="status_bar_weather_font_notoserif_bold">NotoSerif Negrito</string>
-    <string name="status_bar_weather_font_notoserif_bold_italic">NotoSerif negrito itálico</string>
-
-    <string name="weather_show_timestamp_summary">Ative para mostrar a hora</string>
-    <string name="weather_show_timestamp_title">Mostrar hora</string>
 
     <!-- Quicks settings columns -->
     <string name="qs_panel_title">Painel definições rápidas</string>
@@ -856,15 +621,14 @@
     <string name="static_header_provider_title">Estática</string>
     <string name="daylight_header_provider_title">Dinâmica</string>
     <string name="custom_header_provider_title">Origem do cabeçalho</string>
-    <string name="custom_header_browse_title">Ver os cabeçalhos instalados</string>
-    <string name="custom_header_browse_summary">Pressão longa em qualquer imagem para usar no modo estático</string>
+    <string name="custom_header_browse_title">Procurar cabeçalhos instalados</string>
+    <string name="custom_header_browse_summary">Pressione longamente qualquer imagem para usar no modo estático</string>
 
     <!-- Quicks settings vibrate -->
     <string name="quick_settings_vibrate_title">Vibrar ao tocar</string>
     <string name="quick_settings_vibrate_summary">Vibrar ao tocar nos mosaicos das definições rápidas</string>
 
     <!-- Lockscreen -->
-    <string name="lockscreen_settings_title">Ecrã de bloqueio</string>
     <string name="mad_lockscreen_settings_summary">Customização do ecrã de bloqueio</string>
     <!-- Lockscreen items clock, date, alarm text -->
     <string name="lockscreen_items_settings_title">Itens do ecrã de bloqueio</string>
@@ -899,6 +663,9 @@
     <!-- Lockscreen double tap to sleep -->
     <string name="double_tap_sleep_anywhere_title">Desligar com 2 toques</string>
     <string name="double_tap_sleep_anywhere_summary">Toque duas vezes em qualquer área do ecrã de bloqueio para suspender o dispositivo</string>
+    <!-- Lockscreen battery info -->
+    <string name="lockscreen_battery_info_title">Informação da bateria no ecrã de bloqueio</string>
+    <string name="lockscreen_battery_info_summary">Ao carregar, mostra a corrente do carregador em tempo real, a tensão e a temperatura da bateria no ecrã de bloqueio</string>
 
     <!-- Slim Recents panel -->
     <string name="mad_recents_summary">Customização do modo recentes</string>
@@ -908,7 +675,6 @@
     <string name="use_slim_recents_summary">Substituir a vista de aplicações recentes original pela vista de recentes Slim</string>
     <string name="slim_recents_settings_title">Definições das recentes Slim</string>
     <string name="slim_recents_settings_summary">Abrir as definições das recentes Slim</string>
-    <string name="recent_panel_category">Painel de aplicações recentes Slim</string>
     <string name="show_running_tasks_title">Mostrar apenas aplicações em execução</string>
     <string name="recents_max_apps_title">Aplicações máximas permitidas</string>
     <string name="recent_panel_scale_title">Tamanho</string>
@@ -935,19 +701,6 @@
     <!-- Color picker -->
     <string name="dialog_color_picker">Seletor de cores</string>
     <string name="press_color_to_apply">Pressione Cor para aplicar</string>
-    <string name="hex">Hex:</string>
-    <string name="hex_check_button_text">PREVISUALIZAR</string>
-    <string name="hex_reset_button_text">RESTAURAR</string>
-    <string name="longpress_info">Toque longo na caixa para guardar a cor</string>
-    <string name="arrow_right">→</string>
-    <string name="arrow_down">↓</string>
-    <string name="color_default">Predefinido</string>
-
-    <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Desbloqueio rápido</string>
-    <string name="unlock_quick_unlock_control_summary">Desbloquear automaticamente quando o PIN ou Palavra-passe correta é inserida (não é necessário pressionar OK)\nNota: Apenas para PINs com 4 dígitos!</string>
-    <string name="lockscreen_quick_unlock_pin_length_title">Numero de digitos do PIN</string>
-    <string name="lockscreen_quick_unlock_pin_length_summary">Para que o Desbloqueio Rápido funcione, defina o comprimento do PIN (numero de dígitos).</string>
 
     <!-- Immersive recents -->
     <string name="immersive_recents_title">Recentes imersivos</string>
@@ -968,32 +721,28 @@
     <string name="recents_clear_all_location_bottom_left">Canto inferior esquerdo</string>
     <string name="recents_clear_all_location_bottom_center">Centrado em baixo</string>
 
-  <!-- Wakelock blocker -->
-  <string name="wakelock_blocker_title">Bloqueador de wakelocks</string>
-  <string name="wakelock_blocker_summary">Bloquear wakelocks do sistema</string>
-  <string name="wakelock_blocker_save">Guardar</string>
-  <string name="wakelock_list_header">Wakelocks disponíveis</string>
-  <string name="wakelock_blocker_reload">Recarregar</string>
-  <string name="wakelock_blocker_warning_title">Prosseguir com cautela</string>
-  <string name="wakelock_blocker_warning">Bloquear wakelocks pode causar instabilidade, falhas ou perda de dados</string>
+    <!-- Wakelock blocker -->
+    <string name="wakelock_blocker_title">Bloqueador de wakelocks</string>
+    <string name="wakelock_blocker_summary">Bloquear wakelocks do sistema</string>
+    <string name="wakelock_blocker_save">Guardar</string>
+    <string name="wakelock_list_header">Wakelocks disponíveis</string>
+    <string name="wakelock_blocker_reload">Recarregar</string>
+    <string name="wakelock_blocker_warning_title">Prosseguir com cautela</string>
+    <string name="wakelock_blocker_warning">Bloquear wakelocks pode causar instabilidade, falhas ou perda de dados</string>
 
-  <!-- Alarm blocker -->
-  <string name="alarm_blocker">Bloqueador de alarmes</string>
-  <string name="alarm_blocker_title">Ativar</string>
-  <string name="alarm_blocker_summary">Bloquear os alarmes das aplicações enquanto o ecrã estiver desligado. Nota: estes alarmes não são os despertadores!</string>
-  <string name="alarm_blocker_save">Guardar</string>
-  <string name="alarm_list_header">Alarmes disponíveis</string>
-  <string name="alarm_blocker_reload">Recarregar</string>
-  <string name="alarm_blocker_warning_title">Prossiga com cautela</string>
-  <string name="alarm_blocker_warning">O bloqueio dos alarmes pode causar instabilidade, falhas ou perdas de dados.</string>
+    <!-- Alarm blocker -->
+    <string name="alarm_blocker">Bloqueador de alarmes</string>
+    <string name="alarm_blocker_title">Ativar</string>
+    <string name="alarm_blocker_summary">Bloquear os alarmes das aplicações enquanto o ecrã estiver desligado. Nota: estes alarmes não são os despertadores!</string>
+    <string name="alarm_blocker_save">Guardar</string>
+    <string name="alarm_list_header">Alarmes disponíveis</string>
+    <string name="alarm_blocker_reload">Recarregar</string>
+    <string name="alarm_blocker_warning_title">Prossiga com cautela</string>
+    <string name="alarm_blocker_warning">O bloqueio dos alarmes pode causar instabilidade, falhas ou perdas de dados.</string>
 
     <!-- Buttons Misc -->
     <string name="mad_buttons_settings">Opções de botões</string>
     <string name="mad_buttons_settings_summary">Opções de botões, onde pode definir ações e mais</string>
-
-    <!-- Gestures Misc -->
-    <string name="mad_gestures_settings">Gestos rápidos</string>
-    <string name="mad_gestures_settings_summary">Gestos rápidos, para controlar o seu dispositivo</string>
 
     <!-- Bluetooth status -->
     <string name="bluetooth_battery_title">Mostrar o nível de bateria do dispositivo Bluetooth</string>
@@ -1008,8 +757,6 @@
     <string name="carrierlabel_title">Nome do operador</string>
     <string name="carrierlabel_title_summary">Opções para personalizar o nome do operador</string>
     <!-- Custom carrier label and position -->
-    <string name="carrier_label_settings_title">Nome do operador</string>
-    <string name="carrier_label_settings_summary">Personalizar o nome do operador</string>
     <string name="custom_carrier_label_title">Personalizar o nome do operador</string>
     <string name="custom_carrier_label_explain">Por favor, digite um novo nome. Deixar em branco para reverter para o predefinido.</string>
     <string name="custom_carrier_label_notset">O nome personalizado do operador, não foi definido</string>
@@ -1053,17 +800,33 @@
     <string name="powermenu_lockdown">Bloquear</string>
     <string name="powermenu_soundpanel">Painel de som</string>
     <string name="powermenu_users">Utilizadores</string>
-    <string name="powermenu_onthego_title">Modo On-The-Go</string>
+    <string name="powermenu_onthego">Modo On-The-Go</string>
 
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">Mostrar menu de energia no ecrã de bloqueio</string>
     <string name="lockscreen_enable_power_menu_summary">Esta opção apenas desativa o menu de energia no ecrã de bloqueio</string>
 
-    <!-- Wi-Fi frequency band settings -->
-    <string name="wifi_setting_frequency_band_title">Wi\u2011Fi frequência de banda</string>
-    <string name="wifi_setting_frequency_band_summary">Definir a gama de frequências de operação</string>
-    <string name="wifi_setting_frequency_band_error">Ocorreu um problema ao definir a frequência de banda.</string>
-    <string name="wifi_setting_frequency_band_automatic">Automático</string>
-    <string name="wifi_setting_frequency_band_5ghz_only">Apenas 5 GHz</string>
-    <string name="wifi_setting_frequency_band_24ghz_only">Apenas 2.4 GHz</string>
+    <string name="hardware_keys_fingerprint_key_title">Impressão digital quando ecrã está ligado</string>
+
+    <!-- Color engine -->
+    <string name="theme_switch_palette">Alternar entre cores primária e destaque</string>
+    <string name="theme_title">Sistema de cor</string>
+    <string name="theme_summary">Selecione diferentes cores para o seu tema atual</string>
+    <string name="theme_accent_color">Cor de destaque</string>
+    <string name="theme_primary_color">Cor primária</string>
+    <string name="theme">Tema</string>
+    <string name="oms_enabled">Os modos de tema não estão disponíveis porque um tema do Substratum está atualmente aplicado</string>
+    <string name="red">Vermelho</string>
+    <string name="orange">Laranja</string>
+    <string name="blue">Azul</string>
+    <string name="green">Verde</string>
+    <string name="yellow">Amarelo</string>
+    <string name="purple">Roxo</string>
+    <string name="pink">Rosa</string>
+    <string name="dark">Escuro</string>
+    <string name="pixel">Pixel</string>
+    <string name="teal">Predefinido</string>
+    <string name="Ciano">Scooter</string>
+    <string name="grey">Cinzento</string>
+
  </resources>

@@ -19,6 +19,27 @@
     <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
     <string name="permdesc_preventpower">Engedélyezi egy alkalmazásnak a bekapcsológomb módosítását.</string>
 
+    <!-- mad custom power menu -->
+    <!-- Button to reboot the phone in reboot menu -->
+    <string name="reboot_reboot">Újraindítás</string>
+    <!-- Button to reboot the phone into recovery in reboot menu-->
+    <string name="reboot_recovery">Recovery</string>
+    <!-- Button to soft reboot the device in reboot menu -->
+    <string name="reboot_soft">Lágy újraindítás</string>
+    <!-- Reboot Confirmation Dialog. -->
+    <string name="reboot_confirm" product="tablet">A táblagép újraindul.</string>
+    <string name="reboot_confirm" product="default">A telefon újraindul.</string>
+    <!-- Reboot Progress Dialog. This is shown if the user chooses to reboot the phone. -->
+    <string name="reboot_progress">Újraindul\u2026</string>
+    <!-- label for item that screenshots in phone options dialog -->
+    <string name="global_action_screenshot">Képernyőmentés</string>
+    <!-- Powermenu Torch -->
+    <string name="global_action_torch">Zseblámpa</string>
+    <!-- Powermenu current user -->
+    <string name="global_action_current_user">Jelenlegi felhasználó</string>
+    <!-- Powermenu on-the-go -->
+    <string name="global_action_onthego">On-The-Go mód</string>
+
     <!-- Fast Charge -->
     <string name="fc_active_notification_title">Gyors Töltés beállítások</string>
     <string name="fc_active_notification_message">"Érintsd meg a Gyors Töltés beállításokhoz"</string>
@@ -29,50 +50,5 @@
     <!-- Notify user that they are in Lock-to-app (for devices without navbar) -->
     <string name="lock_to_app_toast_no_navbar">A képernyő elhagyásához érintsd meg és tartsd nyomva a Vissza gombot.</string>
 
-    <!-- status message in phone options dialog for when pie is on -->
-    <string name="global_actions_pie_mode_on_status">SlimPie bekapcsolva</string>
-
-    <!-- status message in phone options dialog for when pie is off -->
-    <string name="global_actions_pie_mode_off_status">SlimPie kikapcsolva</string>
-
-    <!-- Error message if user want to try to disable all navigation options -->
-    <string name="disable_pie_navigation_error">Nem kapcsolható ki a pie vezérlő. Nincs más vezérlő engedélyezve. Kapcsold be előbb a navigációs sávot a pie vezérlők kikapcsolásához.</string>
-
-    <!-- status message in phone options dialog for when navigation bar is on -->
-    <string name="global_actions_nav_bar_mode_on_status">Navigációs sáv bekapcsolva</string>
-
-    <!-- status message in phone options dialog for when navigation bar is off -->
-    <string name="global_actions_nav_bar_mode_off_status">Navigációs sáv kikapcsolva</string>
-
-    <!-- Error message if user want to try to disable all navigation options -->
-    <string name="disable_navigation_pie_error">Nem kapcsolható ki a navigációs sáv. Nincs más vezérlő engedélyezve. Kapcsold be előbb a pie vezérlőket a navigációs sáv kikapcsolásához.</string>
-
     <string name="singlehandmode_click_hint_message">Érintsd a képernyőn kívül a mini képernyő nézetből kilépéshez</string>
-
-    <!-- mad custom power menu -->
-    <!-- Reboot Dialog -->
-    <string name="global_action_reboot">Újraindítás</string>
-    <!-- Button to reboot the phone in reboot menu -->
-    <string name="reboot_reboot">Újraindítás</string>
-    <!-- Button to reboot the phone into recovery in reboot menu-->
-    <string name="reboot_recovery">Recovery</string>
-    <!-- Button to reboot the phone into bootloader in reboot menu -->
-    <string name="reboot_bootloader">Bootloader</string>
-    <!-- Button to soft reboot the device in reboot menu -->
-    <string name="reboot_soft">Lágy újraindítás</string>
-    <!-- Reboot Confirmation Dialog. -->
-    <string name="reboot_confirm" product="tablet">A táblagép újraindul.</string>
-    <string name="reboot_confirm" product="default">A telefon újraindul.</string>
-    <!-- Reboot Progress Dialog. This is shown if the user chooses to reboot the phone. -->
-    <string name="reboot_progress">Újraindul\u2026</string>
-    <!-- label for item that screenshots in phone options dialog -->
-    <string name="global_action_screenshot">Képernyőmentés</string>
-    <!-- screenshot on the power menu -->
-    <string name="powermenu_screenshot">Képernyőmentés</string>
-    <!-- Powermenu Torch -->
-    <string name="global_action_torch">Zseblámpa</string>
-    <!-- Powermenu current user -->
-    <string name="global_action_current_user">Jelenlegi felhasználó</string>
-    <!-- Powermenu on-the-go -->
-    <string name="global_action_onthego">On-The-Go mód</string>
 </resources>

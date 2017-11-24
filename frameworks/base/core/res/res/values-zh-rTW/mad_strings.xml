@@ -19,6 +19,27 @@
     <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
     <string name="permdesc_preventpower">允許應用程式更改電源鍵。</string>
 
+    <!-- mad custom power menu -->
+    <!-- Button to reboot the phone in reboot menu -->
+    <string name="reboot_reboot">重啟</string>
+    <!-- Button to reboot the phone into recovery in reboot menu -->
+    <string name="reboot_recovery">Recovery</string>
+    <!-- Button to soft reboot the device in reboot menu -->
+    <string name="reboot_soft">軟重啟</string>
+    <!-- Reboot Confirmation Dialog. -->
+    <string name="reboot_confirm" product="tablet">您的平板電腦將重啟。</string>
+    <string name="reboot_confirm" product="default">您的手機將重啟。</string>
+    <!-- Reboot Progress Dialog. This is shown if the user chooses to reboot the phone. -->
+    <string name="reboot_progress">重啟中\u2026</string>
+    <!-- label for item that screenshots in phone options dialog -->
+    <string name="global_action_screenshot">截屏</string>
+    <!-- Powermenu Torch -->
+    <string name="global_action_torch">手電筒</string>
+    <!-- Powermenu current user -->
+    <string name="global_action_current_user">當前用戶</string>
+    <!-- Powermenu on-the-go -->
+    <string name="global_action_onthego">即時模式</string>
+
     <!-- Fast Charge -->
     <string name="fc_active_notification_title">快速充電</string>
     <string name="fc_active_notification_message">"設置快速充電"</string>
@@ -30,31 +51,4 @@
     <string name="lock_to_app_toast_no_navbar">要取消此屏幕的固定，請觸摸並按住返回鍵。</string>
 
     <string name="singlehandmode_click_hint_message">觸摸屏幕外可以退出迷你屏幕視圖</string>
-	
-    <!-- mad custom power menu -->
-    <!-- Reboot Dialog -->
-    <string name="global_action_reboot">重啟</string>	
-    <!-- Button to reboot the phone in reboot menu -->
-    <string name="reboot_reboot">重啟</string>
-    <!-- Button to reboot the phone into recovery in reboot menu -->
-    <string name="reboot_recovery">Recovery</string>
-    <!-- Button to reboot the phone into bootloader in reboot menu -->
-    <string name="reboot_bootloader">Bootloader</string>
-    <!-- Button to soft reboot the device in reboot menu -->
-    <string name="reboot_soft">軟重啟</string>
-    <!-- Reboot Confirmation Dialog. -->
-    <string name="reboot_confirm" product="tablet">您的平板電腦將重啟。</string>
-    <string name="reboot_confirm" product="default">您的手機將重啟。</string>
-    <!-- Reboot Progress Dialog. This is shown if the user chooses to reboot the phone. -->
-    <string name="reboot_progress">重啟中\u2026</string>
-    <!-- label for item that screenshots in phone options dialog -->
-    <string name="global_action_screenshot">截屏</string>
-    <!-- screenshot on the power menu -->
-    <string name="powermenu_screenshot">截屏</string>	
-    <!-- Powermenu Torch -->
-    <string name="global_action_torch">手電筒</string>
-    <!-- Powermenu current user -->
-    <string name="global_action_current_user">當前用戶</string>
-    <!-- Powermenu on-the-go -->
-    <string name="global_action_onthego">即時模式</string>
 </resources>

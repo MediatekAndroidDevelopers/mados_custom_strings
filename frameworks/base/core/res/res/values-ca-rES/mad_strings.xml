@@ -19,6 +19,7 @@
     <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
     <string name="permdesc_preventpower">Permet que l\'aplicació anul·li el botó d\'encesa.</string>
 
+    <!-- mad custom power menu -->
     <!-- Button to restart the phone in restart menu -->
     <string name="reboot_reboot">Reinicia</string>
     <!-- Button to restart the phone into recovery in restart menu -->
@@ -30,7 +31,6 @@
     <string name="reboot_confirm" product="default">El teu telèfon es reiniciarà.</string>
     <!-- Restart Progress Dialog. This is shown if the user chooses to restart the phone. -->
     <string name="reboot_progress">Reiniciant\u2026</string>
-
     <!-- label for item that screenshots in phone options dialog -->
     <string name="global_action_screenshot">Captura de pantalla</string>
 

@@ -15,10 +15,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Reboot/Reboot Recovery QS Tile -->
-    <string name="quick_settings_reboot_label">പുനരാരംഭിക്കുക</string>
-    <string name="quick_settings_reboot_recovery_label">വീണ്ടെടുക്കൽ</string>
-
     <!-- Quick Settings tiles -->
     <string name="quick_settings_screenshot_label">സ്ക്രീൻഷോട്ട്</string>
     <string name="quick_settings_region_screenshot_label">ഭാഗിക സ്ക്രീൻഷോട്ട്</string>
@@ -36,10 +32,6 @@
 
     <!-- Screen pinning dialog description (for devices without navbar) -->
     <string name="screen_pinning_description_no_navbar">നിങ്ങൾ ഒഴിവാക്കുന്നത് വരെ ഇത് കാഴ്ച നിലനിർത്തുന്നു. ഒഴിവാക്കാൻ വേണ്ടി തിരികെ ബട്ടൺ  അമർത്തിപ്പിടിക്കുക.</string>
-
-    <!-- NavBar Tuner -->
-    <string name="menu_ime_always_show">വിഭവങ്ങൾ / കീബോർഡ് വെച്ചുമാറൽ  (എപ്പോഴും കാണിക്കുക)</string>
-    <string name="search">തിരച്ചിൽ</string>
 
     <!-- Dialog title for navigation bar button selection -->
     <string name="navbar_dialog_title">നിർണയിക്കുന്നതിനായി ഒരു പ്രവർത്തനം തിരഞ്ഞെടുക്കുക</string>
