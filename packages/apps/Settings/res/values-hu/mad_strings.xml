@@ -28,6 +28,7 @@
     <string name="hardware_keys_app_switch_key_title">Előzmények gomb</string>
     <string name="hardware_keys_camera_key_title">Kamera gomb</string>
     <string name="hardware_keys_long_press_title">Hosszan érintés eseménye</string>
+    <string name="hardware_keys_single_tap_title">Egyszeri érintés eseménye</string>
     <string name="hardware_keys_double_tap_title">Dupla érintés eseménye</string>
     <string name="hardware_keys_action_nothing">Nincs esemény</string>
     <string name="hardware_keys_action_menu">Megnyitás/bezárás menü</string>
@@ -36,6 +37,9 @@
     <string name="hardware_keys_action_voice_search">Hangalapú keresés</string>
     <string name="hardware_keys_action_launch_camera">Kamera indítása</string>
     <string name="hardware_keys_action_kill_app">Alkalmazás bezárása</string>
+    <string name="hardware_keys_action_last_app">Átlépés az utolsó alkalmazásra</string>
+    <string name="hardware_keys_action_splitscreen">Osztott képernyő</string>
+    <string name="hardware_keys_action_screen_off">Képernyő kikapcsolása</string>
 
     <!-- Notification light dialogs -->
     <string name="edit_light_settings">Jelzés beállítások</string>
@@ -297,6 +301,9 @@
 
     <!-- Idle stats -->
     <string name="idle_stats_title">Üresjárat statisztika</string>
+    <string name="idle_stats_boot_time">Indítás óta eltelt idő</string>
+    <string name="idle_stats_awake_time">Ébren töltött idő</string>
+    <string name="idle_stats_deepsleep_time">Mély alvásban töltött idő</string>
 
     <!-- Seekbar -->
     <string name="default_string">Alapértelmezett</string>
@@ -659,6 +666,10 @@
     <!-- Lockscreen double tap to sleep -->
     <string name="double_tap_sleep_anywhere_title">Dupla érintés az alvó módhoz bárhol</string>
     <string name="double_tap_sleep_anywhere_summary">Érintsd duplán bárhol a zárképernyőn az eszköz alvó módba juttatásához</string>
+    <!-- Lockscreen battery info -->
+    <string name="lockscreen_battery_info_title">Zárképernyő akkumulátor információ</string>
+    <string name="lockscreen_battery_info_summary">Töltőáram, feszültség és akkumulátor hőmérséklet valós idejű kijelzése a zárképernyőn töltés közben</string>
+
     <!-- Slim Recents panel -->
     <string name="mad_recents_summary">Legutóbbi alkalmazások nézetének testreszabása</string>
     <string name="recents_title">Legutóbbi alkalmazások</string>
@@ -693,6 +704,9 @@
     <!-- Color picker -->
     <string name="dialog_color_picker">Színválasztó</string>
     <string name="press_color_to_apply">Nyomj egy színre az alkalmazásához</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint" translatable="false">#FFDDDDDD</string>
+    <string name="arrow_right">→</string>
 
     <!-- Immersive recents -->
     <string name="immersive_recents_title">Ragadó legutóbbiak</string>
@@ -797,4 +811,28 @@
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">Kikapcsoló menü a zárképernyőn</string>
     <string name="lockscreen_enable_power_menu_summary">Ez a beállítás csak a biztonságos zárképernyőn tiltja le a kikapcsoló menüt</string>
+
+    <string name="hardware_keys_fingerprint_key_title">Fingerprint when screen on</string>
+
+    <!-- Color engine -->
+    <string name="theme_switch_palette">Váltás az elsődleges és a hangsúlyos szín között</string>
+    <string name="theme_title">Szín motor</string>
+    <string name="theme_summary">Válassz különböző színeket az aktuális témához</string>
+    <string name="theme_accent_color">Hangsúlyos szín</string>
+    <string name="theme_primary_color">Elsődleges szín</string>
+    <string name="theme">Téma</string>
+    <string name="oms_enabled">Téma mód elérhetetlen a Substratum téma alkalmazása miatt</string>
+    <string name="red">Torch Red</string>
+    <string name="orange">Vermilion</string>
+    <string name="blue">Pixel Blue</string>
+    <string name="green">Lima</string>
+    <string name="yellow">Supernova</string>
+    <string name="purple">Purple Heat</string>
+    <string name="pink">Rose</string>
+    <string name="dark">Dark</string>
+    <string name="pixel">Pixel</string>
+    <string name="teal">Default</string>
+    <string name="cyan">Scooter</string>
+    <string name="grey">Grey</string>
+
  </resources>
