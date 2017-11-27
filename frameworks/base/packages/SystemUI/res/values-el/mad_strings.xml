@@ -58,6 +58,9 @@
 
     <string name="app_killed_message">Η Εφαρμογή διακόπηκε</string>
 	
+    <!-- Notify user that they are in Lock-to-app (for devices without navbar) -->
+    <string name="lock_to_app_toast_no_navbar">To unpin this screen, touch and hold the Back button.</string>
+	
     <!-- Battery status in pie controls -->
     <string name="pie_battery_status_charging">Φόρτιση (<xliff:g id="percent">%d</xliff:g>%%)</string>
     <string name="pie_battery_status_full">Φορτίστηκε</string>
@@ -99,10 +102,13 @@
     <!-- OmniJaws weather qs tile -->
     <string name="omnijaws_service_error">Λάθος</string>
     <string name="omnijaws_service_unkown">Χωρίς δεδομένα καιρού</string>
+    <string name="omnijaws_service_error_long">Error loading weather data</string>
+    <string name="omnijaws_service_disabled">Service is disabled</string>
     <string name="omnijaws_detail_header">Καιρός</string>
     <string name="omnijaws_label_default">Καιρός</string>
     <string name="omnijaws_current_text">Τώρα</string>
     <string name="omnijaws_package_not_available">OmniJaws δεν είναι διαθέσιμο</string>
+    <string name="omnijaws_service_last_update">Last update:</string>
 	
     <!-- On The Go Mode-->
     <string name="onthego_notif_ticker">Η λειτουργία εν κινήσει είναι ενεργή</string>
