@@ -102,13 +102,13 @@
     <!-- OmniJaws weather qs tile -->
     <string name="omnijaws_service_error">Λάθος</string>
     <string name="omnijaws_service_unkown">Χωρίς δεδομένα καιρού</string>
-    <string name="omnijaws_service_error_long">Error loading weather data</string>
-    <string name="omnijaws_service_disabled">Service is disabled</string>
+    <string name="omnijaws_service_error_long">Σφάλμα κατά την φόρτωση δεδομένων καιρού</string>
+    <string name="omnijaws_service_disabled">Η υπηρεσία είναι απενεργοποιημένη</string>
     <string name="omnijaws_detail_header">Καιρός</string>
     <string name="omnijaws_label_default">Καιρός</string>
     <string name="omnijaws_current_text">Τώρα</string>
     <string name="omnijaws_package_not_available">OmniJaws δεν είναι διαθέσιμο</string>
-    <string name="omnijaws_service_last_update">Last update:</string>
+    <string name="omnijaws_service_last_update">Τελευταία ενημέρωση:</string>
 	
     <!-- On The Go Mode-->
     <string name="onthego_notif_ticker">Η λειτουργία εν κινήσει είναι ενεργή</string>
