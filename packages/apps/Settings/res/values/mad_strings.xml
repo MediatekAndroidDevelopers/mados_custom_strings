@@ -42,6 +42,7 @@
     <string name="hardware_keys_action_screen_off">Turn off screen</string>
 
     <!-- Notification light dialogs -->
+    <string name="notification_light_enable_title">Enable notification lights</string>
     <string name="edit_light_settings">Edit light settings</string>
     <string name="pulse_speed_title">Pulse length and speed</string>
     <string name="default_time">Normal</string>
