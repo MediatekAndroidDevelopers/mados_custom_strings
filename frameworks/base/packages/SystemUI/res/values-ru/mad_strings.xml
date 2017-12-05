@@ -58,6 +58,9 @@
 
     <string name="app_killed_message">Приложение выгружено</string>
 
+    <!-- Notify user that they are in Lock-to-app (for devices without navbar) -->
+    <string name="lock_to_app_toast_no_navbar">Для открепления этого экрана нажмите и держите кнопку Назад.</string>
+
     <!-- Battery status in pie controls -->
     <string name="pie_battery_status_charging">Зарядка (<xliff:g id="percent">%d</xliff:g>%%)</string>
     <string name="pie_battery_status_full">Заряжен</string>
@@ -99,10 +102,13 @@
     <!-- OmniJaws weather qs tile -->
     <string name="omnijaws_service_error">Ошибка</string>
     <string name="omnijaws_service_unkown">Нет данных о погоде</string>
+    <string name="omnijaws_service_error_long">Ошибка загрузки информации о погоде</string>
+    <string name="omnijaws_service_disabled">Сервис выключен</string>
     <string name="omnijaws_detail_header">Погода</string>
     <string name="omnijaws_label_default">Погода</string>
     <string name="omnijaws_current_text">Сейчас</string>
     <string name="omnijaws_package_not_available">OmniJaws недоступна</string>
+    <string name="omnijaws_service_last_update">Последнее обновление:</string>
 
     <!-- On The Go Mode-->
     <string name="onthego_notif_ticker">На-Ходу включен</string>

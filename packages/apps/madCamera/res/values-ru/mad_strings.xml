@@ -89,8 +89,14 @@
     <string name="pref_camera_coloreffect_entry_point_red_yellow">Красно-жёлтый</string>
     <string name="pref_camera_coloreffect_entry_cartoonize">Мультипликация</string>
 
+	<!-- Power shutter -->
+
+
     <!-- Touch focus duration -->
     <string name="pref_camera_focustime_title">Длительность тач-фокуса</string>
+
+
+
     <string name="pref_camera_focustime_entry_0">0 сек</string>
     <string name="pref_camera_focustime_entry_3">3 сек</string>
     <string name="pref_camera_focustime_entry_5">5 сек</string>
@@ -99,6 +105,7 @@
 
     <!-- Grid -->
     <string name="pref_grid_title">Сетка</string>
+
 
     <!-- JPEG Quality -->
     <string name="pref_camera_jpegquality_entry_0">Низкое</string>
@@ -130,6 +137,7 @@
     <string name="pref_camera_antibanding_entry_3">Авто</string>
 
     <!-- Storage -->
+
     <string name="pref_camera_storage_entry_0">Телефон</string>
     <string name="pref_camera_storage_entry_1">SD-карта</string>
 
