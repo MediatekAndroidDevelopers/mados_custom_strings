@@ -42,7 +42,8 @@
     <string name="hardware_keys_action_screen_off">Выключить экран</string>
 
     <!-- Notification light dialogs -->
-    <string name="edit_light_settings">Редактировать настройки света</string>
+    <string name="notification_light_enable_title">Включить свет уведомлений</string>
+	<string name="edit_light_settings">Редактировать настройки света</string>
     <string name="pulse_speed_title">Продолжительность и скорость пульсирования</string>
     <string name="default_time">Норма</string>
     <string name="custom_time">Другое</string>
