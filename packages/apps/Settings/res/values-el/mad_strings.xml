@@ -42,6 +42,7 @@
     <string name="hardware_keys_action_screen_off">Απενεργοποίηση οθόνης</string>
 	
     <!-- Notification light dialogs -->
+    <string name="notification_light_enable_title">Ενεργοποιήση του led ειδοποιήσεων</string>
     <string name="edit_light_settings">Επεξεργασία ρυθμίσεων φωτισμού</string>
     <string name="pulse_speed_title">Διάρκεια και ταχύτητα παλμού</string>
     <string name="default_time">Φυσιολογικό</string>
