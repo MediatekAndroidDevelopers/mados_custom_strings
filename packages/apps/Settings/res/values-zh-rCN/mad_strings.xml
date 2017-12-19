@@ -42,6 +42,7 @@
     <string name="hardware_keys_action_screen_off">关闭屏幕</string>
 	
     <!-- Notification light dialogs -->
+    <string name="notification_light_enable_title">启用通知灯</string>
     <string name="edit_light_settings">编辑灯光设置</string>
     <string name="pulse_speed_title">脉冲长度和速度</string>
     <string name="default_time">正常</string>
