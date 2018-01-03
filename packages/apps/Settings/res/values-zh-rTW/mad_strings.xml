@@ -833,5 +833,8 @@
     <string name="cyan">摩托車</string>
     <string name="grey">灰色</string>
 
+    <string name="theme_with_wallpaper">主題壁紙</string>
+    <string name="theme_with_wallpaper_summary">主題通過壁紙改變。 \n 僅對動態壁紙有效。</string>
+
  </resources>
  
