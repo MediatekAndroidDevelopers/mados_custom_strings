@@ -632,6 +632,9 @@
     <string name="quick_settings_vibrate_title">Vibrate on touch</string>
     <string name="quick_settings_vibrate_summary">Vibrate when touching tiles</string>
 
+    <!-- Quicks settings background alpha -->
+    <string name="qs_alpha_title">Quick settings background transparency</string>
+
     <!-- Lockscreen -->
     <string name="mad_lockscreen_settings_summary">Lockscreen customizations</string>
     <!-- Lockscreen items clock, date, alarm text -->
