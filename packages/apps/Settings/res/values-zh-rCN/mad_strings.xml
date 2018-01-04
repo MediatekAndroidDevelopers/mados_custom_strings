@@ -632,6 +632,9 @@
     <string name="quick_settings_vibrate_title">触摸振动</string>
     <string name="quick_settings_vibrate_summary">触摸项目时振动</string>
 
+    <!-- Quicks settings background alpha -->
+    <string name="qs_alpha_title">快速设置背景透明度</string>
+	
     <!-- Lockscreen -->
     <string name="mad_lockscreen_settings_summary">自定义锁屏</string>
     <!-- Lockscreen items clock, date, alarm text -->
