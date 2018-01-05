@@ -839,7 +839,9 @@
     <string name="cyan">Scooter</string>
     <string name="grey">Grey</string>
 
+    <string name="adv_theme_settings">Advanced theme settings</string>
     <string name="theme_with_wallpaper">Wallpaper based theme</string>
     <string name="theme_with_wallpaper_summary">Theme changes according to wallpaper.\nThis is useful for live-wallpapers only</string>
+    <string name="theme_qs_icons">Theme quicksettings icons</string>
 
  </resources>
