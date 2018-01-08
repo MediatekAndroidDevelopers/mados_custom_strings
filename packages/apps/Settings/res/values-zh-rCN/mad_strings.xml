@@ -836,7 +836,9 @@
     <string name="cyan">摩托车</string>
     <string name="grey">灰色</string>
 
+    <string name="adv_theme_settings">高级主题设置</string>
     <string name="theme_with_wallpaper">主题壁纸</string>
     <string name="theme_with_wallpaper_summary">主题通过壁纸改变。 \n 仅对动态壁纸有效。</string>
+    <string name="theme_qs_icons">主题快速设置图标</string>
 
  </resources> 
