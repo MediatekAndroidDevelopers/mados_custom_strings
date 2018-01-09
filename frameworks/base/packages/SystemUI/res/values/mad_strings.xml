@@ -121,4 +121,8 @@
     <string name="onthego_transparency">Transparency</string>
     <string name="onthego_front_camera">Use front camera</string>
     <string name="onthego_service_toggle">Automatically restart service</string>
+
+    <!-- PiP Tile -->
+    <string name="quick_settings_pip_label">PiP</string>
+    <string name="quick_settings_pip_tile_app_na">App does not support PiP</string>
 </resources>
