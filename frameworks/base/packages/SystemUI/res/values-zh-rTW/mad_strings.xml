@@ -121,4 +121,8 @@
     <string name="onthego_transparency">透明度</string>
     <string name="onthego_front_camera">使用前置攝像頭</string>
     <string name="onthego_service_toggle">自動重啟服務</string>
- </resources>
+	
+    <!-- PiP Tile -->
+    <string name="quick_settings_pip_label">PiP</string>
+    <string name="quick_settings_pip_tile_app_na">應用程序不支持PiP</string>
+</resources>
