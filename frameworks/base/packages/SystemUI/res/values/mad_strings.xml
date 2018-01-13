@@ -77,6 +77,12 @@
 
     <!-- Slim Recents app-screen-->
     <string name="recents_multiwin_nolastapp">You removed all recents, please choose an app from launcher or drawer.</string>
+    <string name="recents_killapp_warning">Long press to kill app</string>
+
+    <!-- Slim recents app sidebar queue app toast -->
+    <string name="toast_recents_queue_app">Launch %s after closing recents</string>
+    <string name="toast_recents_cancel_queued_app">Cancelled app launch</string>
+
 
     <!-- Compass QS Tile -->
     <string name="quick_settings_compass_label">Compass</string>
