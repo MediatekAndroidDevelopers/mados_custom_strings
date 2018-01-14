@@ -77,6 +77,12 @@
 
     <!-- Slim Recents app-screen-->
     <string name="recents_multiwin_nolastapp">你删除了所有的最近任务，请从启动器或抽屉中打开一个应用程序。</string>
+    <string name="recents_killapp_warning">长按杀死应用程序</string>
+
+    <!-- Slim recents app sidebar queue app toast -->
+    <string name="toast_recents_queue_app">在关闭近期后启动 %s </string>
+    <string name="toast_recents_cancel_queued_app">取消应用程序启动</string>
+
 
     <!-- Compass QS Tile -->
     <string name="quick_settings_compass_label">指南针</string>
