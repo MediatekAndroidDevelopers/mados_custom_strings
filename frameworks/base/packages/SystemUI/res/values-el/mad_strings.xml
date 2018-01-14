@@ -78,10 +78,10 @@
     <!-- Slim Recents app-screen-->
     <string name="recents_multiwin_nolastapp">Κλείστε όλες τις πρόσφατες εφαρμογές και επιλέξτε μια απο την αρχική οθόνη.</string>
     <string name="recents_killapp_warning">Πατήστε παρατεταμένα για κλείσιμο της εφαρμογής</string>
-+
-+    <!-- Slim recents app sidebar queue app toast -->
-+    <string name="toast_recents_queue_app">Ξεκίνησε %s μετά το κλείσιμο των προσφάτων</string>
-+    <string name="toast_recents_cancel_queued_app">Άκυρη εκκίνηση εφαρμογής</string>
+
+     <!-- Slim recents app sidebar queue app toast -->
+     <string name="toast_recents_queue_app">Ξεκίνησε %s μετά το κλείσιμο των προσφάτων</string>
+     <string name="toast_recents_cancel_queued_app">Άκυρη εκκίνηση εφαρμογής</string>
 	
 	
     <!-- Compass QS Tile -->
