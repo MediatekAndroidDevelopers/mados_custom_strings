@@ -308,6 +308,10 @@
 
     <!-- Seekbar -->
     <string name="default_string">默认</string>
+    <string name="seekbar_no_default_value">没有默认值设置</string>
+    <string name="seekbar_default_value_set">设默认值为<xliff:g id="number">%d</xliff:g></string>
+    <string name="seekbar_default_value_already_set">默认值已经设置</string>
+    <string name="seekbar_default_string">@string/default_string</string>
 
     <!-- Navigation bar -->
     <string name="nav_bar_title">导航栏</string>
@@ -704,6 +708,28 @@
     <string name="no_iconpacks_summary">没有安装图标包</string>
     <string name="dialog_pick_iconpack_title">选择图标包</string>
     <string name="default_iconpack_title">默认图标</string>
+    <string name="slim_recents_corner_radius_title">使用圆角的卡片</string>
+    <string name="slim_blacklist_apps_cat_title">黑名单</string>
+    <string name="slim_blacklist_apps_title">应用黑名单</string>
+    <string name="slim_blacklist_apps_summary">应用程序不能在面板中显示</string>
+    <string name="slim_blacklist_add_apps_title">添加应用</string>
+    <string name="slim_blacklist_add_apps_summary">点击这里添加，点击添加的应用程序将其删除。</string>
+
+    <!-- Slim Recent App Sidebar  -->
+    <string name="recent_app_sidebar_title">近期应用侧边栏</string>
+    <string name="recent_app_sidebar_summary">在另一边显示应用快捷方式</string>
+    <string name="use_recent_app_sidebar_title">启用应用侧边栏</string>
+    <string name="use_recent_app_sidebar_summary">在另一边显示应用快捷方式</string>
+    <string name="recent_app_sidebar_content_title">侧边栏内容</string>
+    <string name="recent_app_sidebar_content_summary">配置应用侧边栏的内容</string>
+    <string name="recent_app_sidebar_style_title">侧边栏样式</string>
+    <string name="recent_app_sidebar_style_summary">改变边栏的外观</string>
+    <string name="recent_app_sidebar_hide_labels_title">隐藏图标标签</string>
+    <string name="recent_app_sidebar_label_color_title">标签颜色</string>
+    <string name="recent_app_sidebar_bg_color_title">背景颜色</string>
+    <string name="recent_app_sidebar_scale_title">尺寸</string>
+    <string name="recent_app_sidebar_open_simultaneously_title">同时打开近期</string>
+    <string name="recent_app_sidebar_open_simultaneously_summary">通过禁用这个来减少近期的延迟</string>
 
     <!-- Color picker -->
     <string name="dialog_color_picker">选色器</string>
