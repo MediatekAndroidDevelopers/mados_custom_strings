@@ -308,6 +308,10 @@
 
     <!-- Seekbar -->
     <string name="default_string">По умолчанию</string>
+    <string name="seekbar_no_default_value">Значение по умолчанию не задано</string>
+    <string name="seekbar_default_value_set">Значение установлено по умолчанию <xliff:g id="number">%d</xliff:g></string>
+    <string name="seekbar_default_value_already_set">Значение по умолчанию уже задано</string>
+    <string name="seekbar_default_string">@string/default_string</string>
 
     <!-- Navigation bar -->
     <string name="nav_bar_title">Панель навигации</string>
@@ -632,6 +636,9 @@
     <string name="quick_settings_vibrate_title">Вибрация при прикосновении</string>
     <string name="quick_settings_vibrate_summary">Вибрировать при прикосновении к плиткам</string>
 
+	<!-- Quicks settings background alpha -->
+    <string name="qs_alpha_title">Прозрачность фона быстрых настроек</string>
+
     <!-- Lockscreen -->
     <string name="mad_lockscreen_settings_summary">Настройки экрана блокировки</string>
     <!-- Lockscreen items clock, date, alarm text -->
@@ -701,6 +708,28 @@
     <string name="no_iconpacks_summary">Наборы иконок не установлены</string>
     <string name="dialog_pick_iconpack_title">Выбрать набор иконок</string>
     <string name="default_iconpack_title">Иконки по умолчанию</string>
+    <string name="slim_recents_corner_radius_title">Закруглённые углы для карточек</string>
+    <string name="slim_blacklist_apps_cat_title">Чёрный список</string>
+    <string name="slim_blacklist_apps_title">Чёрный список приложений</string>
+    <string name="slim_blacklist_apps_summary">Скрываемые в панели приложения</string>
+    <string name="slim_blacklist_add_apps_title">Добавить приложение</string>
+    <string name="slim_blacklist_add_apps_summary">Тапните здесь для добавления, тапните на приложение для удаления</string>
+
+    <!-- Slim Recent App Sidebar  -->
+    <string name="recent_app_sidebar_title">Боковая панель недавних приложений</string>
+    <string name="recent_app_sidebar_summary">Показывать ярлыки приложений с другого края</string>
+    <string name="use_recent_app_sidebar_title">Включить боковую панель приложений</string>
+    <string name="use_recent_app_sidebar_summary">Показывать ярлыки приложений с другого края</string>
+    <string name="recent_app_sidebar_content_title">Содержимое боковой панели</string>
+    <string name="recent_app_sidebar_content_summary">Настроить содержимое боковой панели приложений</string>
+    <string name="recent_app_sidebar_style_title">Стиль боковой панели</string>
+    <string name="recent_app_sidebar_style_summary">Сменить внешний вид боковой панели</string>
+    <string name="recent_app_sidebar_hide_labels_title">Скрыть подписи иконок</string>
+    <string name="recent_app_sidebar_label_color_title">Свет подписей</string>
+    <string name="recent_app_sidebar_bg_color_title">Цвет фона</string>
+    <string name="recent_app_sidebar_scale_title">Размер</string>
+    <string name="recent_app_sidebar_open_simultaneously_title">Открывать одновременно с недавними</string>
+    <string name="recent_app_sidebar_open_simultaneously_summary">Для уменьшения задержки открытия недавних выключите это</string>
 
     <!-- Color picker -->
     <string name="dialog_color_picker">Выбор цвета</string>
@@ -835,5 +864,10 @@
     <string name="teal">По умолчанию</string>
     <string name="cyan">Сине-зелёный</string>
     <string name="grey">Серый</string>
+
+    <string name="adv_theme_settings">Расширенные настройки тем</string>
+    <string name="theme_with_wallpaper">Тема зависит от обоев</string>
+    <string name="theme_with_wallpaper_summary">Тема меняется в зависимости от обоев.\nАктуально только для живых обоев.</string>
+    <string name="theme_qs_icons">Применять тему к иконкам быстрых настроек</string>
 
 </resources>
