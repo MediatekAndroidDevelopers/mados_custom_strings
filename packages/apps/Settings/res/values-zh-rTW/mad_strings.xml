@@ -42,6 +42,7 @@
     <string name="hardware_keys_action_screen_off">關閉屏幕</string>
 	
     <!-- Notification light dialogs -->
+    <string name="notification_light_enable_title">啟用通知燈</string>
     <string name="edit_light_settings">編輯燈光設置</string>
     <string name="pulse_speed_title">脈衝長度和速度</string>
     <string name="default_time">正常</string>
@@ -307,6 +308,10 @@
 
     <!-- Seekbar -->
     <string name="default_string">默認</string>
+    <string name="seekbar_no_default_value">沒有默認值設置</string>
+    <string name="seekbar_default_value_set">設默認值為 <xliff:g id="number">%d</xliff:g></string>
+    <string name="seekbar_default_value_already_set">默認值已經設置</string>
+    <string name="seekbar_default_string">@string/default_string</string>
 
     <!-- Navigation bar -->
     <string name="nav_bar_title">導航欄</string>
@@ -631,6 +636,9 @@
     <string name="quick_settings_vibrate_title">觸摸振動</string>
     <string name="quick_settings_vibrate_summary">觸摸項目時振動</string>
 
+    <!-- Quicks settings background alpha -->
+    <string name="qs_alpha_title">快速設置背景透明度</string>
+
     <!-- Lockscreen -->
     <string name="mad_lockscreen_settings_summary">自定義鎖屏</string>
     <!-- Lockscreen items clock, date, alarm text -->
@@ -700,6 +708,28 @@
     <string name="no_iconpacks_summary">沒有安裝圖標包</string>
     <string name="dialog_pick_iconpack_title">選擇圖標包</string>
     <string name="default_iconpack_title">默認圖標</string>
+    <string name="slim_recents_corner_radius_title">使用圓角的卡片</string>
+    <string name="slim_blacklist_apps_cat_title">黑名單</string>
+    <string name="slim_blacklist_apps_title">應用黑名單</string>
+    <string name="slim_blacklist_apps_summary">應用程序不能在面板中顯示</string>
+    <string name="slim_blacklist_add_apps_title">添加應用</string>
+    <string name="slim_blacklist_add_apps_summary">點擊這裡添加，點擊添加的應用程序將其刪除。</string>
+
+    <!-- Slim Recent App Sidebar  -->
+    <string name="recent_app_sidebar_title">近期應用側邊欄</string>
+    <string name="recent_app_sidebar_summary">在另一邊顯示應用快捷方式</string>
+    <string name="use_recent_app_sidebar_title">啟用應用側邊欄</string>
+    <string name="use_recent_app_sidebar_summary">在另一邊顯示應用快捷方式</string>
+    <string name="recent_app_sidebar_content_title">側邊欄內容</string>
+    <string name="recent_app_sidebar_content_summary">配置應用側邊欄的內容</string>
+    <string name="recent_app_sidebar_style_title">側邊欄樣式</string>
+    <string name="recent_app_sidebar_style_summary">改變邊欄的外觀</string>
+    <string name="recent_app_sidebar_hide_labels_title">隱藏圖標標籤</string>
+    <string name="recent_app_sidebar_label_color_title">標籤顏色</string>
+    <string name="recent_app_sidebar_bg_color_title">背景顏色</string>
+    <string name="recent_app_sidebar_scale_title">尺寸</string>
+    <string name="recent_app_sidebar_open_simultaneously_title">同時打開近期</string>
+    <string name="recent_app_sidebar_open_simultaneously_summary">通過禁用這個來減少近期的延遲</string>
 
     <!-- Color picker -->
     <string name="dialog_color_picker">選色器</string>
@@ -832,5 +862,9 @@
     <string name="cyan">摩托車</string>
     <string name="grey">灰色</string>
 
+    <string name="adv_theme_settings">高級主題設置</string>
+    <string name="theme_with_wallpaper">主題壁紙</string>
+    <string name="theme_with_wallpaper_summary">主題通過壁紙改變。 \n 僅對動態壁紙有效。</string>
+    <string name="theme_qs_icons">主題快速設置圖標</string>
+
  </resources>
- 

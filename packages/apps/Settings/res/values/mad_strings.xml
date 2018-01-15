@@ -308,6 +308,10 @@
 
     <!-- Seekbar -->
     <string name="default_string">Default</string>
+    <string name="seekbar_no_default_value">No default value set</string>
+    <string name="seekbar_default_value_set">Value set to default of <xliff:g id="number">%d</xliff:g></string>
+    <string name="seekbar_default_value_already_set">Default value is already set</string>
+    <string name="seekbar_default_string">@string/default_string</string>
 
     <!-- Navigation bar -->
     <string name="nav_bar_title">Navigation bar</string>
@@ -632,6 +636,9 @@
     <string name="quick_settings_vibrate_title">Vibrate on touch</string>
     <string name="quick_settings_vibrate_summary">Vibrate when touching tiles</string>
 
+    <!-- Quicks settings background alpha -->
+    <string name="qs_alpha_title">Quick settings background transparency</string>
+
     <!-- Lockscreen -->
     <string name="mad_lockscreen_settings_summary">Lockscreen customizations</string>
     <!-- Lockscreen items clock, date, alarm text -->
@@ -701,6 +708,28 @@
     <string name="no_iconpacks_summary">No icon packs installed</string>
     <string name="dialog_pick_iconpack_title">Pick icon pack</string>
     <string name="default_iconpack_title">Default icons</string>
+    <string name="slim_recents_corner_radius_title">Use round corners for cards</string>
+    <string name="slim_blacklist_apps_cat_title">Blacklist</string>
+    <string name="slim_blacklist_apps_title">Apps blacklist</string>
+    <string name="slim_blacklist_apps_summary">Apps to not show in the panel</string>
+    <string name="slim_blacklist_add_apps_title">Add app</string>
+    <string name="slim_blacklist_add_apps_summary">Tap here to add, tap on added app to remove it</string>
+
+    <!-- Slim Recent App Sidebar  -->
+    <string name="recent_app_sidebar_title">Recents app sidebar</string>
+    <string name="recent_app_sidebar_summary">Show app shortcuts on the other edge</string>
+    <string name="use_recent_app_sidebar_title">Enable app sidebar</string>
+    <string name="use_recent_app_sidebar_summary">Show app shortcuts on the other edge</string>
+    <string name="recent_app_sidebar_content_title">Sidebar content</string>
+    <string name="recent_app_sidebar_content_summary">Configure the content of the app sidebar</string>
+    <string name="recent_app_sidebar_style_title">Sidebar style</string>
+    <string name="recent_app_sidebar_style_summary">Change the look of the sidebar</string>
+    <string name="recent_app_sidebar_hide_labels_title">Hide icon labels</string>
+    <string name="recent_app_sidebar_label_color_title">Label color</string>
+    <string name="recent_app_sidebar_bg_color_title">Background color</string>
+    <string name="recent_app_sidebar_scale_title">Size</string>
+    <string name="recent_app_sidebar_open_simultaneously_title">Open simultaneously with recents</string>
+    <string name="recent_app_sidebar_open_simultaneously_summary">Reduce recents opening lag by disabling this</string>
 
     <!-- Color picker -->
     <string name="dialog_color_picker">Color picker</string>
@@ -835,5 +864,10 @@
     <string name="teal">Default</string>
     <string name="cyan">Scooter</string>
     <string name="grey">Grey</string>
+
+    <string name="adv_theme_settings">Advanced theme settings</string>
+    <string name="theme_with_wallpaper">Wallpaper based theme</string>
+    <string name="theme_with_wallpaper_summary">Theme changes according to wallpaper.\nThis is useful for live-wallpapers only</string>
+    <string name="theme_qs_icons">Theme quicksettings icons</string>
 
  </resources>

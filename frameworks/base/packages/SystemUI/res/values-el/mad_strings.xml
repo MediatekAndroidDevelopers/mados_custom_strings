@@ -121,4 +121,8 @@
     <string name="onthego_transparency">Διαφάνεια</string>
     <string name="onthego_front_camera">Χρήση μποστινής κάμερας</string>
     <string name="onthego_service_toggle">Αυτόματη επανεκκίνηση λειτουργίας</string>
+	
+    <!-- PiP Tile -->
+    <string name="quick_settings_pip_label">PiP</string>
+    <string name="quick_settings_pip_tile_app_na">Η εφαρμογή δεν υποστηρίζει το PiP</string>
 </resources>

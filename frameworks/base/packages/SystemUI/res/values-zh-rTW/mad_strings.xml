@@ -77,6 +77,12 @@
 
     <!-- Slim Recents app-screen-->
     <string name="recents_multiwin_nolastapp">你刪除了所有的最近任務，請從啟動器或抽屜中打開一個應用程式。 </string>
+    <string name="recents_killapp_warning">長按殺死應用程序</string>
+
+    <!-- Slim recents app sidebar queue app toast -->
+    <string name="toast_recents_queue_app">在關閉近期後啟動 %s </string>
+    <string name="toast_recents_cancel_queued_app">取消應用程序啟動</string>
+
 
     <!-- Compass QS Tile -->
     <string name="quick_settings_compass_label">指南針</string>
@@ -121,4 +127,8 @@
     <string name="onthego_transparency">透明度</string>
     <string name="onthego_front_camera">使用前置攝像頭</string>
     <string name="onthego_service_toggle">自動重啟服務</string>
- </resources>
+	
+    <!-- PiP Tile -->
+    <string name="quick_settings_pip_label">PiP</string>
+    <string name="quick_settings_pip_tile_app_na">應用程序不支持PiP</string>
+</resources>
