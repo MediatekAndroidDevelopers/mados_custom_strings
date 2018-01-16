@@ -30,6 +30,13 @@
     <string name="accessibility_quick_settings_caffeine_off">關閉咖啡因</string>
     <string name="accessibility_quick_settings_caffeine_on">開啟咖啡因</string>
 
+    <!-- QS Tile Heads Up -->
+    <string name="quick_settings_heads_up_label">浮動通知</string>
+    <string name="accessibility_quick_settings_heads_up_off">浮動通知關閉。</string>
+    <string name="accessibility_quick_settings_heads_up_on">浮動通知開啟。</string>
+    <string name="accessibility_quick_settings_heads_up_changed_off">浮動通知已關閉。</string>
+    <string name="accessibility_quick_settings_heads_up_changed_on">浮動通知已開啟。</string>
+	
     <!-- Screen pinning dialog description (for devices without navbar) -->
     <string name="screen_pinning_description_no_navbar">這將一直顯示到您取消固定。觸摸並按住返回鍵取消固定。</string>
 
