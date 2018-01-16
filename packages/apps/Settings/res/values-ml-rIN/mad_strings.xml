@@ -248,6 +248,12 @@
     <string name="TDD_Btn_SET">സജ്ജീകരിക്കുക</string>
     <!-- TDD Band Select end -->
 
+    <!-- > App Ops -->
+    <!-- [CHAR LIMIT=NONE] App ops settings title, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
+    <string name="app_ops_settings">ഹീര അപ്ലിക്കേഷൻ</string>
+    <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
+    <string name="app_ops_settings_summary">അപ്ലിക്കേഷൻ അനുമതികൾ കാണുക അല്ലെങ്കിൽ മാറ്റം വരുത്തുക </string>
+
     <!-- Substratum -->
     <string name="substratum_title">അടിത്തട്ട്‌</string>
 

@@ -261,6 +261,12 @@
     <string name="TDD_Btn_SET">Aplicar</string>
     <!-- TDD Band Select end -->
 
+    <!-- > App Ops -->
+    <!-- [CHAR LIMIT=NONE] App ops settings title, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
+    <string name="app_ops_settings">Operações das Aplicações</string>
+    <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
+    <string name="app_ops_settings_summary">Ver ou mudar permissões das aplicações</string>
+
     <!-- Substratum -->
     <string name="substratum_title">Temas</string>
     <!-- Manage applications: show substratum overlays -->
