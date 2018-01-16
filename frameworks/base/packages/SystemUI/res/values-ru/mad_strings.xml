@@ -30,6 +30,13 @@
     <string name="accessibility_quick_settings_caffeine_off">Кофеин выкл.</string>
     <string name="accessibility_quick_settings_caffeine_on">Кофеин вкл.</string>
 
+    <!-- QS Tile Heads Up -->
+    <string name="quick_settings_heads_up_label">Уведомления</string>
+    <string name="accessibility_quick_settings_heads_up_off">Уведомления выключены</string>
+    <string name="accessibility_quick_settings_heads_up_on">Уведомления включены</string>
+    <string name="accessibility_quick_settings_heads_up_changed_off">Уведомления выключены.</string>
+    <string name="accessibility_quick_settings_heads_up_changed_on">Уведомления включены.</string>
+
     <!-- Screen pinning dialog description (for devices without navbar) -->
     <string name="screen_pinning_description_no_navbar">Будет держать на виду пока Вы не открепите. Зажмите и удерживайте кнопку Назад для открепления.</string>
 
