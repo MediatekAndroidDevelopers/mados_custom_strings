@@ -886,4 +886,7 @@
     <string name="navigation_ring_summary">Customize navigation ring target behavior</string>
     <string name="navigation_ring_message">Tap the edit icon to open the navigation ring for editing.\n\nSelect a target to configure its behavior.\n\nTap the check mark icon to save your changes, or restore to reset the settings to defaults.</string>
 
- </resources>
+  <!-- unlink notification volume -->
+  <string name="link_volume_option_title">Link ring and notification volume</string>
+
+</resources>
