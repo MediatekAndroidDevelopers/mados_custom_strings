@@ -841,4 +841,7 @@
     <string name="cyan">Scooter</string>
     <string name="grey">Grey</string>
 
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Gyors feloldás</string>
+    <string name="unlock_quick_unlock_control_summary">Automatikus feloldás a helyes jelszó/PIN kód megadása után (OK nem szükséges)\nFigyelem: csak akkor működik, ha a számjegyek száma helyes!</string>
  </resources>

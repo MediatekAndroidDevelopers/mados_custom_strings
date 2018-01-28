@@ -802,4 +802,8 @@
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">Menu przycisku zasilania na ekranie blokady</string>
     <string name="lockscreen_enable_power_menu_summary">Ta opcja blokuje wyświetlanie menu przycisku zasilania na zabezpieczonym ekranie blokady</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Szybkie odblokowywanie</string>
+    <string name="unlock_quick_unlock_control_summary">Odblokuje ekran od razu po wpisaniu poprawnego PINu (nie trzeba dodatkowo naciskać OK)\nUwaga: działa tylko, jeśli poniżej prawidłowo określono długość PINu</string>
 </resources>

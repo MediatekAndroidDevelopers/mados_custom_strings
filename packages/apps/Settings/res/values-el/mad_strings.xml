@@ -870,5 +870,8 @@
     <string name="theme_with_wallpaper">Θέμα που βασίζεται σε ταπετσαρία</string>
     <string name="theme_with_wallpaper_summary">Το θέμα αλλάζει σύμφωνα με την ταπετσαρία.\nΑυτό είναι χρήσιμο μόνο για ζωντανές ταπετσαρίες</string>
     <string name="theme_qs_icons">Θέμα εικονιδίων γρήγορης ρύθμισης</string>
-	
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Γρήγορο ξεκλείδωμα</string>
+    <string name="unlock_quick_unlock_control_summary">Αυτόματο ξεκλείδωμα οταν εισαχθεί ο σωστός κωδικός PIN \nΣημείωση: Λειτουργει μόνο όταν επιλέξετε τον σωστό αριθμό ψηφίων PIN !</string>
  </resources>

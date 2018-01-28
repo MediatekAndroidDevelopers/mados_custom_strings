@@ -763,4 +763,7 @@
     <string name="status_bar_show_image">Mostra immagine</string>
     <string name="weather_title">Weather</string>
 
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Sblocco rapido</string>
+    <string name="unlock_quick_unlock_control_summary">Sblocca automaticamente non appena il PIN corretto è stato inserito (senza premere "OK")\nNote: funziona solo se il numero sottostante di cifre è impostato correttamente!</string>
 </resources>

@@ -808,5 +808,8 @@
      <!-- Power menu on secure lockscreen -->
      <string name="lockscreen_enable_power_menu_title">Mostrar menú de apagado en pantalla bloqueo</string>
      <string name="lockscreen_enable_power_menu_summary">Esta opción desactivará el menú de apagado en la pantalla de bloqueo</string>
-	
+
+	<!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Desbloqueo rápido</string>
+    <string name="unlock_quick_unlock_control_summary">Desbloquear automáticamente cuando se haya introducido el PIN (no se requiere presionar OK) \nNota:¡sólo funcionará con PIN de 4 dígitos!</string>
 </resources>

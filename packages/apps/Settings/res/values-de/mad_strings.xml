@@ -725,4 +725,8 @@
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">Zeige Ein/Aus-Menü auf sicherem Sperrbildschirm</string>
     <string name="lockscreen_enable_power_menu_summary">Diese Option deaktiviert das Ein/Aus-Menü auf einem gesicherten Sperrbildschirm</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Schnelles Entsperren</string>
+    <string name="unlock_quick_unlock_control_summary">Automatisches Entsperren nach der Eingabe des PINs (OK Taste muss nicht mehr gedrückt werden)\nAnmerkung: Funktioniert nur wenn die richtige PIN-Länge festgelegt ist</string>
  </resources>
