@@ -876,7 +876,32 @@
     <string name="theme_with_wallpaper_summary">Тема меняется в зависимости от обоев.\nАктуально только для живых обоев.</string>
     <string name="theme_qs_icons">Применять тему к иконкам быстрых настроек</string>
 
+    <!-- Navigation Ring Targets -->
+    <string name="navigation_ring_title">Цели навигационных колец</string>
+    <string name="navigation_ring_swipe_enable_title">Свайп вверх для навигационных колец</string>
+    <string name="navigation_ring_swipe_enable_summary">Свайп вверх по навигационной панели показывает навигационные кольца</string>
+    <string name="navigation_ring_longpress_enable_title">Долгое нажатие Домой для навигационного кольца</string>
+    <string name="navigation_ring_longpress_enable_summary">Долгое нажатие Домой в навигационной панели показывает навигационные кольца</string>
+    <string name="navigation_ring_customize">Действия</string>
+    <string name="navigation_ring_summary">Настроить поведение целей навигационного кольца</string>
+    <string name="navigation_ring_message">Тапните иконку редактирования для открытия редактирования навигационного кольца.\n\nВыберите цель для настройки её поведения.\n\nТапните на галочку для сохранения или "Восстановить" для сброса настроек к умолчательным.</string>
+
+    <!-- unlink notification volume -->
+    <string name="link_volume_option_title">Связать громкость звонка и уведомлений</string>
+
+    <string name="increasing_ring_volume_option_title">Увеличить громкость звонка</string>
+    <string name="increasing_ring_ramp_up_title">Время нарастания громкости звонка</string>
+
+    <string name="ramp_up_time_ten">10сек.</string>
+    <string name="ramp_up_time_twenty">20сек.</string>
+    <string name="ramp_up_time_thirty">30сек.</string>
+    <string name="ramp_up_time_sixty">60сек.</string>
+
+    <!-- Scramble pin layout -->
+    <string name="unlock_scramble_pin_layout_title">Шифровать расположение</string>
+    <string name="unlock_scramble_pin_layout_summary">Шифровать расположение ПИНа при разблокировке устройства</string>
+
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
-    <string name="unlock_quick_unlock_control_summary">Автоматически разблокирует после введения верного ПИНа (необязательно нажимать OK)\nПримечание: работает только если правильно введено указаное ниже число цифр!</string>
+    <string name="unlock_quick_unlock_control_summary">Автоматически разблокирует после введения верного ПИНа/пароля</string>
 </resources>
