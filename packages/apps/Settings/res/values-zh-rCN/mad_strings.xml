@@ -873,4 +873,7 @@
     <string name="theme_with_wallpaper_summary">主题通过壁纸改变。 \n 仅对动态壁纸有效。</string>
     <string name="theme_qs_icons">主题快速设置图标</string>
 
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">快速解锁</string>
+    <string name="unlock_quick_unlock_control_summary">输入正确的PIN后自动解锁（按确定不需要）\n注意：只有下面的数字位置正确设置才能工作！</string>
  </resources> 

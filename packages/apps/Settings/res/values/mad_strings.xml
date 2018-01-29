@@ -876,4 +876,32 @@
     <string name="theme_with_wallpaper_summary">Theme changes according to wallpaper.\nThis is useful for live-wallpapers only</string>
     <string name="theme_qs_icons">Theme quicksettings icons</string>
 
- </resources>
+    <!-- Navigation Ring Targets -->
+    <string name="navigation_ring_title">Navigation ring targets</string>
+    <string name="navigation_ring_swipe_enable_title">Swipe-up navigation rings</string>
+    <string name="navigation_ring_swipe_enable_summary">Swipe-up on your navigationbar to show the navrings</string>
+    <string name="navigation_ring_longpress_enable_title">Longpress home navigation rings</string>
+    <string name="navigation_ring_longpress_enable_summary">Longpress home on your navigationbar to show the navrings</string>
+    <string name="navigation_ring_customize">Target actions</string>
+    <string name="navigation_ring_summary">Customize navigation ring target behavior</string>
+    <string name="navigation_ring_message">Tap the edit icon to open the navigation ring for editing.\n\nSelect a target to configure its behavior.\n\nTap the check mark icon to save your changes, or restore to reset the settings to defaults.</string>
+
+  <!-- unlink notification volume -->
+  <string name="link_volume_option_title">Link ring and notification volume</string>
+
+    <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
+    <string name="increasing_ring_ramp_up_title">Ramp-up time to ring volume</string>
+
+    <string name="ramp_up_time_ten">10s</string>
+    <string name="ramp_up_time_twenty">20s</string>
+    <string name="ramp_up_time_thirty">30s</string>
+    <string name="ramp_up_time_sixty">60s</string>
+
+    <!-- Scramble pin layout -->
+    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+
+    <!-- Quick unlock -->
+   <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+   <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+</resources>
