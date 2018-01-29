@@ -872,6 +872,31 @@
     <string name="theme_with_wallpaper">主題壁紙</string>
     <string name="theme_with_wallpaper_summary">主題通過壁紙改變。 \n 僅對動態壁紙有效。</string>
     <string name="theme_qs_icons">主題快速設置圖標</string>
+	
+    <!-- Navigation Ring Targets -->
+    <string name="navigation_ring_title">導航環目標</string>
+    <string name="navigation_ring_swipe_enable_title">向上滑動導航環</string>
+    <string name="navigation_ring_swipe_enable_summary">在導航欄上滑動以顯示導航</string>
+    <string name="navigation_ring_longpress_enable_title">長按主頁導航環</string>
+    <string name="navigation_ring_longpress_enable_summary">長按導航欄上的首頁以顯示導航</string>
+    <string name="navigation_ring_customize">行動目標</string>
+    <string name="navigation_ring_summary">自定義導航環目標行為</string>
+    <string name="navigation_ring_message">點擊編輯圖標，打開要編輯的導航環。\n\n選擇一個目標來配置其行為。\n\n輕觸复選標記圖標以保存更改，或恢復設置重置為默認值。</string>
+
+    <!-- unlink notification volume -->
+    <string name="link_volume_option_title">鏈接鈴聲和通知音量</string>
+
+    <string name="increasing_ring_volume_option_title">增加鈴聲音量</string>
+    <string name="increasing_ring_ramp_up_title">響鈴時間</string>
+
+    <string name="ramp_up_time_ten">10s</string>
+    <string name="ramp_up_time_twenty">20s</string>
+    <string name="ramp_up_time_thirty">30s</string>
+    <string name="ramp_up_time_sixty">60s</string>
+
+    <!-- Scramble pin layout -->
+    <string name="unlock_scramble_pin_layout_title">加密佈局</string>
+    <string name="unlock_scramble_pin_layout_summary">在解鎖設備時加密PIN碼佈局</string>
 
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">快速解鎖</string>
