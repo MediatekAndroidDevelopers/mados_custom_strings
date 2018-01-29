@@ -728,5 +728,5 @@
 
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Schnelles Entsperren</string>
-    <string name="unlock_quick_unlock_control_summary">Automatisches Entsperren nach der Eingabe des PINs (OK Taste muss nicht mehr gedrückt werden)\nAnmerkung: Funktioniert nur wenn die richtige PIN-Länge festgelegt ist</string>
- </resources>
+    <string name="unlock_quick_unlock_control_summary">Automatisches Entsperren nach der Eingabe des PINs (OK Taste muss nicht mehr gedrückt werden)</string>
+</resources>

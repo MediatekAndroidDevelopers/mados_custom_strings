@@ -805,5 +805,5 @@
 
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Szybkie odblokowywanie</string>
-    <string name="unlock_quick_unlock_control_summary">Odblokuje ekran od razu po wpisaniu poprawnego PINu (nie trzeba dodatkowo naciskać OK)\nUwaga: działa tylko, jeśli poniżej prawidłowo określono długość PINu</string>
+    <string name="unlock_quick_unlock_control_summary">Odblokuje ekran od razu po wpisaniu poprawnego PINu (nie trzeba dodatkowo naciskać OK)</string>
 </resources>

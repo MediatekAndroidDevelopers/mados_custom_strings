@@ -873,5 +873,5 @@
 
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Γρήγορο ξεκλείδωμα</string>
-    <string name="unlock_quick_unlock_control_summary">Αυτόματο ξεκλείδωμα οταν εισαχθεί ο σωστός κωδικός PIN \nΣημείωση: Λειτουργει μόνο όταν επιλέξετε τον σωστό αριθμό ψηφίων PIN !</string>
- </resources>
+    <string name="unlock_quick_unlock_control_summary">Αυτόματο ξεκλείδωμα οταν εισαχθεί ο σωστός κωδικός PIN</string>
+</resources>

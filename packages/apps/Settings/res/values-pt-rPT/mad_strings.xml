@@ -839,5 +839,5 @@
 
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Desbloqueio rápido</string>
-    <string name="unlock_quick_unlock_control_summary">Desbloquear automaticamente quando o PIN ou Palavra-passe correta é inserida (não é necessário pressionar OK)\nNota: Apenas para PINs com 4 dígitos!</string>
- </resources>
+    <string name="unlock_quick_unlock_control_summary">Desbloquear automaticamente quando o PIN ou Palavra-passe correta é inserida (não é necessário pressionar OK)</string>
+</resources>

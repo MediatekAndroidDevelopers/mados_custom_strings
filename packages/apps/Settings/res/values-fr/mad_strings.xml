@@ -467,5 +467,4 @@
 
     <!-- MTK schedule power on/off -->
     <string name="schedule_power_on_off_settings_title">Réveil &amp; extinction programmés</string>
-
 </resources>
