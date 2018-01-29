@@ -138,4 +138,13 @@
     <!-- PiP Tile -->
     <string name="quick_settings_pip_label">PiP</string>
     <string name="quick_settings_pip_tile_app_na">應用程序不支持PiP</string>
+
+    <!-- Navigation ring target shortcuts -->
+    <string name="navigation_ring_title">快速啟動快捷方式</string>
+    <string name="navring_target_reset_message">刪除所有用戶創建的導航環快捷方式，並恢復到默認？</string>
+    <string name="navring_target_reset">導航環快捷鍵重置為默認值</string>
+    <string name="navring_action_none">無</string>
+    <string name="navring_choose_action_title">選擇動作</string>
+    <string name="select_application">選擇應用程序</string>
+    <string name="lockscreen_target_empty">空</string>
 </resources>
