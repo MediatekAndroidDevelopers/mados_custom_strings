@@ -138,4 +138,13 @@
     <!-- PiP Tile -->
     <string name="quick_settings_pip_label">Картинка в картинке</string>
     <string name="quick_settings_pip_tile_app_na">Приложение не поддерживает режим картинки в картинке</string>
+
+    <!-- Navigation ring target shortcuts -->
+    <string name="navigation_ring_title">Ярлыки быстрого запуска</string>
+    <string name="navring_target_reset_message">Удалить все пользовательские ярлыки навигационного кольца и восстановить настройки по умолчанию?</string>
+    <string name="navring_target_reset">Ярлыки навигацинного кольца сброшены к значениям по умолчанию.</string>
+    <string name="navring_action_none">Нет</string>
+    <string name="navring_choose_action_title">Выбрать действие</string>
+    <string name="select_application">Выбрать приложение</string>
+    <string name="lockscreen_target_empty">Пусто</string>
 </resources>
