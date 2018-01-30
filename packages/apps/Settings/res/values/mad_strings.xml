@@ -901,7 +901,13 @@
     <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
     <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
 
-    <!-- Quick unlock -->
+   <!-- Quick unlock -->
    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+
+   <!-- dual sim ringtone -->
+    <string name="sim_ringtone_title">SIM %d ringtone</string>
+    <string name="category_sounds">Sounds</string>
+    <string name="ringtone_2_title">Ringtone for second sim</string>
+
 </resources>

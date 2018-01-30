@@ -765,5 +765,5 @@
 
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Sblocco rapido</string>
-    <string name="unlock_quick_unlock_control_summary">Sblocca automaticamente non appena il PIN corretto è stato inserito (senza premere "OK")\nNote: funziona solo se il numero sottostante di cifre è impostato correttamente!</string>
+    <string name="unlock_quick_unlock_control_summary">Sblocca automaticamente non appena il PIN corretto è stato inserito (senza premere "OK")</string>
 </resources>

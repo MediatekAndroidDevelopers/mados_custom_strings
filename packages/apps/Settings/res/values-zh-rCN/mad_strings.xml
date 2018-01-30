@@ -872,8 +872,33 @@
     <string name="theme_with_wallpaper">主题壁纸</string>
     <string name="theme_with_wallpaper_summary">主题通过壁纸改变。 \n 仅对动态壁纸有效。</string>
     <string name="theme_qs_icons">主题快速设置图标</string>
+	
+    <!-- Navigation Ring Targets -->
+    <string name="navigation_ring_title">导航环目标</string>
+    <string name="navigation_ring_swipe_enable_title">向上滑动导航环</string>
+    <string name="navigation_ring_swipe_enable_summary">在导航栏上滑动以显示导航</string>
+    <string name="navigation_ring_longpress_enable_title">长按主页导航环</string>
+    <string name="navigation_ring_longpress_enable_summary">长按导航栏上的首页以显示导航</string>
+    <string name="navigation_ring_customize">行动目标</string>
+    <string name="navigation_ring_summary">自定义导航环目标行为</string>
+    <string name="navigation_ring_message">点击编辑图标，打开要编辑的导航环。\n\n选择一个目标来配置其行为。\n\n轻触复选标记图标以保存更改，或恢复设置重置为默认值。</string>
+
+    <!-- unlink notification volume -->
+    <string name="link_volume_option_title">链接铃声和通知音量</string>
+
+    <string name="increasing_ring_volume_option_title">增加铃声音量</string>
+    <string name="increasing_ring_ramp_up_title">响铃时间</string>
+
+    <string name="ramp_up_time_ten">10s</string>
+    <string name="ramp_up_time_twenty">20s</string>
+    <string name="ramp_up_time_thirty">30s</string>
+    <string name="ramp_up_time_sixty">60s</string>
+
+    <!-- Scramble pin layout -->
+    <string name="unlock_scramble_pin_layout_title">加密布局</string>
+    <string name="unlock_scramble_pin_layout_summary">在解锁设备时加密PIN码布局</string>
 
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">快速解锁</string>
-    <string name="unlock_quick_unlock_control_summary">输入正确的PIN后自动解锁（按确定不需要）\n注意：只有下面的数字位置正确设置才能工作！</string>
- </resources> 
+    <string name="unlock_quick_unlock_control_summary">输入正确的PIN后自动解锁（按确定不需要</string>
+</resources> 

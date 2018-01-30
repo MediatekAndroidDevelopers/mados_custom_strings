@@ -456,5 +456,4 @@
 
     <!-- MTK schedule power on/off -->
     <string name="schedule_power_on_off_settings_title">Encesa i apagada programada</string>
-
 </resources>
