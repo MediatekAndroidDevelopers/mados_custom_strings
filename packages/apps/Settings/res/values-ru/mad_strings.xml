@@ -904,4 +904,10 @@
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
     <string name="unlock_quick_unlock_control_summary">Автоматически разблокирует после введения верного ПИНа/пароля</string>
+
+   <!-- dual sim ringtone -->
+    <string name="sim_ringtone_title">Звонок %d-й SIM-карты</string>
+    <string name="category_sounds">Звуки</string>
+    <string name="ringtone_2_title">Звонок для второй SIM-карты</string>
+
 </resources>
