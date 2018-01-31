@@ -907,4 +907,8 @@
     <string name="category_sounds">声音</string>
     <string name="ringtone_2_title">第二张SIM卡铃声</string>
 
+    <!-- LongPress Power Torch -->
+    <string name="long_press_power_for_torch_title">长按电筒</string>
+    <string name="long_press_power_for_torch_summary">灭屏状态下长按电源按钮开关手电筒</string>
+
 </resources> 
