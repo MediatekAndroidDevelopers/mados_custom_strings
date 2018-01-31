@@ -910,4 +910,8 @@
     <string name="category_sounds">Звуки</string>
     <string name="ringtone_2_title">Звонок для второй SIM-карты</string>
 
+   <!-- LongPress Power Torch -->
+   <string name="long_press_power_for_torch_title">Фонарик по кнопке питания</string>
+   <string name="long_press_power_for_torch_summary">Долгое нажатие кнопки питания при выключенном экране включает фонарик</string>
+
 </resources>
