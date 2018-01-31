@@ -910,4 +910,8 @@
     <string name="category_sounds">Sounds</string>
     <string name="ringtone_2_title">Ringtone for second sim</string>
 
+   <!-- LongPress Power Torch -->
+   <string name="long_press_power_for_torch_title">LongPress Power Torch</string>
+   <string name="long_press_power_for_torch_summary">Long pressing power button with screen off toggles torch on/off</string>
+
 </resources>

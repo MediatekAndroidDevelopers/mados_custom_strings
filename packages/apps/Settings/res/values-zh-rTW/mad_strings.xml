@@ -900,5 +900,11 @@
 
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">快速解鎖</string>
-    <string name="unlock_quick_unlock_control_summary">輸入正確的PIN後自動解鎖（按確定不需要</string>
+    <string name="unlock_quick_unlock_control_summary">當輸入正確的PIN/密碼時自動解鎖</string>
+
+    <!-- dual sim ringtone -->
+    <string name="sim_ringtone_title">SIM %d 鈴聲</string>
+    <string name="category_sounds">聲音</string>
+    <string name="ringtone_2_title">第二張sim卡鈴聲</string>
+
 </resources>
