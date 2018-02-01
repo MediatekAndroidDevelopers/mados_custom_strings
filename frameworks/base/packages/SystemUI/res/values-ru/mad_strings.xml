@@ -147,4 +147,28 @@
     <string name="navring_choose_action_title">Выбрать действие</string>
     <string name="select_application">Выбрать приложение</string>
     <string name="lockscreen_target_empty">Пусто</string>
+
+    <!-- Screenrecord Notification Ticker -->
+    <string name="screenrecord_notif_ticker">Экран записывается</string>
+    <string name="screenrecord_notif_final_ticker">Экран записан успешно</string>
+    <!-- Screenrecord notification title -->
+    <string name="screenrecord_notif_title">Запись экрана</string>
+    <!-- Screenrecord notification action: Stop -->
+    <string name="screenrecord_notif_stop">Стоп</string>
+    <string name="screenrecord_notif_completed">Экран записан успешно</string>
+    <!-- Screenrecord notification action: show/hide pointer -->
+    <string name="screenrecord_notif_pointer_on">Показывать указатель</string>
+    <string name="screenrecord_notif_pointer_off">Скрывать указатель</string>
+    <!-- Screen record notification error title -->
+    <string name="screenrecord_notif_error">Невозможно записать экран</string>
+    <string name="notification_channel_screenrecord">Записи экрана</string>
+
+    <string name="screenrecord_hide_hint">Спрятать подсказку</string>
+    <string name="screenrecord_show_hint">Показать подсказку</string>
+
+    <!-- Screenshot QS tile -->
+    <string name="quick_settings_screenrecord_label">Запись экрана</string>
+    <string name="quick_settings_screenrecord_lq_label">Запись в 480p</string>
+    <string name="quick_settings_screenrecord_mq_label">Запись в 720p</string>
+    <string name="quick_settings_screenrecord_hq_label">Запись в 720p+</string>
 </resources>
