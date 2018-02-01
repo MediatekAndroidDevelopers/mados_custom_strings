@@ -147,4 +147,28 @@
     <string name="navring_choose_action_title">选择动作</string>
     <string name="select_application">选择应用程序</string>
     <string name="lockscreen_target_empty">空</string>
+
+    <!-- Screenrecord Notification Ticker -->
+    <string name="screenrecord_notif_ticker">正在录制屏幕</string>
+    <string name="screenrecord_notif_final_ticker">屏幕录制成功</string>
+    <!-- Screenrecord notification title -->
+    <string name="screenrecord_notif_title">录制屏幕</string>
+    <!-- Screenrecord notification action: Stop -->
+    <string name="screenrecord_notif_stop">停止</string>
+    <string name="screenrecord_notif_completed">屏幕录制成功</string>
+    <!-- Screenrecord notification action: show/hide pointer -->
+    <string name="screenrecord_notif_pointer_on">显示指针</string>
+    <string name="screenrecord_notif_pointer_off">隐藏指针</string>
+    <!-- Screen record notification error title -->
+    <string name="screenrecord_notif_error">无法录制屏幕</string>
+    <string name="notification_channel_screenrecord">屏幕录制</string>
+
+    <string name="screenrecord_hide_hint">隐藏提示</string>
+    <string name="screenrecord_show_hint">显示提示</string>
+
+    <!-- Screenshot QS tile -->
+    <string name="quick_settings_screenrecord_label">屏幕录制</string>
+    <string name="quick_settings_screenrecord_lq_label">屏幕录制 480p</string>
+    <string name="quick_settings_screenrecord_mq_label">屏幕录制 720p</string>
+    <string name="quick_settings_screenrecord_hq_label">屏幕录制 720p+</string>
 </resources>
