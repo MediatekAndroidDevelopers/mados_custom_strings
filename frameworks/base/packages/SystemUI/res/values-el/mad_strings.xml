@@ -131,4 +131,13 @@
     <!-- PiP Tile -->
     <string name="quick_settings_pip_label">PiP</string>
     <string name="quick_settings_pip_tile_app_na">Η εφαρμογή δεν υποστηρίζει το PiP</string>
+	
+   <!-- Navigation ring target shortcuts -->
+    <string name="navigation_ring_title">Συντομεύσεις γρήγορης εκκίνησης</string>
+    <string name="navring_target_reset_message">Διαγράψτε όλες τις συντομεύσεις δακτυλίων πλοήγησης που έχουν δημιουργήσει οι χρήστες και επαναφέρετε τις προεπιλεγμένες ρυθμίσεις?</string>
+    <string name="navring_target_reset">Επαναφορά συντομεύσεων πλοήγησης</string>
+    <string name="navring_action_none">Καμία</string>
+    <string name="navring_choose_action_title">Επιλέξτε δράση</string>
+    <string name="select_application">Επιλέξτε εφαρμογή</string>
+    <string name="lockscreen_target_empty">Κενό</string>
 </resources>
