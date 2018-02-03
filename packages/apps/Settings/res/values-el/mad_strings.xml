@@ -874,4 +874,8 @@
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Γρήγορο ξεκλείδωμα</string>
     <string name="unlock_quick_unlock_control_summary">Αυτόματο ξεκλείδωμα οταν εισαχθεί ο σωστός κωδικός PIN</string>
+	
+    <!-- unlink notification volume -->
+    <string name="link_volume_option_title">Ένωση έντασης ήχου κλήσης και ήχου ειδοποίησης</string>
+	
 </resources>
