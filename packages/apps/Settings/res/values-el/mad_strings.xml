@@ -874,4 +874,29 @@
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Γρήγορο ξεκλείδωμα</string>
     <string name="unlock_quick_unlock_control_summary">Αυτόματο ξεκλείδωμα οταν εισαχθεί ο σωστός κωδικός PIN</string>
+	
+	<!-- dual sim ringtone -->
+    <string name="sim_ringtone_title">SIM %d Ήχος</string>
+    <string name="category_sounds">Ηχοι</string>
+    <string name="ringtone_2_title">Ηχος για την δέυτερη κάρτα sim</string>
+	
+    <!-- LongPress Power Torch -->
+    <string name="long_press_power_for_torch_title">φακός κατά το παρατεταμένο πάτημα του πλήκτρου ενεργοποίησης</string>
+    <string name="long_press_power_for_torch_summary">Το παρατεταμένο πάτημα του πλήκτρου ενεργοποίησης με κλειστή την οθόνη θα ανοίγει/κλείνει τον φακό</string>
+	
+    <!-- unlink notification volume -->
+    <string name="link_volume_option_title">Ένωση έντασης ήχου κλήσης και ήχου ειδοποίησης</string>
+	
+    <string name="increasing_ring_volume_option_title">Αυξηση έντασης ήχου κλήσης</string>
+    <string name="increasing_ring_ramp_up_title">Χρόνος αύξησης του ήχου κλήσης</string>
+
+    <string name="ramp_up_time_ten">10s</string>
+    <string name="ramp_up_time_twenty">20s</string>
+    <string name="ramp_up_time_thirty">30s</string>
+    <string name="ramp_up_time_sixty">60s</string>
+	
+	<!-- Scramble pin layout -->
+    <string name="unlock_scramble_pin_layout_title">Διάταξη ανακατώματος</string>
+    <string name="unlock_scramble_pin_layout_summary">Αναδιάταξη PIN κατά το ξεκλείδωμα της συσκευής</string>
+	
 </resources>
