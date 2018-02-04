@@ -147,29 +147,28 @@
     <string name="navring_choose_action_title">Επιλέξτε δράση</string>
     <string name="select_application">Επιλέξτε εφαρμογή</string>
     <string name="lockscreen_target_empty">Κενό</string>
-	
-	
-+    <!-- Screenrecord Notification Ticker -->
-+    <string name="screenrecord_notif_ticker">Η οθόνη καταγράφεται</string>
-+    <string name="screenrecord_notif_final_ticker">Η οθόνη καταγράφηκε με επιτυχία</string>
-+    <!-- Screenrecord notification title -->
-+    <string name="screenrecord_notif_title">Εγγραφή οθόνης</string>
-+    <!-- Screenrecord notification action: Stop -->
-+    <string name="screenrecord_notif_stop">Τερμάτισε</string>
-+    <string name="screenrecord_notif_completed">Η οθόνη καταγράφηκε με επιτυχία</string>
-+    <!-- Screenrecord notification action: show/hide pointer -->
-+    <string name="screenrecord_notif_pointer_on">Εμφάνιση δείκτη</string>
-+    <string name="screenrecord_notif_pointer_off">Απόκρυψη δείκτη</string>
-+    <!-- Screen record notification error title -->
-+    <string name="screenrecord_notif_error">Αποτυχία εγγραφής οθόνης</string>
-+    <string name="notification_channel_screenrecord">Εγγραφές οθόνης</string>
-+
-+    <string name="screenrecord_hide_hint">Απόκρυψη ίχνους</string>
-+    <string name="screenrecord_show_hint">Εμφάνιση ίχνους</string>
-+
-+    <!-- Screenshot QS tile -->
-+    <string name="quick_settings_screenrecord_label">Εγγραφή οθόνης</string>
-+    <string name="quick_settings_screenrecord_lq_label">Εγγραφή οθόνης 480p</string>
-+    <string name="quick_settings_screenrecord_mq_label">Εγγραφή οθόνης 720p</string>
-+    <string name="quick_settings_screenrecord_hq_label">Εγγραφή οθόνης 720p+</string>
+
+    <!-- Screenrecord Notification Ticker -->
+    <string name="screenrecord_notif_ticker">Η οθόνη καταγράφεται</string>
+    <string name="screenrecord_notif_final_ticker">Η οθόνη καταγράφηκε με επιτυχία</string>
+    <!-- Screenrecord notification title -->
+    <string name="screenrecord_notif_title">Εγγραφή οθόνης</string>
+    <!-- Screenrecord notification action: Stop -->
+    <string name="screenrecord_notif_stop">Τερμάτισε</string>
+    <string name="screenrecord_notif_completed">Η οθόνη καταγράφηκε με επιτυχία</string>
+    <!-- Screenrecord notification action: show/hide pointer -->
+    <string name="screenrecord_notif_pointer_on">Εμφάνιση δείκτη</string>
+    <string name="screenrecord_notif_pointer_off">Απόκρυψη δείκτη</string>
+    <!-- Screen record notification error title -->
+    <string name="screenrecord_notif_error">Αποτυχία εγγραφής οθόνης</string>
+    <string name="notification_channel_screenrecord">Εγγραφές οθόνης</string>
+
+    <string name="screenrecord_hide_hint">Απόκρυψη ίχνους</string>
+    <string name="screenrecord_show_hint">Εμφάνιση ίχνους</string>
+
+    <!-- Screenshot QS tile -->
+    <string name="quick_settings_screenrecord_label">Εγγραφή οθόνης</string>
+    <string name="quick_settings_screenrecord_lq_label">Εγγραφή οθόνης 480p</string>
+    <string name="quick_settings_screenrecord_mq_label">Εγγραφή οθόνης 720p</string>
+    <string name="quick_settings_screenrecord_hq_label">Εγγραφή οθόνης 720p+</string>
 </resources>
