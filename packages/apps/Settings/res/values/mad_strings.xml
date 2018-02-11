@@ -914,4 +914,7 @@
    <string name="long_press_power_for_torch_title">LongPress Power Torch</string>
    <string name="long_press_power_for_torch_summary">Long pressing power button with screen off toggles torch on/off</string>
 
+    <string name="battery_image">Battery image</string>
+    <string name="battery_image_description">Show battery image in status bar</string>
+
 </resources>
