@@ -899,4 +899,6 @@
     <string name="unlock_scramble_pin_layout_title">Διάταξη ανακατώματος</string>
     <string name="unlock_scramble_pin_layout_summary">Αναδιάταξη PIN κατά το ξεκλείδωμα της συσκευής</string>
 	
+    <string name="battery_image">Εικόνα μπαταρίας</string>
+    <string name="battery_image_description">Εμφάνισε την εινόνα μπαταρίας στην γραμμή κατάστασης</string>
 </resources>
