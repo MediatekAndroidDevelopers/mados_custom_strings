@@ -917,4 +917,8 @@
     <string name="battery_image">Battery image</string>
     <string name="battery_image_description">Show battery image in status bar</string>
 
+
+    <!-- Lock screen visualizer -->
+    <string name="lockscreen_visualizer_title">Display music visualizer</string>
+
 </resources>
