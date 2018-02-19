@@ -899,4 +899,23 @@
     <string name="unlock_scramble_pin_layout_title">Διάταξη ανακατώματος</string>
     <string name="unlock_scramble_pin_layout_summary">Αναδιάταξη PIN κατά το ξεκλείδωμα της συσκευής</string>
 	
+    <string name="battery_image">Εικόνα μπαταρίας</string>
+    <string name="battery_image_description">Εμφάνισε την εικόνα μπαταρίας στην γραμμή κατάστασης</string>
+	
+	
+    <!-- Lock screen visualizer -->
+    <string name="lockscreen_visualizer_title">Εμφάνιση οπτικού εφέ μουσικής</string>
+	
+    <!-- Expanded desktop -->
+    <string name="expanded_desktop_title">Διευρυμένη επιφάνεια εργασίας</string>
+    <string name="expanded_desktop_summary">Διαμόρφωση ανά εφαρμογή της γραμμής κατάστασης και της γραμμής πλοήγησης</string>
+    <string name="expanded_hide_nothing">Καμμία απόκρυψη</string>
+    <string name="expanded_hide_status">Απόκρυψη γραμμής κατάστασηςr</string>
+    <string name="expanded_hide_navigation">Απόκρυψη γραμμής πλοήγησης</string>
+    <string name="expanded_hide_both">Απόκρυψη και των δύο</string>
+    <string name="expanded_nothing_to_show">Για να προσθέσετε μια προσαρμοσμένη ρύθμιση παραμέτρων ανά εφαρμογή για την επεκταμένη κατάσταση, ορίστε την επιλογή "Ενεργοποιημένη για όλα" στη θέση εκτός λειτουργίας</string>
+    <string name="expanded_desktop_state">Επεκταμένη κατάσταση</string>
+    <string name="expanded_enabled_for_all">Ενεργοποιήθηκε για όλα</string>
+    <string name="expanded_user_configurable">Ρυθμίσεις χρήστη</string>
+	
 </resources>

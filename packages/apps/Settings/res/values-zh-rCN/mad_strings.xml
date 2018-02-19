@@ -911,4 +911,7 @@
     <string name="long_press_power_for_torch_title">长按电筒</string>
     <string name="long_press_power_for_torch_summary">灭屏状态下长按电源按钮开关手电筒</string>
 
+    <string name="battery_image">电池图像</string>
+    <string name="battery_image_description">在状态栏中显示电池图像</string>
+
 </resources> 
