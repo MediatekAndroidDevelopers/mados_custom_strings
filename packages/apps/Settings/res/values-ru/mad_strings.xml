@@ -914,4 +914,23 @@
    <string name="long_press_power_for_torch_title">Фонарик по кнопке питания</string>
    <string name="long_press_power_for_torch_summary">Долгое нажатие кнопки питания при выключенном экране включает фонарик</string>
 
+    <string name="battery_image">Иконка батареи</string>
+    <string name="battery_image_description">Показывать иконку батареи в строке состояния</string>
+
+
+    <!-- Lock screen visualizer -->
+    <string name="lockscreen_visualizer_title">Показывать музыкальный визуализатор</string>
+
+    <!-- Expanded desktop -->
+    <string name="expanded_desktop_title">Расширенный рабочий стол</string>
+    <string name="expanded_desktop_summary">Настройки строки состояния и навигационной панели для каждого приложения</string>
+    <string name="expanded_hide_nothing">Ничего не прятать</string>
+    <string name="expanded_hide_status">Спрятать строку состояния</string>
+    <string name="expanded_hide_navigation">Спрятать навигационную панель</string>
+    <string name="expanded_hide_both">Спрятать статусбар и нав.панель</string>
+    <string name="expanded_nothing_to_show">Для индивидуальной настройки конфигурации для приложений выключите настройку "Включено для всех"</string>
+    <string name="expanded_desktop_state">Расширенное состояние</string>
+    <string name="expanded_enabled_for_all">Включено для всех</string>
+    <string name="expanded_user_configurable">Настраивается пользователем</string>
+
 </resources>
