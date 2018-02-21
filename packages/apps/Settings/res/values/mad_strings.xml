@@ -917,13 +917,12 @@
     <string name="battery_image">Battery image</string>
     <string name="battery_image_description">Show battery image in status bar</string>
 
-
     <!-- Lock screen visualizer -->
     <string name="lockscreen_visualizer_title">Display music visualizer</string>
 
     <!-- Expanded desktop -->
     <string name="expanded_desktop_title">Expanded desktop</string>
-    <string name="expanded_desktop_summary">Per-app configuration of the status bar and navigation key view</string>
+    <string name="expanded_desktop_summary">Per-app configuration of the status bar and navigation bar view</string>
     <string name="expanded_hide_nothing">Hide nothing</string>
     <string name="expanded_hide_status">Hide status bar</string>
     <string name="expanded_hide_navigation">Hide navigation bar</string>
