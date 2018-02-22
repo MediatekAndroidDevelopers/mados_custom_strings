@@ -902,7 +902,6 @@
     <string name="battery_image">Εικόνα μπαταρίας</string>
     <string name="battery_image_description">Εμφάνισε την εικόνα μπαταρίας στην γραμμή κατάστασης</string>
 	
-	
     <!-- Lock screen visualizer -->
     <string name="lockscreen_visualizer_title">Εμφάνιση οπτικού εφέ μουσικής</string>
 	
