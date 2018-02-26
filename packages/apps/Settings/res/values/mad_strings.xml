@@ -949,4 +949,12 @@
     <string name="less_notification_sounds_2m">Every 2 minutes</string>
     <string name="less_notification_sounds_5m">Every 5 minutes</string>
 
+
+
+    <string name="behaviour_settings_title">General behaviour</string>
+    <string name="behaviour_settings_summary">Change scroll friction and fling velocity or default USB connection mode</string>
+    <string name="usb_configuration_settings_title">USB Configuration</string>
+    <string name="select_default_usb_configuration_title">Select default USB configuration</string>
+    <string name="default_usb_configuration" translatable="false" >default</string>
+    <string name="select_usb_default_confguration_warning">Default USB configuration is being ignored when device is locked by secure lockscreen.</string>
 </resources>
