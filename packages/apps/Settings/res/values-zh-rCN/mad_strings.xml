@@ -929,4 +929,29 @@
     <string name="expanded_enabled_for_all">全部启用</string>
     <string name="expanded_user_configurable">用户可配置</string>
 
+    <string name="expanded_desktop_style">扩展桌面样式</string>
+    <string name="expanded_desktop_style_description">选择一个默认的扩展桌面样式</string>
+
+    <!-- Less Notification sounds -->
+    <string name="less_notification_sounds_title">不太频繁的通知声音</string>
+    <string name="less_notification_sounds_summary">在设定的时间段内最多播放一次每个应用程序的通知声音</string>
+    <string name="less_notification_sounds_default">默认行为</string>
+    <string name="less_notification_sounds_3s">每3秒钟</string>
+    <string name="less_notification_sounds_5s">每5秒钟</string>
+    <string name="less_notification_sounds_10s">每10秒钟</string>
+    <string name="less_notification_sounds_15s">每15秒钟</string>
+    <string name="less_notification_sounds_30s">每30秒钟</string>
+    <string name="less_notification_sounds_45s">每45秒钟</string>
+    <string name="less_notification_sounds_1m">每1分钟</string>
+    <string name="less_notification_sounds_2m">每2分钟</string>
+    <string name="less_notification_sounds_5m">每5分钟</string>
+
+
+
+    <string name="behaviour_settings_title">一般行为</string>
+    <string name="behaviour_settings_summary">更改滚动摩擦和快速移动速度或默认的USB连接模式</string>
+    <string name="usb_configuration_settings_title">USB配置</string>
+    <string name="select_default_usb_configuration_title">选择默认的USB配置</string>
+    <string name="default_usb_configuration" translatable="false" >默认</string>
+    <string name="select_usb_default_confguration_warning">设备被安全锁屏锁定时，默认的USB配置被忽略。</string>
 </resources> 
