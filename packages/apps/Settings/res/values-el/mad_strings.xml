@@ -933,5 +933,13 @@
     <string name="less_notification_sounds_1m">Every 1 λεπτό</string>
     <string name="less_notification_sounds_2m">Every 2 λεπτά</string>
     <string name="less_notification_sounds_5m">Every 5 λεπτά</string>
-	
+	    
+	    
+	    
+    <string name="behaviour_settings_title">Γενική συμπεριφορά</string>
+    <string name="behaviour_settings_summary">Αλλάξτε την τριβή κύλισης και την ταχύτητα τροφοδοσίας ή την προεπιλεγμένη λειτουργία σύνδεσης USB</string>
+    <string name="usb_configuration_settings_title">Διαμόρφωση USB</string>
+    <string name="select_default_usb_configuration_title">Επιλέξτε προεπιλεγμένη διαμόρφωση USB</string>
+    <string name="default_usb_configuration" translatable="false" >Προκαθορισμένο</string>
+    <string name="select_usb_default_confguration_warning">Η προεπιλεγμένη ρύθμιση παραμέτρων USB αγνοείται όταν η συσκευή είναι κλειδωμένη από ασφαλές lockscreen.</string>	
 </resources>
