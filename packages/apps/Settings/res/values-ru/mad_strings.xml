@@ -917,7 +917,6 @@
     <string name="battery_image">Иконка батареи</string>
     <string name="battery_image_description">Показывать иконку батареи в строке состояния</string>
 
-
     <!-- Lock screen visualizer -->
     <string name="lockscreen_visualizer_title">Показывать музыкальный визуализатор</string>
 
@@ -933,4 +932,29 @@
     <string name="expanded_enabled_for_all">Включено для всех</string>
     <string name="expanded_user_configurable">Настраивается пользователем</string>
 
+    <string name="expanded_desktop_style">Стиль расширенного рабочего стола</string>
+    <string name="expanded_desktop_style_description">Выбрать стиль по умолчанию расширенного рабочего стола</string>
+
+    <!-- Less Notification sounds -->
+    <string name="less_notification_sounds_title">Менее частые звуки уведомлений</string>
+    <string name="less_notification_sounds_summary">Играть звуки уведомлений каждого приложения не более одного раза за установленный период времени</string>
+    <string name="less_notification_sounds_default">Поведение по умолчанию</string>
+    <string name="less_notification_sounds_3s">Каждые 3 сек.</string>
+    <string name="less_notification_sounds_5s">Каждые 5 сек.</string>
+    <string name="less_notification_sounds_10s">Каждые 10 сек.</string>
+    <string name="less_notification_sounds_15s">Каждые 15 сек.</string>
+    <string name="less_notification_sounds_30s">Каждые 30 сек.</string>
+    <string name="less_notification_sounds_45s">Каждые 45 сек.</string>
+    <string name="less_notification_sounds_1m">Каждую минуту</string>
+    <string name="less_notification_sounds_2m">Каждые 2 минуты</string>
+    <string name="less_notification_sounds_5m">Каждые 5 минут</string>
+
+
+
+    <string name="behaviour_settings_title">Общее поведение</string>
+    <string name="behaviour_settings_summary">Изменить трение и скорость прокрутки умолчательной настройки подключения USB</string>
+    <string name="usb_configuration_settings_title">Настройка USB</string>
+    <string name="select_default_usb_configuration_title">Выбрать настройку USB по умолчанию</string>
+    <string name="default_usb_configuration" translatable="false" >default</string>
+    <string name="select_usb_default_confguration_warning">Настройка USB по умолчанию будет проигнорирована если телефон заблокирован защищённым экраном блокировки.</string>
 </resources>
