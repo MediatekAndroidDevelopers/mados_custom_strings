@@ -914,4 +914,19 @@
     <string name="battery_image">电池图像</string>
     <string name="battery_image_description">在状态栏中显示电池图像</string>
 
+    <!-- Lock screen visualizer -->
+    <string name="lockscreen_visualizer_title">音乐可视化显示</string>
+
+    <!-- Expanded desktop -->
+    <string name="expanded_desktop_title">扩展桌面</string>
+    <string name="expanded_desktop_summary">每个应用程序配置状态栏和导航栏视图</string>
+    <string name="expanded_hide_nothing">什么都不隐藏</string>
+    <string name="expanded_hide_status">隐藏状态栏</string>
+    <string name="expanded_hide_navigation">隐藏导航栏</string>
+    <string name="expanded_hide_both">隐藏两者</string>
+    <string name="expanded_nothing_to_show">要自定义添加每个应用配置的扩展状态，请将“全部启用”设置为关闭状态</string>
+    <string name="expanded_desktop_state">扩展状态</string>
+    <string name="expanded_enabled_for_all">全部启用</string>
+    <string name="expanded_user_configurable">用户可配置</string>
+
 </resources> 

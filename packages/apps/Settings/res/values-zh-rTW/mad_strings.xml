@@ -914,4 +914,19 @@
     <string name="battery_image">電池圖像</string>
     <string name="battery_image_description">在狀態欄中顯示電池圖像</string>
 
+    <!-- Lock screen visualizer -->
+    <string name="lockscreen_visualizer_title">音樂視覺化顯示</string>
+
+    <!-- Expanded desktop -->
+    <string name="expanded_desktop_title">擴展桌面</string>
+    <string name="expanded_desktop_summary">每個應用程序配置狀態欄和導航欄視圖</string>
+    <string name="expanded_hide_nothing">什麼都不隱藏</string>
+    <string name="expanded_hide_status">隱藏狀態欄</string>
+    <string name="expanded_hide_navigation">隱藏導航欄</string>
+    <string name="expanded_hide_both">隱藏兩者</string>
+    <string name="expanded_nothing_to_show">要自定義添加每個應用配置的擴展狀態，請將“全部啟用”設置為關閉狀態</string>
+    <string name="expanded_desktop_state">擴展狀態</string>
+    <string name="expanded_enabled_for_all">全部啟用</string>
+    <string name="expanded_user_configurable">用戶可配置</string>
+
 </resources>
