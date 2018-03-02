@@ -171,4 +171,11 @@
     <string name="quick_settings_screenrecord_lq_label">屏幕录制 480p</string>
     <string name="quick_settings_screenrecord_mq_label">屏幕录制 720p</string>
     <string name="quick_settings_screenrecord_hq_label">屏幕录制 720p+</string>
+
+    <!-- Expanded desktop QS Tile -->
+    <string name="quick_settings_expanded_desktop_label">扩展桌面</string>
+    <string name="quick_settings_expanded_desktop">扩展</string>
+    <string name="quick_settings_expanded_desktop_off">正常</string>
+    <string name="quick_settings_expanded_navigation_off">隐藏导航栏</string>
+    <string name="quick_settings_expanded_statusbar_off">隐藏状态栏</string>
 </resources>
