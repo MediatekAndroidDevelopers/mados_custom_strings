@@ -957,4 +957,19 @@
     <string name="select_default_usb_configuration_title">Select default USB configuration</string>
     <string name="default_usb_configuration" translatable="false" >default</string>
     <string name="select_usb_default_confguration_warning">Default USB configuration is being ignored when device is locked by secure lockscreen.</string>
+
+    <string name="never_allow_new_usb_devices">Disallow new USB peripherals</string>
+    <string name="dynamically_allow_new_usb_devices">Allow new USB peripherals when unlocked</string>
+    <string name="always_allow_new_usb_devices" >Allow new USB peripherals</string>
+
+    <string name="background_access_title">Apps with background access</string>
+    <string name="background_access">Background access</string>
+    <string name="read_clipboard_background">Access clipboard in the background</string>
+    <string name="read_clipboard_background_empty_text">No installed apps have requested clipboard access.</string>
+    <string name="record_audio_background">Record audio in the background</string>
+    <string name="record_audio_background_empty_text">No installed apps have requested microphone access.</string>
+    <string name="other_sensors_background">Access sensors in the background</string>
+    <string name="other_sensors_background_empty_text">No installed apps have requested sensors access.</string>
+    <string name="access_location_background">Access location in the background</string>
+    <string name="access_location_background_empty_text">No installed apps have requested location access.</string>
 </resources>
