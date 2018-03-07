@@ -954,4 +954,19 @@
     <string name="select_default_usb_configuration_title">选择默认的USB配置</string>
     <string name="default_usb_configuration" translatable="false" >默认</string>
     <string name="select_usb_default_confguration_warning">设备被安全锁屏锁定时，默认的USB配置被忽略。</string>
+
+    <string name="never_allow_new_usb_devices">禁止新的USB外设</string>
+    <string name="dynamically_allow_new_usb_devices">解锁时允许新的USB外设</string>
+    <string name="always_allow_new_usb_devices" >允许新的USB外设</string>
+
+    <string name="background_access_title">具有后台访问权的应用</string>
+    <string name="background_access">后台访问</string>
+    <string name="read_clipboard_background">在后台访问剪贴板</string>
+    <string name="read_clipboard_background_empty_text">没有安装的应用程序请求剪贴板访问。</string>
+    <string name="record_audio_background">在后台录制音频</string>
+    <string name="record_audio_background_empty_text">没有安装应用程序请求麦克风访问。</string>
+    <string name="other_sensors_background">在后台访问传感器</string>
+    <string name="other_sensors_background_empty_text">没有安装应用程序请求传感器访问。</string>
+    <string name="access_location_background">在后台访问位置</string>
+    <string name="access_location_background_empty_text">没有安装的应用程序请求位置访问。</string>
 </resources> 
