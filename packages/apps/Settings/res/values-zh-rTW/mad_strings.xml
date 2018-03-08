@@ -624,19 +624,24 @@
     <string name="lockscreen_qs_disabled_summary">禁用安全鎖定屏幕上的快速設置</string>
  
     <!-- QS headers -->
-    <string name="qs_header_category">頭快速設置</string>
-    <string name="status_bar_custom_header_title">自定義頭圖片</string>
-    <string name="status_bar_custom_header_summary">啟用通知面板頭圖像</string>
-    <string name="daylight_header_pack_title">頭圖像包</string>
-    <string name="status_bar_custom_header_shadow_title">投影頭圖像</string>
-    <string name="status_bar_custom_header_shadow_summary">為了明亮圖像更好的可視性</string>
-    <string name="static_header_provider" translatable="false">静态</string>
-    <string name="daylight_header_provider" translatable="false">動態</string>
-    <string name="static_header_provider_title">靜態</string>
-    <string name="daylight_header_provider_title">動態</string>
-    <string name="custom_header_provider_title">頭提供者</string>
-    <string name="custom_header_browse_title">瀏覽已安裝的頭</string>
-    <string name="custom_header_browse_summary">長按任何圖像以用於靜態模式</string>
+    <string name="qs_header_category">快速设置标题</string>
+    <string name="status_bar_custom_header_title">自定義標題圖片</string>
+    <string name="status_bar_custom_header_summary">啟用通知面板標題圖像</string>
+    <string name="daylight_header_pack_title">標題圖像集合</string>
+    <string name="status_bar_custom_header_shadow_title">標題圖像陰影</string>
+    <string name="status_bar_custom_header_shadow_summary">為了明亮的圖像有更好的可視性</string>
+    <string name="static_header_provider" translatable="false">靜態</string>
+    <string name="daylight_header_provider" translatable="false">陽光</string>
+    <string name="static_header_provider_title">靜態圖像</string>
+    <string name="daylight_header_provider_title">圖像集</string>
+    <string name="custom_header_provider_title">標題提供者</string>
+
+    <string name="custom_header_pick_title">選擇標題圖像</string>
+    <string name="custom_header_pick_summary">選擇本地或遠程圖像</string>
+    <string name="file_header_select_title">選擇本地圖像</string>
+    <string name="file_header_select_summary">從存儲中選擇圖像</string>
+    <string name="file_header_provider_title">單個圖像</string>
+    <string name="file_header_provider" translatable="false">文件</string>
 
     <!-- Quicks settings vibrate -->
     <string name="quick_settings_vibrate_title">觸摸振動</string>
