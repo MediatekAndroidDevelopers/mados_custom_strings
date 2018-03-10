@@ -977,4 +977,14 @@
     <string name="other_sensors_background_empty_text">No installed apps have requested sensors access.</string>
     <string name="access_location_background">Access location in the background</string>
     <string name="access_location_background_empty_text">No installed apps have requested location access.</string>
+
+    <!-- Ambient display: Title & summary for ambient display hand wave (phone) [CHAR LIMIT=60]-->
+    <string name="ambient_display_hand_wave_title">Wave to check phone</string>
+    <string name="ambient_display_hand_wave_summary">To check time, notification icons, and other info, wave at your phone.</string>
+
+    <!-- Ambient Weather -->
+    <string name="ambient_weather_lockscreen_title">Ambient weather</string>
+    <string name="ambient_weather_lockscreen_summary">Show weather on the lockscreen while dozing</string>
+    <string name="ambient_weather_lockscreen_disabled_summary">General lockscreen weather already enabled from madOS settings</string>
+
 </resources>
