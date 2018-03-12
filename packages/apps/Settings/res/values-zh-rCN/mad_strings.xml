@@ -974,4 +974,13 @@
     <string name="other_sensors_background_empty_text">没有安装应用程序请求传感器访问。</string>
     <string name="access_location_background">在后台访问位置</string>
     <string name="access_location_background_empty_text">没有安装的应用程序请求位置访问。</string>
+
+    <!-- Ambient display: Title & summary for ambient display hand wave (phone) [CHAR LIMIT=60]-->
+    <string name="ambient_display_hand_wave_title">挥手检查电话</string>
+    <string name="ambient_display_hand_wave_summary">要查看时间，通知图标和其他信息，请在您的手机上挥手。</string>
+
+    <!-- Ambient Weather -->
+    <string name="ambient_weather_lockscreen_title">环境天气</string>
+    <string name="ambient_weather_lockscreen_summary">打瞌睡时在锁屏上显示天气</string>
+    <string name="ambient_weather_lockscreen_disabled_summary">已从madOS设置启用了通用锁屏天气</string>
 </resources> 
