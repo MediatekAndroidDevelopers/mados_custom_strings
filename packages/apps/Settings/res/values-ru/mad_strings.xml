@@ -632,11 +632,16 @@
     <string name="status_bar_custom_header_shadow_summary">Для лучшей видимости на светлых изображениях</string>
 
 
-    <string name="static_header_provider_title">Статичный</string>
-    <string name="daylight_header_provider_title">Динамический</string>
+    <string name="static_header_provider_title">Статичная картинка</string>
+    <string name="daylight_header_provider_title">Набор картинок</string>
     <string name="custom_header_provider_title">Поставщик заголовка</string>
-    <string name="custom_header_browse_title">Просмотр установленных заголовков</string>
-    <string name="custom_header_browse_summary">Долго нажмите любую картинку для использования в статичном режиме.</string>
+
+    <string name="custom_header_pick_title">Выбрать картинку заголовка</string>
+    <string name="custom_header_pick_summary">Выбрать локальную или картинку в сети</string>
+    <string name="file_header_select_title">Выбрать локальную картинку</string>
+    <string name="file_header_select_summary">Выбрать картинку из памяти</string>
+    <string name="file_header_provider_title">Одиочная картинка</string>
+    <string name="file_header_provider" translatable="false">file</string>
 
     <!-- Quicks settings vibrate -->
     <string name="quick_settings_vibrate_title">Вибрация при прикосновении</string>
@@ -957,4 +962,29 @@
     <string name="select_default_usb_configuration_title">Выбрать настройку USB по умолчанию</string>
     <string name="default_usb_configuration" translatable="false" >default</string>
     <string name="select_usb_default_confguration_warning">Настройка USB по умолчанию будет проигнорирована если телефон заблокирован защищённым экраном блокировки.</string>
+
+    <string name="never_allow_new_usb_devices">Запретить новые устройства USB</string>
+    <string name="dynamically_allow_new_usb_devices">Разрешить новые устрйоства USB в разблокированном состоянии</string>
+    <string name="always_allow_new_usb_devices" >Разрешить новые устрйоства USB</string>
+
+    <string name="background_access_title">Приложения с фоновым доступом</string>
+    <string name="background_access">Фоновый доступ</string>
+    <string name="read_clipboard_background">Доступ к буферу обмена в фоне</string>
+    <string name="read_clipboard_background_empty_text">Нет приложений с фоновым доступом к буферу обмена.</string>
+    <string name="record_audio_background">Запись звука в фоне</string>
+    <string name="record_audio_background_empty_text">Нет приложений с фоновым доступом к микрофону.</string>
+    <string name="other_sensors_background">Доступ к сеносорам в фоне</string>
+    <string name="other_sensors_background_empty_text">Нет приложений с фоновым доступом к сенсорам.</string>
+    <string name="access_location_background">Доступ к местоположению в фоне</string>
+    <string name="access_location_background_empty_text">Нет приложений с фоновым доступом к местоположению.</string>
+
+    <!-- Ambient display: Title & summary for ambient display hand wave (phone) [CHAR LIMIT=60]-->
+    <string name="ambient_display_hand_wave_title">Провести над телефоном для проверки</string>
+    <string name="ambient_display_hand_wave_summary">Проведите над телефоном для проверки времени, уведомлений и т.д.</string>
+
+    <!-- Ambient Weather -->
+    <string name="ambient_weather_lockscreen_title">Погода от AmbientWeather</string>
+    <string name="ambient_weather_lockscreen_summary">Показывать погоду на экране блокировки во время сна</string>
+    <string name="ambient_weather_lockscreen_disabled_summary">В настройках madOS уже включено отображение обычной погоды</string>
+
 </resources>
