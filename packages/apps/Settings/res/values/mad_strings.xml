@@ -627,16 +627,21 @@
     <string name="qs_header_category">Quick settings header</string>
     <string name="status_bar_custom_header_title">Custom header image</string>
     <string name="status_bar_custom_header_summary">Enable notification panel header image</string>
-    <string name="daylight_header_pack_title">Header image pack</string>
+    <string name="daylight_header_pack_title">Header image collection</string>
     <string name="status_bar_custom_header_shadow_title">Shadow header image</string>
     <string name="status_bar_custom_header_shadow_summary">For better visibility on bright images</string>
     <string name="static_header_provider" translatable="false">static</string>
     <string name="daylight_header_provider" translatable="false">daylight</string>
-    <string name="static_header_provider_title">Static</string>
-    <string name="daylight_header_provider_title">Dynamic</string>
+    <string name="static_header_provider_title">Static image</string>
+    <string name="daylight_header_provider_title">Image collection</string>
     <string name="custom_header_provider_title">Header provider</string>
-    <string name="custom_header_browse_title">Browse installed headers</string>
-    <string name="custom_header_browse_summary">Long press on any image to use for static mode</string>
+
+    <string name="custom_header_pick_title">Select header image</string>
+    <string name="custom_header_pick_summary">Select a local or remote image</string>
+    <string name="file_header_select_title">Select local image</string>
+    <string name="file_header_select_summary">Select image from storage</string>
+    <string name="file_header_provider_title">Single image</string>
+    <string name="file_header_provider" translatable="false">file</string>
 
     <!-- Quicks settings vibrate -->
     <string name="quick_settings_vibrate_title">Vibrate on touch</string>
@@ -957,4 +962,29 @@
     <string name="select_default_usb_configuration_title">Select default USB configuration</string>
     <string name="default_usb_configuration" translatable="false" >default</string>
     <string name="select_usb_default_confguration_warning">Default USB configuration is being ignored when device is locked by secure lockscreen.</string>
+
+    <string name="never_allow_new_usb_devices">Disallow new USB peripherals</string>
+    <string name="dynamically_allow_new_usb_devices">Allow new USB peripherals when unlocked</string>
+    <string name="always_allow_new_usb_devices" >Allow new USB peripherals</string>
+
+    <string name="background_access_title">Apps with background access</string>
+    <string name="background_access">Background access</string>
+    <string name="read_clipboard_background">Access clipboard in the background</string>
+    <string name="read_clipboard_background_empty_text">No installed apps have requested clipboard access.</string>
+    <string name="record_audio_background">Record audio in the background</string>
+    <string name="record_audio_background_empty_text">No installed apps have requested microphone access.</string>
+    <string name="other_sensors_background">Access sensors in the background</string>
+    <string name="other_sensors_background_empty_text">No installed apps have requested sensors access.</string>
+    <string name="access_location_background">Access location in the background</string>
+    <string name="access_location_background_empty_text">No installed apps have requested location access.</string>
+
+    <!-- Ambient display: Title & summary for ambient display hand wave (phone) [CHAR LIMIT=60]-->
+    <string name="ambient_display_hand_wave_title">Wave to check phone</string>
+    <string name="ambient_display_hand_wave_summary">To check time, notification icons, and other info, wave at your phone.</string>
+
+    <!-- Ambient Weather -->
+    <string name="ambient_weather_lockscreen_title">Ambient weather</string>
+    <string name="ambient_weather_lockscreen_summary">Show weather on the lockscreen while dozing</string>
+    <string name="ambient_weather_lockscreen_disabled_summary">General lockscreen weather already enabled from madOS settings</string>
+
 </resources>

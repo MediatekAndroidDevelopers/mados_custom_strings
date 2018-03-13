@@ -624,19 +624,24 @@
     <string name="lockscreen_qs_disabled_summary">禁用安全锁定屏幕上的快速设置</string>
  
     <!-- QS headers -->
-    <string name="qs_header_category">头快速设置</string>
-    <string name="status_bar_custom_header_title">自定义头图片</string>
-    <string name="status_bar_custom_header_summary">启用通知面板头图像</string>
-    <string name="daylight_header_pack_title">头图像包</string>
-    <string name="status_bar_custom_header_shadow_title">投影头图像</string>
-    <string name="status_bar_custom_header_shadow_summary">为了明亮图像更好的可视性</string>
+    <string name="qs_header_category">快速設置標題</string>
+    <string name="status_bar_custom_header_title">自定义标题图片</string>
+    <string name="status_bar_custom_header_summary">启用通知面板标题图像</string>
+    <string name="daylight_header_pack_title">标题图像集合</string>
+    <string name="status_bar_custom_header_shadow_title">标题图像阴影</string>
+    <string name="status_bar_custom_header_shadow_summary">为了明亮的图像有更好的可视性</string>
     <string name="static_header_provider" translatable="false">静态</string>
-    <string name="daylight_header_provider" translatable="false">动态</string>
-    <string name="static_header_provider_title">静态</string>
-    <string name="daylight_header_provider_title">动态</string>
-    <string name="custom_header_provider_title">头提供者</string>
-    <string name="custom_header_browse_title">浏览已安装的头</string>
-    <string name="custom_header_browse_summary">长按任何图像以用于静态模式</string>
+    <string name="daylight_header_provider" translatable="false">明亮</string>
+    <string name="static_header_provider_title">静态图像</string>
+    <string name="daylight_header_provider_title">图像集</string>
+    <string name="custom_header_provider_title">标题提供者</string>
+
+    <string name="custom_header_pick_title">选择标题图像</string>
+    <string name="custom_header_pick_summary">选择本地或远程图像</string>
+    <string name="file_header_select_title">选择本地图像</string>
+    <string name="file_header_select_summary">从存储中选择图像</string>
+    <string name="file_header_provider_title">单个图像</string>
+    <string name="file_header_provider" translatable="false">文件</string>
 
     <!-- Quicks settings vibrate -->
     <string name="quick_settings_vibrate_title">触摸振动</string>
@@ -929,4 +934,53 @@
     <string name="expanded_enabled_for_all">全部启用</string>
     <string name="expanded_user_configurable">用户可配置</string>
 
+    <string name="expanded_desktop_style">扩展桌面样式</string>
+    <string name="expanded_desktop_style_description">选择一个默认的扩展桌面样式</string>
+
+    <!-- Less Notification sounds -->
+    <string name="less_notification_sounds_title">不太频繁的通知声音</string>
+    <string name="less_notification_sounds_summary">在设定的时间段内最多播放一次每个应用程序的通知声音</string>
+    <string name="less_notification_sounds_default">默认行为</string>
+    <string name="less_notification_sounds_3s">每3秒钟</string>
+    <string name="less_notification_sounds_5s">每5秒钟</string>
+    <string name="less_notification_sounds_10s">每10秒钟</string>
+    <string name="less_notification_sounds_15s">每15秒钟</string>
+    <string name="less_notification_sounds_30s">每30秒钟</string>
+    <string name="less_notification_sounds_45s">每45秒钟</string>
+    <string name="less_notification_sounds_1m">每1分钟</string>
+    <string name="less_notification_sounds_2m">每2分钟</string>
+    <string name="less_notification_sounds_5m">每5分钟</string>
+
+
+
+    <string name="behaviour_settings_title">一般行为</string>
+    <string name="behaviour_settings_summary">更改滚动摩擦和快速移动速度或默认的USB连接模式</string>
+    <string name="usb_configuration_settings_title">USB配置</string>
+    <string name="select_default_usb_configuration_title">选择默认的USB配置</string>
+    <string name="default_usb_configuration" translatable="false" >默认</string>
+    <string name="select_usb_default_confguration_warning">设备被安全锁屏锁定时，默认的USB配置被忽略。</string>
+
+    <string name="never_allow_new_usb_devices">禁止新的USB外设</string>
+    <string name="dynamically_allow_new_usb_devices">解锁时允许新的USB外设</string>
+    <string name="always_allow_new_usb_devices" >允许新的USB外设</string>
+
+    <string name="background_access_title">具有后台访问权的应用</string>
+    <string name="background_access">后台访问</string>
+    <string name="read_clipboard_background">在后台访问剪贴板</string>
+    <string name="read_clipboard_background_empty_text">没有安装的应用程序请求剪贴板访问。</string>
+    <string name="record_audio_background">在后台录制音频</string>
+    <string name="record_audio_background_empty_text">没有安装应用程序请求麦克风访问。</string>
+    <string name="other_sensors_background">在后台访问传感器</string>
+    <string name="other_sensors_background_empty_text">没有安装应用程序请求传感器访问。</string>
+    <string name="access_location_background">在后台访问位置</string>
+    <string name="access_location_background_empty_text">没有安装的应用程序请求位置访问。</string>
+
+    <!-- Ambient display: Title & summary for ambient display hand wave (phone) [CHAR LIMIT=60]-->
+    <string name="ambient_display_hand_wave_title">挥手检查电话</string>
+    <string name="ambient_display_hand_wave_summary">要查看时间，通知图标和其他信息，请在您的手机上挥手。</string>
+
+    <!-- Ambient Weather -->
+    <string name="ambient_weather_lockscreen_title">环境天气</string>
+    <string name="ambient_weather_lockscreen_summary">打瞌睡时在锁屏上显示天气</string>
+    <string name="ambient_weather_lockscreen_disabled_summary">已从madOS设置启用了通用锁屏天气</string>
 </resources> 

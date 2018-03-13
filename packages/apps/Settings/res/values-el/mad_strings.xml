@@ -918,7 +918,7 @@
     <string name="expanded_user_configurable">Ρυθμίσεις χρήστη</string>
 	
     <string name="expanded_desktop_style">Στύλ διευρυμένης οθόνης</string>
-    <string name="expanded_desktop_style_description">Επιλογή προκαθορισμένου στύλ διευρυμένης οθόνη</string
+    <string name="expanded_desktop_style_description">Επιλογή προκαθορισμένου στύλ διευρυμένης οθόνη</string>
 	
     <!-- Less Notification sounds -->
     <string name="less_notification_sounds_title">Συχνότητα ήχου ειδοποίησης</string>
