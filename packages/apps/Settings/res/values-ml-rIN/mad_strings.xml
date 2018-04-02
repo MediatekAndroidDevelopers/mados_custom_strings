@@ -98,7 +98,6 @@
 
     <!-- for smartwake -->
     <string name="smartwake_settings_title">സമര്‍ത്ഥമായ ഉണരൽ</string>
-    <string name="smartwake_settings_summary">സമര്‍ത്ഥമായ ഉണരലിന്റെ മുദ്രകള്‍ നിയന്ത്രിക്കുക</string>
     <string name="smartwake_settings_category">സമര്‍ത്ഥമായ ഉണരൽ</string>
     <string name="smartwake_support_gestures">പിന്തുണ മുദ്രകള്‍</string>
     <string name="smartwake_settings_u_title">സ്ക്രീൻ സജീവമാക്കാൻ ഇരട്ട ഞെക്കൽ</string>
@@ -116,22 +115,16 @@
 
     <!-- Fast Charge -->
     <string name="fast_charge_title">വേഗതയേറിയ ഉത്തേജിപ്പിക്കൽ</string>
-    <string name="fast_charge_summary">വേഗതയേറിയ ഉത്തേജിപ്പിക്കലിന്റെ ക്രമീകരണങ്ങൾ മാറ്റുക</string>
     <string name="ac_charging_current_title">AC വൈദ്യുതി ഉത്തേജിപ്പിക്കുന്നു</string>
     <string name="usb_charging_current_title">USB-യിലെ വൈദ്യുതി ഉത്തേജിപ്പിക്കുന്നു</string>
     <string name="fast_charge_master">വേഗതയേറിയ ഉത്തേജിപ്പിക്കൽ പ്രാപ്തമാക്കുക</string>
     <string name="fast_charge_notification_title">വേഗതയേറിയ ഉത്തേജിപ്പിക്കലിന്റെ അറിയിപ്പുകള്‍ കാണിക്കുക</string>
     <string name="fast_charge_notification_summary">ഇത് വേഗതയേറിയ ഉത്തേജിപ്പിക്കലിന്റെ ക്രമീകരണങ്ങളിലേക്ക്  ഒരു  എളുപ്പവഴിയും കൂടെ അറിയിപ്പും സജ്ജമാക്കുന്നു</string>
 
-    <!-- Performance settings  -->
-    <string name="performance_settings_title">പ്രകടനം</string>
-    <string name="performance_settings_summary">നിയന്ത്രണ പ്രോസസ്സർ ഐ / ഒ ഷെഡ്യൂളർ ക്രമീകരണങ്ങൾ</string>
-
     <!-- Performance Settings : Processor Settings -->
     <!-- Performance Settings : Processor settings title -->
     <string name="processor_title"> പ്രോസസ്സർ</string>
     <!-- Performance Settings : Processor settings summary. -->
-    <string name="processor_summary">സിപിയു ഗവർണറും ക്ലോക്ക് സ്പീഡും മാറ്റുക</string>
 
     <!-- Performance Settings : Processor settings sub items -->
     <string name="cpu_cur_freq_title">നിലവിലെ സിപിയു ആവൃത്തി</string>
@@ -142,20 +135,12 @@
     <string name="cpu_max_freq_title">പരമാവധി സിപിയു ആവൃത്തി</string>
     <string name="cpu_max_freq_summary">%s</string>
 
-    <!-- Performance Settings : I/O scheduler settings title -->
-    <string name="io_scheds_title">ഐ / ഒ ഷെഡ്യൂളർ</string>
-    <!-- Performance Settings : I/O scheduler settings summary. -->
-    <string name="io_scheds_summary">ഐ / ഒ ഷെഡ്യൂളർ മാറ്റുക</string>
-
     <!-- Performance Settings : I/O scheduler settings sub items -->
     <string name="io_sched_title">ഐ / ഒ ഷെഡ്യൂളർ</string>
     <string name="io_sched_summary">%S</string>
 
     <!-- Sensor Calibration -->
     <string name="sensor_calibration_title">സെൻസർ ഒത്തുനോക്കൽ</string>
-    <string name="sensor_calibration_summary">ആക്സിലറോമീറ്റർ, ഗൈറോസ്കോപ്പ് എന്നിവയുടെ ക്രമീകരണങ്ങൾ</string>
-    <string name="sensor_calibration_summary_gsensor_only">ആക്സിലറോമീറ്റർ ക്രമീകരണങ്ങൾ</string>
-    <string name="sensor_calibration_summary_gyroscope_only">ഗൈറോസ്കോപ്പ് ക്രമീകരണങ്ങൾ</string>
     <string name="sensor_calibration_gsensor">ആക്സിലെറോമീറ്റർ ഒത്തുനോക്കൽ</string>
     <string name="sensor_calibration_gyroscope">ഗൈറോസ്കോപ്പ് ഒത്തുനോക്കൽ</string>
     <string name="sensor_calibration_do_20">ഒത്തുനോക്കുക (20% സഹിഷ്ണുത)</string>
@@ -252,7 +237,6 @@
     <!-- [CHAR LIMIT=NONE] App ops settings title, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
     <string name="app_ops_settings">ഹീര അപ്ലിക്കേഷൻ</string>
     <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
-    <string name="app_ops_settings_summary">അപ്ലിക്കേഷൻ അനുമതികൾ കാണുക അല്ലെങ്കിൽ മാറ്റം വരുത്തുക </string>
 
     <!-- Substratum -->
     <string name="substratum_title">അടിത്തട്ട്‌</string>
@@ -261,7 +245,6 @@
 
     <!-- Status bar -->
     <string name="status_bar_title">സ്റ്റാറ്റസ് ബാർ</string>
-    <string name="status_bar_summary">സ്റ്റാറ്റസ് ബാർ ലുക്കും സ്വഭാവവും പരിഷ്ക്കരിക്കുക</string>
 
     <string name="quick_pulldown_title">ദ്രുത വലിച്ചു താഴ്ത്തല്‍</string>
     <string name="quick_pulldown_summary">%1$s സ്റ്റാറ്റസ് ബാർ വായ്ത്തല ദ്രുത ക്രമീകരണങ്ങൾ വലിച്ചു താഴ്ത്തുന്നു</string>
@@ -273,7 +256,6 @@
 
     <!-- ScrollSettings -->
     <string name="scroll_settings_title">ചുരുൾ ക്രമീകരണങ്ങൾ</string>
-    <string name="scroll_settings_summary">ചുരുൾ ഘർഷണവും പ്രക്ഷേപ പ്രവേഗവും</string>
     <string name="scroll_enabled_switch_title">ചുരുൾ ക്രമീകരണങ്ങൾ (അ)പ്രായോഗികമാക്കുക </string>
     <string name="scroll_friction_title">ചുരുൾ ഘർഷണം</string>
     <string name="custom_fling_velocity_title">ചുരുൾ പ്രക്ഷേപ പ്രവേഗം</string>
@@ -296,7 +278,6 @@
     <!-- Navigation bar -->
     <string name="nav_bar_title">ഗതിനിയന്ത്രണ ബാർ</string>
     <string name="nav_bar_summary">ഗതിനിയന്ത്രണ ബാറിന്റെ ബട്ടണുകൾ പരിഷ്ക്കരിക്കുക</string>
-    <string name="nav_bar_category_summary">ഗതിനിയന്ത്രണ ബാറിന്റെ ലുക്കും സ്വഭാവവും പരിഷ്ക്കരിക്കുക</string>
     <string name="navbar_buttons_category_title">ഗതിനിയന്ത്രണ ബാറിന്റെ ബട്ടണുകൾ</string>
     <string name="navbar_behaviour_category_title">പൊതുവായ ഗതിനിയന്ത്രണ ബാറിന്റെ പെരുമാറ്റം</string>
 

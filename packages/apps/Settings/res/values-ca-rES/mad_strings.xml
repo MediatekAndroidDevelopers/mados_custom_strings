@@ -98,7 +98,6 @@
 
     <!-- for smartwake -->
     <string name="smartwake_settings_title">Despertar Intel·ligent</string>
-    <string name="smartwake_settings_summary">Control dels gestos de Despertar Intel·ligent</string>
     <string name="smartwake_settings_category">Despertar Intel·ligent</string>
     <string name="smartwake_support_gestures">Gestos de suport</string>
     <string name="smartwake_settings_u_title">Doble clic per despertar la pantalla</string>
@@ -116,22 +115,16 @@
 
     <!-- Fast Charge -->
     <string name="fast_charge_title">Càrrega ràpida</string>
-    <string name="fast_charge_summary">Canviar la configuració de la càrrega ràpida</string>
     <string name="ac_charging_current_title">Càrrega AC actual</string>
     <string name="usb_charging_current_title">Càrrega per USB actual</string>
     <string name="fast_charge_master">Activar càrrega ràpida</string>
     <string name="fast_charge_notification_title">Mostrar les notificacions de càrrega ràpida</string>
     <string name="fast_charge_notification_summary">Això activa una drecera a la configuració de la càrrega ràpida</string>
 
-    <!-- Performance settings  -->
-    <string name="performance_settings_title">Rendiment</string>
-    <string name="performance_settings_summary">Controla la configuració del processador i del Planificador d\'E/S</string>
-
     <!-- Performance Settings : Processor Settings -->
     <!-- Performance Settings : Processor settings title -->
     <string name="processor_title">Processador</string>
     <!-- Performance Settings : Processor settings summary. -->
-    <string name="processor_summary">Canviar el governador de la CPU i la velocitat de rellotge</string>
 
     <!-- Performance Settings : Processor settings sub items -->
     <string name="cpu_cur_freq_title">Freqüència de CPU actual</string>
@@ -142,20 +135,12 @@
     <string name="cpu_max_freq_title">Freqüència de CPU màxima</string>
     <string name="cpu_max_freq_summary">%s</string>
 
-    <!-- Performance Settings : I/O scheduler settings title -->
-    <string name="io_scheds_title">Planificador d\'E/S</string>
-    <!-- Performance Settings : I/O scheduler settings summary. -->
-    <string name="io_scheds_summary">Canviar el planificador d\'E/S</string>
-
     <!-- Performance Settings : I/O scheduler settings sub items -->
     <string name="io_sched_title">Planificador d\'E/S</string>
     <string name="io_sched_summary">%S</string>
 
     <!-- Sensor Calibration -->
     <string name="sensor_calibration_title">Calibració dels sensors</string>
-    <string name="sensor_calibration_summary">Configuració de l\'Acceleròmetre i del Giroscopi</string>
-    <string name="sensor_calibration_summary_gsensor_only">Configuració de l\'Acceleròmetre</string>
-    <string name="sensor_calibration_summary_gyroscope_only">Configuració del Giroscopi</string>
     <string name="sensor_calibration_gsensor">Calibració de l\'acceleròmetre</string>
     <string name="sensor_calibration_gyroscope">Calibració del giroscopi</string>
     <string name="sensor_calibration_do_20">Calibrar (tolerància del 20%)</string>
@@ -252,7 +237,6 @@
     <!-- [CHAR LIMIT=NONE] App ops settings title, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
     <string name="app_ops_settings">App ops</string>
     <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
-    <string name="app_ops_settings_summary">Veure o canviar els permisos de les aplicacions</string>
 
     <!-- Substratum -->
     <string name="substratum_title">Substratum</string>
@@ -261,7 +245,6 @@
 
     <!-- Status bar -->
     <string name="status_bar_title">Barra d\'estat</string>
-    <string name="status_bar_summary">Modificar l\'aparença i el comportament de la barra d\'estat</string>
 
     <string name="quick_pulldown_title">Desplegament ràpid</string>
     <string name="quick_pulldown_summary">%1$s vora de la barra d\'estat desplega els Ajustos ràpids</string>
@@ -273,7 +256,6 @@
 
     <!-- ScrollSettings -->
     <string name="scroll_settings_title">Ajustos de desplaçament</string>
-    <string name="scroll_settings_summary">Change friction and fling velocity</string>
     <string name="scroll_enabled_switch_title">(De)activate scroll settings</string>
     <string name="scroll_friction_title">Scroll friction</string>
     <string name="custom_fling_velocity_title">Scroll fling velocity</string>
@@ -295,7 +277,6 @@
     <!-- Navigation bar -->
     <string name="nav_bar_title">Barra de navegació</string>
     <string name="nav_bar_summary">Modifica els botons de la barra de navegació</string>
-    <string name="nav_bar_category_summary">Modifica l\'aparença i comportament de la barra de navegació</string>
     <string name="navbar_buttons_category_title">Botons de la barra de navegació</string>
     <string name="navbar_behaviour_category_title">Comportament general de la barra de navegació</string>
 

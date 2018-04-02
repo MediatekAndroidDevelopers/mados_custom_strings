@@ -105,7 +105,6 @@
 	
     <!-- for smartwake -->
     <string name="smartwake_settings_title">SmartWake</string>
-    <string name="smartwake_settings_summary">Controlar gestos del SmartWake</string>
     <string name="smartwake_settings_category">SmartWake</string>
     <string name="smartwake_support_gestures">Gestos Soportados</string>
     <string name="smartwake_settings_u_title">Doble toque para activar pantalla</string>
@@ -123,22 +122,16 @@
 
     <!-- Fast Charge -->
     <string name="fast_charge_title">Carga Rápida</string>
-    <string name="fast_charge_summary">Cambiar ajustes de Carga Rápida</string>
     <string name="ac_charging_current_title">Corriente actual CA</string>
     <string name="usb_charging_current_title">Corriente actual USB</string>
     <string name="fast_charge_master">Habilitar Carga Rápida</string>
     <string name="fast_charge_notification_title">Mostrar notificación de Carga Rápida</string>
     <string name="fast_charge_notification_summary">Ésto muestra una notificación a los ajustes de carga rápida</string>
 
-    <!-- Performance settings  -->
-    <string name="performance_settings_title">Rendimiento</string>
-    <string name="performance_settings_summary">Control del procesador y configuración del scheduler I/O</string>
-
     <!-- Performance Settings : Processor Settings -->
     <!-- Performance Settings : Processor settings title -->
     <string name="processor_title">Procesador</string>
     <!-- Performance Settings : Processor settings summary. -->
-    <string name="processor_summary">Cambiar governor de la CPU y la velocidad del reloj</string>
 
     <!-- Performance Settings : Processor settings sub items -->
     <string name="cpu_cur_freq_title">Frecuencia actual de la CPU</string>
@@ -149,20 +142,12 @@
     <string name="cpu_max_freq_title">Frecuencia máxima de la CPU</string>
     <string name="cpu_max_freq_summary">%s</string>
 
-    <!-- Performance Settings : I/O scheduler settings title -->
-    <string name="io_scheds_title">I/O scheduler</string>
-    <!-- Performance Settings : I/O scheduler settings summary. -->
-    <string name="io_scheds_summary">Cambiar I/O scheduler</string>
-
     <!-- Performance Settings : I/O scheduler settings sub items -->
     <string name="io_sched_title">I/O scheduler</string>
     <string name="io_sched_summary">%S</string>
 
     <!-- Sensor Calibration -->
     <string name="sensor_calibration_title">Calibración del Sensor</string>
-    <string name="sensor_calibration_summary">Ajustes para Acelerómetro y Giroscopio</string>
-    <string name="sensor_calibration_summary_gsensor_only">Ajustes para Acelerómetro</string>
-    <string name="sensor_calibration_summary_gyroscope_only">Ajustes para el Giroscopio</string>
     <string name="sensor_calibration_gsensor">Calibración del Acelerómetro</string>
     <string name="sensor_calibration_gyroscope">Calibración del Giroscopio</string>
     <string name="sensor_calibration_do_20">Hacer calibración (20% de tolerancia)</string>
@@ -260,7 +245,6 @@
     <!-- [CHAR LIMIT=NONE] App ops settings title, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
     <string name="app_ops_settings">Administrar aplicaciones</string>
     <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
-    <string name="app_ops_settings_summary">Modificar los permisos de las aplicaciónes</string>
 
     <!-- Substratum -->
     <string name="substratum_title">Substratum</string>
@@ -282,7 +266,6 @@
 
     <!-- Status bar -->
     <string name="status_bar_title">Barra de estado</string>
-    <string name="status_bar_summary">Modificar aspecto y comportamiento</string>
 
     <string name="quick_pulldown_title">Desplazamiento hacia abajo rápido</string>
     <string name="quick_pulldown_summary">Al arrastrar el borde %1$s de la barra de estado aparecen los ajustes rápidos</string>
@@ -294,7 +277,6 @@
 
     <!-- ScrollSettings -->
     <string name="scroll_settings_title">Ajustes de desplazamiento</string>
-    <string name="scroll_settings_summary">Cambiar la fricción y la velocidad</string>
     <string name="scroll_enabled_switch_title">Activar ajustes de desplazamiento</string>
     <string name="scroll_friction_title">Fricción de desplazamiento</string>
     <string name="custom_fling_velocity_title">Velocidad de desplazamiento</string>
@@ -313,7 +295,6 @@
     <!-- Navigation bar -->
     <string name="nav_bar_title">Barra de navegación</string>
     <string name="nav_bar_summary">Modificar botones de la barra de navegación</string>
-    <string name="nav_bar_category_summary">Modificar aspecto y comportamiento</string>
     <string name="navbar_buttons_category_title">Botones de la barra de navegación</string>
     <string name="navbar_behaviour_category_title">Comportamiento general</string>
 
@@ -474,7 +455,6 @@
 
     <!-- Scheduled power on/off -->
     <string name="scheduled_power_on_off_title">Programar encendido y apagado</string>
-    <string name="scheduled_power_on_off_summary">Ajustes para el encendido y apagado</string>
 
     <string name="scheduled_power_on">Encendido</string>
     <string name="scheduled_power_off">Apagado</string>
@@ -532,7 +512,6 @@
     <!-- Pie Control -->
     <string name="pie_control_title">PIE</string>
     <string name="pie_control_summary">Habilitar controles PIE</string>
-    <string name="pie_control_settings_summary">Personalizar diseño,tamaño y color PIE</string>
     <string name="pie_control_size">Tamaño de navegación</string>
     <string name="pie_control_trigger_positions">Opciones de lanzamiento</string>
     <string name="pie_control_trigger_left">Lanzar desde la borde izquierda</string>
@@ -601,7 +580,6 @@
 
     <!-- Quicks settings columns -->
     <string name="qs_panel_title">Panel de ajustes rápidos</string>
-    <string name="qs_panel_title_summary">Configurar los ajustes rápidos</string>
     <string name="qs_columns_title">Número de iconos por fila</string>
     <string name="qs_rows_portrait_title">Número de filas en posición vertical</string>
     <string name="qs_rows_landscape_title">Número de filas en posición horizontal</string>
@@ -632,7 +610,6 @@
     <string name="quick_settings_vibrate_summary">Vibrar al pulsar los iconos</string>
 
     <!-- Lockscreen -->
-    <string name="mad_lockscreen_settings_summary">Personalizaciones</string>
     <!-- Lockscreen items clock, date, alarm text -->
     <string name="lockscreen_items_settings_title">Elementos Pantalla de bloqueo</string>
     <string name="lockscreen_clock_title">Reloj Pantalla de bloqueo</string>
@@ -671,7 +648,6 @@
     <string name="lockscreen_battery_info_summary">Mostrar la corriente del cargador,el voltaje y temperatura de la batería en la pantalla de bloqueo durante la carga</string>
 	
     <!-- Slim Recents panel -->
-    <string name="mad_recents_summary">Personalizacion de Recientes</string>
     <string name="recents_title">Aplicaciones recientes</string>
     <string name="slim_recents_title">Recientes Slim </string>
     <string name="use_slim_recents_title">Utilizar una alternativa de Recientes</string>
@@ -745,7 +721,6 @@
 
     <!-- Buttons Misc -->
     <string name="mad_buttons_settings">Configurar botones</string>
-    <string name="mad_buttons_settings_summary">Configurar las acciones e iluminación.</string>
 
     <!-- Bluetooth status -->
     <string name="bluetooth_battery_title">Mostrar batería dispositivo Bluetooth</string>
@@ -793,7 +768,6 @@
 	
     <!-- Power Menu -->
     <string name="powermenu_title">Menú de apagado</string>
-    <string name="powermenu_settings_summary">Personalizar menú apagado</string>
     <string name="powermenu_screenshot">Captura</string>
     <string name="powermenu_torch">Linterna</string>
     <string name="powermenu_power">Apagar</string>

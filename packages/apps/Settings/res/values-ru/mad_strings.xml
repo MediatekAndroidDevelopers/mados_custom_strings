@@ -110,7 +110,6 @@
 
     <!-- for smartwake -->
     <string name="smartwake_settings_title">SmartWake</string>
-    <string name="smartwake_settings_summary">Управление жестами SmartWake</string>
     <string name="smartwake_settings_category">SmartWake</string>
     <string name="smartwake_support_gestures">Поддерживаемые жесты</string>
     <string name="smartwake_settings_u_title">Даблтап для включения экрана</string>
@@ -128,22 +127,16 @@
 
     <!-- Fast Charge -->
     <string name="fast_charge_title">Быстрая зарядка</string>
-    <string name="fast_charge_summary">Изменить настройки быстрой зарядки</string>
     <string name="ac_charging_current_title">Ток заряда от сети</string>
     <string name="usb_charging_current_title">Ток заряда от USB</string>
     <string name="fast_charge_master">Включить быструю зарядку</string>
     <string name="fast_charge_notification_title">Показывать уведомление быстрой зарядки</string>
     <string name="fast_charge_notification_summary">Включает уведомление с быстрым доступом к настройкам быстрой зарядки</string>
 
-    <!-- Performance settings  -->
-    <string name="performance_settings_title">Производительность</string>
-    <string name="performance_settings_summary">Управление процессором и планировщиком ввода/вывода</string>
-
     <!-- Performance Settings : Processor Settings -->
     <!-- Performance Settings : Processor settings title -->
     <string name="processor_title">Процессор</string>
     <!-- Performance Settings : Processor settings summary. -->
-    <string name="processor_summary">Сменить CPU governor и clock speed</string>
 
     <!-- Performance Settings : Processor settings sub items -->
     <string name="cpu_cur_freq_title">Текущая частота CPU</string>
@@ -154,20 +147,12 @@
     <string name="cpu_max_freq_title">Максимальная частота CPU</string>
     <string name="cpu_max_freq_summary">%s</string>
 
-    <!-- Performance Settings : I/O scheduler settings title -->
-    <string name="io_scheds_title">Планировщик ввода/вывода</string>
-    <!-- Performance Settings : I/O scheduler settings summary. -->
-    <string name="io_scheds_summary">Сменить планировщик ввода/вывода</string>
-
     <!-- Performance Settings : I/O scheduler settings sub items -->
     <string name="io_sched_title">Планировщик ввода/вывода</string>
     <string name="io_sched_summary">%S</string>
 
     <!-- Sensor Calibration -->
     <string name="sensor_calibration_title">Калибровка сенсоров</string>
-    <string name="sensor_calibration_summary">Настройка акселерометра и гироскопа</string>
-    <string name="sensor_calibration_summary_gsensor_only">Настройка акселерометра</string>
-    <string name="sensor_calibration_summary_gyroscope_only">Настройка гироскопа</string>
     <string name="sensor_calibration_gsensor">Калибровка акселерометра</string>
     <string name="sensor_calibration_gyroscope">Калибровка гироскопа</string>
     <string name="sensor_calibration_do_20">Калибровать (20% допуска)</string>
@@ -265,7 +250,6 @@
     <!-- [CHAR LIMIT=NONE] App ops settings title, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
     <string name="app_ops_settings">Управление</string>
     <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
-    <string name="app_ops_settings_summary">Посмотреть или настроить разрешения</string>
 
     <!-- Substratum -->
     <string name="substratum_title">Substratum</string>
@@ -287,7 +271,6 @@
 
     <!-- Status bar -->
     <string name="status_bar_title">Строка состояния</string>
-    <string name="status_bar_summary">Настроить внешний вид и поведение статусбара</string>
 
     <string name="quick_pulldown_title">Быстрое появление</string>
     <string name="quick_pulldown_summary">%1$s край статусбара открывает вниз быстрые настройки</string>
@@ -299,7 +282,6 @@
 
     <!-- ScrollSettings -->
     <string name="scroll_settings_title">Настройки прокрутки</string>
-    <string name="scroll_settings_summary">Изменение сопротивления и скорости броска</string>
     <string name="scroll_enabled_switch_title">(Де)активировать настройки прокрутки</string>
     <string name="scroll_friction_title">Сопротивление прокрутки</string>
     <string name="custom_fling_velocity_title">Скорость броска прокрутки</string>
@@ -322,7 +304,6 @@
     <!-- Navigation bar -->
     <string name="nav_bar_title">Панель навигации</string>
     <string name="nav_bar_summary">Настроить кнопки панели навигации</string>
-    <string name="nav_bar_category_summary">Настроить внешний вид и поведение навигационной панели</string>
     <string name="navbar_buttons_category_title">Кнопки навигационной панели</string>
     <string name="navbar_behaviour_category_title">Общее поведение навигационной панели</string>
 
@@ -483,7 +464,6 @@
 
     <!-- Scheduled power on/off -->
     <string name="scheduled_power_on_off_title">Включение и выключение по расписанию</string>
-    <string name="scheduled_power_on_off_summary">Настройки вкл./выкл. по расписанию</string>
 
     <string name="scheduled_power_on">Включение</string>
     <string name="scheduled_power_off">Выключение</string>
@@ -541,7 +521,6 @@
     <!-- Pie Control -->
     <string name="pie_control_title">PIE</string>
     <string name="pie_control_summary">Включить управление Pie</string>
-    <string name="pie_control_settings_summary">Настройки стиля, размера, цвета и целей Pie</string>
     <string name="pie_control_size">Размер навигации</string>
     <string name="pie_control_trigger_positions">Настройки запуска</string>
     <string name="pie_control_trigger_left">Запуск по левой границе экрана</string>
@@ -610,7 +589,6 @@
 
     <!-- Quicks settings columns -->
     <string name="qs_panel_title">Панель быстрых настроек</string>
-    <string name="qs_panel_title_summary">Настройки панели быстрых настроек</string>
     <string name="qs_columns_title">Количество плиток в столбце</string>
     <string name="qs_rows_portrait_title">Количество строк (вертикальная)</string>
     <string name="qs_rows_landscape_title">Количество строк (горизонтальная)</string>
@@ -651,7 +629,6 @@
     <string name="qs_alpha_title">Прозрачность фона быстрых настроек</string>
 
     <!-- Lockscreen -->
-    <string name="mad_lockscreen_settings_summary">Настройки экрана блокировки</string>
     <!-- Lockscreen items clock, date, alarm text -->
     <string name="lockscreen_items_settings_title">Элементы экрана блокировки</string>
     <string name="lockscreen_clock_title">Часы</string>
@@ -690,7 +667,6 @@
     <string name="lockscreen_battery_info_summary">Показывать в реальном времени силу тока, напряжение и температуру батареи на экране блокировки во время зарядки</string>
 
     <!-- Slim Recents panel -->
-    <string name="mad_recents_summary">Настройки недавних приложений</string>
     <string name="recents_title">Недавние приложения</string>
     <string name="slim_recents_title">Узкий вид недавних приложений</string>
     <string name="use_slim_recents_title">Использовать как альтернативу недавним</string>
@@ -789,7 +765,6 @@
 
     <!-- Buttons Misc -->
     <string name="mad_buttons_settings">Настройки кнопок</string>
-    <string name="mad_buttons_settings_summary">Настройки кнопок, где можно задать действия и многое другое</string>
 
     <!-- Bluetooth status -->
     <string name="bluetooth_battery_title">Статус батареи по Bluetooth</string>
@@ -837,7 +812,6 @@
 
     <!-- Power Menu -->
     <string name="powermenu_title">Меню выключения</string>
-    <string name="powermenu_settings_summary">Настройки меню выключения</string>
     <string name="powermenu_screenshot">Скриншот</string>
     <string name="powermenu_torch">Фонарик</string>
     <string name="powermenu_power">Выключение</string>
@@ -858,7 +832,6 @@
     <!-- Color engine -->
     <string name="theme_switch_palette">Переключение между основным и доп.цветом</string>
     <string name="theme_title">Движок цветов</string>
-    <string name="theme_summary">Выбрать цвета для текущей темы</string>
     <string name="theme_accent_color">Дополнительный цвет</string>
     <string name="theme_primary_color">Основной цвет</string>
     <string name="theme">Тема</string>
@@ -927,7 +900,6 @@
 
     <!-- Expanded desktop -->
     <string name="expanded_desktop_title">Расширенный рабочий стол</string>
-    <string name="expanded_desktop_summary">Настройки строки состояния и навигационной панели для каждого приложения</string>
     <string name="expanded_hide_nothing">Ничего не прятать</string>
     <string name="expanded_hide_status">Спрятать строку состояния</string>
     <string name="expanded_hide_navigation">Спрятать навигационную панель</string>
@@ -954,10 +926,7 @@
     <string name="less_notification_sounds_2m">Каждые 2 минуты</string>
     <string name="less_notification_sounds_5m">Каждые 5 минут</string>
 
-
-
     <string name="behaviour_settings_title">Общее поведение</string>
-    <string name="behaviour_settings_summary">Изменить трение и скорость прокрутки умолчательной настройки подключения USB</string>
     <string name="usb_configuration_settings_title">Настройка USB</string>
     <string name="select_default_usb_configuration_title">Выбрать настройку USB по умолчанию</string>
     <string name="default_usb_configuration" translatable="false" >default</string>

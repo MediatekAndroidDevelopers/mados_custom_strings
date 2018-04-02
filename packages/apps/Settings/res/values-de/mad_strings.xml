@@ -105,7 +105,7 @@
 
     <!-- Smartwake -->
     <string name="smartwake_settings_title">Intelligentes Aufwachen</string>
-    <string name="smartwake_settings_summary">Kontrolliere die Gesten</string>
+    <string name="smartwake_settings_summary">Doppeltippen, Gesten</string>
     <string name="smartwake_settings_category">Intelligentes Aufwachen</string>
     <string name="smartwake_support_gestures">Unterstützte Gesten</string>
     <string name="smartwake_settings_u_title">Doppelklick zum Einschalten des Bildschirms</string>
@@ -123,22 +123,18 @@
 
     <!-- Fast Charge -->
     <string name="fast_charge_title">Schnelles Aufladen</string>
-    <string name="fast_charge_summary">Ändere die Schnelllade-Einstellungen</string>
+    <string name="fast_charge_summary">Ladestormstärke</string>
     <string name="ac_charging_current_title">Netzstecker Ladestormstärke</string>
     <string name="usb_charging_current_title">USB Ladestormstärke</string>
     <string name="fast_charge_master">Aktivere Schnelllade-Funktion</string>
     <string name="fast_charge_notification_title">Zeige Schnelllade-Benachrichtigung</string>
     <string name="fast_charge_notification_summary">Dies aktiviert eine Benachrichtigung mit Schnellzugriff auf die Schnelllade-Einstellungen</string>
 
-     <!-- Performance settings  -->
-    <string name="performance_settings_title">Leistung</string>
-    <string name="performance_settings_summary">Kontrolliere Prozessor und I/O Scheduler Einstellungen</string>
-
     <!-- Performance Settings : Processor Settings -->
     <!-- Performance Settings : Processor settings title -->
     <string name="processor_title">Prozessor</string>
     <!-- Performance Settings : Processor settings summary. -->
-    <string name="processor_summary">Ändere den CPU Governor und die Frequenz</string>
+    <string name="processor_summary">CPU Governor, Frequenz</string>
 
     <!-- Performance Settings : Processor settings sub items -->
     <string name="cpu_cur_freq_title">Aktuelle CPU Frequenz</string>
@@ -149,20 +145,15 @@
     <string name="cpu_max_freq_title">Maximale CPU Frequenz</string>
     <string name="cpu_max_freq_summary">%s</string>
 
-    <!-- Performance Settings : I/O scheduler settings title -->
-    <string name="io_scheds_title">I/O Scheduler</string>
-    <!-- Performance Settings : I/O scheduler settings summary. -->
-    <string name="io_scheds_summary">Ändere den I/O Scheduler</string>
-
     <!-- Performance Settings : I/O scheduler settings sub items -->
     <string name="io_sched_title">I/O Scheduler</string>
     <string name="io_sched_summary">%S</string>
 
     <!-- Sensor Calibration -->
     <string name="sensor_calibration_title">Sensor Kalibrierung</string>
-    <string name="sensor_calibration_summary">Einstellungen für Gyroskop und Beschleunigungssensor</string>
-    <string name="sensor_calibration_summary_gsensor_only">Einstellungen für Beschleunigungssensor</string>
-    <string name="sensor_calibration_summary_gyroscope_only">Einstellungen für Gyroskop</string>
+    <string name="sensor_calibration_summary">Gyroskop und Beschleunigungssensor</string>
+    <string name="sensor_calibration_summary_gsensor_only">Beschleunigungssensor</string>
+    <string name="sensor_calibration_summary_gyroscope_only">Gyroskop</string>
     <string name="sensor_calibration_gsensor">Beschleunigungssensor kalibrieren</string>
     <string name="sensor_calibration_gyroscope">Gyroskop kalibrieren</string>
     <string name="sensor_calibration_do_20">Jetzt kalibrieren (20% Toleranz)</string>
@@ -201,13 +192,13 @@
     <!-- [CHAR LIMIT=NONE] App ops settings title, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
     <string name="app_ops_settings">App Berechtigungen</string>
     <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
-    <string name="app_ops_settings_summary">Betrachte oder ändere Berechtigungen von Apps</string>
+    <string name="app_ops_settings_summary">Standort, Persönlich, Nachrichten</string>
 
     <string name="sim_color_bar_title">SIM Signalanzeige einfärben</string>
 
     <!-- Status bar -->
     <string name="status_bar_title">Statusbar</string>
-    <string name="status_bar_summary">Statusbar Einstellungen</string>
+    <string name="status_bar_summary">Uhr, Netzwerkmonitor, Wetter</string>
 
     <string name="quick_pulldown_title">Schnelles Herunterziehen</string>
     <string name="quick_pulldown_summary">Schnelles Herunterziehen auf der %1$s Seite der Statusbar</string>
@@ -219,7 +210,6 @@
 
     <!-- ScrollSettings -->
     <string name="scroll_settings_title">Scrolloptionen</string>
-    <string name="scroll_settings_summary">Verzögerung und Scrollgeschwindigkeit ändern</string>
     <string name="scroll_enabled_switch_title">Scrolloptionen (de)aktivieren</string>
     <string name="scroll_friction_title">Scrollverzögerung</string>
     <string name="custom_fling_velocity_title">maximale Scrollgeschwindigkeit</string>
@@ -238,7 +228,7 @@
     <!-- Navigation bar -->
     <string name="nav_bar_title">Navigationsleiste</string>
     <string name="nav_bar_summary">Einstellungen für Navigationsleiste</string>
-    <string name="nav_bar_category_summary">Änderung des Aussehens und Verhaltens der Navigationsleiste</string>
+    <string name="nav_bar_category_summary">Tastenlayout, Bewegbare Hometaste, Verhalten</string>
     <string name="navbar_buttons_category_title">Tasten der Navigationsleiste</string>
     <string name="navbar_behaviour_category_title">Allgemeines Verhalten der Navigationsleiste</string>
 
@@ -376,7 +366,7 @@
 
     <!-- Scheduled power on/off -->
     <string name="scheduled_power_on_off_title">Automatisches Ein-/Ausschalten</string>
-    <string name="scheduled_power_on_off_summary">Automatisches Ein-/Ausschalten</string>
+    <string name="scheduled_power_on_off_summary">Ein-/Ausschaltzeit</string>
 
     <string name="scheduled_power_on">Einschaltzeit</string>
     <string name="scheduled_power_off">Ausschaltzeit</string>
@@ -457,7 +447,7 @@
     <!-- Pie Control -->
     <string name="pie_control_title">PIE</string>
     <string name="pie_control_summary">PIE aktivieren</string>
-    <string name="pie_control_settings_summary">Modifiziere PIE Tasten und Aussehen</string>
+    <string name="pie_control_settings_summary">Tasten, Design, Größe, Farbe</string>
     <string name="pie_control_size">PIE-Größe</string>
     <string name="pie_control_trigger_positions">Trigger-Optionen</string>
     <string name="pie_control_trigger_left">Trigger am linken Bildschirmrand</string>
@@ -526,7 +516,7 @@
 
     <!-- Quicks settings columns -->
     <string name="qs_panel_title">Schnelleinstellungen</string>
-    <string name="qs_panel_title_summary">Anpassen der Schnelleinstellungen</string>
+    <string name="qs_panel_title_summary">Aussehen, Kopfzeilenbild, Wetter</string>
     <string name="qs_columns_title">Anzahl der Kacheln pro Spalte</string>
     <string name="qs_rows_portrait_title">Anzahl der Zeilen (Hochformat)</string>
     <string name="qs_rows_landscape_title">Anzahl der Zeilen (Querformat)</string>
@@ -557,7 +547,7 @@
     <string name="quick_settings_vibrate_summary">Vibrieren beim Berühren der Kacheln</string>
 
     <!-- Lockscreen -->
-    <string name="mad_lockscreen_settings_summary">Sperrbildschirm-Optionen</string>
+    <string name="mad_lockscreen_settings_summary">Elemente, Infos, Medien-Cover</string>
     <!-- Lockscreen items clock, date, alarm text -->
     <string name="lockscreen_items_settings_title">Sperrbildschirm-Elemente</string>
     <string name="lockscreen_clock_title">Sperrbildschirm-Uhr</string>
@@ -593,7 +583,7 @@
     <string name="double_tap_sleep_anywhere_summary">Zweimal irgendwo auf dem Sperrbildschirm tippen, um das Gerät in den Ruhemodus zu versetzen</string>
 
     <!-- Slim Recents panel -->
-    <string name="mad_recents_summary">Appverlauf</string>
+    <string name="mad_recents_summary">Alle löschen, Slim Ansicht</string>
     <string name="recents_title">Anwendungsverlauf</string>
     <string name="slim_recents_title">Slim Anwendungsverlauf</string>
     <string name="use_slim_recents_title">Als Anwendungsverlauf verwenden</string>
@@ -664,7 +654,7 @@
 
     <!-- Buttons Misc -->
     <string name="mad_buttons_settings">Schaltflächen Optionen</string>
-    <string name="mad_buttons_settings_summary">Button-Optionen, wo Sie Aktionen und mehr setzen können</string>
+    <string name="mad_buttons_settings_summary">Home, Zurück, Zuletzt-verwendet, Beleuchtung</string>
 
     <!-- Bluetooth status -->
     <string name="bluetooth_battery_title">Zeige Bluetooth-Akku-Status</string>
@@ -711,7 +701,7 @@
 
     <!-- Power Menu -->
     <string name="powermenu_title">Ein/Aus-Menü</string>
-    <string name="powermenu_settings_summary">Ein/Aus-Menü-Optionen</string>
+    <string name="powermenu_settings_summary">Neustart, Bildschirmfoto, Flugmodus</string>
     <string name="powermenu_screenshot">Bildschirmfoto</string>
     <string name="powermenu_torch">Taschenlampe</string>
     <string name="powermenu_power">Aus</string>

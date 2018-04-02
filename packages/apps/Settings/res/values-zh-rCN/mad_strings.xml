@@ -110,7 +110,6 @@
 
     <!-- for smartwake -->
     <string name="smartwake_settings_title">智能唤醒</string>
-    <string name="smartwake_settings_summary">唤醒手势控制</string>
     <string name="smartwake_settings_category">智能唤醒</string>
     <string name="smartwake_support_gestures">支持手势</string>
     <string name="smartwake_settings_u_title">双击唤醒</string>
@@ -128,22 +127,16 @@
 
     <!-- Fast Charge -->
     <string name="fast_charge_title">快速充电</string>
-    <string name="fast_charge_summary">更改快速充电设置</string>
     <string name="ac_charging_current_title">AC 充电电流</string>
     <string name="usb_charging_current_title">USB 充电电流</string>
     <string name="fast_charge_master">启用快速充电</string>
     <string name="fast_charge_notification_title">显示快速充电通知</string>
     <string name="fast_charge_notification_summary">这将启用快速访问到快速充电设置的通知</string>
 
-    <!-- Performance settings  -->
-    <string name="performance_settings_title">性能</string>
-    <string name="performance_settings_summary">控制处理器和I/O调度设置</string>
-
     <!-- Performance Settings : Processor Settings -->
     <!-- Performance Settings : Processor settings title -->
     <string name="processor_title">处理器</string>
     <!-- Performance Settings : Processor settings summary. -->
-    <string name="processor_summary">更改CPU调速器和时钟频率</string>
 
     <!-- Performance Settings : Processor settings sub items -->
     <string name="cpu_cur_freq_title">当前CPU频率</string>
@@ -154,20 +147,12 @@
     <string name="cpu_max_freq_title">最大CPU频率</string>
     <string name="cpu_max_freq_summary">%s</string>
 
-    <!-- Performance Settings : I/O scheduler settings title -->
-    <string name="io_scheds_title">I/O调度器</string>
-    <!-- Performance Settings : I/O scheduler settings summary. -->
-    <string name="io_scheds_summary">更改I/O调度器</string>
-
     <!-- Performance Settings : I/O scheduler settings sub items -->
     <string name="io_sched_title">I/O调度器</string>
     <string name="io_sched_summary">%S</string>
 
     <!-- Sensor Calibration -->
     <string name="sensor_calibration_title">传感器校准</string>
-    <string name="sensor_calibration_summary">设置加速计和陀螺仪</string>
-    <string name="sensor_calibration_summary_gsensor_only">设置加速计</string>
-    <string name="sensor_calibration_summary_gyroscope_only">设置陀螺仪</string>
     <string name="sensor_calibration_gsensor">加速计校准</string>
     <string name="sensor_calibration_gyroscope">陀螺仪校准</string>
     <string name="sensor_calibration_do_20">校准（20%误差）</string>
@@ -265,7 +250,6 @@
     <!-- [CHAR LIMIT=NONE] App ops settings title, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
     <string name="app_ops_settings">权限管理</string>
     <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
-    <string name="app_ops_settings_summary">查看或更改应用权限</string>
 
     <!-- Substratum -->
     <string name="substratum_title">底层</string>
@@ -287,7 +271,6 @@
 
     <!-- Status bar -->
     <string name="status_bar_title">状态栏</string>
-    <string name="status_bar_summary">修改状态栏的外观和行为</string>
 
     <string name="quick_pulldown_title">快速下拉</string>
     <string name="quick_pulldown_summary">%1$s 状态栏快速下拉设置</string>
@@ -299,7 +282,6 @@
 
     <!-- ScrollSettings -->
     <string name="scroll_settings_title">滚动设置</string>
-    <string name="scroll_settings_summary">改变滚动摩擦和滚动速度</string>
     <string name="scroll_enabled_switch_title">激活滚动设置</string>
     <string name="scroll_friction_title">滚动摩擦</string>
     <string name="custom_fling_velocity_title">滚动速度</string>
@@ -322,7 +304,6 @@
     <!-- Navigation bar -->
     <string name="nav_bar_title">导航栏</string>
     <string name="nav_bar_summary">修改导航栏按钮</string>
-    <string name="nav_bar_category_summary">修改导航栏的外观和行为</string>
     <string name="navbar_buttons_category_title">导航栏按钮</string>
     <string name="navbar_behaviour_category_title">一般导航栏行为</string>
 
@@ -483,7 +464,6 @@
 
     <!-- Scheduled power on/off -->
     <string name="scheduled_power_on_off_title">定时开关机</string>
-    <string name="scheduled_power_on_off_summary">预设电源开/关设置</string>
 
     <string name="scheduled_power_on">开机</string>
     <string name="scheduled_power_off">关机</string>
@@ -541,7 +521,6 @@
     <!-- Pie Control -->
     <string name="pie_control_title">扇形控制</string>
     <string name="pie_control_summary">启用扇形控制</string>
-    <string name="pie_control_settings_summary">自定义扇形控制的对象，样式，大小和颜色</string>
     <string name="pie_control_size">导航尺寸</string>
     <string name="pie_control_trigger_positions">触发选项</string>
     <string name="pie_control_trigger_left">左屏幕边框触发</string>
@@ -610,7 +589,6 @@
 	
     <!-- Quicks settings columns -->
     <string name="qs_panel_title">快速设置面板</string>
-    <string name="qs_panel_title_summary">自定义快速设置</string>
     <string name="qs_columns_title">每行中的项目数量</string>
     <string name="qs_rows_portrait_title">每页行数</string>
     <string name="qs_rows_landscape_title">项目间距</string>
@@ -651,7 +629,6 @@
     <string name="qs_alpha_title">快速设置背景透明度</string>
 	
     <!-- Lockscreen -->
-    <string name="mad_lockscreen_settings_summary">自定义锁屏</string>
     <!-- Lockscreen items clock, date, alarm text -->
     <string name="lockscreen_items_settings_title">锁屏项目</string>
     <string name="lockscreen_clock_title">锁屏时钟</string>
@@ -690,7 +667,6 @@
     <string name="lockscreen_battery_info_summary">充电时在锁屏上显示实时充电器电流，电压和电池温度</string>
 
     <!-- Slim Recents panel -->
-    <string name="mad_recents_summary">近期定制</string>
     <string name="recents_title">近期用过的应用程序</string>
     <string name="slim_recents_title">微近期</string>
     <string name="use_slim_recents_title">用来激活近期的任务</string>
@@ -786,7 +762,6 @@
 
     <!-- Buttons Misc -->
     <string name="mad_buttons_settings">按键</string>
-    <string name="mad_buttons_settings_summary">按键，您可以在其中设置操作等</string>
 
     <!-- Bluetooth status -->
     <string name="bluetooth_battery_title">显示蓝牙电池状态</string>
@@ -834,7 +809,6 @@
 	
     <!-- Power Menu -->
     <string name="powermenu_title">电源菜单</string>
-    <string name="powermenu_settings_summary">自定义电源菜单</string>
     <string name="powermenu_screenshot">截屏</string>
     <string name="powermenu_torch">手电筒</string>	
     <string name="powermenu_power">电源</string>
@@ -855,7 +829,6 @@
     <!-- Color engine -->
     <string name="theme_switch_palette">原色调和强调色之间切换</string>
     <string name="theme_title">色彩引擎</string>
-    <string name="theme_summary">为您当前的主题选择不同的颜色</string>
     <string name="theme_accent_color">强调色</string>
     <string name="theme_primary_color">原色调</string>
     <string name="theme">主题</string>
@@ -924,7 +897,6 @@
 
     <!-- Expanded desktop -->
     <string name="expanded_desktop_title">扩展桌面</string>
-    <string name="expanded_desktop_summary">每个应用程序配置状态栏和导航栏视图</string>
     <string name="expanded_hide_nothing">什么都不隐藏</string>
     <string name="expanded_hide_status">隐藏状态栏</string>
     <string name="expanded_hide_navigation">隐藏导航栏</string>
@@ -951,10 +923,7 @@
     <string name="less_notification_sounds_2m">每2分钟</string>
     <string name="less_notification_sounds_5m">每5分钟</string>
 
-
-
     <string name="behaviour_settings_title">一般行为</string>
-    <string name="behaviour_settings_summary">更改滚动摩擦和快速移动速度或默认的USB连接模式</string>
     <string name="usb_configuration_settings_title">USB配置</string>
     <string name="select_default_usb_configuration_title">选择默认的USB配置</string>
     <string name="default_usb_configuration" translatable="false" >默认</string>
