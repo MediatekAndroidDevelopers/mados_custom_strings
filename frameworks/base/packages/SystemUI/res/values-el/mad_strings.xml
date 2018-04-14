@@ -172,10 +172,13 @@
     <string name="quick_settings_screenrecord_mq_label">Εγγραφή οθόνης 720p</string>
     <string name="quick_settings_screenrecord_hq_label">Εγγραφή οθόνης 720p+</string>
 	
-	<!-- Expanded desktop QS Tile -->
+    <!-- Expanded desktop QS Tile -->
     <string name="quick_settings_expanded_desktop_label">Διευρυμένη οθόνη </string>
     <string name="quick_settings_expanded_desktop">Διευρυμένη</string>
     <string name="quick_settings_expanded_desktop_off">Φυσιολογικό</string>
     <string name="quick_settings_expanded_navigation_off">Απόκρυψη γραμμής πλοήγησης</string>
     <string name="quick_settings_expanded_statusbar_off">Απόκρυψη γραμμής κατάστασης</string>
+	
+    <!-- The contents of the Ambient Weather result -->
+    <string name="ambient_weather_condition_information">%1$s, %2$s in %3$s</string>
 </resources>
