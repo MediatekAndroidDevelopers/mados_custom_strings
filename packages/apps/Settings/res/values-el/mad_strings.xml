@@ -618,15 +618,22 @@
     <string name="qs_header_category">Κεφαλίδα γρήγορων ρυθμίσεων</string>
     <string name="status_bar_custom_header_title">Προσαρμοσμένη εικόνα κεφαλίδας</string>
     <string name="status_bar_custom_header_summary">Ενεργοποιήστε την εικόνα κεφαλίδας στον πίνακα ειδοποιήσεων</string>
-    <string name="daylight_header_pack_title">Πακέτο εικόνας κεφαλίδας</string>
+    <string name="daylight_header_pack_title">Eικόνας κεφαλίδας συλογγή</string>
     <string name="status_bar_custom_header_shadow_title">Σκιά Εικόνας κεφαλίδας</string>
     <string name="status_bar_custom_header_shadow_summary">Για καλύτερη ορατότητα στις φωτεινές εικόνες</string>
-    <string name="static_header_provider_title">Στατικό</string>
-    <string name="daylight_header_provider_title">Δυναμικό</string>
+    <string name="static_header_provider_title">Στατική εικόνα</string>
+    <string name="daylight_header_provider_title">Συλλογή εικόνων</string>
     <string name="custom_header_provider_title">Προμηθευτής επικεφαλίδας</string>
     <string name="custom_header_browse_title">Περιηγηθείτε στις εγκατεστημένες κεφαλίδες</string>
     <string name="custom_header_browse_summary">Πατήστε παρατεταμένα οποιαδήποτε εικόνα θέλετε να χρησιμοποιήσετε για στατική λειτουργία</string>
 
+    <string name="custom_header_pick_title">Επιλέξτε εικόνα κεφαλίδας</string>
+    <string name="custom_header_pick_summary">Επιλέξτε μια τοπική ή απομακρυσμένη εικόνα</string>
+    <string name="file_header_select_title">Επιλέξτε τοπική εικόνα</string>
+    <string name="file_header_select_summary">Επιλέξτε εικόνα από την συλλογή</string>
+    <string name="file_header_provider_title">Ενιαία εικόνα</string>
+    <string name="file_header_provider" translatable="false">file</string>
+	
     <!-- Quicks settings vibrate -->
     <string name="quick_settings_vibrate_title">Δόνηση κατά το άγγιγμα</string>
     <string name="quick_settings_vibrate_summary">Δόνηση κατά το άγγιγμα των διακόπτων</string>
