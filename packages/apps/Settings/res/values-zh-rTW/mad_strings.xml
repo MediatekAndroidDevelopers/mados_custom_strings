@@ -102,7 +102,7 @@
     <string name="mad_settings_title">madOS附加功能</string>
     <!-- madOS extras-Categories -->
     <string name="mad_interface">界面</string>
-    <string name="mad_recents">近期</string>
+    <string name="mad_recents">最近</string>
     <string name="mad_buttons">按鍵</string>
     <string name="mad_system">系統</string>
     <string name="mad_security">安全</string>
@@ -110,7 +110,7 @@
 
     <!-- for smartwake -->
     <string name="smartwake_settings_title">智能喚醒</string>
-    <string name="smartwake_settings_summary">喚醒手勢控制</string>
+    <string name="smartwake_settings_summary">雙擊喚醒，手勢</string>
     <string name="smartwake_settings_category">智能喚醒</string>
     <string name="smartwake_support_gestures">支持手勢</string>
     <string name="smartwake_settings_u_title">雙擊喚醒</string>
@@ -128,22 +128,18 @@
 
     <!-- Fast Charge -->
     <string name="fast_charge_title">快速充電</string>
-    <string name="fast_charge_summary">更改快速充電設置</string>
+    <string name="fast_charge_summary">充電電流</string>
     <string name="ac_charging_current_title">AC 充電電流</string>
     <string name="usb_charging_current_title">USB 充電電流</string>
     <string name="fast_charge_master">啟用快速充電</string>
     <string name="fast_charge_notification_title">顯示快速充電通知</string>
     <string name="fast_charge_notification_summary">這將啟用快速訪問到快速充電設置的通知</string>
 
-    <!-- Performance settings -->
-    <string name="performance_settings_title">性能</string>
-    <string name="performance_settings_summary">控制處理器和I/O調度設置</string>
-
     <!-- Performance Settings : Processor Settings -->
     <!-- Performance Settings : Processor settings title -->
     <string name="processor_title">處理器</string>
     <!-- Performance Settings : Processor settings summary. -->
-    <string name="processor_summary">更改CPU調速器和時鐘頻率</string>
+    <string name="processor_summary">CPU調速器，時鐘速度</string>
 
     <!-- Performance Settings : Processor settings sub items -->
     <string name="cpu_cur_freq_title">當前CPU頻率</string>
@@ -154,21 +150,16 @@
     <string name="cpu_max_freq_title">最大CPU頻率</string>
     <string name="cpu_max_freq_summary">%s</string>
 
-    <!-- Performance Settings : I/O scheduler settings title -->
-    <string name="io_scheds_title">I/O調度器</string>
-    <!-- Performance Settings : I/O scheduler settings summary. -->
-    <string name="io_scheds_summary">更改I/O調度器</string>
-
     <!-- Performance Settings : I/O scheduler settings sub items -->
     <string name="io_sched_title">I/O調度器</string>
     <string name="io_sched_summary">%S</string>
 
     <!-- Sensor Calibration -->
     <string name="sensor_calibration_title">傳感器校準</string>
-    <string name="sensor_calibration_summary">設置加速計和陀螺儀</string>
-    <string name="sensor_calibration_summary_gsensor_only">設置加速計</string>
-    <string name="sensor_calibration_summary_gyroscope_only">設置陀螺儀</string>
-    <string name="sensor_calibration_gsensor">加速計校準</string>
+    <string name="sensor_calibration_summary">加速度計和陀螺儀</string>
+    <string name="sensor_calibration_summary_gsensor_only">加速度計</string>
+    <string name="sensor_calibration_summary_gyroscope_only">陀螺儀</string>
+    <string name="sensor_calibration_gsensor">加速度計校準</string>
     <string name="sensor_calibration_gyroscope">陀螺儀校準</string>
     <string name="sensor_calibration_do_20">校準（20%誤差）</string>
     <string name="sensor_calibration_do_40">校準（40%誤差）</string>
@@ -265,7 +256,7 @@
     <!-- [CHAR LIMIT=NONE] App ops settings title, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
     <string name="app_ops_settings">權限管理</string>
     <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
-    <string name="app_ops_settings_summary">查看或更改應用權限</string>
+    <string name="app_ops_settings_summary">位置，個人，消息</string>
 
     <!-- Substratum -->
     <string name="substratum_title">底層</string>
@@ -287,7 +278,7 @@
 
     <!-- Status bar -->
     <string name="status_bar_title">狀態欄</string>
-    <string name="status_bar_summary">修改狀態欄的外觀和行為</string>
+    <string name="status_bar_summary">時鐘，網絡流量，天氣</string>
 
     <string name="quick_pulldown_title">快速下拉</string>
     <string name="quick_pulldown_summary">%1$s 狀態欄快速下拉設置</string>
@@ -299,7 +290,6 @@
 
     <!-- ScrollSettings -->
     <string name="scroll_settings_title">滾動設置</string>
-    <string name="scroll_settings_summary">改變滾動摩擦和滾動速度</string>
     <string name="scroll_enabled_switch_title">激活滾動設置</string>
     <string name="scroll_friction_title">滾動摩擦</string>
     <string name="custom_fling_velocity_title">滾動速度</string>
@@ -322,7 +312,7 @@
     <!-- Navigation bar -->
     <string name="nav_bar_title">導航欄</string>
     <string name="nav_bar_summary">修改導航欄按鈕</string>
-    <string name="nav_bar_category_summary">修改導航欄的外觀和行為</string>
+    <string name="nav_bar_category_summary">按鈕佈局，滑動Home，行為</string>
     <string name="navbar_buttons_category_title">導航欄按鈕</string>
     <string name="navbar_behaviour_category_title">一般導航欄行為</string>
 
@@ -483,7 +473,7 @@
 
     <!-- Scheduled power on/off -->
     <string name="scheduled_power_on_off_title">定時開關機</string>
-    <string name="scheduled_power_on_off_summary">預設電源開/關設置</string>
+    <string name="scheduled_power_on_off_summary">打開和關閉時間</string>
 
     <string name="scheduled_power_on">開機</string>
     <string name="scheduled_power_off">關機</string>
@@ -541,7 +531,7 @@
     <!-- Pie Control -->
     <string name="pie_control_title">扇形控制</string>
     <string name="pie_control_summary">啟用扇形控制</string>
-    <string name="pie_control_settings_summary">自定義扇形控制的對象，樣式，大小和顏色</string>
+    <string name="pie_control_settings_summary">按鈕，樣式，大小，顏色</string>
     <string name="pie_control_size">導航尺寸</string>
     <string name="pie_control_trigger_positions">觸發選項</string>
     <string name="pie_control_trigger_left">左屏幕邊框觸發</string>
@@ -610,7 +600,7 @@
 
     <!-- Quicks settings columns -->
     <string name="qs_panel_title">快速設置面板</string>
-    <string name="qs_panel_title_summary">自定義快速設置</string>
+    <string name="qs_panel_title_summary">瓷磚，標題圖像，天氣</string>
     <string name="qs_columns_title">每行中的項目數量</string>
     <string name="qs_rows_portrait_title">每頁行數</string>
     <string name="qs_rows_landscape_title">項目間距</string>
@@ -651,7 +641,7 @@
     <string name="qs_alpha_title">快速設置背景透明度</string>
 
     <!-- Lockscreen -->
-    <string name="mad_lockscreen_settings_summary">自定義鎖屏</string>
+    <string name="mad_lockscreen_settings_summary">項目，信息，媒體封面</string>
     <!-- Lockscreen items clock, date, alarm text -->
     <string name="lockscreen_items_settings_title">鎖屏項目</string>
     <string name="lockscreen_clock_title">鎖屏時鐘</string>
@@ -690,27 +680,27 @@
     <string name="lockscreen_battery_info_summary">充電時在鎖屏上顯示實時充電器電流，電壓和電池溫度</string>
 
     <!-- Slim Recents panel -->
-    <string name="mad_recents_summary">近期定制</string>
-    <string name="recents_title">近期用過的應用程式</string>
-    <string name="slim_recents_title">微近期</string>
-    <string name="use_slim_recents_title">用來激活近期的任務</string>
-    <string name="use_slim_recents_summary">使用微近期，而不是默認的近期任務列表</string>
-    <string name="slim_recents_settings_title">微近期設置</string>
-    <string name="slim_recents_settings_summary">查看微近期的設置</string>
+    <string name="mad_recents_summary">清除所有，微最近</string>
+    <string name="recents_title">最近用過的應用程式</string>
+    <string name="slim_recents_title">微最近</string>
+    <string name="use_slim_recents_title">用來激活最近的任務</string>
+    <string name="use_slim_recents_summary">使用微最近，而不是默認的最近任務列表</string>
+    <string name="slim_recents_settings_title">微最近設置</string>
+    <string name="slim_recents_settings_summary">查看微最近的設置</string>
     <string name="show_running_tasks_title">只顯示正在運行的應用程式</string>
     <string name="recents_max_apps_title">最多允許應用</string>
     <string name="recent_panel_scale_title">尺寸</string>
     <string name="recent_panel_expanded_mode_title">展開模式</string>
-    <string name="recent_panel_expanded_mode_summary">近期的任務擴展預覽模式</string>
+    <string name="recent_panel_expanded_mode_summary">最近的任務擴展預覽模式</string>
     <string name="recent_panel_expanded_mode_auto">自動（默認）</string>
     <string name="recent_panel_expanded_mode_always">總是</string>
     <string name="recent_panel_expanded_mode_never">從不</string>
     <string name="recent_panel_show_topmost_title">顯示首要任務</string>
-    <string name="recent_panel_show_topmost_summary">不排除在近期查看的首要任務</string>
+    <string name="recent_panel_show_topmost_summary">不排除在最近查看的首要任務</string>
     <string name="recent_panel_bg_color_title">面板背景顏色</string>
     <string name="recent_card_bg_color_title">卡片背景顏色</string>
     <string name="recent_reset_title">重置為庫存顏色</string>
-    <string name="recent_reset_confirm">你確定要重置微近期的庫存顏色嗎？ </string>
+    <string name="recent_reset_confirm">你確定要重置微最近的庫存顏色嗎？ </string>
     <string name="default_auto_string">默認（基於應用程式）</string>
     <string name="recent_panel_lefty_mode_title">顯示在左邊</string>
     <string name="recent_panel_lefty_mode_summary">在左邊顯示最近的應用面板</string>
@@ -727,7 +717,7 @@
     <string name="slim_blacklist_add_apps_summary">點擊這裡添加，點擊添加的應用程序將其刪除。</string>
 
     <!-- Slim Recent App Sidebar  -->
-    <string name="recent_app_sidebar_title">近期應用側邊欄</string>
+    <string name="recent_app_sidebar_title">最近應用側邊欄</string>
     <string name="recent_app_sidebar_summary">在另一邊顯示應用快捷方式</string>
     <string name="use_recent_app_sidebar_title">啟用應用側邊欄</string>
     <string name="use_recent_app_sidebar_summary">在另一邊顯示應用快捷方式</string>
@@ -739,8 +729,8 @@
     <string name="recent_app_sidebar_label_color_title">標籤顏色</string>
     <string name="recent_app_sidebar_bg_color_title">背景顏色</string>
     <string name="recent_app_sidebar_scale_title">尺寸</string>
-    <string name="recent_app_sidebar_open_simultaneously_title">同時打開近期</string>
-    <string name="recent_app_sidebar_open_simultaneously_summary">通過禁用這個來減少近期的延遲</string>
+    <string name="recent_app_sidebar_open_simultaneously_title">同時打開最近</string>
+    <string name="recent_app_sidebar_open_simultaneously_summary">通過禁用這個來減少最近的延遲</string>
 
     <!-- Color picker -->
     <string name="dialog_color_picker">選色器</string>
@@ -754,7 +744,7 @@
     <string name="immersive_recents_navbar">導航欄</string>
 
     <!-- Recent clear all button and location -->
-    <string name="show_clear_all_recents_button_title">近期任務全清按鈕</string>
+    <string name="show_clear_all_recents_button_title">最近任務全清按鈕</string>
     <string name="show_clear_all_recents_button_summary_on">顯示新按鈕</string>
     <string name="show_clear_all_recents_button_summary_off">顯示AOSP按鈕</string>
     <string name="recents_clear_all_location_title">全清按鈕位置</string>
@@ -786,7 +776,7 @@
 
     <!-- Buttons Misc -->
     <string name="mad_buttons_settings">按鍵</string>
-    <string name="mad_buttons_settings_summary">按鍵，您可以在其中設置操作等</string>
+    <string name="mad_buttons_settings_summary">首頁，返回，最近，背光</string>
 
     <!-- Bluetooth status -->
     <string name="bluetooth_battery_title">顯示藍牙電池狀態</string>
@@ -834,17 +824,17 @@
 	
     <!-- Power Menu -->
     <string name="powermenu_title">電源菜單</string>
-    <string name="powermenu_settings_summary">自定義電源菜單</string>
+    <string name="powermenu_settings_summary">重啟，截屏，飛行</string>
     <string name="powermenu_screenshot">截屏</string>
-    <string name="powermenu_torch">手電筒</string>	
+    <string name="powermenu_torch">手電</string>	
     <string name="powermenu_power">電源</string>
     <string name="powermenu_reboot">重啟</string>
-    <string name="powermenu_airplane">飛行模式</string>
+    <string name="powermenu_airplane">飛行</string>
     <string name="powermenu_settings">設置</string>
     <string name="powermenu_lockdown">鎖定</string>
-    <string name="powermenu_soundpanel">聲音面板</string>
+    <string name="powermenu_soundpanel">聲音</string>
     <string name="powermenu_users">用戶</string>
-    <string name="powermenu_onthego">即時模式</string>
+    <string name="powermenu_onthego">即時</string>
 	
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">鎖屏時允許顯示電源菜單</string>
@@ -855,7 +845,7 @@
     <!-- Color engine -->
     <string name="theme_switch_palette">原色調和強調色之間切換</string>
     <string name="theme_title">色彩引擎</string>
-    <string name="theme_summary">為您當前的主題選擇不同的顏色</string>
+    <string name="theme_summary">主題，顏色</string>
     <string name="theme_accent_color">強調色</string>
     <string name="theme_primary_color">原色調</string>
     <string name="theme">主題</string>
@@ -924,7 +914,7 @@
 
     <!-- Expanded desktop -->
     <string name="expanded_desktop_title">擴展桌面</string>
-    <string name="expanded_desktop_summary">每個應用程序配置狀態欄和導航欄視圖</string>
+    <string name="expanded_desktop_summary">隱藏欄，每個應用程序的配置</string>
     <string name="expanded_hide_nothing">什麼都不隱藏</string>
     <string name="expanded_hide_status">隱藏狀態欄</string>
     <string name="expanded_hide_navigation">隱藏導航欄</string>
@@ -951,10 +941,8 @@
     <string name="less_notification_sounds_2m">每2分鐘</string>
     <string name="less_notification_sounds_5m">每5分鐘</string>
 
-
-
     <string name="behaviour_settings_title">一般行為</string>
-    <string name="behaviour_settings_summary">更改滾動摩擦和快速移動速度或默認的USB連接模式</string>
+    <string name="behaviour_settings_summary">滾動摩擦，USB配置</string>
     <string name="usb_configuration_settings_title">USB配置</string>
     <string name="select_default_usb_configuration_title">選擇默認的USB配置</string>
     <string name="default_usb_configuration" translatable="false" >默認</string>
@@ -983,4 +971,19 @@
     <string name="ambient_weather_lockscreen_title">環境天氣</string>
     <string name="ambient_weather_lockscreen_summary">打瞌睡時在鎖屏上顯示天氣</string>
     <string name="ambient_weather_lockscreen_disabled_summary">已從madOS設置啟用了通用鎖屏天氣</string>
+
+    <!-- Hardware -->
+    <string name="hardware_settings_title">硬件</string>
+    <string name="hardware_settings_summary">音量，傳感器校準，處理器</string>
+    <string name="hardware_disclaimer_title">放棄</string>
+    <string name="hardware_disclaimer_text">MAD團隊不對任何損害負責！\n這些設置中進行的更改需自擔風險！</string>
+
+    <!-- Audio Volume -->
+    <string name="audio_volume_title">音頻音量</string>
+    <string name="audio_volume_summary">揚聲器，耳機，耳機</string>
+    <string name="audio_max_earpiece_volume">最大聽筒音量</string>
+    <string name="audio_max_speaker_volume">最大揚聲器音量</string>
+    <string name="audio_max_headphone_volume">最大耳機音量</string>
+    <string name="audio_volume_info_text">需要重啟才能應用更改。\n\n更改會導致硬件損壞。</string>
+
 </resources>

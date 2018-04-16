@@ -98,7 +98,6 @@
 
     <!-- for smartwake -->
     <string name="smartwake_settings_title">SmartWake</string>
-    <string name="smartwake_settings_summary">Contrôle des gestes SmartWake</string>
     <string name="smartwake_settings_category">SmartWake</string>
     <string name="smartwake_support_gestures">Support des gestes</string>
     <string name="smartwake_settings_u_title">Double-clic pour réveiller le téléphone</string>
@@ -116,22 +115,16 @@
 
     <!-- Fast Charge -->
     <string name="fast_charge_title">Charge rapide</string>
-    <string name="fast_charge_summary">Changer les réglages de charge rapide</string>
     <string name="ac_charging_current_title">Rechargement secteur</string>
     <string name="usb_charging_current_title">Rechargement USB</string>
     <string name="fast_charge_master">Activer la charge rapide</string>
     <string name="fast_charge_notification_title">Afficher charge rapide dans les notifications</string>
     <string name="fast_charge_notification_summary">Cela permet une notification avec un accès rapide aux paramètres de la charge rapide</string>
 
-    <!-- Performance settings  -->
-    <string name="performance_settings_title">Performance</string>
-    <string name="performance_settings_summary">Réglage du gouverneur CPU et de l\'ordonnanceur d\'E/S </string>
-
     <!-- Performance Settings : Processor Settings -->
     <!-- Performance Settings : Processor settings title -->
     <string name="processor_title">Processeur</string>
     <!-- Performance Settings : Processor settings summary. -->
-    <string name="processor_summary">Modification du gouverneur CPU et de la vitesse d\'horloge</string>
 
     <!-- Performance Settings : Processor settings sub items -->
     <string name="cpu_cur_freq_title">Fréquence CPU actuelle</string>
@@ -142,20 +135,12 @@
     <string name="cpu_max_freq_title">Fréquence maximum du CPU</string>
     <string name="cpu_max_freq_summary">%s</string>
 
-    <!-- Performance Settings : I/O scheduler settings title -->
-    <string name="io_scheds_title">Ordonnanceur d\'E/S </string>
-    <!-- Performance Settings : I/O scheduler settings summary. -->
-    <string name="io_scheds_summary">Changer l\'ordonnanceur d\'E/S </string>
-
     <!-- Performance Settings : I/O scheduler settings sub items -->
     <string name="io_sched_title">Ordonnanceur d\'E/S </string>
     <string name="io_sched_summary">%S</string>
 
     <!-- Sensor Calibration -->
     <string name="sensor_calibration_title">Calibration capteur</string>
-    <string name="sensor_calibration_summary">Réglage de l\'accéléromètre et du gyroscope</string>
-    <string name="sensor_calibration_summary_gsensor_only">Réglage de l\'accéléromètre</string>
-    <string name="sensor_calibration_summary_gyroscope_only">Réglage du gyroscope</string>
     <string name="sensor_calibration_gsensor">Calibration de l\'accéléromètre</string>
     <string name="sensor_calibration_gyroscope">Calibration du gyroscope</string>
     <string name="sensor_calibration_do_20">Faire une calibration (20% tolérance)</string>
@@ -253,7 +238,6 @@
     <!-- [CHAR LIMIT=NONE] App ops settings title, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
     <string name="app_ops_settings">App ops</string>
     <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
-    <string name="app_ops_settings_summary">Afficher ou modifier les autorisations d\'application</string>
 
     <!-- Substratum -->
     <string name="substratum_title">Substratum</string>
@@ -275,7 +259,6 @@
 
     <!-- Status bar -->
     <string name="status_bar_title">Barre d\'état</string>
-    <string name="status_bar_summary">Modifier l\'apparence et le comportement de la barre d\'état</string>
 
     <string name="quick_pulldown_title">Descente rapide</string>
     <string name="quick_pulldown_summary">%1$s bord de la barre d\'état tire vers le bas des réglages rapides</string>
@@ -287,7 +270,6 @@
 
     <!-- ScrollSettings -->
     <string name="scroll_settings_title">Paramètres de défilement</string>
-    <string name="scroll_settings_summary">Changer la vitesse de friction et fling</string>
     <string name="scroll_enabled_switch_title">(Dés)activer les paramètres de défilement</string>
     <string name="scroll_friction_title">Friction de défilement</string>
     <string name="custom_fling_velocity_title">Vitesse de défilement</string>
@@ -306,7 +288,6 @@
     <!-- Navigation bar -->
     <string name="nav_bar_title">Barre de navigation</string>
     <string name="nav_bar_summary">Modifier les boutons de la barre de navigation</string>
-    <string name="nav_bar_category_summary">Modifier l\'apparence et le comportement de la barre de navigation</string>
     <string name="navbar_buttons_category_title">Boutons de la barre de navigation</string>
     <string name="navbar_behaviour_category_title">Comportement général de la barre de navigation</string>
 

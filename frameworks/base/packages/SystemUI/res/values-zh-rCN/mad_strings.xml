@@ -87,7 +87,7 @@
     <string name="recents_killapp_warning">长按杀死应用程序</string>
 
     <!-- Slim recents app sidebar queue app toast -->
-    <string name="toast_recents_queue_app">在关闭近期后启动 %s </string>
+    <string name="toast_recents_queue_app">在关闭最近后启动 %s </string>
     <string name="toast_recents_cancel_queued_app">取消应用程序启动</string>
 
 
@@ -178,4 +178,7 @@
     <string name="quick_settings_expanded_desktop_off">正常</string>
     <string name="quick_settings_expanded_navigation_off">隐藏导航栏</string>
     <string name="quick_settings_expanded_statusbar_off">隐藏状态栏</string>
+
+    <!-- The contents of the Ambient Weather result -->
+    <string name="ambient_weather_condition_information">%1$s, %2$s in %3$s</string>
 </resources>

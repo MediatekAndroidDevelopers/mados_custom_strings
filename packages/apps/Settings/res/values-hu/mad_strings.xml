@@ -109,7 +109,6 @@
 
     <!-- for smartwake -->
     <string name="smartwake_settings_title">Intelligens Ébresztés</string>
-    <string name="smartwake_settings_summary">Intelligens Ébresztés kézmozdulatok beállítása</string>
     <string name="smartwake_settings_category">Intelligens Ébresztés</string>
     <string name="smartwake_support_gestures">Kézmozdulatok támogatása</string>
     <string name="smartwake_settings_u_title">Dupla kattintás a felébresztéshez</string>
@@ -127,22 +126,16 @@
 
     <!-- Fast Charge -->
     <string name="fast_charge_title">Gyors Töltés</string>
-    <string name="fast_charge_summary">Gyors Töltés beállítások</string>
     <string name="ac_charging_current_title">Hálózati töltés</string>
     <string name="usb_charging_current_title">USB töltés</string>
     <string name="fast_charge_master">Gyors Töltés engedélyezés</string>
     <string name="fast_charge_notification_title">Gyors Töltés értesítések</string>
     <string name="fast_charge_notification_summary">Engedélyezi a Gyors Töltés beállítások értesítéseit</string>
 
-    <!-- Performance settings  -->
-    <string name="performance_settings_title">Teljesítmény</string>
-    <string name="performance_settings_summary">Processzor and I/O ütemező beállítások</string>
-
     <!-- Performance Settings : Processor Settings -->
     <!-- Performance Settings : Processor settings title -->
     <string name="processor_title">Processzor</string>
     <!-- Performance Settings : Processor settings summary. -->
-    <string name="processor_summary">CPU governor és órajel beállítások</string>
 
     <!-- Performance Settings : Processor settings sub items -->
     <string name="cpu_cur_freq_title">Aktuális CPU frekvencia</string>
@@ -153,20 +146,12 @@
     <string name="cpu_max_freq_title">Maximális CPU frekvencia</string>
     <string name="cpu_max_freq_summary">%s</string>
 
-    <!-- Performance Settings : I/O scheduler settings title -->
-    <string name="io_scheds_title">I/O ütemező</string>
-    <!-- Performance Settings : I/O scheduler settings summary. -->
-    <string name="io_scheds_summary">I/O ütemező beállítás</string>
-
     <!-- Performance Settings : I/O scheduler settings sub items -->
     <string name="io_sched_title">I/O ütemező</string>
     <string name="io_sched_summary">%S</string>
 
     <!-- Sensor Calibration -->
     <string name="sensor_calibration_title">Szenzor kalibráció</string>
-    <string name="sensor_calibration_summary">Gyorsulásmérő és giroszkóp beállítások</string>
-    <string name="sensor_calibration_summary_gsensor_only">Gyorsulásmérő beállításai</string>
-    <string name="sensor_calibration_summary_gyroscope_only">Giroszkóp beállításai</string>
     <string name="sensor_calibration_gsensor">Gyorsulásmérő kalibráció</string>
     <string name="sensor_calibration_gyroscope">Giroszkóp kalibráció</string>
     <string name="sensor_calibration_do_20">Kalibráció (20% tűrés)</string>
@@ -264,7 +249,6 @@
     <!-- [CHAR LIMIT=NONE] App ops settings title, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
     <string name="app_ops_settings">Alkalmazás műveletek</string>
     <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
-    <string name="app_ops_settings_summary">Alkalmazás engedélyek megtekintése és módosítása</string>
 
     <!-- Substratum -->
     <string name="substratum_title">Fedvények</string>
@@ -286,7 +270,6 @@
 
     <!-- Status bar -->
     <string name="status_bar_title">Értesítési sáv</string>
-    <string name="status_bar_summary">Értesítési sáv kinézetének és működésének módosítása</string>
 
     <string name="quick_pulldown_title">Gyors legördítés</string>
     <string name="quick_pulldown_summary">Gyors beállítások megjelenítése az értesítési sáv %1$s oldalán történő lehúzásakor</string>
@@ -298,7 +281,6 @@
 
     <!-- ScrollSettings -->
     <string name="scroll_settings_title">Görgetési beállítások</string>
-    <string name="scroll_settings_summary">Change friction and fling velocity</string>
     <string name="scroll_enabled_switch_title">Gördítési beállítások ki- és bekapcsolása</string>
     <string name="scroll_friction_title">Görgetési súrlódás</string>
     <string name="custom_fling_velocity_title">Hajítási sebesség</string>
@@ -317,7 +299,6 @@
     <!-- Navigation bar -->
     <string name="nav_bar_title">Navigációs sáv</string>
     <string name="nav_bar_summary">Navigációs sáv gombjainak módosítása</string>
-    <string name="nav_bar_category_summary">Navigációs sáv kinézetének és viselkedésének módosítása</string>
     <string name="navbar_buttons_category_title">Navigációs sáv gombok</string>
     <string name="navbar_behaviour_category_title">Általános navigációs sáv viselkedés</string>
 
@@ -478,7 +459,6 @@
 
     <!-- Scheduled power on/off -->
     <string name="scheduled_power_on_off_title">Be- és kikapcsolás ütemezése</string>
-    <string name="scheduled_power_on_off_summary">Be- és kikapcsolás ütemezésének beállításai</string>
 
     <string name="scheduled_power_on">Bekapcsolás</string>
     <string name="scheduled_power_off">Kikapcsolás</string>
@@ -536,7 +516,6 @@
     <!-- Pie Control -->
     <string name="pie_control_title">PIE</string>
     <string name="pie_control_summary">Pie vezérlők engedélyezése</string>
-    <string name="pie_control_settings_summary">Pie célok, stílus, méret és szín testreszabás</string>
     <string name="pie_control_size">Navigáció méret</string>
     <string name="pie_control_trigger_positions">Esemény beállítások</string>
     <string name="pie_control_trigger_left">Képernyő bal szegély eseménye</string>
@@ -605,7 +584,6 @@
 
     <!-- Quicks settings columns -->
     <string name="qs_panel_title">Gyorsbeállítások panel</string>
-    <string name="qs_panel_title_summary">Gyorsbeállítások testreszabás</string>
     <string name="qs_columns_title">Csempék száma az oszloponként</string>
     <string name="qs_rows_portrait_title">Sorok száma (álló)</string>
     <string name="qs_rows_landscape_title">Sorok száma (fekvő)</string>
@@ -638,7 +616,6 @@
     <string name="quick_settings_vibrate_summary">Csempék érintésekor rezeg</string>
 
     <!-- Lockscreen -->
-    <string name="mad_lockscreen_settings_summary">Zárképernyő testreszabás</string>
     <!-- Lockscreen items clock, date, alarm text -->
     <string name="lockscreen_items_settings_title">Zárképernyő elemek</string>
     <string name="lockscreen_clock_title">Zárképernyő óra</string>
@@ -677,7 +654,6 @@
     <string name="lockscreen_battery_info_summary">Töltőáram, feszültség és akkumulátor hőmérséklet valós idejű kijelzése a zárképernyőn töltés közben</string>
 
     <!-- Slim Recents panel -->
-    <string name="mad_recents_summary">Legutóbbi alkalmazások nézetének testreszabása</string>
     <string name="recents_title">Legutóbbi alkalmazások</string>
     <string name="slim_recents_title">Slim recents</string>
     <string name="use_slim_recents_title">Használata a legutóbbi alkalmazások nézetének alternatívájaként</string>
@@ -754,7 +730,6 @@
 
     <!-- Buttons Misc -->
     <string name="mad_buttons_settings">Gombok beállításai</string>
-    <string name="mad_buttons_settings_summary">Gomb beállítások, tevékenységek és egyebek beállításai</string>
 
     <!-- Bluetooth status -->
     <string name="bluetooth_battery_title">Bluetooth akkumulátor állapotának megjelenítése</string>
@@ -802,7 +777,6 @@
 
     <!-- Power Menu -->
     <string name="powermenu_title">Kikapcsoló menü</string>
-    <string name="powermenu_settings_summary">Kikapcsoló menü testreszabása</string>
     <string name="powermenu_screenshot">Képernyőmentés</string>
     <string name="powermenu_torch">Zseblámpa</string>
     <string name="powermenu_power">Kikapcsolás</string>
@@ -823,7 +797,6 @@
     <!-- Color engine -->
     <string name="theme_switch_palette">Váltás az elsődleges és a hangsúlyos szín között</string>
     <string name="theme_title">Szín motor</string>
-    <string name="theme_summary">Válassz különböző színeket az aktuális témához</string>
     <string name="theme_accent_color">Hangsúlyos szín</string>
     <string name="theme_primary_color">Elsődleges szín</string>
     <string name="theme">Téma</string>

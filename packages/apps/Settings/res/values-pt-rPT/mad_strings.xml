@@ -110,7 +110,6 @@
 
     <!-- for smartwake -->
     <string name="smartwake_settings_title">Despertar Inteligente</string>
-    <string name="smartwake_settings_summary">Controlar gestos de despertar inteligente</string>
     <string name="smartwake_settings_category">Despertar Inteligente</string>
     <string name="smartwake_support_gestures">Gestos suportados</string>
     <string name="smartwake_settings_u_title">Duplo toque no ecrã p/ acordar</string>
@@ -128,22 +127,16 @@
 
     <!-- Fast Charge -->
     <string name="fast_charge_title">Carregamento rápido</string>
-    <string name="fast_charge_summary">Alterar definições de carregamento rápido</string>
     <string name="ac_charging_current_title">Corrente de carregamento AC</string>
     <string name="usb_charging_current_title">Corrente de carregamento USB</string>
     <string name="fast_charge_master">Ativar o carregamento rápido</string>
     <string name="fast_charge_notification_title">Mostrar notificação de carregamento rápido</string>
     <string name="fast_charge_notification_summary">Ativa uma notificação com acesso direto às definições de carregamento rápido</string>
 
-    <!-- Performance settings  -->
-    <string name="performance_settings_title">Desempenho</string>
-    <string name="performance_settings_summary">Controlo do processador e das definições do programador I/O</string>
-
     <!-- Performance Settings : Processor Settings -->
     <!-- Performance Settings : Processor settings title -->
     <string name="processor_title">Processador</string>
     <!-- Performance Settings : Processor settings summary. -->
-    <string name="processor_summary">Alterar governador e velocidade do processador</string>
 
     <!-- Performance Settings : Processor settings sub items -->
     <string name="cpu_cur_freq_title">Frequência atual da CPU</string>
@@ -154,20 +147,12 @@
     <string name="cpu_max_freq_title">Frequência máxima da CPU</string>
     <string name="cpu_max_freq_summary">%s</string>
 
-    <!-- Performance Settings : I/O scheduler settings title -->
-    <string name="io_scheds_title">Programador I/O</string>
-    <!-- Performance Settings : I/O scheduler settings summary. -->
-    <string name="io_scheds_summary">Alterar programador I/O</string>
-
     <!-- Performance Settings : I/O scheduler settings sub items -->
     <string name="io_sched_title">Programador I/O</string>
     <string name="io_sched_summary">%S</string>
 
     <!-- Sensor Calibration -->
     <string name="sensor_calibration_title">Calibração de sensores</string>
-    <string name="sensor_calibration_summary">Definições do acelerómetro e giroscópio</string>
-    <string name="sensor_calibration_summary_gsensor_only">Definições do acelerómetro</string>
-    <string name="sensor_calibration_summary_gyroscope_only">Definições do giroscópio</string>
     <string name="sensor_calibration_gsensor">Calibração do acelerómetro</string>
     <string name="sensor_calibration_gyroscope">Calibração do giroscópio</string>
     <string name="sensor_calibration_do_20">Calibrar (tolerância de 20%)</string>
@@ -265,7 +250,6 @@
     <!-- [CHAR LIMIT=NONE] App ops settings title, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
     <string name="app_ops_settings">Operações das Aplicações</string>
     <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
-    <string name="app_ops_settings_summary">Ver ou mudar permissões das aplicações</string>
 
     <!-- Substratum -->
     <string name="substratum_title">Temas</string>
@@ -287,7 +271,6 @@
 
     <!-- Status bar -->
     <string name="status_bar_title">Barra de estado</string>
-    <string name="status_bar_summary">Modificar aparência e comportamento da barra de estado</string>
 
     <string name="quick_pulldown_title">Puxar para baixo rápido</string>
     <string name="quick_pulldown_summary">%1$s Abrir definições rápidas puxando através de um canto da barra de estado</string>
@@ -299,7 +282,6 @@
 
     <!-- ScrollSettings -->
     <string name="scroll_settings_title">Definições de deslocamento</string>
-    <string name="scroll_settings_summary">Alterar a fricção e a velocidade de deslocamento</string>
     <string name="scroll_enabled_switch_title">(Des)ativar definições de deslocamento</string>
     <string name="scroll_friction_title">Fricção de deslocamento</string>
     <string name="custom_fling_velocity_title">Velocidade de deslocamento</string>
@@ -318,7 +300,6 @@
     <!-- Navigation bar -->
     <string name="nav_bar_title">Barra de navegação</string>
     <string name="nav_bar_summary">Modificar botões da barra de navegação</string>
-    <string name="nav_bar_category_summary">Modificar aspeto e comportamento da barra de navegação</string>
     <string name="navbar_buttons_category_title">Botões da barra de navegação</string>
     <string name="navbar_behaviour_category_title">Comportamento geral da barra de navegação</string>
 
@@ -479,7 +460,6 @@
 
     <!-- Scheduled power on/off -->
     <string name="scheduled_power_on_off_title">Programar Desligar ligado &amp; desligado</string>
-    <string name="scheduled_power_on_off_summary">Opções para programação de energia ligado/desligado</string>
 
     <string name="scheduled_power_on">Ativar</string>
     <string name="scheduled_power_off">Desativar</string>
@@ -537,7 +517,6 @@
     <!-- Pie Control -->
     <string name="pie_control_title">PIE</string>
     <string name="pie_control_summary">Ativar os controlos PIE</string>
-    <string name="pie_control_settings_summary">Customizar alvos da Pie, estilo, tamanho e cor</string>
     <string name="pie_control_size">Tamanho da navegação</string>
     <string name="pie_control_trigger_positions">Opções de ativação</string>
     <string name="pie_control_trigger_left">Ativar no lado esquerdo do ecrã</string>
@@ -606,7 +585,6 @@
 
     <!-- Quicks settings columns -->
     <string name="qs_panel_title">Painel definições rápidas</string>
-    <string name="qs_panel_title_summary">Customização das definições rápidas</string>
     <string name="qs_columns_title">Colunas</string>
     <string name="qs_rows_portrait_title">Linhas (retrato)</string>
     <string name="qs_rows_landscape_title">Linhas (paisagem)</string>
@@ -637,7 +615,6 @@
     <string name="quick_settings_vibrate_summary">Vibrar ao tocar nos mosaicos das definições rápidas</string>
 
     <!-- Lockscreen -->
-    <string name="mad_lockscreen_settings_summary">Customização do ecrã de bloqueio</string>
     <!-- Lockscreen items clock, date, alarm text -->
     <string name="lockscreen_items_settings_title">Itens do ecrã de bloqueio</string>
     <string name="lockscreen_clock_title">Relógio no ecrã de bloqueio</string>
@@ -676,7 +653,6 @@
     <string name="lockscreen_battery_info_summary">Ao carregar, mostra a corrente do carregador em tempo real, a tensão e a temperatura da bateria no ecrã de bloqueio</string>
 
     <!-- Slim Recents panel -->
-    <string name="mad_recents_summary">Customização do modo recentes</string>
     <string name="recents_title">Recentes</string>
     <string name="slim_recents_title">Recentes Slim</string>
     <string name="use_slim_recents_title">Usar recentes Slim</string>
@@ -750,7 +726,6 @@
 
     <!-- Buttons Misc -->
     <string name="mad_buttons_settings">Opções de botões</string>
-    <string name="mad_buttons_settings_summary">Opções de botões, onde pode definir ações e mais</string>
 
     <!-- Bluetooth status -->
     <string name="bluetooth_battery_title">Mostrar o nível de bateria do dispositivo Bluetooth</string>
@@ -798,7 +773,6 @@
 
     <!-- Power Menu -->
     <string name="powermenu_title">Menu de energia</string>
-    <string name="powermenu_settings_summary">Customização do menu de energia</string>
     <string name="powermenu_screenshot">Captura de ecrã</string>
     <string name="powermenu_torch">Lanterna</string>
     <string name="powermenu_power">Desligar</string>
@@ -819,7 +793,6 @@
     <!-- Color engine -->
     <string name="theme_switch_palette">Alternar entre cores primária e destaque</string>
     <string name="theme_title">Sistema de cor</string>
-    <string name="theme_summary">Selecione diferentes cores para o seu tema atual</string>
     <string name="theme_accent_color">Cor de destaque</string>
     <string name="theme_primary_color">Cor primária</string>
     <string name="theme">Tema</string>
